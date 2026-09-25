@@ -1,26 +1,41 @@
+import type { Language } from "@/domain/i18n/copy";
 import type { Tool } from "@/domain/tools/types";
 
 const provenanceLabels = {
-  "client-created": "Your tool",
-  "therapist-curated": "Therapist",
-  "trusted-resource": "Trusted resource",
-  soothespot: "SootheSpot"
+  en: {
+    "client-created": "Your tool",
+    "therapist-curated": "Therapist",
+    "trusted-resource": "Trusted resource",
+    soothespot: "SootheSpot"
+  },
+  es: {
+    "client-created": "Tu herramienta",
+    "therapist-curated": "Terapeuta",
+    "trusted-resource": "Recurso confiable",
+    soothespot: "SootheSpot"
+  }
 } as const;
 
 export function ToolCard({
   tool,
   reason,
-  onOpen
+  onOpen,
+  language = "en"
 }: {
   tool: Tool;
   reason?: string;
   onOpen: (tool: Tool) => void;
+  language?: Language;
 }) {
   const icon =
     tool.category === "breathing" ? "◌" :
     tool.category === "grounding" ? "⌂" :
     tool.category === "movement" ? "↗" :
     tool.category === "journaling" ? "✎" : "♪";
+
+  const duration = tool.durationMinutes
+    ? language === "en" ? `${tool.durationMinutes} min` : `${tool.durationMinutes} min`
+    : language === "en" ? "Any time" : "En cualquier momento";
 
   return (
     <button className="tool-card" onClick={() => onOpen(tool)}>
@@ -32,7 +47,7 @@ export function ToolCard({
         </div>
         <span className="tool-description">{tool.description}</span>
         <span className="tool-meta">
-          {(tool.durationMinutes ? tool.durationMinutes + " min" : "Any time") + " · " + provenanceLabels[tool.provenance]}
+          {duration + " · " + provenanceLabels[language][tool.provenance]}
         </span>
         {reason && <span className="tool-reason">{reason}</span>}
       </div>
