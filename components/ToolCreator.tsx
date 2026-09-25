@@ -1,18 +1,53 @@
 "use client";
 
 import { useState } from "react";
+import type { Language } from "@/domain/i18n/copy";
 import type { CheckInState, Tool } from "@/domain/tools/types";
 import { createCustomTool } from "@/domain/tools/custom";
 
-const states: Array<{ id: CheckInState; label: string }> = [
-  { id: "off", label: "A bit off" },
-  { id: "overwhelmed", label: "Overwhelmed" },
-  { id: "anxious", label: "Anxious" },
-  { id: "sad", label: "Sad" },
-  { id: "angry", label: "Angry" }
-];
+const labels = {
+  en: {
+    eyebrow: "Your toolbox",
+    title: "Create a tool that is yours",
+    intro: "Capture something you already know helps you. SootheSpot does not decide whether it is clinically appropriate.",
+    name: "Tool name",
+    what: "What is it?",
+    category: "Category",
+    minutes: "Minutes",
+    steps: "Steps, one per line",
+    when: "When might it help?",
+    submit: "Add to My Toolbox",
+    error: "Add a title, description, at least one instruction, and one feeling this tool can help with.",
+    states: { off: "A bit off", overwhelmed: "Overwhelmed", anxious: "Anxious", sad: "Sad", angry: "Angry" }
+  },
+  es: {
+    eyebrow: "Tu caja de herramientas",
+    title: "Crea una herramienta que sea tuya",
+    intro: "Guarda algo que ya sabes que te ayuda. SootheSpot no decide si es clínicamente apropiado.",
+    name: "Nombre de la herramienta",
+    what: "¿Qué es?",
+    category: "Categoría",
+    minutes: "Minutos",
+    steps: "Pasos, uno por línea",
+    when: "¿Cuándo podría ayudarte?",
+    submit: "Añadir a mi caja de herramientas",
+    error: "Añade un nombre, una descripción, al menos un paso y una emoción o situación en la que pueda ayudarte.",
+    states: { off: "Algo no está bien", overwhelmed: "Abrumado/a", anxious: "Con ansiedad", sad: "Triste", angry: "Enojado/a" }
+  }
+} as const;
 
-export function ToolCreator({ onCreate, onClose }: { onCreate: (tool: Tool) => void; onClose: () => void }) {
+const states: CheckInState[] = ["off", "overwhelmed", "anxious", "sad", "angry"];
+
+export function ToolCreator({
+  onCreate,
+  onClose,
+  language
+}: {
+  onCreate: (tool: Tool) => void;
+  onClose: () => void;
+  language: Language;
+}) {
+  const t = labels[language];
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [category, setCategory] = useState("coping");
@@ -36,11 +71,11 @@ export function ToolCreator({ onCreate, onClose }: { onCreate: (tool: Tool) => v
         durationMinutes: duration ? Number(duration) : undefined,
         instructions: instructions.split("\n").map((line) => line.trim()).filter(Boolean),
         states: selectedStates,
-        languages: ["en"]
+        languages: [language]
       });
       onCreate(tool);
     } catch {
-      setError("Add a title, description, at least one instruction, and one feeling this tool can help with.");
+      setError(t.error);
     }
   }
 
@@ -48,25 +83,25 @@ export function ToolCreator({ onCreate, onClose }: { onCreate: (tool: Tool) => v
     <div className="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="create-tool-title">
       <div className="modal creator-modal">
         <button className="close-button" onClick={onClose} aria-label="Close">×</button>
-        <p className="eyebrow">Your toolbox</p>
-        <h2 id="create-tool-title">Create a tool that is yours</h2>
-        <p className="hero-copy">Capture something you already know helps you. SootheSpot does not decide whether it is clinically appropriate.</p>
+        <p className="eyebrow">{t.eyebrow}</p>
+        <h2 id="create-tool-title">{t.title}</h2>
+        <p className="hero-copy">{t.intro}</p>
 
         <div className="form-grid">
-          <label>Tool name<input value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Call a friend" /></label>
-          <label>What is it?<textarea value={description} onChange={(e) => setDescription(e.target.value)} placeholder="A short description" rows={3} /></label>
+          <label>{t.name}<input value={title} onChange={(e) => setTitle(e.target.value)} placeholder={language === "en" ? "Call a friend" : "Llamar a una amiga"} /></label>
+          <label>{t.what}<textarea value={description} onChange={(e) => setDescription(e.target.value)} placeholder={language === "en" ? "A short description" : "Una descripción breve"} rows={3} /></label>
           <div className="form-row">
-            <label>Category<input value={category} onChange={(e) => setCategory(e.target.value)} /></label>
-            <label>Minutes<input type="number" min="1" max="180" value={duration} onChange={(e) => setDuration(e.target.value)} placeholder="5" /></label>
+            <label>{t.category}<input value={category} onChange={(e) => setCategory(e.target.value)} /></label>
+            <label>{t.minutes}<input type="number" min="1" max="180" value={duration} onChange={(e) => setDuration(e.target.value)} placeholder="5" /></label>
           </div>
-          <label>Steps, one per line<textarea value={instructions} onChange={(e) => setInstructions(e.target.value)} rows={5} placeholder={"Put headphones on\nCall someone I trust\nStay connected for five minutes"} /></label>
+          <label>{t.steps}<textarea value={instructions} onChange={(e) => setInstructions(e.target.value)} rows={5} /></label>
           <fieldset>
-            <legend>When might it help?</legend>
+            <legend>{t.when}</legend>
             <div className="state-picker">
               {states.map((item) => (
-                <label key={item.id} className="state-chip">
-                  <input type="checkbox" checked={selectedStates.includes(item.id)} onChange={() => toggleState(item.id)} />
-                  {item.label}
+                <label key={item} className="state-chip">
+                  <input type="checkbox" checked={selectedStates.includes(item)} onChange={() => toggleState(item)} />
+                  {t.states[item as keyof typeof t.states]}
                 </label>
               ))}
             </div>
@@ -74,7 +109,7 @@ export function ToolCreator({ onCreate, onClose }: { onCreate: (tool: Tool) => v
         </div>
 
         {error && <p className="form-error" role="alert">{error}</p>}
-        <button className="primary-button" onClick={submit}>Add to My Toolbox</button>
+        <button className="primary-button" onClick={submit}>{t.submit}</button>
       </div>
     </div>
   );
