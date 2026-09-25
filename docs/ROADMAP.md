@@ -37,13 +37,15 @@
 - [ ] session-to-tool workflow
 
 ## Phase 3 - SootheSpot Worlds
+- [x] Initial interactive Worlds surface
+- [x] Three deterministic prototype experiences
 - [ ] ExperienceSpec
 - [ ] approved component library
 - [ ] World renderer
 - [ ] sandboxed iframe
 - [ ] audio/visual assets
 - [ ] save/favorite
-- [ ] reduced-motion mode
+- [x] reduced-motion mode
 - [ ] accessibility audit
 
 ## Phase 4 - SootheSpot Agent
