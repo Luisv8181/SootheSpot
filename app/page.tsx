@@ -194,9 +194,25 @@ export default function Home() {
               Your saved tools stay yours. SootheSpot keeps provenance visible.
             </p>
 
+            <div className="toolbox-actions">
+              <button className="primary-button compact-button" onClick={() => setShowToolCreator(true)}>Create a tool</button>
+              <input
+                className="search-input toolbox-search"
+                value={toolQuery}
+                onChange={(event) => setToolQuery(event.target.value)}
+                placeholder="Search your toolbox..."
+                aria-label="Search your toolbox"
+              />
+            </div>
+
             <div className="tool-list">
               {visibleSavedTools.map((tool) => (
-                <div key={tool.id} className="saved-tool-wrap">\n                  <ToolCard tool={tool} onOpen={setActiveTool} />\n                  {tool.provenance === "client-created" && tool.id.startsWith("custom-") && (\n                    <button className="delete-tool-button" onClick={() => deleteCustomTool(tool.id)}>Delete</button>\n                  )}\n                </div>
+                <div key={tool.id} className="saved-tool-wrap">
+                  <ToolCard tool={tool} onOpen={setActiveTool} />
+                  {tool.provenance === "client-created" && tool.id.startsWith("custom-") && (
+                    <button className="delete-tool-button" onClick={() => deleteCustomTool(tool.id)}>Delete</button>
+                  )}
+                </div>
               ))}
               {savedResources.map((resource) => (
                 <div className="saved-resource-row" key={resource.id}>
