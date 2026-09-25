@@ -1,22 +1,27 @@
+import { checkInCopy, type Language } from "@/domain/i18n/copy";
 import type { CheckInState } from "@/domain/tools/types";
 
-const options: Array<{ id: CheckInState; label: string; symbol: string }> = [
-  { id: "okay", label: "I'm okay", symbol: "●" },
-  { id: "off", label: "A bit off", symbol: "○" },
-  { id: "overwhelmed", label: "Overwhelmed", symbol: "◒" },
-  { id: "anxious", label: "Anxious", symbol: "△" },
-  { id: "sad", label: "Sad", symbol: "▽" },
-  { id: "angry", label: "Angry", symbol: "◇" },
-  { id: "support", label: "I need support", symbol: "♡" }
+const options: Array<{ id: CheckInState; symbol: string }> = [
+  { id: "okay", symbol: "●" },
+  { id: "off", symbol: "○" },
+  { id: "overwhelmed", symbol: "◒" },
+  { id: "anxious", symbol: "△" },
+  { id: "sad", symbol: "▽" },
+  { id: "angry", symbol: "◇" },
+  { id: "support", symbol: "♡" }
 ];
 
 export function CheckIn({
   value,
-  onChange
+  onChange,
+  language
 }: {
   value: CheckInState | null;
   onChange: (value: CheckInState) => void;
+  language: Language;
 }) {
+  const labels = checkInCopy[language];
+
   return (
     <div className="checkin-grid">
       {options.map((option) => (
@@ -27,7 +32,7 @@ export function CheckIn({
           aria-pressed={value === option.id}
         >
           <span className="checkin-symbol" aria-hidden="true">{option.symbol}</span>
-          <span>{option.label}</span>
+          <span>{labels[option.id]}</span>
         </button>
       ))}
     </div>
