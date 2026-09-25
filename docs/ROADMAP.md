@@ -14,10 +14,10 @@
 - [x] Tool model
 - [ ] Client-created tools
 - [x] provenance model
-- [ ] favorites
+- [x] favorites
 - [ ] tool usage
 - [x] helpfulness feedback
-- [ ] search/filter
+- [x] search/filter
 - [x] safety pathway
 - [x] mobile-first application shell
 - [x] browser-local prototype persistence
