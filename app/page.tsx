@@ -125,6 +125,7 @@ export default function Home() {
           <span className="brand-mark" aria-hidden="true">S</span>
           <span className="brand-name">SootheSpot</span>
         </div>
+        <span className="demo-badge" aria-label="Demo mode">Demo · private browser</span>
         <button
           className="language-toggle"
           onClick={() => setLanguage(language === "en" ? "es" : "en")}
@@ -176,6 +177,15 @@ export default function Home() {
                 )}
               </section>
             )}
+
+            <section className="featured-world">
+              <div>
+                <p className="eyebrow">A few quiet minutes</p>
+                <h2>Nothing to solve right now.</h2>
+                <p>Try a simple breathing experience and let your attention settle.</p>
+              </div>
+              <button className="featured-world-button" onClick={() => setActiveWorld(worlds[0])}>Open Ocean Calm</button>
+            </section>
 
             <section className="quick-section">
               <button className="quick-card" onClick={() => setTab("tools")}>
