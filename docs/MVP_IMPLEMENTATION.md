@@ -17,13 +17,16 @@ The prototype also exposes the Resource Registry as a searchable Resource Explor
 - The resource registry remains the source of truth for external-resource provenance and review status.
 - Language selection currently establishes retrieval/resource-language behavior; full UI localization is a subsequent implementation task.
 
+## Current prototype capabilities
+
+The Personal Toolbox now supports client-created tools, browser-local CRUD, favorites/saved state, and simple toolbox search. Custom tools are validated with Zod before they enter the local store.
+
 ## Next engineering slice
 
 1. Authentication
 2. PostgreSQL/Supabase persistence
-3. Client-created tool CRUD
-4. Tool usage records
-5. Permission model
-6. Full localization infrastructure
-7. Resource metadata filters for locale/region/accessibility/cultural adaptation
-8. End-to-end tests
+3. Tool usage records
+4. Permission model
+5. Full localization infrastructure
+6. Resource metadata filters for locale/region/accessibility/cultural adaptation
+7. End-to-end tests
