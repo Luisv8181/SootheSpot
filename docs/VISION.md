@@ -1,7 +1,6 @@
 # SootheSpot Product Vision
 
 ## The vision
-
 SootheSpot is a personal operating layer for emotional regulation.
 
 It is not intended to become another giant mental-health content platform, an AI therapist, a crisis-response service, or a diagnostic system.
@@ -11,6 +10,37 @@ The goal is simpler:
 > When someone is having a hard moment, help them quickly find something that may help, using tools they already trust, resources that already exist, and personalized experiences they can build over time.
 
 SootheSpot should make the useful part of mental-health self-management feel organized, calm, personal, and immediately accessible.
+
+## Core North Star: Context, Culture, Privacy, Agency
+
+Everything SootheSpot builds must be inherently:
+
+- **Context-adaptive:** understand the situation, environment, goals, constraints, preferences, prior experience, and what has helped before.
+- **Culturally responsive:** support language, culture, community, communication norms, lived experience, and locally relevant resources without reducing people to stereotypes or assuming one culture is represented by one profile.
+- **Privacy-preserving:** collect and expose the minimum necessary information, keep ownership and permissions explicit, and design for local/private processing where practical.
+- **Agency-preserving:** the person remains in control of what is used, saved, shared, personalized, or generated.
+
+These are architectural requirements, not optional personalization features.
+
+The system should ask:
+
+> **Context:** Does this make sense for what is happening to this person?
+>
+> **Culture:** Does this respect how this person communicates, understands, and experiences the world?
+>
+> **Privacy:** Does the system need this information, and who should have access to it?
+>
+> **Agency:** Is the person still in control?
+
+### Global by default
+
+SootheSpot is not a U.S.-only registry or care model.
+
+The Resource Registry, discovery system, tool model, localization architecture, and future agent should be designed for multiple countries, languages, cultures, health systems, legal environments, accessibility needs, and resource ecosystems.
+
+Country or language must never be treated as a proxy for culture. Cultural context should be represented through explicit source metadata, user preferences, clinician input when shared, and community-informed review where available.
+
+A U.S. resource can be useful to someone elsewhere, but it must not be presented as globally applicable without checking its geographic scope, access requirements, crisis pathways, terminology, and relevant limitations.
 
 ## The core idea
 
@@ -35,8 +65,6 @@ The system should progressively move from known, trusted tools toward personaliz
 AI is the enhancement layer, not the foundation.
 
 ## The core user loop
-
-The fundamental experience is:
 
 ```
 Hard moment
@@ -78,8 +106,12 @@ The Resource Registry can index:
 - mobile apps
 - clinician resources
 - accessibility resources
-- multilingual and culturally responsive resources
+- multilingual resources
+- culturally responsive and locally relevant resources
+- region-specific care and support resources
 - safety-planning resources
+
+The registry must preserve geographic and cultural scope rather than treating "available in English" or "available in the U.S." as universal defaults.
 
 SootheSpot normally stores metadata and provenance, then sends the user to the original resource.
 
@@ -101,6 +133,8 @@ It can contain:
 - trigger/context tags
 - preferred duration
 - helpfulness history
+- language and accessibility preferences
+- region-specific resources
 
 The toolbox should increasingly answer:
 
@@ -111,6 +145,8 @@ without pretending to diagnose the person.
 ## Therapist integration
 
 Therapists should be able to contribute without taking ownership of the client's private space.
+
+Therapists may work with culturally and contextually relevant tools while the client remains the authority on their own preferences and experience.
 
 A therapist may be able to:
 
@@ -139,6 +175,8 @@ Examples:
 - sleep wind-down
 - personalized audio/visual experience
 
+World generation should account for context, language, cultural preferences, accessibility, and user-selected boundaries. Cultural adaptation should be explicit and user-controlled rather than inferred from stereotypes.
+
 The important architectural principle is that the AI does not directly receive arbitrary permission to execute code.
 
 Instead:
@@ -148,7 +186,7 @@ User intent
     ↓
 Structured intent
     ↓
-Safety/content validation
+Context + cultural + safety validation
     ↓
 Approved component palette
     ↓
@@ -183,24 +221,18 @@ The agent could reason over:
 - available SootheSpot Worlds
 - preferences
 - past helpfulness
+- language and accessibility preferences
+- relevant geographic/resource availability metadata
 
 It might respond with several transparent options rather than one authoritative answer.
 
-For example:
-
-> "You saved this grounding exercise before and marked it helpful."
->
-> "You also have a five-minute mindfulness resource."
->
-> "I can make you a short visual grounding World if you'd like."
-
 The agent should organize choices, not impersonate a clinician.
+
+It should never silently infer culture from a demographic label, nationality, language, or location and treat that inference as fact.
 
 ## Safety architecture
 
 Safety remains separate from generative reasoning.
-
-The system should distinguish:
 
 ```
 Everyday distress
@@ -211,8 +243,10 @@ Explicit safety concern
     ↓
 Deterministic safety pathway
     ↓
-Safety plan / trusted support / appropriate crisis or emergency resources
+Safety plan / trusted support / appropriate local crisis or emergency resources
 ```
+
+Safety resources should be region-aware. Crisis and emergency information must be tied to the user's selected or explicitly confirmed region when location-specific routing is required.
 
 An LLM should not be the final authority for determining whether someone is in immediate danger.
 
@@ -233,6 +267,8 @@ Build:
 - helpfulness feedback
 - basic deterministic matching
 - safety pathway
+- localization foundations
+- resource geography and cultural-context metadata
 
 Success condition:
 
@@ -249,11 +285,13 @@ Add:
 - regional resources
 - accessibility metadata
 - multilingual resources
+- culturally responsive resources
+- community-informed review workflows
 - better personalization
 
 Success condition:
 
-SootheSpot becomes the organized home for the tools surrounding a person's coping process.
+SootheSpot becomes the organized home for the tools surrounding a person's coping process across different contexts and communities.
 
 ### Stage 3: SootheSpot Worlds
 
@@ -266,11 +304,13 @@ Build:
 - audio/visual asset system
 - reduced-motion mode
 - accessibility controls
+- localization
+- cultural adaptation controls
 - saved Worlds
 
 Success condition:
 
-A user can turn a coping intention into a safe, personalized interactive experience.
+A user can turn a coping intention into a safe, personalized interactive experience that fits their context and preferences.
 
 ### Stage 4: SootheSpot Agent
 
@@ -284,6 +324,8 @@ Build:
 - preview/edit/regenerate
 - agent evaluation suite
 - provenance-preserving responses
+- context-aware and culturally responsive retrieval
+- privacy/least-privilege controls
 
 Success condition:
 
@@ -316,8 +358,9 @@ SootheSpot should avoid becoming:
 - a social-media-style engagement system
 - a streak/gamification system that pressures vulnerable users
 - a marketplace that ranks mental-health products by opaque scores
+- a system that treats language, nationality, ethnicity, or location as a shortcut for culture
 
-The product should optimize for usefulness, agency, privacy, and calm.
+The product should optimize for usefulness, agency, privacy, context, and cultural responsiveness.
 
 ## The strategic thesis
 
@@ -338,6 +381,12 @@ Therapist guidance
         +
 Interactive experiences
         +
+Context
+        +
+Culture
+        +
+Privacy
+        +
 Carefully bounded AI
         ↓
 One calm personal toolbox
@@ -349,15 +398,18 @@ It is to build the layer that helps a person navigate what already exists and re
 
 ## Architectural north star
 
-Every major feature should answer five questions:
+Every major feature should answer these questions:
 
 1. Does this help the user reach something useful faster?
 2. Does the user remain in control?
 3. Is the provenance of the content clear?
 4. Is the safety boundary explicit?
-5. Would the product still be useful if the AI disappeared?
+5. Is the context represented accurately?
+6. Is cultural adaptation explicit, respectful, and non-stereotyping?
+7. Is only the minimum necessary information being collected or shared?
+8. Would the product still be useful if the AI disappeared?
 
-If the answer to the fifth question is no, the architecture has probably become too dependent on AI.
+If the answer to the last question is no, the architecture has probably become too dependent on AI.
 
 ## Near-term build order
 
@@ -393,4 +445,4 @@ SootheSpot should feel less like talking to an AI and more like opening a person
 
 The intelligence is what makes that drawer increasingly organized.
 
-The person remains the owner of what goes inside.
+The person remains the owner of what goes inside, and the system is designed from the beginning to respect context, culture, privacy, and agency.
