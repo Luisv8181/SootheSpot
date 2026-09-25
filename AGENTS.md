@@ -24,12 +24,12 @@ These are architecture constraints, not optional UI features.
 6. Privacy by default: collect the minimum necessary data.
 7. Global by default: do not assume U.S. language, resources, crisis systems, clinical terminology, or cultural norms are universal.
 8. Accessibility: keyboard, screen reader, reduced motion, contrast, touch targets, and plain language are required.
-9. Calm visual language: simple, spacious, premium, Apple-like restraint. Avoid clutter and alarmist crisis UI.
+9. Calm visual language: simple, spacious, native-feeling restraint. Follow docs/DESIGN_SYSTEM.md; avoid clutter, generic SaaS dashboards, and alarmist crisis UI.
 10. AI creates experiences, not diagnoses or autonomous treatment.
 11. No dark patterns, streaks, guilt, or engagement-maximization mechanics.
 
 ## Agent operating rules
-- Read docs/ARCHITECTURE.md, docs/PRODUCT_SPEC.md, docs/ROADMAP.md, and docs/VISION.md before implementing.
+- Read docs/ARCHITECTURE.md, docs/PRODUCT_SPEC.md, docs/ROADMAP.md, docs/VISION.md, and docs/DESIGN_SYSTEM.md before implementing.
 - Preserve architecture boundaries.
 - Treat locale, language, culture, region, and context as separate concepts.
 - Never infer cultural identity from language, nationality, ethnicity, or location alone.
