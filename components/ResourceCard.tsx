@@ -1,11 +1,14 @@
+import type { Language } from "@/domain/i18n/copy";
 import type { Resource } from "@/domain/resources/types";
 
 export function ResourceCard({
   resource,
-  onSave
+  onSave,
+  language = "en"
 }: {
   resource: Resource;
   onSave: (resource: Resource) => void;
+  language?: Language;
 }) {
   const cultural = resource.cultural_context?.adaptation_status;
 
@@ -23,8 +26,12 @@ export function ResourceCard({
         {cultural && cultural !== "unknown" ? <span>{cultural.replaceAll("_", " ")}</span> : null}
       </div>
       <div className="resource-actions">
-        <a href={resource.official_url} target="_blank" rel="noreferrer">Open original</a>
-        <button onClick={() => onSave(resource)}>Save to toolbox</button>
+        <a href={resource.official_url} target="_blank" rel="noreferrer">
+          {language === "en" ? "Open original" : "Abrir original"}
+        </a>
+        <button onClick={() => onSave(resource)}>
+          {language === "en" ? "Save to toolbox" : "Guardar"}
+        </button>
       </div>
     </article>
   );
