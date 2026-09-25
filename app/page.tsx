@@ -2,11 +2,13 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { CheckIn } from "@/components/CheckIn";
+import { ToolCreator } from "@/components/ToolCreator";
 import { ResourceCard } from "@/components/ResourceCard";
 import { ToolCard } from "@/components/ToolCard";
 import { resourceRegistry, searchResources } from "@/domain/resources/registry";
 import type { Resource } from "@/domain/resources/types";
 import { retrieveTools } from "@/domain/tools/retrieve";
+import { createCustomTool } from "@/domain/tools/custom";
 import { seedTools } from "@/domain/tools/seed";
 import type { CheckInState, Tool, ToolFeedback } from "@/domain/tools/types";
 
@@ -29,6 +31,9 @@ export default function Home() {
   const [savedIds, setSavedIds] = useState<string[]>([]);
   const [feedback, setFeedback] = useState<ToolFeedback[]>([]);
   const [savedResources, setSavedResources] = useState<Resource[]>([]);
+  const [customTools, setCustomTools] = useState<Tool[]>([]);
+  const [showToolCreator, setShowToolCreator] = useState(false);
+  const [toolQuery, setToolQuery] = useState("");
   const [activeTool, setActiveTool] = useState<Tool | null>(null);
   const [resourceQuery, setResourceQuery] = useState("");
 
@@ -37,6 +42,7 @@ export default function Home() {
       setSavedIds(JSON.parse(localStorage.getItem("soothespot.savedToolIds") ?? "[]"));
       setFeedback(JSON.parse(localStorage.getItem("soothespot.feedback") ?? "[]"));
       setSavedResources(JSON.parse(localStorage.getItem("soothespot.savedResources") ?? "[]"));
+      setCustomTools(JSON.parse(localStorage.getItem("soothespot.customTools") ?? "[]"));
     } catch {
       // Keep the app usable when local storage is unavailable or malformed.
     }
@@ -49,15 +55,41 @@ export default function Home() {
 
   const recommendations = useMemo(() => {
     if (!state) return [];
-    return retrieveTools(seedTools, {
+    return retrieveTools(allTools, {
       state,
       language,
       helpfulToolIds
     });
   }, [state, language, helpfulToolIds]);
 
-  const savedTools = seedTools.filter((tool) => savedIds.includes(tool.id));
+  const allTools = [...seedTools, ...customTools];
+  const savedTools = allTools.filter((tool) => savedIds.includes(tool.id));
+  const visibleSavedTools = savedTools.filter((tool) => {
+    const q = toolQuery.trim().toLowerCase();
+    return !q || [tool.title, tool.description, tool.category].join(" ").toLowerCase().includes(q);
+  });
   const resources = searchResources(resourceQuery, language === "es" ? "Spanish" : "English");
+
+  function addCustomTool(tool: Tool) {
+    const next = [...customTools, tool];
+    setCustomTools(next);
+    localStorage.setItem("soothespot.customTools", JSON.stringify(next));
+    const nextSaved = Array.from(new Set([...savedIds, tool.id]));
+    setSavedIds(nextSaved);
+    localStorage.setItem("soothespot.savedToolIds", JSON.stringify(nextSaved));
+    setShowToolCreator(false);
+  }
+
+  function deleteCustomTool(toolId: string) {
+    const next = customTools.filter((tool) => tool.id !== toolId);
+    setCustomTools(next);
+    setSavedIds((current) => {
+      const updated = current.filter((id) => id !== toolId);
+      localStorage.setItem("soothespot.savedToolIds", JSON.stringify(updated));
+      return updated;
+    });
+    localStorage.setItem("soothespot.customTools", JSON.stringify(next));
+  }
 
   function saveTool(tool: Tool) {
     const next = Array.from(new Set([...savedIds, tool.id]));
@@ -164,8 +196,8 @@ export default function Home() {
             </p>
 
             <div className="tool-list">
-              {savedTools.map((tool) => (
-                <ToolCard key={tool.id} tool={tool} onOpen={setActiveTool} />
+              {visibleSavedTools.map((tool) => (
+                <div key={tool.id} className="saved-tool-wrap">\n                  <ToolCard tool={tool} onOpen={setActiveTool} />\n                  {tool.provenance === "client-created" && tool.id.startsWith("custom-") && (\n                    <button className="delete-tool-button" onClick={() => deleteCustomTool(tool.id)}>Delete</button>\n                  )}\n                </div>
               ))}
               {savedResources.map((resource) => (
                 <div className="saved-resource-row" key={resource.id}>
@@ -178,7 +210,7 @@ export default function Home() {
               ))}
             </div>
 
-            {!savedTools.length && !savedResources.length && (
+            {!visibleSavedTools.length && !savedResources.length && (
               <div className="empty-state">
                 Save something from your recommendations or the Resource Explorer and it will appear here.
               </div>
@@ -250,7 +282,7 @@ export default function Home() {
         <button className={tab === "profile" ? "active" : ""} onClick={() => setTab("profile")}>You</button>
       </nav>
 
-      {activeTool && (
+      {showToolCreator && <ToolCreator onCreate={addCustomTool} onClose={() => setShowToolCreator(false)} />}\n\n      {activeTool && (
         <div className="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="tool-title">
           <div className="modal">
             <button className="close-button" onClick={() => setActiveTool(null)} aria-label="Close">×</button>
