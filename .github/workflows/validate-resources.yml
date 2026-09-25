@@ -1,0 +1,21 @@
+name: Validate SootheSpot resources
+
+on:
+  push:
+    paths:
+      - "resources/**"
+      - "scripts/validate_resources.py"
+      - ".github/workflows/validate-resources.yml"
+  pull_request:
+    paths:
+      - "resources/**"
+      - "scripts/validate_resources.py"
+      - ".github/workflows/validate-resources.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate resource registry
+        run: python scripts/validate_resources.py
