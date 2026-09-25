@@ -6,6 +6,7 @@ type RetrieveInput = {
   language?: string;
   maxResults?: number;
   feedback?: ToolFeedback[];
+  availableMinutes?: number;
 };
 
 export function retrieveTools(tools: Tool[], input: RetrieveInput) {
@@ -15,6 +16,7 @@ export function retrieveTools(tools: Tool[], input: RetrieveInput) {
 
   return tools
     .filter((tool) => !input.language || tool.languages.includes(input.language))
+    .filter((tool) => !input.availableMinutes || !tool.durationMinutes || tool.durationMinutes <= input.availableMinutes)
     .map((tool) => {
       let score = 0;
       const stateMatch = tool.states.includes(input.state);
@@ -32,6 +34,7 @@ export function retrieveTools(tools: Tool[], input: RetrieveInput) {
       }
 
       if (tool.provenance === "client-created") score += 1;
+      if (input.availableMinutes && tool.durationMinutes && tool.durationMinutes <= input.availableMinutes) score += 1;
 
       return { tool, score, stateMatch, stateHistory };
     })
