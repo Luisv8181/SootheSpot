@@ -1,32 +1,34 @@
 # SootheSpot Roadmap
 
 ## Phase 0 - Foundation
-- [ ] Next.js/TypeScript app
-- [ ] design tokens
+- [x] Next.js/TypeScript app
+- [x] design tokens
 - [ ] authentication
 - [ ] database schema
-- [ ] test infrastructure
-- [ ] privacy/security baseline
-- [ ] CI
+- [x] test infrastructure
+- [x] privacy/security baseline
+- [x] CI
 
 ## Phase 1 - Personal Toolbox
-- [ ] Home/check-in
-- [ ] Tool model
+- [x] Home/check-in
+- [x] Tool model
 - [ ] Client-created tools
-- [ ] provenance model
+- [x] provenance model
 - [ ] favorites
 - [ ] tool usage
-- [ ] helpfulness feedback
+- [x] helpfulness feedback
 - [ ] search/filter
-- [ ] safety pathway
+- [x] safety pathway
+- [x] mobile-first application shell
+- [x] browser-local prototype persistence
 
 ## Phase 2 - Trusted Resources + Therapist Layer
 - [x] curated external resource catalog foundation
 - [x] resource verification metadata
 - [x] resource provenance and contribution workflow
 - [x] resource registry CI validation
-- [ ] Resource Explorer UI
-- [ ] Save external resources to My Toolbox
+- [x] Resource Explorer UI
+- [x] Save external resources to My Toolbox
 - [ ] agent resource-search tool
 - [ ] therapist recommendations
 - [ ] permission model
