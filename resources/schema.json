@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SootheSpot External Resource",
+  "type": "object",
+  "required": ["id","name","publisher","resource_type","official_url","description","tags","access","review_status","last_verified_at"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "publisher": {"type": "string"},
+    "resource_type": {"type": "string"},
+    "official_url": {"type": "string", "format": "uri"},
+    "platforms": {"type": "array", "items": {"type": "string"}},
+    "description": {"type": "string"},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "intended_population": {"type": "array", "items": {"type": "string"}},
+    "use_context": {"type": "array", "items": {"type": "string"}},
+    "languages": {"type": "array", "items": {"type": "string"}},
+    "access": {"type": "array", "items": {"type": "string"}},
+    "evidence_notes": {"type": "string"},
+    "limitations": {"type": "string"},
+    "review_status": {"enum": ["unreviewed","screened","clinically_reviewed","verified","deprecated"]},
+    "last_verified_at": {"type": "string", "format": "date"},
+    "source_notes": {"type": "array", "items": {"type": "string"}},
+    "license_notes": {"type": "string"}
+  }
+}
