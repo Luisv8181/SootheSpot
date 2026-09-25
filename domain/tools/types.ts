@@ -30,4 +30,5 @@ export type ToolFeedback = {
   toolId: string;
   helpfulness: "a-lot" | "a-little" | "not-really";
   createdAt: string;
+  checkInState?: CheckInState;
 };
