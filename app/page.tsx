@@ -23,6 +23,7 @@ export default function Home() {
   const [tab, setTab] = useState<Tab>("home");
   const [state, setState] = useState<CheckInState | null>(null);
   const [language, setLanguage] = useState<Language>("en");
+  const [availableMinutes, setAvailableMinutes] = useState<number | undefined>(5);
   const [savedIds, setSavedIds] = useState<string[]>([]);
   const [feedback, setFeedback] = useState<ToolFeedback[]>([]);
   const [savedResources, setSavedResources] = useState<Resource[]>([]);
@@ -52,9 +53,20 @@ export default function Home() {
     return retrieveTools(allTools, {
       state,
       language,
-      feedback
+      feedback,
+      availableMinutes
     });
-  }, [state, language, feedback, allTools]);
+  }, [state, language, feedback, availableMinutes, allTools]);
+  const historyInsights = useMemo(
+    () =>
+      allTools
+        .map((tool) => ({ tool, summary: summarizeToolFeedback(feedback, tool.id) }))
+        .filter(({ summary }) => summary.total > 0)
+        .sort((a, b) => b.summary.total - a.summary.total || b.summary.score - a.summary.score)
+        .slice(0, 3),
+    [allTools, feedback]
+  );
+
   const savedTools = allTools.filter((tool) => savedIds.includes(tool.id));
   const visibleSavedTools = savedTools.filter((tool) => {
     const q = toolQuery.trim().toLowerCase();
@@ -164,6 +176,33 @@ export default function Home() {
               <h1>{t.howAreYou}</h1>
               <p className="hero-copy">{t.intro}</p>
               <CheckIn value={state} onChange={setState} language={language} />
+
+              {state && state !== "support" && (
+                <div className="moment-context" aria-label={language === "en" ? "Available time" : "Tiempo disponible"}>
+                  <span className="moment-context-label">
+                    {language === "en" ? "I have about" : "Tengo aproximadamente"}
+                  </span>
+                  <div className="segmented-control">
+                    {[2, 5, 10, 20].map((minutes) => (
+                      <button
+                        key={minutes}
+                        className={availableMinutes === minutes ? "selected" : ""}
+                        onClick={() => setAvailableMinutes(minutes)}
+                        aria-pressed={availableMinutes === minutes}
+                      >
+                        {minutes} min
+                      </button>
+                    ))}
+                    <button
+                      className={availableMinutes === undefined ? "selected" : ""}
+                      onClick={() => setAvailableMinutes(undefined)}
+                      aria-pressed={availableMinutes === undefined}
+                    >
+                      {language === "en" ? "Any" : "Cualquiera"}
+                    </button>
+                  </div>
+                </div>
+              )}
             </section>
 
             {state && (
@@ -234,6 +273,38 @@ export default function Home() {
             <p className="eyebrow">{t.personalToolbox}</p>
             <h1>{t.thingsHelp}</h1>
             <p className="hero-copy">{t.toolboxCopy}</p>
+
+            {historyInsights.length > 0 && (
+              <section className="insight-card">
+                <div className="insight-header">
+                  <div>
+                    <p className="eyebrow">{language === "en" ? "Your patterns" : "Tus patrones"}</p>
+                    <h2>{language === "en" ? "What SootheSpot is learning" : "Lo que SootheSpot está aprendiendo"}</h2>
+                  </div>
+                  <span className="insight-privacy">{language === "en" ? "From your feedback only" : "Solo de tus comentarios"}</span>
+                </div>
+                <div className="insight-list">
+                  {historyInsights.map(({ tool, summary }) => {
+                    const helpful = summary.aLot + summary.aLittle;
+                    return (
+                      <div className="insight-row" key={tool.id}>
+                        <div>
+                          <strong>{localizeTool(tool, language).title}</strong>
+                          <span>
+                            {language === "en"
+                              ? `${summary.total} ${summary.total === 1 ? "use" : "uses"} · ${helpful} helpful`
+                              : `${summary.total} ${summary.total === 1 ? "uso" : "usos"} · ${helpful} útiles`}
+                          </span>
+                        </div>
+                        <span className={summary.score > 0 ? "insight-trend positive" : summary.score < 0 ? "insight-trend negative" : "insight-trend"}>
+                          {summary.score > 0 ? "↑" : summary.score < 0 ? "↓" : "—"}
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </section>
+            )}
 
             <div className="toolbox-actions">
               <button className="primary-button compact-button" onClick={() => setShowToolCreator(true)}>{t.createTool}</button>
@@ -361,11 +432,11 @@ export default function Home() {
       </div>
 
       <nav className="bottom-nav" aria-label="Primary navigation">
-        <button className={tab === "home" ? "active" : ""} onClick={() => setTab("home")}>{t.home}</button>
-        <button className={tab === "tools" ? "active" : ""} onClick={() => setTab("tools")}>{t.tools}</button>
-        <button className={tab === "resources" ? "active" : ""} onClick={() => setTab("resources")}>{t.resources}</button>
-        <button className={tab === "worlds" ? "active" : ""} onClick={() => setTab("worlds")}>{t.worlds}</button>
-        <button className={tab === "profile" ? "active" : ""} onClick={() => setTab("profile")}>{t.you}</button>
+        <button aria-current={tab === "home" ? "page" : undefined} className={tab === "home" ? "active" : ""} onClick={() => setTab("home")}><span aria-hidden="true">⌂</span>{t.home}</button>
+        <button aria-current={tab === "tools" ? "page" : undefined} className={tab === "tools" ? "active" : ""} onClick={() => setTab("tools")}><span aria-hidden="true">✦</span>{t.tools}</button>
+        <button aria-current={tab === "resources" ? "page" : undefined} className={tab === "resources" ? "active" : ""} onClick={() => setTab("resources")}><span aria-hidden="true">◎</span>{t.resources}</button>
+        <button aria-current={tab === "worlds" ? "page" : undefined} className={tab === "worlds" ? "active" : ""} onClick={() => setTab("worlds")}><span aria-hidden="true">◌</span>{t.worlds}</button>
+        <button aria-current={tab === "profile" ? "page" : undefined} className={tab === "profile" ? "active" : ""} onClick={() => setTab("profile")}><span aria-hidden="true">○</span>{t.you}</button>
       </nav>
 
       {showToolCreator && <ToolCreator onCreate={addCustomTool} onClose={() => setShowToolCreator(false)} language={language} />}
