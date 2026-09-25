@@ -10,8 +10,11 @@ import type { Resource } from "@/domain/resources/types";
 import { retrieveTools } from "@/domain/tools/retrieve";
 import { seedTools } from "@/domain/tools/seed";
 import type { CheckInState, Tool, ToolFeedback } from "@/domain/tools/types";
+import { worlds } from "@/domain/worlds/seed";
+import type { World } from "@/domain/worlds/types";
+import { WorldExperience } from "@/components/WorldExperience";
 
-type Tab = "home" | "tools" | "resources" | "profile";
+type Tab = "home" | "tools" | "resources" | "worlds" | "profile";
 
 const stateCopy: Record<CheckInState, string> = {
   okay: "You seem okay right now. Keep something useful close anyway.",
@@ -35,6 +38,7 @@ export default function Home() {
   const [toolQuery, setToolQuery] = useState("");
   const [activeTool, setActiveTool] = useState<Tool | null>(null);
   const [resourceQuery, setResourceQuery] = useState("");
+  const [activeWorld, setActiveWorld] = useState<World | null>(null);
 
   useEffect(() => {
     try {
@@ -182,6 +186,10 @@ export default function Home() {
                 <span>Explore Resources</span>
                 <small>{resourceRegistry.length} curated now</small>
               </button>
+              <button className="quick-card" onClick={() => setTab("worlds")}>
+                <span>Soothing Experiences</span>
+                <small>{worlds.length} interactive worlds</small>
+              </button>
             </section>
           </>
         )}
@@ -255,6 +263,31 @@ export default function Home() {
           </section>
         )}
 
+        {tab === "worlds" && (
+          <section className="page-section">
+            <p className="eyebrow">Soothing Experiences</p>
+            <h1>Take a few minutes for yourself.</h1>
+            <p className="hero-copy">
+              Small, interactive experiences designed to give your attention somewhere gentle to land.
+            </p>
+
+            <div className="world-grid">
+              {worlds.map((world) => (
+                <button key={world.id} className={`world-card world-card-${world.id}`} onClick={() => setActiveWorld(world)}>
+                  <span className="world-card-art" aria-hidden="true">
+                    <span />
+                  </span>
+                  <span className="world-card-copy">
+                    <strong>{world.title}</strong>
+                    <small>{world.description}</small>
+                    <em>{world.durationMinutes} min · {world.category}</em>
+                  </span>
+                </button>
+              ))}
+            </div>
+          </section>
+        )}
+
         {tab === "profile" && (
           <section className="page-section">
             <p className="eyebrow">You</p>
@@ -294,10 +327,15 @@ export default function Home() {
         <button className={tab === "home" ? "active" : ""} onClick={() => setTab("home")}>Home</button>
         <button className={tab === "tools" ? "active" : ""} onClick={() => setTab("tools")}>Tools</button>
         <button className={tab === "resources" ? "active" : ""} onClick={() => setTab("resources")}>Resources</button>
+        <button className={tab === "worlds" ? "active" : ""} onClick={() => setTab("worlds")}>Worlds</button>
         <button className={tab === "profile" ? "active" : ""} onClick={() => setTab("profile")}>You</button>
       </nav>
 
-      {showToolCreator && <ToolCreator onCreate={addCustomTool} onClose={() => setShowToolCreator(false)} />}\n\n      {activeTool && (
+      {showToolCreator && <ToolCreator onCreate={addCustomTool} onClose={() => setShowToolCreator(false)} />}
+
+      {activeWorld && <WorldExperience world={activeWorld} onClose={() => setActiveWorld(null)} />}
+
+      {activeTool && (
         <div className="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="tool-title">
           <div className="modal">
             <button className="close-button" onClick={() => setActiveTool(null)} aria-label="Close">×</button>
