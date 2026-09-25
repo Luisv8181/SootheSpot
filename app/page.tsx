@@ -9,10 +9,10 @@ import { ResourceCard } from "@/components/ResourceCard";
 import { ToolCard } from "@/components/ToolCard";
 import { resourceRegistry, searchResources } from "@/domain/resources/registry";
 import type { Resource } from "@/domain/resources/types";
-import { historyLabel, summarizeToolFeedback } from "@/domain/tools/history";
+import { historyLabel, strongestHelpfulContext, summarizeToolFeedback } from "@/domain/tools/history";
 import { retrieveTools } from "@/domain/tools/retrieve";
 import { seedTools } from "@/domain/tools/seed";
-import type { CheckInState, Tool, ToolFeedback } from "@/domain/tools/types";
+import type { CheckInState, MomentContext, Tool, ToolFeedback } from "@/domain/tools/types";
 import { worlds } from "@/domain/worlds/seed";
 import type { World } from "@/domain/worlds/types";
 import { WorldExperience } from "@/components/WorldExperience";
@@ -24,6 +24,7 @@ export default function Home() {
   const [state, setState] = useState<CheckInState | null>(null);
   const [language, setLanguage] = useState<Language>("en");
   const [availableMinutes, setAvailableMinutes] = useState<number | undefined>(5);
+  const [momentContext, setMomentContext] = useState<MomentContext | undefined>();
   const [savedIds, setSavedIds] = useState<string[]>([]);
   const [feedback, setFeedback] = useState<ToolFeedback[]>([]);
   const [savedResources, setSavedResources] = useState<Resource[]>([]);
@@ -54,9 +55,10 @@ export default function Home() {
       state,
       language,
       feedback,
-      availableMinutes
+      availableMinutes,
+      momentContext
     });
-  }, [state, language, feedback, availableMinutes, allTools]);
+  }, [state, language, feedback, availableMinutes, momentContext, allTools]);
   const historyInsights = useMemo(
     () =>
       allTools
@@ -113,7 +115,8 @@ export default function Home() {
       toolId: activeTool.id,
       helpfulness: value,
       createdAt: new Date().toISOString(),
-      checkInState: state ?? undefined
+      checkInState: state ?? undefined,
+      momentContext
     }];
     setFeedback(next);
     localStorage.setItem("soothespot.feedback", JSON.stringify(next));
@@ -132,6 +135,7 @@ export default function Home() {
     setSavedResources([]);
     setCustomTools([]);
     setState(null);
+    setMomentContext(undefined);
     setActiveTool(null);
   }
 
@@ -143,8 +147,17 @@ export default function Home() {
     return `Usada ${summary.total} ${summary.total === 1 ? "vez" : "veces"} · ${helpful} ${helpful === 1 ? "marcada como útil" : "marcadas como útiles"}`;
   }
 
+  const momentContextLabels: Record<MomentContext, { en: string; es: string }> = {
+    home: { en: "At home", es: "En casa" },
+    "work-school": { en: "Work / school", es: "Trabajo / escuela" },
+    sleep: { en: "Winding down", es: "Preparándome para dormir" },
+    "around-people": { en: "Around people", es: "Con otras personas" },
+    alone: { en: "By myself", es: "A solas" }
+  };
+
   function recommendationReason(reason: string) {
     if (language === "en") return reason;
+    if (reason.includes("this kind of situation")) return "La marcaste como útil antes en este tipo de situación.";
     if (reason.startsWith("You've marked")) return "La marcaste como útil antes en un momento parecido.";
     if (reason.startsWith("One of your own")) return "Una de tus propias herramientas que coincide con cómo te sientes.";
     if (reason.startsWith("Matches")) return "Coincide con cómo dijiste que te sientes.";
@@ -201,6 +214,29 @@ export default function Home() {
                       {language === "en" ? "Any" : "Cualquiera"}
                     </button>
                   </div>
+
+                  <div className="moment-divider" />
+
+                  <span className="moment-context-label">
+                    {language === "en" ? "Right now I'm" : "Ahora mismo estoy"}
+                  </span>
+                  <div className="context-chip-row">
+                    {(Object.keys(momentContextLabels) as MomentContext[]).map((context) => (
+                      <button
+                        key={context}
+                        className={momentContext === context ? "context-chip selected" : "context-chip"}
+                        onClick={() => setMomentContext(momentContext === context ? undefined : context)}
+                        aria-pressed={momentContext === context}
+                      >
+                        {momentContextLabels[context][language]}
+                      </button>
+                    ))}
+                  </div>
+                  <span className="moment-context-note">
+                    {language === "en"
+                      ? "Optional. SootheSpot only uses this when you choose it."
+                      : "Opcional. SootheSpot solo usa esto cuando tú lo eliges."}
+                  </span>
                 </div>
               )}
             </section>
@@ -286,6 +322,7 @@ export default function Home() {
                 <div className="insight-list">
                   {historyInsights.map(({ tool, summary }) => {
                     const helpful = summary.aLot + summary.aLittle;
+                    const contextInsight = strongestHelpfulContext(feedback, tool.id);
                     return (
                       <div className="insight-row" key={tool.id}>
                         <div>
@@ -295,6 +332,12 @@ export default function Home() {
                               ? `${summary.total} ${summary.total === 1 ? "use" : "uses"} · ${helpful} helpful`
                               : `${summary.total} ${summary.total === 1 ? "uso" : "usos"} · ${helpful} útiles`}
                           </span>
+                          {contextInsight && (
+                            <span className="insight-context">
+                              {language === "en" ? "Helpful pattern: " : "Patrón útil: "}
+                              {momentContextLabels[contextInsight.momentContext][language]}
+                            </span>
+                          )}
                         </div>
                         <span className={summary.score > 0 ? "insight-trend positive" : summary.score < 0 ? "insight-trend negative" : "insight-trend"}>
                           {summary.score > 0 ? "↑" : summary.score < 0 ? "↓" : "—"}
