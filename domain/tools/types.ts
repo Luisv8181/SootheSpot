@@ -26,9 +26,17 @@ export type CheckInState =
   | "angry"
   | "support";
 
+export type MomentContext =
+  | "home"
+  | "work-school"
+  | "sleep"
+  | "around-people"
+  | "alone";
+
 export type ToolFeedback = {
   toolId: string;
   helpfulness: "a-lot" | "a-little" | "not-really";
   createdAt: string;
   checkInState?: CheckInState;
+  momentContext?: MomentContext;
 };
