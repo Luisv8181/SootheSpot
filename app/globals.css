@@ -272,7 +272,7 @@ h2 { margin: 0; font-size: clamp(21px, 4vw, 28px); line-height: 1.12; letter-spa
   transform: translateX(-50%);
   width: min(520px, calc(100% - 24px));
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(5,1fr);
   padding: 7px;
   background: rgba(255,255,255,.94);
   backdrop-filter: blur(18px);
@@ -415,4 +415,177 @@ h2 { margin: 0; font-size: clamp(21px, 4vw, 28px); line-height: 1.12; letter-spa
 @media (max-width: 560px) {
   .toolbox-actions { grid-template-columns: 1fr; }
   .compact-button { width: 100%; }
+}
+
+
+.world-grid {
+  display: grid;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.world-card {
+  position: relative;
+  min-height: 190px;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 105px 1fr;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 26px;
+  background: white;
+  color: inherit;
+  text-align: left;
+  box-shadow: var(--shadow);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.world-card:hover { transform: translateY(-2px); box-shadow: 0 18px 45px rgba(33,45,74,.12); }
+.world-card-art { position: relative; display: block; overflow: hidden; }
+.world-card-art::before, .world-card-art::after, .world-card-art span {
+  content: "";
+  position: absolute;
+  border-radius: 999px;
+}
+.world-card-ocean-calm .world-card-art {
+  background: linear-gradient(160deg, #bfe7f4 0%, #8fc8e8 55%, #5d8fb9 100%);
+}
+.world-card-ocean-calm .world-card-art::before {
+  width: 180px; height: 80px; left: 18%; bottom: -20px;
+  background: rgba(255,255,255,.48);
+  transform: rotate(-7deg);
+}
+.world-card-ocean-calm .world-card-art::after {
+  width: 120px; height: 55px; right: 8%; top: 20px;
+  background: rgba(255,255,255,.32);
+}
+.world-card-soft-focus .world-card-art {
+  background: radial-gradient(circle at 50% 50%, #fff 0, #e6ddff 24%, #c9d9ff 52%, #d9eef5 100%);
+}
+.world-card-soft-focus .world-card-art::before {
+  width: 78px; height: 78px; left: calc(50% - 39px); top: 14px;
+  background: rgba(255,255,255,.75);
+  box-shadow: 0 0 45px rgba(112,113,225,.28);
+}
+.world-card-grounding-garden .world-card-art {
+  background: linear-gradient(180deg, #dff1dd 0%, #a9d3aa 58%, #769d79 100%);
+}
+.world-card-grounding-garden .world-card-art::before {
+  width: 72px; height: 72px; left: 50%; bottom: -22px;
+  transform: translateX(-50%);
+  background: #6f9f72;
+}
+.world-card-grounding-garden .world-card-art::after {
+  width: 28px; height: 65px; left: calc(50% - 14px); bottom: 12px;
+  background: #f1d89b;
+}
+.world-card-copy { display: grid; gap: 5px; padding: 15px 17px 17px; }
+.world-card-copy strong { font-size: 17px; }
+.world-card-copy small { color: var(--muted); line-height: 1.35; }
+.world-card-copy em { color: #768099; font-size: 11px; font-style: normal; text-transform: capitalize; }
+
+.world-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  overflow: auto;
+  padding: 22px;
+  color: #f7fbff;
+}
+.world-ocean-calm { background: linear-gradient(180deg, #173b59 0%, #1e6385 48%, #122f4a 100%); }
+.world-soft-focus { background: radial-gradient(circle at 50% 35%, #eef1ff 0%, #c8d4ff 35%, #6e76a9 100%); color: #20263c; }
+.world-grounding-garden { background: linear-gradient(180deg, #d9efd9 0%, #9bc69d 55%, #526f59 100%); color: #173a22; }
+.world-topbar {
+  width: min(860px, 100%);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.world-kicker { display: block; opacity: .72; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; margin-bottom: 5px; }
+.world-topbar h2 { font-size: 25px; }
+.world-close {
+  width: 42px; height: 42px; border: 1px solid rgba(255,255,255,.22);
+  border-radius: 50%; background: rgba(255,255,255,.12); color: inherit; font-size: 26px;
+}
+.world-stage {
+  width: min(760px, 100%);
+  min-height: calc(100vh - 150px);
+  margin: 20px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.breath-orb {
+  width: 190px; height: 190px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: radial-gradient(circle, rgba(255,255,255,.7), rgba(185,229,255,.18) 62%, transparent 70%);
+  box-shadow: 0 0 80px rgba(204,239,255,.22);
+}
+.breath-orb.breathing { animation: soothe-breathe 12s ease-in-out infinite; }
+.breath-orb-inner {
+  width: 108px; height: 108px; border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.65);
+  background: rgba(255,255,255,.15);
+}
+@keyframes soothe-breathe {
+  0%, 33% { transform: scale(.78); }
+  50%, 66% { transform: scale(1); }
+  100% { transform: scale(.78); }
+}
+.world-phase { margin: 22px 0 4px; font-size: 22px; font-weight: 650; }
+.world-subtle { max-width: 440px; margin: 0; opacity: .72; line-height: 1.5; }
+.world-controls { display: flex; gap: 9px; margin-top: 22px; }
+.world-primary, .world-secondary {
+  border: 0; border-radius: 999px; padding: 12px 18px; font-weight: 700;
+}
+.world-primary { background: white; color: #23435e; }
+.world-secondary { background: rgba(255,255,255,.14); color: inherit; border: 1px solid rgba(255,255,255,.2); }
+.world-secondary.selected { background: rgba(255,255,255,.28); }
+.world-progress { width: min(360px, 80%); height: 4px; margin-top: 25px; border-radius: 999px; background: rgba(255,255,255,.18); overflow: hidden; }
+.world-progress span { display: block; height: 100%; border-radius: inherit; background: rgba(255,255,255,.8); transition: width .5s linear; }
+.world-timer, .world-count { opacity: .62; font-size: 12px; }
+.world-boundary {
+  position: fixed; left: 50%; bottom: 14px; transform: translateX(-50%);
+  width: min(700px, calc(100% - 32px)); margin: 0; text-align: center;
+  font-size: 10px; opacity: .48;
+}
+.focus-field {
+  position: relative; width: min(540px, 90vw); height: min(420px, 52vh);
+  border-radius: 40px; overflow: hidden;
+  background: rgba(255,255,255,.16);
+  box-shadow: inset 0 0 80px rgba(255,255,255,.16);
+}
+.focus-glow { position: absolute; border-radius: 50%; filter: blur(10px); }
+.focus-glow-a { width: 260px; height: 260px; background: rgba(255,224,196,.55); left: 8%; top: 15%; }
+.focus-glow-b { width: 240px; height: 240px; background: rgba(195,215,255,.55); right: 4%; bottom: 8%; }
+.focus-dot {
+  position: absolute; width: 34px; height: 34px; border-radius: 50%; left: calc(50% - 17px); top: calc(50% - 17px);
+  background: white; box-shadow: 0 0 45px rgba(255,255,255,.8);
+  animation: focus-float 7s ease-in-out infinite;
+}
+@keyframes focus-float { 0%,100% { transform: translate(-18px, 8px); } 50% { transform: translate(18px, -12px); } }
+.garden-visual {
+  position: relative; width: min(520px, 92vw); height: 260px; margin-bottom: 18px; overflow: hidden;
+  border-radius: 36px; background: linear-gradient(180deg, #d9f1e4, #b3d9af);
+}
+.garden-sun { position: absolute; width: 75px; height: 75px; right: 13%; top: 16%; border-radius: 50%; background: #ffe4a8; box-shadow: 0 0 45px #ffe8b7; }
+.garden-hill { position: absolute; border-radius: 50% 50% 0 0; background: #8fba8e; }
+.garden-hill-one { width: 80%; height: 120px; left: -8%; bottom: -45px; }
+.garden-hill-two { width: 70%; height: 100px; right: -15%; bottom: -40px; background: #769e79; }
+.garden-stem { position: absolute; width: 7px; height: 100px; left: calc(50% - 3px); bottom: 20px; border-radius: 7px; background: #4d8055; }
+.sense-grid { width: min(600px, 100%); display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-top: 22px; }
+.sense-card { min-height: 92px; border: 1px solid rgba(23,58,34,.12); border-radius: 18px; background: rgba(255,255,255,.45); color: inherit; padding: 10px; text-align: left; }
+.sense-card strong, .sense-card small { display: block; }
+.sense-card small { margin-top: 6px; opacity: .65; line-height: 1.3; }
+.sense-card.noticed { background: rgba(255,255,255,.82); box-shadow: 0 8px 24px rgba(45,83,51,.12); }
+@media (max-width: 620px) {
+  .sense-grid { grid-template-columns: repeat(2, 1fr); }
+  .sense-card:last-child { grid-column: 1 / -1; }
+  .world-screen { padding: 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .breath-orb.breathing, .focus-dot { animation: none; }
+  .world-card { transition: none; }
 }
