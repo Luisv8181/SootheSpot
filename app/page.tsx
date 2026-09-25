@@ -8,7 +8,6 @@ import { ToolCard } from "@/components/ToolCard";
 import { resourceRegistry, searchResources } from "@/domain/resources/registry";
 import type { Resource } from "@/domain/resources/types";
 import { retrieveTools } from "@/domain/tools/retrieve";
-import { createCustomTool } from "@/domain/tools/custom";
 import { seedTools } from "@/domain/tools/seed";
 import type { CheckInState, Tool, ToolFeedback } from "@/domain/tools/types";
 
@@ -48,6 +47,8 @@ export default function Home() {
     }
   }, []);
 
+  const allTools = [...seedTools, ...customTools];
+
   const helpfulToolIds = useMemo(
     () => feedback.filter((item) => item.helpfulness === "a-lot").map((item) => item.toolId),
     [feedback]
@@ -60,9 +61,7 @@ export default function Home() {
       language,
       helpfulToolIds
     });
-  }, [state, language, helpfulToolIds]);
-
-  const allTools = [...seedTools, ...customTools];
+  }, [state, language, helpfulToolIds, allTools]);
   const savedTools = allTools.filter((tool) => savedIds.includes(tool.id));
   const visibleSavedTools = savedTools.filter((tool) => {
     const q = toolQuery.trim().toLowerCase();
