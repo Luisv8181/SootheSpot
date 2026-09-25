@@ -31,7 +31,6 @@
     "accessibility": {"type": "array", "items": {"type": "string"}},
     "privacy_notes": {"type": "string"},
     "data_practices_url": {"type": "string", "format": "uri"},
-    "description": {"type": "string"},
     "access": {"type": "array", "items": {"type": "string"}},
     "evidence_notes": {"type": "string"},
     "limitations": {"type": "string"},
