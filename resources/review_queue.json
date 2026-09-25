@@ -1,0 +1,16 @@
+[
+  {
+    "id": "resource-candidate-template",
+    "status": "template",
+    "reason": "Use this structure for new discoveries before they are screened or verified.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
+  }
+]
