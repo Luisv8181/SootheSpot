@@ -15,6 +15,23 @@
     "intended_population": {"type": "array", "items": {"type": "string"}},
     "use_context": {"type": "array", "items": {"type": "string"}},
     "languages": {"type": "array", "items": {"type": "string"}},
+    "locales": {"type": "array", "items": {"type": "string"}},
+    "regions": {"type": "array", "items": {"type": "string"}},
+    "publisher_region": {"type": "string"},
+    "availability_regions": {"type": "array", "items": {"type": "string"}},
+    "cultural_context": {
+      "type": "object",
+      "properties": {
+        "adaptation_status": {"enum": ["unknown","translated","localized","culturally_adapted","community_informed"]},
+        "notes": {"type": "string"},
+        "source_notes": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "accessibility": {"type": "array", "items": {"type": "string"}},
+    "privacy_notes": {"type": "string"},
+    "data_practices_url": {"type": "string", "format": "uri"},
+    "description": {"type": "string"},
     "access": {"type": "array", "items": {"type": "string"}},
     "evidence_notes": {"type": "string"},
     "limitations": {"type": "string"},
