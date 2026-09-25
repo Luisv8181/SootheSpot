@@ -39,7 +39,7 @@ SootheSpot is not an emergency response service or replacement for professional 
 
 ## MVP implementation
 
-The first running application is now on the `feat/mvp-core-loop` branch.
+The first running application is now on the `feat/mvp-core-loop` branch. A no-sign-in public demo is also configured for GitHub Pages.
 
 Implemented:
 - Mobile-first Next.js application shell
@@ -56,4 +56,4 @@ Implemented:
 
 This prototype intentionally does not call an AI provider. The core product loop must work before AI becomes an enhancement layer.
 
-Next implementation milestone: authentication, durable database persistence, richer client-created tools, and permission-aware sharing.
+The public demo uses browser-local storage only. It does not require an account and should not be used for sensitive personal information. Production authentication, durable persistence, and permission-aware sharing remain separate from the demo.
