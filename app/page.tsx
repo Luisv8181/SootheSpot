@@ -2,11 +2,14 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { CheckIn } from "@/components/CheckIn";
+import { stateCopy, uiCopy, type Language } from "@/domain/i18n/copy";
+import { localizeTool } from "@/domain/i18n/tools";
 import { ToolCreator } from "@/components/ToolCreator";
 import { ResourceCard } from "@/components/ResourceCard";
 import { ToolCard } from "@/components/ToolCard";
 import { resourceRegistry, searchResources } from "@/domain/resources/registry";
 import type { Resource } from "@/domain/resources/types";
+import { historyLabel, summarizeToolFeedback } from "@/domain/tools/history";
 import { retrieveTools } from "@/domain/tools/retrieve";
 import { seedTools } from "@/domain/tools/seed";
 import type { CheckInState, Tool, ToolFeedback } from "@/domain/tools/types";
@@ -16,20 +19,10 @@ import { WorldExperience } from "@/components/WorldExperience";
 
 type Tab = "home" | "tools" | "resources" | "worlds" | "profile";
 
-const stateCopy: Record<CheckInState, string> = {
-  okay: "You seem okay right now. Keep something useful close anyway.",
-  off: "Let's find something small that might shift the moment.",
-  overwhelmed: "Let's lower the pressure. You don't need to solve everything right now.",
-  anxious: "Let's give your attention somewhere steady to land.",
-  sad: "Let's make the next few minutes a little gentler.",
-  angry: "Let's create a little space before deciding what comes next.",
-  support: "You can use your tools, or move to the support pathway if you need more than a coping tool."
-};
-
 export default function Home() {
   const [tab, setTab] = useState<Tab>("home");
   const [state, setState] = useState<CheckInState | null>(null);
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState<Language>("en");
   const [savedIds, setSavedIds] = useState<string[]>([]);
   const [feedback, setFeedback] = useState<ToolFeedback[]>([]);
   const [savedResources, setSavedResources] = useState<Resource[]>([]);
@@ -52,20 +45,16 @@ export default function Home() {
   }, []);
 
   const allTools = [...seedTools, ...customTools];
-
-  const helpfulToolIds = useMemo(
-    () => feedback.filter((item) => item.helpfulness === "a-lot").map((item) => item.toolId),
-    [feedback]
-  );
+  const t = uiCopy[language];
 
   const recommendations = useMemo(() => {
     if (!state) return [];
     return retrieveTools(allTools, {
       state,
       language,
-      helpfulToolIds
+      feedback
     });
-  }, [state, language, helpfulToolIds, allTools]);
+  }, [state, language, feedback, allTools]);
   const savedTools = allTools.filter((tool) => savedIds.includes(tool.id));
   const visibleSavedTools = savedTools.filter((tool) => {
     const q = toolQuery.trim().toLowerCase();
@@ -111,11 +100,43 @@ export default function Home() {
     const next = [...feedback, {
       toolId: activeTool.id,
       helpfulness: value,
-      createdAt: new Date().toISOString()
+      createdAt: new Date().toISOString(),
+      checkInState: state ?? undefined
     }];
     setFeedback(next);
     localStorage.setItem("soothespot.feedback", JSON.stringify(next));
     setActiveTool(null);
+  }
+
+  function clearDemoData() {
+    [
+      "soothespot.savedToolIds",
+      "soothespot.feedback",
+      "soothespot.savedResources",
+      "soothespot.customTools"
+    ].forEach((key) => localStorage.removeItem(key));
+    setSavedIds([]);
+    setFeedback([]);
+    setSavedResources([]);
+    setCustomTools([]);
+    setState(null);
+    setActiveTool(null);
+  }
+
+  function feedbackLabel(toolId: string) {
+    const summary = summarizeToolFeedback(feedback, toolId);
+    if (summary.total === 0) return null;
+    if (language === "en") return historyLabel(summary);
+    const helpful = summary.aLot + summary.aLittle;
+    return `Usada ${summary.total} ${summary.total === 1 ? "vez" : "veces"} · ${helpful} ${helpful === 1 ? "marcada como útil" : "marcadas como útiles"}`;
+  }
+
+  function recommendationReason(reason: string) {
+    if (language === "en") return reason;
+    if (reason.startsWith("You've marked")) return "La marcaste como útil antes en un momento parecido.";
+    if (reason.startsWith("One of your own")) return "Una de tus propias herramientas que coincide con cómo te sientes.";
+    if (reason.startsWith("Matches")) return "Coincide con cómo dijiste que te sientes.";
+    return "Encaja con tu experiencia anterior.";
   }
 
   return (
@@ -125,11 +146,11 @@ export default function Home() {
           <span className="brand-mark" aria-hidden="true">S</span>
           <span className="brand-name">SootheSpot</span>
         </div>
-        <span className="demo-badge" aria-label="Demo mode">Demo · private browser</span>
+        <span className="demo-badge" aria-label="Demo mode">{t.demo}</span>
         <button
           className="language-toggle"
           onClick={() => setLanguage(language === "en" ? "es" : "en")}
-          aria-label="Change language"
+          aria-label={t.languageLabel}
         >
           {language === "en" ? "ES" : "EN"}
         </button>
@@ -139,20 +160,18 @@ export default function Home() {
         {tab === "home" && (
           <>
             <section className="hero">
-              <p className="eyebrow">Your tools. Your space. A calmer you.</p>
-              <h1>How are you right now?</h1>
-              <p className="hero-copy">
-                Tell SootheSpot in your own words, your language, and your context.
-              </p>
-              <CheckIn value={state} onChange={setState} />
+              <p className="eyebrow">{t.tagline}</p>
+              <h1>{t.howAreYou}</h1>
+              <p className="hero-copy">{t.intro}</p>
+              <CheckIn value={state} onChange={setState} language={language} />
             </section>
 
             {state && (
               <section className="recommendation-section">
                 <div className="section-heading">
                   <div>
-                    <p className="eyebrow">For this moment</p>
-                    <h2>{stateCopy[state]}</h2>
+                    <p className="eyebrow">{t.forThisMoment}</p>
+                    <h2>{stateCopy[language][state]}</h2>
                   </div>
                   <span className="context-pill">
                     {language === "en" ? "English" : "Español"} · personal
@@ -161,17 +180,23 @@ export default function Home() {
 
                 {state === "support" ? (
                   <div className="safety-card">
-                    <strong>Need more than a coping tool?</strong>
-                    <p>
-                      If you are in immediate danger or think you may hurt yourself or someone else,
-                      use local emergency or crisis support. SootheSpot does not assess emergencies.
-                    </p>
-                    <button onClick={() => setTab("profile")}>Open safety boundary</button>
+                    <strong>{t.supportTitle}</strong>
+                    <p>{t.supportBody}</p>
+                    <div className="resource-actions">
+                      <button onClick={() => setTab("tools")}>{t.useToolbox}</button>
+                      <button onClick={() => setTab("profile")}>{t.supportOptions}</button>
+                    </div>
                   </div>
                 ) : (
                   <div className="tool-list">
                     {recommendations.map(({ tool, reason }) => (
-                      <ToolCard key={tool.id} tool={tool} reason={reason} onOpen={setActiveTool} />
+                      <ToolCard
+                        key={tool.id}
+                        tool={localizeTool(tool, language)}
+                        reason={recommendationReason(reason)}
+                        onOpen={setActiveTool}
+                        language={language}
+                      />
                     ))}
                   </div>
                 )}
@@ -180,24 +205,24 @@ export default function Home() {
 
             <section className="featured-world">
               <div>
-                <p className="eyebrow">A few quiet minutes</p>
-                <h2>Nothing to solve right now.</h2>
-                <p>Try a simple breathing experience and let your attention settle.</p>
+                <p className="eyebrow">{language === "en" ? "A few quiet minutes" : "Unos minutos de calma"}</p>
+                <h2>{language === "en" ? "Nothing to solve right now." : "No hay nada que resolver ahora mismo."}</h2>
+                <p>{language === "en" ? "Try a simple breathing experience and let your attention settle." : "Prueba una experiencia sencilla de respiración y deja que tu atención se asiente."}</p>
               </div>
-              <button className="featured-world-button" onClick={() => setActiveWorld(worlds[0])}>Open Ocean Calm</button>
+              <button className="featured-world-button" onClick={() => setActiveWorld(worlds[0])}>{language === "en" ? "Open Ocean Calm" : "Abrir Ocean Calm"}</button>
             </section>
 
             <section className="quick-section">
               <button className="quick-card" onClick={() => setTab("tools")}>
-                <span>My Toolbox</span>
+                <span>{t.toolbox}</span>
                 <small>{savedTools.length + savedResources.length} saved</small>
               </button>
               <button className="quick-card" onClick={() => setTab("resources")}>
-                <span>Explore Resources</span>
+                <span>{t.exploreResources}</span>
                 <small>{resourceRegistry.length} curated now</small>
               </button>
               <button className="quick-card" onClick={() => setTab("worlds")}>
-                <span>Soothing Experiences</span>
+                <span>{t.experiences}</span>
                 <small>{worlds.length} interactive worlds</small>
               </button>
             </section>
@@ -206,27 +231,26 @@ export default function Home() {
 
         {tab === "tools" && (
           <section className="page-section">
-            <p className="eyebrow">Personal Toolbox</p>
-            <h1>The things that help you.</h1>
-            <p className="hero-copy">
-              Your saved tools stay yours. SootheSpot keeps provenance visible.
-            </p>
+            <p className="eyebrow">{t.personalToolbox}</p>
+            <h1>{t.thingsHelp}</h1>
+            <p className="hero-copy">{t.toolboxCopy}</p>
 
             <div className="toolbox-actions">
-              <button className="primary-button compact-button" onClick={() => setShowToolCreator(true)}>Create a tool</button>
+              <button className="primary-button compact-button" onClick={() => setShowToolCreator(true)}>{t.createTool}</button>
               <input
                 className="search-input toolbox-search"
                 value={toolQuery}
                 onChange={(event) => setToolQuery(event.target.value)}
-                placeholder="Search your toolbox..."
-                aria-label="Search your toolbox"
+                placeholder={t.searchToolbox}
+                aria-label={t.searchToolbox}
               />
             </div>
 
             <div className="tool-list">
               {visibleSavedTools.map((tool) => (
                 <div key={tool.id} className="saved-tool-wrap">
-                  <ToolCard tool={tool} onOpen={setActiveTool} />
+                  <ToolCard tool={localizeTool(tool, language)} onOpen={setActiveTool} language={language} />
+                  {feedbackLabel(tool.id) && <span className="tool-reason">{feedbackLabel(tool.id)}</span>}
                   {tool.provenance === "client-created" && tool.id.startsWith("custom-") && (
                     <button className="delete-tool-button" onClick={() => deleteCustomTool(tool.id)}>Delete</button>
                   )}
@@ -253,21 +277,19 @@ export default function Home() {
 
         {tab === "resources" && (
           <section className="page-section">
-            <p className="eyebrow">Resource Library</p>
-            <h1>Real tools from around the world.</h1>
-            <p className="hero-copy">
-              SootheSpot organizes resources. It does not pretend to own them.
-            </p>
+            <p className="eyebrow">{t.resourceLibrary}</p>
+            <h1>{t.resourceTitle}</h1>
+            <p className="hero-copy">{t.resourceCopy}</p>
             <input
               className="search-input"
               value={resourceQuery}
               onChange={(event) => setResourceQuery(event.target.value)}
-              placeholder="Search breathing, anxiety, sleep..."
-              aria-label="Search resources"
+              placeholder={t.searchResources}
+              aria-label={t.searchResources}
             />
             <div className="resource-list">
               {resources.map((resource) => (
-                <ResourceCard key={resource.id} resource={resource} onSave={saveResource} />
+                <ResourceCard key={resource.id} resource={resource} onSave={saveResource} language={language} />
               ))}
             </div>
           </section>
@@ -275,11 +297,9 @@ export default function Home() {
 
         {tab === "worlds" && (
           <section className="page-section">
-            <p className="eyebrow">Soothing Experiences</p>
-            <h1>Take a few minutes for yourself.</h1>
-            <p className="hero-copy">
-              Small, interactive experiences designed to give your attention somewhere gentle to land.
-            </p>
+            <p className="eyebrow">{t.experiences}</p>
+            <h1>{t.worldsTitle}</h1>
+            <p className="hero-copy">{t.worldsCopy}</p>
 
             <div className="world-grid">
               {worlds.map((world) => (
@@ -300,8 +320,8 @@ export default function Home() {
 
         {tab === "profile" && (
           <section className="page-section">
-            <p className="eyebrow">You</p>
-            <h1>Context. Culture. Privacy. Agency.</h1>
+            <p className="eyebrow">{t.you}</p>
+            <h1>{t.youTitle}</h1>
 
             <div className="principles">
               <article>
@@ -323,32 +343,39 @@ export default function Home() {
             </div>
 
             <div className="safety-card">
-              <strong>Safety boundary</strong>
+              <strong>{t.safetyBoundary}</strong>
               <p>
-                SootheSpot is for everyday emotional regulation. It is not an emergency service,
-                crisis assessor, or replacement for professional care.
+                {language === "en"
+                  ? "SootheSpot is for everyday emotional regulation. Needing support does not automatically mean an emergency. You can use your toolbox, reach out to someone you trust or a professional, or use local emergency/crisis support when there is immediate danger."
+                  : "SootheSpot es para la regulación emocional cotidiana. Necesitar apoyo no significa automáticamente que sea una emergencia. Puedes usar tu caja de herramientas, contactar a alguien de confianza o a un profesional, o recurrir a servicios locales de emergencia/crisis cuando exista un peligro inmediato."}
               </p>
+            </div>
+
+            <div className="resource-card">
+              <strong>{t.clearData}</strong>
+              <p>{t.clearDataCopy}</p>
+              <button className="primary-button" onClick={clearDemoData}>{t.clearData}</button>
             </div>
           </section>
         )}
       </div>
 
       <nav className="bottom-nav" aria-label="Primary navigation">
-        <button className={tab === "home" ? "active" : ""} onClick={() => setTab("home")}>Home</button>
-        <button className={tab === "tools" ? "active" : ""} onClick={() => setTab("tools")}>Tools</button>
-        <button className={tab === "resources" ? "active" : ""} onClick={() => setTab("resources")}>Resources</button>
-        <button className={tab === "worlds" ? "active" : ""} onClick={() => setTab("worlds")}>Worlds</button>
-        <button className={tab === "profile" ? "active" : ""} onClick={() => setTab("profile")}>You</button>
+        <button className={tab === "home" ? "active" : ""} onClick={() => setTab("home")}>{t.home}</button>
+        <button className={tab === "tools" ? "active" : ""} onClick={() => setTab("tools")}>{t.tools}</button>
+        <button className={tab === "resources" ? "active" : ""} onClick={() => setTab("resources")}>{t.resources}</button>
+        <button className={tab === "worlds" ? "active" : ""} onClick={() => setTab("worlds")}>{t.worlds}</button>
+        <button className={tab === "profile" ? "active" : ""} onClick={() => setTab("profile")}>{t.you}</button>
       </nav>
 
-      {showToolCreator && <ToolCreator onCreate={addCustomTool} onClose={() => setShowToolCreator(false)} />}
+      {showToolCreator && <ToolCreator onCreate={addCustomTool} onClose={() => setShowToolCreator(false)} language={language} />}
 
-      {activeWorld && <WorldExperience world={activeWorld} onClose={() => setActiveWorld(null)} />}
+      {activeWorld && <WorldExperience world={activeWorld} onClose={() => setActiveWorld(null)} language={language} />}
 
       {activeTool && (
         <div className="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="tool-title">
           <div className="modal">
-            <button className="close-button" onClick={() => setActiveTool(null)} aria-label="Close">×</button>
+            <button className="close-button" onClick={() => setActiveTool(null)} aria-label={t.close}>×</button>
             <p className="eyebrow">{activeTool.category}</p>
             <h2 id="tool-title">{activeTool.title}</h2>
             <p>{activeTool.description}</p>
@@ -360,15 +387,15 @@ export default function Home() {
             </ol>
 
             <button className="primary-button" onClick={() => saveTool(activeTool)}>
-              Save to My Toolbox
+              {t.saveTool}
             </button>
 
             <div className="feedback">
-              <p>Did this help?</p>
+              <p>{t.didHelp}</p>
               <div>
-                <button onClick={() => giveFeedback("a-lot")}>A lot</button>
-                <button onClick={() => giveFeedback("a-little")}>A little</button>
-                <button onClick={() => giveFeedback("not-really")}>Not really</button>
+                <button onClick={() => giveFeedback("a-lot")}>{t.aLot}</button>
+                <button onClick={() => giveFeedback("a-little")}>{t.aLittle}</button>
+                <button onClick={() => giveFeedback("not-really")}>{t.notReally}</button>
               </div>
             </div>
           </div>
