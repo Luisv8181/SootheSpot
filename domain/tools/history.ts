@@ -1,4 +1,4 @@
-import type { CheckInState, ToolFeedback } from "./types";
+import type { CheckInState, MomentContext, ToolFeedback } from "./types";
 
 export type ToolHistorySummary = {
   total: number;
@@ -8,15 +8,24 @@ export type ToolHistorySummary = {
   score: number;
 };
 
+type HistoryFilter = {
+  state?: CheckInState;
+  momentContext?: MomentContext;
+};
+
 export function summarizeToolFeedback(
   feedback: ToolFeedback[],
   toolId: string,
-  state?: CheckInState
+  filter: CheckInState | HistoryFilter = {}
 ): ToolHistorySummary {
+  const normalized: HistoryFilter =
+    typeof filter === "string" ? { state: filter } : filter;
+
   const relevant = feedback.filter((item) => {
     if (item.toolId !== toolId) return false;
-    if (!state) return true;
-    return item.checkInState === state;
+    if (normalized.state && item.checkInState !== normalized.state) return false;
+    if (normalized.momentContext && item.momentContext !== normalized.momentContext) return false;
+    return true;
   });
 
   const aLot = relevant.filter((item) => item.helpfulness === "a-lot").length;
@@ -37,4 +46,15 @@ export function historyLabel(summary: ToolHistorySummary) {
   if (summary.total === 0) return null;
   const helpful = summary.aLot + summary.aLittle;
   return `Used ${summary.total} ${summary.total === 1 ? "time" : "times"} · ${helpful} marked helpful`;
+}
+
+export function strongestHelpfulContext(feedback: ToolFeedback[], toolId: string) {
+  const contexts: MomentContext[] = ["home", "work-school", "sleep", "around-people", "alone"];
+  return contexts
+    .map((momentContext) => ({
+      momentContext,
+      summary: summarizeToolFeedback(feedback, toolId, { momentContext })
+    }))
+    .filter(({ summary }) => summary.total > 0 && summary.score > 0)
+    .sort((a, b) => b.summary.score - a.summary.score || b.summary.total - a.summary.total)[0] ?? null;
 }
