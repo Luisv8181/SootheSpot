@@ -5,18 +5,41 @@
     "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
     "resource_type": "mobile-app",
     "official_url": "https://mobile.va.gov/app/coping-coach",
-    "platforms": ["iOS","Android"],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
     "description": "A self-care and stress-management app with coping tools, mood tracking, learning content, and external support resources.",
-    "tags": ["stress","coping","self-care","mood","independent-use"],
-    "intended_population": ["general","veterans","service-members"],
-    "use_context": ["independent-use","therapist-supported"],
-    "languages": ["English"],
-    "access": ["free"],
+    "tags": [
+      "stress",
+      "coping",
+      "self-care",
+      "mood",
+      "independent-use"
+    ],
+    "intended_population": [
+      "general",
+      "veterans",
+      "service-members"
+    ],
+    "use_context": [
+      "independent-use",
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
     "evidence_notes": "Official VA documentation describes the app as a stand-alone education/self-care tool or supplement to professional mental health care.",
     "limitations": "Does not replace needed professional mental health care.",
     "review_status": "verified",
     "last_verified_at": "2026-09-24",
-    "source_notes": ["https://www.ptsd.va.gov/appvid/mobile/coping_coach_app.asp","https://mobile.va.gov/app/coping-coach"],
+    "source_notes": [
+      "https://www.ptsd.va.gov/appvid/mobile/coping_coach_app.asp",
+      "https://mobile.va.gov/app/coping-coach"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only."
   },
   {
@@ -25,18 +48,44 @@
     "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
     "resource_type": "mobile-app",
     "official_url": "https://mobile.va.gov/app/ptsd-coach",
-    "platforms": ["iOS","Android","Web"],
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
     "description": "An educational and self-help resource for learning about PTSD and accessing tools for managing trauma-related symptoms.",
-    "tags": ["trauma","PTSD","grounding","relaxation","stress","independent-use"],
-    "intended_population": ["people-affected-by-trauma","veterans","service-members","general"],
-    "use_context": ["independent-use","therapist-supported"],
-    "languages": ["English"],
-    "access": ["free"],
+    "tags": [
+      "trauma",
+      "PTSD",
+      "grounding",
+      "relaxation",
+      "stress",
+      "independent-use"
+    ],
+    "intended_population": [
+      "people-affected-by-trauma",
+      "veterans",
+      "service-members",
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
     "evidence_notes": "Official VA documentation describes symptom education, coping tools, self-monitoring, and support links.",
     "limitations": "Not a replacement for professional care.",
     "review_status": "verified",
     "last_verified_at": "2026-09-24",
-    "source_notes": ["https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp","https://mobile.va.gov/app/ptsd-coach"],
+    "source_notes": [
+      "https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp",
+      "https://mobile.va.gov/app/ptsd-coach"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only."
   },
   {
@@ -45,18 +94,40 @@
     "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
     "resource_type": "mobile-app",
     "official_url": "https://mobile.va.gov/app/mindfulness-coach",
-    "platforms": ["iOS","Android"],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
     "description": "A self-guided mindfulness resource with exercises, audio guidance, practice tracking, reminders, and educational material.",
-    "tags": ["mindfulness","stress","relaxation","audio","independent-use"],
-    "intended_population": ["general","veterans","service-members"],
-    "use_context": ["independent-use","therapist-supported"],
-    "languages": ["English"],
-    "access": ["free"],
+    "tags": [
+      "mindfulness",
+      "stress",
+      "relaxation",
+      "audio",
+      "independent-use"
+    ],
+    "intended_population": [
+      "general",
+      "veterans",
+      "service-members"
+    ],
+    "use_context": [
+      "independent-use",
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
     "evidence_notes": "Official VA documentation describes a structured mindfulness program and guided exercises.",
     "limitations": "Does not replace professional treatment.",
     "review_status": "verified",
     "last_verified_at": "2026-09-24",
-    "source_notes": ["https://mobile.va.gov/app/mindfulness-coach"],
+    "source_notes": [
+      "https://mobile.va.gov/app/mindfulness-coach"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only."
   },
   {
@@ -65,18 +136,39 @@
     "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
     "resource_type": "mobile-app",
     "official_url": "https://www.ptsd.va.gov/appvid/mobile/actcoach_app_public.asp",
-    "platforms": ["iOS","Android"],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
     "description": "An ACT companion with mindfulness, values-based exercises, coping tools, and tracking for people participating in ACT with a provider.",
-    "tags": ["ACT","mindfulness","values","coping","therapist-supported"],
-    "intended_population": ["people-in-ACT-treatment","veterans","service-members"],
-    "use_context": ["therapist-supported"],
-    "languages": ["English"],
-    "access": ["free"],
+    "tags": [
+      "ACT",
+      "mindfulness",
+      "values",
+      "coping",
+      "therapist-supported"
+    ],
+    "intended_population": [
+      "people-in-ACT-treatment",
+      "veterans",
+      "service-members"
+    ],
+    "use_context": [
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
     "evidence_notes": "Official VA documentation describes ACT exercises and use with a mental health provider.",
     "limitations": "Designed as an ACT treatment companion and not intended as self-care without provider guidance.",
     "review_status": "verified",
     "last_verified_at": "2026-09-24",
-    "source_notes": ["https://www.ptsd.va.gov/appvid/mobile/actcoach_app_public.asp"],
+    "source_notes": [
+      "https://www.ptsd.va.gov/appvid/mobile/actcoach_app_public.asp"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only."
   },
   {
@@ -85,18 +177,246 @@
     "publisher": "Anxiety Canada",
     "resource_type": "mobile-app",
     "official_url": "https://mindshiftcbt.com/",
-    "platforms": ["iOS","Android","Web"],
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
     "description": "A CBT-oriented anxiety resource with guided tools for anxious thinking, relaxation, mindfulness, and approaching fears.",
-    "tags": ["anxiety","CBT","cognitive-restructuring","relaxation","mindfulness","independent-use"],
-    "intended_population": ["people-experiencing-anxiety","general"],
-    "use_context": ["independent-use","therapist-supported"],
-    "languages": ["English"],
-    "access": ["free"],
+    "tags": [
+      "anxiety",
+      "CBT",
+      "cognitive-restructuring",
+      "relaxation",
+      "mindfulness",
+      "independent-use"
+    ],
+    "intended_population": [
+      "people-experiencing-anxiety",
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
     "evidence_notes": "The publisher describes the app as CBT-based and references a 16-week clinical trial on its site.",
     "limitations": "SootheSpot does not independently validate the publisher's efficacy claims; preserve the publisher attribution.",
     "review_status": "screened",
     "last_verified_at": "2026-09-24",
-    "source_notes": ["https://mindshiftcbt.com/"],
+    "source_notes": [
+      "https://mindshiftcbt.com/"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only."
+  },
+  {
+    "id": "va-insomnia-coach",
+    "name": "Insomnia Coach",
+    "publisher": "U.S. Department of Veterans Affairs",
+    "resource_type": "mobile-app",
+    "official_url": "https://mobile.va.gov/app/insomnia-coach",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "description": "A sleep-focused app with a guided training plan, sleep diary, and tools for tracking and improving sleep.",
+    "tags": [
+      "sleep",
+      "insomnia",
+      "sleep-diary",
+      "self-management"
+    ],
+    "intended_population": [
+      "general",
+      "veterans",
+      "service-members"
+    ],
+    "use_context": [
+      "independent-use",
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "evidence_notes": "VA describes a guided weekly training plan, interactive sleep diary, and sleep-management tools.",
+    "limitations": "External resource; not a substitute for professional evaluation or treatment when clinically indicated.",
+    "review_status": "verified",
+    "last_verified_at": "2026-09-24",
+    "source_notes": [
+      "https://mobile.va.gov/mental-health-and-behavioral-therapy-apps"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only."
+  },
+  {
+    "id": "va-safety-plan",
+    "name": "Safety Plan",
+    "publisher": "U.S. Department of Veterans Affairs",
+    "resource_type": "mobile-app",
+    "official_url": "https://mobile.va.gov/app/safety-plan",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "description": "A structured tool for creating a personal safety plan with coping strategies and sources of support.",
+    "tags": [
+      "safety-plan",
+      "crisis",
+      "coping",
+      "support-network"
+    ],
+    "intended_population": [
+      "people-experiencing-suicidal-thoughts",
+      "general"
+    ],
+    "use_context": [
+      "safety-planning",
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "evidence_notes": "VA describes the app as a step-by-step tool for creating a personalized safety plan.",
+    "limitations": "This belongs to SootheSpot's safety-resource layer, not the everyday coping-tool ranking. Immediate danger requires appropriate crisis or emergency support.",
+    "review_status": "verified",
+    "last_verified_at": "2026-09-24",
+    "source_notes": [
+      "https://mobile.va.gov/mental-health-and-behavioral-therapy-apps"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only."
+  },
+  {
+    "id": "va-virtual-hope-box",
+    "name": "Virtual Hope Box",
+    "publisher": "U.S. Department of Veterans Affairs / VA Portland Health Care System",
+    "resource_type": "mobile-app",
+    "official_url": "https://mobile.va.gov/mental-health-and-behavioral-therapy-apps",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "description": "A personal coping resource that includes relaxation exercises and space for reminders and personally meaningful reasons for hope.",
+    "tags": [
+      "coping",
+      "relaxation",
+      "hope",
+      "personal-reminders",
+      "support"
+    ],
+    "intended_population": [
+      "general",
+      "veterans",
+      "service-members"
+    ],
+    "use_context": [
+      "independent-use",
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "evidence_notes": "VA describes Virtual Hope Box as a free mobile resource with relaxation exercises and personal reminders.",
+    "limitations": "The registry links to the VA app directory because the current official listing is the most stable primary source available here.",
+    "review_status": "verified",
+    "last_verified_at": "2026-09-24",
+    "source_notes": [
+      "https://news.va.gov/146813/practical-skills-veterans-lower-suicide-risk/",
+      "https://mobile.va.gov/mental-health-and-behavioral-therapy-apps"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only."
+  },
+  {
+    "id": "nimh-coping-stress",
+    "name": "I'm So Stressed Out! Fact Sheet",
+    "publisher": "National Institute of Mental Health",
+    "resource_type": "educational-resource",
+    "official_url": "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
+    "platforms": [
+      "Web"
+    ],
+    "description": "A public educational resource explaining stress and anxiety and describing practical coping approaches and when to seek additional help.",
+    "tags": [
+      "stress",
+      "anxiety",
+      "psychoeducation",
+      "coping",
+      "when-to-seek-help"
+    ],
+    "intended_population": [
+      "general",
+      "adolescents",
+      "adults"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "access": [
+      "free"
+    ],
+    "evidence_notes": "NIMH provides the content as public mental-health education and distinguishes everyday stress from anxiety that interferes with life.",
+    "limitations": "Educational information does not provide individualized clinical assessment.",
+    "review_status": "verified",
+    "last_verified_at": "2026-09-24",
+    "source_notes": [
+      "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only."
+  },
+  {
+    "id": "samhsa-how-to-cope",
+    "name": "How to Cope With Mental Health, Drug, and Alcohol Issues",
+    "publisher": "Substance Abuse and Mental Health Services Administration",
+    "resource_type": "educational-resource",
+    "official_url": "https://www.samhsa.gov/find-support/how-to-cope",
+    "platforms": [
+      "Web"
+    ],
+    "description": "A public SAMHSA guide covering practical coping ideas, social support, self-care, and pathways to additional help.",
+    "tags": [
+      "coping",
+      "stress",
+      "self-care",
+      "social-support",
+      "psychoeducation"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "evidence_notes": "SAMHSA presents practical coping suggestions and directs people to crisis and treatment resources when needed.",
+    "limitations": "General educational guidance is not individualized treatment.",
+    "review_status": "verified",
+    "last_verified_at": "2026-09-24",
+    "source_notes": [
+      "https://www.samhsa.gov/find-support/how-to-cope"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only."
   }
 ]
