@@ -21,8 +21,13 @@
 - [ ] safety pathway
 
 ## Phase 2 - Trusted Resources + Therapist Layer
-- [ ] curated resource catalog
-- [ ] resource verification metadata
+- [x] curated external resource catalog foundation
+- [x] resource verification metadata
+- [x] resource provenance and contribution workflow
+- [x] resource registry CI validation
+- [ ] Resource Explorer UI
+- [ ] Save external resources to My Toolbox
+- [ ] agent resource-search tool
 - [ ] therapist recommendations
 - [ ] permission model
 - [ ] client-controlled sharing
