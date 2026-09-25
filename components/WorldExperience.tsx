@@ -20,7 +20,6 @@ export function WorldExperience({
 }) {
   const [running, setRunning] = useState(false);
   const [elapsed, setElapsed] = useState(0);
-  const [sound, setSound] = useState(false);
   const [noticed, setNoticed] = useState<string[]>([]);
 
   useEffect(() => {
@@ -78,8 +77,8 @@ export function WorldExperience({
             <button className="world-primary" onClick={() => setRunning((value) => !value)}>
               {running ? "Pause" : "Begin"}
             </button>
-            <button className={`world-secondary ${sound ? "selected" : ""}`} onClick={() => setSound((value) => !value)}>
-              {sound ? "Ambient on" : "Ambient off"}
+            <button className="world-secondary" onClick={() => setElapsed(0)}>
+              Reset
             </button>
           </div>
           <div className="world-progress" aria-label={`${Math.round(cycleProgress)} percent through breathing cycle`}>
