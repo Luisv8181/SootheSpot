@@ -11,6 +11,7 @@ SootheSpot is a personal emotional-regulation toolbox combining therapist-curate
 - Therapist-curated tools
 - Client-created tools
 - Trusted resources
+- External Resource Registry
 - SootheSpot Worlds
 - AI creation studio
 - Journal
