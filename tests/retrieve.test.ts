@@ -50,6 +50,55 @@ describe("retrieveTools", () => {
     expect(retrieveTools(seedTools, { state: "support", language: "en" })).toEqual([]);
   });
 
+  it("prefers feedback from the same user-selected situation", () => {
+    const feedback = [
+      {
+        toolId: "five-senses",
+        helpfulness: "a-lot" as const,
+        checkInState: "anxious" as const,
+        momentContext: "work-school" as const,
+        createdAt: "2026-09-25T00:00:00.000Z"
+      },
+      {
+        toolId: "breathing-478",
+        helpfulness: "a-lot" as const,
+        checkInState: "anxious" as const,
+        momentContext: "home" as const,
+        createdAt: "2026-09-25T00:00:01.000Z"
+      }
+    ];
+
+    const results = retrieveTools(seedTools, {
+      state: "anxious",
+      language: "en",
+      momentContext: "work-school",
+      feedback
+    });
+
+    expect(results[0].tool.id).toBe("five-senses");
+    expect(results[0].reason).toContain("this kind of situation");
+  });
+
+  it("does not infer a situation when none is selected", () => {
+    const feedback = [
+      {
+        toolId: "five-senses",
+        helpfulness: "a-lot" as const,
+        checkInState: "anxious" as const,
+        momentContext: "work-school" as const,
+        createdAt: "2026-09-25T00:00:00.000Z"
+      }
+    ];
+
+    const results = retrieveTools(seedTools, {
+      state: "anxious",
+      language: "en",
+      feedback
+    });
+
+    expect(results[0].reason).not.toContain("this kind of situation");
+  });
+
   it("filters tools that do not fit the available time", () => {
     const results = retrieveTools(seedTools, {
       state: "overwhelmed",
