@@ -50,6 +50,16 @@ describe("retrieveTools", () => {
     expect(retrieveTools(seedTools, { state: "support", language: "en" })).toEqual([]);
   });
 
+  it("filters tools that do not fit the available time", () => {
+    const results = retrieveTools(seedTools, {
+      state: "overwhelmed",
+      language: "en",
+      availableMinutes: 2
+    });
+
+    expect(results.every((result) => !result.tool.durationMinutes || result.tool.durationMinutes <= 2)).toBe(true);
+  });
+
   it("filters tools that do not support the selected language", () => {
     const englishOnly = {
       ...seedTools[0],
