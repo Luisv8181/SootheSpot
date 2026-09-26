@@ -4,6 +4,7 @@ import { useState } from "react";
 import type { Language } from "@/domain/i18n/copy";
 import type { CheckInState, Tool } from "@/domain/tools/types";
 import { createCustomTool } from "@/domain/tools/custom";
+import { Dialog } from "./Dialog";
 
 const labels = {
   en: {
@@ -41,11 +42,13 @@ const states: CheckInState[] = ["off", "overwhelmed", "anxious", "sad", "angry"]
 export function ToolCreator({
   onCreate,
   onClose,
-  language
+  language,
+  storageError
 }: {
-  onCreate: (tool: Tool) => void;
+  onCreate: (tool: Tool) => Promise<boolean>;
   onClose: () => void;
   language: Language;
+  storageError?: string | null;
 }) {
   const t = labels[language];
   const [title, setTitle] = useState("");
@@ -62,7 +65,7 @@ export function ToolCreator({
     );
   }
 
-  function submit() {
+  async function submit() {
     try {
       const tool = createCustomTool({
         title,
@@ -73,16 +76,16 @@ export function ToolCreator({
         states: selectedStates,
         languages: [language]
       });
-      onCreate(tool);
+      await onCreate(tool);
     } catch {
       setError(t.error);
     }
   }
 
   return (
-    <div className="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="create-tool-title">
+    <Dialog titleId="create-tool-title" onClose={onClose}>
       <div className="modal creator-modal">
-        <button className="close-button" onClick={onClose} aria-label="Close">×</button>
+        <button className="close-button" onClick={onClose} aria-label={language === "en" ? "Close" : "Cerrar"}>×</button>
         <p className="eyebrow">{t.eyebrow}</p>
         <h2 id="create-tool-title">{t.title}</h2>
         <p className="hero-copy">{t.intro}</p>
@@ -109,8 +112,9 @@ export function ToolCreator({
         </div>
 
         {error && <p className="form-error" role="alert">{error}</p>}
+        {storageError && <p className="storage-notice" role="status">{storageError}</p>}
         <button className="primary-button" onClick={submit}>{t.submit}</button>
       </div>
-    </div>
+    </Dialog>
   );
 }

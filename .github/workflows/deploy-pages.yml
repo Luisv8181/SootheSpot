@@ -3,7 +3,7 @@ name: Deploy SootheSpot Demo
 on:
   push:
     branches:
-      - feat/mvp-core-loop
+      - main
   workflow_dispatch:
 
 permissions:
@@ -20,21 +20,32 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: 20
+          node-version: 24
+          cache: npm
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Test
         run: npm test
 
       - name: Build static demo
         run: npm run build
+        env:
+          DEPLOY_TARGET: github-pages
+
+      - name: Install browser
+        run: npx playwright install --with-deps chromium
+
+      - name: Verify exported demo
+        run: npm run test:e2e
+        env:
+          DEPLOY_TARGET: github-pages
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

@@ -8,6 +8,7 @@ type RetrieveInput = {
   feedback?: ToolFeedback[];
   availableMinutes?: number;
   momentContext?: MomentContext;
+  hiddenToolIds?: string[];
 };
 
 export function retrieveTools(tools: Tool[], input: RetrieveInput) {
@@ -16,6 +17,7 @@ export function retrieveTools(tools: Tool[], input: RetrieveInput) {
   const feedback = input.feedback ?? [];
 
   return tools
+    .filter((tool) => !input.hiddenToolIds?.includes(tool.id))
     .filter((tool) => !input.language || tool.languages.includes(input.language))
     .filter((tool) => !input.availableMinutes || !tool.durationMinutes || tool.durationMinutes <= input.availableMinutes)
     .map((tool) => {

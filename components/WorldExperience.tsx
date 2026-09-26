@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Language } from "@/domain/i18n/copy";
 import type { BreathPhase, World } from "@/domain/worlds/types";
+import { Dialog } from "./Dialog";
 
 const BREATH_SECONDS = 4;
 
@@ -75,14 +76,6 @@ export function WorldExperience({
   const maxSeconds = world.durationMinutes * 60;
 
   useEffect(() => {
-    function onKeyDown(event: KeyboardEvent) {
-      if (event.key === "Escape") onClose();
-    }
-    window.addEventListener("keydown", onKeyDown);
-    return () => window.removeEventListener("keydown", onKeyDown);
-  }, [onClose]);
-
-  useEffect(() => {
     if (!running) return;
     const id = window.setInterval(() => {
       setElapsed((current) => {
@@ -121,7 +114,7 @@ export function WorldExperience({
   }
 
   return (
-    <div className={`world-screen world-${world.id}`} role="dialog" aria-modal="true" aria-label={world.title}>
+    <Dialog className={`world-screen world-${world.id}`} label={world.title} onClose={onClose}>
       <div className="world-topbar">
         <div>
           <span className="world-kicker">{t.kicker}</span>
@@ -200,6 +193,6 @@ export function WorldExperience({
       )}
 
       <p className="world-boundary">{t.boundary}</p>
-    </div>
+    </Dialog>
   );
 }

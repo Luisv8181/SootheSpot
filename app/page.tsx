@@ -16,8 +16,14 @@ import type { CheckInState, MomentContext, Tool, ToolFeedback } from "@/domain/t
 import { worlds } from "@/domain/worlds/seed";
 import type { World } from "@/domain/worlds/types";
 import { WorldExperience } from "@/components/WorldExperience";
+import { usePersonalData } from "@/components/usePersonalData";
+import { PersonalDataControls } from "@/components/PersonalDataControls";
+import { SupportOptions } from "@/components/SupportOptions";
+import { Dialog } from "@/components/Dialog";
+import { deleteTool } from "@/domain/data/actions";
+import { emptyData } from "@/domain/data/storage";
 
-type Tab = "home" | "tools" | "resources" | "worlds" | "profile";
+type Tab = "home" | "tools" | "resources" | "worlds" | "profile" | "support";
 
 export default function Home() {
   const [tab, setTab] = useState<Tab>("home");
@@ -25,10 +31,8 @@ export default function Home() {
   const [language, setLanguage] = useState<Language>("en");
   const [availableMinutes, setAvailableMinutes] = useState<number | undefined>(5);
   const [momentContext, setMomentContext] = useState<MomentContext | undefined>();
-  const [savedIds, setSavedIds] = useState<string[]>([]);
-  const [feedback, setFeedback] = useState<ToolFeedback[]>([]);
-  const [savedResources, setSavedResources] = useState<Resource[]>([]);
-  const [customTools, setCustomTools] = useState<Tool[]>([]);
+  const { data, ready, notice, update, download } = usePersonalData();
+  const { savedIds, feedback, savedResources, customTools, hiddenToolIds } = data;
   const [showToolCreator, setShowToolCreator] = useState(false);
   const [toolQuery, setToolQuery] = useState("");
   const [activeTool, setActiveTool] = useState<Tool | null>(null);
@@ -36,17 +40,10 @@ export default function Home() {
   const [activeWorld, setActiveWorld] = useState<World | null>(null);
 
   useEffect(() => {
-    try {
-      setSavedIds(JSON.parse(localStorage.getItem("soothespot.savedToolIds") ?? "[]"));
-      setFeedback(JSON.parse(localStorage.getItem("soothespot.feedback") ?? "[]"));
-      setSavedResources(JSON.parse(localStorage.getItem("soothespot.savedResources") ?? "[]"));
-      setCustomTools(JSON.parse(localStorage.getItem("soothespot.customTools") ?? "[]"));
-    } catch {
-      // Keep the app usable when local storage is unavailable or malformed.
-    }
-  }, []);
+    document.documentElement.lang = language;
+  }, [language]);
 
-  const allTools = [...seedTools, ...customTools];
+  const allTools = useMemo(() => [...seedTools, ...customTools], [customTools]);
   const t = uiCopy[language];
 
   const recommendations = useMemo(() => {
@@ -56,9 +53,10 @@ export default function Home() {
       language,
       feedback,
       availableMinutes,
-      momentContext
+      momentContext,
+      hiddenToolIds
     });
-  }, [state, language, feedback, availableMinutes, momentContext, allTools]);
+  }, [state, language, feedback, availableMinutes, momentContext, allTools, hiddenToolIds]);
   const historyInsights = useMemo(
     () =>
       allTools
@@ -72,72 +70,60 @@ export default function Home() {
   const savedTools = allTools.filter((tool) => savedIds.includes(tool.id));
   const visibleSavedTools = savedTools.filter((tool) => {
     const q = toolQuery.trim().toLowerCase();
-    return !q || [tool.title, tool.description, tool.category].join(" ").toLowerCase().includes(q);
+    const localized = localizeTool(tool, language);
+    return !q || [localized.title, localized.description, localized.category].join(" ").toLowerCase().includes(q);
   });
+  const visibleSavedResources = savedResources.filter((resource) => !toolQuery.trim() || [resource.name, resource.publisher, resource.description].join(" ").toLowerCase().includes(toolQuery.trim().toLowerCase()));
   const resources = searchResources(resourceQuery, language === "es" ? "Spanish" : "English");
 
-  function addCustomTool(tool: Tool) {
-    const next = [...customTools, tool];
-    setCustomTools(next);
-    localStorage.setItem("soothespot.customTools", JSON.stringify(next));
-    const nextSaved = Array.from(new Set([...savedIds, tool.id]));
-    setSavedIds(nextSaved);
-    localStorage.setItem("soothespot.savedToolIds", JSON.stringify(nextSaved));
-    setShowToolCreator(false);
+  async function addCustomTool(tool: Tool) {
+    const saved = await update((current) => ({ ...current, customTools: [...current.customTools, tool], savedIds: Array.from(new Set([...current.savedIds, tool.id])) }));
+    if (saved) setShowToolCreator(false);
+    return saved;
   }
 
   function deleteCustomTool(toolId: string) {
-    const next = customTools.filter((tool) => tool.id !== toolId);
-    setCustomTools(next);
-    setSavedIds((current) => {
-      const updated = current.filter((id) => id !== toolId);
-      localStorage.setItem("soothespot.savedToolIds", JSON.stringify(updated));
-      return updated;
-    });
-    localStorage.setItem("soothespot.customTools", JSON.stringify(next));
+    if (window.confirm(language === "en" ? "Delete this tool and its feedback? This cannot be undone." : "¿Borrar esta herramienta y sus comentarios? No se puede deshacer.")) update((current) => deleteTool(current, toolId));
   }
 
   function saveTool(tool: Tool) {
-    const next = Array.from(new Set([...savedIds, tool.id]));
-    setSavedIds(next);
-    localStorage.setItem("soothespot.savedToolIds", JSON.stringify(next));
+    update((current) => ({ ...current, savedIds: Array.from(new Set([...current.savedIds, tool.id])) }));
   }
 
   function saveResource(resource: Resource) {
-    const next = [...savedResources.filter((item) => item.id !== resource.id), resource];
-    setSavedResources(next);
-    localStorage.setItem("soothespot.savedResources", JSON.stringify(next));
+    update((current) => ({ ...current, savedResources: [...current.savedResources.filter((item) => item.id !== resource.id), resource] }));
   }
 
-  function giveFeedback(value: ToolFeedback["helpfulness"]) {
+  async function giveFeedback(value: ToolFeedback["helpfulness"]) {
     if (!activeTool) return;
-    const next = [...feedback, {
+    const entry: ToolFeedback = {
       toolId: activeTool.id,
       helpfulness: value,
       createdAt: new Date().toISOString(),
       checkInState: state ?? undefined,
       momentContext
-    }];
-    setFeedback(next);
-    localStorage.setItem("soothespot.feedback", JSON.stringify(next));
-    setActiveTool(null);
+    };
+    if (await update((current) => ({ ...current, feedback: [...current.feedback, entry] }))) setActiveTool(null);
   }
 
-  function clearDemoData() {
-    [
-      "soothespot.savedToolIds",
-      "soothespot.feedback",
-      "soothespot.savedResources",
-      "soothespot.customTools"
-    ].forEach((key) => localStorage.removeItem(key));
-    setSavedIds([]);
-    setFeedback([]);
-    setSavedResources([]);
-    setCustomTools([]);
+  async function clearDemoData() {
+    if (!window.confirm(language === "en" ? "Delete all SootheSpot data in this browser, including tools, feedback, and hidden recommendations? Export first if you want a copy. This cannot be undone." : "¿Borrar todos los datos de SootheSpot en este navegador, incluidas herramientas, comentarios y recomendaciones ocultas? Exporta antes si quieres una copia. No se puede deshacer.")) return;
+    if (!await update(emptyData, true)) return;
     setState(null);
     setMomentContext(undefined);
     setActiveTool(null);
+    setActiveWorld(null);
+    setShowToolCreator(false);
   }
+
+  const noticeText = notice ? {
+    loading: language === "en" ? "Opening your toolbox…" : "Abriendo tu caja de herramientas…",
+    unreadable: language === "en" ? "Some saved data could not be read. It has not been overwritten. Export a backup from You before clearing it. Changes to unreadable collections are blocked." : "No se pudieron leer algunos datos guardados. No se han sobrescrito. Exporta una copia desde Tú antes de borrarlos. Los cambios en esas colecciones están bloqueados.",
+    saveFailed: language === "en" ? "This change could not be saved. Your previous data is unchanged. Check browser storage settings or export a copy." : "No se pudo guardar este cambio. Tus datos anteriores no han cambiado. Revisa el almacenamiento del navegador o exporta una copia.",
+    partialFailure: language === "en" ? "Storage stopped working during this change. Some changes may have been saved. Check your data and export a copy before continuing." : "El almacenamiento dejó de funcionar durante el cambio. Es posible que se guardaran algunos cambios. Revisa tus datos y exporta una copia antes de continuar.",
+    saved: language === "en" ? "Saved in this browser." : "Guardado en este navegador.",
+    exportFailed: language === "en" ? "The export could not be created. Your data has not been deleted." : "No se pudo crear la exportación. Tus datos no se han borrado."
+  }[notice] : null;
 
   function feedbackLabel(toolId: string) {
     const summary = summarizeToolFeedback(feedback, toolId);
@@ -182,6 +168,7 @@ export default function Home() {
       </header>
 
       <div className="content">
+        {noticeText && !activeTool && !showToolCreator && <p className="storage-notice" role={notice === "saved" || notice === "loading" ? "status" : "alert"}>{noticeText}</p>}
         {tab === "home" && (
           <>
             <section className="hero">
@@ -246,7 +233,7 @@ export default function Home() {
                 <div className="section-heading">
                   <div>
                     <p className="eyebrow">{t.forThisMoment}</p>
-                    <h2>{stateCopy[language][state]}</h2>
+                    <h2 id="recommendations-title" tabIndex={-1}>{stateCopy[language][state]}</h2>
                   </div>
                   <span className="context-pill">
                     {language === "en" ? "English" : "Español"} · personal
@@ -259,7 +246,7 @@ export default function Home() {
                     <p>{t.supportBody}</p>
                     <div className="resource-actions">
                       <button onClick={() => setTab("tools")}>{t.useToolbox}</button>
-                      <button onClick={() => setTab("profile")}>{t.supportOptions}</button>
+                      <button onClick={() => setTab("support")}>{t.supportOptions}</button>
                     </div>
                   </div>
                 ) : (
@@ -273,32 +260,36 @@ export default function Home() {
                         language={language}
                       />
                     ))}
+                    {recommendations.length === 0 && <div className="empty-state">
+                      <p>{language === "en" ? "No tools match these choices right now. You can change the time, use your toolbox, or restore hidden recommendations in You." : "No hay herramientas que coincidan ahora. Puedes cambiar el tiempo, usar tu caja de herramientas o restaurar recomendaciones ocultas en Tú."}</p>
+                      <button onClick={() => setTab("tools")}>{t.useToolbox}</button>
+                    </div>}
                   </div>
                 )}
               </section>
             )}
 
-            <section className="featured-world">
+            {state !== "support" && <section className="featured-world">
               <div>
                 <p className="eyebrow">{language === "en" ? "A few quiet minutes" : "Unos minutos de calma"}</p>
                 <h2>{language === "en" ? "Nothing to solve right now." : "No hay nada que resolver ahora mismo."}</h2>
                 <p>{language === "en" ? "Try a simple breathing experience and let your attention settle." : "Prueba una experiencia sencilla de respiración y deja que tu atención se asiente."}</p>
               </div>
               <button className="featured-world-button" onClick={() => setActiveWorld(worlds[0])}>{language === "en" ? "Open Ocean Calm" : "Abrir Ocean Calm"}</button>
-            </section>
+            </section>}
 
             <section className="quick-section">
               <button className="quick-card" onClick={() => setTab("tools")}>
                 <span>{t.toolbox}</span>
-                <small>{savedTools.length + savedResources.length} saved</small>
+                <small>{savedTools.length + savedResources.length} {language === "en" ? "saved" : "guardados"}</small>
               </button>
               <button className="quick-card" onClick={() => setTab("resources")}>
                 <span>{t.exploreResources}</span>
-                <small>{resourceRegistry.length} curated now</small>
+                <small>{resourceRegistry.length} {language === "en" ? "curated now" : "seleccionados"}</small>
               </button>
               <button className="quick-card" onClick={() => setTab("worlds")}>
                 <span>{t.experiences}</span>
-                <small>{worlds.length} interactive worlds</small>
+                <small>{worlds.length} {language === "en" ? "interactive worlds" : "mundos interactivos"}</small>
               </button>
             </section>
           </>
@@ -350,7 +341,7 @@ export default function Home() {
             )}
 
             <div className="toolbox-actions">
-              <button className="primary-button compact-button" onClick={() => setShowToolCreator(true)}>{t.createTool}</button>
+              <button disabled={!ready} className="primary-button compact-button" onClick={() => setShowToolCreator(true)}>{t.createTool}</button>
               <input
                 className="search-input toolbox-search"
                 value={toolQuery}
@@ -366,24 +357,27 @@ export default function Home() {
                   <ToolCard tool={localizeTool(tool, language)} onOpen={setActiveTool} language={language} />
                   {feedbackLabel(tool.id) && <span className="tool-reason">{feedbackLabel(tool.id)}</span>}
                   {tool.provenance === "client-created" && tool.id.startsWith("custom-") && (
-                    <button className="delete-tool-button" onClick={() => deleteCustomTool(tool.id)}>Delete</button>
+                    <button className="delete-tool-button" onClick={() => deleteCustomTool(tool.id)}>{language === "en" ? "Delete" : "Borrar"}</button>
                   )}
+                  {!tool.id.startsWith("custom-") && <button className="delete-tool-button" onClick={() => update((current) => ({ ...current, savedIds: current.savedIds.filter((id) => id !== tool.id) }))}>{language === "en" ? "Remove from toolbox" : "Quitar de la caja"}</button>}
                 </div>
               ))}
-              {savedResources.map((resource) => (
+              {visibleSavedResources.map((resource) => (
                 <div className="saved-resource-row" key={resource.id}>
                   <div>
                     <strong>{resource.name}</strong>
                     <span>{resource.publisher}</span>
                   </div>
-                  <a href={resource.official_url} target="_blank" rel="noreferrer">Open</a>
+                  <a href={resource.official_url} target="_blank" rel="noreferrer">{language === "en" ? "Open" : "Abrir"}</a>
+                  <button onClick={() => update((current) => ({ ...current, savedResources: current.savedResources.filter((item) => item.id !== resource.id) }))}>{language === "en" ? "Remove" : "Quitar"}</button>
                 </div>
               ))}
             </div>
 
-            {!visibleSavedTools.length && !savedResources.length && (
+            {!visibleSavedTools.length && !visibleSavedResources.length && (
               <div className="empty-state">
-                Save something from your recommendations or the Resource Explorer and it will appear here.
+                <p>{toolQuery ? (language === "en" ? "Nothing in your toolbox matches this search." : "Nada en tu caja coincide con esta búsqueda.") : (language === "en" ? "Start with something you already know helps, or save a recommendation from Home." : "Empieza con algo que ya sabes que te ayuda o guarda una recomendación de Inicio.")}</p>
+                <button onClick={() => toolQuery ? setToolQuery("") : setTab("home")}>{toolQuery ? (language === "en" ? "Clear search" : "Borrar búsqueda") : (language === "en" ? "Find a tool" : "Buscar una herramienta")}</button>
               </div>
             )}
           </section>
@@ -405,6 +399,7 @@ export default function Home() {
               {resources.map((resource) => (
                 <ResourceCard key={resource.id} resource={resource} onSave={saveResource} language={language} />
               ))}
+              {resources.length === 0 && <p className="empty-state">{language === "en" ? "No resources match this search and language. Try another search." : "No hay recursos para esta búsqueda e idioma. Prueba otra búsqueda."}</p>}
             </div>
           </section>
         )}
@@ -431,6 +426,8 @@ export default function Home() {
             </div>
           </section>
         )}
+
+        {tab === "support" && <SupportOptions language={language} onToolbox={() => setTab("tools")} />}
 
         {tab === "profile" && (
           <section className="page-section">
@@ -465,11 +462,8 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="resource-card">
-              <strong>{t.clearData}</strong>
-              <p>{t.clearDataCopy}</p>
-              <button className="primary-button" onClick={clearDemoData}>{t.clearData}</button>
-            </div>
+            <button className="primary-button" onClick={() => setTab("support")}>{t.supportOptions}</button>
+            <PersonalDataControls data={data} tools={allTools} language={language} update={update} onExport={download} onClear={clearDemoData} />
           </section>
         )}
       </div>
@@ -482,12 +476,12 @@ export default function Home() {
         <button aria-current={tab === "profile" ? "page" : undefined} className={tab === "profile" ? "active" : ""} onClick={() => setTab("profile")}><span aria-hidden="true">○</span>{t.you}</button>
       </nav>
 
-      {showToolCreator && <ToolCreator onCreate={addCustomTool} onClose={() => setShowToolCreator(false)} language={language} />}
+      {showToolCreator && <ToolCreator onCreate={addCustomTool} onClose={() => setShowToolCreator(false)} language={language} storageError={noticeText} />}
 
       {activeWorld && <WorldExperience world={activeWorld} onClose={() => setActiveWorld(null)} language={language} />}
 
       {activeTool && (
-        <div className="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="tool-title">
+        <Dialog titleId="tool-title" onClose={() => setActiveTool(null)}>
           <div className="modal">
             <button className="close-button" onClick={() => setActiveTool(null)} aria-label={t.close}>×</button>
             <p className="eyebrow">{activeTool.category}</p>
@@ -500,9 +494,16 @@ export default function Home() {
               ))}
             </ol>
 
-            <button className="primary-button" onClick={() => saveTool(activeTool)}>
-              {t.saveTool}
+            {noticeText && <p className="storage-notice" role="status">{noticeText}</p>}
+            <button disabled={!ready || savedIds.includes(activeTool.id)} className="primary-button" onClick={() => saveTool(activeTool)}>
+              {savedIds.includes(activeTool.id) ? (language === "en" ? "Saved to My Toolbox" : "Guardado en mi caja") : t.saveTool}
             </button>
+            <button className="delete-tool-button" onClick={async () => {
+              const id = activeTool.id;
+              const restore = hiddenToolIds.includes(id);
+              const saved = await update((current) => ({ ...current, hiddenToolIds: restore ? current.hiddenToolIds.filter((item) => item !== id) : Array.from(new Set([...current.hiddenToolIds, id])) }));
+              if (saved) setActiveTool(null);
+            }}>{hiddenToolIds.includes(activeTool.id) ? (language === "en" ? "Allow recommendations again" : "Permitir recomendaciones otra vez") : (language === "en" ? "Don't recommend this" : "No recomendar esto")}</button>
 
             <div className="feedback">
               <p>{t.didHelp}</p>
@@ -513,7 +514,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </Dialog>
       )}
     </main>
   );
