@@ -18,6 +18,7 @@ test("create, use, remember, export, reset, and delete a personal tool", async (
   await expect(dialog).toHaveCount(0);
   await page.getByRole("button", { name: /A quiet stretch/ }).click();
   await page.getByRole("button", { name: "A lot", exact: true }).click();
+  await expect(dialog).toHaveCount(0);
   await page.reload();
   await page.getByRole("navigation").getByRole("button", { name: "Tools", exact: true }).click();
   await expect(page.getByRole("button", { name: /A quiet stretch/ })).toBeVisible();
@@ -100,6 +101,7 @@ test("a stale second tab cannot resurrect cleared feedback", async ({ page, cont
   await page.getByRole("button", { name: "Anxious", exact: true }).click();
   await page.getByRole("button", { name: /4-7-8 Breathing/ }).click();
   await page.getByRole("button", { name: "A lot", exact: true }).click();
+  await expect(page.getByRole("dialog")).toHaveCount(0);
   const second = await context.newPage();
   await second.addInitScript(() => window.addEventListener("storage", (event) => event.stopImmediatePropagation()));
   await second.goto("./");
