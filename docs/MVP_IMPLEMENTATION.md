@@ -35,3 +35,28 @@ The first Worlds slice includes Ocean Calm, Soft Focus, and Grounding Garden. Th
 5. Full localization infrastructure
 6. Resource metadata filters for locale/region/accessibility/cultural adaptation
 7. End-to-end tests
+
+## Trustworthy toolbox milestone (2026-09-25)
+
+Added independent Zod validation of browser collections, transactional best-effort
+rollback for multi-key writes/deletion, visible storage errors, Web Locks serialization
+across tabs, JSON export (including unreadable raw collections), individual feedback
+deletion, learned-history reset, and reversible recommendation exclusions. The UI
+reflects only successfully persisted changes; incomplete rollback triggers a reload
+and an explicit partial-failure warning. Local storage cannot guarantee crash-atomic
+multi-key writes; durable transactional persistence is still a future milestone.
+
+Support now has a dedicated bilingual handoff screen. US/Canada resources are explicitly
+selected and link to primary sources checked on 2026-09-25. A global directory is always
+available. Region and optional dialer input are not persisted. There is no risk classifier,
+contact import, automatic messaging, or emergency monitoring.
+
+New controls and no-results states have English/Spanish copy. Dialogs trap focus,
+support Escape, make the background inert, and restore focus, including when a hidden
+recommendation removes its opener. Existing UI localization beyond this milestone
+remains incomplete.
+
+Unit tests cover data/retrieval/support/deployment contracts. Playwright now checks the
+production static export on mobile and desktop, including stale-tab history deletion,
+quota failures, corrupt saved data, support selection, export, reset, and keyboard focus.
+Authentication, cross-device persistence, and user research remain outstanding.
