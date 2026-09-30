@@ -275,7 +275,7 @@ export default function Home() {
                 <h2>{language === "en" ? "Nothing to solve right now." : "No hay nada que resolver ahora mismo."}</h2>
                 <p>{language === "en" ? "Try a simple breathing experience and let your attention settle." : "Prueba una experiencia sencilla de respiración y deja que tu atención se asiente."}</p>
               </div>
-              <button className="featured-world-button" onClick={() => setActiveWorld(worlds[0])}>{language === "en" ? "Open Ocean Calm" : "Abrir Ocean Calm"}</button>
+              <button className="featured-world-button" onClick={() => setActiveWorld(worlds[0])}>{language === "en" ? `Open ${worlds[0].title.en}` : `Abrir ${worlds[0].title.es}`}</button>
             </section>}
 
             <section className="quick-section">
@@ -417,8 +417,8 @@ export default function Home() {
                     <span />
                   </span>
                   <span className="world-card-copy">
-                    <strong>{world.title}</strong>
-                    <small>{world.description}</small>
+                    <strong>{world.title[language]}</strong>
+                    <small>{world.description[language]}</small>
                     <em>{world.durationMinutes} min · {world.category}</em>
                   </span>
                 </button>

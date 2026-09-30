@@ -1,63 +1,69 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import type { Language } from "@/domain/i18n/copy";
-import type { BreathPhase, World } from "@/domain/worlds/types";
+import type { BreathActivity, GroundingActivity, World } from "@/domain/worlds/types";
+import { breathPhaseAt } from "@/domain/worlds/spec";
 import { Dialog } from "./Dialog";
-
-const BREATH_SECONDS = 4;
+import { useExperienceClock } from "./worlds/useExperienceClock";
 
 const labels = {
   en: {
     kicker: "SootheSpot World",
-    ready: "When you're ready",
-    follow: "Follow the circle. There is nothing else to solve.",
-    press: "Press start and let the rhythm do the counting.",
-    begin: "Begin",
+    ready: "Ready when you are",
+    begin: "Start",
     pause: "Pause",
+    resume: "Resume",
     reset: "Reset",
+    done: "Done",
+    exit: "Close experience",
     breatheIn: "Breathe in",
-    hold: "Pause",
+    hold: "Pause softly",
     breatheOut: "Breathe out",
-    focus: "Choose one point to notice.",
-    focusSub: "Let your attention rest there for one slow breath.",
-    startMinutes: (minutes: number) => `Start ${minutes} minutes`,
-    garden: "Come back to the room.",
-    gardenSub: "Tap each sense after you notice something.",
+    steady: "Let your attention rest on one steady point.",
+    complete: "That is enough for this round.",
+    completionSub: "Notice whether you want to continue, stop, or return to your toolbox.",
     noticed: "Noticed",
-    senses: ["See", "Hear", "Feel", "Smell", "Taste"],
-    prompts: ["Look for one shape or color.", "Notice one sound near you.", "Notice one point of contact.", "Notice one scent.", "Notice one taste or sensation."],
-    count: (n: number, total: number) => `${n} of ${total} senses noticed`,
-    boundary: "SootheSpot Worlds are brief self-guided experiences, not emergency care or a substitute for professional support."
+    undo: "Undo",
+    progress: (elapsed: string, total: string) => `${elapsed} of ${total}`,
+    senses: (count: number, total: number) => `${count} of ${total} senses noticed`,
+    boundary: "Brief self-guided regulation. Not emergency care or a substitute for professional support."
   },
   es: {
     kicker: "Mundo SootheSpot",
-    ready: "Cuando estés listo/a",
-    follow: "Sigue el círculo. No hay nada más que resolver ahora.",
-    press: "Pulsa empezar y deja que el ritmo lleve la cuenta.",
+    ready: "Listo cuando tú lo estés",
     begin: "Empezar",
     pause: "Pausar",
+    resume: "Continuar",
     reset: "Reiniciar",
+    done: "Listo",
+    exit: "Cerrar experiencia",
     breatheIn: "Inhala",
-    hold: "Pausa",
+    hold: "Pausa suave",
     breatheOut: "Exhala",
-    focus: "Elige un punto para observar.",
-    focusSub: "Deja que tu atención descanse allí durante una respiración lenta.",
-    startMinutes: (minutes: number) => `Empezar ${minutes} minutos`,
-    garden: "Vuelve a la habitación.",
-    gardenSub: "Toca cada sentido después de notar algo.",
+    steady: "Deja que tu atención descanse en un punto estable.",
+    complete: "Eso es suficiente por ahora.",
+    completionSub: "Nota si quieres continuar, parar o volver a tu caja de herramientas.",
     noticed: "Notado",
-    senses: ["Ver", "Oír", "Sentir", "Oler", "Saborear"],
-    prompts: ["Busca una forma o un color.", "Nota un sonido cercano.", "Nota un punto de contacto.", "Nota un olor.", "Nota un sabor o una sensación."],
-    count: (n: number, total: number) => `${n} de ${total} sentidos notados`,
-    boundary: "Los Mundos SootheSpot son experiencias breves y autoguiadas; no son atención de emergencia ni sustituyen el apoyo profesional."
+    undo: "Deshacer",
+    progress: (elapsed: string, total: string) => `${elapsed} de ${total}`,
+    senses: (count: number, total: number) => `${count} de ${total} sentidos notados`,
+    boundary: "Regulación breve y autoguiada. No es atención de emergencia ni sustituye el apoyo profesional."
   }
 } as const;
 
-function phaseFor(second: number): BreathPhase {
-  if (second < BREATH_SECONDS) return "inhale";
-  if (second < BREATH_SECONDS * 2) return "hold";
-  return "exhale";
+function formatTime(totalSeconds: number) {
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  return `${minutes}:${String(seconds).padStart(2, "0")}`;
+}
+
+function findBreath(world: World): BreathActivity | undefined {
+  return world.activity.find((activity): activity is BreathActivity => activity.type === "breathRhythm");
+}
+
+function findGrounding(world: World): GroundingActivity | undefined {
+  return world.activity.find((activity): activity is GroundingActivity => activity.type === "groundingPrompt");
 }
 
 export function WorldExperience({
@@ -70,127 +76,123 @@ export function WorldExperience({
   language: Language;
 }) {
   const t = labels[language];
-  const [running, setRunning] = useState(false);
-  const [elapsed, setElapsed] = useState(0);
+  const totalSeconds = world.durationMinutes * 60;
+  const clock = useExperienceClock(totalSeconds);
   const [noticed, setNoticed] = useState<string[]>([]);
-  const maxSeconds = world.durationMinutes * 60;
+  const breath = findBreath(world);
+  const grounding = findGrounding(world);
+  const phase = breath ? breathPhaseAt(clock.elapsed, breath) : null;
+  const phaseLabel = phase === "inhale" ? t.breatheIn : phase === "hold" ? t.hold : phase === "exhale" ? t.breatheOut : t.ready;
+  const progress = Math.min(100, (clock.elapsed / totalSeconds) * 100);
+  const title = world.title[language];
+  const purpose = world.purpose[language];
+  const sceneClass = `world-screen world-${world.id} world-theme-${world.theme}`;
+  const completed = clock.complete || (grounding ? noticed.length === grounding.senses.length : false);
 
-  useEffect(() => {
-    if (!running) return;
-    const id = window.setInterval(() => {
-      setElapsed((current) => {
-        const next = current + 1;
-        if (next >= maxSeconds) {
-          setRunning(false);
-          return maxSeconds;
-        }
-        return next;
-      });
-    }, 1000);
-    return () => window.clearInterval(id);
-  }, [running, maxSeconds]);
+  const visualState = useMemo(() => {
+    if (!clock.running) return "paused";
+    if (phase) return phase;
+    return "running";
+  }, [clock.running, phase]);
 
-  const cycleSecond = elapsed % (BREATH_SECONDS * 3);
-  const phase = phaseFor(cycleSecond);
-  const phaseLabel = phase === "inhale" ? t.breatheIn : phase === "hold" ? t.hold : t.breatheOut;
-  const cycleProgress = ((cycleSecond + 1) / (BREATH_SECONDS * 3)) * 100;
-  const minutes = Math.floor(elapsed / 60);
-  const seconds = elapsed % 60;
-
-  const senses = useMemo(
-    () => t.senses.map((label, index) => [label, t.prompts[index]] as const),
-    [t]
-  );
-
-  function toggleNoticed(label: string) {
+  function toggleNoticed(key: string) {
     setNoticed((current) =>
-      current.includes(label) ? current.filter((item) => item !== label) : [...current, label]
+      current.includes(key) ? current.filter((item) => item !== key) : [...current, key]
     );
   }
 
-  function toggleTimer() {
-    if (!running && elapsed >= maxSeconds) setElapsed(0);
-    setRunning((value) => !value);
-  }
-
   return (
-    <Dialog className={`world-screen world-${world.id}`} label={world.title} onClose={onClose}>
+    <Dialog className={sceneClass} label={title} onClose={onClose}>
+      <div className="world-atmosphere" aria-hidden="true">
+        <span className="world-layer world-layer-one" />
+        <span className="world-layer world-layer-two" />
+        <span className="world-layer world-layer-three" />
+      </div>
+
       <div className="world-topbar">
         <div>
           <span className="world-kicker">{t.kicker}</span>
-          <h2>{world.title}</h2>
+          <h2>{title}</h2>
+          <p>{purpose}</p>
         </div>
-        <button className="world-close" onClick={onClose} aria-label={language === "en" ? "Close experience" : "Cerrar experiencia"}>×</button>
+        <button className="world-close" onClick={onClose} aria-label={t.exit}>×</button>
       </div>
 
-      {world.id === "ocean-calm" && (
-        <section className="world-stage ocean-stage">
-          <div className={`breath-orb ${running ? "breathing" : ""}`} aria-hidden="true">
-            <div className="breath-orb-inner" />
+      <section className={`world-stage is-${visualState}`} aria-live="polite">
+        {world.id === "ocean-calm" && (
+          <div className="ocean-scene" aria-hidden="true">
+            <span className="ocean-sun" />
+            <span className="ocean-horizon" />
+            <span className="ocean-wave ocean-wave-one" />
+            <span className="ocean-wave ocean-wave-two" />
+            <span className="breath-orb">
+              <span className="breath-orb-inner" />
+            </span>
           </div>
-          <p className="world-phase">{running ? phaseLabel : t.ready}</p>
-          <p className="world-subtle">
-            {running ? t.follow : t.press}
-          </p>
-          <div className="world-controls">
-            <button className="world-primary" onClick={toggleTimer}>
-              {running ? t.pause : t.begin}
-            </button>
-            <button className="world-secondary" onClick={() => { setElapsed(0); setRunning(false); }}>
-              {t.reset}
-            </button>
-          </div>
-          <div className="world-progress" aria-label={`${Math.round(cycleProgress)} percent through breathing cycle`}>
-            <span style={{ width: `${cycleProgress}%` }} />
-          </div>
-          <p className="world-timer">{minutes}:{String(seconds).padStart(2, "0")} / {world.durationMinutes}:00</p>
-        </section>
-      )}
+        )}
 
-      {world.id === "soft-focus" && (
-        <section className="world-stage focus-stage">
-          <div className="focus-field" aria-hidden="true">
-            <span className="focus-glow focus-glow-a" />
-            <span className="focus-glow focus-glow-b" />
-            <span className="focus-dot" />
+        {world.id === "soft-focus" && (
+          <div className="focus-scene" aria-hidden="true">
+            <span className="focus-plane focus-plane-one" />
+            <span className="focus-plane focus-plane-two" />
+            <span className="focus-anchor" />
           </div>
-          <p className="world-phase">{t.focus}</p>
-          <p className="world-subtle">{t.focusSub}</p>
-          <div className="world-controls">
-            <button className="world-primary" onClick={toggleTimer}>
-              {running ? t.pause : t.startMinutes(world.durationMinutes)}
-            </button>
-            <button className="world-secondary" onClick={() => { setElapsed(0); setRunning(false); }}>{t.reset}</button>
-          </div>
-          <p className="world-timer">{minutes}:{String(seconds).padStart(2, "0")} / {world.durationMinutes}:00</p>
-        </section>
-      )}
+        )}
 
-      {world.id === "grounding-garden" && (
-        <section className="world-stage garden-stage">
-          <div className="garden-visual" aria-hidden="true">
-            <div className="garden-sun" />
-            <div className="garden-hill garden-hill-one" />
-            <div className="garden-hill garden-hill-two" />
-            <div className="garden-stem" />
+        {world.id === "grounding-garden" && (
+          <div className="garden-scene" aria-hidden="true">
+            <span className="garden-sky-sun" />
+            <span className="garden-hill garden-hill-one" />
+            <span className="garden-hill garden-hill-two" />
+            <span className="garden-path" />
+            <span className="garden-leaf garden-leaf-one" />
+            <span className="garden-leaf garden-leaf-two" />
           </div>
-          <p className="world-phase">{t.garden}</p>
-          <p className="world-subtle">{t.gardenSub}</p>
+        )}
+
+        <div className="world-guidance">
+          <p className="world-phase">{completed ? t.complete : breath ? phaseLabel : clock.running ? t.steady : t.ready}</p>
+          <p className="world-subtle">{completed ? t.completionSub : world.description[language]}</p>
+        </div>
+
+        {grounding && (
           <div className="sense-grid">
-            {senses.map(([label, prompt]) => (
-              <button
-                key={label}
-                className={`sense-card ${noticed.includes(label) ? "noticed" : ""}`}
-                onClick={() => toggleNoticed(label)}
-              >
-                <strong>{label}</strong>
-                <small>{noticed.includes(label) ? t.noticed : prompt}</small>
-              </button>
-            ))}
+            {grounding.senses.map((item) => {
+              const key = item.sense.en;
+              const isNoticed = noticed.includes(key);
+              return (
+                <button
+                  key={key}
+                  className={`sense-card ${isNoticed ? "noticed" : ""}`}
+                  onClick={() => toggleNoticed(key)}
+                  aria-pressed={isNoticed}
+                >
+                  <strong>{item.sense[language]}</strong>
+                  <small>{isNoticed ? `${t.noticed} · ${t.undo}` : item.prompt[language]}</small>
+                </button>
+              );
+            })}
           </div>
-          <p className="world-count">{t.count(noticed.length, senses.length)}</p>
-        </section>
-      )}
+        )}
+
+        <div className="world-controls" aria-label={language === "en" ? "Experience controls" : "Controles de la experiencia"}>
+          {clock.running ? (
+            <button className="world-primary" onClick={clock.pause}>{t.pause}</button>
+          ) : (
+            <button className="world-primary" onClick={clock.start}>{clock.elapsed > 0 && !clock.complete ? t.resume : t.begin}</button>
+          )}
+          <button className="world-secondary" onClick={() => { clock.reset(); setNoticed([]); }}>{t.reset}</button>
+          {completed && <button className="world-secondary" onClick={onClose}>{t.done}</button>}
+        </div>
+
+        <div className="world-progress" aria-label={t.progress(formatTime(clock.elapsed), formatTime(totalSeconds))}>
+          <span style={{ width: `${progress}%` }} />
+        </div>
+        <p className="world-timer">
+          {grounding ? t.senses(noticed.length, grounding.senses.length) + " · " : ""}
+          {t.progress(formatTime(clock.elapsed), formatTime(totalSeconds))}
+        </p>
+      </section>
 
       <p className="world-boundary">{t.boundary}</p>
     </Dialog>

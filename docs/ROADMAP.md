@@ -242,10 +242,10 @@ Let people create and keep small, beautiful, safe interactive experiences that f
 - [x] bounded timers
 
 ### World platform
-- [ ] ExperienceSpec
-- [ ] schema validation
-- [ ] approved component library
-- [ ] World renderer
+- [x] ExperienceSpec
+- [x] schema validation
+- [x] approved component library
+- [x] World renderer
 - [ ] sanitization layer
 - [ ] sandboxed iframe
 - [ ] restrictive CSP
