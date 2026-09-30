@@ -4,13 +4,26 @@ import { breathPhaseAt, experienceSpecSchema } from "../domain/worlds/spec";
 
 describe("SootheSpot Worlds", () => {
   it("ships only valid allowlisted experience specs", () => {
-    expect(worlds.map((world) => world.id)).toEqual(["ocean-calm", "soft-focus", "grounding-garden"]);
+    expect(worlds.map((world) => world.id)).toEqual(["ocean-calm", "soft-focus", "grounding-garden", "ripple-field"]);
     for (const world of worlds) {
       expect(experienceSpecSchema.parse(world)).toEqual(world);
       expect(world.provenance).toBe("soothespot");
       expect(world.title.en).toBeTruthy();
       expect(world.title.es).toBeTruthy();
     }
+  });
+
+  it("offers ocean breathing without a required hold", () => {
+    const rhythm = worlds[0].activity.find((item) => item.type === "breathRhythm");
+    expect(rhythm?.holdSeconds).toBe(0);
+  });
+
+  it("includes a bilingual experimental ripple activity", () => {
+    const ripple = worlds.find((world) => String(world.id) === "ripple-field");
+    expect(ripple).toBeDefined();
+    expect(ripple?.activity.some((item) => String(item.type) === "rippleInteraction")).toBe(true);
+    expect(ripple?.title.es).toBe("Campo de ondas");
+    expect(experienceSpecSchema.safeParse({ ...ripple, theme: "ocean" }).success).toBe(false);
   });
 
   it("rejects unknown fields and mismatched world categories", () => {

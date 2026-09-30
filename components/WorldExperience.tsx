@@ -1,200 +1,106 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Language } from "@/domain/i18n/copy";
-import type { BreathActivity, GroundingActivity, World } from "@/domain/worlds/types";
+import type { World } from "@/domain/worlds/types";
 import { breathPhaseAt } from "@/domain/worlds/spec";
 import { Dialog } from "./Dialog";
 import { useExperienceClock } from "./worlds/useExperienceClock";
+import { WorldScene } from "./worlds/WorldScene";
+import { RippleField } from "./worlds/RippleField";
+import "./worlds/worlds.css";
 
 const labels = {
   en: {
-    kicker: "SootheSpot World",
-    ready: "Ready when you are",
-    begin: "Start",
-    pause: "Pause",
-    resume: "Resume",
-    reset: "Reset",
-    done: "Done",
-    exit: "Close experience",
-    breatheIn: "Breathe in",
-    hold: "Pause softly",
-    breatheOut: "Breathe out",
-    steady: "Let your attention rest on one steady point.",
-    complete: "That is enough for this round.",
-    completionSub: "Notice whether you want to continue, stop, or return to your toolbox.",
-    noticed: "Noticed",
-    undo: "Undo",
-    progress: (elapsed: string, total: string) => `${elapsed} of ${total}`,
-    senses: (count: number, total: number) => `${count} of ${total} senses noticed`,
-    boundary: "Brief self-guided regulation. Not emergency care or a substitute for professional support."
+    kicker: "SootheSpot World", ready: "Ready when you are", begin: "Start", pause: "Pause", resume: "Resume", reset: "Reset", done: "Return to Worlds", exit: "Close experience",
+    inhale: "Breathe in", hold: "Pause softly", exhale: "Breathe out", steady: "Let your attention rest here.", complete: "That is enough for this round.",
+    completionSub: "Take a moment. You can stay, start again, or leave.", still: "Still visuals", fixed: "Steady light", drift: "Slow drift", notice: "I noticed something", skip: "Skip this sense", back: "Back", experimental: "Experimental",
+    breathNote: "No need to hold your breath. Follow only if comfortable.", rippleNote: "Tap anywhere, or focus the pool and press Enter. Nothing is saved.",
+    senseNote: "Use your surroundings. Skip any sense that does not fit.",
+    boundary: "Self-guided wellbeing experience · not emergency care.",
+    senses: (n: number) => `${n} ${n === 1 ? "sense" : "senses"} noticed`, step: (n: number) => `Sense ${n} of 5`, progress: (a: string, b: string) => `${a} of ${b}`
   },
   es: {
-    kicker: "Mundo SootheSpot",
-    ready: "Listo cuando tú lo estés",
-    begin: "Empezar",
-    pause: "Pausar",
-    resume: "Continuar",
-    reset: "Reiniciar",
-    done: "Listo",
-    exit: "Cerrar experiencia",
-    breatheIn: "Inhala",
-    hold: "Pausa suave",
-    breatheOut: "Exhala",
-    steady: "Deja que tu atención descanse en un punto estable.",
-    complete: "Eso es suficiente por ahora.",
-    completionSub: "Nota si quieres continuar, parar o volver a tu caja de herramientas.",
-    noticed: "Notado",
-    undo: "Deshacer",
-    progress: (elapsed: string, total: string) => `${elapsed} de ${total}`,
-    senses: (count: number, total: number) => `${count} de ${total} sentidos notados`,
-    boundary: "Regulación breve y autoguiada. No es atención de emergencia ni sustituye el apoyo profesional."
+    kicker: "Mundo SootheSpot", ready: "Listo cuando tú lo estés", begin: "Empezar", pause: "Pausar", resume: "Continuar", reset: "Reiniciar", done: "Volver a Mundos", exit: "Cerrar experiencia",
+    inhale: "Inhala", hold: "Pausa suave", exhale: "Exhala", steady: "Deja que tu atención descanse aquí.", complete: "Eso es suficiente por ahora.",
+    completionSub: "Tómate un momento. Puedes quedarte, empezar de nuevo o salir.", still: "Imágenes quietas", fixed: "Luz estable", drift: "Movimiento lento", notice: "Noté algo", skip: "Omitir este sentido", back: "Atrás", experimental: "Experimental",
+    breathNote: "No hace falta contener la respiración. Sigue el ritmo solo si te resulta cómodo.", rippleNote: "Toca el agua o enfoca el estanque y pulsa Intro. No se guarda nada.",
+    senseNote: "Observa tu entorno. Puedes omitir cualquier sentido.", boundary: "Experiencia de bienestar autoguiada · no es atención de emergencia.",
+    senses: (n: number) => `${n} ${n === 1 ? "sentido notado" : "sentidos notados"}`, step: (n: number) => `Sentido ${n} de 5`, progress: (a: string, b: string) => `${a} de ${b}`
   }
-} as const;
+};
 
-function formatTime(totalSeconds: number) {
-  const minutes = Math.floor(totalSeconds / 60);
-  const seconds = totalSeconds % 60;
-  return `${minutes}:${String(seconds).padStart(2, "0")}`;
+function time(seconds: number) {
+  return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`;
 }
 
-function findBreath(world: World): BreathActivity | undefined {
-  return world.activity.find((activity): activity is BreathActivity => activity.type === "breathRhythm");
-}
-
-function findGrounding(world: World): GroundingActivity | undefined {
-  return world.activity.find((activity): activity is GroundingActivity => activity.type === "groundingPrompt");
-}
-
-export function WorldExperience({
-  world,
-  onClose,
-  language
-}: {
-  world: World;
-  onClose: () => void;
-  language: Language;
-}) {
+export function WorldExperience({ world, onClose, language }: { world: World; onClose: () => void; language: Language }) {
   const t = labels[language];
-  const totalSeconds = world.durationMinutes * 60;
-  const clock = useExperienceClock(totalSeconds);
-  const [noticed, setNoticed] = useState<string[]>([]);
-  const breath = findBreath(world);
-  const grounding = findGrounding(world);
+  const clock = useExperienceClock(world.durationMinutes * 60);
+  const [systemStill, setSystemStill] = useState(false);
+  const [requestedStill, setRequestedStill] = useState(false);
+  const [drift, setDrift] = useState(false);
+  const [step, setStep] = useState(0);
+  const [answers, setAnswers] = useState<boolean[]>([]);
+  const [resetKey, setResetKey] = useState(0);
+  const [sessionStarted, setSessionStarted] = useState(false);
+  const completionButton = useRef<HTMLButtonElement>(null);
+  useEffect(() => {
+    const media = window.matchMedia("(prefers-reduced-motion: reduce)");
+    function update() { setSystemStill(media.matches); }
+    update();
+    media.addEventListener("change", update);
+    return () => media.removeEventListener("change", update);
+  }, []);
+  const still = systemStill || requestedStill;
+  const breath = world.activity.find((activity) => activity.type === "breathRhythm");
+  const grounding = world.activity.find((activity) => activity.type === "groundingPrompt");
+  const isRipple = world.id === "ripple-field";
+  const complete = clock.complete || !!(grounding && step >= grounding.senses.length);
+  useEffect(() => {
+    if (complete) completionButton.current?.focus();
+  }, [complete]);
   const phase = breath ? breathPhaseAt(clock.elapsed, breath) : null;
-  const phaseLabel = phase === "inhale" ? t.breatheIn : phase === "hold" ? t.hold : phase === "exhale" ? t.breatheOut : t.ready;
-  const progress = Math.min(100, (clock.elapsed / totalSeconds) * 100);
-  const title = world.title[language];
-  const purpose = world.purpose[language];
-  const sceneClass = `world-screen world-${world.id} world-theme-${world.theme}`;
-  const completed = clock.complete || (grounding ? noticed.length === grounding.senses.length : false);
-
-  const visualState = useMemo(() => {
-    if (!clock.running) return "paused";
-    if (phase) return phase;
-    return "running";
-  }, [clock.running, phase]);
-
-  function toggleNoticed(key: string) {
-    setNoticed((current) =>
-      current.includes(key) ? current.filter((item) => item !== key) : [...current, key]
-    );
+  const phaseText = phase === "inhale" ? t.inhale : phase === "exhale" ? t.exhale : t.hold;
+  const position = breath ? clock.elapsed % (breath.inhaleSeconds + breath.holdSeconds + breath.exhaleSeconds) : 0;
+  const breathLevel = breath ? position < breath.inhaleSeconds ? position / breath.inhaleSeconds : 1 - (position - breath.inhaleSeconds - breath.holdSeconds) / breath.exhaleSeconds : 0;
+  const noticed = answers.filter(Boolean).length;
+  const prompt = grounding?.senses[step];
+  function start() { setSessionStarted(true); clock.start(); }
+  function reset() { clock.reset(); setSessionStarted(false); setStep(0); setAnswers([]); setResetKey((current) => current + 1); }
+  function advance(noticedSense: boolean) {
+    setAnswers((current) => [...current.slice(0, step), noticedSense]);
+    setStep((current) => current + 1);
+    if (grounding && step + 1 >= grounding.senses.length) clock.pause();
+    else clock.start();
   }
 
-  return (
-    <Dialog className={sceneClass} label={title} onClose={onClose}>
-      <div className="world-atmosphere" aria-hidden="true">
-        <span className="world-layer world-layer-one" />
-        <span className="world-layer world-layer-two" />
-        <span className="world-layer world-layer-three" />
+  return <Dialog className={`world-screen immersive-world world-theme-${world.theme}${still ? " visuals-still" : ""}${clock.running && !complete ? " scene-running" : " scene-paused"}`} label={world.title[language]} onClose={onClose}>
+    <header className="world-topbar">
+      <div><span className="world-kicker">{isRipple ? t.experimental : t.kicker}</span><h2>{world.title[language]}</h2><p>{world.purpose[language]}</p></div>
+      <button className="world-close" onClick={onClose} aria-label={t.exit}>×</button>
+    </header>
+    <section className="world-stage">
+      <div className="immersive-scene">
+        {isRipple ? <RippleField key={resetKey} language={language} paused={!clock.running && sessionStarted} complete={complete} onInteract={start} /> : <WorldScene id={world.id} breath={still ? 0 : breathLevel} drift={drift && !still} step={step} />}
+        {grounding && <div className="garden-steps" aria-hidden="true">{grounding.senses.map((_, index) => <span key={index} className={index === step ? "current" : index < step ? "visited" : ""} />)}</div>}
       </div>
-
-      <div className="world-topbar">
-        <div>
-          <span className="world-kicker">{t.kicker}</span>
-          <h2>{title}</h2>
-          <p>{purpose}</p>
-        </div>
-        <button className="world-close" onClick={onClose} aria-label={t.exit}>×</button>
+      <div className="world-guidance" aria-live="polite" aria-atomic="true">
+        {prompt && !complete ? <><p className="world-step">{t.step(step + 1)}</p><h3 className="world-phase">{prompt.sense[language]}</h3><p className="world-subtle">{prompt.prompt[language]}</p></> : <><p className="world-phase">{complete ? t.complete : breath ? clock.running ? phaseText : t.ready : clock.running ? isRipple ? world.description[language] : t.steady : t.ready}</p><p className="world-subtle">{complete ? t.completionSub : breath ? t.breathNote : isRipple ? t.rippleNote : world.description[language]}</p></>}
       </div>
-
-      <section className={`world-stage is-${visualState}`} aria-live="polite">
-        {world.id === "ocean-calm" && (
-          <div className="ocean-scene" aria-hidden="true">
-            <span className="ocean-sun" />
-            <span className="ocean-horizon" />
-            <span className="ocean-wave ocean-wave-one" />
-            <span className="ocean-wave ocean-wave-two" />
-            <span className="breath-orb">
-              <span className="breath-orb-inner" />
-            </span>
-          </div>
-        )}
-
-        {world.id === "soft-focus" && (
-          <div className="focus-scene" aria-hidden="true">
-            <span className="focus-plane focus-plane-one" />
-            <span className="focus-plane focus-plane-two" />
-            <span className="focus-anchor" />
-          </div>
-        )}
-
-        {world.id === "grounding-garden" && (
-          <div className="garden-scene" aria-hidden="true">
-            <span className="garden-sky-sun" />
-            <span className="garden-hill garden-hill-one" />
-            <span className="garden-hill garden-hill-two" />
-            <span className="garden-path" />
-            <span className="garden-leaf garden-leaf-one" />
-            <span className="garden-leaf garden-leaf-two" />
-          </div>
-        )}
-
-        <div className="world-guidance">
-          <p className="world-phase">{completed ? t.complete : breath ? phaseLabel : clock.running ? t.steady : t.ready}</p>
-          <p className="world-subtle">{completed ? t.completionSub : world.description[language]}</p>
-        </div>
-
-        {grounding && (
-          <div className="sense-grid">
-            {grounding.senses.map((item) => {
-              const key = item.sense.en;
-              const isNoticed = noticed.includes(key);
-              return (
-                <button
-                  key={key}
-                  className={`sense-card ${isNoticed ? "noticed" : ""}`}
-                  onClick={() => toggleNoticed(key)}
-                  aria-pressed={isNoticed}
-                >
-                  <strong>{item.sense[language]}</strong>
-                  <small>{isNoticed ? `${t.noticed} · ${t.undo}` : item.prompt[language]}</small>
-                </button>
-              );
-            })}
-          </div>
-        )}
-
-        <div className="world-controls" aria-label={language === "en" ? "Experience controls" : "Controles de la experiencia"}>
-          {clock.running ? (
-            <button className="world-primary" onClick={clock.pause}>{t.pause}</button>
-          ) : (
-            <button className="world-primary" onClick={clock.start}>{clock.elapsed > 0 && !clock.complete ? t.resume : t.begin}</button>
-          )}
-          <button className="world-secondary" onClick={() => { clock.reset(); setNoticed([]); }}>{t.reset}</button>
-          {completed && <button className="world-secondary" onClick={onClose}>{t.done}</button>}
-        </div>
-
-        <div className="world-progress" aria-label={t.progress(formatTime(clock.elapsed), formatTime(totalSeconds))}>
-          <span style={{ width: `${progress}%` }} />
-        </div>
-        <p className="world-timer">
-          {grounding ? t.senses(noticed.length, grounding.senses.length) + " · " : ""}
-          {t.progress(formatTime(clock.elapsed), formatTime(totalSeconds))}
-        </p>
-      </section>
-
-      <p className="world-boundary">{t.boundary}</p>
-    </Dialog>
-  );
+      {grounding && !complete && <><div className="world-controls"><button className="world-primary" onClick={() => advance(true)}>{t.notice}</button><button className="world-secondary" onClick={() => advance(false)}>{t.skip}</button></div><p className="world-hint">{t.senseNote}</p></>}
+      {world.id === "soft-focus" && !complete && <div className="world-mode" aria-label={language === "en" ? "Light movement" : "Movimiento de luz"}><button aria-pressed={!drift || still} onClick={() => setDrift(false)}>{t.fixed}</button><button disabled={still} aria-pressed={drift && !still} onClick={() => setDrift(true)}>{t.drift}</button></div>}
+      <div className="world-controls session-controls">
+        {!grounding && !complete && <button className="world-primary" onClick={clock.running ? clock.pause : start}>{clock.running ? t.pause : sessionStarted ? t.resume : t.begin}</button>}
+        {grounding && !complete && step > 0 && <button className="world-secondary" onClick={() => { setStep((current) => current - 1); setAnswers((current) => current.slice(0, step - 1)); }}>{t.back}</button>}
+        <button className="world-secondary" onClick={reset}>{t.reset}</button>
+        {complete && <button ref={completionButton} className="world-primary" onClick={onClose}>{t.done}</button>}
+      </div>
+      <div className="world-progress" role="progressbar" aria-label={language === "en" ? "Session progress" : "Progreso de la sesión"} aria-valuemin={0} aria-valuemax={world.durationMinutes * 60} aria-valuenow={clock.elapsed}><span style={{ width: `${clock.elapsed / (world.durationMinutes * 60) * 100}%` }} /></div>
+      <p className="world-timer">{t.progress(time(clock.elapsed), time(world.durationMinutes * 60))}</p>
+      {grounding && <p className="world-count">{t.senses(noticed)}</p>}
+      <label className="world-motion"><input type="checkbox" checked={still} disabled={systemStill} onChange={(event) => setRequestedStill(event.target.checked)} />{t.still}</label>
+    </section>
+    <p className="world-boundary">{t.boundary}</p>
+  </Dialog>;
 }

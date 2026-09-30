@@ -21,6 +21,7 @@ test("worlds open as localized, controllable experiences", async ({ page }) => {
   await page.getByRole("button", { name: /Jardín para aterrizar/ }).click();
   const garden = page.getByRole("dialog", { name: "Jardín para aterrizar" });
   await expect(garden.getByRole("heading", { name: "Jardín para aterrizar" })).toBeVisible();
-  await garden.getByRole("button", { name: /Ver/ }).click();
-  await expect(garden.getByText("1 de 5 sentidos notados")).toBeVisible();
+  await expect(garden.getByRole("heading", { name: "Ver", exact: true })).toBeVisible();
+  await garden.getByRole("button", { name: "Noté algo" }).click();
+  await expect(garden.getByText("1 sentido notado", { exact: true })).toBeVisible();
 });

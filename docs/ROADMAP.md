@@ -59,7 +59,7 @@ The active MVP branch already includes:
 - [x] Resource Explorer
 - [x] provenance model
 - [x] "What SootheSpot is learning" prototype surface
-- [x] three deterministic SootheSpot Worlds
+- [x] four deterministic SootheSpot Worlds, including experimental Ripple Field
 - [x] bounded World timers
 - [x] reduced-motion support
 - [x] clear-demo-data control

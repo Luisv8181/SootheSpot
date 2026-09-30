@@ -1,8 +1,8 @@
-export type WorldId = "ocean-calm" | "soft-focus" | "grounding-garden";
+export type WorldId = "ocean-calm" | "soft-focus" | "grounding-garden" | "ripple-field";
 
 export type BreathPhase = "inhale" | "hold" | "exhale";
-export type ExperienceTheme = "ocean" | "focus" | "garden";
-export type ExperienceCategory = "breathing" | "focus" | "grounding";
+export type ExperienceTheme = "ocean" | "focus" | "garden" | "ripple";
+export type ExperienceCategory = "breathing" | "focus" | "grounding" | "sensory";
 export type SupportedLocale = "en" | "es";
 
 export type LocalizedText = Record<SupportedLocale, string>;
@@ -32,6 +32,7 @@ export type ExperienceActivity =
   | BreathActivity
   | FocusActivity
   | GroundingActivity
+  | { type: "rippleInteraction" }
   | { type: "timer" }
   | { type: "completion" };
 
