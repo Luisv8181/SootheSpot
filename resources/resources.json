@@ -418,5 +418,286 @@
       "https://www.samhsa.gov/find-support/how-to-cope"
     ],
     "license_notes": "External resource. SootheSpot stores metadata only."
+  },
+  {
+    "id": "ucla-guided-meditations",
+    "name": "UCLA Mindful Guided Meditations",
+    "publisher": "UCLA Mindful / UCLA Health",
+    "resource_type": "guided-meditation",
+    "official_url": "https://www.uclahealth.org/uclamindful/guided-meditations",
+    "platforms": [
+      "Web",
+      "Audio"
+    ],
+    "description": "Free guided mindfulness meditations including short body scans, breathing, loving-kindness, difficulty-focused practice, and sleep-oriented meditation.",
+    "tags": [
+      "mindfulness",
+      "meditation",
+      "breathing",
+      "grounding",
+      "self-compassion",
+      "sleep",
+      "audio",
+      "independent-use",
+      "spanish",
+      "multilingual"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English",
+      "Spanish",
+      "Armenian",
+      "Cantonese",
+      "Farsi",
+      "Filipino",
+      "French",
+      "German",
+      "Hindi",
+      "Italian",
+      "Japanese",
+      "Korean",
+      "Mandarin Chinese",
+      "Russian",
+      "Vietnamese",
+      "American Sign Language"
+    ],
+    "access": [
+      "free"
+    ],
+    "duration_options_minutes": [
+      3,
+      5,
+      7,
+      9,
+      12,
+      13,
+      19
+    ],
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "UCLA reports translated versions in multiple languages; translation is distinct from cultural adaptation."
+    },
+    "evidence_notes": "UCLA provides the recordings and transcripts as guided mindfulness practices.",
+    "limitations": "Meditation is optional and may not be comfortable or appropriate for everyone in every context.",
+    "review_status": "verified",
+    "last_verified_at": "2026-09-30",
+    "source_notes": [
+      "https://www.uclahealth.org/uclamindful/guided-meditations"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only."
+  },
+  {
+    "id": "nccih-meditation-mindfulness",
+    "name": "Meditation and Mindfulness: Effectiveness and Safety",
+    "publisher": "National Center for Complementary and Integrative Health",
+    "resource_type": "article",
+    "official_url": "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+    "platforms": [
+      "Web"
+    ],
+    "description": "An evidence-oriented overview explaining meditation and mindfulness, potential benefits, research limitations, and safety considerations.",
+    "tags": [
+      "mindfulness",
+      "meditation",
+      "evidence",
+      "safety",
+      "psychoeducation",
+      "read",
+      "independent-use"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "evidence_notes": "NCCIH summarizes research on meditation and mindfulness and notes where evidence is mixed or limited.",
+    "limitations": "General health information does not provide individualized medical advice.",
+    "review_status": "verified",
+    "last_verified_at": "2026-09-30",
+    "source_notes": [
+      "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only."
+  },
+  {
+    "id": "nccih-mind-body-practices",
+    "name": "Mind and Body Practices",
+    "publisher": "National Center for Complementary and Integrative Health",
+    "resource_type": "article",
+    "official_url": "https://www.nccih.nih.gov/health/mind-and-body-practices",
+    "platforms": [
+      "Web"
+    ],
+    "description": "An overview of meditation, relaxation, yoga, tai chi, and other mind-body practices, including potential uses and safety considerations.",
+    "tags": [
+      "meditation",
+      "relaxation",
+      "yoga",
+      "tai-chi",
+      "stress",
+      "sleep",
+      "safety",
+      "psychoeducation",
+      "read"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "evidence_notes": "NCCIH summarizes research findings and safety information for several mind-body approaches.",
+    "limitations": "General information does not replace individualized professional guidance.",
+    "review_status": "verified",
+    "last_verified_at": "2026-09-30",
+    "source_notes": [
+      "https://www.nccih.nih.gov/health/mind-and-body-practices"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only."
+  },
+  {
+    "id": "nimh-fact-sheets",
+    "name": "NIMH Mental Health Fact Sheets",
+    "publisher": "National Institute of Mental Health",
+    "resource_type": "article-library",
+    "official_url": "https://www.nimh.nih.gov/health/publications/fact-sheets",
+    "platforms": [
+      "Web"
+    ],
+    "description": "A library of public mental-health fact sheets covering anxiety, mood, youth mental health, eating disorders, and getting mental-health support.",
+    "tags": [
+      "psychoeducation",
+      "anxiety",
+      "mood",
+      "youth",
+      "support",
+      "read",
+      "spanish"
+    ],
+    "intended_population": [
+      "general",
+      "adolescents",
+      "adults",
+      "caregivers"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "access": [
+      "free"
+    ],
+    "evidence_notes": "NIMH publishes the fact sheets and provides Spanish versions for selected resources.",
+    "limitations": "Fact sheets provide general education rather than diagnosis or individualized treatment.",
+    "review_status": "verified",
+    "last_verified_at": "2026-09-30",
+    "source_notes": [
+      "https://www.nimh.nih.gov/health/publications/fact-sheets"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only."
+  },
+  {
+    "id": "samhsa-ask-for-help",
+    "name": "How to Ask for Help",
+    "publisher": "Substance Abuse and Mental Health Services Administration",
+    "resource_type": "article",
+    "official_url": "https://www.samhsa.gov/find-support/how-to-cope/how-to-ask-for-help",
+    "platforms": [
+      "Web"
+    ],
+    "description": "A practical guide for preparing to ask trusted people, professionals, support groups, or helplines for help.",
+    "tags": [
+      "support",
+      "relationships",
+      "self-advocacy",
+      "social-support",
+      "read",
+      "independent-use"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "evidence_notes": "SAMHSA provides concrete guidance for reaching out and describing what kind of support is needed.",
+    "limitations": "General guidance; individual circumstances may require professional assessment.",
+    "review_status": "verified",
+    "last_verified_at": "2026-09-30",
+    "source_notes": [
+      "https://www.samhsa.gov/find-support/how-to-cope/how-to-ask-for-help"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only."
+  },
+  {
+    "id": "samhsa-signs-help",
+    "name": "Signs You Need to Seek Help",
+    "publisher": "Substance Abuse and Mental Health Services Administration",
+    "resource_type": "article",
+    "official_url": "https://www.samhsa.gov/find-support/how-to-cope/signs-of-needing-help",
+    "platforms": [
+      "Web"
+    ],
+    "description": "A public guide describing changes in thoughts, moods, body, and functioning that may signal a need for additional support.",
+    "tags": [
+      "when-to-seek-help",
+      "psychoeducation",
+      "stress",
+      "mood",
+      "read",
+      "independent-use"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "evidence_notes": "SAMHSA describes common signs that it may be time to seek help and provides crisis guidance.",
+    "limitations": "General educational guide, not a diagnostic assessment.",
+    "review_status": "verified",
+    "last_verified_at": "2026-09-30",
+    "source_notes": [
+      "https://www.samhsa.gov/find-support/how-to-cope/signs-of-needing-help"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only."
   }
 ]
