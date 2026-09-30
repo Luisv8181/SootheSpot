@@ -23,7 +23,7 @@ export const worlds: World[] = [
     provenance: "soothespot",
     activity: [
       { type: "ambientScene" },
-      { type: "breathRhythm", inhaleSeconds: 4, holdSeconds: 2, exhaleSeconds: 6 },
+      { type: "breathRhythm", inhaleSeconds: 4, holdSeconds: 0, exhaleSeconds: 6 },
       { type: "timer" },
       { type: "completion" }
     ]
@@ -49,7 +49,7 @@ export const worlds: World[] = [
     provenance: "soothespot",
     activity: [
       { type: "ambientScene" },
-      { type: "focusVisual", anchor: "stone" },
+      { type: "focusVisual", anchor: "light" },
       { type: "timer" },
       { type: "completion" }
     ]
@@ -103,5 +103,17 @@ export const worlds: World[] = [
       { type: "timer" },
       { type: "completion" }
     ]
+  },
+  {
+    version: 1,
+    id: "ripple-field",
+    theme: "ripple",
+    category: "sensory",
+    title: { en: "Ripple Field", es: "Campo de ondas" },
+    description: { en: "Touch a quiet pool of light. Let each ripple find its own edge.", es: "Toca un estanque de luz. Deja que cada onda encuentre su borde." },
+    purpose: { en: "An experimental space to explore, with nothing to get right.", es: "Un espacio experimental para explorar, sin tener que hacerlo bien." },
+    durationMinutes: 3,
+    provenance: "soothespot",
+    activity: [{ type: "ambientScene" }, { type: "rippleInteraction" }, { type: "timer" }, { type: "completion" }]
   }
 ].map(validateExperienceSpec);

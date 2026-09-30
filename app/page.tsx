@@ -16,6 +16,7 @@ import type { CheckInState, MomentContext, Tool, ToolFeedback } from "@/domain/t
 import { worlds } from "@/domain/worlds/seed";
 import type { World } from "@/domain/worlds/types";
 import { WorldExperience } from "@/components/WorldExperience";
+import { WorldScene } from "@/components/worlds/WorldScene";
 import { usePersonalData } from "@/components/usePersonalData";
 import { PersonalDataControls } from "@/components/PersonalDataControls";
 import { SupportOptions } from "@/components/SupportOptions";
@@ -414,12 +415,12 @@ export default function Home() {
               {worlds.map((world) => (
                 <button key={world.id} className={`world-card world-card-${world.id}`} onClick={() => setActiveWorld(world)}>
                   <span className="world-card-art" aria-hidden="true">
-                    <span />
+                    <WorldScene id={world.id} />
                   </span>
                   <span className="world-card-copy">
                     <strong>{world.title[language]}</strong>
                     <small>{world.description[language]}</small>
-                    <em>{world.durationMinutes} min · {world.category}</em>
+                    <em>{world.durationMinutes} min · {world.id === "ripple-field" ? (language === "en" ? "Experimental" : "Experimental") : ({ breathing: { en: "Breathing", es: "Respiración" }, focus: { en: "Focus", es: "Enfoque" }, grounding: { en: "Grounding", es: "Conexión con el entorno" }, sensory: { en: "Sensory", es: "Sensorial" } })[world.category][language]}</em>
                   </span>
                 </button>
               ))}
