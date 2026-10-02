@@ -37,6 +37,13 @@
     "review_status": {"enum": ["unreviewed","screened","clinically_reviewed","verified","deprecated"]},
     "last_verified_at": {"type": "string", "format": "date"},
     "source_notes": {"type": "array", "items": {"type": "string"}},
-    "license_notes": {"type": "string"}
+    "license_notes": {"type": "string"},
+    "duration_options_minutes": {"type": "array", "items": {"type": "number", "minimum": 0}},
+    "isbn": {"type": "string"},
+    "authors": {"type": "array", "items": {"type": "string"}},
+    "publication_year": {"type": "integer", "minimum": 0},
+    "page_count": {"type": "integer", "minimum": 1},
+    "shelf": {"type": "string"},
+    "needs": {"type": "array", "items": {"type": "string"}}
   }
 }
