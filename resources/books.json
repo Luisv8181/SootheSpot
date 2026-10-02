@@ -1,0 +1,31 @@
+[
+  {
+    "id": "book-the-upward-spiral-2e",
+    "name": "The Upward Spiral, Second Edition",
+    "publisher": "New Harbinger Publications",
+    "resource_type": "book",
+    "official_url": "https://www.newharbinger.com/9781648486869/the-upward-spiral/",
+    "platforms": ["Print", "eBook"],
+    "description": "A bibliographic reference for a neuroscience-informed book about small behavioral and lifestyle changes related to depression and mood.",
+    "tags": ["book", "depression", "mood", "neuroscience", "self-help", "read", "understand"],
+    "intended_population": ["adults"],
+    "use_context": ["independent-reading", "psychoeducation"],
+    "languages": ["English"],
+    "access": ["paid"],
+    "authors": ["Alex Korb"],
+    "publication_year": 2025,
+    "page_count": 240,
+    "isbn": "9781648486869",
+    "accessibility": ["eBook reflowable", "adjustable text", "high contrast"],
+    "regions": ["United States"],
+    "publisher_region": "United States",
+    "availability_regions": ["United States"],
+    "cultural_context": {"adaptation_status": "unknown", "notes": "Bibliographic metadata only; SootheSpot does not reproduce book text."},
+    "evidence_notes": "Bibliographic record points to the publisher's official edition page.",
+    "limitations": "A book is educational/self-help material, not individualized clinical treatment.",
+    "review_status": "verified",
+    "last_verified_at": "2026-10-02",
+    "source_notes": ["https://www.newharbinger.com/9781648486869/the-upward-spiral/"],
+    "license_notes": "Bibliographic metadata only. No copyrighted book text is stored."
+  }
+]
