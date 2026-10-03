@@ -1,24 +1,68 @@
 import rawResources from "../../resources/resources.json";
+import rawBooks from "../../resources/books.json";
 import type { Resource } from "./types";
 
-export const resourceRegistry = rawResources as Resource[];
+export const resourceRegistry = [...(rawResources as Resource[]), ...(rawBooks as Resource[])];
 
-export function searchResources(query: string, language?: string) {
+export const resourceShelves = [
+  "Read",
+  "Listen",
+  "Practice",
+  "Watch",
+  "Sleep & Rest",
+  "Understand Yourself",
+  "Reach Out"
+] as const;
+
+export type ResourceShelf = (typeof resourceShelves)[number];
+
+const shelfMatchers: Record<ResourceShelf, string[]> = {
+  Read: ["read", "book", "article", "article-library", "educational-resource"],
+  Listen: ["audio", "guided-meditation", "podcast"],
+  Practice: ["practice", "exercise", "meditation", "mindfulness", "coping", "cbt", "act"],
+  Watch: ["watch", "video"],
+  "Sleep & Rest": ["sleep", "insomnia", "rest", "relaxation"],
+  "Understand Yourself": ["psychoeducation", "education", "understand", "self-help", "mood", "anxiety", "stress", "trauma"],
+  "Reach Out": ["support", "social-support", "when-to-seek-help", "help", "treatment"]
+};
+
+export function getResourceShelves(resource: Resource): ResourceShelf[] {
+  const haystack = [
+    resource.resource_type,
+    resource.name,
+    resource.description,
+    ...resource.tags,
+    ...(resource.use_context ?? [])
+  ].join(" ").toLowerCase();
+
+  return resourceShelves.filter((shelf) =>
+    shelfMatchers[shelf].some((term) => haystack.includes(term.toLowerCase()))
+  );
+}
+
+export function searchResources(query: string, language?: string, shelf?: ResourceShelf, need?: string, maxMinutes?: number) {
   const q = query.trim().toLowerCase();
+  const n = need?.trim().toLowerCase();
 
   return resourceRegistry.filter((resource) => {
     const haystack = [
       resource.name,
       resource.publisher,
       resource.description,
-      ...resource.tags
+      ...resource.tags,
+      ...(resource.intended_population ?? []),
+      ...(resource.use_context ?? [])
     ].join(" ").toLowerCase();
 
     const queryMatch = !q || haystack.includes(q);
-    const languageMatch =
-      !language ||
-      resource.languages?.some((item) => item.toLowerCase() === language.toLowerCase());
+    const needMatch = !n || haystack.includes(n);
+    const languageMatch = !language || resource.languages?.some((item) => item.toLowerCase() === language.toLowerCase());
+    const shelfMatch = !shelf || getResourceShelves(resource).includes(shelf);
+    const durationMatch =
+      maxMinutes === undefined ||
+      !resource.duration_options_minutes?.length ||
+      resource.duration_options_minutes.some((minutes) => minutes <= maxMinutes);
 
-    return queryMatch && languageMatch && resource.review_status !== "deprecated";
+    return queryMatch && needMatch && languageMatch && shelfMatch && durationMatch && resource.review_status !== "deprecated";
   });
 }
