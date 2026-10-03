@@ -7,7 +7,7 @@ import { localizeTool } from "@/domain/i18n/tools";
 import { ToolCreator } from "@/components/ToolCreator";
 import { ResourceCard } from "@/components/ResourceCard";
 import { ToolCard } from "@/components/ToolCard";
-import { resourceRegistry, searchResources } from "@/domain/resources/registry";
+import { resourceShelves, searchResources, type ResourceShelf } from "@/domain/resources/registry";
 import type { Resource } from "@/domain/resources/types";
 import { historyLabel, strongestHelpfulContext, summarizeToolFeedback } from "@/domain/tools/history";
 import { retrieveTools } from "@/domain/tools/retrieve";
@@ -38,6 +38,9 @@ export default function Home() {
   const [toolQuery, setToolQuery] = useState("");
   const [activeTool, setActiveTool] = useState<Tool | null>(null);
   const [resourceQuery, setResourceQuery] = useState("");
+  const [resourceShelf, setResourceShelf] = useState<ResourceShelf | undefined>();
+  const [resourceNeed, setResourceNeed] = useState("");
+  const [resourceMaxMinutes, setResourceMaxMinutes] = useState<number | undefined>();
   const [activeWorld, setActiveWorld] = useState<World | null>(null);
 
   useEffect(() => {
@@ -75,7 +78,7 @@ export default function Home() {
     return !q || [localized.title, localized.description, localized.category].join(" ").toLowerCase().includes(q);
   });
   const visibleSavedResources = savedResources.filter((resource) => !toolQuery.trim() || [resource.name, resource.publisher, resource.description].join(" ").toLowerCase().includes(toolQuery.trim().toLowerCase()));
-  const resources = searchResources(resourceQuery, language === "es" ? "Spanish" : "English");
+  const resources = searchResources(resourceQuery, language === "es" ? "Spanish" : "English", resourceShelf, resourceNeed, resourceMaxMinutes);
 
   async function addCustomTool(tool: Tool) {
     const saved = await update((current) => ({ ...current, customTools: [...current.customTools, tool], savedIds: Array.from(new Set([...current.savedIds, tool.id])) }));
@@ -396,6 +399,39 @@ export default function Home() {
               placeholder={t.searchResources}
               aria-label={t.searchResources}
             />
+            <div className="resource-filter-panel">
+              <div className="resource-shelf-row">
+                <button className={!resourceShelf ? "context-chip selected" : "context-chip"} onClick={() => setResourceShelf(undefined)} aria-pressed={!resourceShelf}>
+                  {language === "en" ? "All shelves" : "Todas"}
+                </button>
+                {resourceShelves.map((shelf) => (
+                  <button key={shelf} className={resourceShelf === shelf ? "context-chip selected" : "context-chip"} onClick={() => setResourceShelf(resourceShelf === shelf ? undefined : shelf)} aria-pressed={resourceShelf === shelf}>
+                    {shelf}
+                  </button>
+                ))}
+              </div>
+              <div className="resource-filter-row">
+                <label>
+                  {language === "en" ? "Need" : "Necesidad"}
+                  <input className="search-input" value={resourceNeed} onChange={(event) => setResourceNeed(event.target.value)} placeholder={language === "en" ? "sleep, anxiety, stress..." : "sueño, ansiedad, estrés..."} />
+                </label>
+                <label>
+                  {language === "en" ? "Time" : "Tiempo"}
+                  <select value={resourceMaxMinutes ?? ""} onChange={(event) => setResourceMaxMinutes(event.target.value ? Number(event.target.value) : undefined)}>
+                    <option value="">{language === "en" ? "Any length" : "Cualquier duración"}</option>
+                    <option value="5">≤ 5 min</option>
+                    <option value="10">≤ 10 min</option>
+                    <option value="20">≤ 20 min</option>
+                  </select>
+                </label>
+                <button className="delete-tool-button" onClick={() => { setResourceShelf(undefined); setResourceNeed(""); setResourceMaxMinutes(undefined); setResourceQuery(""); }}>
+                  {language === "en" ? "Clear filters" : "Borrar filtros"}
+                </button>
+              </div>
+            </div>
+            <p className="resource-count">
+              {resources.length} {language === "en" ? "resources found. No ranking is applied." : "recursos encontrados. No se aplica una clasificación."}
+            </p>
             <div className="resource-list">
               {resources.map((resource) => (
                 <ResourceCard key={resource.id} resource={resource} onSave={saveResource} language={language} />
