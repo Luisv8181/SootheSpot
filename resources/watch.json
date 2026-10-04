@@ -1,0 +1,240 @@
+[
+  {
+    "id": "nimh-jane-the-brain",
+    "name": "Jane the Brain",
+    "publisher": "National Institute of Mental Health",
+    "resource_type": "video-series",
+    "official_url": "https://www.nimh.nih.gov/get-involved/science-education/video-series-jane-the-brain",
+    "platforms": [
+      "Web",
+      "Video"
+    ],
+    "description": "An animated NIMH video series helping children understand and cope with stress, frustration, sadness, and other big feelings.",
+    "tags": [
+      "watch",
+      "stress",
+      "frustration",
+      "sadness",
+      "children",
+      "youth",
+      "coping",
+      "emotional-literacy"
+    ],
+    "intended_population": [
+      "children",
+      "adolescents",
+      "caregivers",
+      "educators"
+    ],
+    "use_context": [
+      "independent-use",
+      "caregiver-supported",
+      "education"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "duration_options_minutes": [
+      4,
+      5
+    ],
+    "accessibility": [
+      "audio description versions"
+    ],
+    "regions": [
+      "United States"
+    ],
+    "publisher_region": "United States",
+    "availability_regions": [
+      "United States"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown"
+    },
+    "evidence_notes": "NIMH publishes the series as a mental-health education resource for students and educators.",
+    "limitations": "Educational media is not individualized clinical assessment or treatment.",
+    "review_status": "verified",
+    "last_verified_at": "2026-10-04",
+    "source_notes": [
+      "https://www.nimh.nih.gov/get-involved/science-education/video-series-jane-the-brain"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only."
+  },
+  {
+    "id": "samhsa-stress-management-video",
+    "name": "Stress Management Techniques, Healthy Coping Strategies, Breathing Exercise",
+    "publisher": "Substance Abuse and Mental Health Services Administration",
+    "resource_type": "video",
+    "official_url": "https://www.samhsa.gov/resource/dbhis/stress-management-techniques-healthy-coping-strategies-breathing-exercise",
+    "platforms": [
+      "Web",
+      "Video"
+    ],
+    "description": "An 8-minute SAMHSA video demonstrating stress-management, self-care, and a breathing exercise.",
+    "tags": [
+      "watch",
+      "stress",
+      "coping",
+      "breathing",
+      "self-care",
+      "relaxation"
+    ],
+    "intended_population": [
+      "general",
+      "caregivers",
+      "helpers",
+      "disaster-survivors"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "duration_options_minutes": [
+      8
+    ],
+    "accessibility": [
+      "video"
+    ],
+    "regions": [
+      "United States"
+    ],
+    "publisher_region": "United States",
+    "availability_regions": [
+      "United States"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown"
+    },
+    "evidence_notes": "SAMHSA publishes the video as a stress-management education resource.",
+    "limitations": "General stress-management education is not individualized treatment.",
+    "review_status": "verified",
+    "last_verified_at": "2026-10-04",
+    "source_notes": [
+      "https://www.samhsa.gov/resource/dbhis/stress-management-techniques-healthy-coping-strategies-breathing-exercise"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only."
+  },
+  {
+    "id": "samhsa-breathe-in-video-1",
+    "name": "Breathe In: Video 1",
+    "publisher": "Substance Abuse and Mental Health Services Administration",
+    "resource_type": "video",
+    "official_url": "https://www.samhsa.gov/resource/988/breathe-video-1",
+    "platforms": [
+      "Web",
+      "Video"
+    ],
+    "description": "A 30-second SAMHSA breathing video intended as a brief mental break and self-check-in.",
+    "tags": [
+      "watch",
+      "breathing",
+      "calm",
+      "stress",
+      "self-care",
+      "short"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "duration_options_minutes": [
+      1
+    ],
+    "accessibility": [
+      "audio description version"
+    ],
+    "regions": [
+      "United States"
+    ],
+    "publisher_region": "United States",
+    "availability_regions": [
+      "United States"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown"
+    },
+    "evidence_notes": "SAMHSA publishes the video as part of its 988 campaign.",
+    "limitations": "A brief breathing prompt is not a substitute for professional or crisis support when needed.",
+    "review_status": "verified",
+    "last_verified_at": "2026-10-04",
+    "source_notes": [
+      "https://www.samhsa.gov/resource/988/breathe-video-1"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only; reuse terms remain governed by the source page."
+  },
+  {
+    "id": "samhsa-breathe-in-video-3-es",
+    "name": "Respira 3",
+    "publisher": "Substance Abuse and Mental Health Services Administration",
+    "resource_type": "video",
+    "official_url": "https://www.samhsa.gov/resource/988/videos-para-meditar-respira-3",
+    "platforms": [
+      "Web",
+      "Video"
+    ],
+    "description": "A Spanish-language SAMHSA breathing video offering a one-minute pause for breathing and self-care.",
+    "tags": [
+      "watch",
+      "breathing",
+      "calm",
+      "stress",
+      "self-care",
+      "spanish"
+    ],
+    "intended_population": [
+      "general",
+      "Spanish-speaking"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "access": [
+      "free"
+    ],
+    "duration_options_minutes": [
+      1
+    ],
+    "accessibility": [
+      "audio description version"
+    ],
+    "regions": [
+      "United States"
+    ],
+    "publisher_region": "United States",
+    "availability_regions": [
+      "United States"
+    ],
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "Spanish-language version; translation is not treated as cultural adaptation."
+    },
+    "evidence_notes": "SAMHSA publishes the Spanish-language version as part of its 988 campaign.",
+    "limitations": "A brief breathing prompt is not a substitute for professional or crisis support when needed.",
+    "review_status": "verified",
+    "last_verified_at": "2026-10-04",
+    "source_notes": [
+      "https://www.samhsa.gov/resource/988/videos-para-meditar-respira-3"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only; reuse terms remain governed by the source page."
+  }
+]
