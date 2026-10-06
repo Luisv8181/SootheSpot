@@ -699,5 +699,235 @@
       "https://www.samhsa.gov/find-support/how-to-cope/signs-of-needing-help"
     ],
     "license_notes": "External resource. SootheSpot stores metadata only."
+  },
+  {
+    "id": "nimh-jane-the-brain",
+    "name": "Jane the Brain",
+    "publisher": "National Institute of Mental Health",
+    "resource_type": "video-series",
+    "official_url": "https://www.nimh.nih.gov/get-involved/science-education/video-series-jane-the-brain",
+    "platforms": [
+      "Web",
+      "Video"
+    ],
+    "description": "A short animated mental-health education series for children that explores stress, frustration, and sadness with age-appropriate coping skills.",
+    "tags": [
+      "video",
+      "stress",
+      "frustration",
+      "sadness",
+      "coping",
+      "psychoeducation",
+      "youth",
+      "understand"
+    ],
+    "intended_population": [
+      "children",
+      "school-age-youth"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation",
+      "education"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "audio description versions"
+    ],
+    "regions": [
+      "United States"
+    ],
+    "publisher_region": "United States",
+    "availability_regions": [
+      "United States"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Educational series from a U.S. federal health agency; no cultural adaptation claim is made in the registry."
+    },
+    "evidence_notes": "NIMH describes the series as educational material that helps children understand and cope with big feelings such as stress, frustration, and sadness.",
+    "limitations": "Educational content is not individualized assessment or treatment; intended for children and educational settings.",
+    "review_status": "verified",
+    "last_verified_at": "2026-10-06",
+    "source_notes": [
+      "https://www.nimh.nih.gov/get-involved/science-education/video-series-jane-the-brain"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata and links only."
+  },
+  {
+    "id": "nhlbi-healthy-sleep-habits",
+    "name": "Healthy Sleep Habits",
+    "publisher": "National Heart, Lung, and Blood Institute",
+    "resource_type": "educational-resource",
+    "official_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+    "platforms": [
+      "Web"
+    ],
+    "description": "Practical guidance on sleep schedules, bedroom conditions, caffeine and nicotine, activity, naps, relaxation, and shift-work considerations.",
+    "tags": [
+      "sleep",
+      "sleep-hygiene",
+      "rest",
+      "relaxation",
+      "shift-work",
+      "psychoeducation",
+      "read"
+    ],
+    "intended_population": [
+      "general",
+      "adults",
+      "children",
+      "shift-workers"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "web text"
+    ],
+    "regions": [
+      "United States"
+    ],
+    "publisher_region": "United States",
+    "availability_regions": [
+      "United States"
+    ],
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "NHLBI provides an official Spanish version; translation is not treated as cultural adaptation."
+    },
+    "evidence_notes": "NHLBI provides sleep-habit guidance and identifies strategies for people whose work schedules conflict with their body clocks.",
+    "limitations": "General health education does not diagnose or treat an individual sleep disorder; persistent sleep problems may require clinical evaluation.",
+    "review_status": "verified",
+    "last_verified_at": "2026-10-06",
+    "source_notes": [
+      "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "https://www.nhlbi.nih.gov/es/health/sleep-deprivation/healthy-sleep-habits"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata and links only."
+  },
+  {
+    "id": "cdc-about-sleep",
+    "name": "About Sleep",
+    "publisher": "Centers for Disease Control and Prevention",
+    "resource_type": "educational-resource",
+    "official_url": "https://www.cdc.gov/sleep/about/index.html",
+    "platforms": [
+      "Web"
+    ],
+    "description": "An overview of sleep needs, sleep quality, health effects, and practical habits that support healthier sleep.",
+    "tags": [
+      "sleep",
+      "rest",
+      "sleep-hygiene",
+      "health",
+      "psychoeducation",
+      "read"
+    ],
+    "intended_population": [
+      "general",
+      "adolescents",
+      "adults"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "web text"
+    ],
+    "regions": [
+      "United States"
+    ],
+    "publisher_region": "United States",
+    "availability_regions": [
+      "United States"
+    ],
+    "evidence_notes": "CDC summarizes recommended sleep duration by age and practical sleep habits, and advises talking with a healthcare provider about persistent sleep problems.",
+    "limitations": "General public-health information is not individualized medical advice.",
+    "review_status": "verified",
+    "last_verified_at": "2026-10-06",
+    "source_notes": [
+      "https://www.cdc.gov/sleep/about/index.html"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata and links only."
+  },
+  {
+    "id": "samhsa-support-group-local-program",
+    "name": "Find a Support Group or Local Program",
+    "publisher": "Substance Abuse and Mental Health Services Administration",
+    "resource_type": "support-directory",
+    "official_url": "https://www.samhsa.gov/find-support/health-care-or-support/support-group-or-local-program",
+    "platforms": [
+      "Web"
+    ],
+    "description": "SAMHSA guidance for finding national or local support groups and community programs, including options that may align with cultural, religious, or other social backgrounds.",
+    "tags": [
+      "support",
+      "social-support",
+      "community",
+      "culture",
+      "peer-support",
+      "reach-out",
+      "help"
+    ],
+    "intended_population": [
+      "general",
+      "families",
+      "children",
+      "people-in-recovery"
+    ],
+    "use_context": [
+      "reach-out",
+      "support-navigation",
+      "independent-use"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "web text"
+    ],
+    "regions": [
+      "United States"
+    ],
+    "publisher_region": "United States",
+    "availability_regions": [
+      "United States"
+    ],
+    "cultural_context": {
+      "adaptation_status": "contextual",
+      "notes": "SAMHSA explicitly discusses finding groups aligned with cultural, religious, and other social backgrounds; this is presented as a navigation option rather than a recommendation for any specific community."
+    },
+    "evidence_notes": "SAMHSA describes national and local support-group pathways and points people toward community, peer, cultural, religious, and local public resources.",
+    "limitations": "Listings and availability can change; SootheSpot should link to SAMHSA's current source rather than copy a static directory.",
+    "review_status": "verified",
+    "last_verified_at": "2026-10-06",
+    "source_notes": [
+      "https://www.samhsa.gov/find-support/health-care-or-support/support-group-or-local-program"
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata and links only."
   }
 ]
