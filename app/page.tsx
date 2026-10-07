@@ -410,20 +410,31 @@ export default function Home() {
 
             <nav className="bookshelf-shelves" aria-label={language === "en" ? "Resource shelves" : "Estantes de recursos"}>
               <button className={!resourceShelf ? "shelf-tab selected" : "shelf-tab"} onClick={() => setResourceShelf(undefined)} aria-pressed={!resourceShelf}>
+                <span className="shelf-icon" aria-hidden="true">▦</span>
                 <strong>{language === "en" ? "Everything" : "Todo"}</strong>
-                <span>{resourceRegistry.length}</span>
+                <small>{resourceRegistry.length} {language === "en" ? "entries" : "entradas"}</small>
               </button>
               {resourceShelves.map((shelf) => {
                 const count = resourceRegistry.filter((resource) => getResourceShelves(resource).includes(shelf)).length;
                 const label = shelf === "Sleep & Rest" ? (language === "en" ? "Sleep & Rest" : "Sueño y descanso") : shelf;
                 return (
                   <button key={shelf} className={resourceShelf === shelf ? "shelf-tab selected" : "shelf-tab"} onClick={() => setResourceShelf(resourceShelf === shelf ? undefined : shelf)} aria-pressed={resourceShelf === shelf}>
+                    <span className="shelf-icon" aria-hidden="true">{shelfIcons[shelf]}</span>
                     <strong>{label}</strong>
-                    <span>{count}</span>
+                    <small>{count} {language === "en" ? "entries" : "entradas"}</small>
                   </button>
                 );
               })}
             </nav>
+
+            <section className="shelf-intro" aria-live="polite">
+              <div>
+                <span className="eyebrow">{resourceShelf ? (language === "en" ? shelfIcons[resourceShelf] + " Shelf" : shelfIcons[resourceShelf] + " Estante") : (language === "en" ? "The whole collection" : "Toda la colección")}</span>
+                <h2>{resourceShelf ? (language === "en" ? resourceShelf : resourceShelf === "Sleep & Rest" ? "Sueño y descanso" : resourceShelf) : (language === "en" ? "A small library for different kinds of moments." : "Una pequeña biblioteca para distintos momentos.")}</h2>
+                <p>{resourceShelf ? shelfDescriptions[resourceShelf] : (language === "en" ? "Pick a shelf by purpose, then decide which source feels right. Nothing here is ranked." : "Elige un estante por propósito y decide qué fuente te parece adecuada. Nada aquí está clasificado.")}</p>
+              </div>
+              <span className="shelf-intro-count">{resources.length} {language === "en" ? "shown" : "mostrados"}</span>
+            </section>
 
             <div className="resource-filter-panel">
               <div className="resource-filter-row">
