@@ -7,7 +7,7 @@ import { localizeTool } from "@/domain/i18n/tools";
 import { ToolCreator } from "@/components/ToolCreator";
 import { ResourceCard } from "@/components/ResourceCard";
 import { ToolCard } from "@/components/ToolCard";
-import { getResourceShelves, resourceRegistry, resourceShelves, searchResources, type ResourceShelf } from "@/domain/resources/registry";
+import { getResourceShelves, resourceRegistry, resourceShelves, searchResources, shelfDescriptions, shelfIcons, type ResourceShelf } from "@/domain/resources/registry";
 import type { Resource } from "@/domain/resources/types";
 import { historyLabel, strongestHelpfulContext, summarizeToolFeedback } from "@/domain/tools/history";
 import { retrieveTools } from "@/domain/tools/retrieve";
