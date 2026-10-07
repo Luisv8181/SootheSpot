@@ -82,6 +82,13 @@ export function getResourceShelves(resource: Resource): ResourceShelf[] {
   return legacyShelves(resource);
 }
 
+export function getResourceShelfLabels(resource: Resource): ResourceShelf[] {
+  if (!resource.shelf) return getResourceShelves(resource);
+  const shelves = getResourceShelves(resource);
+  const legacy = legacyShelves(resource);
+  return Array.from(new Set([...shelves, ...legacy]));
+}
+
 function resourceMatchesNeed(resource: Resource, need: string): boolean {
   const normalized = need.trim().toLowerCase();
   if (!normalized) return true;
