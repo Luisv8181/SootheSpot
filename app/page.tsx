@@ -79,6 +79,7 @@ export default function Home() {
   });
   const visibleSavedResources = savedResources.filter((resource) => !toolQuery.trim() || [resource.name, resource.publisher, resource.description].join(" ").toLowerCase().includes(toolQuery.trim().toLowerCase()));
   const resources = searchResources(resourceQuery, language === "es" ? "Spanish" : "English", resourceShelf, resourceNeed, resourceMaxMinutes);
+  const bookshelfBooks = resourceRegistry.filter((resource) => resource.resource_type === "book").slice(0, 6);
 
   async function addCustomTool(tool: Tool) {
     const saved = await update((current) => ({ ...current, customTools: [...current.customTools, tool], savedIds: Array.from(new Set([...current.savedIds, tool.id])) }));
@@ -406,6 +407,35 @@ export default function Home() {
                 <p>{language === "en" ? "Browse by purpose, not popularity. SootheSpot shows the source, limits, language, and context so you can decide for yourself." : "Explora por propósito, no por popularidad. SootheSpot muestra la fuente, los límites, el idioma y el contexto para que tú decidas."}</p>
               </div>
               <div className="bookshelf-note">{language === "en" ? "No ranking • no hidden score" : "Sin ranking • sin puntuación oculta"}</div>
+            </section>
+
+            <section className="physical-bookshelf" aria-label={language === "en" ? "Bookshelf preview" : "Vista previa de estantería"}>
+              <div className="physical-bookshelf-header">
+                <div>
+                  <span className="bookshelf-kicker">{language === "en" ? "THE READING ROOM" : "LA SALA DE LECTURA"}</span>
+                  <h2>{language === "en" ? "A shelf for ideas you can return to." : "Un estante para ideas a las que puedes volver."}</h2>
+                </div>
+                <button className="shelf-browse-button" onClick={() => setResourceShelf("Read")}>
+                  {language === "en" ? "Browse books" : "Explorar libros"}
+                </button>
+              </div>
+              <div className="bookcase" role="list">
+                {bookshelfBooks.map((book, index) => (
+                  <button
+                    key={book.id}
+                    className={`book-spine book-spine-${index % 6}`}
+                    onClick={() => { setResourceShelf("Read"); setResourceQuery(book.name); }}
+                    role="listitem"
+                    aria-label={language === "en" ? `Open ${book.name}` : `Abrir ${book.name}`}
+                  >
+                    <span>{book.name}</span>
+                  </button>
+                ))}
+                {bookshelfBooks.length < 6 && Array.from({ length: 6 - bookshelfBooks.length }).map((_, index) => (
+                  <span className="book-placeholder" key={`placeholder-${index}`} aria-hidden="true" />
+                ))}
+                <div className="bookcase-ledge" aria-hidden="true" />
+              </div>
             </section>
 
             <nav className="bookshelf-shelves" aria-label={language === "en" ? "Resource shelves" : "Estantes de recursos"}>
