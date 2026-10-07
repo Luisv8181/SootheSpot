@@ -39,7 +39,14 @@ export function ResourceCard({
         {duration ? <span>{duration}</span> : null}
         {resource.accessibility?.length ? <span>{resource.accessibility.join(", ")}</span> : null}
         {cultural && cultural !== "unknown" ? <span>{cultural.replaceAll("_", " ")}</span> : null}
+        {resource.page_count ? <span>{resource.page_count} pages</span> : null}
       </div>
+      {context?.length ? (
+        <div className="resource-context-row">
+          <span>{language === "en" ? "Useful for" : "Útil para"}</span>
+          {context.map((item) => <span className="resource-context-chip" key={item}>{item.replaceAll("-", " ")}</span>)}
+        </div>
+      ) : null}
       {resource.limitations && (
         <details className="resource-details">
           <summary>{language === "en" ? "Limits & context" : "Límites y contexto"}</summary>
