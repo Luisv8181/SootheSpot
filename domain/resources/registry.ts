@@ -16,6 +16,26 @@ export const resourceShelves = [
 
 export type ResourceShelf = (typeof resourceShelves)[number];
 
+export const shelfIcons: Record<ResourceShelf, string> = {
+  Read: "▤",
+  Listen: "◉",
+  Practice: "✦",
+  Watch: "▷",
+  "Sleep & Rest": "☾",
+  "Understand Yourself": "◌",
+  "Reach Out": "↗"
+};
+
+export const shelfDescriptions: Record<ResourceShelf, string> = {
+  Read: "Books, articles, and clear explanations.",
+  Listen: "Guided audio and quiet practices.",
+  Practice: "Things you can actually try right now.",
+  Watch: "Short videos and visual guidance.",
+  "Sleep & Rest": "Wind down, rest, and learn about sleep.",
+  "Understand Yourself": "Make sense of stress, mood, and patterns.",
+  "Reach Out": "Find people, programs, and professional support."
+};
+
 const shelfMatchers: Record<ResourceShelf, string[]> = {
   Read: ["read", "book", "article", "article-library", "educational-resource"],
   Listen: ["audio", "guided-meditation", "podcast"],
