@@ -24,4 +24,11 @@ export type Resource = {
   source_notes?: string[];
   license_notes?: string;
   privacy_notes?: string;
+  authors?: string[];
+  publication_year?: number;
+  page_count?: number;
+  isbn?: string;
+  publisher_region?: string;
+  availability_regions?: string[];
+  last_verified_at?: string;
 };
