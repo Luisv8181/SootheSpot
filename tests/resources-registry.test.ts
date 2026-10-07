@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getResourceShelves, searchResources } from "@/domain/resources/registry";
+import { getResourceShelfLabels, getResourceShelves, searchResources } from "@/domain/resources/registry";
 
 describe("digital bookshelf retrieval", () => {
   it("includes the bibliographic book reference in Read", () => {
