@@ -12,15 +12,26 @@ export function ResourceCard({
 }) {
   const cultural = resource.cultural_context?.adaptation_status;
   const duration = resource.duration_options_minutes?.length ? resource.duration_options_minutes.join(", ") + " min" : null;
+  const format = resource.resource_type.replaceAll("-", " ");
+  const context = resource.use_context?.filter((item) => item !== "independent-use").slice(0, 2);
 
   return (
     <article className="resource-card">
-      <div className="resource-topline">
-        <span className="resource-type">{resource.resource_type.replaceAll("-", " ")}</span>
-        <span className="review-badge">{resource.review_status}</span>
+      <div className="resource-card-layout">
+        <div className="resource-cover" aria-hidden="true">
+          <span>{resource.resource_type === "book" ? "READ" : format.split(" ")[0].slice(0, 7).toUpperCase()}</span>
+          <strong>{resource.resource_type === "book" ? "▤" : "✦"}</strong>
+        </div>
+        <div className="resource-card-main">
+          <div className="resource-topline">
+            <span className="resource-type">{format}</span>
+            <span className="review-badge">{resource.review_status}</span>
+          </div>
+          <h3>{resource.name}</h3>
+          {resource.authors?.length ? <p className="resource-authors">{resource.authors.join(", ")}{resource.publication_year ? " · " + resource.publication_year : ""}</p> : null}
+          <p>{resource.description}</p>
+        </div>
       </div>
-      <h3>{resource.name}</h3>
-      <p>{resource.description}</p>
       <div className="resource-meta">
         <span>{resource.publisher}</span>
         {resource.platforms?.length ? <span>{resource.platforms.join(" · ")}</span> : null}
