@@ -1385,3 +1385,37 @@ h3 {
 button:disabled { opacity: .6; cursor: default; }
 .saved-resource-row { flex-wrap: wrap; }
 @media (max-width: 480px) { .control-actions > * { flex: 1 1 auto; } }
+
+.bookshelf-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 18px;
+  margin: 22px 0 18px;
+  padding: 22px;
+  border: 1px solid rgba(0,0,0,.055);
+  border-radius: 25px;
+  background: linear-gradient(135deg, rgba(255,255,255,.86), rgba(243,247,252,.78));
+  box-shadow: var(--shadow-sm);
+}
+.bookshelf-copy { max-width: 700px; }
+.bookshelf-kicker { display: inline-block; color: var(--ink-tertiary); font-size: 10px; font-weight: 700; letter-spacing: .12em; }
+.bookshelf-hero h2 { margin: 8px 0 7px; font-size: clamp(24px, 4vw, 34px); letter-spacing: -.04em; }
+.bookshelf-hero p { margin: 0; max-width: 680px; color: var(--ink-secondary); font-size: 13px; line-height: 1.52; }
+.bookshelf-note { flex: 0 0 auto; padding: 9px 11px; border: 1px solid rgba(0,0,0,.05); border-radius: 999px; background: rgba(255,255,255,.82); color: var(--ink-tertiary); font-size: 10px; white-space: nowrap; }
+.bookshelf-shelves { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 9px; margin: 16px 0; }
+.shelf-tab { min-height: 70px; padding: 12px; border: 1px solid rgba(0,0,0,.055); border-radius: 17px; background: rgba(255,255,255,.72); color: var(--ink-secondary); text-align: left; box-shadow: var(--shadow-xs); }
+.shelf-tab strong { display: block; font-size: 12px; font-weight: 650; line-height: 1.25; }
+.shelf-tab span { display: block; margin-top: 7px; color: var(--ink-tertiary); font-size: 10px; }
+.shelf-tab.selected { border-color: rgba(59,103,242,.22); background: rgba(239,244,255,.92); color: #3657ad; box-shadow: 0 4px 14px rgba(59,103,242,.08); }
+.resource-filter-note { margin-top: 11px; color: var(--ink-tertiary); font-size: 10px; line-height: 1.45; }
+@media (max-width: 700px) {
+  .bookshelf-hero { display: block; }
+  .bookshelf-note { display: inline-flex; margin-top: 13px; }
+  .bookshelf-shelves { grid-template-columns: repeat(2, minmax(0, 1fr)); overflow-x: visible; }
+}
+@media (max-width: 390px) {
+  .bookshelf-shelves { grid-template-columns: 1fr 1fr; gap: 7px; }
+  .shelf-tab { min-height: 62px; padding: 10px; }
+}
+

@@ -7,7 +7,7 @@ import { localizeTool } from "@/domain/i18n/tools";
 import { ToolCreator } from "@/components/ToolCreator";
 import { ResourceCard } from "@/components/ResourceCard";
 import { ToolCard } from "@/components/ToolCard";
-import { resourceShelves, searchResources, type ResourceShelf } from "@/domain/resources/registry";
+import { getResourceShelves, resourceRegistry, resourceShelves, searchResources, type ResourceShelf } from "@/domain/resources/registry";
 import type { Resource } from "@/domain/resources/types";
 import { historyLabel, strongestHelpfulContext, summarizeToolFeedback } from "@/domain/tools/history";
 import { retrieveTools } from "@/domain/tools/retrieve";
@@ -399,24 +399,40 @@ export default function Home() {
               placeholder={t.searchResources}
               aria-label={t.searchResources}
             />
-            <div className="resource-filter-panel">
-              <div className="resource-shelf-row">
-                <button className={!resourceShelf ? "context-chip selected" : "context-chip"} onClick={() => setResourceShelf(undefined)} aria-pressed={!resourceShelf}>
-                  {language === "en" ? "All shelves" : "Todas"}
-                </button>
-                {resourceShelves.map((shelf) => (
-                  <button key={shelf} className={resourceShelf === shelf ? "context-chip selected" : "context-chip"} onClick={() => setResourceShelf(resourceShelf === shelf ? undefined : shelf)} aria-pressed={resourceShelf === shelf}>
-                    {shelf}
-                  </button>
-                ))}
+            <section className="bookshelf-hero" aria-labelledby="bookshelf-title">
+              <div className="bookshelf-copy">
+                <span className="bookshelf-kicker">{language === "en" ? "DIGITAL BOOKSHELF" : "ESTANTE DIGITAL"}</span>
+                <h2 id="bookshelf-title">{language === "en" ? "Choose what kind of support fits right now." : "Elige qué tipo de apoyo encaja ahora mismo."}</h2>
+                <p>{language === "en" ? "Browse by purpose, not popularity. SootheSpot shows the source, limits, language, and context so you can decide for yourself." : "Explora por propósito, no por popularidad. SootheSpot muestra la fuente, los límites, el idioma y el contexto para que tú decidas."}</p>
               </div>
+              <div className="bookshelf-note">{language === "en" ? "No ranking • no hidden score" : "Sin ranking • sin puntuación oculta"}</div>
+            </section>
+
+            <nav className="bookshelf-shelves" aria-label={language === "en" ? "Resource shelves" : "Estantes de recursos"}>
+              <button className={!resourceShelf ? "shelf-tab selected" : "shelf-tab"} onClick={() => setResourceShelf(undefined)} aria-pressed={!resourceShelf}>
+                <strong>{language === "en" ? "Everything" : "Todo"}</strong>
+                <span>{resourceRegistry.length}</span>
+              </button>
+              {resourceShelves.map((shelf) => {
+                const count = resourceRegistry.filter((resource) => getResourceShelves(resource).includes(shelf)).length;
+                const label = shelf === "Sleep & Rest" ? (language === "en" ? "Sleep & Rest" : "Sueño y descanso") : shelf;
+                return (
+                  <button key={shelf} className={resourceShelf === shelf ? "shelf-tab selected" : "shelf-tab"} onClick={() => setResourceShelf(resourceShelf === shelf ? undefined : shelf)} aria-pressed={resourceShelf === shelf}>
+                    <strong>{label}</strong>
+                    <span>{count}</span>
+                  </button>
+                );
+              })}
+            </nav>
+
+            <div className="resource-filter-panel">
               <div className="resource-filter-row">
                 <label>
-                  {language === "en" ? "Need" : "Necesidad"}
+                  {language === "en" ? "Find by need" : "Buscar por necesidad"}
                   <input className="search-input" value={resourceNeed} onChange={(event) => setResourceNeed(event.target.value)} placeholder={language === "en" ? "sleep, anxiety, stress..." : "sueño, ansiedad, estrés..."} />
                 </label>
                 <label>
-                  {language === "en" ? "Time" : "Tiempo"}
+                  {language === "en" ? "Available time" : "Tiempo disponible"}
                   <select value={resourceMaxMinutes ?? ""} onChange={(event) => setResourceMaxMinutes(event.target.value ? Number(event.target.value) : undefined)}>
                     <option value="">{language === "en" ? "Any length" : "Cualquier duración"}</option>
                     <option value="5">≤ 5 min</option>
@@ -427,6 +443,9 @@ export default function Home() {
                 <button className="delete-tool-button" onClick={() => { setResourceShelf(undefined); setResourceNeed(""); setResourceMaxMinutes(undefined); setResourceQuery(""); }}>
                   {language === "en" ? "Clear filters" : "Borrar filtros"}
                 </button>
+              </div>
+              <div className="resource-filter-note">
+                {language === "en" ? "Need, time, and language filters narrow the shelf. SootheSpot does not rank resources by popularity or predicted effectiveness." : "Los filtros de necesidad, tiempo e idioma reducen la estantería. SootheSpot no clasifica recursos por popularidad ni eficacia predicha."}
               </div>
             </div>
             <p className="resource-count">
