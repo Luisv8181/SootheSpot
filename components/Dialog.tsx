@@ -18,7 +18,7 @@ export function Dialog({ children, titleId, label, className = "modal-backdrop",
     siblings.forEach((node) => { node.inert = true; });
     const oldOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
-    const focusable = () => Array.from(root.querySelectorAll<HTMLElement>('button:not([disabled]), a[href], input:not([disabled]), textarea:not([disabled]), select:not([disabled]), [tabindex="0"]')).filter((node) => node.getClientRects().length > 0);
+    const focusable = () => Array.from(root.querySelectorAll<HTMLElement>('button:not([disabled]), a[href], input:not([disabled]), textarea:not([disabled]), select:not([disabled]), summary, [tabindex="0"]')).filter((node) => node.checkVisibility({ visibilityProperty: true }));
     (focusable()[0] ?? root).focus();
     function onKey(event: KeyboardEvent) {
       if (event.key === "Escape") { event.preventDefault(); close.current(); }

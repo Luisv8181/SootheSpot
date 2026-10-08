@@ -10,6 +10,7 @@ it("does not apply the Pages prefix just because it is running in CI", async () 
   vi.stubEnv("DEPLOY_TARGET", "");
   const { default: config } = await import("../next.config");
   expect(config.basePath).toBe("");
+  expect(config.env?.NEXT_PUBLIC_BASE_PATH).toBe(config.basePath);
 });
 
 it("builds static assets at the Pages prefix selected by the deployment workflow", async () => {
@@ -21,6 +22,7 @@ it("builds static assets at the Pages prefix selected by the deployment workflow
   vi.stubEnv("GITHUB_ACTIONS", "");
   const { default: config } = await import("../next.config");
   expect(config.basePath).toBe("/SootheSpot");
+  expect(config.env?.NEXT_PUBLIC_BASE_PATH).toBe(config.basePath);
   expect(config.output).toBe("export");
   expect(steps.find((step) => step.uses?.startsWith("actions/upload-pages-artifact"))?.with?.path).toBe("./out");
   expect(steps.some((step) => step.run === "npm ci")).toBe(true);

@@ -51,3 +51,6 @@ These are architecture constraints, not optional UI features.
 A feature is not complete until mobile UX, loading/empty/error states, accessibility basics, privacy implications, localization implications, cultural-context implications, important tests, and relevant documentation are addressed.
 
 Use issue -> branch -> implementation -> tests -> PR -> review. Avoid direct pushes to main for substantive changes.
+
+## Worlds quality bar
+Maintain the polished Ocean Calm / Ripple Field quality standard for all new Worlds and upgrades. Follow the Worlds quality standard in docs/DESIGN_SYSTEM.md: distinctive authored art direction, immersive readable composition, purposeful responsive motion, optional audio with user control, bounded rendering, mobile/keyboard/reduced-motion/fallback verification, local assets and provenance. Do not regress to generic decorative panels or add engagement-maximizing mechanics.

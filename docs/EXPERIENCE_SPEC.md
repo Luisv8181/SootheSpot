@@ -46,9 +46,11 @@ The schema is intentionally strict. Unknown fields fail validation. The shipped 
 | Grounding Garden | Five-senses grounding | 4 min | Come back to the room through the senses |
 | Ripple Field (experimental) | Touch / keyboard ripples | 3 min | Explore a quiet pool of light |
 
-All scenes use locally authored SVG/CSS, with no new dependencies or remote assets. Ocean uses four seconds in and six out, with no hold. Soft Focus offers a steady light or slow drift. Grounding presents one sense at a time with notice, skip, back and reset; skips do not count as noticed. Ripple Field keeps at most eight ripple positions in temporary React state. Nothing about World interactions is saved, exported, tracked or sent to a server.
+Soft Focus and Grounding Garden use locally authored SVG/CSS. Ocean and Ripple use reviewed original raster artwork with native WebGL refraction, with no new runtime dependencies or remote assets. Artwork provenance and prompts are recorded in public/worlds/README.md. Water rendering is capped at 900,000 pixels and 30 frames per second and stops on pause, hidden tabs, completion or still mode. Unsupported or lost graphics contexts show the static artwork; unavailable artwork shows a calm gradient. Ocean uses four seconds in and six out, with no hold. Soft Focus offers a steady light or slow drift. Grounding presents one sense at a time with notice, skip, back and reset; skips do not count as noticed. Ripple Field supports tap, drag, arrow keys and Enter/Space. It keeps at most eight ripple positions in temporary React state; waves overlap and expire after twelve seconds of session time. Nothing about World interactions is saved, exported, tracked or sent to a server.
 
 Still visuals are available in each World and enforced when the device requests reduced motion. Timers are bounded and pause when the page becomes hidden. Completion disables ripple input and offers reset or exit. The shipped scenes are reviewed application components; arbitrary generated content remains unsupported and must use the future restricted sandbox.
+
+Ocean Calm offers optional local shoreline audio with bilingual sound and volume controls. Sound starts off and loads only on request. It pauses with the session and when hidden, and is released on reset, completion or exit. Playback errors are visible and never block the visual activity. No audio preferences are persisted.
 
 ## Future Work
 
@@ -58,7 +60,7 @@ Not supported yet:
 
 - arbitrary custom scenes
 - generated HTML or JavaScript
-- audio assets
+- audio assets beyond the reviewed Ocean shoreline loop
 - saved/remixed Worlds
 - therapist-authored Worlds
 - server persistence

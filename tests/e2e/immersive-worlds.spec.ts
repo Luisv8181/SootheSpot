@@ -40,7 +40,7 @@ test("ripple field supports keyboard, pointer, pause, clear and ephemeral state"
   await field.focus();
   await page.keyboard.press("Enter");
   await expect(world.locator(".ripple-mark")).toHaveCount(1);
-  await field.click({ position: { x: 30, y: 30 } });
+  await field.click({ position: { x: 30, y: 200 } });
   await expect(world.locator(".ripple-mark")).toHaveCount(2);
   await world.getByRole("button", { name: "Pause", exact: true }).click();
   await expect(field).toBeDisabled();

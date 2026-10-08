@@ -128,3 +128,11 @@ Before shipping a UI change, ask:
 > Does this reduce the distance between a difficult moment and something useful, while making the person feel more in control?
 
 If the design looks impressive but adds cognitive load, remove it.
+
+## Worlds quality standard
+
+Ocean Calm and Ripple Field establish the minimum visual and interaction standard for new Worlds and future upgrades. Give every World its own coherent art direction and authored composition, with atmospheric depth, tactile material/light and restrained motion. Prefer an immersive environment with quiet, readable controls over a framed illustration panel. Preserve the activity's purpose; engagement means responsive agency, never scores, pressure or endless stimulation.
+
+Before release, inspect desktop and phone screenshots, verify portrait cropping and text contrast, and test keyboard/touch input, pause/reset/completion/exit, reduced motion, loading and fallback states. Bound graphics resources and stop continuous work when paused or hidden. Sound is always optional, starts off, has explicit volume and stop controls, and stops with the session. Use reviewed local assets with recorded licenses, provenance and transformation notes. No third-party requests, tracking or persistence of World interactions. Keep controls bilingual and avoid treating landscape imagery or audio as a substitute for user-selected cultural context.
+
+Existing Worlds should adopt this standard through focused upgrades rather than accumulating decorative effects. Current Ocean and Ripple prototypes are the reference; Soft Focus and Grounding Garden retain their present activity behavior until their visual upgrades are reviewed.
