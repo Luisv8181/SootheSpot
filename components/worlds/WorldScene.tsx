@@ -2,12 +2,16 @@
 
 import { useId } from "react";
 import type { WorldId } from "@/domain/worlds/types";
+import { waterArtwork } from "./waterArtwork";
 
-export function WorldScene({ id, breath = 0, drift = false, step = 0 }: { id: WorldId; breath?: number; drift?: boolean; step?: number }) {
+export function WorldScene({ id, drift = false, step = 0 }: { id: WorldId; drift?: boolean; step?: number }) {
   const uid = useId().replace(/:/g, "");
+  if (id === "ocean-calm" || id === "ripple-field") {
+    const art = waterArtwork[id === "ocean-calm" ? "ocean" : "pool"];
+    return <img className="world-illustration world-artwork" src={art.src} width={art.width} height={art.height} alt="" aria-hidden="true" loading="lazy" decoding="async" />;
+  }
   const sky = `${uid}-sky`;
   const glow = `${uid}-glow`;
-  const water = `${uid}-water`;
   return (
     <svg className={`world-illustration scene-${id}${drift ? " light-drifts" : ""}`} viewBox="0 0 1000 650" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
       <defs>
@@ -20,26 +24,8 @@ export function WorldScene({ id, breath = 0, drift = false, step = 0 }: { id: Wo
           <stop offset=".3" stopColor="#f0d5a8" stopOpacity=".3" />
           <stop offset="1" stopColor="#f0d5a8" stopOpacity="0" />
         </radialGradient>
-        <linearGradient id={water} x2="0" y2="1">
-          <stop stopColor="#487f91" />
-          <stop offset="1" stopColor="#092e47" />
-        </linearGradient>
       </defs>
       <rect width="1000" height="650" fill={`url(#${sky})`} />
-      {id === "ocean-calm" && <>
-        <circle cx="665" cy="180" r="180" fill={`url(#${glow})`} />
-        <circle cx="665" cy="180" r="28" fill="#f8e7c2" />
-        <path d="M0 306 Q250 299 500 306 T1000 306 V650 H0Z" fill={`url(#${water})`} />
-        <path d="M620 313 L710 313 L795 610 L510 610Z" fill="#e8dcc0" opacity=".08" />
-        {[0, 1, 2, 3, 4, 5].map((n) => <path key={n} className="sea-line" d={`M-80 ${335 + n * 45} Q160 ${315 + n * 45} 420 ${335 + n * 45} T1080 ${335 + n * 45}`} fill="none" stroke="#bcdfdd" strokeWidth={1 + n * .5} opacity={.15 + n * .015} style={{ transform: `translateY(${breath * (4 + n * 3)}px)` }} />)}
-        <path d="M0 610 Q260 550 490 613 T1000 595 V650 H0Z" fill="#102c37" />
-        <path d="M0 594 Q260 534 490 597 T1000 579" fill="none" stroke="#9ac6bc" strokeWidth="3" opacity=".5" style={{ transform: `translateY(${breath * 16}px)` }} />
-        <g className="breath-halo" style={{ transform: `translate(420px, 280px) scale(${.75 + breath * .3})` }}>
-          <circle r="90" fill="none" stroke="#dcf6ed" strokeWidth="1" opacity=".65" />
-          <circle r="72" fill="#d8f5e7" opacity=".06" />
-          <circle r="51" fill="none" stroke="#dcf6ed" opacity=".25" />
-        </g>
-      </>}
       {id === "soft-focus" && <>
         {[0, 1, 2, 3, 4, 5, 6].map((n) => <circle key={n} cx={105 + n * 133} cy={65 + (n % 3) * 47} r="1.5" fill="#f5e1c7" opacity=".6" />)}
         <path d="M0 436 Q210 365 420 421 T1000 384 V650 H0Z" fill="#383b51" />
@@ -66,12 +52,6 @@ export function WorldScene({ id, breath = 0, drift = false, step = 0 }: { id: Wo
         </g>)}
         <ellipse cx="735" cy="592" rx="38" ry="13" fill="#66897a" />
         <ellipse cx="775" cy="610" rx="23" ry="9" fill="#7b9985" />
-      </>}
-      {id === "ripple-field" && <>
-        <rect width="1000" height="650" fill="#132c3d" />
-        <ellipse cx="500" cy="340" rx="400" ry="270" fill={`url(#${glow})`} opacity=".23" />
-        {[0, 1, 2, 3, 4, 5, 6].map((n) => <ellipse key={n} cx="500" cy="340" rx={60 + n * 65} ry={35 + n * 38} fill="none" stroke="#8dc2bb" opacity={.22 - n * .025} />)}
-        <circle cx="500" cy="340" r="4" fill="#d2e5cf" />
       </>}
     </svg>
   );

@@ -18,7 +18,6 @@
 .immersive-world .world-stage { width: min(1000px, 100%); min-height: 0; flex: 1; margin: 28px auto 0; display: flex; flex-direction: column; align-items: center; text-align: center; justify-content: flex-start; }
 .immersive-scene { position: relative; width: 100%; height: clamp(240px, 44vh, 480px); border-radius: 22px; overflow: hidden; border: 1px solid #ffffff25; }
 .world-illustration { display: block; width: 100%; height: 100%; }
-.immersive-scene .sea-line, .immersive-scene .breath-halo { transition: transform 1s linear; transform-origin: 0 0; }
 .immersive-scene .focus-lantern { transform-origin: 500px 270px; }
 .light-drifts .focus-lantern { animation: lantern-drift 16s ease-in-out infinite alternate; }
 .scene-paused .focus-lantern { animation-play-state: paused; }
@@ -52,18 +51,9 @@
 .world-motion input { width: 18px; height: 18px; accent-color: #739f94; }
 .immersive-world .world-boundary { position: static; color: inherit; opacity: .8; font-size: 11px; margin: 20px auto 0; text-align: center; }
 .ripple-experiment { height: 100%; position: relative; }
-.ripple-surface { width: 100%; height: 100%; display: block; padding: 0; border: 0; position: relative; background: #132c3d; overflow: hidden; cursor: crosshair; touch-action: manipulation; }
+.ripple-surface { width: 100%; height: 100%; display: block; padding: 0; border: 0; position: relative; background: #132c3d; overflow: hidden; cursor: crosshair; touch-action: none; }
 .immersive-world .ripple-surface:disabled { opacity: 1; }
 .world-text-button { position: absolute; bottom: 12px; right: 14px; z-index: 2; min-height: 44px; border: 1px solid #bed5cd60; padding: 9px 14px; border-radius: 12px; color: #edf5ef; background: #183442; font-size: 12px; }
-.ripple-mark { position: absolute; pointer-events: none; width: 160px; height: 160px; margin: -80px 0 0 -80px; }
-.ripple-mark > span { position: absolute; inset: 0; border: 1px solid #cae6d5; border-radius: 50%; animation: ripple-spread 5s ease-out both; }
-.ripple-mark > span:nth-child(2) { inset: 18px; animation-delay: .25s; }
-.ripple-mark > span:nth-child(3) { inset: 36px; animation-delay: .5s; }
-@keyframes ripple-spread { from { opacity: .7; transform: scale(.1); } to { opacity: 0; transform: scale(2); } }
-.scene-paused .ripple-mark > span { animation-play-state: paused; }
-.visuals-still .focus-lantern, .visuals-still .ripple-mark > span { animation: none; }
-.visuals-still .ripple-mark > span { opacity: .35; }
-.visuals-still .sea-line, .visuals-still .breath-halo, .visuals-still .world-progress span { transition: none; }
 @media (max-width: 640px) {
   .world-grid { grid-template-columns: 1fr; }
   .world-card .world-card-art { height: 180px; }
@@ -78,5 +68,45 @@
 }
 @media (prefers-reduced-motion: reduce) {
   .immersive-world *, .world-card * { animation: none !important; transition: none !important; }
-  .ripple-mark > span { opacity: .35; }
+}
+
+.world-artwork { object-fit: cover; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+.visuals-still .focus-lantern { animation: none; }
+.visuals-still .world-progress span { transition: none; }
+.water-world { isolation: isolate; color: #fff9ee; background: #092c32; }
+.world-environment { position: absolute; inset: 0; z-index: -1; overflow: hidden; }
+.world-environment::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, #061e32d9, #061e3210 25%, #061e3200 42%, #061e32c9 74%, #061e32f2); }
+.water-surface, .water-artwork, .water-canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+.water-surface { background: radial-gradient(ellipse at 50% 38%, #579f9a, #163d43 65%, #09262f); pointer-events: none; }
+.water-ocean { background: linear-gradient(#e8bfa1, #627f98 32%, #194d5b 33%, #092e40); }
+.water-artwork { object-fit: cover; }
+.water-canvas { opacity: 0; }
+.water-surface[data-renderer=webgl] .water-canvas { opacity: 1; }
+.water-world .world-topbar { position: relative; text-shadow: 0 2px 16px #031d32; }
+.water-world .world-close { background: #071e3255; border-color: #ffffff80; }
+.water-world .world-stage { justify-content: flex-end; pointer-events: none; margin-top: 160px; }
+.water-world .world-stage > .world-controls, .water-world .world-stage > .world-motion { pointer-events: auto; }
+.water-world .world-guidance { margin: 0 0 24px; min-height: 88px; text-shadow: 0 2px 18px #031d32; }
+.water-world .world-phase { font-size: clamp(32px, 4vw, 48px); font-weight: 450; }
+.water-world.world-theme-ripple .world-phase { font-size: clamp(24px, 3vw, 32px); }
+.water-world .world-subtle { margin-inline: auto; max-width: 500px; opacity: 1; }
+.water-world .world-secondary { background: #071e3255; }
+.water-world .world-primary { background: #f4eddb; border-color: #f4eddb; }
+.water-world .world-motion { color: #fff9ee; }
+.water-world .world-boundary { opacity: .95; }
+.world-environment .world-text-button { bottom: auto; top: 138px; right: max(24px, calc((100vw - 1100px) / 2)); background: #071e32b3; }
+.ripple-mark { position: absolute; pointer-events: none; width: 4px; height: 4px; border-radius: 50%; background: #edfff599; box-shadow: 0 0 12px #ddfff5; transform: translate(-50%, -50%); }
+.ripple-surface:has([data-motion=still]) .ripple-mark { width: 60px; height: 60px; background: #ddfff508; border: 1px solid #ddfff570; box-shadow: 0 0 24px #ddfff519; }
+.ripple-cursor { position: absolute; pointer-events: none; width: 28px; height: 28px; border: 2px solid #fff9ee; outline: 2px solid #103a42; border-radius: 50%; transform: translate(-50%, -50%); }
+.ripple-cursor::after { content: ""; position: absolute; inset: 9px; background: #fff9ee; border-radius: 50%; }
+.ripple-surface:focus-visible { outline-offset: -8px !important; }
+@media (max-width: 640px) {
+  .water-world .world-topbar h2 { font-size: 28px; }
+  .water-world .world-topbar p { max-width: 245px; }
+  .water-world .world-stage { margin-top: 150px; }
+  .water-world .world-guidance { margin-bottom: 16px; }
+  .water-world .world-phase { font-size: 34px; }
+  .water-world.world-theme-ripple .world-phase { font-size: 24px; }
+  .world-environment .world-text-button { top: 130px; right: 16px; }
 }

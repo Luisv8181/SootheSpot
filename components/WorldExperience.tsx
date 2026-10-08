@@ -8,6 +8,7 @@ import { Dialog } from "./Dialog";
 import { useExperienceClock } from "./worlds/useExperienceClock";
 import { WorldScene } from "./worlds/WorldScene";
 import { RippleField } from "./worlds/RippleField";
+import { WaterCanvas } from "./worlds/WaterCanvas";
 import "./worlds/worlds.css";
 
 const labels = {
@@ -15,7 +16,7 @@ const labels = {
     kicker: "SootheSpot World", ready: "Ready when you are", begin: "Start", pause: "Pause", resume: "Resume", reset: "Reset", done: "Return to Worlds", exit: "Close experience",
     inhale: "Breathe in", hold: "Pause softly", exhale: "Breathe out", steady: "Let your attention rest here.", complete: "That is enough for this round.",
     completionSub: "Take a moment. You can stay, start again, or leave.", still: "Still visuals", fixed: "Steady light", drift: "Slow drift", notice: "I noticed something", skip: "Skip this sense", back: "Back", experimental: "Experimental",
-    breathNote: "No need to hold your breath. Follow only if comfortable.", rippleNote: "Tap anywhere, or focus the pool and press Enter. Nothing is saved.",
+    breathNote: "No need to hold your breath. Follow only if comfortable.", rippleNote: "Tap or slowly trace the water. Use arrow keys to move, then Enter or Space to place a ripple. Nothing is saved.",
     senseNote: "Use your surroundings. Skip any sense that does not fit.",
     boundary: "Self-guided wellbeing experience · not emergency care.",
     senses: (n: number) => `${n} ${n === 1 ? "sense" : "senses"} noticed`, step: (n: number) => `Sense ${n} of 5`, progress: (a: string, b: string) => `${a} of ${b}`
@@ -24,7 +25,7 @@ const labels = {
     kicker: "Mundo SootheSpot", ready: "Listo cuando tú lo estés", begin: "Empezar", pause: "Pausar", resume: "Continuar", reset: "Reiniciar", done: "Volver a Mundos", exit: "Cerrar experiencia",
     inhale: "Inhala", hold: "Pausa suave", exhale: "Exhala", steady: "Deja que tu atención descanse aquí.", complete: "Eso es suficiente por ahora.",
     completionSub: "Tómate un momento. Puedes quedarte, empezar de nuevo o salir.", still: "Imágenes quietas", fixed: "Luz estable", drift: "Movimiento lento", notice: "Noté algo", skip: "Omitir este sentido", back: "Atrás", experimental: "Experimental",
-    breathNote: "No hace falta contener la respiración. Sigue el ritmo solo si te resulta cómodo.", rippleNote: "Toca el agua o enfoca el estanque y pulsa Intro. No se guarda nada.",
+    breathNote: "No hace falta contener la respiración. Sigue el ritmo solo si te resulta cómodo.", rippleNote: "Toca el agua o desliza el dedo lentamente. Usa las flechas para moverte e Intro o Espacio para crear una onda. No se guarda nada.",
     senseNote: "Observa tu entorno. Puedes omitir cualquier sentido.", boundary: "Experiencia de bienestar autoguiada · no es atención de emergencia.",
     senses: (n: number) => `${n} ${n === 1 ? "sentido notado" : "sentidos notados"}`, step: (n: number) => `Sentido ${n} de 5`, progress: (a: string, b: string) => `${a} de ${b}`
   }
@@ -56,14 +57,13 @@ export function WorldExperience({ world, onClose, language }: { world: World; on
   const breath = world.activity.find((activity) => activity.type === "breathRhythm");
   const grounding = world.activity.find((activity) => activity.type === "groundingPrompt");
   const isRipple = world.id === "ripple-field";
+  const waterWorld = isRipple || world.id === "ocean-calm";
   const complete = clock.complete || !!(grounding && step >= grounding.senses.length);
   useEffect(() => {
     if (complete) completionButton.current?.focus();
   }, [complete]);
   const phase = breath ? breathPhaseAt(clock.elapsed, breath) : null;
   const phaseText = phase === "inhale" ? t.inhale : phase === "exhale" ? t.exhale : t.hold;
-  const position = breath ? clock.elapsed % (breath.inhaleSeconds + breath.holdSeconds + breath.exhaleSeconds) : 0;
-  const breathLevel = breath ? position < breath.inhaleSeconds ? position / breath.inhaleSeconds : 1 - (position - breath.inhaleSeconds - breath.holdSeconds) / breath.exhaleSeconds : 0;
   const noticed = answers.filter(Boolean).length;
   const prompt = grounding?.senses[step];
   function start() { setSessionStarted(true); clock.start(); }
@@ -75,18 +75,21 @@ export function WorldExperience({ world, onClose, language }: { world: World; on
     else clock.start();
   }
 
-  return <Dialog className={`world-screen immersive-world world-theme-${world.theme}${still ? " visuals-still" : ""}${clock.running && !complete ? " scene-running" : " scene-paused"}`} label={world.title[language]} onClose={onClose}>
+  return <Dialog className={`world-screen immersive-world world-theme-${world.theme}${waterWorld ? " water-world" : ""}${still ? " visuals-still" : ""}${clock.running && !complete ? " scene-running" : " scene-paused"}`} label={world.title[language]} onClose={onClose}>
     <header className="world-topbar">
       <div><span className="world-kicker">{isRipple ? t.experimental : t.kicker}</span><h2>{world.title[language]}</h2><p>{world.purpose[language]}</p></div>
       <button className="world-close" onClick={onClose} aria-label={t.exit}>×</button>
     </header>
+    {waterWorld && <div className="world-environment">
+      {isRipple ? <RippleField key={resetKey} language={language} paused={!clock.running && sessionStarted} complete={complete} running={clock.running && !complete} still={still} sampleTime={clock.sampleTime} onInteract={start} /> : <WaterCanvas kind="ocean" running={clock.running && !complete} still={still} sampleTime={clock.sampleTime} rhythm={breath} />}
+    </div>}
     <section className="world-stage">
-      <div className="immersive-scene">
-        {isRipple ? <RippleField key={resetKey} language={language} paused={!clock.running && sessionStarted} complete={complete} onInteract={start} /> : <WorldScene id={world.id} breath={still ? 0 : breathLevel} drift={drift && !still} step={step} />}
+      {!waterWorld && <div className="immersive-scene">
+        <WorldScene id={world.id} drift={drift && !still} step={step} />
         {grounding && <div className="garden-steps" aria-hidden="true">{grounding.senses.map((_, index) => <span key={index} className={index === step ? "current" : index < step ? "visited" : ""} />)}</div>}
-      </div>
+      </div>}
       <div className="world-guidance" aria-live="polite" aria-atomic="true">
-        {prompt && !complete ? <><p className="world-step">{t.step(step + 1)}</p><h3 className="world-phase">{prompt.sense[language]}</h3><p className="world-subtle">{prompt.prompt[language]}</p></> : <><p className="world-phase">{complete ? t.complete : breath ? clock.running ? phaseText : t.ready : clock.running ? isRipple ? world.description[language] : t.steady : t.ready}</p><p className="world-subtle">{complete ? t.completionSub : breath ? t.breathNote : isRipple ? t.rippleNote : world.description[language]}</p></>}
+        {prompt && !complete ? <><p className="world-step">{t.step(step + 1)}</p><h3 className="world-phase">{prompt.sense[language]}</h3><p className="world-subtle">{prompt.prompt[language]}</p></> : <><p className="world-phase">{complete ? t.complete : breath ? clock.running ? phaseText : t.ready : clock.running ? isRipple ? world.description[language] : t.steady : t.ready}</p><p id={isRipple ? "ripple-instructions" : undefined} className="world-subtle">{complete ? t.completionSub : breath ? t.breathNote : isRipple ? t.rippleNote : world.description[language]}</p></>}
       </div>
       {grounding && !complete && <><div className="world-controls"><button className="world-primary" onClick={() => advance(true)}>{t.notice}</button><button className="world-secondary" onClick={() => advance(false)}>{t.skip}</button></div><p className="world-hint">{t.senseNote}</p></>}
       {world.id === "soft-focus" && !complete && <div className="world-mode" aria-label={language === "en" ? "Light movement" : "Movimiento de luz"}><button aria-pressed={!drift || still} onClick={() => setDrift(false)}>{t.fixed}</button><button disabled={still} aria-pressed={drift && !still} onClick={() => setDrift(true)}>{t.drift}</button></div>}
