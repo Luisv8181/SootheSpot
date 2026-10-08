@@ -86,7 +86,7 @@
 .water-world .world-topbar { position: relative; text-shadow: 0 2px 16px #031d32; }
 .water-world .world-close { background: #071e3255; border-color: #ffffff80; }
 .water-world .world-stage { justify-content: flex-end; pointer-events: none; margin-top: 160px; }
-.water-world .world-stage > .world-controls, .water-world .world-stage > .world-motion { pointer-events: auto; }
+.water-world .world-stage > .world-controls, .water-world .world-stage > .world-motion, .water-world .world-stage > .world-audio { pointer-events: auto; }
 .water-world .world-guidance { margin: 0 0 24px; min-height: 88px; text-shadow: 0 2px 18px #031d32; }
 .water-world .world-phase { font-size: clamp(32px, 4vw, 48px); font-weight: 450; }
 .water-world.world-theme-ripple .world-phase { font-size: clamp(24px, 3vw, 32px); }
@@ -101,6 +101,20 @@
 .ripple-cursor { position: absolute; pointer-events: none; width: 28px; height: 28px; border: 2px solid #fff9ee; outline: 2px solid #103a42; border-radius: 50%; transform: translate(-50%, -50%); }
 .ripple-cursor::after { content: ""; position: absolute; inset: 9px; background: #fff9ee; border-radius: 50%; }
 .ripple-surface:focus-visible { outline-offset: -8px !important; }
+.world-audio { width: min(470px, 100%); margin-top: 8px; }
+.world-audio-controls { display: flex; gap: 16px; justify-content: center; align-items: center; flex-wrap: wrap; }
+.world-audio .world-secondary { font-size: 12px; padding: 10px 14px; }
+.world-volume { display: flex; align-items: center; gap: 8px; min-height: 44px; font-size: 12px; }
+.world-volume input { width: 105px; accent-color: #e7ecd9; min-height: 44px; }
+.world-volume input:focus-visible, .world-audio summary:focus-visible, .world-audio a:focus-visible { outline: 3px solid #ebae64; outline-offset: 3px; }
+.world-audio-status { margin: 3px 0; font-size: 11px; }
+.world-audio-credits { font-size: 11px; }
+.world-audio-credits summary { cursor: pointer; min-height: 28px; padding: 6px; }
+.world-audio-credits p { margin: 6px 0; line-height: 1.5; }
+.world-audio a { color: inherit; text-decoration: underline; }
+@media (max-height: 760px) {
+  .water-world .world-environment::after { background: linear-gradient(180deg, #061e32d9, #061e3210 20%, #061e3220 30%, #061e32b8 43%, #061e32ec 90%); }
+}
 @media (max-width: 640px) {
   .water-world .world-topbar h2 { font-size: 28px; }
   .water-world .world-topbar p { max-width: 245px; }

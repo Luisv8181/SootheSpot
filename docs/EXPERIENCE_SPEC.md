@@ -50,6 +50,8 @@ Soft Focus and Grounding Garden use locally authored SVG/CSS. Ocean and Ripple u
 
 Still visuals are available in each World and enforced when the device requests reduced motion. Timers are bounded and pause when the page becomes hidden. Completion disables ripple input and offers reset or exit. The shipped scenes are reviewed application components; arbitrary generated content remains unsupported and must use the future restricted sandbox.
 
+Ocean Calm offers optional local shoreline audio with bilingual sound and volume controls. Sound starts off and loads only on request. It pauses with the session and when hidden, and is released on reset, completion or exit. Playback errors are visible and never block the visual activity. No audio preferences are persisted.
+
 ## Future Work
 
 Future generated Worlds should still produce an `ExperienceSpec` first. The renderer, not the model, decides what can execute.
@@ -58,7 +60,7 @@ Not supported yet:
 
 - arbitrary custom scenes
 - generated HTML or JavaScript
-- audio assets
+- audio assets beyond the reviewed Ocean shoreline loop
 - saved/remixed Worlds
 - therapist-authored Worlds
 - server persistence

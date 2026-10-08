@@ -9,6 +9,7 @@ import { useExperienceClock } from "./worlds/useExperienceClock";
 import { WorldScene } from "./worlds/WorldScene";
 import { RippleField } from "./worlds/RippleField";
 import { WaterCanvas } from "./worlds/WaterCanvas";
+import { OceanSound } from "./worlds/OceanSound";
 import "./worlds/worlds.css";
 
 const labels = {
@@ -103,6 +104,7 @@ export function WorldExperience({ world, onClose, language }: { world: World; on
       <p className="world-timer">{t.progress(time(clock.elapsed), time(world.durationMinutes * 60))}</p>
       {grounding && <p className="world-count">{t.senses(noticed)}</p>}
       <label className="world-motion"><input type="checkbox" checked={still} disabled={systemStill} onChange={(event) => setRequestedStill(event.target.checked)} />{t.still}</label>
+      {world.id === "ocean-calm" && <OceanSound key={resetKey} running={clock.running} complete={complete} language={language} onStart={start} />}
     </section>
     <p className="world-boundary">{t.boundary}</p>
   </Dialog>;
