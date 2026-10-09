@@ -94,6 +94,12 @@ def main() -> int:
 
             if record.get("shelf") is not None and record["shelf"] not in SHELVES:
                 fail(f"{rid}: invalid explicit shelf {record['shelf']!r}")
+            secondary_shelves = record.get("shelves", [])
+            if not isinstance(secondary_shelves, list):
+                fail(f"{rid}: shelves must be an array when provided")
+            invalid_shelves = sorted(set(secondary_shelves) - SHELVES)
+            if invalid_shelves:
+                fail(f"{rid}: invalid secondary shelves {invalid_shelves}")
             if record.get("needs") is not None:
                 if not isinstance(record["needs"], list):
                     fail(f"{rid}: needs must be an array when provided")
