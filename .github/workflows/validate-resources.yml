@@ -5,11 +5,15 @@ on:
     paths:
       - "resources/**"
       - "scripts/validate_resources.py"
+      - "scripts/validate_resource_catalog.py"
+      - "tests/test_resource_catalog_validator.py"
       - ".github/workflows/validate-resources.yml"
   pull_request:
     paths:
       - "resources/**"
       - "scripts/validate_resources.py"
+      - "scripts/validate_resource_catalog.py"
+      - "tests/test_resource_catalog_validator.py"
       - ".github/workflows/validate-resources.yml"
 
 jobs:
@@ -17,5 +21,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate resource registry
+      - name: Validate resource registry (legacy contract)
         run: python scripts/validate_resources.py
+      - name: Validate resources and book metadata
+        run: python scripts/validate_resource_catalog.py
+      - name: Test resource metadata validation
+        run: python -m unittest tests/test_resource_catalog_validator.py
