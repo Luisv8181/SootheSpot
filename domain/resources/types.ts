@@ -1,3 +1,35 @@
+export const resourceNeeds = [
+  "calm",
+  "sleep",
+  "understand",
+  "practice",
+  "listen",
+  "watch",
+  "read",
+  "support",
+  "stress",
+  "anxiety",
+  "mood",
+  "trauma",
+  "self-compassion",
+  "grief",
+  "substance-use"
+] as const;
+
+export type ResourceNeed = (typeof resourceNeeds)[number];
+
+export const resourceShelfIds = [
+  "read",
+  "listen",
+  "practice",
+  "watch",
+  "sleep-rest",
+  "understand-yourself",
+  "reach-out"
+] as const;
+
+export type ResourceShelfId = (typeof resourceShelfIds)[number];
+
 export type Resource = {
   id: string;
   name: string;
@@ -12,6 +44,8 @@ export type Resource = {
   duration_options_minutes?: number[];
   intended_population?: string[];
   use_context?: string[];
+  shelf?: ResourceShelfId;
+  needs?: ResourceNeed[];
   review_status: "unreviewed" | "screened" | "clinically_reviewed" | "verified" | "deprecated";
   regions?: string[];
   accessibility?: string[];
@@ -24,4 +58,9 @@ export type Resource = {
   source_notes?: string[];
   license_notes?: string;
   privacy_notes?: string;
+  data_practices_url?: string;
+  authors?: string[];
+  publication_year?: number;
+  page_count?: number;
+  isbn?: string;
 };

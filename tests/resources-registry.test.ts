@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getResourceShelves, searchResources } from "@/domain/resources/registry";
+import { getResourceShelfLabels, getResourceShelves, searchResources } from "@/domain/resources/registry";
 
 describe("digital bookshelf retrieval", () => {
   it("includes the bibliographic book reference in Read", () => {
@@ -10,7 +10,7 @@ describe("digital bookshelf retrieval", () => {
   it("classifies UCLA guided meditations for listening and practice", () => {
     const resource = searchResources("UCLA mindful", "English")[0];
     expect(resource).toBeDefined();
-    expect(getResourceShelves(resource)).toEqual(expect.arrayContaining(["Listen", "Practice", "Sleep & Rest"]));
+    expect(getResourceShelfLabels(resource)).toEqual(expect.arrayContaining(["Listen", "Practice", "Sleep & Rest"]));
   });
 
   it("supports need and duration filters", () => {

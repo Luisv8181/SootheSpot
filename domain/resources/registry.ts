@@ -1,6 +1,6 @@
 import rawResources from "../../resources/resources.json";
 import rawBooks from "../../resources/books.json";
-import type { Resource } from "./types";
+import type { Resource, ResourceNeed, ResourceShelfId } from "./types";
 
 export const resourceRegistry = [...(rawResources as Resource[]), ...(rawBooks as Resource[])];
 
@@ -15,6 +15,16 @@ export const resourceShelves = [
 ] as const;
 
 export type ResourceShelf = (typeof resourceShelves)[number];
+
+export const shelfIds: Record<ResourceShelf, ResourceShelfId> = {
+  Read: "read",
+  Listen: "listen",
+  Practice: "practice",
+  Watch: "watch",
+  "Sleep & Rest": "sleep-rest",
+  "Understand Yourself": "understand-yourself",
+  "Reach Out": "reach-out"
+};
 
 export const shelfIcons: Record<ResourceShelf, string> = {
   Read: "▤",
@@ -36,7 +46,7 @@ export const shelfDescriptions: Record<ResourceShelf, string> = {
   "Reach Out": "Find people, programs, and professional support."
 };
 
-const shelfMatchers: Record<ResourceShelf, string[]> = {
+const legacyShelfMatchers: Record<ResourceShelf, string[]> = {
   Read: ["read", "book", "article", "article-library", "educational-resource"],
   Listen: ["audio", "guided-meditation", "podcast"],
   Practice: ["practice", "exercise", "meditation", "mindfulness", "coping", "cbt", "act"],
@@ -46,7 +56,11 @@ const shelfMatchers: Record<ResourceShelf, string[]> = {
   "Reach Out": ["support", "social-support", "when-to-seek-help", "help", "treatment"]
 };
 
-export function getResourceShelves(resource: Resource): ResourceShelf[] {
+function hasTerm(haystack: string, term: string) {
+  return haystack.includes(term.toLowerCase());
+}
+
+function legacyShelves(resource: Resource): ResourceShelf[] {
   const haystack = [
     resource.resource_type,
     resource.name,
@@ -56,13 +70,50 @@ export function getResourceShelves(resource: Resource): ResourceShelf[] {
   ].join(" ").toLowerCase();
 
   return resourceShelves.filter((shelf) =>
-    shelfMatchers[shelf].some((term) => haystack.includes(term.toLowerCase()))
+    legacyShelfMatchers[shelf].some((term) => hasTerm(haystack, term))
   );
 }
 
-export function searchResources(query: string, language?: string, shelf?: ResourceShelf, need?: string, maxMinutes?: number) {
+export function getResourceShelves(resource: Resource): ResourceShelf[] {
+  if (resource.shelf) {
+    const shelf = resourceShelves.find((candidate) => shelfIds[candidate] === resource.shelf);
+    return shelf ? [shelf] : [];
+  }
+  return legacyShelves(resource);
+}
+
+export function getResourceShelfLabels(resource: Resource): ResourceShelf[] {
+  if (!resource.shelf) return getResourceShelves(resource);
+  const shelves = getResourceShelves(resource);
+  const legacy = legacyShelves(resource);
+  return Array.from(new Set([...shelves, ...legacy]));
+}
+
+function resourceMatchesNeed(resource: Resource, need: string): boolean {
+  const normalized = need.trim().toLowerCase();
+  if (!normalized) return true;
+  if (resource.needs?.some((item) => item.toLowerCase() === normalized)) return true;
+
+  // Preserve useful compatibility while the catalog migrates to explicit needs.
+  const haystack = [
+    resource.name,
+    resource.description,
+    ...resource.tags,
+    ...(resource.use_context ?? [])
+  ].join(" ").toLowerCase();
+  return hasTerm(haystack, normalized);
+}
+
+export function searchResources(
+  query: string,
+  language?: string,
+  shelf?: ResourceShelf,
+  need?: string,
+  maxMinutes?: number,
+  population?: string
+) {
   const q = query.trim().toLowerCase();
-  const n = need?.trim().toLowerCase();
+  const p = population?.trim().toLowerCase();
 
   return resourceRegistry.filter((resource) => {
     const haystack = [
@@ -75,14 +126,15 @@ export function searchResources(query: string, language?: string, shelf?: Resour
     ].join(" ").toLowerCase();
 
     const queryMatch = !q || haystack.includes(q);
-    const needMatch = !n || haystack.includes(n);
+    const needMatch = !need || resourceMatchesNeed(resource, need);
     const languageMatch = !language || resource.languages?.some((item) => item.toLowerCase() === language.toLowerCase());
     const shelfMatch = !shelf || getResourceShelves(resource).includes(shelf);
+    const populationMatch = !p || resource.intended_population?.some((item) => item.toLowerCase() === p);
     const durationMatch =
       maxMinutes === undefined ||
       !resource.duration_options_minutes?.length ||
       resource.duration_options_minutes.some((minutes) => minutes <= maxMinutes);
 
-    return queryMatch && needMatch && languageMatch && shelfMatch && durationMatch && resource.review_status !== "deprecated";
+    return queryMatch && needMatch && languageMatch && shelfMatch && populationMatch && durationMatch && resource.review_status !== "deprecated";
   });
 }

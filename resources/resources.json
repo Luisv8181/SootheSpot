@@ -40,7 +40,14 @@
       "https://www.ptsd.va.gov/appvid/mobile/coping_coach_app.asp",
       "https://mobile.va.gov/app/coping-coach"
     ],
-    "license_notes": "External resource. SootheSpot stores metadata only."
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "shelf": "practice",
+    "needs": [
+      "practice",
+      "stress",
+      "calm",
+      "mood"
+    ]
   },
   {
     "id": "va-ptsd-coach",
@@ -86,7 +93,14 @@
       "https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp",
       "https://mobile.va.gov/app/ptsd-coach"
     ],
-    "license_notes": "External resource. SootheSpot stores metadata only."
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "shelf": "practice",
+    "needs": [
+      "practice",
+      "stress",
+      "calm",
+      "trauma"
+    ]
   },
   {
     "id": "va-mindfulness-coach",
@@ -128,7 +142,13 @@
     "source_notes": [
       "https://mobile.va.gov/app/mindfulness-coach"
     ],
-    "license_notes": "External resource. SootheSpot stores metadata only."
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "shelf": "listen",
+    "needs": [
+      "listen",
+      "stress",
+      "calm"
+    ]
   },
   {
     "id": "va-act-coach",
@@ -169,7 +189,12 @@
     "source_notes": [
       "https://www.ptsd.va.gov/appvid/mobile/actcoach_app_public.asp"
     ],
-    "license_notes": "External resource. SootheSpot stores metadata only."
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "shelf": "practice",
+    "needs": [
+      "practice",
+      "calm"
+    ]
   },
   {
     "id": "mindshift-cbt",
@@ -212,7 +237,13 @@
     "source_notes": [
       "https://mindshiftcbt.com/"
     ],
-    "license_notes": "External resource. SootheSpot stores metadata only."
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "shelf": "practice",
+    "needs": [
+      "practice",
+      "anxiety",
+      "calm"
+    ]
   },
   {
     "id": "va-insomnia-coach",
@@ -253,7 +284,11 @@
     "source_notes": [
       "https://mobile.va.gov/mental-health-and-behavioral-therapy-apps"
     ],
-    "license_notes": "External resource. SootheSpot stores metadata only."
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "shelf": "sleep-rest",
+    "needs": [
+      "sleep"
+    ]
   },
   {
     "id": "va-safety-plan",
@@ -293,7 +328,12 @@
     "source_notes": [
       "https://mobile.va.gov/mental-health-and-behavioral-therapy-apps"
     ],
-    "license_notes": "External resource. SootheSpot stores metadata only."
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "shelf": "practice",
+    "needs": [
+      "practice",
+      "calm"
+    ]
   },
   {
     "id": "va-virtual-hope-box",
@@ -336,7 +376,12 @@
       "https://news.va.gov/146813/practical-skills-veterans-lower-suicide-risk/",
       "https://mobile.va.gov/mental-health-and-behavioral-therapy-apps"
     ],
-    "license_notes": "External resource. SootheSpot stores metadata only."
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "shelf": "reach-out",
+    "needs": [
+      "support",
+      "calm"
+    ]
   },
   {
     "id": "nimh-coping-stress",
@@ -378,7 +423,15 @@
     "source_notes": [
       "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet"
     ],
-    "license_notes": "External resource. SootheSpot stores metadata only."
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "shelf": "reach-out",
+    "needs": [
+      "support",
+      "anxiety",
+      "stress",
+      "calm",
+      "understand"
+    ]
   },
   {
     "id": "samhsa-how-to-cope",
@@ -417,7 +470,14 @@
     "source_notes": [
       "https://www.samhsa.gov/find-support/how-to-cope"
     ],
-    "license_notes": "External resource. SootheSpot stores metadata only."
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "shelf": "reach-out",
+    "needs": [
+      "support",
+      "stress",
+      "calm",
+      "understand"
+    ]
   },
   {
     "id": "ucla-guided-meditations",
@@ -489,7 +549,13 @@
     "source_notes": [
       "https://www.uclahealth.org/uclamindful/guided-meditations"
     ],
-    "license_notes": "External resource. SootheSpot stores metadata only."
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "shelf": "listen",
+    "needs": [
+      "listen",
+      "sleep",
+      "calm"
+    ]
   },
   {
     "id": "nccih-meditation-mindfulness",
@@ -530,7 +596,13 @@
     "source_notes": [
       "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety"
     ],
-    "license_notes": "External resource. SootheSpot stores metadata only."
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "shelf": "practice",
+    "needs": [
+      "practice",
+      "calm",
+      "understand"
+    ]
   },
   {
     "id": "nccih-mind-body-practices",
@@ -573,7 +645,14 @@
     "source_notes": [
       "https://www.nccih.nih.gov/health/mind-and-body-practices"
     ],
-    "license_notes": "External resource. SootheSpot stores metadata only."
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "shelf": "sleep-rest",
+    "needs": [
+      "sleep",
+      "stress",
+      "calm",
+      "understand"
+    ]
   },
   {
     "id": "nimh-fact-sheets",
@@ -618,7 +697,14 @@
     "source_notes": [
       "https://www.nimh.nih.gov/health/publications/fact-sheets"
     ],
-    "license_notes": "External resource. SootheSpot stores metadata only."
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "shelf": "reach-out",
+    "needs": [
+      "support",
+      "anxiety",
+      "mood",
+      "understand"
+    ]
   },
   {
     "id": "samhsa-ask-for-help",
@@ -658,7 +744,11 @@
     "source_notes": [
       "https://www.samhsa.gov/find-support/how-to-cope/how-to-ask-for-help"
     ],
-    "license_notes": "External resource. SootheSpot stores metadata only."
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "shelf": "reach-out",
+    "needs": [
+      "support"
+    ]
   },
   {
     "id": "samhsa-signs-help",
@@ -698,6 +788,14 @@
     "source_notes": [
       "https://www.samhsa.gov/find-support/how-to-cope/signs-of-needing-help"
     ],
-    "license_notes": "External resource. SootheSpot stores metadata only."
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "shelf": "reach-out",
+    "needs": [
+      "support",
+      "stress",
+      "calm",
+      "mood",
+      "understand"
+    ]
   }
 ]
