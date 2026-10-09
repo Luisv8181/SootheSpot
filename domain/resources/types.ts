@@ -45,6 +45,8 @@ export type Resource = {
   intended_population?: string[];
   use_context?: string[];
   shelf?: ResourceShelfId;
+  /** Explicit secondary navigation shelves; not keyword-inferred. */
+  shelves?: ResourceShelfId[];
   needs?: ResourceNeed[];
   review_status: "unreviewed" | "screened" | "clinically_reviewed" | "verified" | "deprecated";
   regions?: string[];
