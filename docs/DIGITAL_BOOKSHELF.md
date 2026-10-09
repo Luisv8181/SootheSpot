@@ -35,3 +35,5 @@ Books are reference records only. Store bibliographic metadata and legitimate pu
 ## Safety
 
 Safety and crisis resources remain a separate pathway. Ordinary coping browsing should not silently become crisis routing.
+
+See the dependency-ordered resource library roadmap maintained in this document's roadmap section and current pull request notes.
