@@ -76,23 +76,22 @@ function legacyShelves(resource: Resource): ResourceShelf[] {
 
 export function getResourceShelves(resource: Resource): ResourceShelf[] {
   if (resource.shelf) {
-    const shelf = resourceShelves.find((candidate) => shelfIds[candidate] === resource.shelf);
-    return shelf ? [shelf] : [];
+    const explicitIds = new Set([resource.shelf, ...(resource.shelves ?? [])]);
+    return resourceShelves.filter((candidate) => explicitIds.has(shelfIds[candidate]));
   }
   return legacyShelves(resource);
 }
 
 export function getResourceShelfLabels(resource: Resource): ResourceShelf[] {
-  if (!resource.shelf) return getResourceShelves(resource);
-  const shelves = getResourceShelves(resource);
-  const legacy = legacyShelves(resource);
-  return Array.from(new Set([...shelves, ...legacy]));
+  // Explicit primary and secondary shelf metadata is authoritative. Do not
+  // silently add keyword-derived shelf labels to a mapped resource.
+  return getResourceShelves(resource);
 }
 
 function resourceMatchesNeed(resource: Resource, need: string): boolean {
   const normalized = need.trim().toLowerCase();
   if (!normalized) return true;
-  if (resource.needs?.some((item) => item.toLowerCase() === normalized)) return true;
+  if (resource.needs) return resource.needs.some((item) => item.toLowerCase() === normalized);
 
   // Preserve useful compatibility while the catalog migrates to explicit needs.
   const haystack = [
@@ -130,10 +129,10 @@ export function searchResources(
     const languageMatch = !language || resource.languages?.some((item) => item.toLowerCase() === language.toLowerCase());
     const shelfMatch = !shelf || getResourceShelves(resource).includes(shelf);
     const populationMatch = !p || resource.intended_population?.some((item) => item.toLowerCase() === p);
+    // A duration cap is a real constraint. Unknown duration is not a match.
     const durationMatch =
       maxMinutes === undefined ||
-      !resource.duration_options_minutes?.length ||
-      resource.duration_options_minutes.some((minutes) => minutes <= maxMinutes);
+      (resource.duration_options_minutes?.some((minutes) => minutes <= maxMinutes) ?? false);
 
     return queryMatch && needMatch && languageMatch && shelfMatch && populationMatch && durationMatch && resource.review_status !== "deprecated";
   });
