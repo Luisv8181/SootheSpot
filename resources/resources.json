@@ -942,5 +942,258 @@
       "support",
       "understand"
     ]
+  },
+  {
+    "id": "nimh-jane-brain-stress-mess",
+    "name": "Jane the Brain and the Stress Mess",
+    "publisher": "National Institute of Mental Health (NIMH), National Institutes of Health",
+    "resource_type": "video",
+    "official_url": "https://www.nimh.nih.gov/news/media/2024/episode-1-jane-the-brain-and-the-stress-mess",
+    "platforms": [
+      "Web video"
+    ],
+    "description": "A child-focused animated educational video about stress, body signals, box breathing, asking trusted people for help, making a plan, and movement.",
+    "tags": [
+      "video",
+      "stress",
+      "brain",
+      "box-breathing",
+      "youth",
+      "education"
+    ],
+    "intended_population": [
+      "children",
+      "families",
+      "educators"
+    ],
+    "use_context": [
+      "psychoeducation",
+      "independent-use",
+      "educator-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "NIMH lists a separate audio-described version; transcript is available on the official episode page. Keyboard and screen-reader compatibility not independently audited."
+    ],
+    "regions": [
+      "Online; geographic eligibility not stated."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No specific cultural adaptation claim identified; content is a U.S. federal educational resource."
+    },
+    "evidence_notes": "Educational video from NIMH. This record does not make a claim of clinical efficacy.",
+    "limitations": "Educational material, not individualized mental health assessment or treatment. Ask a trusted adult or professional for help when distress is persistent or severe.",
+    "metadata_review_notes": "Reviewed NIMH's official episode page, transcript, and series page on 2026-10-08. Audio-described link is listed by NIMH.",
+    "review_status": "verified",
+    "last_verified_at": "2026-10-08",
+    "source_notes": [
+      "https://www.nimh.nih.gov/news/media/2024/episode-1-jane-the-brain-and-the-stress-mess",
+      "https://www.nimh.nih.gov/get-involved/science-education/video-series-jane-the-brain"
+    ],
+    "license_notes": "SootheSpot stores metadata and links to the source; it does not copy or re-host the video or its thumbnail.",
+    "privacy_notes": "External video embeds may disclose connection and interaction data to the third-party host if embedded. Open the official source link instead when privacy is a priority.",
+    "data_practices_url": "https://www.nimh.nih.gov/site-info/policies",
+    "shelf": "watch",
+    "needs": [
+      "understand",
+      "stress",
+      "calm"
+    ]
+  },
+  {
+    "id": "nimh-jane-brain-frustration-sensation",
+    "name": "Jane the Brain and the Frustration Sensation",
+    "publisher": "National Institute of Mental Health (NIMH), National Institutes of Health",
+    "resource_type": "video",
+    "official_url": "https://www.nimh.nih.gov/news/media/2024/episode-2-jane-the-brain-and-the-frustration-sensation",
+    "platforms": [
+      "Web video"
+    ],
+    "description": "A child-focused animated educational video that explains frustration-related body cues and presents taking a break, breathing, and rethinking the situation as coping options.",
+    "tags": [
+      "video",
+      "frustration",
+      "emotions",
+      "brain",
+      "youth",
+      "coping"
+    ],
+    "intended_population": [
+      "children",
+      "families",
+      "educators"
+    ],
+    "use_context": [
+      "psychoeducation",
+      "independent-use",
+      "educator-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "NIMH lists a separate audio-described version; transcript is available on the official episode page. Keyboard and screen-reader compatibility not independently audited."
+    ],
+    "regions": [
+      "Online; geographic eligibility not stated."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No specific cultural adaptation claim identified; content is a U.S. federal educational resource."
+    },
+    "evidence_notes": "Educational video from NIMH. This record does not make a claim of clinical efficacy.",
+    "limitations": "Educational material, not individualized mental health assessment or treatment. Coping suggestions are optional and do not fit every situation.",
+    "metadata_review_notes": "Reviewed NIMH's official episode page, transcript, and series page on 2026-10-08. Audio-described link is listed by NIMH.",
+    "review_status": "verified",
+    "last_verified_at": "2026-10-08",
+    "source_notes": [
+      "https://www.nimh.nih.gov/news/media/2024/episode-2-jane-the-brain-and-the-frustration-sensation",
+      "https://www.nimh.nih.gov/get-involved/science-education/video-series-jane-the-brain"
+    ],
+    "license_notes": "SootheSpot stores metadata and links to the source; it does not copy or re-host the video or its thumbnail.",
+    "privacy_notes": "External video embeds may disclose connection and interaction data to the third-party host if embedded. Open the official source link instead when privacy is a priority.",
+    "data_practices_url": "https://www.nimh.nih.gov/site-info/policies",
+    "shelf": "watch",
+    "needs": [
+      "understand",
+      "calm",
+      "practice"
+    ]
+  },
+  {
+    "id": "nimh-jane-brain-upset-reset",
+    "name": "Jane the Brain and the Upset Reset",
+    "publisher": "National Institute of Mental Health (NIMH), National Institutes of Health",
+    "resource_type": "video",
+    "official_url": "https://www.nimh.nih.gov/news/media/2024/episode-3-jane-the-brain-and-the-upset-reset",
+    "platforms": [
+      "Web video"
+    ],
+    "description": "A child-focused animated educational video about sadness, naming feelings, enjoyable activities, mindfulness, and asking trusted people for support.",
+    "tags": [
+      "video",
+      "sadness",
+      "emotions",
+      "brain",
+      "youth",
+      "mindfulness"
+    ],
+    "intended_population": [
+      "children",
+      "families",
+      "educators"
+    ],
+    "use_context": [
+      "psychoeducation",
+      "independent-use",
+      "educator-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "NIMH lists a separate audio-described version; transcript is available on the official episode page. Keyboard and screen-reader compatibility not independently audited."
+    ],
+    "regions": [
+      "Online; geographic eligibility not stated."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No specific cultural adaptation claim identified; content is a U.S. federal educational resource."
+    },
+    "evidence_notes": "Educational video from NIMH. This record does not make a claim of clinical efficacy.",
+    "limitations": "Educational material, not individualized mental health assessment or treatment. The source encourages children to tell a trusted adult if sadness persists or they think about hurting themselves.",
+    "metadata_review_notes": "Reviewed NIMH's official episode page, transcript, and series page on 2026-10-08. Audio-described link is listed by NIMH.",
+    "review_status": "verified",
+    "last_verified_at": "2026-10-08",
+    "source_notes": [
+      "https://www.nimh.nih.gov/news/media/2024/episode-3-jane-the-brain-and-the-upset-reset",
+      "https://www.nimh.nih.gov/get-involved/science-education/video-series-jane-the-brain"
+    ],
+    "license_notes": "SootheSpot stores metadata and links to the source; it does not copy or re-host the video or its thumbnail.",
+    "privacy_notes": "External video embeds may disclose connection and interaction data to the third-party host if embedded. Open the official source link instead when privacy is a priority.",
+    "data_practices_url": "https://www.nimh.nih.gov/site-info/policies",
+    "shelf": "watch",
+    "needs": [
+      "understand",
+      "mood",
+      "support",
+      "calm"
+    ]
+  },
+  {
+    "id": "nimh-great-manage-stress-anxiety",
+    "name": "GREAT: Helpful Practices to Manage Stress and Anxiety",
+    "publisher": "National Institute of Mental Health (NIMH), National Institutes of Health",
+    "resource_type": "video",
+    "official_url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+    "platforms": [
+      "Web video"
+    ],
+    "description": "A featured NIMH educational video developed by a licensed clinical psychologist that introduces helpful practices for managing stress and anxiety.",
+    "tags": [
+      "video",
+      "stress",
+      "anxiety",
+      "coping",
+      "education"
+    ],
+    "intended_population": [
+      "adolescents",
+      "adults",
+      "families",
+      "educators"
+    ],
+    "use_context": [
+      "psychoeducation",
+      "independent-use",
+      "educator-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "NIMH lists the video on its official mental-health topic page; captions, transcript, duration, and audio description were not independently confirmed."
+    ],
+    "regions": [
+      "Online; geographic eligibility not stated."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No specific cultural adaptation claim identified; content is a U.S. federal educational resource."
+    },
+    "evidence_notes": "Educational video from NIMH. This record does not make a claim of clinical efficacy.",
+    "limitations": "General educational content; not a diagnosis or individualized treatment. Duration and detailed accessibility features have not been verified.",
+    "metadata_review_notes": "Reviewed NIMH's official 'Caring for Your Mental Health' page on 2026-10-08. The page features the video but provides no verified duration in the checked text.",
+    "review_status": "verified",
+    "last_verified_at": "2026-10-08",
+    "source_notes": [
+      "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+      "https://www.nimh.nih.gov/get-involved/digital-shareables/mental-health-resources-for-students-and-educators"
+    ],
+    "license_notes": "SootheSpot stores metadata and links to the source; it does not copy or re-host the video or its thumbnail.",
+    "privacy_notes": "External video embeds may disclose connection and interaction data to the third-party host if embedded. Open the official source link instead when privacy is a priority.",
+    "data_practices_url": "https://www.nimh.nih.gov/site-info/policies",
+    "shelf": "watch",
+    "needs": [
+      "understand",
+      "stress",
+      "anxiety"
+    ]
   }
 ]
