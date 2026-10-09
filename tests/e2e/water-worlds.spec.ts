@@ -23,6 +23,9 @@ test("ocean renders moving water, freezes when paused and stays within its pixel
   const paused = imageHash(await canvas.screenshot());
   await page.waitForTimeout(350);
   expect(imageHash(await canvas.screenshot())).toBe(paused);
+  // Unrelated React updates must not restart water time after the Pause click.
+  await world.getByRole("checkbox", { name: "Still visuals" }).focus();
+  expect(imageHash(await canvas.screenshot())).toBe(paused);
 });
 
 test("keyboard placement can move across the pool and waves remain bounded during drag", async ({ page }) => {

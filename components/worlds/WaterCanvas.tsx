@@ -23,19 +23,33 @@ export function WaterCanvas({ kind, running, still, sampleTime, ripples = [], rh
     let lost = false;
     let frame = 0;
     let lastFrame = 0;
+    let lastDrawnTime: number | null = null;
+    let lastDrawnBreath = 0;
     let graphics: ReturnType<typeof createWaterRenderer> = null;
     function resize() {
       const bounds = surface!.getBoundingClientRect();
       const scale = Math.min(window.devicePixelRatio || 1, 1.5, Math.sqrt(900000 / Math.max(1, bounds.width * bounds.height)));
       const width = Math.max(1, Math.floor(bounds.width * scale));
       const height = Math.max(1, Math.floor(bounds.height * scale));
-      if (surface!.width !== width || surface!.height !== height) { surface!.width = width; surface!.height = height; }
+      if (surface!.width !== width || surface!.height !== height) {
+        surface!.width = width;
+        surface!.height = height;
+        // Resizing clears the WebGL drawing buffer, so allow one fresh draw.
+        lastDrawnTime = null;
+        lastDrawnBreath = 0;
+      }
       redraw.current();
     }
     function draw() {
       const settings = latest.current;
+      // Once paused, leave the last WebGL framebuffer untouched. Even drawing
+      // the same uniforms again may produce different captured pixels on GPU.
+      if (!settings.running && !settings.still && lastDrawnTime !== null) return;
       const time = settings.sampleTime();
-      graphics?.draw(time, settings.rhythm ? breathEnvelope(time, settings.rhythm) : 0, settings.ripples, settings.still);
+      const breath = settings.rhythm ? breathEnvelope(time, settings.rhythm) : 0;
+      lastDrawnTime = time;
+      lastDrawnBreath = breath;
+      graphics?.draw(time, breath, settings.ripples, settings.still);
     }
     function tick(timestamp: number) {
       if (disposed || lost) return;
@@ -45,6 +59,9 @@ export function WaterCanvas({ kind, running, still, sampleTime, ripples = [], rh
     redraw.current = () => {
       window.cancelAnimationFrame(frame);
       if (!graphics || lost || disposed) return;
+      // A transition from paused to running resumes drawing; lastDrawnTime is
+      // retained only to freeze a paused frame and is ignored while running.
+      if (latest.current.running && !latest.current.still) lastDrawnTime = null;
       draw();
       if (latest.current.running && !latest.current.still) frame = window.requestAnimationFrame(tick);
     };
