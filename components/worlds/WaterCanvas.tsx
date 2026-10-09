@@ -23,19 +23,38 @@ export function WaterCanvas({ kind, running, still, sampleTime, ripples = [], rh
     let lost = false;
     let frame = 0;
     let lastFrame = 0;
+    let lastDrawnTime: number | null = null;
+    let lastDrawnBreath: number | null = null;
     let graphics: ReturnType<typeof createWaterRenderer> = null;
     function resize() {
       const bounds = surface!.getBoundingClientRect();
       const scale = Math.min(window.devicePixelRatio || 1, 1.5, Math.sqrt(900000 / Math.max(1, bounds.width * bounds.height)));
       const width = Math.max(1, Math.floor(bounds.width * scale));
       const height = Math.max(1, Math.floor(bounds.height * scale));
-      if (surface!.width !== width || surface!.height !== height) { surface!.width = width; surface!.height = height; }
+      if (surface!.width !== width || surface!.height !== height) {
+        surface!.width = width;
+        surface!.height = height;
+        // A resize invalidates the old framebuffer; allow redraw to sample the
+        // current state once before pinning that new paused frame.
+        lastDrawnTime = null;
+        lastDrawnBreath = null;
+      }
       redraw.current();
     }
     function draw() {
       const settings = latest.current;
       const time = settings.sampleTime();
-      graphics?.draw(time, settings.rhythm ? breathEnvelope(time, settings.rhythm) : 0, settings.ripples, settings.still);
+      const breath = settings.rhythm ? breathEnvelope(time, settings.rhythm) : 0;
+      // A paused session clock can still be asked to redraw by unrelated React
+      // renders. Reuse the last simulation sample so WebGL doesn't receive a
+      // fresh uniform set after Pause and jitter the captured frame.
+      if (!settings.running && !settings.still && lastDrawnTime !== null) {
+        graphics?.draw(lastDrawnTime, lastDrawnBreath ?? 0, settings.ripples, settings.still);
+        return;
+      }
+      lastDrawnTime = time;
+      lastDrawnBreath = breath;
+      graphics?.draw(time, breath, settings.ripples, settings.still);
     }
     function tick(timestamp: number) {
       if (disposed || lost) return;
@@ -79,7 +98,15 @@ export function WaterCanvas({ kind, running, still, sampleTime, ripples = [], rh
     };
   }, [art.src, kind]);
 
-  useEffect(() => { redraw.current(); }, [running, still, ripples, sampleTime]);
+  useEffect(() => {
+    if (running || still) {
+      // On resume or deliberate still-mode change, render the current state
+      // afresh. Otherwise redraws while paused reuse the pinned simulation time.
+      redraw.current();
+    } else {
+      redraw.current();
+    }
+  }, [running, still, ripples, sampleTime]);
 
   return <div className={`water-surface water-${kind}`} data-renderer={renderer} data-motion={still || renderer === "fallback" ? "still" : running ? "running" : "paused"} aria-hidden="true">
     <img className="water-artwork" src={art.src} alt="" draggable={false} decoding="async" onError={(event) => { event.currentTarget.style.visibility = "hidden"; }} />
