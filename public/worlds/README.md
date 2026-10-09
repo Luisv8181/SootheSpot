@@ -18,3 +18,7 @@ Production original artwork for SootheSpot Ripple Field, landscape 1536x1024, im
 `ocean-shore.mp3` (55 seconds, stereo, 128 kbps, 881,101 bytes) is adapted from **Oceanwavescrushing** by **Luftrum**, recorded at Kalundborg Fjord, Røsnæs, on 16 February 2008. Source: https://commons.wikimedia.org/wiki/File:Oceanwavescrushing.ogg (original Freesound source: https://freesound.org/people/Luftrum/sounds/48412/). License: **Creative Commons Attribution 3.0 Unported**, https://creativecommons.org/licenses/by/3.0/. No endorsement is implied. Credit and license links also appear in the Ocean sound controls.
 
 Changes: used seconds 10–70, applied 70 Hz high-pass / 6500 Hz low-pass filtering and a 0.7 peak limiter, joined the last and first five seconds with a linear crossfade, and encoded to MP3 without source metadata. The resulting local 55-second loop has no abrupt silence at its boundary. Playback is opt-in; gain defaults to 15% of full-scale and can be changed using the volume slider. The file loads only after the sound control is selected.
+
+## Soft Focus and Grounding Garden
+
+`focus-clearing.webp` and `garden-path.webp` are original 1536 × 1024 images generated with the built-in image-generation tool, visually reviewed and compressed locally to WebP. No user data was included. The focus light and sensory trail are separate, authored UI layers. Full prompts and provenance are recorded in [Atmosphere artwork notes](../../docs/superpowers/specs/2026-10-09-atmosphere-artwork.md).
