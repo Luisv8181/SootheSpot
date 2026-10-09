@@ -13,12 +13,16 @@ describe("digital bookshelf retrieval", () => {
     expect(getResourceShelfLabels(resource)).toEqual(expect.arrayContaining(["Listen", "Practice", "Sleep & Rest"]));
   });
 
-  it("supports need and duration filters", () => {
+  it("supports need and duration filters without treating unknown duration as a match", () => {
     const short = searchResources("", "English", "Practice", "sleep", 10);
     expect(short.length).toBeGreaterThan(0);
     expect(short.every((resource) =>
-      !resource.duration_options_minutes?.length ||
-      resource.duration_options_minutes.some((minutes) => minutes <= 10)
+      resource.duration_options_minutes?.some((minutes) => minutes <= 10)
     )).toBe(true);
+  });
+
+  it("uses explicit secondary shelves and does not keyword-infer shelf labels", () => {
+    const ucla = searchResources("UCLA mindful", "English")[0];
+    expect(getResourceShelves(ucla)).toEqual(expect.arrayContaining(["Listen", "Practice", "Sleep & Rest"]));
   });
 });
