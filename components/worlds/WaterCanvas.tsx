@@ -24,8 +24,7 @@ export function WaterCanvas({ kind, running, still, sampleTime, ripples = [], rh
     let frame = 0;
     let lastFrame = 0;
     let lastDrawnTime: number | null = null;
-    let lastDrawnBreath: number | null = null;
-    let pinnedFrame: ImageData | null = null;
+    let lastDrawnBreath = 0;
     let graphics: ReturnType<typeof createWaterRenderer> = null;
     function resize() {
       const bounds = surface!.getBoundingClientRect();
@@ -35,40 +34,22 @@ export function WaterCanvas({ kind, running, still, sampleTime, ripples = [], rh
       if (surface!.width !== width || surface!.height !== height) {
         surface!.width = width;
         surface!.height = height;
-        pinnedFrame = null;
-        // A resize invalidates the old framebuffer; allow redraw to sample the
-        // current state once before pinning that new paused frame.
+        // Resizing clears the WebGL drawing buffer, so allow one fresh draw.
         lastDrawnTime = null;
-        lastDrawnBreath = null;
-        pinnedFrame = null;
+        lastDrawnBreath = 0;
       }
       redraw.current();
     }
     function draw() {
       const settings = latest.current;
+      // Once paused, leave the last WebGL framebuffer untouched. Even drawing
+      // the same uniforms again may produce different captured pixels on GPU.
+      if (!settings.running && !settings.still && lastDrawnTime !== null) return;
       const time = settings.sampleTime();
       const breath = settings.rhythm ? breathEnvelope(time, settings.rhythm) : 0;
-      // A paused session clock can still be asked to redraw by unrelated React
-      // renders. Reuse the last simulation sample so WebGL doesn't receive a
-      // fresh uniform set after Pause and jitter the captured frame.
-      if (!settings.running && !settings.still && pinnedFrame !== null) {
-        const context = surface!.getContext("2d");
-        if (context) context.putImageData(pinnedFrame, 0, 0);
-        return;
-      }
-      if (!settings.running && !settings.still && lastDrawnTime !== null) {
-        graphics?.draw(lastDrawnTime, lastDrawnBreath ?? 0, settings.ripples, settings.still);
-        const context = surface!.getContext("2d");
-        if (context) pinnedFrame = context.getImageData(0, 0, surface!.width, surface!.height);
-        return;
-      }
       lastDrawnTime = time;
       lastDrawnBreath = breath;
       graphics?.draw(time, breath, settings.ripples, settings.still);
-      if (!settings.running && !settings.still) {
-        const context = surface!.getContext("2d");
-        if (context) pinnedFrame = context.getImageData(0, 0, surface!.width, surface!.height);
-      }
     }
     function tick(timestamp: number) {
       if (disposed || lost) return;
@@ -78,6 +59,9 @@ export function WaterCanvas({ kind, running, still, sampleTime, ripples = [], rh
     redraw.current = () => {
       window.cancelAnimationFrame(frame);
       if (!graphics || lost || disposed) return;
+      // A transition from paused to running resumes drawing; lastDrawnTime is
+      // retained only to freeze a paused frame and is ignored while running.
+      if (latest.current.running && !latest.current.still) lastDrawnTime = null;
       draw();
       if (latest.current.running && !latest.current.still) frame = window.requestAnimationFrame(tick);
     };
@@ -112,15 +96,7 @@ export function WaterCanvas({ kind, running, still, sampleTime, ripples = [], rh
     };
   }, [art.src, kind]);
 
-  useEffect(() => {
-    if (running || still) {
-      // On resume or deliberate still-mode change, render the current state
-      // afresh. Otherwise redraws while paused reuse the pinned simulation time.
-      redraw.current();
-    } else {
-      redraw.current();
-    }
-  }, [running, still, ripples, sampleTime]);
+  useEffect(() => { redraw.current(); }, [running, still, ripples, sampleTime]);
 
   return <div className={`water-surface water-${kind}`} data-renderer={renderer} data-motion={still || renderer === "fallback" ? "still" : running ? "running" : "paused"} aria-hidden="true">
     <img className="water-artwork" src={art.src} alt="" draggable={false} decoding="async" onError={(event) => { event.currentTarget.style.visibility = "hidden"; }} />
