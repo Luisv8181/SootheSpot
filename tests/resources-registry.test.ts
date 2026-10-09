@@ -21,6 +21,21 @@ describe("digital bookshelf retrieval", () => {
     )).toBe(true);
   });
 
+  it("surfaces NIMH's official child mental-health videos on Watch", () => {
+    const watch = searchResources("", "English", "Watch");
+    const nimhVideos = watch.filter((resource) => resource.id.startsWith("nimh-jane-brain-"));
+    expect(nimhVideos).toHaveLength(3);
+    expect(nimhVideos.every((resource) => resource.official_url.startsWith("https://www.nimh.nih.gov/"))).toBe(true);
+    expect(nimhVideos.every((resource) => resource.source_notes?.length)).toBe(true);
+  });
+
+  it("does not invent duration metadata for videos where source duration was not verified", () => {
+    const great = searchResources("GREAT: Helpful Practices", "English", "Watch")[0];
+    expect(great).toBeDefined();
+    expect(great.duration_options_minutes).toBeUndefined();
+    expect(searchResources("GREAT: Helpful Practices", "English", "Watch", undefined, 5)).not.toContain(great);
+  });
+
   it("uses explicit secondary shelves and does not keyword-infer shelf labels", () => {
     const ucla = searchResources("UCLA mindful", "English")[0];
     expect(getResourceShelves(ucla)).toEqual(expect.arrayContaining(["Listen", "Practice", "Sleep & Rest"]));
