@@ -5,24 +5,56 @@
     "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
     "resource_type": "mobile-app",
     "official_url": "https://mobile.va.gov/app/coping-coach",
-    "platforms": ["iOS", "Android"],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
     "description": "A self-care and stress-management app with coping tools, mood tracking, learning content, and external support resources.",
-    "tags": ["stress", "coping", "self-care", "mood", "independent-use"],
-    "intended_population": ["general", "veterans", "service-members"],
-    "use_context": ["independent-use", "therapist-supported"],
-    "languages": ["English"],
-    "access": ["free"],
-    "accessibility": ["Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."],
-    "regions": ["U.S.-focused provider; current regional availability not independently confirmed."],
+    "tags": [
+      "stress",
+      "coping",
+      "self-care",
+      "mood",
+      "independent-use"
+    ],
+    "intended_population": [
+      "general",
+      "veterans",
+      "service-members"
+    ],
+    "use_context": [
+      "independent-use",
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "regions": [
+      "U.S.-focused provider; current regional availability not independently confirmed."
+    ],
     "evidence_notes": "Official VA documentation describes the app as a stand-alone education/self-care tool or supplement to professional mental health care.",
     "limitations": "Does not replace needed professional mental health care.",
     "metadata_review_notes": "Accessibility and current distribution coverage require follow-up; do not infer these from the platform list.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://www.ptsd.va.gov/appvid/mobile/coping_coach_app.asp", "https://mobile.va.gov/app/coping-coach"],
+    "source_notes": [
+      "https://www.ptsd.va.gov/appvid/mobile/coping_coach_app.asp",
+      "https://mobile.va.gov/app/coping-coach"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only.",
     "shelf": "practice",
-    "needs": ["practice", "stress", "calm", "mood"]
+    "needs": [
+      "practice",
+      "stress",
+      "calm",
+      "mood"
+    ]
   },
   {
     "id": "va-ptsd-coach",
@@ -30,24 +62,59 @@
     "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
     "resource_type": "mobile-app",
     "official_url": "https://mobile.va.gov/app/ptsd-coach",
-    "platforms": ["iOS", "Android", "Web"],
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
     "description": "An educational and self-help resource for learning about PTSD and accessing tools for managing trauma-related symptoms.",
-    "tags": ["trauma", "PTSD", "grounding", "relaxation", "stress", "independent-use"],
-    "intended_population": ["people-affected-by-trauma", "veterans", "service-members", "general"],
-    "use_context": ["independent-use", "therapist-supported"],
-    "languages": ["English"],
-    "access": ["free"],
-    "accessibility": ["Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."],
-    "regions": ["U.S.-focused provider; current regional availability not independently confirmed."],
+    "tags": [
+      "trauma",
+      "PTSD",
+      "grounding",
+      "relaxation",
+      "stress",
+      "independent-use"
+    ],
+    "intended_population": [
+      "people-affected-by-trauma",
+      "veterans",
+      "service-members",
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "regions": [
+      "U.S.-focused provider; current regional availability not independently confirmed."
+    ],
     "evidence_notes": "Official VA documentation describes symptom education, coping tools, self-monitoring, and support links.",
     "limitations": "Not a replacement for professional care.",
     "metadata_review_notes": "The official VA page includes tools and support links; specific accessibility conformance and regional restrictions need verification.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp", "https://mobile.va.gov/app/ptsd-coach"],
+    "source_notes": [
+      "https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp",
+      "https://mobile.va.gov/app/ptsd-coach"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only.",
     "shelf": "practice",
-    "needs": ["practice", "stress", "calm", "trauma"]
+    "needs": [
+      "practice",
+      "stress",
+      "calm",
+      "trauma"
+    ]
   },
   {
     "id": "va-mindfulness-coach",
@@ -55,24 +122,58 @@
     "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
     "resource_type": "mobile-app",
     "official_url": "https://mobile.va.gov/app/mindfulness-coach",
-    "platforms": ["iOS", "Android"],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
     "description": "A self-guided mindfulness resource with exercises, audio guidance, practice tracking, reminders, and educational material.",
-    "tags": ["mindfulness", "stress", "relaxation", "audio", "independent-use"],
-    "intended_population": ["general", "veterans", "service-members"],
-    "use_context": ["independent-use", "therapist-supported"],
-    "languages": ["English"],
-    "access": ["free"],
-    "accessibility": ["Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."],
-    "regions": ["U.S.-focused provider; current regional availability not independently confirmed."],
+    "tags": [
+      "mindfulness",
+      "stress",
+      "relaxation",
+      "audio",
+      "independent-use"
+    ],
+    "intended_population": [
+      "general",
+      "veterans",
+      "service-members"
+    ],
+    "use_context": [
+      "independent-use",
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "regions": [
+      "U.S.-focused provider; current regional availability not independently confirmed."
+    ],
     "evidence_notes": "Official VA documentation describes a structured mindfulness program and guided exercises.",
     "limitations": "Does not replace professional treatment. Mindfulness is optional and may not suit everyone.",
     "metadata_review_notes": "Specific accessibility conformance and regional restrictions need verification.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://mobile.va.gov/app/mindfulness-coach"],
+    "source_notes": [
+      "https://mobile.va.gov/app/mindfulness-coach"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only.",
     "shelf": "listen",
-    "needs": ["listen", "stress", "calm"]
+    "needs": [
+      "listen",
+      "stress",
+      "calm"
+    ],
+    "shelves": [
+      "listen",
+      "practice"
+    ]
   },
   {
     "id": "va-act-coach",
@@ -80,24 +181,52 @@
     "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
     "resource_type": "mobile-app",
     "official_url": "https://www.ptsd.va.gov/appvid/mobile/actcoach_app_public.asp",
-    "platforms": ["iOS", "Android"],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
     "description": "An ACT companion with mindfulness, values-based exercises, coping tools, and tracking for people participating in ACT with a provider.",
-    "tags": ["ACT", "mindfulness", "values", "coping", "therapist-supported"],
-    "intended_population": ["people-in-ACT-treatment", "veterans", "service-members"],
-    "use_context": ["therapist-supported"],
-    "languages": ["English"],
-    "access": ["free"],
-    "accessibility": ["Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."],
-    "regions": ["U.S.-focused provider; current regional availability not independently confirmed."],
+    "tags": [
+      "ACT",
+      "mindfulness",
+      "values",
+      "coping",
+      "therapist-supported"
+    ],
+    "intended_population": [
+      "people-in-ACT-treatment",
+      "veterans",
+      "service-members"
+    ],
+    "use_context": [
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "regions": [
+      "U.S.-focused provider; current regional availability not independently confirmed."
+    ],
     "evidence_notes": "Official VA documentation describes ACT exercises and use with a mental health provider.",
     "limitations": "Designed as an ACT treatment companion and not intended as self-care without provider guidance.",
     "metadata_review_notes": "Specific accessibility conformance and regional restrictions need verification.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://www.ptsd.va.gov/appvid/mobile/actcoach_app_public.asp"],
+    "source_notes": [
+      "https://www.ptsd.va.gov/appvid/mobile/actcoach_app_public.asp"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only.",
     "shelf": "practice",
-    "needs": ["practice", "calm"]
+    "needs": [
+      "practice",
+      "calm"
+    ]
   },
   {
     "id": "mindshift-cbt",
@@ -105,24 +234,55 @@
     "publisher": "Anxiety Canada",
     "resource_type": "mobile-app",
     "official_url": "https://mindshiftcbt.com/",
-    "platforms": ["iOS", "Android", "Web"],
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
     "description": "A CBT-oriented anxiety resource with guided tools for anxious thinking, relaxation, mindfulness, and approaching fears.",
-    "tags": ["anxiety", "CBT", "cognitive-restructuring", "relaxation", "mindfulness", "independent-use"],
-    "intended_population": ["people-experiencing-anxiety", "general"],
-    "use_context": ["independent-use", "therapist-supported"],
-    "languages": ["English"],
-    "access": ["free"],
-    "accessibility": ["Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."],
-    "regions": ["Provider based in Canada; current app/web regional availability not independently confirmed."],
+    "tags": [
+      "anxiety",
+      "CBT",
+      "cognitive-restructuring",
+      "relaxation",
+      "mindfulness",
+      "independent-use"
+    ],
+    "intended_population": [
+      "people-experiencing-anxiety",
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "regions": [
+      "Provider based in Canada; current app/web regional availability not independently confirmed."
+    ],
     "evidence_notes": "The publisher describes the app as CBT-based and references a 16-week clinical trial on its site.",
     "limitations": "SootheSpot does not independently validate the publisher's efficacy claims; preserve publisher attribution.",
     "metadata_review_notes": "Accessibility conformance, app-store availability, and current privacy practices need independent follow-up.",
     "review_status": "screened",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://mindshiftcbt.com/"],
+    "source_notes": [
+      "https://mindshiftcbt.com/"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only.",
     "shelf": "practice",
-    "needs": ["practice", "anxiety", "calm"]
+    "needs": [
+      "practice",
+      "anxiety",
+      "calm"
+    ]
   },
   {
     "id": "va-insomnia-coach",
@@ -130,24 +290,56 @@
     "publisher": "U.S. Department of Veterans Affairs",
     "resource_type": "mobile-app",
     "official_url": "https://mobile.va.gov/app/insomnia-coach",
-    "platforms": ["iOS", "Android"],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
     "description": "A sleep-focused app with a guided training plan, sleep diary, and tools for tracking and improving sleep.",
-    "tags": ["sleep", "insomnia", "sleep-diary", "self-management"],
-    "intended_population": ["general", "veterans", "service-members"],
-    "use_context": ["independent-use", "therapist-supported"],
-    "languages": ["English"],
-    "access": ["free"],
-    "accessibility": ["Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."],
-    "regions": ["U.S.-focused provider; current regional availability not independently confirmed."],
+    "tags": [
+      "sleep",
+      "insomnia",
+      "sleep-diary",
+      "self-management"
+    ],
+    "intended_population": [
+      "general",
+      "veterans",
+      "service-members"
+    ],
+    "use_context": [
+      "independent-use",
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "regions": [
+      "U.S.-focused provider; current regional availability not independently confirmed."
+    ],
     "evidence_notes": "VA describes a guided weekly training plan, interactive sleep diary, and sleep-management tools.",
     "limitations": "VA advises consulting a healthcare provider for several health conditions that may be affected by sleep-habit changes; it is not a substitute for professional evaluation or treatment.",
     "metadata_review_notes": "The VA page describes the app for everyone, including Veterans and Service members. Specific accessibility conformance and regional restrictions need verification.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://mobile.va.gov/app/insomnia-coach", "https://mobile.va.gov/mental-health-and-behavioral-therapy-apps"],
+    "source_notes": [
+      "https://mobile.va.gov/app/insomnia-coach",
+      "https://mobile.va.gov/mental-health-and-behavioral-therapy-apps"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only.",
     "shelf": "sleep-rest",
-    "needs": ["sleep"]
+    "needs": [
+      "sleep"
+    ],
+    "shelves": [
+      "sleep-rest",
+      "practice"
+    ]
   },
   {
     "id": "va-safety-plan",
@@ -155,24 +347,55 @@
     "publisher": "U.S. Department of Veterans Affairs",
     "resource_type": "mobile-app",
     "official_url": "https://mobile.va.gov/app/safety-plan",
-    "platforms": ["iOS", "Android"],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
     "description": "A structured tool for making a personal safety plan and keeping selected coping steps and support contacts available.",
-    "tags": ["safety", "support", "crisis-planning", "coping"],
-    "intended_population": ["general", "veterans", "service-members"],
-    "use_context": ["safety-planning", "therapist-supported"],
-    "languages": ["English"],
-    "access": ["free"],
-    "accessibility": ["Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."],
-    "regions": ["U.S.-focused provider; current regional availability not independently confirmed."],
+    "tags": [
+      "safety",
+      "support",
+      "crisis-planning",
+      "coping"
+    ],
+    "intended_population": [
+      "general",
+      "veterans",
+      "service-members"
+    ],
+    "use_context": [
+      "safety-planning",
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "regions": [
+      "U.S.-focused provider; current regional availability not independently confirmed."
+    ],
     "evidence_notes": "VA's official mobile resource directory lists this safety-planning tool.",
     "limitations": "A stored plan or app is not an emergency response service. Keep this resource in the dedicated safety pathway rather than ordinary coping results.",
-    "metadata_review_notes": "Specific accessibility conformance and regional restrictions need verification.",
+    "metadata_review_notes": "Specific accessibility conformance and regional restrictions need verification. Safety planning stays within the dedicated safety pathway and must not be returned as an ordinary coping suggestion.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://mobile.va.gov/app/safety-plan", "https://mobile.va.gov/mental-health-and-behavioral-therapy-apps"],
+    "source_notes": [
+      "https://mobile.va.gov/app/safety-plan",
+      "https://mobile.va.gov/mental-health-and-behavioral-therapy-apps"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only.",
     "shelf": "reach-out",
-    "needs": ["support"]
+    "needs": [
+      "support"
+    ],
+    "shelves": [
+      "reach-out"
+    ]
   },
   {
     "id": "va-virtual-hope-box",
@@ -180,24 +403,54 @@
     "publisher": "U.S. Department of Veterans Affairs",
     "resource_type": "mobile-app",
     "official_url": "https://mobile.va.gov/app/virtual-hope-box",
-    "platforms": ["iOS", "Android"],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
     "description": "A customizable app for keeping personally meaningful reminders, images, activities, and coping resources in one place.",
-    "tags": ["coping", "support", "self-care", "personal-reminders"],
-    "intended_population": ["general", "veterans", "service-members"],
-    "use_context": ["independent-use", "therapist-supported"],
-    "languages": ["English"],
-    "access": ["free"],
-    "accessibility": ["Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."],
-    "regions": ["U.S.-focused provider; current regional availability not independently confirmed."],
+    "tags": [
+      "coping",
+      "support",
+      "self-care",
+      "personal-reminders"
+    ],
+    "intended_population": [
+      "general",
+      "veterans",
+      "service-members"
+    ],
+    "use_context": [
+      "independent-use",
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "regions": [
+      "U.S.-focused provider; current regional availability not independently confirmed."
+    ],
     "evidence_notes": "VA's official mobile resource directory lists Virtual Hope Box as a mental-health app.",
     "limitations": "Not a crisis response service or replacement for professional care.",
     "metadata_review_notes": "Specific accessibility conformance and regional restrictions need verification.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://mobile.va.gov/app/virtual-hope-box", "https://mobile.va.gov/mental-health-and-behavioral-therapy-apps"],
+    "source_notes": [
+      "https://mobile.va.gov/app/virtual-hope-box",
+      "https://mobile.va.gov/mental-health-and-behavioral-therapy-apps"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only.",
     "shelf": "practice",
-    "needs": ["practice", "support", "calm"]
+    "needs": [
+      "practice",
+      "support",
+      "calm"
+    ]
   },
   {
     "id": "nimh-coping-stress",
@@ -205,25 +458,64 @@
     "publisher": "National Institute of Mental Health",
     "resource_type": "article",
     "official_url": "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
-    "platforms": ["Web", "Downloadable PDF"],
+    "platforms": [
+      "Web",
+      "Downloadable PDF"
+    ],
     "description": "A short educational fact sheet for teens and young adults about distinguishing stress from anxiety and choosing coping steps.",
-    "tags": ["stress", "anxiety", "youth", "psychoeducation", "read"],
-    "intended_population": ["adolescents", "young-adults"],
-    "use_context": ["independent-use", "psychoeducation"],
-    "languages": ["English", "Spanish"],
-    "access": ["free"],
-    "accessibility": ["Web fact sheet and downloadable document; screen-reader compatibility not independently audited."],
-    "regions": ["Online; geographic eligibility not stated."],
-    "cultural_context": {"adaptation_status": "translated", "notes": "NIMH has English and Spanish editions. Translation alone does not establish local cultural adaptation."},
+    "tags": [
+      "stress",
+      "anxiety",
+      "youth",
+      "psychoeducation",
+      "read"
+    ],
+    "intended_population": [
+      "adolescents",
+      "young-adults"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Web fact sheet and downloadable document; screen-reader compatibility not independently audited."
+    ],
+    "regions": [
+      "Online; geographic eligibility not stated."
+    ],
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "NIMH has English and Spanish editions. Translation alone does not establish local cultural adaptation."
+    },
     "evidence_notes": "NIMH describes this fact sheet as intended for teens and young adults and includes coping and help-seeking guidance.",
     "limitations": "General education, not an individualized diagnosis or treatment plan.",
     "metadata_review_notes": "English and Spanish editions verified in NIMH's official fact-sheet directory on 2026-10-08.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet", "https://www.nimh.nih.gov/health/publications/espanol/estoy-tan-estresado", "https://www.nimh.nih.gov/health/publications/fact-sheets"],
+    "source_notes": [
+      "https://www.nimh.nih.gov/health/publications/so-stressed-out-fact-sheet",
+      "https://www.nimh.nih.gov/health/publications/espanol/estoy-tan-estresado",
+      "https://www.nimh.nih.gov/health/publications/fact-sheets"
+    ],
     "license_notes": "External resource. Store bibliographic/metadata fields, not third-party images or copied page content.",
     "shelf": "understand-yourself",
-    "needs": ["understand", "stress", "anxiety"]
+    "needs": [
+      "understand",
+      "stress",
+      "anxiety"
+    ],
+    "shelves": [
+      "understand-yourself",
+      "read"
+    ]
   },
   {
     "id": "samhsa-how-to-cope",
@@ -231,24 +523,52 @@
     "publisher": "Substance Abuse and Mental Health Services Administration",
     "resource_type": "article",
     "official_url": "https://www.samhsa.gov/find-support/how-to-cope",
-    "platforms": ["Web"],
+    "platforms": [
+      "Web"
+    ],
     "description": "A practical public guide with optional self-care steps, social connection ideas, and guidance on finding support.",
-    "tags": ["stress", "coping", "support", "substance-use", "psychoeducation", "read"],
-    "intended_population": ["general"],
-    "use_context": ["independent-use", "psychoeducation"],
-    "languages": ["English"],
-    "access": ["free"],
-    "accessibility": ["Web page; formal accessibility conformance not independently audited."],
-    "regions": ["U.S. services and guidance; applicability outside the United States is limited and should not be assumed."],
+    "tags": [
+      "stress",
+      "coping",
+      "support",
+      "substance-use",
+      "psychoeducation",
+      "read"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Web page; formal accessibility conformance not independently audited."
+    ],
+    "regions": [
+      "U.S. services and guidance; applicability outside the United States is limited and should not be assumed."
+    ],
     "evidence_notes": "SAMHSA provides general coping suggestions and links to support options.",
     "limitations": "General information, not diagnosis or individualized treatment. U.S.-specific crisis guidance must not be displayed as globally applicable.",
     "metadata_review_notes": "Safety-pathway content is kept distinct from ordinary coping retrieval; region-specific crisis routing requires an explicitly chosen region.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://www.samhsa.gov/find-support/how-to-cope"],
+    "source_notes": [
+      "https://www.samhsa.gov/find-support/how-to-cope"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only.",
     "shelf": "understand-yourself",
-    "needs": ["understand", "stress", "support"]
+    "needs": [
+      "understand",
+      "stress",
+      "support"
+    ]
   },
   {
     "id": "ucla-guided-meditations",
@@ -256,26 +576,93 @@
     "publisher": "UCLA Health",
     "resource_type": "audio-library",
     "official_url": "https://www.uclahealth.org/uclamindful/guided-meditations",
-    "platforms": ["Web", "Audio streaming", "Downloadable audio"],
+    "platforms": [
+      "Web",
+      "Audio streaming",
+      "Downloadable audio"
+    ],
     "description": "A library of recorded guided mindfulness practices with transcripts and a range of language versions.",
-    "tags": ["mindfulness", "audio", "meditation", "sleep", "calm", "multilingual", "practice"],
-    "intended_population": ["general"],
-    "use_context": ["independent-use", "relaxation"],
-    "languages": ["English", "Arabic", "Armenian", "Cantonese", "Farsi", "Filipino/Tagalog", "French", "German", "Greek", "Hindi", "Italian", "Japanese", "Korean", "Mandarin Chinese", "Mixtec (high)", "Mixtec (low)", "Russian", "Spanish", "Vietnamese", "American Sign Language"],
-    "access": ["free"],
-    "duration_options_minutes": [3, 5, 7, 9, 12, 13, 19],
-    "accessibility": ["Audio with linked transcripts for many recordings", "American Sign Language video materials are listed; verify availability for the specific practice."],
-    "regions": ["Online; geographic eligibility not stated."],
-    "cultural_context": {"adaptation_status": "translated", "notes": "UCLA lists multiple language versions including Spanish and ASL materials; translation is not the same as cultural adaptation."},
+    "tags": [
+      "mindfulness",
+      "audio",
+      "meditation",
+      "sleep",
+      "calm",
+      "multilingual",
+      "practice"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "relaxation"
+    ],
+    "languages": [
+      "English",
+      "Arabic",
+      "Armenian",
+      "Cantonese",
+      "Farsi",
+      "Filipino/Tagalog",
+      "French",
+      "German",
+      "Greek",
+      "Hindi",
+      "Italian",
+      "Japanese",
+      "Korean",
+      "Mandarin Chinese",
+      "Mixtec (high)",
+      "Mixtec (low)",
+      "Russian",
+      "Spanish",
+      "Vietnamese",
+      "American Sign Language"
+    ],
+    "access": [
+      "free"
+    ],
+    "duration_options_minutes": [
+      3,
+      5,
+      7,
+      9,
+      12,
+      13,
+      19
+    ],
+    "accessibility": [
+      "Audio with linked transcripts for many recordings",
+      "American Sign Language video materials are listed; verify availability for the specific practice."
+    ],
+    "regions": [
+      "Online; geographic eligibility not stated."
+    ],
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "UCLA lists multiple language versions including Spanish and ASL materials; translation is not the same as cultural adaptation."
+    },
     "evidence_notes": "UCLA provides recordings and linked text for guided mindfulness practices.",
     "limitations": "Meditation is optional and may not be comfortable or appropriate for everyone in every context.",
     "metadata_review_notes": "Languages, ASL materials, and many linked transcripts checked against UCLA Mindful's official page on 2026-10-08.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://www.uclahealth.org/uclamindful/guided-meditations"],
+    "source_notes": [
+      "https://www.uclahealth.org/uclamindful/guided-meditations"
+    ],
     "license_notes": "External media remains on the source site. Follow its current license and attribution terms; no recordings or transcripts are copied into SootheSpot.",
     "shelf": "listen",
-    "needs": ["listen", "sleep", "calm"]
+    "needs": [
+      "listen",
+      "sleep",
+      "calm"
+    ],
+    "shelves": [
+      "listen",
+      "practice",
+      "sleep-rest"
+    ]
   },
   {
     "id": "nccih-meditation-mindfulness",
@@ -283,24 +670,51 @@
     "publisher": "National Center for Complementary and Integrative Health",
     "resource_type": "article",
     "official_url": "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
-    "platforms": ["Web"],
+    "platforms": [
+      "Web"
+    ],
     "description": "An evidence-oriented overview explaining meditation and mindfulness, possible benefits, research limitations, and safety considerations.",
-    "tags": ["mindfulness", "meditation", "evidence", "safety", "psychoeducation", "read"],
-    "intended_population": ["general"],
-    "use_context": ["independent-use", "psychoeducation"],
-    "languages": ["English"],
-    "access": ["free"],
-    "accessibility": ["Web page; formal accessibility conformance not independently audited."],
-    "regions": ["Online; geographic eligibility not stated."],
+    "tags": [
+      "mindfulness",
+      "meditation",
+      "evidence",
+      "safety",
+      "psychoeducation",
+      "read"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Web page; formal accessibility conformance not independently audited."
+    ],
+    "regions": [
+      "Online; geographic eligibility not stated."
+    ],
     "evidence_notes": "NCCIH summarizes research and notes where evidence is mixed or limited, and that negative experiences can occur.",
     "limitations": "General health information does not provide individualized medical advice. Meditation should not replace or delay conventional care.",
     "metadata_review_notes": "Safety/limitation summary aligned with NCCIH's current primary-source overview reviewed on 2026-10-08.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety"],
+    "source_notes": [
+      "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only.",
     "shelf": "understand-yourself",
-    "needs": ["understand", "calm"]
+    "needs": [
+      "understand",
+      "calm"
+    ]
   },
   {
     "id": "nccih-mind-body-practices",
@@ -308,24 +722,61 @@
     "publisher": "National Center for Complementary and Integrative Health",
     "resource_type": "article",
     "official_url": "https://www.nccih.nih.gov/health/mind-and-body-practices",
-    "platforms": ["Web"],
+    "platforms": [
+      "Web"
+    ],
     "description": "An overview of meditation, relaxation, yoga, tai chi, and other mind-body approaches, with possible uses and safety considerations.",
-    "tags": ["meditation", "relaxation", "yoga", "tai-chi", "stress", "sleep", "safety", "psychoeducation", "read"],
-    "intended_population": ["general"],
-    "use_context": ["independent-use", "psychoeducation"],
-    "languages": ["English"],
-    "access": ["free"],
-    "accessibility": ["Web page; formal accessibility conformance not independently audited."],
-    "regions": ["Online; geographic eligibility not stated."],
+    "tags": [
+      "meditation",
+      "relaxation",
+      "yoga",
+      "tai-chi",
+      "stress",
+      "sleep",
+      "safety",
+      "psychoeducation",
+      "read"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Web page; formal accessibility conformance not independently audited."
+    ],
+    "regions": [
+      "Online; geographic eligibility not stated."
+    ],
     "evidence_notes": "NCCIH summarizes research findings and safety information for several mind-body approaches.",
     "limitations": "General information does not replace individualized professional guidance; suitability depends on the person and practice.",
     "metadata_review_notes": "Specific accessibility conformance not independently audited.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://www.nccih.nih.gov/health/mind-and-body-practices"],
+    "source_notes": [
+      "https://www.nccih.nih.gov/health/mind-and-body-practices"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only.",
     "shelf": "understand-yourself",
-    "needs": ["understand", "sleep", "stress", "calm"]
+    "needs": [
+      "understand",
+      "sleep",
+      "stress",
+      "calm"
+    ],
+    "shelves": [
+      "understand-yourself",
+      "practice",
+      "sleep-rest"
+    ]
   },
   {
     "id": "nimh-fact-sheets",
@@ -333,25 +784,63 @@
     "publisher": "National Institute of Mental Health",
     "resource_type": "article-library",
     "official_url": "https://www.nimh.nih.gov/health/publications/fact-sheets",
-    "platforms": ["Web", "Downloadable documents"],
+    "platforms": [
+      "Web",
+      "Downloadable documents"
+    ],
     "description": "A library of public mental-health fact sheets covering anxiety, mood, youth mental health, and other topics.",
-    "tags": ["psychoeducation", "anxiety", "mood", "youth", "support", "read"],
-    "intended_population": ["general", "adolescents", "adults", "caregivers"],
-    "use_context": ["independent-use", "psychoeducation"],
-    "languages": ["English", "Spanish (selected fact sheets)"],
-    "access": ["free"],
-    "accessibility": ["Web fact sheets and printable/downloadable documents; screen-reader compatibility not independently audited."],
-    "regions": ["Online; geographic eligibility not stated."],
-    "cultural_context": {"adaptation_status": "translated", "notes": "Selected materials are available in Spanish according to NIMH; translation alone does not establish cultural adaptation."},
+    "tags": [
+      "psychoeducation",
+      "anxiety",
+      "mood",
+      "youth",
+      "support",
+      "read"
+    ],
+    "intended_population": [
+      "general",
+      "adolescents",
+      "adults",
+      "caregivers"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English",
+      "Spanish (selected fact sheets)"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Web fact sheets and printable/downloadable documents; screen-reader compatibility not independently audited."
+    ],
+    "regions": [
+      "Online; geographic eligibility not stated."
+    ],
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "Selected materials are available in Spanish according to NIMH; translation alone does not establish cultural adaptation."
+    },
     "evidence_notes": "NIMH provides public fact sheets and lists selected Spanish editions in the official publication directory.",
     "limitations": "General information does not provide diagnosis or individualized treatment.",
     "metadata_review_notes": "Selected Spanish editions checked against NIMH's official publications directory on 2026-10-08.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://www.nimh.nih.gov/health/publications/fact-sheets", "https://www.nimh.nih.gov/health/publications"],
+    "source_notes": [
+      "https://www.nimh.nih.gov/health/publications/fact-sheets",
+      "https://www.nimh.nih.gov/health/publications"
+    ],
     "license_notes": "NIMH public information may be reusable with attribution subject to its current policy; do not copy third-party images. SootheSpot records metadata and short factual descriptions.",
     "shelf": "understand-yourself",
-    "needs": ["understand", "anxiety", "mood", "support"]
+    "needs": [
+      "understand",
+      "anxiety",
+      "mood",
+      "support"
+    ]
   },
   {
     "id": "samhsa-ask-for-help",
@@ -359,24 +848,49 @@
     "publisher": "Substance Abuse and Mental Health Services Administration",
     "resource_type": "article",
     "official_url": "https://www.samhsa.gov/find-support/how-to-cope/how-to-ask-for-help",
-    "platforms": ["Web"],
+    "platforms": [
+      "Web"
+    ],
     "description": "A practical guide for preparing to ask trusted people, professionals, support groups, or helplines for help.",
-    "tags": ["support", "relationships", "self-advocacy", "social-support", "read"],
-    "intended_population": ["general"],
-    "use_context": ["independent-use", "psychoeducation"],
-    "languages": ["English"],
-    "access": ["free"],
-    "accessibility": ["Web page; formal accessibility conformance not independently audited."],
-    "regions": ["U.S.-specific agency; guidance and service routes may not apply outside the United States."],
+    "tags": [
+      "support",
+      "relationships",
+      "self-advocacy",
+      "social-support",
+      "read"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Web page; formal accessibility conformance not independently audited."
+    ],
+    "regions": [
+      "U.S.-specific agency; guidance and service routes may not apply outside the United States."
+    ],
     "evidence_notes": "SAMHSA provides concrete guidance for reaching out and describing what kind of support is needed.",
     "limitations": "General guidance; individual circumstances may require professional assessment. Do not reuse U.S. service directions as global guidance.",
     "metadata_review_notes": "Regional support routing must be chosen explicitly by the user when needed.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://www.samhsa.gov/find-support/how-to-cope/how-to-ask-for-help"],
+    "source_notes": [
+      "https://www.samhsa.gov/find-support/how-to-cope/how-to-ask-for-help"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only.",
     "shelf": "reach-out",
-    "needs": ["support"]
+    "needs": [
+      "support"
+    ]
   },
   {
     "id": "samhsa-signs-help",
@@ -384,23 +898,49 @@
     "publisher": "Substance Abuse and Mental Health Services Administration",
     "resource_type": "article",
     "official_url": "https://www.samhsa.gov/find-support/how-to-cope/signs-of-needing-help",
-    "platforms": ["Web"],
+    "platforms": [
+      "Web"
+    ],
     "description": "A public guide describing changes in thoughts, mood, body, and functioning that may indicate a need for additional support.",
-    "tags": ["when-to-seek-help", "psychoeducation", "stress", "mood", "read"],
-    "intended_population": ["general"],
-    "use_context": ["independent-use", "psychoeducation"],
-    "languages": ["English"],
-    "access": ["free"],
-    "accessibility": ["Web page; formal accessibility conformance not independently audited."],
-    "regions": ["U.S.-specific agency; guidance and service routes may not apply outside the United States."],
+    "tags": [
+      "when-to-seek-help",
+      "psychoeducation",
+      "stress",
+      "mood",
+      "read"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Web page; formal accessibility conformance not independently audited."
+    ],
+    "regions": [
+      "U.S.-specific agency; guidance and service routes may not apply outside the United States."
+    ],
     "evidence_notes": "SAMHSA describes common signs that it may be time to seek help and provides agency-specific guidance.",
     "limitations": "General educational guide, not a diagnostic assessment. Do not reuse U.S. service directions as global guidance.",
     "metadata_review_notes": "Crisis routing is separate from ordinary resource discovery.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://www.samhsa.gov/find-support/how-to-cope/signs-of-needing-help"],
+    "source_notes": [
+      "https://www.samhsa.gov/find-support/how-to-cope/signs-of-needing-help"
+    ],
     "license_notes": "External resource. SootheSpot stores metadata only.",
     "shelf": "reach-out",
-    "needs": ["support", "understand"]
+    "needs": [
+      "support",
+      "understand"
+    ]
   }
 ]
