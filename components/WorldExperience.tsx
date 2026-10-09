@@ -6,7 +6,7 @@ import type { World } from "@/domain/worlds/types";
 import { breathPhaseAt } from "@/domain/worlds/spec";
 import { Dialog } from "./Dialog";
 import { useExperienceClock } from "./worlds/useExperienceClock";
-import { WorldScene } from "./worlds/WorldScene";
+import { AtmosphereScene } from "./worlds/AtmosphereScene";
 import { RippleField } from "./worlds/RippleField";
 import { WaterCanvas } from "./worlds/WaterCanvas";
 import { OceanSound } from "./worlds/OceanSound";
@@ -68,7 +68,7 @@ export function WorldExperience({ world, onClose, language }: { world: World; on
   const noticed = answers.filter(Boolean).length;
   const prompt = grounding?.senses[step];
   function start() { setSessionStarted(true); clock.start(); }
-  function reset() { clock.reset(); setSessionStarted(false); setStep(0); setAnswers([]); setResetKey((current) => current + 1); }
+  function reset() { clock.reset(); setSessionStarted(false); setDrift(false); setStep(0); setAnswers([]); setResetKey((current) => current + 1); }
   function advance(noticedSense: boolean) {
     setAnswers((current) => [...current.slice(0, step), noticedSense]);
     setStep((current) => current + 1);
@@ -76,19 +76,16 @@ export function WorldExperience({ world, onClose, language }: { world: World; on
     else clock.start();
   }
 
-  return <Dialog className={`world-screen immersive-world world-theme-${world.theme}${waterWorld ? " water-world" : ""}${still ? " visuals-still" : ""}${clock.running && !complete ? " scene-running" : " scene-paused"}`} label={world.title[language]} onClose={onClose}>
+  return <Dialog className={`world-screen immersive-world authored-world world-theme-${world.theme}${still ? " visuals-still" : ""}${clock.running && !complete ? " scene-running" : " scene-paused"}`} label={world.title[language]} onClose={onClose}>
     <header className="world-topbar">
       <div><span className="world-kicker">{isRipple ? t.experimental : t.kicker}</span><h2>{world.title[language]}</h2><p>{world.purpose[language]}</p></div>
       <button className="world-close" onClick={onClose} aria-label={t.exit}>×</button>
     </header>
-    {waterWorld && <div className="world-environment">
-      {isRipple ? <RippleField key={resetKey} language={language} paused={!clock.running && sessionStarted} complete={complete} running={clock.running && !complete} still={still} sampleTime={clock.sampleTime} onInteract={start} /> : <WaterCanvas kind="ocean" running={clock.running && !complete} still={still} sampleTime={clock.sampleTime} rhythm={breath} />}
-    </div>}
+    <div className="world-environment">
+      {waterWorld ? isRipple ? <RippleField key={resetKey} language={language} paused={!clock.running && sessionStarted} complete={complete} running={clock.running && !complete} still={still} sampleTime={clock.sampleTime} onInteract={start} /> : <WaterCanvas kind="ocean" running={clock.running && !complete} still={still} sampleTime={clock.sampleTime} rhythm={breath} /> : <AtmosphereScene key={resetKey} kind={world.id === "soft-focus" ? "focus" : "garden"} drift={drift} running={clock.running && !complete} still={still} />}
+    </div>
     <section className="world-stage">
-      {!waterWorld && <div className="immersive-scene">
-        <WorldScene id={world.id} drift={drift && !still} step={step} />
-        {grounding && <div className="garden-steps" aria-hidden="true">{grounding.senses.map((_, index) => <span key={index} className={index === step ? "current" : index < step ? "visited" : ""} />)}</div>}
-      </div>}
+      {grounding && <div className="garden-trail" aria-hidden="true">{grounding.senses.map((_, index) => <span key={index} className={index === step ? "current" : index < step ? "visited" : ""} />)}</div>}
       <div className="world-guidance" aria-live="polite" aria-atomic="true">
         {prompt && !complete ? <><p className="world-step">{t.step(step + 1)}</p><h3 className="world-phase">{prompt.sense[language]}</h3><p className="world-subtle">{prompt.prompt[language]}</p></> : <><p className="world-phase">{complete ? t.complete : breath ? clock.running ? phaseText : t.ready : clock.running ? isRipple ? world.description[language] : t.steady : t.ready}</p><p id={isRipple ? "ripple-instructions" : undefined} className="world-subtle">{complete ? t.completionSub : breath ? t.breathNote : isRipple ? t.rippleNote : world.description[language]}</p></>}
       </div>
