@@ -1195,5 +1195,276 @@
       "stress",
       "anxiety"
     ]
+  },
+  {
+    "id": "who-doing-what-matters-stress-guide",
+    "name": "Doing What Matters in Times of Stress: Illustrated Guide",
+    "publisher": "World Health Organization (WHO)",
+    "resource_type": "illustrated-guide",
+    "official_url": "https://tdr.who.int/home/our-work/global-engagement/9789240003927",
+    "platforms": [
+      "PDF download",
+      "Web"
+    ],
+    "description": "A practical illustrated guide to coping with stress, with exercises such as grounding, noticing and naming, making room for feelings, and being kind to yourself.",
+    "tags": [
+      "stress",
+      "grounding",
+      "coping",
+      "self-help",
+      "illustrated-guide",
+      "read",
+      "understand"
+    ],
+    "intended_population": [
+      "general",
+      "people-experiencing-stress",
+      "caregivers",
+      "health-workers"
+    ],
+    "use_context": [
+      "independent-use",
+      "psychoeducation",
+      "community-supported"
+    ],
+    "languages": [
+      "English",
+      "Arabic",
+      "Chinese",
+      "Farsi",
+      "French",
+      "Hungarian",
+      "Italian",
+      "Romanian",
+      "Russian",
+      "Spanish",
+      "Turkish",
+      "Urdu"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Illustrated PDF; PDF tagging, reflow, and screen-reader compatibility were not independently audited."
+    ],
+    "regions": [
+      "WHO describes the guide as intended for people experiencing stress wherever they live; internet access and local context vary."
+    ],
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "WHO lists translations in multiple languages. Translation alone does not establish community-informed cultural adaptation or local suitability."
+    },
+    "evidence_notes": "WHO describes the guide as informed by evidence and extensive field testing. This record does not guarantee benefit for any individual.",
+    "limitations": "General self-help and education, not diagnosis or individualized treatment. Exercises may not suit everyone; skip or adapt them. Seek professional support when needed.",
+    "metadata_review_notes": "Reviewed WHO's official publication page on 2026-10-09. It lists a 132-page guide and translations into Arabic, Chinese, Farsi, French, Hungarian, Italian, Romanian, Russian, Spanish, Turkish, and Urdu. PDF accessibility was not independently assessed.",
+    "review_status": "verified",
+    "last_verified_at": "2026-10-09",
+    "source_notes": [
+      "https://tdr.who.int/home/our-work/global-engagement/9789240003927",
+      "https://www.who.int/publications/b/53604"
+    ],
+    "license_notes": "WHO lists the guide under CC BY-NC-SA 3.0 IGO. SootheSpot stores metadata and links only; confirm asset-specific terms before reproducing or adapting content.",
+    "privacy_notes": "Opening the external WHO page or PDF shares ordinary connection metadata with WHO. SootheSpot does not include check-in or toolbox content in this link.",
+    "shelf": "read",
+    "shelves": [
+      "understand-yourself"
+    ],
+    "needs": [
+      "read",
+      "understand",
+      "stress"
+    ]
+  },
+  {
+    "id": "who-doing-what-matters-stress-audio",
+    "name": "Doing What Matters in Times of Stress: Audio Exercises",
+    "publisher": "World Health Organization (WHO)",
+    "resource_type": "audio-library",
+    "official_url": "https://tdr.who.int/home/our-work/global-engagement/9789240003927",
+    "platforms": [
+      "Web audio",
+      "Downloadable audio"
+    ],
+    "description": "Eight companion audio exercises for stress-management skills, including awareness, grounding, noticing and naming, unhooking from unkind thoughts, making room, and self-kindness.",
+    "tags": [
+      "audio",
+      "stress",
+      "grounding",
+      "coping",
+      "listen",
+      "practice",
+      "self-compassion"
+    ],
+    "intended_population": [
+      "general",
+      "people-experiencing-stress"
+    ],
+    "use_context": [
+      "independent-use",
+      "guided-practice"
+    ],
+    "languages": [
+      "English",
+      "Burmese (Myanmar)"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Audio-only files; the companion guide provides written and illustrated instructions. Transcripts and audio-description equivalents for each recording were not confirmed."
+    ],
+    "regions": [
+      "Online resource; WHO describes the companion guide as global in scope, but access to individual audio files was not tested in every region."
+    ],
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "English audio is listed on WHO's publication page and Burmese-language audio is listed by WHO Myanmar. Language availability does not establish community-informed cultural adaptation."
+    },
+    "evidence_notes": "Audio companion to WHO's stress-management guide. The catalog record does not claim individual clinical efficacy.",
+    "limitations": "The checked source pages do not state individual exercise durations, so no duration is asserted and duration-capped retrieval excludes this record. Consult the guide for instructions. Not individualized treatment or crisis care.",
+    "metadata_review_notes": "Reviewed WHO's publication page and WHO Myanmar page on 2026-10-09. WHO lists eight English exercises; WHO Myanmar lists the corresponding exercise set in Myanmar. Individual durations were not verified.",
+    "review_status": "verified",
+    "last_verified_at": "2026-10-09",
+    "source_notes": [
+      "https://tdr.who.int/home/our-work/global-engagement/9789240003927",
+      "https://www.who.int/myanmar/activities/doing-what-matters-in-times-of-stress-in-myanmar-language"
+    ],
+    "license_notes": "SootheSpot links to WHO-hosted audio and does not copy or re-host the files. Confirm asset-specific terms before any reuse.",
+    "privacy_notes": "Opening the external WHO page or audio shares ordinary connection metadata with WHO. SootheSpot does not include check-in or toolbox content in this link.",
+    "shelf": "listen",
+    "shelves": [
+      "practice"
+    ],
+    "needs": [
+      "listen",
+      "practice",
+      "stress"
+    ]
+  },
+  {
+    "id": "cdc-about-sleep",
+    "name": "About Sleep",
+    "publisher": "Centers for Disease Control and Prevention (CDC)",
+    "resource_type": "article",
+    "official_url": "https://www.cdc.gov/sleep/about/",
+    "platforms": [
+      "Web article"
+    ],
+    "description": "Public-health information about sleep duration by age, sleep quality, common sleep disorders, everyday sleep habits, and when to talk with a healthcare professional.",
+    "tags": [
+      "sleep",
+      "sleep-health",
+      "rest",
+      "education",
+      "read",
+      "understand"
+    ],
+    "intended_population": [
+      "general",
+      "children-and-adolescents",
+      "adults",
+      "caregivers"
+    ],
+    "use_context": [
+      "psychoeducation",
+      "independent-use"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Web article; page-level accessibility and screen-reader conformance were not independently audited."
+    ],
+    "regions": [
+      "U.S. public-health guidance; healthcare access and local clinical pathways vary by region."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No specific cultural adaptation claim identified. Sleep routines and constraints can vary with work, caregiving, disability, housing, and personal context."
+    },
+    "evidence_notes": "CDC summarizes sleep-duration recommendations and general sleep-health information; the page does not assess an individual's sleep.",
+    "limitations": "General education, not diagnosis or treatment for insomnia or another sleep disorder. Consult a qualified healthcare professional for persistent sleep problems.",
+    "metadata_review_notes": "Reviewed CDC's official About Sleep page on 2026-10-09. It covers age-based sleep-duration recommendations, sleep quality, habits, common disorders, and when to seek clinical advice.",
+    "review_status": "verified",
+    "last_verified_at": "2026-10-09",
+    "source_notes": [
+      "https://www.cdc.gov/sleep/about/"
+    ],
+    "license_notes": "SootheSpot stores metadata and links to the CDC source; no article text is copied.",
+    "privacy_notes": "Opening the external CDC page shares ordinary connection metadata with CDC. SootheSpot does not include check-in or toolbox content in this link.",
+    "shelf": "sleep-rest",
+    "shelves": [
+      "understand-yourself"
+    ],
+    "needs": [
+      "sleep",
+      "understand"
+    ]
+  },
+  {
+    "id": "nami-connection-peer-support",
+    "name": "NAMI Connection Recovery Support Group",
+    "publisher": "National Alliance on Mental Illness (NAMI)",
+    "resource_type": "peer-support-program",
+    "official_url": "https://www.nami.org/support-groups/nami-connection/",
+    "platforms": [
+      "In-person groups",
+      "Virtual groups where offered"
+    ],
+    "description": "A free, peer-led support group for adults aged 18 and older who have experienced symptoms of a mental health condition. Meeting frequency, format, and local availability vary by affiliate.",
+    "tags": [
+      "peer-support",
+      "support",
+      "community",
+      "mental-health",
+      "adults",
+      "reach-out"
+    ],
+    "intended_population": [
+      "adults",
+      "people-with-lived-experience-of-mental-health-conditions"
+    ],
+    "use_context": [
+      "peer-support",
+      "community-supported"
+    ],
+    "languages": [
+      "English",
+      "Spanish (selected affiliates; availability varies)"
+    ],
+    "access": [
+      "free"
+    ],
+    "duration_options_minutes": [
+      90
+    ],
+    "accessibility": [
+      "Meeting accommodations, language availability, and accessible formats vary by affiliate; confirm details with the local group."
+    ],
+    "regions": [
+      "United States; local affiliate coverage and group availability vary."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "NAMI lists Spanish-language availability in a limited number of states. Language availability does not establish broader cultural adaptation; ask the local affiliate about language, access needs, and fit."
+    },
+    "evidence_notes": "NAMI describes this as a structured, peer-led support group. This catalog record does not claim clinical efficacy or endorse a specific treatment.",
+    "limitations": "For adults 18+. Peer support is not clinical treatment or emergency response. Group availability, schedule, virtual access, and language options vary. Crisis resources elsewhere on the source site are not part of this catalog entry.",
+    "metadata_review_notes": "Reviewed NAMI's official Connection and Support Groups pages on 2026-10-09. NAMI describes free, peer-led groups, typically 90 minutes, with meeting frequency and Spanish-language availability varying by affiliate.",
+    "review_status": "verified",
+    "last_verified_at": "2026-10-09",
+    "source_notes": [
+      "https://www.nami.org/support-groups/nami-connection/",
+      "https://www.nami.org/Support-Groups/"
+    ],
+    "license_notes": "SootheSpot stores metadata and links only; no NAMI program content is copied.",
+    "privacy_notes": "Opening the external NAMI page shares ordinary connection metadata with NAMI. SootheSpot does not include check-in or toolbox content in this link. NAMI describes the groups as confidential, but users should review local group and platform practices.",
+    "shelf": "reach-out",
+    "needs": [
+      "support"
+    ]
   }
 ]
