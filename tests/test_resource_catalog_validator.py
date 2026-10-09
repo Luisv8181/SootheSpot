@@ -66,6 +66,11 @@ class ResourceCatalogValidatorTests(unittest.TestCase):
         self.assertNotEqual(completed.returncode, 0)
         self.assertIn("invalid explicit shelf", completed.stdout)
 
+    def test_rejects_unknown_secondary_shelf(self):
+        completed = self.run_validator([self.record(shelves=["imaginary-shelf"])], [])
+        self.assertNotEqual(completed.returncode, 0)
+        self.assertIn("invalid secondary shelves", completed.stdout)
+
     def test_rejects_unknown_need(self):
         completed = self.run_validator([self.record(needs=["instant-cure"])], [])
         self.assertNotEqual(completed.returncode, 0)
