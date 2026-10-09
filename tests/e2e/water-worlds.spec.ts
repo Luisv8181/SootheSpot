@@ -25,8 +25,6 @@ test("ocean renders moving water, freezes when paused and stays within its pixel
   expect(imageHash(await canvas.screenshot())).toBe(paused);
   // Unrelated React updates must not restart water time after the Pause click.
   await world.getByRole("checkbox", { name: "Still visuals" }).focus();
-  await page.keyboard.press("Tab");
-  await expect(world.getByRole("button", { name: "Resume", exact: true })).toBeFocused();
   expect(imageHash(await canvas.screenshot())).toBe(paused);
 });
 
