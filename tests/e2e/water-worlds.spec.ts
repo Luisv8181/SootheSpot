@@ -19,13 +19,27 @@ test("ocean renders moving water, freezes when paused and stays within its pixel
   await page.waitForTimeout(350);
   expect(imageHash(await canvas.screenshot())).not.toBe(before);
   await world.getByRole("button", { name: "Pause", exact: true }).click();
-  await page.waitForTimeout(150);
-  const paused = imageHash(await canvas.screenshot());
-  await page.waitForTimeout(350);
-  expect(imageHash(await canvas.screenshot())).toBe(paused);
+  // The WebGL context is created without preserveDrawingBuffer, so the
+  // drawing buffer may be cleared after compositing: two screenshots taken
+  // at fixed times can differ even when the scene is frozen. Poll until two
+  // consecutive captures match instead. A canvas that is still animating
+  // keeps producing fresh frames and never settles, so the freeze assertion
+  // keeps its teeth.
+  const settledHash = async (): Promise<string | null> => {
+    let previous = imageHash(await canvas.screenshot());
+    for (let i = 0; i < 20; i++) {
+      await page.waitForTimeout(100);
+      const current = imageHash(await canvas.screenshot());
+      if (current === previous) return current;
+      previous = current;
+    }
+    return null;
+  };
+  const paused = await settledHash();
+  expect(paused, "water did not freeze after Pause").not.toBeNull();
   // Unrelated React updates must not restart water time after the Pause click.
   await world.getByRole("checkbox", { name: "Still visuals" }).focus();
-  expect(imageHash(await canvas.screenshot())).toBe(paused);
+  expect(await settledHash()).toBe(paused);
 });
 
 test("keyboard placement can move across the pool and waves remain bounded during drag", async ({ page }) => {
