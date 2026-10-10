@@ -89,10 +89,9 @@ class ResourceCatalogValidatorTests(unittest.TestCase):
         self.assertNotEqual(completed.returncode, 0)
         self.assertIn("invalid secondary shelves", completed.stdout)
 
-    def test_rejects_primary_shelf_repeated_as_secondary(self):
-        completed = self.run_validator([self.record(shelves=["read"])], [])
-        self.assertNotEqual(completed.returncode, 0)
-        self.assertIn("primary shelf must not be repeated", completed.stdout)
+    def test_accepts_legacy_primary_shelf_in_secondary_list(self):
+        completed = self.run_validator([self.record(shelves=["read", "watch"])], [])
+        self.assertEqual(completed.returncode, 0, completed.stderr + completed.stdout)
 
     def test_rejects_duplicate_secondary_shelves(self):
         completed = self.run_validator([self.record(shelves=["watch", "watch"])], [])
@@ -139,7 +138,7 @@ class ResourceCatalogValidatorTests(unittest.TestCase):
     def test_rejects_non_positive_page_count(self):
         completed = self.run_validator([], [self.book(page_count=0)])
         self.assertNotEqual(completed.returncode, 0)
-        self.assertIn("positive integer page_count", completed.stdout)
+        self.assertIn("page_count must be a positive integer", completed.stdout)
 
     def test_rejects_invalid_need_type(self):
         completed = self.run_validator([self.record(needs="understand")], [])
