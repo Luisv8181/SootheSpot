@@ -38,13 +38,14 @@ const idRules: Record<WorldId, { theme: string; category: string; mainActivity: 
   "ocean-calm": { theme: "ocean", category: "breathing", mainActivity: "breathRhythm" },
   "soft-focus": { theme: "focus", category: "focus", mainActivity: "focusVisual" },
   "grounding-garden": { theme: "garden", category: "grounding", mainActivity: "groundingPrompt" },
-  "ripple-field": { theme: "ripple", category: "sensory", mainActivity: "rippleInteraction" }
+  "ripple-field": { theme: "ripple", category: "sensory", mainActivity: "rippleInteraction" },
+  "vast-sky": { theme: "sky", category: "focus", mainActivity: "focusVisual" }
 };
 
 export const experienceSpecSchema = z.strictObject({
   version: z.literal(1),
-  id: z.enum(["ocean-calm", "soft-focus", "grounding-garden", "ripple-field"]),
-  theme: z.enum(["ocean", "focus", "garden", "ripple"]),
+  id: z.enum(["ocean-calm", "soft-focus", "grounding-garden", "ripple-field", "vast-sky"]),
+  theme: z.enum(["ocean", "focus", "garden", "ripple", "sky"]),
   category: z.enum(["breathing", "focus", "grounding", "sensory"]),
   title: localizedText,
   description: localizedText,
