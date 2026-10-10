@@ -34,7 +34,14 @@ test("vast sky world opens, takes a custom message, and switches stations", asyn
 
   // mute toggle is honest
   await sky.getByRole("button", { name: "toggle sound" }).click();
-  await expect(sky.getByRole("button", { name: "toggle sound" })).toHaveText("♪ off");
+  await expect(sky.getByRole("button", { name: "toggle sound" })).toHaveText("♪ muted");
+
+  // autoplay starts the cinematic trace; grabbing the sky hands control back
+  await sky.getByRole("button", { name: "autoplay the current sky" }).click();
+  await expect(sky.getByRole("button", { name: "autoplay the current sky" })).toHaveText("■ stop");
+  await expect(sky.getByText("tap any star to take over")).toBeVisible();
+  await sky.locator(".vsky-canvas").click({ position: { x: 200, y: 500 } });
+  await expect(sky.getByRole("button", { name: "autoplay the current sky" })).toHaveText("▶ autoplay");
 
   expect(errors).toEqual([]);
 });

@@ -18,12 +18,14 @@ const labels = {
     traceIt: "trace it ✦",
     cancel: "Cancel",
     notSaved: "nothing is saved",
-    bandSongs: "✦ stars",
+    bandSongs: "✦ star maps",
     bandStars: "♪ songs",
-    auto: "▶ auto",
+    auto: "▶ autoplay",
     stop: "■ stop",
-    soundOn: "♪ on",
-    soundOff: "♪ off",
+    soundOn: "♪ sound on",
+    soundOff: "♪ muted",
+    writeLabel: "✎ write",
+    autoNote: "autoplay · tap any star to take over",
     writeAria: "write your own words",
     bandAria: "switch dial band",
     autoAria: "autoplay the current sky",
@@ -36,12 +38,14 @@ const labels = {
     traceIt: "trázalo ✦",
     cancel: "Cancelar",
     notSaved: "nada se guarda",
-    bandSongs: "✦ estrellas",
+    bandSongs: "✦ constelaciones",
     bandStars: "♪ canciones",
     auto: "▶ auto",
     stop: "■ parar",
-    soundOn: "♪ sí",
-    soundOff: "♪ no",
+    soundOn: "♪ sonido",
+    soundOff: "♪ silenciado",
+    writeLabel: "✎ escribir",
+    autoNote: "auto · toca una estrella para tomar el control",
     writeAria: "escribe tus propias palabras",
     bandAria: "cambiar de banda",
     autoAria: "reproducir el cielo automáticamente",
@@ -153,7 +157,7 @@ export function VastSky({ language, paused, complete, still, onInteract }: {
             onClick={() => {
               setDraft(engineRef.current?.currentMessage() ?? "BREATHE");
               setWriting(true);
-            }}>✎</button>
+            }}>{t.writeLabel}</button>
           <button type="button" className={`vsky-btn${auto ? " on" : ""}`} aria-label={t.autoAria} aria-pressed={auto}
             onClick={() => engineRef.current?.toggleAuto()}>
             {auto ? t.stop : t.auto}
@@ -168,6 +172,11 @@ export function VastSky({ language, paused, complete, still, onInteract }: {
           </button>
         </div>
       </div>
+      {auto && (
+        <div className="vsky-autonote" aria-live="polite">
+          <span>{t.autoNote}</span>
+        </div>
+      )}
       {writing && (
         <div className="vsky-writepanel" onPointerDown={(e) => { if (e.target === e.currentTarget) setWriting(false); }}>
           <div className="vsky-wpcard" role="dialog" aria-label={t.writeTitle}>
@@ -835,6 +844,8 @@ function createSkyEngine(
     pointer.x = x;
     pointer.y = y;
     pointer.down = true;
+    // Grabbing the sky during autoplay hands control to the user.
+    if (auto.on) setAutoInner(false);
     if (!stillNow()) pops.push({ x, y, age: 0, life: 0.35, faint: true });
     const s = nearestStar(x, y, 44, null);
     if (!s) {
