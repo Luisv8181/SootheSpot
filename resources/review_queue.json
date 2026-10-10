@@ -1,1632 +1,1940 @@
 [
-  {
-    "id": "resource-candidate-template",
-    "reason": "Use this structure for new discoveries before they are screened or verified.",
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "status": "template"
+ {
+  "id": "resource-candidate-template",
+  "reason": "Use this structure for new discoveries before they are screened or verified.",
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "status": "template"
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Written transcripts provided for tracks; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "translated",
+   "notes": "Meditations translated into 15+ languages plus ASL by named translators, per the publisher page.",
+   "source_notes": [
+    "https://www.uclahealth.org/uclamindful/guided-meditations"
+   ]
   },
-  {
-    "access": [
-      "free"
-    ],
-    "accessibility": [
-      "Written transcripts provided for tracks; verify assistive-technology compatibility before relying on it."
-    ],
-    "cultural_context": {
-      "adaptation_status": "translated",
-      "notes": "Meditations translated into 15+ languages plus ASL by named translators, per the publisher page.",
-      "source_notes": [
-        "https://www.uclahealth.org/uclamindful/guided-meditations"
-      ]
-    },
-    "description": "Free guided mindfulness meditations recorded by UCLA Mindful's director, including breath awareness, body scan, loving-kindness, working with difficulties, and a body scan for sleep. Stream or download from the website; a companion UCLA Mindful app is also available.",
-    "duration_options_minutes": [
-      3,
-      5,
-      7,
-      9,
-      12,
-      13,
-      19
-    ],
-    "evidence_notes": "Publisher is a university research center (UCLA Mindful, Semel Institute for Neuroscience and Human Behavior). Page describes mindful awareness as having scientific support in general terms; no specific clinical claims evaluated.",
-    "id": "ucla-marc-guided-meditations",
-    "intended_population": [
-      "general"
-    ],
-    "languages": [
-      "English",
-      "Spanish",
-      "Arabic",
-      "Armenian",
-      "Cantonese",
-      "Farsi",
-      "Tagalog",
-      "French",
-      "German",
-      "Greek",
-      "Hindi",
-      "Italian",
-      "Japanese",
-      "Korean",
-      "Mandarin",
-      "Mixtec",
-      "Russian",
-      "Vietnamese",
-      "American Sign Language"
-    ],
-    "last_verified_at": "2026-10-09",
-    "license_notes": "External resource. SootheSpot stores metadata only. Audio licensed CC BY-NC-ND 4.0 per publisher page.",
-    "limitations": "Educational/self-care audio; does not replace professional mental health care. Meditations licensed CC BY-NC-ND 4.0 (no derivatives, noncommercial).",
-    "name": "UCLA Mindful Guided Meditations",
-    "needs": [
-      "listen",
-      "calm",
-      "sleep"
-    ],
-    "official_url": "https://www.uclahealth.org/uclamindful/guided-meditations",
-    "platforms": [
-      "Web",
-      "iOS",
-      "Android"
-    ],
-    "privacy_notes": "No account required to stream or download from the website. The companion app's data practices were not reviewed in this screening.",
-    "publisher": "UCLA Mindful (Mindful Awareness Research Center), UCLA Health",
-    "reason": "Screened 2026-10-09: official UCLA Health page confirmed live; publisher, free access, multilingual tracks, transcripts, and license confirmed from the primary source. Ready for owner review before any promotion.",
-    "regions": [
-      "Global; U.S.-based publisher."
-    ],
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "resource_type": "audio-library",
-    "review_status": "screened",
-    "screening_gaps": [],
-    "shelf": "listen",
-    "source_notes": [
-      "https://www.uclahealth.org/uclamindful/guided-meditations"
-    ],
-    "status": "screened",
-    "tags": [
-      "mindfulness",
-      "meditation",
-      "breathing",
-      "body-scan",
-      "sleep",
-      "multilingual",
-      "independent-use"
-    ],
-    "use_context": [
-      "independent-use"
-    ]
+  "description": "Free guided mindfulness meditations recorded by UCLA Mindful's director, including breath awareness, body scan, loving-kindness, working with difficulties, and a body scan for sleep. Stream or download from the website; a companion UCLA Mindful app is also available.",
+  "duration_options_minutes": [
+   3,
+   5,
+   7,
+   9,
+   12,
+   13,
+   19
+  ],
+  "evidence_notes": "Publisher is a university research center (UCLA Mindful, Semel Institute for Neuroscience and Human Behavior). Page describes mindful awareness as having scientific support in general terms; no specific clinical claims evaluated.",
+  "id": "ucla-marc-guided-meditations",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English",
+   "Spanish",
+   "Arabic",
+   "Armenian",
+   "Cantonese",
+   "Farsi",
+   "Tagalog",
+   "French",
+   "German",
+   "Greek",
+   "Hindi",
+   "Italian",
+   "Japanese",
+   "Korean",
+   "Mandarin",
+   "Mixtec",
+   "Russian",
+   "Vietnamese",
+   "American Sign Language"
+  ],
+  "last_verified_at": "2026-10-09",
+  "license_notes": "External resource. SootheSpot stores metadata only. Audio licensed CC BY-NC-ND 4.0 per publisher page.",
+  "limitations": "Educational/self-care audio; does not replace professional mental health care. Meditations licensed CC BY-NC-ND 4.0 (no derivatives, noncommercial).",
+  "name": "UCLA Mindful Guided Meditations",
+  "needs": [
+   "listen",
+   "calm",
+   "sleep"
+  ],
+  "official_url": "https://www.uclahealth.org/uclamindful/guided-meditations",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "privacy_notes": "No account required to stream or download from the website. The companion app's data practices were not reviewed in this screening.",
+  "publisher": "UCLA Mindful (Mindful Awareness Research Center), UCLA Health",
+  "reason": "Screened 2026-10-09: official UCLA Health page confirmed live; publisher, free access, multilingual tracks, transcripts, and license confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; U.S.-based publisher."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "audio-library",
+  "review_status": "screened",
+  "screening_gaps": [],
+  "shelf": "listen",
+  "source_notes": [
+   "https://www.uclahealth.org/uclamindful/guided-meditations"
+  ],
+  "status": "screened",
+  "tags": [
+   "mindfulness",
+   "meditation",
+   "breathing",
+   "body-scan",
+   "sleep",
+   "multilingual",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Core videos carry accurate closed captions per publisher; supplementary videos may not. Verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Free, self-guided 8-week Mindfulness-Based Stress Reduction (MBSR) course based on the program founded at the University of Massachusetts Medical School. Includes videos, readings, guided practices, and practice sheets; optional certificate of completion at no cost.",
+  "evidence_notes": "Follows the MBSR model; instructor described as fully certified in MBSR by the publisher. Course effectiveness itself not evaluated in this screening.",
+  "id": "palouse-mindfulness-mbsr",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-10-09",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Entirely self-guided with no teacher support; does not replace professional mental health care. Supplementary materials vary in captioning.",
+  "name": "Palouse Mindfulness Online MBSR Course",
+  "needs": [
+   "practice",
+   "calm",
+   "understand"
+  ],
+  "official_url": "https://www.palousemindfulness.com/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Course materials directly accessible on the website; no account required per the reviewed page.",
+  "publisher": "Palouse Mindfulness Inc. (Dave Potter, certified MBSR instructor)",
+  "reason": "Screened 2026-10-09: official site confirmed live; free 8-week structure, instructor credential claim, captions, and no-cost certificate confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; online."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "online-course",
+  "review_status": "screened",
+  "screening_gaps": [],
+  "shelf": "practice",
+  "source_notes": [
+   "https://www.palousemindfulness.com/"
+  ],
+  "status": "screened",
+  "tags": [
+   "mindfulness",
+   "mbsr",
+   "stress",
+   "course",
+   "self-guided",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Large library of free guided meditations, sleep content, breathwork sessions, and yoga, plus a meditation timer and journaling features. Publisher reports tens of millions of users.",
+  "evidence_notes": "Publisher marketing claims (library size, user counts) not independently evaluated. No efficacy claims assessed in this screening.",
+  "id": "insight-timer",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-10-09",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Free tier marketed by publisher; full pricing and plan details not reviewed. App surfaces usage statistics and engagement features, which sit uneasily with calm-design preferences — flag for owner judgment. Does not replace professional mental health care.",
+  "name": "Insight Timer",
+  "needs": [
+   "listen",
+   "calm",
+   "sleep"
+  ],
+  "official_url": "https://insighttimer.com/",
+  "platforms": [
+   "iOS",
+   "Android",
+   "Web"
+  ],
+  "privacy_notes": "Account required for app use. Privacy policy and data practices were not reviewed in this screening.",
+  "publisher": "Insight Timer (Insight Network Inc)",
+  "reason": "Screened 2026-10-09: official site confirmed live; free meditation/sleep/breathwork library confirmed from the primary source. Privacy policy and paid-tier details not reviewed — recorded as gaps. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; regional availability not independently confirmed."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy and data practices not reviewed",
+   "paid-tier pricing details not reviewed"
+  ],
+  "shelf": "listen",
+  "source_notes": [
+   "https://insighttimer.com/"
+  ],
+  "status": "screened",
+  "tags": [
+   "meditation",
+   "sleep",
+   "breathwork",
+   "yoga",
+   "journaling",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "UC Berkeley research center publishing research-based wellbeing practices (Greater Good in Action), articles on the science of happiness and resilience, the Science of Happiness podcast, and a free online course. Reading is free with no account.",
+  "evidence_notes": "Publisher is a UC Berkeley research center; practices summarize peer-reviewed findings per the publisher. Individual claims not evaluated in this screening.",
+  "id": "greater-good-science-center",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-10-09",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Magazine-style site mixes research summaries with opinion and culture commentary; the practices library is the relevant section. Informational only; does not replace professional mental health care.",
+  "name": "Greater Good Science Center",
+  "needs": [
+   "read",
+   "understand"
+  ],
+  "official_url": "https://greatergood.berkeley.edu/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "No account required to read articles and practices.",
+  "publisher": "Greater Good Science Center, University of California, Berkeley",
+  "reason": "Screened 2026-10-09: official site confirmed live; publisher identity, free access, and practices library confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; U.S.-based publisher."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "article-library",
+  "review_status": "screened",
+  "screening_gaps": [],
+  "shelf": "read",
+  "source_notes": [
+   "https://greatergood.berkeley.edu/"
+  ],
+  "status": "screened",
+  "tags": [
+   "wellbeing",
+   "resilience",
+   "gratitude",
+   "compassion",
+   "psychoeducation",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "NHS mental wellbeing hub with guides on stress, anxiety, and low mood, a short personalized Mind Plan quiz, small achievable actions, and free email programs. Core content is free with no account.",
+  "evidence_notes": "UK National Health Service public-health content. Informational; no efficacy claims evaluated in this screening.",
+  "id": "nhs-every-mind-matters",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-10-09",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Urgent-support pathways on the page are UK-specific and must not be substituted for other regions' crisis resources, per repo policy. Informational only; does not replace professional care.",
+  "name": "Every Mind Matters",
+  "needs": [
+   "read",
+   "understand",
+   "calm"
+  ],
+  "official_url": "https://www.nhs.uk/every-mind-matters/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "No account required for core content. Optional email programs involve signup; their data handling was not reviewed.",
+  "publisher": "National Health Service (NHS), United Kingdom",
+  "reason": "Screened 2026-10-09: official NHS page confirmed live; publisher, free access, and content scope confirmed from the primary source. UK geographic scope recorded explicitly. Ready for owner review before any promotion.",
+  "regions": [
+   "UK-focused (NHS); self-care content broadly applicable."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "article-library",
+  "review_status": "screened",
+  "screening_gaps": [],
+  "shelf": "read",
+  "source_notes": [
+   "https://www.nhs.uk/every-mind-matters/"
+  ],
+  "status": "screened",
+  "tags": [
+   "wellbeing",
+   "stress",
+   "anxiety",
+   "low-mood",
+   "self-care",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Free interactive cognitive-behavioral skills program for preventing and managing depression and anxiety symptoms. Five sequential modules (feelings, thoughts, unwarping, destressing, relationships) with exercises, workbooks, and quizzes with personalized feedback.",
+  "evidence_notes": "Publisher reports extensive RCT evaluation, including a 2016 meta-analysis of 12 studies finding reduced depression and anxiety symptoms. Effectiveness claims are the publisher's and were not independently evaluated in this screening.",
+  "id": "moodgym-anu",
+  "intended_population": [
+   "general",
+   "adults",
+   "adolescents"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-10-09",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Requires registration. Text-heavy, module-sequential format may not suit all users. Not a substitute for professional care; users in crisis should use crisis resources, not a self-help program.",
+  "name": "MoodGYM",
+  "needs": [
+   "practice",
+   "mood",
+   "understand"
+  ],
+  "official_url": "https://moodgym.com.au/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Publisher describes the service as anonymous and confidential with secure data handling. Registration (account) required to use the program.",
+  "publisher": "Australian National University (e-hub Health)",
+  "reason": "Screened 2026-10-09: official site confirmed live; publisher, free access, module structure, anonymity claims, and RCT evidence claims confirmed from the primary source. Registration requirement recorded. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; Australia-based provider."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "online-course",
+  "review_status": "screened",
+  "screening_gaps": [],
+  "shelf": "practice",
+  "source_notes": [
+   "https://moodgym.com.au/"
+  ],
+  "status": "screened",
+  "tags": [
+   "cbt",
+   "depression",
+   "anxiety",
+   "stress",
+   "skills-training",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "YouTube provides auto-captioning; accuracy varies. Verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "YouTube channel by a licensed marriage and family therapist presenting therapy skills and mental-health education in short videos, including emotional regulation, anxiety, and how-to-process-emotions topics.",
+  "evidence_notes": "Creator identifies as a licensed marriage and family therapist (per channel description). Individual videos were not evaluated in this screening.",
+  "id": "therapy-in-a-nutshell",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-10-09",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Video platform with advertising and algorithmic recommendations, which conflict with calm-design preferences — flag for owner judgment. Educational content, not therapy; individual video quality and relevance vary. Does not replace professional care.",
+  "name": "Therapy in a Nutshell",
+  "needs": [
+   "watch",
+   "understand"
+  ],
+  "official_url": "https://www.youtube.com/@TherapyinaNutshell",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "privacy_notes": "Hosted on YouTube; viewing is subject to YouTube/Google data practices, which were not reviewed in this screening.",
+  "publisher": "Emma McAdam, Licensed Marriage and Family Therapist",
+  "reason": "Screened 2026-10-09: channel confirmed live on YouTube; creator credential claim (LMFT) confirmed from the channel description. Platform trade-offs (ads, recommendations, Google data practices) recorded honestly. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; English-language."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "video",
+  "review_status": "screened",
+  "screening_gaps": [
+   "individual videos not evaluated",
+   "YouTube data practices not reviewed"
+  ],
+  "shelf": "watch",
+  "source_notes": [
+   "https://www.youtube.com/@TherapyinaNutshell"
+  ],
+  "status": "screened",
+  "tags": [
+   "psychoeducation",
+   "therapy-skills",
+   "emotional-regulation",
+   "anxiety",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Step-by-step guide to relaxation techniques including deep breathing, progressive muscle relaxation, body scan meditation, visualization, self-massage, mindfulness meditation, rhythmic exercise, and yoga/tai chi, with instructions for independent practice.",
+  "evidence_notes": "Informational article; no efficacy claims evaluated in this screening.",
+  "id": "helpguide-relaxation-techniques",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-10-09",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Site is user-supported and earns commission on BetterHelp referrals made through the page (disclosed on the page) — commercial relationship recorded. Informational only; does not replace professional care.",
+  "name": "Relaxation Techniques for Stress Relief (HelpGuide)",
+  "needs": [
+   "practice",
+   "calm",
+   "sleep"
+  ],
+  "official_url": "https://www.helpguide.org/mental-health/stress/relaxation-techniques-for-stress-relief",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "No account required to read. Page carries BetterHelp affiliate advertising with a commission disclosure.",
+  "publisher": "HelpGuide.org",
+  "reason": "Screened 2026-10-09: official article confirmed live; publisher, free access, and technique instructions confirmed from the primary source. BetterHelp affiliate relationship disclosed on the page and recorded as a limitation. Ready for owner review before any promotion.",
+  "regions": [
+   "Global availability; publisher region not stated on the reviewed page."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "article",
+  "review_status": "screened",
+  "screening_gaps": [],
+  "shelf": "practice",
+  "source_notes": [
+   "https://www.helpguide.org/mental-health/stress/relaxation-techniques-for-stress-relief"
+  ],
+  "status": "screened",
+  "tags": [
+   "relaxation",
+   "breathing",
+   "progressive-muscle-relaxation",
+   "body-scan",
+   "visualization",
+   "mindfulness",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Australian not-for-profit offering a free app with guided mindfulness and mental-fitness programs for families, plus curriculum-aligned school programs. Publisher describes its content as evidence-led and developed with psychologists and mental-health experts.",
+  "evidence_notes": "Publisher is an Australian mental-health not-for-profit; states its content is evidence-led and developed with psychologists and mental-health experts. Individual claims not evaluated in this screening.",
+  "id": "smiling-mind",
+  "intended_population": [
+   "general",
+   "children"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-10-09",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Mindfulness and wellbeing programs; not clinical treatment and not a substitute for professional care. Individual programs not evaluated.",
+  "name": "Smiling Mind",
+  "needs": [
+   "practice",
+   "calm"
+  ],
+  "official_url": "https://www.smilingmind.com.au/",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "privacy_notes": "App account and data practices were not reviewed in this screening.",
+  "publisher": "Smiling Mind (Australian not-for-profit)",
+  "reason": "Screened 2026-10-09: official site confirmed live; not-for-profit publisher, free app, and evidence-led content claims confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; Australia-based publisher."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+   "app data practices and privacy policy not reviewed",
+   "app store listings not individually reviewed"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://www.smilingmind.com.au/"
+  ],
+  "status": "screened",
+  "tags": [
+   "mindfulness",
+   "mental-fitness",
+   "families",
+   "schools",
+   "meditation",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Free recorded guided self-compassion practices (affectionate breathing, compassionate body scan, soles-of-the-feet grounding, compassionate-friend visualizations) plus written exercises including the Self-Compassion Break, supportive touch, reframing critical self-talk, and a self-compassion journal. The page states these practices are not a substitute for therapy.",
+  "duration_options_minutes": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   13,
+   14,
+   15,
+   17,
+   18,
+   19,
+   20,
+   22
+  ],
+  "evidence_notes": "Publisher is the institute of Dr. Kristin Neff, who operationally defined and measured self-compassion; the site describes its training programs as empirically supported. Individual claims not evaluated in this screening.",
+  "id": "neff-self-compassion-practices",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-10-09",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "The page explicitly states the practices are not a substitute for therapy. The broader site heavily promotes paid courses and a paid community; the free practices are the relevant section for this record.",
+  "name": "Self-Compassion Practices (Kristin Neff)",
+  "needs": [
+   "practice",
+   "calm"
+  ],
+  "official_url": "https://self-compassion.org/category/exercises/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Practices stream from the publisher site; no account noted for the free practices. The site's paid offerings and their data handling were not reviewed.",
+  "publisher": "Self-Compassion Institute (Dr. Kristin Neff)",
+  "reason": "Screened 2026-10-09: free practices page confirmed live; guided audio list with durations, written exercises, and the therapy disclaimer confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; publisher region not stated on the reviewed page."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "audio-library",
+  "review_status": "screened",
+  "screening_gaps": [
+   "broader paid offerings not evaluated"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://self-compassion.org/category/exercises/"
+  ],
+  "status": "screened",
+  "tags": [
+   "self-compassion",
+   "mindfulness",
+   "grounding",
+   "body-scan",
+   "self-criticism",
+   "journaling",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Government-published, CBT-based self-help information packages and workbooks covering depression, panic, generalised anxiety, social anxiety, disordered eating, self-esteem, procrastination, and perfectionism. Some resources are designed to be worked through independently; others are produced for clinician-led treatment and training.",
+  "evidence_notes": "Publisher is a specialist clinical psychology service of the Western Australian health department; resources use a cognitive-behavioural approach. Effectiveness not evaluated in this screening.",
+  "id": "cci-looking-after-yourself",
+  "intended_population": [
+   "general",
+   "adults"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-10-09",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Self-help materials; not a substitute for professional care. The resources overview page notes a July 2022 update — currency of individual packages should be verified before promotion.",
+  "name": "CCI Looking After Yourself (Self-Help Resources)",
+  "needs": [
+   "practice",
+   "understand"
+  ],
+  "official_url": "https://www.CCI.health.wa.gov.au/Resources/Overview",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Materials are downloadable PDFs; no account indicated. Data practices were not reviewed in this screening.",
+  "publisher": "Centre for Clinical Interventions, Government of Western Australia",
+  "reason": "Screened 2026-10-09: resources overview page confirmed live; publisher identity, CBT orientation, and condition coverage confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; Australia (WA Health) publisher."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "online-course",
+  "review_status": "screened",
+  "screening_gaps": [
+   "currency of individual packages not verified (overview last updated 2022-07)"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://www.CCI.health.wa.gov.au/Resources/Overview"
+  ],
+  "status": "screened",
+  "tags": [
+   "cbt",
+   "anxiety",
+   "depression",
+   "panic",
+   "self-esteem",
+   "perfectionism",
+   "workbooks",
+   "psychoeducation",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "U.S. federal publisher; the page states the app was created for everyone, not only Veterans or Service members. Fit for non-U.S. contexts not assessed.",
+   "source_notes": [
+    "https://ptsd.va.gov/appvid/mobile/insomnia_coach.asp"
+   ]
   },
-  {
-    "access": [
-      "free"
-    ],
-    "accessibility": [
-      "Core videos carry accurate closed captions per publisher; supplementary videos may not. Verify assistive-technology compatibility before relying on it."
-    ],
-    "description": "Free, self-guided 8-week Mindfulness-Based Stress Reduction (MBSR) course based on the program founded at the University of Massachusetts Medical School. Includes videos, readings, guided practices, and practice sheets; optional certificate of completion at no cost.",
-    "evidence_notes": "Follows the MBSR model; instructor described as fully certified in MBSR by the publisher. Course effectiveness itself not evaluated in this screening.",
-    "id": "palouse-mindfulness-mbsr",
-    "intended_population": [
-      "general"
-    ],
-    "languages": [
-      "English"
-    ],
-    "last_verified_at": "2026-10-09",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Entirely self-guided with no teacher support; does not replace professional mental health care. Supplementary materials vary in captioning.",
-    "name": "Palouse Mindfulness Online MBSR Course",
-    "needs": [
-      "practice",
-      "calm",
-      "understand"
-    ],
-    "official_url": "https://www.palousemindfulness.com/",
-    "platforms": [
-      "Web"
-    ],
-    "privacy_notes": "Course materials directly accessible on the website; no account required per the reviewed page.",
-    "publisher": "Palouse Mindfulness Inc. (Dave Potter, certified MBSR instructor)",
-    "reason": "Screened 2026-10-09: official site confirmed live; free 8-week structure, instructor credential claim, captions, and no-cost certificate confirmed from the primary source. Ready for owner review before any promotion.",
-    "regions": [
-      "Global; online."
-    ],
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "resource_type": "online-course",
-    "review_status": "screened",
-    "screening_gaps": [],
-    "shelf": "practice",
-    "source_notes": [
-      "https://www.palousemindfulness.com/"
-    ],
-    "status": "screened",
-    "tags": [
-      "mindfulness",
-      "mbsr",
-      "stress",
-      "course",
-      "self-guided",
-      "independent-use"
-    ],
-    "use_context": [
-      "independent-use"
-    ]
+  "description": "Free mobile app based on Cognitive Behavioral Therapy for Insomnia (CBT-I). Offers a guided 5-week training plan, an interactive sleep diary, 17 sleep tools, and a sleep coach with tips and personal feedback about sleep. Can be used as a stand-alone education and self-care tool or alongside professional care.",
+  "evidence_notes": "Publisher is VA's National Center for PTSD; the page states the app is based upon scientific research about changing sleep-related behaviors and thoughts. Effectiveness of the app itself was not evaluated in this screening.",
+  "id": "insomnia-coach-va",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-10-10",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Not a substitute for needed professional care. VA recommends consulting a health care provider before use with sleep apnea, restless leg syndrome, bipolar disorder, seizure disorders, sleepwalking or night terrors, excessive daytime sleepiness, or frailty/fall risk, and notes the app may not suit shift workers. Educational/self-care content.",
+  "name": "Insomnia Coach",
+  "needs": [
+   "sleep",
+   "practice",
+   "calm"
+  ],
+  "official_url": "https://ptsd.va.gov/appvid/mobile/insomnia_coach.asp",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "privacy_notes": "VA page states user-created data are only as secure as the phone/device itself and that self-monitoring data belong to the user. The full VA mobile-app privacy policy was not reviewed in this screening.",
+  "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
+  "reason": "Screened 2026-10-10: official VA page confirmed live; free access, standalone self-care use, CBT-I basis, feature set, and health-condition cautions confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; U.S.-government publisher."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+   "app privacy policy not reviewed",
+   "non-English availability not confirmed"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://ptsd.va.gov/appvid/mobile/insomnia_coach.asp"
+  ],
+  "status": "screened",
+  "tags": [
+   "sleep",
+   "insomnia",
+   "cbt-i",
+   "sleep-diary",
+   "self-care",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "U.S. federal publisher; developed for Veterans, Service members, and others. Fit for non-U.S. contexts not assessed.",
+   "source_notes": [
+    "https://www.ptsd.va.gov/appvid/mobile/mindfulcoach_app.asp"
+   ]
   },
-  {
-    "access": [
-      "free"
-    ],
-    "accessibility": [
-      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
-    ],
-    "description": "Large library of free guided meditations, sleep content, breathwork sessions, and yoga, plus a meditation timer and journaling features. Publisher reports tens of millions of users.",
-    "evidence_notes": "Publisher marketing claims (library size, user counts) not independently evaluated. No efficacy claims assessed in this screening.",
-    "id": "insight-timer",
-    "intended_population": [
-      "general"
-    ],
-    "languages": [
-      "English"
-    ],
-    "last_verified_at": "2026-10-09",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Free tier marketed by publisher; full pricing and plan details not reviewed. App surfaces usage statistics and engagement features, which sit uneasily with calm-design preferences — flag for owner judgment. Does not replace professional mental health care.",
-    "name": "Insight Timer",
-    "needs": [
-      "listen",
-      "calm",
-      "sleep"
-    ],
-    "official_url": "https://insighttimer.com/",
-    "platforms": [
-      "iOS",
-      "Android",
-      "Web"
-    ],
-    "privacy_notes": "Account required for app use. Privacy policy and data practices were not reviewed in this screening.",
-    "publisher": "Insight Timer (Insight Network Inc)",
-    "reason": "Screened 2026-10-09: official site confirmed live; free meditation/sleep/breathwork library confirmed from the primary source. Privacy policy and paid-tier details not reviewed — recorded as gaps. Ready for owner review before any promotion.",
-    "regions": [
-      "Global; regional availability not independently confirmed."
-    ],
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "resource_type": "mobile-app",
-    "review_status": "screened",
-    "screening_gaps": [
-      "privacy policy and data practices not reviewed",
-      "paid-tier pricing details not reviewed"
-    ],
-    "shelf": "listen",
-    "source_notes": [
-      "https://insighttimer.com/"
-    ],
-    "status": "screened",
-    "tags": [
-      "meditation",
-      "sleep",
-      "breathwork",
-      "yoga",
-      "journaling",
-      "independent-use"
-    ],
-    "use_context": [
-      "independent-use"
-    ]
+  "description": "Free mobile app providing a gradual, self-guided mindfulness training program starting from one minute per day, plus education about mindfulness, guided and unguided exercises, strategies for overcoming challenges, a practice log, and reminders. Can be used on its own or to enhance face-to-face care.",
+  "evidence_notes": "Publisher is VA's National Center for PTSD; the page states mindfulness has been shown to be helpful for reducing stress and coping with unpleasant thoughts and emotions. Effectiveness of the app itself was not evaluated in this screening.",
+  "id": "mindfulness-coach-va",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-10-10",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Not intended to replace needed professional care for PTSD or other mental health conditions. Educational/self-care content; individual progress claims on the publisher page (user testimonials) were not evaluated.",
+  "name": "Mindfulness Coach",
+  "needs": [
+   "practice",
+   "calm",
+   "understand"
+  ],
+  "official_url": "https://www.ptsd.va.gov/appvid/mobile/mindfulcoach_app.asp",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "privacy_notes": "VA page states user-created data are only as secure as the phone/device itself and that self-monitoring data belong to the user. The full VA mobile-app privacy policy was not reviewed in this screening.",
+  "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
+  "reason": "Screened 2026-10-10: official VA page confirmed live; free access, standalone self-use, gradual training program, feature set, and care-replacement disclaimer confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; U.S.-government publisher."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+   "app privacy policy not reviewed",
+   "non-English availability not confirmed"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://www.ptsd.va.gov/appvid/mobile/mindfulcoach_app.asp"
+  ],
+  "status": "screened",
+  "tags": [
+   "mindfulness",
+   "meditation",
+   "stress",
+   "emotional-regulation",
+   "self-care",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "UK teenage mental health charity; app developed with young people and aimed at young people over 13. Fit for other age groups and regions not assessed.",
+   "source_notes": [
+    "https://calmharm.stem4.org.uk"
+   ]
   },
-  {
-    "access": [
-      "free"
-    ],
-    "accessibility": [
-      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
-    ],
-    "description": "UC Berkeley research center publishing research-based wellbeing practices (Greater Good in Action), articles on the science of happiness and resilience, the Science of Happiness podcast, and a free online course. Reading is free with no account.",
-    "evidence_notes": "Publisher is a UC Berkeley research center; practices summarize peer-reviewed findings per the publisher. Individual claims not evaluated in this screening.",
-    "id": "greater-good-science-center",
-    "intended_population": [
-      "general"
-    ],
-    "languages": [
-      "English"
-    ],
-    "last_verified_at": "2026-10-09",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Magazine-style site mixes research summaries with opinion and culture commentary; the practices library is the relevant section. Informational only; does not replace professional mental health care.",
-    "name": "Greater Good Science Center",
-    "needs": [
-      "read",
-      "understand"
-    ],
-    "official_url": "https://greatergood.berkeley.edu/",
-    "platforms": [
-      "Web"
-    ],
-    "privacy_notes": "No account required to read articles and practices.",
-    "publisher": "Greater Good Science Center, University of California, Berkeley",
-    "reason": "Screened 2026-10-09: official site confirmed live; publisher identity, free access, and practices library confirmed from the primary source. Ready for owner review before any promotion.",
-    "regions": [
-      "Global; U.S.-based publisher."
-    ],
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "resource_type": "article-library",
-    "review_status": "screened",
-    "screening_gaps": [],
-    "shelf": "read",
-    "source_notes": [
-      "https://greatergood.berkeley.edu/"
-    ],
-    "status": "screened",
-    "tags": [
-      "wellbeing",
-      "resilience",
-      "gratitude",
-      "compassion",
-      "psychoeducation",
-      "independent-use"
-    ],
-    "use_context": [
-      "independent-use"
-    ]
+  "description": "Free award-winning app funded by teenage mental health charity stem4, developed by a clinical psychologist in collaboration with young people, using principles from evidence-based Dialectical Behaviour Therapy (DBT) to help manage the urge to self-harm. Tasks are grouped into Comfort, Distract, Express Yourself, Release, and Random; the app also offers a breathing exercise, safety-net building, journaling/self-reflection, and signposting to help.",
+  "evidence_notes": "Publisher states the app uses principles from evidence-based DBT and was developed with young people; the app has won charity-sector awards. Effectiveness claims were not independently evaluated in this screening.",
+  "id": "calm-harm-stem4",
+  "intended_population": [
+   "adolescents"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-10-10",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "The publisher states the app is not a substitute for the assessment and individualized treatment by a health or mental health professional. It addresses self-harm urges, which touches SootheSpot's safety pathway — owner judgment required before any promotion.",
+  "name": "Calm Harm",
+  "needs": [
+   "calm",
+   "practice"
+  ],
+  "official_url": "https://calmharm.stem4.org.uk",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "privacy_notes": "Publisher describes the app as private, anonymous, and safe, and notes it can be password-protected. App data practices were not independently reviewed in this screening.",
+  "publisher": "stem4 (UK registered charity No. 1144506)",
+  "reason": "Screened 2026-10-10: official app site confirmed live; free access, DBT principles, task categories, breathing exercise, safety net, journal, and the non-substitute-for-treatment disclaimer confirmed from the primary source. Age-13+ scope recorded. Ready for owner review before any promotion.",
+  "regions": [
+   "UK-based charity publisher; apps distributed via the App Store and Google Play."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+   "app data practices not independently reviewed",
+   "effectiveness evidence not assessed",
+   "safety-pathway fit for SootheSpot not determined"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://calmharm.stem4.org.uk"
+  ],
+  "status": "screened",
+  "tags": [
+   "self-harm",
+   "urge-surfing",
+   "dbt",
+   "distraction",
+   "breathing",
+   "journaling",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "U.S. federal publisher; created for veterans, service members, and trauma survivors generally. Page states the app is for 'anyone who wants to learn about and manage symptoms after a trauma.' Fit for non-U.S. contexts not assessed.",
+   "source_notes": [
+    "https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp"
+   ]
   },
-  {
-    "access": [
-      "free"
-    ],
-    "accessibility": [
-      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
-    ],
-    "description": "NHS mental wellbeing hub with guides on stress, anxiety, and low mood, a short personalized Mind Plan quiz, small achievable actions, and free email programs. Core content is free with no account.",
-    "evidence_notes": "UK National Health Service public-health content. Informational; no efficacy claims evaluated in this screening.",
-    "id": "nhs-every-mind-matters",
-    "intended_population": [
-      "general"
-    ],
-    "languages": [
-      "English"
-    ],
-    "last_verified_at": "2026-10-09",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Urgent-support pathways on the page are UK-specific and must not be substituted for other regions' crisis resources, per repo policy. Informational only; does not replace professional care.",
-    "name": "Every Mind Matters",
-    "needs": [
-      "read",
-      "understand",
-      "calm"
-    ],
-    "official_url": "https://www.nhs.uk/every-mind-matters/",
-    "platforms": [
-      "Web"
-    ],
-    "privacy_notes": "No account required for core content. Optional email programs involve signup; their data handling was not reviewed.",
-    "publisher": "National Health Service (NHS), United Kingdom",
-    "reason": "Screened 2026-10-09: official NHS page confirmed live; publisher, free access, and content scope confirmed from the primary source. UK geographic scope recorded explicitly. Ready for owner review before any promotion.",
-    "regions": [
-      "UK-focused (NHS); self-care content broadly applicable."
-    ],
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "resource_type": "article-library",
-    "review_status": "screened",
-    "screening_gaps": [],
-    "shelf": "read",
-    "source_notes": [
-      "https://www.nhs.uk/every-mind-matters/"
-    ],
-    "status": "screened",
-    "tags": [
-      "wellbeing",
-      "stress",
-      "anxiety",
-      "low-mood",
-      "self-care",
-      "independent-use"
-    ],
-    "use_context": [
-      "independent-use"
-    ]
+  "description": "Free mobile app to help learn about and manage symptoms that often occur after trauma. Offers reliable information on PTSD and treatments that work, a PTSD self-assessment (PCL) with symptom tracking, easy-to-use coping tools for stress symptoms (relaxation, breathing, positive self-talk, anger management), and direct links to support. A companion desktop tool, PTSD Coach Online, offers 17 guided stress-management tools.",
+  "evidence_notes": "Publisher describes the app's facts and self-help skills as research-based; the in-app PTSD Checklist (PCL) is described as a reliable and valid self-report measure used across VA and DoD. Effectiveness of the app itself was not independently evaluated in this screening.",
+  "id": "ptsd-coach-va",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-10-10",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Not meant to replace professional care; PTSD often requires professional evaluation and treatment. Educational and self-care content.",
+  "name": "PTSD Coach",
+  "needs": [
+   "practice",
+   "calm",
+   "understand"
+  ],
+  "official_url": "https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp",
+  "platforms": [
+   "iOS",
+   "Android",
+   "Web"
+  ],
+  "privacy_notes": "VA page states user-created data are only as secure as the phone/device itself and that self-monitoring data belong to the user. The full VA mobile-app privacy policy was not reviewed in this screening.",
+  "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD; created with DoD DHA Connected Health",
+  "reason": "Screened 2026-10-10: official VA page confirmed live; publisher, free access, self-assessment (PCL), symptom tracking, coping tools, support links, the professional-care disclaimer, and the data-security note confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; U.S.-government publisher."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+   "app privacy policy not reviewed",
+   "non-English availability not confirmed"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp"
+  ],
+  "status": "screened",
+  "tags": [
+   "ptsd",
+   "trauma",
+   "coping-skills",
+   "symptom-tracking",
+   "self-assessment",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "paid",
+   "free-with-prescription"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Australia-based publisher (St Vincent's Hospital Sydney and the University of New South Wales); the publisher page states programs are accessible online anywhere in the world. Clinician-guided access runs through Australian health professionals and insurers; fit for non-Australian contexts not assessed.",
+   "source_notes": [
+    "https://thiswayup.org.au/"
+   ]
   },
-  {
-    "access": [
-      "free"
-    ],
-    "accessibility": [
-      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
-    ],
-    "description": "Free interactive cognitive-behavioral skills program for preventing and managing depression and anxiety symptoms. Five sequential modules (feelings, thoughts, unwarping, destressing, relationships) with exercises, workbooks, and quizzes with personalized feedback.",
-    "evidence_notes": "Publisher reports extensive RCT evaluation, including a 2016 meta-analysis of 12 studies finding reduced depression and anxiety symptoms. Effectiveness claims are the publisher's and were not independently evaluated in this screening.",
-    "id": "moodgym-anu",
-    "intended_population": [
-      "general",
-      "adults",
-      "adolescents"
-    ],
-    "languages": [
-      "English"
-    ],
-    "last_verified_at": "2026-10-09",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Requires registration. Text-heavy, module-sequential format may not suit all users. Not a substitute for professional care; users in crisis should use crisis resources, not a self-help program.",
-    "name": "MoodGYM",
-    "needs": [
-      "practice",
-      "mood",
-      "understand"
-    ],
-    "official_url": "https://moodgym.com.au/",
-    "platforms": [
-      "Web"
-    ],
-    "privacy_notes": "Publisher describes the service as anonymous and confidential with secure data handling. Registration (account) required to use the program.",
-    "publisher": "Australian National University (e-hub Health)",
-    "reason": "Screened 2026-10-09: official site confirmed live; publisher, free access, module structure, anonymity claims, and RCT evidence claims confirmed from the primary source. Registration requirement recorded. Ready for owner review before any promotion.",
-    "regions": [
-      "Global; Australia-based provider."
-    ],
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "resource_type": "online-course",
-    "review_status": "screened",
-    "screening_gaps": [],
-    "shelf": "practice",
-    "source_notes": [
-      "https://moodgym.com.au/"
-    ],
-    "status": "screened",
-    "tags": [
-      "cbt",
-      "depression",
-      "anxiety",
-      "stress",
-      "skills-training",
-      "independent-use"
-    ],
-    "use_context": [
-      "independent-use"
-    ]
+  "description": "Evidence-based online Cognitive Behavioural Therapy (iCBT) programs for depression, anxiety disorders (generalised, social, health anxiety, OCD, panic), post-traumatic stress, insomnia, perinatal mental health, and chronic pain. 17 programs of illustrated story-based modules with exercises, workbooks, action plans, reminders, and wellbeing questionnaires, completed over 90 days at the user's own pace.",
+  "evidence_notes": "Publisher states programs are based on Cognitive Behavioural Therapy and have been evaluated in randomized controlled trials and real-world studies, claiming 80% of completers are no longer troubled by symptoms. Individual study results were not evaluated in this screening.",
+  "id": "this-way-up",
+  "intended_population": [
+   "general",
+   "adults"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-10-10",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Designed for non-urgent mental health issues per the publisher FAQ. Self-guided programs cost $59 AUD (or covered by private health insurance) and are scoped to mild symptoms with no clinical support; free access only via clinician prescription (clinician-guided). Does not replace professional care.",
+  "name": "THIS WAY UP",
+  "needs": [
+   "practice",
+   "understand"
+  ],
+  "official_url": "https://thiswayup.org.au/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Publisher describes programs as secure and confidential; signup runs on thiswayupclinic.org. Full privacy and data-handling practices were not reviewed in this screening.",
+  "publisher": "Clinical Research Unit for Anxiety and Depression (CRUfAD), St Vincent's Hospital Sydney and the University of New South Wales",
+  "reason": "Screened 2026-10-10: official site confirmed live; publisher (CRUfAD, St Vincent's + UNSW), iCBT model, condition coverage, 17 programs, self-paced format, and the $59 AUD self-guided / clinician-prescribed-free cost model confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Online; Australia-based publisher; enrollment open worldwide per the publisher page."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "online-course",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy and data practices not reviewed",
+   "multilingual availability not confirmed"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://thiswayup.org.au/"
+  ],
+  "status": "screened",
+  "tags": [
+   "cbt",
+   "icbt",
+   "anxiety",
+   "depression",
+   "insomnia",
+   "skills-training",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-10-10",
+  "access": [
+   "free"
+  ],
+  "screening_gaps": [
+   "Named author/editor not shown on the fetched homepage — confirm authorship at promotion time.",
+   "Privacy policy and accessibility statement not reviewed.",
+   "A linked study claiming the site is the most popular resource for UK therapists was not verified — do not cite it."
+  ],
+  "id": "getselfhelp-cbt-self-help",
+  "name": "Get.gg — Free CBT Self-Help Resources",
+  "publisher": "Get.gg (Getselfhelp.co.uk), United Kingdom",
+  "resource_type": "article-library",
+  "official_url": "https://www.getselfhelp.co.uk",
+  "description": "Free Cognitive Behaviour Therapy self-help library: downloadable worksheets, information sheets, videos, and self-help MP3s for common mental health problems (anxiety, depression, stress), plus a resources section for professionals. Publisher states 25 years of operation.",
+  "languages": [
+   "English"
+  ],
+  "intended_population": [
+   "general"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "shelf": "practice",
+  "needs": [
+   "practice",
+   "understand"
+  ],
+  "tags": [
+   "cbt",
+   "self-help",
+   "worksheets",
+   "anxiety",
+   "depression",
+   "stress",
+   "psychoeducation",
+   "independent-use"
+  ],
+  "platforms": [
+   "Web"
+  ],
+  "regions": [
+   "Global; UK-based publisher."
+  ],
+  "cultural_context": {
+   "adaptation_status": "original",
+   "notes": "UK-based CBT self-help site; examples and service references are UK-oriented. Verify fit outside the UK before recommending.",
+   "source_notes": [
+    "https://www.getselfhelp.co.uk"
+   ]
   },
-  {
-    "access": [
-      "free"
-    ],
-    "accessibility": [
-      "YouTube provides auto-captioning; accuracy varies. Verify assistive-technology compatibility before relying on it."
-    ],
-    "description": "YouTube channel by a licensed marriage and family therapist presenting therapy skills and mental-health education in short videos, including emotional regulation, anxiety, and how-to-process-emotions topics.",
-    "evidence_notes": "Creator identifies as a licensed marriage and family therapist (per channel description). Individual videos were not evaluated in this screening.",
-    "id": "therapy-in-a-nutshell",
-    "intended_population": [
-      "general"
-    ],
-    "languages": [
-      "English"
-    ],
-    "last_verified_at": "2026-10-09",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Video platform with advertising and algorithmic recommendations, which conflict with calm-design preferences — flag for owner judgment. Educational content, not therapy; individual video quality and relevance vary. Does not replace professional care.",
-    "name": "Therapy in a Nutshell",
-    "needs": [
-      "watch",
-      "understand"
-    ],
-    "official_url": "https://www.youtube.com/@TherapyinaNutshell",
-    "platforms": [
-      "Web",
-      "iOS",
-      "Android"
-    ],
-    "privacy_notes": "Hosted on YouTube; viewing is subject to YouTube/Google data practices, which were not reviewed in this screening.",
-    "publisher": "Emma McAdam, Licensed Marriage and Family Therapist",
-    "reason": "Screened 2026-10-09: channel confirmed live on YouTube; creator credential claim (LMFT) confirmed from the channel description. Platform trade-offs (ads, recommendations, Google data practices) recorded honestly. Ready for owner review before any promotion.",
-    "regions": [
-      "Global; English-language."
-    ],
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "resource_type": "video",
-    "review_status": "screened",
-    "screening_gaps": [
-      "individual videos not evaluated",
-      "YouTube data practices not reviewed"
-    ],
-    "shelf": "watch",
-    "source_notes": [
-      "https://www.youtube.com/@TherapyinaNutshell"
-    ],
-    "status": "screened",
-    "tags": [
-      "psychoeducation",
-      "therapy-skills",
-      "emotional-regulation",
-      "anxiety",
-      "independent-use"
-    ],
-    "use_context": [
-      "independent-use"
-    ]
+  "evidence_notes": "Publisher states CBT is proven to help mental health problems; no specific trial evidence is presented on the homepage. Worksheets follow standard CBT formats per the publisher. No clinical claims were evaluated in this screening.",
+  "accessibility": [
+   "No accessibility statement found on the fetched homepage; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "Resources are downloadable from the website; no account was required on the fetched pages. The site's privacy policy was not reviewed in this screening.",
+  "license_notes": "External resource. SootheSpot stores metadata only. Publisher materials are intended for personal/therapeutic use; confirm redistribution terms before any reuse.",
+  "limitations": "Self-help education; does not replace professional mental health care. Workbook-style exercises may benefit from therapist guidance for complex presentations.",
+  "source_notes": [
+   "https://www.getselfhelp.co.uk"
+  ],
+  "reason": "Screened 2026-10-10: official getselfhelp.co.uk homepage confirmed live; free CBT self-help library (worksheets, information sheets, videos, MP3s) confirmed from the primary source. Ready for owner review before any promotion."
+ },
+ {
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-10-10",
+  "access": [
+   "free"
+  ],
+  "screening_gaps": [
+   "Recent activity not verified — newest blog posts shown were from 2019; confirm the meditation library is current before promotion."
+  ],
+  "id": "mindfulness-for-teens-dzung-vo",
+  "name": "Mindfulness for Teens — Dr. Dzung Vo",
+  "publisher": "Dr. Dzung X. Vo, MD, FAAP (adolescent medicine, BC Children's Hospital / University of British Columbia)",
+  "resource_type": "audio-library",
+  "official_url": "https://mindfulnessforteens.com/",
+  "description": "Free downloadable guided meditations, mindfulness videos, and youth stories for teenagers from an adolescent-medicine pediatrician. Companion to the book 'The Mindful Teen.' The author co-developed MARS-A, a developmentally adapted MBSR/MBCT program for adolescents.",
+  "languages": [
+   "English"
+  ],
+  "intended_population": [
+   "adolescents"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "shelf": "listen",
+  "needs": [
+   "listen",
+   "calm",
+   "practice"
+  ],
+  "tags": [
+   "mindfulness",
+   "meditation",
+   "teens",
+   "adolescents",
+   "stress",
+   "mbsr",
+   "independent-use"
+  ],
+  "platforms": [
+   "Web"
+  ],
+  "regions": [
+   "Global; Canada-based publisher."
+  ],
+  "cultural_context": {
+   "adaptation_status": "original",
+   "notes": "Developed by a Canada-based clinician; blog and youth-voice content reference North American contexts. Verify fit for other cultural contexts before recommending.",
+   "source_notes": [
+    "https://mindfulnessforteens.com/"
+   ]
   },
-  {
-    "access": [
-      "free"
-    ],
-    "accessibility": [
-      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
-    ],
-    "description": "Step-by-step guide to relaxation techniques including deep breathing, progressive muscle relaxation, body scan meditation, visualization, self-massage, mindfulness meditation, rhythmic exercise, and yoga/tai chi, with instructions for independent practice.",
-    "evidence_notes": "Informational article; no efficacy claims evaluated in this screening.",
-    "id": "helpguide-relaxation-techniques",
-    "intended_population": [
-      "general"
-    ],
-    "languages": [
-      "English"
-    ],
-    "last_verified_at": "2026-10-09",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Site is user-supported and earns commission on BetterHelp referrals made through the page (disclosed on the page) — commercial relationship recorded. Informational only; does not replace professional care.",
-    "name": "Relaxation Techniques for Stress Relief (HelpGuide)",
-    "needs": [
-      "practice",
-      "calm",
-      "sleep"
-    ],
-    "official_url": "https://www.helpguide.org/mental-health/stress/relaxation-techniques-for-stress-relief",
-    "platforms": [
-      "Web"
-    ],
-    "privacy_notes": "No account required to read. Page carries BetterHelp affiliate advertising with a commission disclosure.",
-    "publisher": "HelpGuide.org",
-    "reason": "Screened 2026-10-09: official article confirmed live; publisher, free access, and technique instructions confirmed from the primary source. BetterHelp affiliate relationship disclosed on the page and recorded as a limitation. Ready for owner review before any promotion.",
-    "regions": [
-      "Global availability; publisher region not stated on the reviewed page."
-    ],
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "resource_type": "article",
-    "review_status": "screened",
-    "screening_gaps": [],
-    "shelf": "practice",
-    "source_notes": [
-      "https://www.helpguide.org/mental-health/stress/relaxation-techniques-for-stress-relief"
-    ],
-    "status": "screened",
-    "tags": [
-      "relaxation",
-      "breathing",
-      "progressive-muscle-relaxation",
-      "body-scan",
-      "visualization",
-      "mindfulness",
-      "independent-use"
-    ],
-    "use_context": [
-      "independent-use"
-    ]
+  "evidence_notes": "Publisher is a practicing adolescent-medicine physician and researcher; co-developed MARS-A (developmental adaptation of MBSR/MBCT for youth with chronic stress, pain, depression, anxiety), per the site's About page. No clinical claims were evaluated in this screening.",
+  "accessibility": [
+   "No accessibility statement found on the fetched homepage; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "Meditations are downloadable from the website; the site's privacy policy was not reviewed in this screening.",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Educational/self-care content for teens; does not replace professional mental health care. Not a crisis resource — keep safety pathways separate.",
+  "source_notes": [
+   "https://mindfulnessforteens.com/"
+  ],
+  "reason": "Screened 2026-10-10: official mindfulnessforteens.com confirmed live; publisher identity (Dr. Dzung Vo, BC Children's Hospital / UBC) and free meditation library confirmed from the primary source. Ready for owner review before any promotion."
+ },
+ {
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-10-10",
+  "access": [
+   "free"
+  ],
+  "screening_gaps": [
+   "Privacy policy and data-retention terms not reviewed.",
+   "Eligibility details (age, residency) not confirmed at screening."
+  ],
+  "id": "mindspot-australia",
+  "name": "MindSpot — Free Digital Psychological Care (Australia)",
+  "publisher": "MindSpot, MQ Health / Macquarie University; funded by the Australian Government Department of Health and Aged Care",
+  "resource_type": "online-course",
+  "official_url": "https://mindspot.org.au",
+  "description": "Free online psychological assessment and therapist-supported treatment courses for anxiety and depression, delivered by qualified clinicians at Macquarie University. Users complete a 20–30 minute online assessment, then access treatment courses the publisher reports as clinically tested at its eCentreClinic research clinic.",
+  "languages": [
+   "English"
+  ],
+  "intended_population": [
+   "adults"
+  ],
+  "use_context": [
+   "therapist-supported"
+  ],
+  "shelf": "practice",
+  "needs": [
+   "practice",
+   "understand",
+   "find support"
+  ],
+  "tags": [
+   "cbt",
+   "online-treatment",
+   "therapist-supported",
+   "anxiety",
+   "depression",
+   "australia"
+  ],
+  "platforms": [
+   "Web"
+  ],
+  "regions": [
+   "Australia only."
+  ],
+  "cultural_context": {
+   "adaptation_status": "original",
+   "notes": "Australian government-funded service; eligibility, clinical pathways, and support references are Australia-specific.",
+   "source_notes": [
+    "https://mindspot.org.au"
+   ]
   },
-  {
-    "access": [
-      "free"
-    ],
-    "accessibility": [
-      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
-    ],
-    "description": "Australian not-for-profit offering a free app with guided mindfulness and mental-fitness programs for families, plus curriculum-aligned school programs. Publisher describes its content as evidence-led and developed with psychologists and mental-health experts.",
-    "evidence_notes": "Publisher is an Australian mental-health not-for-profit; states its content is evidence-led and developed with psychologists and mental-health experts. Individual claims not evaluated in this screening.",
-    "id": "smiling-mind",
-    "intended_population": [
-      "general",
-      "children"
-    ],
-    "languages": [
-      "English"
-    ],
-    "last_verified_at": "2026-10-09",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Mindfulness and wellbeing programs; not clinical treatment and not a substitute for professional care. Individual programs not evaluated.",
-    "name": "Smiling Mind",
-    "needs": [
-      "practice",
-      "calm"
-    ],
-    "official_url": "https://www.smilingmind.com.au/",
-    "platforms": [
-      "Web",
-      "iOS",
-      "Android"
-    ],
-    "privacy_notes": "App account and data practices were not reviewed in this screening.",
-    "publisher": "Smiling Mind (Australian not-for-profit)",
-    "reason": "Screened 2026-10-09: official site confirmed live; not-for-profit publisher, free app, and evidence-led content claims confirmed from the primary source. Ready for owner review before any promotion.",
-    "regions": [
-      "Global; Australia-based publisher."
-    ],
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "resource_type": "mobile-app",
-    "review_status": "screened",
-    "screening_gaps": [
-      "app data practices and privacy policy not reviewed",
-      "app store listings not individually reviewed"
-    ],
-    "shelf": "practice",
-    "source_notes": [
-      "https://www.smilingmind.com.au/"
-    ],
-    "status": "screened",
-    "tags": [
-      "mindfulness",
-      "mental-fitness",
-      "families",
-      "schools",
-      "meditation",
-      "independent-use"
-    ],
-    "use_context": [
-      "independent-use"
-    ]
+  "evidence_notes": "Publisher reports services clinically tested at Macquarie University's eCentreClinic, with an average 50% symptom reduction reported on the site; treat these figures as publisher claims — no independent evaluation in this screening.",
+  "accessibility": [
+   "No accessibility statement reviewed in this screening; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "Requires an online assessment and therapist consultation — personal health data is involved. The service's privacy and data-retention practices were not reviewed in this screening.",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Available to people in Australia only. Not a crisis service and not an independent-use tool — access requires an online assessment and clinician contact.",
+  "source_notes": [
+   "https://mindspot.org.au"
+  ],
+  "reason": "Screened 2026-10-10: official mindspot.org.au confirmed live; publisher (Macquarie University/MQ Health, Australian Government-funded), free access, and therapist-supported scope confirmed from the primary source. Ready for owner review before any promotion."
+ },
+ {
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-10-10",
+  "access": [
+   "free"
+  ],
+  "screening_gaps": [
+   "Privacy policy and data-retention terms not reviewed.",
+   "Spanish or other language availability not confirmed at screening.",
+   "App-store currency and current version not checked."
+  ],
+  "id": "act-coach-va",
+  "name": "ACT Coach (VA)",
+  "publisher": "U.S. Department of Veterans Affairs, VA National Center for PTSD",
+  "resource_type": "mobile-app",
+  "official_url": "https://www.ptsd.va.gov/appvid/mobile/actcoach_app_public.asp",
+  "description": "Free, publicly available mobile app built to accompany Acceptance and Commitment Therapy (ACT) with a mental health provider. ACT aims to help people live with unpleasant thoughts, feelings, and impulses without avoiding them or being controlled by them. The app offers exercises, tools, information, and tracking logs: mindfulness exercises (mindful breathing, walking, eating, observing thoughts/sensations/emotions), interactive tools for values-based living (identifying values, personal action lists, motivational tips and reminders), and tools to track mindfulness practice and coping strategies.",
+  "languages": [
+   "English"
+  ],
+  "intended_population": [
+   "adults"
+  ],
+  "use_context": [
+   "therapist-supported"
+  ],
+  "shelf": "practice",
+  "needs": [
+   "practice",
+   "stress",
+   "mood",
+   "understand"
+  ],
+  "tags": [
+   "act",
+   "acceptance-and-commitment-therapy",
+   "mindfulness",
+   "values",
+   "va",
+   "app",
+   "therapist-supported"
+  ],
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "regions": [
+   "Publicly available on app stores; developed for U.S. Veterans, service members, and others in ACT with a therapist."
+  ],
+  "cultural_context": {
+   "adaptation_status": "original",
+   "notes": "Developed by the U.S. VA National Center for PTSD; framing and references reflect a U.S. military/Veteran clinical context.",
+   "source_notes": [
+    "https://www.ptsd.va.gov/appvid/mobile/actcoach_app_public.asp"
+   ]
   },
-  {
-    "access": [
-      "free"
-    ],
-    "accessibility": [
-      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
-    ],
-    "description": "Free recorded guided self-compassion practices (affectionate breathing, compassionate body scan, soles-of-the-feet grounding, compassionate-friend visualizations) plus written exercises including the Self-Compassion Break, supportive touch, reframing critical self-talk, and a self-compassion journal. The page states these practices are not a substitute for therapy.",
-    "duration_options_minutes": [
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      13,
-      14,
-      15,
-      17,
-      18,
-      19,
-      20,
-      22
-    ],
-    "evidence_notes": "Publisher is the institute of Dr. Kristin Neff, who operationally defined and measured self-compassion; the site describes its training programs as empirically supported. Individual claims not evaluated in this screening.",
-    "id": "neff-self-compassion-practices",
-    "intended_population": [
-      "general"
-    ],
-    "languages": [
-      "English"
-    ],
-    "last_verified_at": "2026-10-09",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "The page explicitly states the practices are not a substitute for therapy. The broader site heavily promotes paid courses and a paid community; the free practices are the relevant section for this record.",
-    "name": "Self-Compassion Practices (Kristin Neff)",
-    "needs": [
-      "practice",
-      "calm"
-    ],
-    "official_url": "https://self-compassion.org/category/exercises/",
-    "platforms": [
-      "Web"
-    ],
-    "privacy_notes": "Practices stream from the publisher site; no account noted for the free practices. The site's paid offerings and their data handling were not reviewed.",
-    "publisher": "Self-Compassion Institute (Dr. Kristin Neff)",
-    "reason": "Screened 2026-10-09: free practices page confirmed live; guided audio list with durations, written exercises, and the therapy disclaimer confirmed from the primary source. Ready for owner review before any promotion.",
-    "regions": [
-      "Global; publisher region not stated on the reviewed page."
-    ],
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "resource_type": "audio-library",
-    "review_status": "screened",
-    "screening_gaps": [
-      "broader paid offerings not evaluated"
-    ],
-    "shelf": "practice",
-    "source_notes": [
-      "https://self-compassion.org/category/exercises/"
-    ],
-    "status": "screened",
-    "tags": [
-      "self-compassion",
-      "mindfulness",
-      "grounding",
-      "body-scan",
-      "self-criticism",
-      "journaling",
-      "independent-use"
-    ],
-    "use_context": [
-      "independent-use"
-    ]
+  "evidence_notes": "Acceptance and Commitment Therapy is an evidence-based psychotherapy; the publisher presents the app as a companion to that treatment. No independent evaluation of the app itself was reviewed in this screening.",
+  "accessibility": [
+   "No accessibility statement reviewed in this screening; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "Official page notes that any user-created data is only as secure as the phone/device itself and points to a VA mobile-app privacy policy, which was not reviewed in this screening.",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Not a self-help tool — the official page states it was designed to be used with a mental health provider as part of Acceptance and Commitment Therapy and is not meant to be used for self-care.",
+  "source_notes": [
+   "https://www.ptsd.va.gov/appvid/mobile/actcoach_app_public.asp"
+  ],
+  "reason": "Screened 2026-10-10: official VA page confirmed live; publisher (VA National Center for PTSD), free access, ACT framing, feature set, privacy-on-device note, and the not-for-self-care scope confirmed from the primary source. Ready for owner review before any promotion."
+ },
+ {
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-10-10",
+  "access": [
+   "paid"
+  ],
+  "screening_gaps": [
+   "Privacy policy and data practices not reviewed.",
+   "No free tier was visible on the official site at screening — access is paid unless the owner confirms otherwise.",
+   "Publisher efficacy claims not independently verified.",
+   "Geographic availability of the app not confirmed."
+  ],
+  "id": "superbetter",
+  "name": "SuperBetter",
+  "publisher": "SuperBetter, LLC (founded by game designer and researcher Jane McGonigal)",
+  "resource_type": "mobile-app",
+  "official_url": "https://superbetter.com/",
+  "description": "A gameful resilience-building tool that applies game psychology to real-life challenges. Players set an 'epic win,' take on quests and power-ups, battle 'bad guys' (stressors), and check in with allies, aiming to build mental, emotional, social, and physical resilience. The current site offers 40+ solo challenges and is positioned around youth mental health, social-emotional learning, and student wellbeing.",
+  "languages": [
+   "English"
+  ],
+  "intended_population": [
+   "adolescents",
+   "young adults",
+   "adults"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "shelf": "practice",
+  "needs": [
+   "practice",
+   "stress",
+   "mood"
+  ],
+  "tags": [
+   "resilience",
+   "gamified",
+   "wellbeing",
+   "youth",
+   "app",
+   "web",
+   "social-emotional-learning"
+  ],
+  "platforms": [
+   "iOS",
+   "Android",
+   "Web"
+  ],
+  "regions": [
+   "Not confirmed — English-language site; app-store availability by country not verified in this screening."
+  ],
+  "cultural_context": {
+   "adaptation_status": "original",
+   "notes": "U.S.-developed product; gameful framing assumes comfort with quest/hero-narrative metaphors.",
+   "source_notes": [
+    "https://superbetter.com/"
+   ]
   },
-  {
-    "access": [
-      "free"
-    ],
-    "accessibility": [
-      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
-    ],
-    "description": "Government-published, CBT-based self-help information packages and workbooks covering depression, panic, generalised anxiety, social anxiety, disordered eating, self-esteem, procrastination, and perfectionism. Some resources are designed to be worked through independently; others are produced for clinician-led treatment and training.",
-    "evidence_notes": "Publisher is a specialist clinical psychology service of the Western Australian health department; resources use a cognitive-behavioural approach. Effectiveness not evaluated in this screening.",
-    "id": "cci-looking-after-yourself",
-    "intended_population": [
-      "general",
-      "adults"
-    ],
-    "languages": [
-      "English"
-    ],
-    "last_verified_at": "2026-10-09",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Self-help materials; not a substitute for professional care. The resources overview page notes a July 2022 update — currency of individual packages should be verified before promotion.",
-    "name": "CCI Looking After Yourself (Self-Help Resources)",
-    "needs": [
-      "practice",
-      "understand"
-    ],
-    "official_url": "https://www.CCI.health.wa.gov.au/Resources/Overview",
-    "platforms": [
-      "Web"
-    ],
-    "privacy_notes": "Materials are downloadable PDFs; no account indicated. Data practices were not reviewed in this screening.",
-    "publisher": "Centre for Clinical Interventions, Government of Western Australia",
-    "reason": "Screened 2026-10-09: resources overview page confirmed live; publisher identity, CBT orientation, and condition coverage confirmed from the primary source. Ready for owner review before any promotion.",
-    "regions": [
-      "Global; Australia (WA Health) publisher."
-    ],
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "resource_type": "online-course",
-    "review_status": "screened",
-    "screening_gaps": [
-      "currency of individual packages not verified (overview last updated 2022-07)"
-    ],
-    "shelf": "practice",
-    "source_notes": [
-      "https://www.CCI.health.wa.gov.au/Resources/Overview"
-    ],
-    "status": "screened",
-    "tags": [
-      "cbt",
-      "anxiety",
-      "depression",
-      "panic",
-      "self-esteem",
-      "perfectionism",
-      "workbooks",
-      "psychoeducation",
-      "independent-use"
-    ],
-    "use_context": [
-      "independent-use"
-    ]
+  "evidence_notes": "Publisher cites a randomized controlled trial at the University of Pennsylvania (30 days of play associated with improved mental health and resilience) and names the World Economic Forum's 'Top Innovator in Youth Mental Health' recognition. Treat both as publisher claims — no independent evaluation in this screening.",
+  "accessibility": [
+   "No accessibility statement reviewed in this screening; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "Account-based app (sign-up required); privacy and data-retention practices not reviewed in this screening.",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Paid access — the official site lists a Hero account at $24.99/year (host/squad accounts $99/year) with no free tier visible. Not a crisis service and not clinical treatment. Current positioning leans toward youth/educators, so the individual-use experience may reflect that framing.",
+  "source_notes": [
+   "https://superbetter.com/"
+  ],
+  "reason": "Screened 2026-10-10: official superbetter.com confirmed live; publisher, gameful-resilience framing, science-backing claims, and pricing (paid, $24.99/year hero) confirmed from the primary source. Recorded honestly as paid; owner judgment required on whether a paid resource belongs in the toolbox. Ready for owner review."
+ },
+ {
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-10-10",
+  "access": [
+   "free"
+  ],
+  "screening_gaps": [
+   "Privacy policy and data-retention terms not reviewed.",
+   "PeerChat staffing/credentialing details not verified beyond the 'experienced peer workers' label.",
+   "Ask ReachOut AI chatbot behavior and guardrails not evaluated."
+  ],
+  "id": "reachout-australia",
+  "name": "ReachOut Australia",
+  "publisher": "ReachOut Australia",
+  "resource_type": "article-library",
+  "official_url": "https://au.reachout.com/",
+  "description": "Leading Australian online mental health service for young people, described on the official site as anonymous, free, and 100% online, designed with young people. Offers one-to-one anonymous PeerChat support with experienced peer workers, an 'Ask ReachOut' AI chatbot, plus tips, stories, and resources. Separate sections exist for parents/carers and schools.",
+  "languages": [
+   "English"
+  ],
+  "intended_population": [
+   "adolescents",
+   "young adults"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "shelf": "reach-out",
+  "needs": [
+   "support",
+   "understand",
+   "stress",
+   "mood"
+  ],
+  "tags": [
+   "youth",
+   "peer-support",
+   "australia",
+   "online-resources",
+   "chat"
+  ],
+  "platforms": [
+   "Web"
+  ],
+  "regions": [
+   "Australia-focused; youth service."
+  ],
+  "cultural_context": {
+   "adaptation_status": "original",
+   "notes": "Australian service; youth mental-health framing, helpline references, and cultural context are Australia-specific.",
+   "source_notes": [
+    "https://au.reachout.com/"
+   ]
   },
-  {
-    "access": [
-      "free"
-    ],
-    "accessibility": [
-      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
-    ],
-    "cultural_context": {
-      "adaptation_status": "unknown",
-      "notes": "U.S. federal publisher; the page states the app was created for everyone, not only Veterans or Service members. Fit for non-U.S. contexts not assessed.",
-      "source_notes": [
-        "https://ptsd.va.gov/appvid/mobile/insomnia_coach.asp"
-      ]
-    },
-    "description": "Free mobile app based on Cognitive Behavioral Therapy for Insomnia (CBT-I). Offers a guided 5-week training plan, an interactive sleep diary, 17 sleep tools, and a sleep coach with tips and personal feedback about sleep. Can be used as a stand-alone education and self-care tool or alongside professional care.",
-    "evidence_notes": "Publisher is VA's National Center for PTSD; the page states the app is based upon scientific research about changing sleep-related behaviors and thoughts. Effectiveness of the app itself was not evaluated in this screening.",
-    "id": "insomnia-coach-va",
-    "intended_population": [
-      "general"
-    ],
-    "languages": [
-      "English"
-    ],
-    "last_verified_at": "2026-10-10",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Not a substitute for needed professional care. VA recommends consulting a health care provider before use with sleep apnea, restless leg syndrome, bipolar disorder, seizure disorders, sleepwalking or night terrors, excessive daytime sleepiness, or frailty/fall risk, and notes the app may not suit shift workers. Educational/self-care content.",
-    "name": "Insomnia Coach",
-    "needs": [
-      "sleep",
-      "practice",
-      "calm"
-    ],
-    "official_url": "https://ptsd.va.gov/appvid/mobile/insomnia_coach.asp",
-    "platforms": [
-      "iOS",
-      "Android"
-    ],
-    "privacy_notes": "VA page states user-created data are only as secure as the phone/device itself and that self-monitoring data belong to the user. The full VA mobile-app privacy policy was not reviewed in this screening.",
-    "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
-    "reason": "Screened 2026-10-10: official VA page confirmed live; free access, standalone self-care use, CBT-I basis, feature set, and health-condition cautions confirmed from the primary source. Ready for owner review before any promotion.",
-    "regions": [
-      "Global; U.S.-government publisher."
-    ],
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "resource_type": "mobile-app",
-    "review_status": "screened",
-    "screening_gaps": [
-      "app privacy policy not reviewed",
-      "non-English availability not confirmed"
-    ],
-    "shelf": "practice",
-    "source_notes": [
-      "https://ptsd.va.gov/appvid/mobile/insomnia_coach.asp"
-    ],
-    "status": "screened",
-    "tags": [
-      "sleep",
-      "insomnia",
-      "cbt-i",
-      "sleep-diary",
-      "self-care",
-      "independent-use"
-    ],
-    "use_context": [
-      "independent-use"
-    ]
+  "evidence_notes": "No efficacy or evaluation evidence reviewed in this screening; the site's claims of being a leading youth service are publisher claims.",
+  "accessibility": [
+   "No accessibility statement reviewed in this screening; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "Site presents itself as an anonymous service; privacy and data-retention practices not reviewed in this screening.",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Australia-focused service — youth helpline context is Australia-specific. PeerChat is peer (not clinician) support. 'Ask ReachOut' is an AI chatbot: per SootheSpot's evidence-aware principle it must never be framed as a clinician or care provider, and its safety behavior is unverified here. Not a crisis service.",
+  "source_notes": [
+   "https://au.reachout.com/"
+  ],
+  "reason": "Screened 2026-10-10: official au.reachout.com confirmed live; publisher, free/anonymous/online scope, PeerChat peer-support offering, and the Ask ReachOut AI chatbot confirmed from the primary source. Owner judgment required on the AI-chatbot element before any promotion. Ready for owner review."
+ },
+ {
+  "id": "mha-self-help-tools",
+  "name": "Mental Health America Self-Help Tools",
+  "publisher": "Mental Health America (MHA), Alexandria, VA, USA",
+  "resource_type": "self-help-toolkit",
+  "official_url": "https://mhanational.org/resources/self-help-tools/",
+  "description": "Free self-help hub from Mental Health America: anonymous mental-health screening tools (depression, anxiety, bipolar, PTSD, substance use, psychosis, eating disorders, youth/parent screens), interactive tools (stress test, where-to-get-help navigator), and printable worksheets (cognitive distortions, emotional vocabulary, risky-behavior planning, conversation-starting letter, psychiatric advance directive).",
+  "tags": [
+   "self-help",
+   "screening",
+   "stress",
+   "coping",
+   "worksheets",
+   "psychoeducation",
+   "independent-use",
+   "nonprofit"
+  ],
+  "intended_population": [
+   "general",
+   "adolescents",
+   "parents"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "United States"
+  ],
+  "publisher_region": "US",
+  "platforms": [
+   "Web"
+  ],
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "US-based nonprofit; no cultural adaptation claims found on the page. Do not substitute for other regions.",
+   "source_notes": [
+    "https://mhanational.org/resources/self-help-tools/"
+   ]
   },
-  {
-    "access": [
-      "free"
-    ],
-    "accessibility": [
-      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
-    ],
-    "cultural_context": {
-      "adaptation_status": "unknown",
-      "notes": "U.S. federal publisher; developed for Veterans, Service members, and others. Fit for non-U.S. contexts not assessed.",
-      "source_notes": [
-        "https://www.ptsd.va.gov/appvid/mobile/mindfulcoach_app.asp"
-      ]
-    },
-    "description": "Free mobile app providing a gradual, self-guided mindfulness training program starting from one minute per day, plus education about mindfulness, guided and unguided exercises, strategies for overcoming challenges, a practice log, and reminders. Can be used on its own or to enhance face-to-face care.",
-    "evidence_notes": "Publisher is VA's National Center for PTSD; the page states mindfulness has been shown to be helpful for reducing stress and coping with unpleasant thoughts and emotions. Effectiveness of the app itself was not evaluated in this screening.",
-    "id": "mindfulness-coach-va",
-    "intended_population": [
-      "general"
-    ],
-    "languages": [
-      "English"
-    ],
-    "last_verified_at": "2026-10-10",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Not intended to replace needed professional care for PTSD or other mental health conditions. Educational/self-care content; individual progress claims on the publisher page (user testimonials) were not evaluated.",
-    "name": "Mindfulness Coach",
-    "needs": [
-      "practice",
-      "calm",
-      "understand"
-    ],
-    "official_url": "https://www.ptsd.va.gov/appvid/mobile/mindfulcoach_app.asp",
-    "platforms": [
-      "iOS",
-      "Android"
-    ],
-    "privacy_notes": "VA page states user-created data are only as secure as the phone/device itself and that self-monitoring data belong to the user. The full VA mobile-app privacy policy was not reviewed in this screening.",
-    "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
-    "reason": "Screened 2026-10-10: official VA page confirmed live; free access, standalone self-use, gradual training program, feature set, and care-replacement disclaimer confirmed from the primary source. Ready for owner review before any promotion.",
-    "regions": [
-      "Global; U.S.-government publisher."
-    ],
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "resource_type": "mobile-app",
-    "review_status": "screened",
-    "screening_gaps": [
-      "app privacy policy not reviewed",
-      "non-English availability not confirmed"
-    ],
-    "shelf": "practice",
-    "source_notes": [
-      "https://www.ptsd.va.gov/appvid/mobile/mindfulcoach_app.asp"
-    ],
-    "status": "screened",
-    "tags": [
-      "mindfulness",
-      "meditation",
-      "stress",
-      "emotional-regulation",
-      "self-care",
-      "independent-use"
-    ],
-    "use_context": [
-      "independent-use"
-    ]
+  "privacy_notes": "Screens described as anonymous, free, and private. Data practices/privacy policy not reviewed in this screening.",
+  "evidence_notes": "MHA describes its screening tools as scientifically validated; 32M+ screens taken since 2014 per MHA. Tools are screeners, not diagnostic instruments.",
+  "limitations": "Educational/self-help only; screening is not a diagnosis. Crisis page states MHA is not a crisis support line and directs to 988/Crisis Text Line. SootheSpot's deterministic safety pathway applies independently.",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "needs": [
+   "learn",
+   "calm"
+  ],
+  "shelf": "learn",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-10-10",
+  "reason": "Screened 2026-10-10: official MHA page confirmed live; publisher, free anonymous access, non-diagnostic screening scope, and crisis disclaimers confirmed from the primary source. Ready for owner review before any promotion.",
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "screening_gaps": [],
+  "source_notes": [
+   "https://mhanational.org/resources/self-help-tools/"
+  ]
+ },
+ {
+  "id": "mind-information-pages",
+  "name": "Mind Information Pages (types of mental health problems)",
+  "publisher": "Mind, the mental health charity (England and Wales)",
+  "resource_type": "information-hub",
+  "official_url": "https://www.mind.org.uk/information-support/types-of-mental-health-problems/",
+  "description": "Free, regularly reviewed information pages from UK charity Mind covering 30+ topics: diagnoses (depression, anxiety, bipolar, PTSD, OCD, eating problems, psychosis), self-care topics (stress, sleep problems, loneliness, self-esteem, self-harm), each explaining the topic, possible causes, treatment/support options, self-care tips, and guidance for friends and family. Some popular resources translated into Welsh.",
+  "tags": [
+   "psychoeducation",
+   "self-care",
+   "stress",
+   "sleep",
+   "anxiety",
+   "depression",
+   "nonprofit",
+   "uk",
+   "independent-use"
+  ],
+  "intended_population": [
+   "general",
+   "family-friends"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "languages": [
+   "English",
+   "Welsh (selected pages)"
+  ],
+  "regions": [
+   "England and Wales"
+  ],
+  "publisher_region": "GB",
+  "platforms": [
+   "Web"
+  ],
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "England-and-Wales focused charity; references UK helplines and legal context. Do not substitute UK-specific pathways for other regions.",
+   "source_notes": [
+    "https://www.mind.org.uk/information-support/types-of-mental-health-problems/"
+   ]
   },
-  {
-    "access": [
-      "free"
-    ],
-    "accessibility": [
-      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
-    ],
-    "cultural_context": {
-      "adaptation_status": "unknown",
-      "notes": "UK teenage mental health charity; app developed with young people and aimed at young people over 13. Fit for other age groups and regions not assessed.",
-      "source_notes": [
-        "https://calmharm.stem4.org.uk"
-      ]
-    },
-    "description": "Free award-winning app funded by teenage mental health charity stem4, developed by a clinical psychologist in collaboration with young people, using principles from evidence-based Dialectical Behaviour Therapy (DBT) to help manage the urge to self-harm. Tasks are grouped into Comfort, Distract, Express Yourself, Release, and Random; the app also offers a breathing exercise, safety-net building, journaling/self-reflection, and signposting to help.",
-    "evidence_notes": "Publisher states the app uses principles from evidence-based DBT and was developed with young people; the app has won charity-sector awards. Effectiveness claims were not independently evaluated in this screening.",
-    "id": "calm-harm-stem4",
-    "intended_population": [
-      "adolescents"
-    ],
-    "languages": [
-      "English"
-    ],
-    "last_verified_at": "2026-10-10",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "The publisher states the app is not a substitute for the assessment and individualized treatment by a health or mental health professional. It addresses self-harm urges, which touches SootheSpot's safety pathway — owner judgment required before any promotion.",
-    "name": "Calm Harm",
-    "needs": [
-      "calm",
-      "practice"
-    ],
-    "official_url": "https://calmharm.stem4.org.uk",
-    "platforms": [
-      "iOS",
-      "Android"
-    ],
-    "privacy_notes": "Publisher describes the app as private, anonymous, and safe, and notes it can be password-protected. App data practices were not independently reviewed in this screening.",
-    "publisher": "stem4 (UK registered charity No. 1144506)",
-    "reason": "Screened 2026-10-10: official app site confirmed live; free access, DBT principles, task categories, breathing exercise, safety net, journal, and the non-substitute-for-treatment disclaimer confirmed from the primary source. Age-13+ scope recorded. Ready for owner review before any promotion.",
-    "regions": [
-      "UK-based charity publisher; apps distributed via the App Store and Google Play."
-    ],
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "resource_type": "mobile-app",
-    "review_status": "screened",
-    "screening_gaps": [
-      "app data practices not independently reviewed",
-      "effectiveness evidence not assessed",
-      "safety-pathway fit for SootheSpot not determined"
-    ],
-    "shelf": "practice",
-    "source_notes": [
-      "https://calmharm.stem4.org.uk"
-    ],
-    "status": "screened",
-    "tags": [
-      "self-harm",
-      "urge-surfing",
-      "dbt",
-      "distraction",
-      "breathing",
-      "journaling",
-      "independent-use"
-    ],
-    "use_context": [
-      "independent-use"
-    ]
+  "privacy_notes": "No account required to read pages. Data practices/privacy policy not reviewed in this screening.",
+  "evidence_notes": "Publisher is the established England-and-Wales mental health charity; pages carry publication and revision dates. Clinical claims were not independently evaluated.",
+  "limitations": "Informational/psychoeducational; not clinical care. Crisis handling routes to Samaritans 116 123 on the page. SootheSpot's deterministic safety pathway applies independently.",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "needs": [
+   "learn",
+   "calm"
+  ],
+  "shelf": "learn",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-10-10",
+  "reason": "Screened 2026-10-10: official Mind page confirmed live; publisher, free access, 30+ topic coverage, Welsh translations, and crisis routing noted from the primary source. Ready for owner review before any promotion.",
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "screening_gaps": [],
+  "source_notes": [
+   "https://www.mind.org.uk/information-support/types-of-mental-health-problems/"
+  ]
+ },
+ {
+  "id": "virtual-hope-box-dod-va",
+  "name": "Virtual Hope Box",
+  "publisher": "U.S. Department of Defense & U.S. Department of Veterans Affairs (Solution Delivery Division, DHA PEO Medical Systems)",
+  "resource_type": "app",
+  "official_url": "https://hothcoopcd4.health.mil/Reference-Center/Fact-Sheets/2025/05/29/Virtual-Hope-Box-App-Fact-Sheet",
+  "description": "Free smartphone app (iOS/Android) serving as a digital hope box: user-customizable coping tools including guided imagery, controlled breathing, muscle relaxation, coping cards with personal affirmations, inspirational quotes and media, distraction games, activity planning, and stored support contacts/hotline resources. Designed as an accessory to behavioral health treatment. A randomized controlled trial (N=118, elevated-risk veterans) found significantly greater coping self-efficacy at 3 and 12 weeks vs printed coping materials.",
+  "tags": [
+   "app",
+   "breathing",
+   "relaxation",
+   "coping",
+   "distraction",
+   "positive-thinking",
+   "grounding",
+   "government",
+   "independent-use"
+  ],
+  "intended_population": [
+   "veterans",
+   "service-members",
+   "general"
+  ],
+  "use_context": [
+   "independent-use",
+   "with-support"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "United States"
+  ],
+  "publisher_region": "US",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Touchscreen-based; users with fine motor deficits may have difficulty navigating per a VA device review. Verify current accessibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Developed for military/veteran populations; usable by general public but not culturally adapted. Do not infer suitability for other populations.",
+   "source_notes": [
+    "https://hothcoopcd4.health.mil/Reference-Center/Fact-Sheets/2025/05/29/Virtual-Hope-Box-App-Fact-Sheet"
+   ]
   },
-  {
-    "access": [
-      "free"
-    ],
-    "accessibility": [
-      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
-    ],
-    "cultural_context": {
-      "adaptation_status": "unknown",
-      "notes": "U.S. federal publisher; created for veterans, service members, and trauma survivors generally. Page states the app is for 'anyone who wants to learn about and manage symptoms after a trauma.' Fit for non-U.S. contexts not assessed.",
-      "source_notes": [
-        "https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp"
-      ]
-    },
-    "description": "Free mobile app to help learn about and manage symptoms that often occur after trauma. Offers reliable information on PTSD and treatments that work, a PTSD self-assessment (PCL) with symptom tracking, easy-to-use coping tools for stress symptoms (relaxation, breathing, positive self-talk, anger management), and direct links to support. A companion desktop tool, PTSD Coach Online, offers 17 guided stress-management tools.",
-    "evidence_notes": "Publisher describes the app's facts and self-help skills as research-based; the in-app PTSD Checklist (PCL) is described as a reliable and valid self-report measure used across VA and DoD. Effectiveness of the app itself was not independently evaluated in this screening.",
-    "id": "ptsd-coach-va",
-    "intended_population": [
-      "general"
-    ],
-    "languages": [
-      "English"
-    ],
-    "last_verified_at": "2026-10-10",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Not meant to replace professional care; PTSD often requires professional evaluation and treatment. Educational and self-care content.",
-    "name": "PTSD Coach",
-    "needs": [
-      "practice",
-      "calm",
-      "understand"
-    ],
-    "official_url": "https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp",
-    "platforms": [
-      "iOS",
-      "Android",
-      "Web"
-    ],
-    "privacy_notes": "VA page states user-created data are only as secure as the phone/device itself and that self-monitoring data belong to the user. The full VA mobile-app privacy policy was not reviewed in this screening.",
-    "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD; created with DoD DHA Connected Health",
-    "reason": "Screened 2026-10-10: official VA page confirmed live; publisher, free access, self-assessment (PCL), symptom tracking, coping tools, support links, the professional-care disclaimer, and the data-security note confirmed from the primary source. Ready for owner review before any promotion.",
-    "regions": [
-      "Global; U.S.-government publisher."
-    ],
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "resource_type": "mobile-app",
-    "review_status": "screened",
-    "screening_gaps": [
-      "app privacy policy not reviewed",
-      "non-English availability not confirmed"
-    ],
-    "shelf": "practice",
-    "source_notes": [
-      "https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp"
-    ],
-    "status": "screened",
-    "tags": [
-      "ptsd",
-      "trauma",
-      "coping-skills",
-      "symptom-tracking",
-      "self-assessment",
-      "independent-use"
-    ],
-    "use_context": [
-      "independent-use"
-    ]
+  "privacy_notes": "Official DoD/VA app; stores user content on device. App-store data practices not reviewed in this screening.",
+  "evidence_notes": "RCT by Bush et al. (Suicide and Life-Threatening Behavior) in elevated-risk veterans: greater coping self-efficacy at 3 and 12 weeks vs control; no significant advantage on other outcomes. Earlier proof-of-concept (n=18) published in the same journal.",
+  "limitations": "Designed as an accessory to treatment, not a standalone intervention; VA guidance recommends patients stay connected with a mental-health provider. Touchscreen-required. SootheSpot's deterministic safety pathway applies independently.",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "needs": [
+   "calm",
+   "ground",
+   "cope"
+  ],
+  "shelf": "breathe",
+  "source_notes": [
+   "https://hothcoopcd4.health.mil/Reference-Center/Fact-Sheets/2025/05/29/Virtual-Hope-Box-App-Fact-Sheet"
+  ],
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-10-10",
+  "reason": "Screened 2026-10-10: official DoD fact sheet confirmed live; publisher, free access, customizable coping-tool set, and RCT evidence confirmed from primary/official sources. Ready for owner review before any promotion.",
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "screening_gaps": []
+ },
+ {
+  "id": "dougy-center-grief-resources",
+  "name": "Dougy Center Grief Support Resources",
+  "publisher": "Dougy Center — The National Grief Center for Children & Families (Portland, OR, USA)",
+  "resource_type": "resource-hub",
+  "official_url": "https://www.dougy.org/grief-support-resources",
+  "description": "Free grief-informed resource hub from the Dougy Center (supporting grieving children and families since 1982): audience-organized tip sheets, activities, podcasts, videos, and personalized 'Build Your Own Toolkit' tools for kids (0-12), teens (13-18), young adults, parents/caregivers, advanced serious illness, and special circumstances (after suicide, violent or COVID-19 deaths, foster care). Also lists peer grief support groups in Portland and worldwide.",
+  "tags": [
+   "grief",
+   "bereavement",
+   "children",
+   "teens",
+   "young-adults",
+   "families",
+   "nonprofit",
+   "toolkits",
+   "independent-use"
+  ],
+  "intended_population": [
+   "children",
+   "adolescents",
+   "young-adults",
+   "parents",
+   "general"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "United States (national scope; Portland-based)"
+  ],
+  "publisher_region": "US",
+  "platforms": [
+   "Web"
+  ],
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "US-national nonprofit; peer grief support model. No cultural adaptation claims found on the hub page. Do not substitute for other regions' bereavement support.",
+   "source_notes": [
+    "https://www.dougy.org/grief-support-resources"
+   ]
   },
-  {
-    "access": [
-      "paid",
-      "free-with-prescription"
-    ],
-    "accessibility": [
-      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
-    ],
-    "cultural_context": {
-      "adaptation_status": "unknown",
-      "notes": "Australia-based publisher (St Vincent's Hospital Sydney and the University of New South Wales); the publisher page states programs are accessible online anywhere in the world. Clinician-guided access runs through Australian health professionals and insurers; fit for non-Australian contexts not assessed.",
-      "source_notes": [
-        "https://thiswayup.org.au/"
-      ]
-    },
-    "description": "Evidence-based online Cognitive Behavioural Therapy (iCBT) programs for depression, anxiety disorders (generalised, social, health anxiety, OCD, panic), post-traumatic stress, insomnia, perinatal mental health, and chronic pain. 17 programs of illustrated story-based modules with exercises, workbooks, action plans, reminders, and wellbeing questionnaires, completed over 90 days at the user's own pace.",
-    "evidence_notes": "Publisher states programs are based on Cognitive Behavioural Therapy and have been evaluated in randomized controlled trials and real-world studies, claiming 80% of completers are no longer troubled by symptoms. Individual study results were not evaluated in this screening.",
-    "id": "this-way-up",
-    "intended_population": [
-      "general",
-      "adults"
-    ],
-    "languages": [
-      "English"
-    ],
-    "last_verified_at": "2026-10-10",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Designed for non-urgent mental health issues per the publisher FAQ. Self-guided programs cost $59 AUD (or covered by private health insurance) and are scoped to mild symptoms with no clinical support; free access only via clinician prescription (clinician-guided). Does not replace professional care.",
-    "name": "THIS WAY UP",
-    "needs": [
-      "practice",
-      "understand"
-    ],
-    "official_url": "https://thiswayup.org.au/",
-    "platforms": [
-      "Web"
-    ],
-    "privacy_notes": "Publisher describes programs as secure and confidential; signup runs on thiswayupclinic.org. Full privacy and data-handling practices were not reviewed in this screening.",
-    "publisher": "Clinical Research Unit for Anxiety and Depression (CRUfAD), St Vincent's Hospital Sydney and the University of New South Wales",
-    "reason": "Screened 2026-10-10: official site confirmed live; publisher (CRUfAD, St Vincent's + UNSW), iCBT model, condition coverage, 17 programs, self-paced format, and the $59 AUD self-guided / clinician-prescribed-free cost model confirmed from the primary source. Ready for owner review before any promotion.",
-    "regions": [
-      "Online; Australia-based publisher; enrollment open worldwide per the publisher page."
-    ],
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "resource_type": "online-course",
-    "review_status": "screened",
-    "screening_gaps": [
-      "privacy policy and data practices not reviewed",
-      "multilingual availability not confirmed"
-    ],
-    "shelf": "practice",
-    "source_notes": [
-      "https://thiswayup.org.au/"
-    ],
-    "status": "screened",
-    "tags": [
-      "cbt",
-      "icbt",
-      "anxiety",
-      "depression",
-      "insomnia",
-      "skills-training",
-      "independent-use"
-    ],
-    "use_context": [
-      "independent-use"
-    ]
-  },
-  {
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "review_status": "screened",
-    "status": "screened",
-    "last_verified_at": "2026-10-10",
-    "access": [
-      "free"
-    ],
-    "screening_gaps": [
-      "Named author/editor not shown on the fetched homepage — confirm authorship at promotion time.",
-      "Privacy policy and accessibility statement not reviewed.",
-      "A linked study claiming the site is the most popular resource for UK therapists was not verified — do not cite it."
-    ],
-    "id": "getselfhelp-cbt-self-help",
-    "name": "Get.gg — Free CBT Self-Help Resources",
-    "publisher": "Get.gg (Getselfhelp.co.uk), United Kingdom",
-    "resource_type": "article-library",
-    "official_url": "https://www.getselfhelp.co.uk",
-    "description": "Free Cognitive Behaviour Therapy self-help library: downloadable worksheets, information sheets, videos, and self-help MP3s for common mental health problems (anxiety, depression, stress), plus a resources section for professionals. Publisher states 25 years of operation.",
-    "languages": [
-      "English"
-    ],
-    "intended_population": [
-      "general"
-    ],
-    "use_context": [
-      "independent-use"
-    ],
-    "shelf": "practice",
-    "needs": [
-      "practice",
-      "understand"
-    ],
-    "tags": [
-      "cbt",
-      "self-help",
-      "worksheets",
-      "anxiety",
-      "depression",
-      "stress",
-      "psychoeducation",
-      "independent-use"
-    ],
-    "platforms": [
-      "Web"
-    ],
-    "regions": [
-      "Global; UK-based publisher."
-    ],
-    "cultural_context": {
-      "adaptation_status": "original",
-      "notes": "UK-based CBT self-help site; examples and service references are UK-oriented. Verify fit outside the UK before recommending.",
-      "source_notes": [
-        "https://www.getselfhelp.co.uk"
-      ]
-    },
-    "evidence_notes": "Publisher states CBT is proven to help mental health problems; no specific trial evidence is presented on the homepage. Worksheets follow standard CBT formats per the publisher. No clinical claims were evaluated in this screening.",
-    "accessibility": [
-      "No accessibility statement found on the fetched homepage; verify assistive-technology compatibility before relying on it."
-    ],
-    "privacy_notes": "Resources are downloadable from the website; no account was required on the fetched pages. The site's privacy policy was not reviewed in this screening.",
-    "license_notes": "External resource. SootheSpot stores metadata only. Publisher materials are intended for personal/therapeutic use; confirm redistribution terms before any reuse.",
-    "limitations": "Self-help education; does not replace professional mental health care. Workbook-style exercises may benefit from therapist guidance for complex presentations.",
-    "source_notes": [
-      "https://www.getselfhelp.co.uk"
-    ],
-    "reason": "Screened 2026-10-10: official getselfhelp.co.uk homepage confirmed live; free CBT self-help library (worksheets, information sheets, videos, MP3s) confirmed from the primary source. Ready for owner review before any promotion."
-  },
-  {
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "review_status": "screened",
-    "status": "screened",
-    "last_verified_at": "2026-10-10",
-    "access": [
-      "free"
-    ],
-    "screening_gaps": [
-      "Recent activity not verified — newest blog posts shown were from 2019; confirm the meditation library is current before promotion."
-    ],
-    "id": "mindfulness-for-teens-dzung-vo",
-    "name": "Mindfulness for Teens — Dr. Dzung Vo",
-    "publisher": "Dr. Dzung X. Vo, MD, FAAP (adolescent medicine, BC Children's Hospital / University of British Columbia)",
-    "resource_type": "audio-library",
-    "official_url": "https://mindfulnessforteens.com/",
-    "description": "Free downloadable guided meditations, mindfulness videos, and youth stories for teenagers from an adolescent-medicine pediatrician. Companion to the book 'The Mindful Teen.' The author co-developed MARS-A, a developmentally adapted MBSR/MBCT program for adolescents.",
-    "languages": [
-      "English"
-    ],
-    "intended_population": [
-      "adolescents"
-    ],
-    "use_context": [
-      "independent-use"
-    ],
-    "shelf": "listen",
-    "needs": [
-      "listen",
-      "calm",
-      "practice"
-    ],
-    "tags": [
-      "mindfulness",
-      "meditation",
-      "teens",
-      "adolescents",
-      "stress",
-      "mbsr",
-      "independent-use"
-    ],
-    "platforms": [
-      "Web"
-    ],
-    "regions": [
-      "Global; Canada-based publisher."
-    ],
-    "cultural_context": {
-      "adaptation_status": "original",
-      "notes": "Developed by a Canada-based clinician; blog and youth-voice content reference North American contexts. Verify fit for other cultural contexts before recommending.",
-      "source_notes": [
-        "https://mindfulnessforteens.com/"
-      ]
-    },
-    "evidence_notes": "Publisher is a practicing adolescent-medicine physician and researcher; co-developed MARS-A (developmental adaptation of MBSR/MBCT for youth with chronic stress, pain, depression, anxiety), per the site's About page. No clinical claims were evaluated in this screening.",
-    "accessibility": [
-      "No accessibility statement found on the fetched homepage; verify assistive-technology compatibility before relying on it."
-    ],
-    "privacy_notes": "Meditations are downloadable from the website; the site's privacy policy was not reviewed in this screening.",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Educational/self-care content for teens; does not replace professional mental health care. Not a crisis resource — keep safety pathways separate.",
-    "source_notes": [
-      "https://mindfulnessforteens.com/"
-    ],
-    "reason": "Screened 2026-10-10: official mindfulnessforteens.com confirmed live; publisher identity (Dr. Dzung Vo, BC Children's Hospital / UBC) and free meditation library confirmed from the primary source. Ready for owner review before any promotion."
-  },
-  {
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "review_status": "screened",
-    "status": "screened",
-    "last_verified_at": "2026-10-10",
-    "access": [
-      "free"
-    ],
-    "screening_gaps": [
-      "Privacy policy and data-retention terms not reviewed.",
-      "Eligibility details (age, residency) not confirmed at screening."
-    ],
-    "id": "mindspot-australia",
-    "name": "MindSpot — Free Digital Psychological Care (Australia)",
-    "publisher": "MindSpot, MQ Health / Macquarie University; funded by the Australian Government Department of Health and Aged Care",
-    "resource_type": "online-course",
-    "official_url": "https://mindspot.org.au",
-    "description": "Free online psychological assessment and therapist-supported treatment courses for anxiety and depression, delivered by qualified clinicians at Macquarie University. Users complete a 20–30 minute online assessment, then access treatment courses the publisher reports as clinically tested at its eCentreClinic research clinic.",
-    "languages": [
-      "English"
-    ],
-    "intended_population": [
-      "adults"
-    ],
-    "use_context": [
-      "therapist-supported"
-    ],
-    "shelf": "practice",
-    "needs": [
-      "practice",
-      "understand",
-      "find support"
-    ],
-    "tags": [
-      "cbt",
-      "online-treatment",
-      "therapist-supported",
-      "anxiety",
-      "depression",
-      "australia"
-    ],
-    "platforms": [
-      "Web"
-    ],
-    "regions": [
-      "Australia only."
-    ],
-    "cultural_context": {
-      "adaptation_status": "original",
-      "notes": "Australian government-funded service; eligibility, clinical pathways, and support references are Australia-specific.",
-      "source_notes": [
-        "https://mindspot.org.au"
-      ]
-    },
-    "evidence_notes": "Publisher reports services clinically tested at Macquarie University's eCentreClinic, with an average 50% symptom reduction reported on the site; treat these figures as publisher claims — no independent evaluation in this screening.",
-    "accessibility": [
-      "No accessibility statement reviewed in this screening; verify assistive-technology compatibility before relying on it."
-    ],
-    "privacy_notes": "Requires an online assessment and therapist consultation — personal health data is involved. The service's privacy and data-retention practices were not reviewed in this screening.",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Available to people in Australia only. Not a crisis service and not an independent-use tool — access requires an online assessment and clinician contact.",
-    "source_notes": [
-      "https://mindspot.org.au"
-    ],
-    "reason": "Screened 2026-10-10: official mindspot.org.au confirmed live; publisher (Macquarie University/MQ Health, Australian Government-funded), free access, and therapist-supported scope confirmed from the primary source. Ready for owner review before any promotion."
-  },
-  {
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "review_status": "screened",
-    "status": "screened",
-    "last_verified_at": "2026-10-10",
-    "access": [
-      "free"
-    ],
-    "screening_gaps": [
-      "Privacy policy and data-retention terms not reviewed.",
-      "Spanish or other language availability not confirmed at screening.",
-      "App-store currency and current version not checked."
-    ],
-    "id": "act-coach-va",
-    "name": "ACT Coach (VA)",
-    "publisher": "U.S. Department of Veterans Affairs, VA National Center for PTSD",
-    "resource_type": "mobile-app",
-    "official_url": "https://www.ptsd.va.gov/appvid/mobile/actcoach_app_public.asp",
-    "description": "Free, publicly available mobile app built to accompany Acceptance and Commitment Therapy (ACT) with a mental health provider. ACT aims to help people live with unpleasant thoughts, feelings, and impulses without avoiding them or being controlled by them. The app offers exercises, tools, information, and tracking logs: mindfulness exercises (mindful breathing, walking, eating, observing thoughts/sensations/emotions), interactive tools for values-based living (identifying values, personal action lists, motivational tips and reminders), and tools to track mindfulness practice and coping strategies.",
-    "languages": [
-      "English"
-    ],
-    "intended_population": [
-      "adults"
-    ],
-    "use_context": [
-      "therapist-supported"
-    ],
-    "shelf": "practice",
-    "needs": [
-      "practice",
-      "stress",
-      "mood",
-      "understand"
-    ],
-    "tags": [
-      "act",
-      "acceptance-and-commitment-therapy",
-      "mindfulness",
-      "values",
-      "va",
-      "app",
-      "therapist-supported"
-    ],
-    "platforms": [
-      "iOS",
-      "Android"
-    ],
-    "regions": [
-      "Publicly available on app stores; developed for U.S. Veterans, service members, and others in ACT with a therapist."
-    ],
-    "cultural_context": {
-      "adaptation_status": "original",
-      "notes": "Developed by the U.S. VA National Center for PTSD; framing and references reflect a U.S. military/Veteran clinical context.",
-      "source_notes": [
-        "https://www.ptsd.va.gov/appvid/mobile/actcoach_app_public.asp"
-      ]
-    },
-    "evidence_notes": "Acceptance and Commitment Therapy is an evidence-based psychotherapy; the publisher presents the app as a companion to that treatment. No independent evaluation of the app itself was reviewed in this screening.",
-    "accessibility": [
-      "No accessibility statement reviewed in this screening; verify assistive-technology compatibility before relying on it."
-    ],
-    "privacy_notes": "Official page notes that any user-created data is only as secure as the phone/device itself and points to a VA mobile-app privacy policy, which was not reviewed in this screening.",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Not a self-help tool — the official page states it was designed to be used with a mental health provider as part of Acceptance and Commitment Therapy and is not meant to be used for self-care.",
-    "source_notes": [
-      "https://www.ptsd.va.gov/appvid/mobile/actcoach_app_public.asp"
-    ],
-    "reason": "Screened 2026-10-10: official VA page confirmed live; publisher (VA National Center for PTSD), free access, ACT framing, feature set, privacy-on-device note, and the not-for-self-care scope confirmed from the primary source. Ready for owner review before any promotion."
-  },
-  {
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "review_status": "screened",
-    "status": "screened",
-    "last_verified_at": "2026-10-10",
-    "access": [
-      "paid"
-    ],
-    "screening_gaps": [
-      "Privacy policy and data practices not reviewed.",
-      "No free tier was visible on the official site at screening — access is paid unless the owner confirms otherwise.",
-      "Publisher efficacy claims not independently verified.",
-      "Geographic availability of the app not confirmed."
-    ],
-    "id": "superbetter",
-    "name": "SuperBetter",
-    "publisher": "SuperBetter, LLC (founded by game designer and researcher Jane McGonigal)",
-    "resource_type": "mobile-app",
-    "official_url": "https://superbetter.com/",
-    "description": "A gameful resilience-building tool that applies game psychology to real-life challenges. Players set an 'epic win,' take on quests and power-ups, battle 'bad guys' (stressors), and check in with allies, aiming to build mental, emotional, social, and physical resilience. The current site offers 40+ solo challenges and is positioned around youth mental health, social-emotional learning, and student wellbeing.",
-    "languages": [
-      "English"
-    ],
-    "intended_population": [
-      "adolescents",
-      "young adults",
-      "adults"
-    ],
-    "use_context": [
-      "independent-use"
-    ],
-    "shelf": "practice",
-    "needs": [
-      "practice",
-      "stress",
-      "mood"
-    ],
-    "tags": [
-      "resilience",
-      "gamified",
-      "wellbeing",
-      "youth",
-      "app",
-      "web",
-      "social-emotional-learning"
-    ],
-    "platforms": [
-      "iOS",
-      "Android",
-      "Web"
-    ],
-    "regions": [
-      "Not confirmed — English-language site; app-store availability by country not verified in this screening."
-    ],
-    "cultural_context": {
-      "adaptation_status": "original",
-      "notes": "U.S.-developed product; gameful framing assumes comfort with quest/hero-narrative metaphors.",
-      "source_notes": [
-        "https://superbetter.com/"
-      ]
-    },
-    "evidence_notes": "Publisher cites a randomized controlled trial at the University of Pennsylvania (30 days of play associated with improved mental health and resilience) and names the World Economic Forum's 'Top Innovator in Youth Mental Health' recognition. Treat both as publisher claims — no independent evaluation in this screening.",
-    "accessibility": [
-      "No accessibility statement reviewed in this screening; verify assistive-technology compatibility before relying on it."
-    ],
-    "privacy_notes": "Account-based app (sign-up required); privacy and data-retention practices not reviewed in this screening.",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Paid access — the official site lists a Hero account at $24.99/year (host/squad accounts $99/year) with no free tier visible. Not a crisis service and not clinical treatment. Current positioning leans toward youth/educators, so the individual-use experience may reflect that framing.",
-    "source_notes": [
-      "https://superbetter.com/"
-    ],
-    "reason": "Screened 2026-10-10: official superbetter.com confirmed live; publisher, gameful-resilience framing, science-backing claims, and pricing (paid, $24.99/year hero) confirmed from the primary source. Recorded honestly as paid; owner judgment required on whether a paid resource belongs in the toolbox. Ready for owner review."
-  },
-  {
-    "required_before_verified": [
-      "official_url_checked",
-      "publisher_confirmed",
-      "purpose_and_population_confirmed",
-      "independent_use_scope_confirmed",
-      "limitations_recorded",
-      "date_checked_recorded",
-      "primary_source_recorded"
-    ],
-    "review_status": "screened",
-    "status": "screened",
-    "last_verified_at": "2026-10-10",
-    "access": [
-      "free"
-    ],
-    "screening_gaps": [
-      "Privacy policy and data-retention terms not reviewed.",
-      "PeerChat staffing/credentialing details not verified beyond the 'experienced peer workers' label.",
-      "Ask ReachOut AI chatbot behavior and guardrails not evaluated."
-    ],
-    "id": "reachout-australia",
-    "name": "ReachOut Australia",
-    "publisher": "ReachOut Australia",
-    "resource_type": "article-library",
-    "official_url": "https://au.reachout.com/",
-    "description": "Leading Australian online mental health service for young people, described on the official site as anonymous, free, and 100% online, designed with young people. Offers one-to-one anonymous PeerChat support with experienced peer workers, an 'Ask ReachOut' AI chatbot, plus tips, stories, and resources. Separate sections exist for parents/carers and schools.",
-    "languages": [
-      "English"
-    ],
-    "intended_population": [
-      "adolescents",
-      "young adults"
-    ],
-    "use_context": [
-      "independent-use"
-    ],
-    "shelf": "reach-out",
-    "needs": [
-      "support",
-      "understand",
-      "stress",
-      "mood"
-    ],
-    "tags": [
-      "youth",
-      "peer-support",
-      "australia",
-      "online-resources",
-      "chat"
-    ],
-    "platforms": [
-      "Web"
-    ],
-    "regions": [
-      "Australia-focused; youth service."
-    ],
-    "cultural_context": {
-      "adaptation_status": "original",
-      "notes": "Australian service; youth mental-health framing, helpline references, and cultural context are Australia-specific.",
-      "source_notes": [
-        "https://au.reachout.com/"
-      ]
-    },
-    "evidence_notes": "No efficacy or evaluation evidence reviewed in this screening; the site's claims of being a leading youth service are publisher claims.",
-    "accessibility": [
-      "No accessibility statement reviewed in this screening; verify assistive-technology compatibility before relying on it."
-    ],
-    "privacy_notes": "Site presents itself as an anonymous service; privacy and data-retention practices not reviewed in this screening.",
-    "license_notes": "External resource. SootheSpot stores metadata only.",
-    "limitations": "Australia-focused service — youth helpline context is Australia-specific. PeerChat is peer (not clinician) support. 'Ask ReachOut' is an AI chatbot: per SootheSpot's evidence-aware principle it must never be framed as a clinician or care provider, and its safety behavior is unverified here. Not a crisis service.",
-    "source_notes": [
-      "https://au.reachout.com/"
-    ],
-    "reason": "Screened 2026-10-10: official au.reachout.com confirmed live; publisher, free/anonymous/online scope, PeerChat peer-support offering, and the Ask ReachOut AI chatbot confirmed from the primary source. Owner judgment required on the AI-chatbot element before any promotion. Ready for owner review."
-  }
+  "privacy_notes": "No account required to read resources. Data practices/privacy policy not reviewed in this screening.",
+  "evidence_notes": "Publisher is a 501(c)(3) founded in 1982 with a peer grief-support model; content is grief-informed education. Clinical efficacy of specific resources not evaluated in this screening.",
+  "limitations": "Educational/peer-support resources, not clinical care. Grief-specific; not a general crisis resource. SootheSpot's deterministic safety pathway applies independently.",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "needs": [
+   "learn",
+   "calm"
+  ],
+  "shelf": "learn",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-10-10",
+  "reason": "Screened 2026-10-10: official Dougy Center hub page confirmed live via live-browser check (canonical URL resolved from homepage 'Grief Resources & Toolkits' nav); publisher, free access, audience coverage, and nonprofit status confirmed from the primary source. Ready for owner review before any promotion.",
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "screening_gaps": [],
+  "source_notes": [
+   "https://www.dougy.org/grief-support-resources"
+  ]
+ }
 ]
