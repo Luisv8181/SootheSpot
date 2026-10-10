@@ -96,4 +96,22 @@ describe("layoutTextLines", () => {
       expect(s.x).toBeLessThanOrEqual(390);
     }
   });
+
+  it("keeps historical geometry when no bounds are given", () => {
+    const a = layoutTextLines(["BREATHE", "SOFT SKY"], 390, 844);
+    const b = layoutTextLines(["BREATHE", "SOFT SKY"], 390, 844, undefined);
+    expect(b.stars).toEqual(a.stars);
+    expect(b.unit).toBe(a.unit);
+  });
+
+  it("fits text inside explicit bounds below the control dock", () => {
+    const bounds = { top: 280, bottom: 675 };
+    const { stars, unit } = layoutTextLines(["BREATHE", "STAY SOFT", "TONIGHT"], 390, 844, bounds);
+    expect(stars.length).toBeGreaterThan(0);
+    expect(unit).toBeGreaterThan(0);
+    for (const s of stars) {
+      expect(s.y).toBeGreaterThanOrEqual(bounds.top);
+      expect(s.y).toBeLessThanOrEqual(bounds.bottom);
+    }
+  });
 });
