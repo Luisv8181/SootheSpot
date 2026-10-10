@@ -95,10 +95,17 @@ def main() -> int:
             if any(shelf not in SHELVES for shelf in secondary_shelves):
                 invalid = sorted({s for s in secondary_shelves if s not in SHELVES})
                 fail(f"{rid}: invalid secondary shelves {invalid}")
-            if primary_shelf in secondary_shelves:
-                fail(f"{rid}: primary shelf must not be repeated in secondary shelves")
+            # Older catalog records sometimes redundantly list the primary shelf
+            # in `shelves`. The normalizer removes that duplication for display;
+            # validation rejects repeated secondary entries but allows the legacy
+            # primary value until all consumers have migrated.
+            secondary_without_primary = [
+                shelf for shelf in secondary_shelves if shelf != primary_shelf
+            ]
             if len(secondary_shelves) != len(set(secondary_shelves)):
                 fail(f"{rid}: secondary shelves must not contain duplicates")
+            if len(secondary_without_primary) != len(set(secondary_without_primary)):
+                fail(f"{rid}: normalized secondary shelves must not contain duplicates")
 
             needs = record.get("needs")
             if needs is not None:
