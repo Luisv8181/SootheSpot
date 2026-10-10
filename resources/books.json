@@ -5,27 +5,62 @@
     "publisher": "New Harbinger Publications",
     "resource_type": "book",
     "official_url": "https://www.newharbinger.com/9781648486869/the-upward-spiral/",
-    "platforms": ["Print", "eBook"],
+    "platforms": [
+      "Print",
+      "eBook"
+    ],
     "description": "Bibliographic reference for a neuroscience-informed book about behavioral and lifestyle factors related to depression and mood.",
-    "tags": ["book", "depression", "mood", "neuroscience", "self-help", "read", "understand"],
-    "intended_population": ["adults"],
-    "use_context": ["independent-reading", "psychoeducation"],
-    "languages": ["English"],
-    "access": ["paid"],
-    "authors": ["Alex Korb"],
+    "tags": [
+      "book",
+      "depression",
+      "mood",
+      "neuroscience",
+      "self-help",
+      "read",
+      "understand"
+    ],
+    "intended_population": [
+      "adults"
+    ],
+    "use_context": [
+      "independent-reading",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "paid"
+    ],
+    "authors": [
+      "Alex Korb"
+    ],
     "publication_year": 2025,
     "page_count": 240,
     "isbn": "9781648486869",
-    "accessibility": ["Publisher lists an eBook edition; assistive-technology compatibility not independently audited."],
-    "regions": ["Publisher is U.S.-based; availability by region not confirmed."],
-    "cultural_context": {"adaptation_status": "unknown", "notes": "Bibliographic metadata only; no book text reproduced. Cultural adaptation is not established."},
+    "accessibility": [
+      "Publisher lists an eBook edition; assistive-technology compatibility not independently audited."
+    ],
+    "regions": [
+      "Publisher is U.S.-based; availability by region not confirmed."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Bibliographic metadata only; no book text reproduced. Cultural adaptation is not established."
+    },
     "limitations": "Educational/self-help material, not individualized clinical treatment. Confirm the current edition, price, and availability with the publisher.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://www.newharbinger.com/9781648486869/the-upward-spiral/"],
+    "source_notes": [
+      "https://www.newharbinger.com/9781648486869/the-upward-spiral/"
+    ],
     "license_notes": "Bibliographic metadata only. No copyrighted book text is stored.",
     "shelf": "read",
-    "needs": ["read", "understand", "mood"]
+    "needs": [
+      "read",
+      "understand",
+      "mood"
+    ]
   },
   {
     "id": "book-mindful-way-depression-2e",
@@ -33,28 +68,68 @@
     "publisher": "Guilford Press",
     "resource_type": "book",
     "official_url": "https://www.guilford.com/books/The-Mindful-Way-through-Depression/Williams-Teasdale-Segal-Kabat-Zinn/9781462553921",
-    "platforms": ["Print", "eBook"],
+    "platforms": [
+      "Print",
+      "eBook"
+    ],
     "description": "Bibliographic reference for a mindfulness-based cognitive therapy resource concerning recurrent depression and awareness of thoughts and feelings.",
-    "tags": ["book", "depression", "mindfulness", "mood", "self-help", "read", "understand"],
-    "intended_population": ["adults"],
-    "use_context": ["independent-reading", "psychoeducation", "therapist-supported"],
-    "languages": ["English"],
-    "access": ["paid"],
-    "authors": ["Mark Williams", "John Teasdale", "Zindel Segal", "Jon Kabat-Zinn"],
+    "tags": [
+      "book",
+      "depression",
+      "mindfulness",
+      "mood",
+      "self-help",
+      "read",
+      "understand"
+    ],
+    "intended_population": [
+      "adults"
+    ],
+    "use_context": [
+      "independent-reading",
+      "psychoeducation",
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "paid"
+    ],
+    "authors": [
+      "Mark Williams",
+      "John Teasdale",
+      "Zindel Segal",
+      "Jon Kabat-Zinn"
+    ],
     "publication_year": 2024,
     "page_count": 262,
     "isbn": "9781462553921",
-    "accessibility": ["eBook edition listed by publisher; assistive-technology compatibility not independently audited."],
-    "regions": ["Publisher is U.S.-based; availability by region not confirmed."],
-    "cultural_context": {"adaptation_status": "unknown", "notes": "Bibliographic metadata only; no book text reproduced. Cultural adaptation is not established."},
+    "accessibility": [
+      "eBook edition listed by publisher; assistive-technology compatibility not independently audited."
+    ],
+    "regions": [
+      "Publisher is U.S.-based; availability by region not confirmed."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Bibliographic metadata only; no book text reproduced. Cultural adaptation is not established."
+    },
     "evidence_notes": "The publisher's edition page is the provenance for bibliographic details and description.",
     "limitations": "Educational material and not individualized treatment; suitability depends on reader and context. Confirm edition details and availability with the publisher.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://www.guilford.com/books/The-Mindful-Way-through-Depression/Williams-Teasdale-Segal-Kabat-Zinn/9781462553921"],
+    "source_notes": [
+      "https://www.guilford.com/books/The-Mindful-Way-through-Depression/Williams-Teasdale-Segal-Kabat-Zinn/9781462553921"
+    ],
     "license_notes": "Bibliographic metadata only. No copyrighted book text is stored.",
     "shelf": "read",
-    "needs": ["read", "understand", "mood", "calm"]
+    "needs": [
+      "read",
+      "understand",
+      "mood",
+      "calm"
+    ]
   },
   {
     "id": "book-anxiety-phobia-workbook-8e",
@@ -62,28 +137,66 @@
     "publisher": "New Harbinger Publications",
     "resource_type": "book",
     "official_url": "https://www.newharbinger.com/9781648485572/the-anxiety-and-phobia-workbook/",
-    "platforms": ["Print", "eBook"],
+    "platforms": [
+      "Print",
+      "eBook"
+    ],
     "description": "Bibliographic reference for a workbook on anxiety and phobia-related concerns and associated coping skills.",
-    "tags": ["book", "anxiety", "phobia", "stress", "self-help", "read", "understand", "practice"],
-    "intended_population": ["adults"],
-    "use_context": ["independent-reading", "psychoeducation"],
-    "languages": ["English"],
-    "access": ["paid"],
-    "authors": ["Edmund J. Bourne"],
+    "tags": [
+      "book",
+      "anxiety",
+      "phobia",
+      "stress",
+      "self-help",
+      "read",
+      "understand",
+      "practice"
+    ],
+    "intended_population": [
+      "adults"
+    ],
+    "use_context": [
+      "independent-reading",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "paid"
+    ],
+    "authors": [
+      "Edmund J. Bourne"
+    ],
     "publication_year": 2025,
     "page_count": 488,
     "isbn": "9781648485572",
-    "accessibility": ["eBook edition listed by publisher; assistive-technology compatibility not independently audited."],
-    "regions": ["Publisher is U.S.-based; availability by region not confirmed."],
-    "cultural_context": {"adaptation_status": "unknown", "notes": "Bibliographic metadata only; no book text reproduced. Cultural adaptation is not established."},
+    "accessibility": [
+      "eBook edition listed by publisher; assistive-technology compatibility not independently audited."
+    ],
+    "regions": [
+      "Publisher is U.S.-based; availability by region not confirmed."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Bibliographic metadata only; no book text reproduced. Cultural adaptation is not established."
+    },
     "evidence_notes": "The publisher's edition page is the provenance for bibliographic details and description.",
     "limitations": "Educational workbook, not an individualized diagnosis or treatment plan. Confirm edition details and current availability with the publisher.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://www.newharbinger.com/9781648485572/the-anxiety-and-phobia-workbook/"],
+    "source_notes": [
+      "https://www.newharbinger.com/9781648485572/the-anxiety-and-phobia-workbook/"
+    ],
     "license_notes": "Bibliographic metadata only. No copyrighted book text is stored.",
     "shelf": "read",
-    "needs": ["read", "understand", "practice", "anxiety", "stress"]
+    "needs": [
+      "read",
+      "understand",
+      "practice",
+      "anxiety",
+      "stress"
+    ]
   },
   {
     "id": "book-mindful-way-stress",
@@ -91,28 +204,64 @@
     "publisher": "Guilford Press",
     "resource_type": "book",
     "official_url": "https://www.guilford.com/books/The-Mindful-Way-through-Stress/Shamash-Alidina/9781462509409",
-    "platforms": ["Print", "eBook"],
+    "platforms": [
+      "Print",
+      "eBook"
+    ],
     "description": "Bibliographic reference for a mindfulness-oriented resource about responding to everyday stress and difficult experiences.",
-    "tags": ["book", "stress", "mindfulness", "relaxation", "self-help", "read", "understand"],
-    "intended_population": ["adults"],
-    "use_context": ["independent-reading", "psychoeducation"],
-    "languages": ["English"],
-    "access": ["paid"],
-    "authors": ["Shamash Alidina"],
+    "tags": [
+      "book",
+      "stress",
+      "mindfulness",
+      "relaxation",
+      "self-help",
+      "read",
+      "understand"
+    ],
+    "intended_population": [
+      "adults"
+    ],
+    "use_context": [
+      "independent-reading",
+      "psychoeducation"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "paid"
+    ],
+    "authors": [
+      "Shamash Alidina"
+    ],
     "publication_year": 2015,
     "page_count": 324,
     "isbn": "9781462509409",
-    "accessibility": ["eBook edition listed by publisher; assistive-technology compatibility not independently audited."],
-    "regions": ["Publisher is U.S.-based; availability by region not confirmed."],
-    "cultural_context": {"adaptation_status": "unknown", "notes": "Bibliographic metadata only; no book text reproduced. Cultural adaptation is not established."},
+    "accessibility": [
+      "eBook edition listed by publisher; assistive-technology compatibility not independently audited."
+    ],
+    "regions": [
+      "Publisher is U.S.-based; availability by region not confirmed."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Bibliographic metadata only; no book text reproduced. Cultural adaptation is not established."
+    },
     "evidence_notes": "The publisher's edition page is the provenance for bibliographic details and description.",
     "limitations": "Educational/self-help book, not individualized clinical treatment. Confirm edition details and current availability with the publisher.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://www.guilford.com/books/The-Mindful-Way-through-Stress/Shamash-Alidina/9781462509409"],
+    "source_notes": [
+      "https://www.guilford.com/books/The-Mindful-Way-through-Stress/Shamash-Alidina/9781462509409"
+    ],
     "license_notes": "Bibliographic metadata only. No copyrighted book text is stored.",
     "shelf": "read",
-    "needs": ["read", "understand", "stress", "calm"]
+    "needs": [
+      "read",
+      "understand",
+      "stress",
+      "calm"
+    ]
   },
   {
     "id": "book-mindful-self-compassion-workbook",
@@ -120,27 +269,68 @@
     "publisher": "Guilford Press",
     "resource_type": "book",
     "official_url": "https://www.guilford.com/books/The-Mindful-Self-Compassion-Workbook/Neff-Germer/9781462526789",
-    "platforms": ["Print", "eBook"],
+    "platforms": [
+      "Print",
+      "eBook"
+    ],
     "description": "Bibliographic reference for a structured self-compassion workbook with exercises and reflection prompts.",
-    "tags": ["book", "self-compassion", "mindfulness", "stress", "emotion-regulation", "self-help", "read", "practice"],
-    "intended_population": ["adults"],
-    "use_context": ["independent-reading", "psychoeducation", "therapist-supported"],
-    "languages": ["English"],
-    "access": ["paid"],
-    "authors": ["Kristin Neff", "Christopher Germer"],
+    "tags": [
+      "book",
+      "self-compassion",
+      "mindfulness",
+      "stress",
+      "emotion-regulation",
+      "self-help",
+      "read",
+      "practice"
+    ],
+    "intended_population": [
+      "adults"
+    ],
+    "use_context": [
+      "independent-reading",
+      "psychoeducation",
+      "therapist-supported"
+    ],
+    "languages": [
+      "English"
+    ],
+    "access": [
+      "paid"
+    ],
+    "authors": [
+      "Kristin Neff",
+      "Christopher Germer"
+    ],
     "publication_year": 2018,
     "page_count": 206,
     "isbn": "9781462526789",
-    "accessibility": ["eBook edition listed by publisher; assistive-technology compatibility not independently audited."],
-    "regions": ["Publisher is U.S.-based; availability by region not confirmed."],
-    "cultural_context": {"adaptation_status": "unknown", "notes": "Bibliographic metadata only; no book text reproduced. Cultural adaptation is not established."},
+    "accessibility": [
+      "eBook edition listed by publisher; assistive-technology compatibility not independently audited."
+    ],
+    "regions": [
+      "Publisher is U.S.-based; availability by region not confirmed."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Bibliographic metadata only; no book text reproduced. Cultural adaptation is not established."
+    },
     "evidence_notes": "The publisher's edition page is the provenance for bibliographic details and description.",
     "limitations": "Educational workbook, not individualized treatment. Exercises may not fit every reader or cultural context.",
     "review_status": "verified",
     "last_verified_at": "2026-10-08",
-    "source_notes": ["https://www.guilford.com/books/The-Mindful-Self-Compassion-Workbook/Neff-Germer/9781462526789"],
+    "source_notes": [
+      "https://www.guilford.com/books/The-Mindful-Self-Compassion-Workbook/Neff-Germer/9781462526789"
+    ],
     "license_notes": "Bibliographic metadata only. No copyrighted book text is stored.",
     "shelf": "read",
-    "needs": ["read", "understand", "practice", "stress", "self-compassion", "calm"]
+    "needs": [
+      "read",
+      "understand",
+      "practice",
+      "stress",
+      "self-compassion",
+      "calm"
+    ]
   }
 ]
