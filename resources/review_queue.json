@@ -791,5 +791,231 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S. federal publisher; the page states the app was created for everyone, not only Veterans or Service members. Fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://ptsd.va.gov/appvid/mobile/insomnia_coach.asp"
+      ]
+    },
+    "description": "Free mobile app based on Cognitive Behavioral Therapy for Insomnia (CBT-I). Offers a guided 5-week training plan, an interactive sleep diary, 17 sleep tools, and a sleep coach with tips and personal feedback about sleep. Can be used as a stand-alone education and self-care tool or alongside professional care.",
+    "evidence_notes": "Publisher is VA's National Center for PTSD; the page states the app is based upon scientific research about changing sleep-related behaviors and thoughts. Effectiveness of the app itself was not evaluated in this screening.",
+    "id": "insomnia-coach-va",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-10",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Not a substitute for needed professional care. VA recommends consulting a health care provider before use with sleep apnea, restless leg syndrome, bipolar disorder, seizure disorders, sleepwalking or night terrors, excessive daytime sleepiness, or frailty/fall risk, and notes the app may not suit shift workers. Educational/self-care content.",
+    "name": "Insomnia Coach",
+    "needs": [
+      "sleep",
+      "practice",
+      "calm"
+    ],
+    "official_url": "https://ptsd.va.gov/appvid/mobile/insomnia_coach.asp",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "VA page states user-created data are only as secure as the phone/device itself and that self-monitoring data belong to the user. The full VA mobile-app privacy policy was not reviewed in this screening.",
+    "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
+    "reason": "Screened 2026-10-10: official VA page confirmed live; free access, standalone self-care use, CBT-I basis, feature set, and health-condition cautions confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; U.S.-government publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "app privacy policy not reviewed",
+      "non-English availability not confirmed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://ptsd.va.gov/appvid/mobile/insomnia_coach.asp"
+    ],
+    "status": "screened",
+    "tags": [
+      "sleep",
+      "insomnia",
+      "cbt-i",
+      "sleep-diary",
+      "self-care",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S. federal publisher; developed for Veterans, Service members, and others. Fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://www.ptsd.va.gov/appvid/mobile/mindfulcoach_app.asp"
+      ]
+    },
+    "description": "Free mobile app providing a gradual, self-guided mindfulness training program starting from one minute per day, plus education about mindfulness, guided and unguided exercises, strategies for overcoming challenges, a practice log, and reminders. Can be used on its own or to enhance face-to-face care.",
+    "evidence_notes": "Publisher is VA's National Center for PTSD; the page states mindfulness has been shown to be helpful for reducing stress and coping with unpleasant thoughts and emotions. Effectiveness of the app itself was not evaluated in this screening.",
+    "id": "mindfulness-coach-va",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-10",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Not intended to replace needed professional care for PTSD or other mental health conditions. Educational/self-care content; individual progress claims on the publisher page (user testimonials) were not evaluated.",
+    "name": "Mindfulness Coach",
+    "needs": [
+      "practice",
+      "calm",
+      "understand"
+    ],
+    "official_url": "https://www.ptsd.va.gov/appvid/mobile/mindfulcoach_app.asp",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "VA page states user-created data are only as secure as the phone/device itself and that self-monitoring data belong to the user. The full VA mobile-app privacy policy was not reviewed in this screening.",
+    "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
+    "reason": "Screened 2026-10-10: official VA page confirmed live; free access, standalone self-use, gradual training program, feature set, and care-replacement disclaimer confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; U.S.-government publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "app privacy policy not reviewed",
+      "non-English availability not confirmed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.ptsd.va.gov/appvid/mobile/mindfulcoach_app.asp"
+    ],
+    "status": "screened",
+    "tags": [
+      "mindfulness",
+      "meditation",
+      "stress",
+      "emotional-regulation",
+      "self-care",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK teenage mental health charity; app developed with young people and aimed at young people over 13. Fit for other age groups and regions not assessed.",
+      "source_notes": [
+        "https://calmharm.stem4.org.uk"
+      ]
+    },
+    "description": "Free award-winning app funded by teenage mental health charity stem4, developed by a clinical psychologist in collaboration with young people, using principles from evidence-based Dialectical Behaviour Therapy (DBT) to help manage the urge to self-harm. Tasks are grouped into Comfort, Distract, Express Yourself, Release, and Random; the app also offers a breathing exercise, safety-net building, journaling/self-reflection, and signposting to help.",
+    "evidence_notes": "Publisher states the app uses principles from evidence-based DBT and was developed with young people; the app has won charity-sector awards. Effectiveness claims were not independently evaluated in this screening.",
+    "id": "calm-harm-stem4",
+    "intended_population": [
+      "adolescents"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-10",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "The publisher states the app is not a substitute for the assessment and individualized treatment by a health or mental health professional. It addresses self-harm urges, which touches SootheSpot's safety pathway — owner judgment required before any promotion.",
+    "name": "Calm Harm",
+    "needs": [
+      "calm",
+      "practice"
+    ],
+    "official_url": "https://calmharm.stem4.org.uk",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Publisher describes the app as private, anonymous, and safe, and notes it can be password-protected. App data practices were not independently reviewed in this screening.",
+    "publisher": "stem4 (UK registered charity No. 1144506)",
+    "reason": "Screened 2026-10-10: official app site confirmed live; free access, DBT principles, task categories, breathing exercise, safety net, journal, and the non-substitute-for-treatment disclaimer confirmed from the primary source. Age-13+ scope recorded. Ready for owner review before any promotion.",
+    "regions": [
+      "UK-based charity publisher; apps distributed via the App Store and Google Play."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "app data practices not independently reviewed",
+      "effectiveness evidence not assessed",
+      "safety-pathway fit for SootheSpot not determined"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://calmharm.stem4.org.uk"
+    ],
+    "status": "screened",
+    "tags": [
+      "self-harm",
+      "urge-surfing",
+      "dbt",
+      "distraction",
+      "breathing",
+      "journaling",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
