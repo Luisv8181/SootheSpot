@@ -1,7 +1,6 @@
 [
   {
     "id": "resource-candidate-template",
-    "status": "template",
     "reason": "Use this structure for new discoveries before they are screened or verified.",
     "required_before_verified": [
       "official_url_checked",
@@ -11,6 +10,566 @@
       "limitations_recorded",
       "date_checked_recorded",
       "primary_source_recorded"
+    ],
+    "status": "template"
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Written transcripts provided for tracks; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "Meditations translated into 15+ languages plus ASL by named translators, per the publisher page.",
+      "source_notes": [
+        "https://www.uclahealth.org/uclamindful/guided-meditations"
+      ]
+    },
+    "description": "Free guided mindfulness meditations recorded by UCLA Mindful's director, including breath awareness, body scan, loving-kindness, working with difficulties, and a body scan for sleep. Stream or download from the website; a companion UCLA Mindful app is also available.",
+    "duration_options_minutes": [
+      3,
+      5,
+      7,
+      9,
+      12,
+      13,
+      19
+    ],
+    "evidence_notes": "Publisher is a university research center (UCLA Mindful, Semel Institute for Neuroscience and Human Behavior). Page describes mindful awareness as having scientific support in general terms; no specific clinical claims evaluated.",
+    "id": "ucla-marc-guided-meditations",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English",
+      "Spanish",
+      "Arabic",
+      "Armenian",
+      "Cantonese",
+      "Farsi",
+      "Tagalog",
+      "French",
+      "German",
+      "Greek",
+      "Hindi",
+      "Italian",
+      "Japanese",
+      "Korean",
+      "Mandarin",
+      "Mixtec",
+      "Russian",
+      "Vietnamese",
+      "American Sign Language"
+    ],
+    "last_verified_at": "2026-10-09",
+    "license_notes": "External resource. SootheSpot stores metadata only. Audio licensed CC BY-NC-ND 4.0 per publisher page.",
+    "limitations": "Educational/self-care audio; does not replace professional mental health care. Meditations licensed CC BY-NC-ND 4.0 (no derivatives, noncommercial).",
+    "name": "UCLA Mindful Guided Meditations",
+    "needs": [
+      "listen",
+      "calm",
+      "sleep"
+    ],
+    "official_url": "https://www.uclahealth.org/uclamindful/guided-meditations",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "No account required to stream or download from the website. The companion app's data practices were not reviewed in this screening.",
+    "publisher": "UCLA Mindful (Mindful Awareness Research Center), UCLA Health",
+    "reason": "Screened 2026-10-09: official UCLA Health page confirmed live; publisher, free access, multilingual tracks, transcripts, and license confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; U.S.-based publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "audio-library",
+    "review_status": "screened",
+    "screening_gaps": [],
+    "shelf": "listen",
+    "source_notes": [
+      "https://www.uclahealth.org/uclamindful/guided-meditations"
+    ],
+    "status": "screened",
+    "tags": [
+      "mindfulness",
+      "meditation",
+      "breathing",
+      "body-scan",
+      "sleep",
+      "multilingual",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Core videos carry accurate closed captions per publisher; supplementary videos may not. Verify assistive-technology compatibility before relying on it."
+    ],
+    "description": "Free, self-guided 8-week Mindfulness-Based Stress Reduction (MBSR) course based on the program founded at the University of Massachusetts Medical School. Includes videos, readings, guided practices, and practice sheets; optional certificate of completion at no cost.",
+    "evidence_notes": "Follows the MBSR model; instructor described as fully certified in MBSR by the publisher. Course effectiveness itself not evaluated in this screening.",
+    "id": "palouse-mindfulness-mbsr",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Entirely self-guided with no teacher support; does not replace professional mental health care. Supplementary materials vary in captioning.",
+    "name": "Palouse Mindfulness Online MBSR Course",
+    "needs": [
+      "practice",
+      "calm",
+      "understand"
+    ],
+    "official_url": "https://www.palousemindfulness.com/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Course materials directly accessible on the website; no account required per the reviewed page.",
+    "publisher": "Palouse Mindfulness Inc. (Dave Potter, certified MBSR instructor)",
+    "reason": "Screened 2026-10-09: official site confirmed live; free 8-week structure, instructor credential claim, captions, and no-cost certificate confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; online."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "online-course",
+    "review_status": "screened",
+    "screening_gaps": [],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.palousemindfulness.com/"
+    ],
+    "status": "screened",
+    "tags": [
+      "mindfulness",
+      "mbsr",
+      "stress",
+      "course",
+      "self-guided",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "description": "Large library of free guided meditations, sleep content, breathwork sessions, and yoga, plus a meditation timer and journaling features. Publisher reports tens of millions of users.",
+    "evidence_notes": "Publisher marketing claims (library size, user counts) not independently evaluated. No efficacy claims assessed in this screening.",
+    "id": "insight-timer",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Free tier marketed by publisher; full pricing and plan details not reviewed. App surfaces usage statistics and engagement features, which sit uneasily with calm-design preferences — flag for owner judgment. Does not replace professional mental health care.",
+    "name": "Insight Timer",
+    "needs": [
+      "listen",
+      "calm",
+      "sleep"
+    ],
+    "official_url": "https://insighttimer.com/",
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "privacy_notes": "Account required for app use. Privacy policy and data practices were not reviewed in this screening.",
+    "publisher": "Insight Timer (Insight Network Inc)",
+    "reason": "Screened 2026-10-09: official site confirmed live; free meditation/sleep/breathwork library confirmed from the primary source. Privacy policy and paid-tier details not reviewed — recorded as gaps. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; regional availability not independently confirmed."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy and data practices not reviewed",
+      "paid-tier pricing details not reviewed"
+    ],
+    "shelf": "listen",
+    "source_notes": [
+      "https://insighttimer.com/"
+    ],
+    "status": "screened",
+    "tags": [
+      "meditation",
+      "sleep",
+      "breathwork",
+      "yoga",
+      "journaling",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "description": "UC Berkeley research center publishing research-based wellbeing practices (Greater Good in Action), articles on the science of happiness and resilience, the Science of Happiness podcast, and a free online course. Reading is free with no account.",
+    "evidence_notes": "Publisher is a UC Berkeley research center; practices summarize peer-reviewed findings per the publisher. Individual claims not evaluated in this screening.",
+    "id": "greater-good-science-center",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Magazine-style site mixes research summaries with opinion and culture commentary; the practices library is the relevant section. Informational only; does not replace professional mental health care.",
+    "name": "Greater Good Science Center",
+    "needs": [
+      "read",
+      "understand"
+    ],
+    "official_url": "https://greatergood.berkeley.edu/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "No account required to read articles and practices.",
+    "publisher": "Greater Good Science Center, University of California, Berkeley",
+    "reason": "Screened 2026-10-09: official site confirmed live; publisher identity, free access, and practices library confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; U.S.-based publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "article-library",
+    "review_status": "screened",
+    "screening_gaps": [],
+    "shelf": "read",
+    "source_notes": [
+      "https://greatergood.berkeley.edu/"
+    ],
+    "status": "screened",
+    "tags": [
+      "wellbeing",
+      "resilience",
+      "gratitude",
+      "compassion",
+      "psychoeducation",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "description": "NHS mental wellbeing hub with guides on stress, anxiety, and low mood, a short personalized Mind Plan quiz, small achievable actions, and free email programs. Core content is free with no account.",
+    "evidence_notes": "UK National Health Service public-health content. Informational; no efficacy claims evaluated in this screening.",
+    "id": "nhs-every-mind-matters",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Urgent-support pathways on the page are UK-specific and must not be substituted for other regions' crisis resources, per repo policy. Informational only; does not replace professional care.",
+    "name": "Every Mind Matters",
+    "needs": [
+      "read",
+      "understand",
+      "calm"
+    ],
+    "official_url": "https://www.nhs.uk/every-mind-matters/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "No account required for core content. Optional email programs involve signup; their data handling was not reviewed.",
+    "publisher": "National Health Service (NHS), United Kingdom",
+    "reason": "Screened 2026-10-09: official NHS page confirmed live; publisher, free access, and content scope confirmed from the primary source. UK geographic scope recorded explicitly. Ready for owner review before any promotion.",
+    "regions": [
+      "UK-focused (NHS); self-care content broadly applicable."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "article-library",
+    "review_status": "screened",
+    "screening_gaps": [],
+    "shelf": "read",
+    "source_notes": [
+      "https://www.nhs.uk/every-mind-matters/"
+    ],
+    "status": "screened",
+    "tags": [
+      "wellbeing",
+      "stress",
+      "anxiety",
+      "low-mood",
+      "self-care",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "description": "Free interactive cognitive-behavioral skills program for preventing and managing depression and anxiety symptoms. Five sequential modules (feelings, thoughts, unwarping, destressing, relationships) with exercises, workbooks, and quizzes with personalized feedback.",
+    "evidence_notes": "Publisher reports extensive RCT evaluation, including a 2016 meta-analysis of 12 studies finding reduced depression and anxiety symptoms. Effectiveness claims are the publisher's and were not independently evaluated in this screening.",
+    "id": "moodgym-anu",
+    "intended_population": [
+      "general",
+      "adults",
+      "adolescents"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Requires registration. Text-heavy, module-sequential format may not suit all users. Not a substitute for professional care; users in crisis should use crisis resources, not a self-help program.",
+    "name": "MoodGYM",
+    "needs": [
+      "practice",
+      "mood",
+      "understand"
+    ],
+    "official_url": "https://moodgym.com.au/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Publisher describes the service as anonymous and confidential with secure data handling. Registration (account) required to use the program.",
+    "publisher": "Australian National University (e-hub Health)",
+    "reason": "Screened 2026-10-09: official site confirmed live; publisher, free access, module structure, anonymity claims, and RCT evidence claims confirmed from the primary source. Registration requirement recorded. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; Australia-based provider."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "online-course",
+    "review_status": "screened",
+    "screening_gaps": [],
+    "shelf": "practice",
+    "source_notes": [
+      "https://moodgym.com.au/"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "depression",
+      "anxiety",
+      "stress",
+      "skills-training",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "YouTube provides auto-captioning; accuracy varies. Verify assistive-technology compatibility before relying on it."
+    ],
+    "description": "YouTube channel by a licensed marriage and family therapist presenting therapy skills and mental-health education in short videos, including emotional regulation, anxiety, and how-to-process-emotions topics.",
+    "evidence_notes": "Creator identifies as a licensed marriage and family therapist (per channel description). Individual videos were not evaluated in this screening.",
+    "id": "therapy-in-a-nutshell",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Video platform with advertising and algorithmic recommendations, which conflict with calm-design preferences — flag for owner judgment. Educational content, not therapy; individual video quality and relevance vary. Does not replace professional care.",
+    "name": "Therapy in a Nutshell",
+    "needs": [
+      "watch",
+      "understand"
+    ],
+    "official_url": "https://www.youtube.com/@TherapyinaNutshell",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Hosted on YouTube; viewing is subject to YouTube/Google data practices, which were not reviewed in this screening.",
+    "publisher": "Emma McAdam, Licensed Marriage and Family Therapist",
+    "reason": "Screened 2026-10-09: channel confirmed live on YouTube; creator credential claim (LMFT) confirmed from the channel description. Platform trade-offs (ads, recommendations, Google data practices) recorded honestly. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; English-language."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "video",
+    "review_status": "screened",
+    "screening_gaps": [
+      "individual videos not evaluated",
+      "YouTube data practices not reviewed"
+    ],
+    "shelf": "watch",
+    "source_notes": [
+      "https://www.youtube.com/@TherapyinaNutshell"
+    ],
+    "status": "screened",
+    "tags": [
+      "psychoeducation",
+      "therapy-skills",
+      "emotional-regulation",
+      "anxiety",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "description": "Step-by-step guide to relaxation techniques including deep breathing, progressive muscle relaxation, body scan meditation, visualization, self-massage, mindfulness meditation, rhythmic exercise, and yoga/tai chi, with instructions for independent practice.",
+    "evidence_notes": "Informational article; no efficacy claims evaluated in this screening.",
+    "id": "helpguide-relaxation-techniques",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Site is user-supported and earns commission on BetterHelp referrals made through the page (disclosed on the page) — commercial relationship recorded. Informational only; does not replace professional care.",
+    "name": "Relaxation Techniques for Stress Relief (HelpGuide)",
+    "needs": [
+      "practice",
+      "calm",
+      "sleep"
+    ],
+    "official_url": "https://www.helpguide.org/mental-health/stress/relaxation-techniques-for-stress-relief",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "No account required to read. Page carries BetterHelp affiliate advertising with a commission disclosure.",
+    "publisher": "HelpGuide.org",
+    "reason": "Screened 2026-10-09: official article confirmed live; publisher, free access, and technique instructions confirmed from the primary source. BetterHelp affiliate relationship disclosed on the page and recorded as a limitation. Ready for owner review before any promotion.",
+    "regions": [
+      "Global availability; publisher region not stated on the reviewed page."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "article",
+    "review_status": "screened",
+    "screening_gaps": [],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.helpguide.org/mental-health/stress/relaxation-techniques-for-stress-relief"
+    ],
+    "status": "screened",
+    "tags": [
+      "relaxation",
+      "breathing",
+      "progressive-muscle-relaxation",
+      "body-scan",
+      "visualization",
+      "mindfulness",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
     ]
   }
 ]
