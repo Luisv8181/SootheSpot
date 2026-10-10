@@ -1169,5 +1169,229 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-10",
+    "access": [
+      "free"
+    ],
+    "screening_gaps": [
+      "Named author/editor not shown on the fetched homepage — confirm authorship at promotion time.",
+      "Privacy policy and accessibility statement not reviewed.",
+      "A linked study claiming the site is the most popular resource for UK therapists was not verified — do not cite it."
+    ],
+    "id": "getselfhelp-cbt-self-help",
+    "name": "Get.gg — Free CBT Self-Help Resources",
+    "publisher": "Get.gg (Getselfhelp.co.uk), United Kingdom",
+    "resource_type": "article-library",
+    "official_url": "https://www.getselfhelp.co.uk",
+    "description": "Free Cognitive Behaviour Therapy self-help library: downloadable worksheets, information sheets, videos, and self-help MP3s for common mental health problems (anxiety, depression, stress), plus a resources section for professionals. Publisher states 25 years of operation.",
+    "languages": [
+      "English"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "tags": [
+      "cbt",
+      "self-help",
+      "worksheets",
+      "anxiety",
+      "depression",
+      "stress",
+      "psychoeducation",
+      "independent-use"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "regions": [
+      "Global; UK-based publisher."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "UK-based CBT self-help site; examples and service references are UK-oriented. Verify fit outside the UK before recommending.",
+      "source_notes": [
+        "https://www.getselfhelp.co.uk"
+      ]
+    },
+    "evidence_notes": "Publisher states CBT is proven to help mental health problems; no specific trial evidence is presented on the homepage. Worksheets follow standard CBT formats per the publisher. No clinical claims were evaluated in this screening.",
+    "accessibility": [
+      "No accessibility statement found on the fetched homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Resources are downloadable from the website; no account was required on the fetched pages. The site's privacy policy was not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only. Publisher materials are intended for personal/therapeutic use; confirm redistribution terms before any reuse.",
+    "limitations": "Self-help education; does not replace professional mental health care. Workbook-style exercises may benefit from therapist guidance for complex presentations.",
+    "source_notes": [
+      "https://www.getselfhelp.co.uk"
+    ],
+    "reason": "Screened 2026-10-10: official getselfhelp.co.uk homepage confirmed live; free CBT self-help library (worksheets, information sheets, videos, MP3s) confirmed from the primary source. Ready for owner review before any promotion."
+  },
+  {
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-10",
+    "access": [
+      "free"
+    ],
+    "screening_gaps": [
+      "Recent activity not verified — newest blog posts shown were from 2019; confirm the meditation library is current before promotion."
+    ],
+    "id": "mindfulness-for-teens-dzung-vo",
+    "name": "Mindfulness for Teens — Dr. Dzung Vo",
+    "publisher": "Dr. Dzung X. Vo, MD, FAAP (adolescent medicine, BC Children's Hospital / University of British Columbia)",
+    "resource_type": "audio-library",
+    "official_url": "https://mindfulnessforteens.com/",
+    "description": "Free downloadable guided meditations, mindfulness videos, and youth stories for teenagers from an adolescent-medicine pediatrician. Companion to the book 'The Mindful Teen.' The author co-developed MARS-A, a developmentally adapted MBSR/MBCT program for adolescents.",
+    "languages": [
+      "English"
+    ],
+    "intended_population": [
+      "adolescents"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "listen",
+    "needs": [
+      "listen",
+      "calm",
+      "practice"
+    ],
+    "tags": [
+      "mindfulness",
+      "meditation",
+      "teens",
+      "adolescents",
+      "stress",
+      "mbsr",
+      "independent-use"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "regions": [
+      "Global; Canada-based publisher."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "Developed by a Canada-based clinician; blog and youth-voice content reference North American contexts. Verify fit for other cultural contexts before recommending.",
+      "source_notes": [
+        "https://mindfulnessforteens.com/"
+      ]
+    },
+    "evidence_notes": "Publisher is a practicing adolescent-medicine physician and researcher; co-developed MARS-A (developmental adaptation of MBSR/MBCT for youth with chronic stress, pain, depression, anxiety), per the site's About page. No clinical claims were evaluated in this screening.",
+    "accessibility": [
+      "No accessibility statement found on the fetched homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Meditations are downloadable from the website; the site's privacy policy was not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Educational/self-care content for teens; does not replace professional mental health care. Not a crisis resource — keep safety pathways separate.",
+    "source_notes": [
+      "https://mindfulnessforteens.com/"
+    ],
+    "reason": "Screened 2026-10-10: official mindfulnessforteens.com confirmed live; publisher identity (Dr. Dzung Vo, BC Children's Hospital / UBC) and free meditation library confirmed from the primary source. Ready for owner review before any promotion."
+  },
+  {
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-10",
+    "access": [
+      "free"
+    ],
+    "screening_gaps": [
+      "Privacy policy and data-retention terms not reviewed.",
+      "Eligibility details (age, residency) not confirmed at screening."
+    ],
+    "id": "mindspot-australia",
+    "name": "MindSpot — Free Digital Psychological Care (Australia)",
+    "publisher": "MindSpot, MQ Health / Macquarie University; funded by the Australian Government Department of Health and Aged Care",
+    "resource_type": "online-course",
+    "official_url": "https://mindspot.org.au",
+    "description": "Free online psychological assessment and therapist-supported treatment courses for anxiety and depression, delivered by qualified clinicians at Macquarie University. Users complete a 20–30 minute online assessment, then access treatment courses the publisher reports as clinically tested at its eCentreClinic research clinic.",
+    "languages": [
+      "English"
+    ],
+    "intended_population": [
+      "adults"
+    ],
+    "use_context": [
+      "therapist-supported"
+    ],
+    "shelf": "practice",
+    "needs": [
+      "practice",
+      "understand",
+      "find support"
+    ],
+    "tags": [
+      "cbt",
+      "online-treatment",
+      "therapist-supported",
+      "anxiety",
+      "depression",
+      "australia"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "regions": [
+      "Australia only."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "Australian government-funded service; eligibility, clinical pathways, and support references are Australia-specific.",
+      "source_notes": [
+        "https://mindspot.org.au"
+      ]
+    },
+    "evidence_notes": "Publisher reports services clinically tested at Macquarie University's eCentreClinic, with an average 50% symptom reduction reported on the site; treat these figures as publisher claims — no independent evaluation in this screening.",
+    "accessibility": [
+      "No accessibility statement reviewed in this screening; verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Requires an online assessment and therapist consultation — personal health data is involved. The service's privacy and data-retention practices were not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Available to people in Australia only. Not a crisis service and not an independent-use tool — access requires an online assessment and clinician contact.",
+    "source_notes": [
+      "https://mindspot.org.au"
+    ],
+    "reason": "Screened 2026-10-10: official mindspot.org.au confirmed live; publisher (Macquarie University/MQ Health, Australian Government-funded), free access, and therapist-supported scope confirmed from the primary source. Ready for owner review before any promotion."
   }
 ]
