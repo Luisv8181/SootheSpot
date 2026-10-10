@@ -171,7 +171,6 @@
       "calm"
     ],
     "shelves": [
-      "listen",
       "practice"
     ]
   },
@@ -337,7 +336,6 @@
       "sleep"
     ],
     "shelves": [
-      "sleep-rest",
       "practice"
     ]
   },
@@ -392,9 +390,6 @@
     "shelf": "reach-out",
     "needs": [
       "support"
-    ],
-    "shelves": [
-      "reach-out"
     ]
   },
   {
@@ -513,7 +508,6 @@
       "anxiety"
     ],
     "shelves": [
-      "understand-yourself",
       "read"
     ]
   },
@@ -659,7 +653,6 @@
       "calm"
     ],
     "shelves": [
-      "listen",
       "practice",
       "sleep-rest"
     ]
@@ -773,7 +766,6 @@
       "calm"
     ],
     "shelves": [
-      "understand-yourself",
       "practice",
       "sleep-rest"
     ]
