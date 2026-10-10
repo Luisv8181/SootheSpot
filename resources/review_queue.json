@@ -1017,5 +1017,157 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S. federal publisher; created for veterans, service members, and trauma survivors generally. Page states the app is for 'anyone who wants to learn about and manage symptoms after a trauma.' Fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp"
+      ]
+    },
+    "description": "Free mobile app to help learn about and manage symptoms that often occur after trauma. Offers reliable information on PTSD and treatments that work, a PTSD self-assessment (PCL) with symptom tracking, easy-to-use coping tools for stress symptoms (relaxation, breathing, positive self-talk, anger management), and direct links to support. A companion desktop tool, PTSD Coach Online, offers 17 guided stress-management tools.",
+    "evidence_notes": "Publisher describes the app's facts and self-help skills as research-based; the in-app PTSD Checklist (PCL) is described as a reliable and valid self-report measure used across VA and DoD. Effectiveness of the app itself was not independently evaluated in this screening.",
+    "id": "ptsd-coach-va",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-10",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Not meant to replace professional care; PTSD often requires professional evaluation and treatment. Educational and self-care content.",
+    "name": "PTSD Coach",
+    "needs": [
+      "practice",
+      "calm",
+      "understand"
+    ],
+    "official_url": "https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp",
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "privacy_notes": "VA page states user-created data are only as secure as the phone/device itself and that self-monitoring data belong to the user. The full VA mobile-app privacy policy was not reviewed in this screening.",
+    "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD; created with DoD DHA Connected Health",
+    "reason": "Screened 2026-10-10: official VA page confirmed live; publisher, free access, self-assessment (PCL), symptom tracking, coping tools, support links, the professional-care disclaimer, and the data-security note confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; U.S.-government publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "app privacy policy not reviewed",
+      "non-English availability not confirmed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp"
+    ],
+    "status": "screened",
+    "tags": [
+      "ptsd",
+      "trauma",
+      "coping-skills",
+      "symptom-tracking",
+      "self-assessment",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "paid",
+      "free-with-prescription"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Australia-based publisher (St Vincent's Hospital Sydney and the University of New South Wales); the publisher page states programs are accessible online anywhere in the world. Clinician-guided access runs through Australian health professionals and insurers; fit for non-Australian contexts not assessed.",
+      "source_notes": [
+        "https://thiswayup.org.au/"
+      ]
+    },
+    "description": "Evidence-based online Cognitive Behavioural Therapy (iCBT) programs for depression, anxiety disorders (generalised, social, health anxiety, OCD, panic), post-traumatic stress, insomnia, perinatal mental health, and chronic pain. 17 programs of illustrated story-based modules with exercises, workbooks, action plans, reminders, and wellbeing questionnaires, completed over 90 days at the user's own pace.",
+    "evidence_notes": "Publisher states programs are based on Cognitive Behavioural Therapy and have been evaluated in randomized controlled trials and real-world studies, claiming 80% of completers are no longer troubled by symptoms. Individual study results were not evaluated in this screening.",
+    "id": "this-way-up",
+    "intended_population": [
+      "general",
+      "adults"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-10",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Designed for non-urgent mental health issues per the publisher FAQ. Self-guided programs cost $59 AUD (or covered by private health insurance) and are scoped to mild symptoms with no clinical support; free access only via clinician prescription (clinician-guided). Does not replace professional care.",
+    "name": "THIS WAY UP",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://thiswayup.org.au/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Publisher describes programs as secure and confidential; signup runs on thiswayupclinic.org. Full privacy and data-handling practices were not reviewed in this screening.",
+    "publisher": "Clinical Research Unit for Anxiety and Depression (CRUfAD), St Vincent's Hospital Sydney and the University of New South Wales",
+    "reason": "Screened 2026-10-10: official site confirmed live; publisher (CRUfAD, St Vincent's + UNSW), iCBT model, condition coverage, 17 programs, self-paced format, and the $59 AUD self-guided / clinician-prescribed-free cost model confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Online; Australia-based publisher; enrollment open worldwide per the publisher page."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "online-course",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy and data practices not reviewed",
+      "multilingual availability not confirmed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://thiswayup.org.au/"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "icbt",
+      "anxiety",
+      "depression",
+      "insomnia",
+      "skills-training",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
