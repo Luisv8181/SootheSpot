@@ -115,5 +115,28 @@ export const worlds: World[] = [
     durationMinutes: 3,
     provenance: "soothespot",
     activity: [{ type: "ambientScene" }, { type: "rippleInteraction" }, { type: "timer" }, { type: "completion" }]
+  },
+  {
+    version: 1,
+    id: "vast-sky",
+    theme: "sky",
+    category: "focus",
+    title: { en: "Vast Sky", es: "Cielo inmenso" },
+    description: {
+      en: "Trace constellations star by star, or write your own words in light. Nothing is saved.",
+      es: "Traza constelaciones estrella por estrella, o escribe tus palabras en luz. Nada se guarda."
+    },
+    purpose: {
+      en: "Give restless attention a slow, deliberate path to follow.",
+      es: "Dale a la atención inquieta un camino lento y deliberado que seguir."
+    },
+    durationMinutes: 5,
+    provenance: "soothespot",
+    activity: [
+      { type: "ambientScene" },
+      { type: "focusVisual", anchor: "light" },
+      { type: "timer" },
+      { type: "completion" }
+    ]
   }
 ].map(validateExperienceSpec);

@@ -1,7 +1,7 @@
-export type WorldId = "ocean-calm" | "soft-focus" | "grounding-garden" | "ripple-field";
+export type WorldId = "ocean-calm" | "soft-focus" | "grounding-garden" | "ripple-field" | "vast-sky";
 
 export type BreathPhase = "inhale" | "hold" | "exhale";
-export type ExperienceTheme = "ocean" | "focus" | "garden" | "ripple";
+export type ExperienceTheme = "ocean" | "focus" | "garden" | "ripple" | "sky";
 export type ExperienceCategory = "breathing" | "focus" | "grounding" | "sensory";
 export type SupportedLocale = "en" | "es";
 
