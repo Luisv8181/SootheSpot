@@ -122,7 +122,12 @@ export type TextLayout = {
  * Lay out message lines as star positions in a width×height box. Lines are
  * centered horizontally, stacked from 14% of height, and scaled to fit.
  */
-export function layoutTextLines(lines: string[], width: number, height: number): TextLayout {
+export function layoutTextLines(
+  lines: string[],
+  width: number,
+  height: number,
+  bounds?: { top: number; bottom: number },
+): TextLayout {
   const units = (line: string) => {
     let u = 0;
     for (const ch of line) u += ch === " " ? SPACE_ADV : LETTER_ADV;
@@ -130,12 +135,16 @@ export function layoutTextLines(lines: string[], width: number, height: number):
   };
   const widest = Math.max(...lines.map(units));
   const vBudget = (lines.length - 1) * LINE_DY + 5;
-  const u = Math.min((width * 0.96) / widest, 13, (height * 0.36) / vBudget);
+  // Without bounds the layout keeps its historical geometry exactly
+  // (existing tests pin this); with bounds the text fits the given band.
+  const regionH = bounds ? bounds.bottom - bounds.top : height * 0.36;
+  const regionTop = bounds ? bounds.top : height * 0.14;
+  const u = Math.min((width * 0.96) / widest, 13, regionH / vBudget);
   const stars: Array<{ x: number; y: number }> = [];
   const ghosts: Array<[number, number, number, number]> = [];
   lines.forEach((lineText, li) => {
     let cx = (width - units(lineText) * u) / 2;
-    const top = height * 0.14 + li * LINE_DY * u;
+    const top = regionTop + li * LINE_DY * u;
     for (const ch of lineText) {
       if (ch === " ") {
         cx += SPACE_ADV * u;

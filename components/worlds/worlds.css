@@ -10,6 +10,7 @@
 .immersive-world.world-theme-focus { background: #242a3e; color: #f4efe5; }
 .immersive-world.world-theme-garden { background: #e4ecdf; color: #24473d; }
 .immersive-world.world-theme-ripple { background: #122b3a; color: #e4f2e9; }
+.immersive-world.world-theme-sky { background: #06121e; color: #eef3ff; }
 .immersive-world .world-topbar { width: min(1100px, 100%); margin: 0 auto; display: flex; justify-content: space-between; gap: 18px; align-items: center; }
 .immersive-world .world-kicker { opacity: 1; color: inherit; font-size: 11px; letter-spacing: .12em; }
 .immersive-world .world-topbar h2 { color: inherit; font-size: clamp(24px, 3vw, 34px); font-weight: 550; letter-spacing: -.04em; }
@@ -75,6 +76,10 @@
 .authored-world .world-guidance { margin: 0 0 24px; min-height: 88px; text-shadow: 0 2px 18px #031d32; }
 .authored-world .world-phase { font-size: clamp(32px, 4vw, 48px); font-weight: 450; }
 .authored-world.world-theme-ripple .world-phase { font-size: clamp(24px, 3vw, 32px); }
+/* Vast Sky carries its own guidance in the scene; keep the session line compact
+   so it never swallows the star field or the control dock. */
+.authored-world.world-theme-sky .world-phase { font-size: clamp(20px, 2.6vw, 28px); font-weight: 500; }
+.authored-world.world-theme-sky .world-guidance { min-height: 56px; margin: 0 0 12px; }
 .authored-world .world-subtle { margin-inline: auto; max-width: 500px; opacity: 1; }
 .authored-world .world-secondary { background: #071e3255; }
 .authored-world .world-primary { background: #f4eddb; border-color: #f4eddb; }

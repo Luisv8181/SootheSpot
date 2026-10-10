@@ -1,6 +1,8 @@
 /* Vast Sky world scene styles. The scene lives inside .world-environment
-   (absolute, full-dialog, behind the session chrome), so the dial dock is
-   parked above the parent's bottom controls. */
+   (absolute, full-dialog, behind the session chrome). The control dock is
+   top-anchored in the clear zone between the dialog topbar and the star
+   field, so it never collides with the session guidance and controls that
+   the parent lays out along the bottom. */
 
 .vsky-root {
   position: absolute;
@@ -68,7 +70,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 468px;
+  top: 134px;
   text-align: center;
   pointer-events: none;
   color: #dfe9ff;
@@ -82,7 +84,7 @@
 
 .vsky-caption {
   position: absolute;
-  top: 17%;
+  top: 46%;
   left: 0;
   right: 0;
   text-align: center;
@@ -117,15 +119,24 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 284px;
+  top: 160px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
+  background: rgba(6, 10, 24, 0.55);
+  border: 1px solid rgba(160, 190, 255, 0.18);
+  border-radius: 22px;
+  padding: 10px 14px;
+  backdrop-filter: blur(6px);
+  max-width: min(94vw, 380px);
 }
 
 .vsky-dial {
   display: block;
+  flex: 0 0 auto;
+  width: 72px;
+  height: 72px;
   cursor: grab;
   touch-action: none;
   filter: drop-shadow(0 2px 14px rgba(2, 4, 12, 0.6));
@@ -142,22 +153,27 @@
 }
 
 .vsky-buttons {
-  display: flex;
-  gap: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
 }
 
 .vsky-btn {
   background: rgba(20, 30, 60, 0.55);
   border: 1px solid rgba(160, 190, 255, 0.28);
   color: #dfe9ff;
-  font-size: 11px;
-  letter-spacing: 0.12em;
-  padding: 9px 13px;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  padding: 9px 10px;
+  min-height: 44px;
+  min-width: 0;
   border-radius: 999px;
   cursor: pointer;
   backdrop-filter: blur(4px);
   transition: transform 0.12s, border-color 0.2s;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .vsky-btn:active {
@@ -172,6 +188,21 @@
 .vsky-btn:focus-visible {
   outline: 2px solid rgba(255, 214, 150, 0.8);
   outline-offset: 2px;
+}
+
+.vsky-autonote {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 352px;
+  text-align: center;
+  pointer-events: none;
+  color: #ffe9c4;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  opacity: 0.85;
+  text-shadow: 0 1px 10px rgba(2, 4, 12, 0.9);
+  animation: vsky-caption-in 1.2s ease-out;
 }
 
 /* write-your-own panel */
@@ -268,14 +299,19 @@
 
 @media (max-height: 700px) {
   .vsky-dock {
-    bottom: 264px;
+    top: 144px;
+    padding: 8px 12px;
+    gap: 10px;
   }
   .vsky-guide {
-    bottom: 440px;
+    top: 126px;
   }
   .vsky-dial {
-    width: 96px;
-    height: 96px;
+    width: 60px;
+    height: 60px;
+  }
+  .vsky-autonote {
+    top: 300px;
   }
 }
 

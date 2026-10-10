@@ -9,6 +9,7 @@ import {
   MAX_MESSAGE_CHARS
 } from "@/domain/worlds/vastSkyText";
 import { SKY_SONGS, SKY_CONSTELLATIONS, FREE_NOTES } from "@/domain/worlds/vastSkyData";
+import { skyArtwork } from "./skyArtwork";
 import "./vastSky.css";
 
 const labels = {
@@ -18,12 +19,14 @@ const labels = {
     traceIt: "trace it ✦",
     cancel: "Cancel",
     notSaved: "nothing is saved",
-    bandSongs: "✦ stars",
+    bandSongs: "✦ star maps",
     bandStars: "♪ songs",
-    auto: "▶ auto",
+    auto: "▶ autoplay",
     stop: "■ stop",
-    soundOn: "♪ on",
-    soundOff: "♪ off",
+    soundOn: "♪ sound on",
+    soundOff: "♪ muted",
+    writeLabel: "✎ write",
+    autoNote: "autoplay · tap any star to take over",
     writeAria: "write your own words",
     bandAria: "switch dial band",
     autoAria: "autoplay the current sky",
@@ -36,12 +39,14 @@ const labels = {
     traceIt: "trázalo ✦",
     cancel: "Cancelar",
     notSaved: "nada se guarda",
-    bandSongs: "✦ estrellas",
+    bandSongs: "✦ constelaciones",
     bandStars: "♪ canciones",
     auto: "▶ auto",
     stop: "■ parar",
-    soundOn: "♪ sí",
-    soundOff: "♪ no",
+    soundOn: "♪ sonido",
+    soundOff: "♪ silenciado",
+    writeLabel: "✎ escribir",
+    autoNote: "auto · toca una estrella para tomar el control",
     writeAria: "escribe tus propias palabras",
     bandAria: "cambiar de banda",
     autoAria: "reproducir el cielo automáticamente",
@@ -110,7 +115,7 @@ export function VastSky({ language, paused, complete, still, onInteract }: {
 
   return (
     <div ref={rootRef} className={`vsky-root${still ? " vsky-still" : ""}`}>
-      <img src="/worlds/vast-sky.webp" className="vsky-photo" alt="" aria-hidden="true" draggable={false} />
+      <img src={skyArtwork.sky.src} className="vsky-photo" alt="" aria-hidden="true" draggable={false} />
       <canvas ref={canvasRef} className="vsky-canvas" aria-hidden="true" />
       <div className="vsky-scrim" aria-hidden="true" />
       <div className="vsky-vignette" aria-hidden="true" />
@@ -153,7 +158,7 @@ export function VastSky({ language, paused, complete, still, onInteract }: {
             onClick={() => {
               setDraft(engineRef.current?.currentMessage() ?? "BREATHE");
               setWriting(true);
-            }}>✎</button>
+            }}>{t.writeLabel}</button>
           <button type="button" className={`vsky-btn${auto ? " on" : ""}`} aria-label={t.autoAria} aria-pressed={auto}
             onClick={() => engineRef.current?.toggleAuto()}>
             {auto ? t.stop : t.auto}
@@ -168,6 +173,11 @@ export function VastSky({ language, paused, complete, still, onInteract }: {
           </button>
         </div>
       </div>
+      {auto && (
+        <div className="vsky-autonote" aria-live="polite">
+          <span>{t.autoNote}</span>
+        </div>
+      )}
       {writing && (
         <div className="vsky-writepanel" onPointerDown={(e) => { if (e.target === e.currentTarget) setWriting(false); }}>
           <div className="vsky-wpcard" role="dialog" aria-label={t.writeTitle}>
@@ -394,13 +404,28 @@ function createSkyEngine(
     };
   }
 
+  /* The control dock sits over the upper sky: keep every tappable star below
+     it (measured from the live dock element) and above the session chrome.
+     Without this, stars spawn under the dock where taps can't reach them. */
+  function skyBand(): { top: number; bottom: number } {
+    const dock = root.querySelector(".vsky-dock") as HTMLElement | null;
+    const cr = canvas.getBoundingClientRect();
+    const top = dock ? Math.max(0, dock.getBoundingClientRect().bottom - cr.top + 14) : H * 0.4;
+    const bottom = Math.max(top + 80, H * 0.8);
+    return { top, bottom };
+  }
+  const skyY = (ny: number): number => {
+    const { top, bottom } = skyBand();
+    return top + ny * (bottom - top);
+  };
+
   function placeSongStars() {
     songStars.length = 0;
     if (mode === "free" || mode === "custom" || SKY_CONSTELLATIONS[mode]) return;
     const shape = SKY_SONGS[mode]?.shape ?? [];
     const now = performance.now();
     shape.forEach(([nx, ny], i) => {
-      const s = mkStar((0.1 + 0.8 * nx) * W, (0.12 + 0.56 * ny) * H, rand(3.2, 4.6), stillNow() ? 0 : i * 130);
+      const s = mkStar((0.1 + 0.8 * nx) * W, skyY(ny), rand(3.2, 4.6), stillNow() ? 0 : i * 130);
       if (stillNow()) s.born = now;
       songStars.push(s);
     });
@@ -410,7 +435,7 @@ function createSkyEngine(
     textStars.length = 0;
     textGhost.length = 0;
     if (mode !== "custom") return;
-    const { stars, ghosts } = layoutTextLines(customLines, W, H);
+    const { stars, ghosts } = layoutTextLines(customLines, W, H, skyBand());
     const now = performance.now();
     stars.forEach((p, i) => {
       const s = mkStar(p.x, p.y, rand(2.2, 3.0), stillNow() ? 0 : i * 32);
@@ -428,7 +453,7 @@ function createSkyEngine(
     if (!C) return;
     const now = performance.now();
     C.stars.forEach(([nx, ny, nm], i) => {
-      const s = mkStar((0.12 + 0.76 * nx) * W, (0.13 + 0.58 * ny) * H, rand(3.2, 4.6), stillNow() ? 0 : i * 140, nm);
+      const s = mkStar((0.12 + 0.76 * nx) * W, skyY(ny), rand(3.2, 4.6), stillNow() ? 0 : i * 140, nm);
       if (stillNow()) s.born = now;
       constStars.push(s);
     });
@@ -818,8 +843,9 @@ function createSkyEngine(
   }
   function spawnAnchor() {
     if (mode !== "free" || anchors.length >= 10) return;
+    const { top, bottom } = skyBand();
     for (let tries = 0; tries < 50; tries++) {
-      const x = rand(50, W - 50), y = rand(70, H - 190);
+      const x = rand(50, W - 50), y = rand(top, bottom);
       if (anchors.every((a) => Math.hypot(a.x - x, a.y - y) > 95)) {
         const s = mkStar(x, y, rand(3.2, 4.6), 0);
         s.born = performance.now();
@@ -835,6 +861,8 @@ function createSkyEngine(
     pointer.x = x;
     pointer.y = y;
     pointer.down = true;
+    // Grabbing the sky during autoplay hands control to the user.
+    if (auto.on) setAutoInner(false);
     if (!stillNow()) pops.push({ x, y, age: 0, life: 0.35, faint: true });
     const s = nearestStar(x, y, 44, null);
     if (!s) {
