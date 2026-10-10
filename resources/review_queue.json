@@ -571,5 +571,225 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "description": "Australian not-for-profit offering a free app with guided mindfulness and mental-fitness programs for families, plus curriculum-aligned school programs. Publisher describes its content as evidence-led and developed with psychologists and mental-health experts.",
+    "evidence_notes": "Publisher is an Australian mental-health not-for-profit; states its content is evidence-led and developed with psychologists and mental-health experts. Individual claims not evaluated in this screening.",
+    "id": "smiling-mind",
+    "intended_population": [
+      "general",
+      "children"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Mindfulness and wellbeing programs; not clinical treatment and not a substitute for professional care. Individual programs not evaluated.",
+    "name": "Smiling Mind",
+    "needs": [
+      "practice",
+      "calm"
+    ],
+    "official_url": "https://www.smilingmind.com.au/",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "App account and data practices were not reviewed in this screening.",
+    "publisher": "Smiling Mind (Australian not-for-profit)",
+    "reason": "Screened 2026-10-09: official site confirmed live; not-for-profit publisher, free app, and evidence-led content claims confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; Australia-based publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "app data practices and privacy policy not reviewed",
+      "app store listings not individually reviewed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.smilingmind.com.au/"
+    ],
+    "status": "screened",
+    "tags": [
+      "mindfulness",
+      "mental-fitness",
+      "families",
+      "schools",
+      "meditation",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "description": "Free recorded guided self-compassion practices (affectionate breathing, compassionate body scan, soles-of-the-feet grounding, compassionate-friend visualizations) plus written exercises including the Self-Compassion Break, supportive touch, reframing critical self-talk, and a self-compassion journal. The page states these practices are not a substitute for therapy.",
+    "duration_options_minutes": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      22
+    ],
+    "evidence_notes": "Publisher is the institute of Dr. Kristin Neff, who operationally defined and measured self-compassion; the site describes its training programs as empirically supported. Individual claims not evaluated in this screening.",
+    "id": "neff-self-compassion-practices",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "The page explicitly states the practices are not a substitute for therapy. The broader site heavily promotes paid courses and a paid community; the free practices are the relevant section for this record.",
+    "name": "Self-Compassion Practices (Kristin Neff)",
+    "needs": [
+      "practice",
+      "calm"
+    ],
+    "official_url": "https://self-compassion.org/category/exercises/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Practices stream from the publisher site; no account noted for the free practices. The site's paid offerings and their data handling were not reviewed.",
+    "publisher": "Self-Compassion Institute (Dr. Kristin Neff)",
+    "reason": "Screened 2026-10-09: free practices page confirmed live; guided audio list with durations, written exercises, and the therapy disclaimer confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; publisher region not stated on the reviewed page."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "audio-library",
+    "review_status": "screened",
+    "screening_gaps": [
+      "broader paid offerings not evaluated"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://self-compassion.org/category/exercises/"
+    ],
+    "status": "screened",
+    "tags": [
+      "self-compassion",
+      "mindfulness",
+      "grounding",
+      "body-scan",
+      "self-criticism",
+      "journaling",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "description": "Government-published, CBT-based self-help information packages and workbooks covering depression, panic, generalised anxiety, social anxiety, disordered eating, self-esteem, procrastination, and perfectionism. Some resources are designed to be worked through independently; others are produced for clinician-led treatment and training.",
+    "evidence_notes": "Publisher is a specialist clinical psychology service of the Western Australian health department; resources use a cognitive-behavioural approach. Effectiveness not evaluated in this screening.",
+    "id": "cci-looking-after-yourself",
+    "intended_population": [
+      "general",
+      "adults"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Self-help materials; not a substitute for professional care. The resources overview page notes a July 2022 update — currency of individual packages should be verified before promotion.",
+    "name": "CCI Looking After Yourself (Self-Help Resources)",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://www.CCI.health.wa.gov.au/Resources/Overview",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Materials are downloadable PDFs; no account indicated. Data practices were not reviewed in this screening.",
+    "publisher": "Centre for Clinical Interventions, Government of Western Australia",
+    "reason": "Screened 2026-10-09: resources overview page confirmed live; publisher identity, CBT orientation, and condition coverage confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; Australia (WA Health) publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "online-course",
+    "review_status": "screened",
+    "screening_gaps": [
+      "currency of individual packages not verified (overview last updated 2022-07)"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.CCI.health.wa.gov.au/Resources/Overview"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "anxiety",
+      "depression",
+      "panic",
+      "self-esteem",
+      "perfectionism",
+      "workbooks",
+      "psychoeducation",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
