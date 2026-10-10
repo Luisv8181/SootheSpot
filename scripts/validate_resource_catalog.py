@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
-"""Validate the SootheSpot resource registry and bibliographic book catalog.
+"""Validate SootheSpot's external resource and bibliographic book catalogs.
 
-Missing descriptive metadata is allowed during migration, but every such gap is
-reported. Verified records must have primary-source provenance and an explicit
-last-verification date. Records must not rely on a filled field to imply that
-clinical efficacy, cultural adaptation, accessibility, or regional availability
-has been established.
+Unknown metadata is reported rather than guessed. Books use bibliographic fields
+such as page_count; page counts are never interpreted as media duration.
 """
 
 import json
@@ -19,34 +16,22 @@ CATALOG_FILES = (
     ROOT / "resources" / "books.json",
 )
 REQUIRED = {
-    "id",
-    "name",
-    "publisher",
-    "resource_type",
-    "official_url",
-    "description",
-    "tags",
-    "access",
-    "review_status",
-    "last_verified_at",
+    "id", "name", "publisher", "resource_type", "official_url",
+    "description", "tags", "access", "review_status", "last_verified_at",
 }
 STATUSES = {"unreviewed", "screened", "clinically_reviewed", "verified", "deprecated"}
-SHELVES = {"read", "listen", "practice", "watch", "sleep-rest", "understand-yourself", "reach-out"}
+SHELVES = {
+    "read", "listen", "practice", "watch", "sleep-rest",
+    "understand-yourself", "reach-out",
+}
 NEEDS = {
     "calm", "sleep", "understand", "practice", "listen", "watch", "read",
     "support", "stress", "anxiety", "mood", "trauma", "self-compassion",
     "grief", "substance-use",
 }
 TRACKED_METADATA = (
-    "languages",
-    "access",
-    "accessibility",
-    "regions",
-    "limitations",
-    "last_verified_at",
-    "source_notes",
-    "shelf",
-    "needs",
+    "languages", "access", "accessibility", "regions", "limitations",
+    "last_verified_at", "source_notes", "shelf", "needs",
 )
 
 
@@ -57,6 +42,13 @@ def fail(message: str) -> None:
 
 def nonempty(value: object) -> bool:
     return value is not None and value != "" and value != []
+
+
+def is_https_url(value: object) -> bool:
+    if not isinstance(value, str):
+        return False
+    parsed = urlparse(value)
+    return parsed.scheme == "https" and bool(parsed.netloc)
 
 
 def load_catalog(path: pathlib.Path) -> list[dict]:
@@ -73,17 +65,19 @@ def load_catalog(path: pathlib.Path) -> list[dict]:
 
 
 def main() -> int:
-    all_records = []
+    all_records: list[dict] = []
+    catalogs: dict[str, list[dict]] = {}
     for path in CATALOG_FILES:
         records = load_catalog(path)
-        for record in records:
+        catalogs[path.name] = records
+        for index, record in enumerate(records):
             missing = REQUIRED - record.keys()
+            rid = record.get("id", f"{path.name}:{index}")
             if missing:
-                fail(f"{record.get('id', path.name)} missing required fields: {sorted(missing)}")
-
-            rid = record["id"]
-            parsed = urlparse(record["official_url"])
-            if parsed.scheme != "https" or not parsed.netloc:
+                fail(f"{rid} missing required fields: {sorted(missing)}")
+            if not isinstance(record["id"], str) or not record["id"].strip():
+                fail(f"{rid}: id must be a non-empty string")
+            if not is_https_url(record["official_url"]):
                 fail(f"{rid}: official_url must be an HTTPS URL")
             if record["review_status"] not in STATUSES:
                 fail(f"{rid}: invalid review_status")
@@ -92,61 +86,110 @@ def main() -> int:
             if not isinstance(record["access"], list):
                 fail(f"{rid}: access must be an array")
 
-            if record.get("shelf") is not None and record["shelf"] not in SHELVES:
-                fail(f"{rid}: invalid explicit shelf {record['shelf']!r}")
+            primary_shelf = record.get("shelf")
+            if primary_shelf is not None and primary_shelf not in SHELVES:
+                fail(f"{rid}: invalid primary shelf {primary_shelf!r}")
             secondary_shelves = record.get("shelves", [])
             if not isinstance(secondary_shelves, list):
                 fail(f"{rid}: shelves must be an array when provided")
-            invalid_shelves = sorted(set(secondary_shelves) - SHELVES)
-            if invalid_shelves:
-                fail(f"{rid}: invalid secondary shelves {invalid_shelves}")
-            if record.get("needs") is not None:
-                if not isinstance(record["needs"], list):
+            if any(shelf not in SHELVES for shelf in secondary_shelves):
+                invalid = sorted({s for s in secondary_shelves if s not in SHELVES})
+                fail(f"{rid}: invalid secondary shelves {invalid}")
+            # Older catalog records sometimes redundantly list the primary shelf
+            # in `shelves`. The normalizer removes that duplication for display;
+            # validation rejects repeated secondary entries but allows the legacy
+            # primary value until all consumers have migrated.
+            secondary_without_primary = [
+                shelf for shelf in secondary_shelves if shelf != primary_shelf
+            ]
+            if len(secondary_shelves) != len(set(secondary_shelves)):
+                fail(f"{rid}: secondary shelves must not contain duplicates")
+            if len(secondary_without_primary) != len(set(secondary_without_primary)):
+                fail(f"{rid}: normalized secondary shelves must not contain duplicates")
+
+            needs = record.get("needs")
+            if needs is not None:
+                if not isinstance(needs, list):
                     fail(f"{rid}: needs must be an array when provided")
-                invalid_needs = sorted(set(record["needs"]) - NEEDS)
+                invalid_needs = sorted({n for n in needs if n not in NEEDS})
                 if invalid_needs:
                     fail(f"{rid}: invalid needs {invalid_needs}")
+                if len(needs) != len(set(needs)):
+                    fail(f"{rid}: needs must not contain duplicates")
 
             duration = record.get("duration_options_minutes")
-            if duration is not None:
-                if not isinstance(duration, list) or any(
-                    not isinstance(minutes, (int, float)) or minutes <= 0
+            if duration is not None and (
+                not isinstance(duration, list)
+                or any(
+                    isinstance(minutes, bool)
+                    or not isinstance(minutes, (int, float))
+                    or minutes <= 0
                     for minutes in duration
-                ):
-                    fail(f"{rid}: duration_options_minutes must contain positive numbers")
+                )
+            ):
+                fail(f"{rid}: duration_options_minutes must contain positive numbers")
+            if record.get("resource_type") == "book" and duration is not None:
+                fail(f"{rid}: book records must not use media duration_options_minutes")
+            page_count = record.get("page_count")
+            if page_count is not None and (
+                isinstance(page_count, bool)
+                or not isinstance(page_count, int)
+                or page_count <= 0
+            ):
+                fail(f"{rid}: page_count must be a positive integer")
 
-            source_notes = record.get("source_notes")
-            if source_notes is not None and (
-                not isinstance(source_notes, list)
-                or any(not isinstance(url, str) or urlparse(url).scheme != "https" or not urlparse(url).netloc for url in source_notes)
+            sources = record.get("source_notes")
+            if sources is not None and (
+                not isinstance(sources, list)
+                or any(not is_https_url(source) for source in sources)
             ):
                 fail(f"{rid}: source_notes must be an array of HTTPS URLs")
             if record["review_status"] in {"verified", "clinically_reviewed"}:
-                if not source_notes:
+                if not sources:
                     fail(f"{rid}: reviewed records require source_notes")
                 if not record.get("last_verified_at"):
                     fail(f"{rid}: reviewed records require last_verified_at")
 
+            if record.get("resource_type") == "book":
+                if not isinstance(record.get("authors"), list) or not record["authors"]:
+                    fail(f"{rid}: book records require an authors array")
+                if (
+                    isinstance(page_count, bool)
+                    or not isinstance(page_count, int)
+                    or page_count <= 0
+                ):
+                    fail(f"{rid}: book records require a positive integer page_count")
+                if not isinstance(record.get("isbn"), str) or not record["isbn"].strip():
+                    fail(f"{rid}: book records require ISBN metadata")
             all_records.append(record)
 
     ids = [record["id"] for record in all_records]
-    if len(ids) != len(set(ids)):
-        duplicates = sorted({rid for rid in ids if ids.count(rid) > 1})
+    duplicates = sorted({rid for rid in ids if ids.count(rid) > 1})
+    if duplicates:
         fail(f"duplicate resource IDs across catalogs: {duplicates}")
 
     gaps = {
-        record["id"]: [field for field in TRACKED_METADATA if not nonempty(record.get(field))]
+        record["id"]: [
+            field for field in TRACKED_METADATA
+            if not nonempty(record.get(field))
+        ]
         for record in all_records
     }
     gaps = {rid: fields for rid, fields in gaps.items() if fields}
-    print(f"Validated {len(all_records)} records across {len(CATALOG_FILES)} catalogs.")
-    print(f"Checked unique IDs, HTTPS provenance, review status, shelf/need vocabulary, and duration metadata.")
+    print(
+        f"Validated {len(all_records)} records across {len(CATALOG_FILES)} catalogs "
+        f"({', '.join(f'{name}: {len(records)}' for name, records in catalogs.items())})."
+    )
+    print(
+        "Checked cross-catalog IDs, HTTPS provenance, review status, primary/secondary "
+        "shelf consistency, need vocabulary, duration values, and book-specific fields."
+    )
     if gaps:
         gap_count = sum(len(fields) for fields in gaps.values())
         print(f"Metadata quality report: {len(gaps)} records have {gap_count} tracked field gap(s).")
         for rid, fields in gaps.items():
             print(f"  {rid}: missing or unknown {', '.join(fields)}")
-        print("Gaps are reported, not silently filled; use explicit 'unknown' notes when a source was checked but does not state a value.")
+        print("Gaps are reported, not silently filled; unknown facts must remain unknown.")
     else:
         print("Metadata quality report: all tracked metadata fields are present.")
     return 0
