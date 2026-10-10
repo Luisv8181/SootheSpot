@@ -1393,5 +1393,240 @@
       "https://mindspot.org.au"
     ],
     "reason": "Screened 2026-10-10: official mindspot.org.au confirmed live; publisher (Macquarie University/MQ Health, Australian Government-funded), free access, and therapist-supported scope confirmed from the primary source. Ready for owner review before any promotion."
+  },
+  {
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-10",
+    "access": [
+      "free"
+    ],
+    "screening_gaps": [
+      "Privacy policy and data-retention terms not reviewed.",
+      "Spanish or other language availability not confirmed at screening.",
+      "App-store currency and current version not checked."
+    ],
+    "id": "act-coach-va",
+    "name": "ACT Coach (VA)",
+    "publisher": "U.S. Department of Veterans Affairs, VA National Center for PTSD",
+    "resource_type": "mobile-app",
+    "official_url": "https://www.ptsd.va.gov/appvid/mobile/actcoach_app_public.asp",
+    "description": "Free, publicly available mobile app built to accompany Acceptance and Commitment Therapy (ACT) with a mental health provider. ACT aims to help people live with unpleasant thoughts, feelings, and impulses without avoiding them or being controlled by them. The app offers exercises, tools, information, and tracking logs: mindfulness exercises (mindful breathing, walking, eating, observing thoughts/sensations/emotions), interactive tools for values-based living (identifying values, personal action lists, motivational tips and reminders), and tools to track mindfulness practice and coping strategies.",
+    "languages": [
+      "English"
+    ],
+    "intended_population": [
+      "adults"
+    ],
+    "use_context": [
+      "therapist-supported"
+    ],
+    "shelf": "practice",
+    "needs": [
+      "practice",
+      "stress",
+      "mood",
+      "understand"
+    ],
+    "tags": [
+      "act",
+      "acceptance-and-commitment-therapy",
+      "mindfulness",
+      "values",
+      "va",
+      "app",
+      "therapist-supported"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "regions": [
+      "Publicly available on app stores; developed for U.S. Veterans, service members, and others in ACT with a therapist."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "Developed by the U.S. VA National Center for PTSD; framing and references reflect a U.S. military/Veteran clinical context.",
+      "source_notes": [
+        "https://www.ptsd.va.gov/appvid/mobile/actcoach_app_public.asp"
+      ]
+    },
+    "evidence_notes": "Acceptance and Commitment Therapy is an evidence-based psychotherapy; the publisher presents the app as a companion to that treatment. No independent evaluation of the app itself was reviewed in this screening.",
+    "accessibility": [
+      "No accessibility statement reviewed in this screening; verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Official page notes that any user-created data is only as secure as the phone/device itself and points to a VA mobile-app privacy policy, which was not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Not a self-help tool — the official page states it was designed to be used with a mental health provider as part of Acceptance and Commitment Therapy and is not meant to be used for self-care.",
+    "source_notes": [
+      "https://www.ptsd.va.gov/appvid/mobile/actcoach_app_public.asp"
+    ],
+    "reason": "Screened 2026-10-10: official VA page confirmed live; publisher (VA National Center for PTSD), free access, ACT framing, feature set, privacy-on-device note, and the not-for-self-care scope confirmed from the primary source. Ready for owner review before any promotion."
+  },
+  {
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-10",
+    "access": [
+      "paid"
+    ],
+    "screening_gaps": [
+      "Privacy policy and data practices not reviewed.",
+      "No free tier was visible on the official site at screening — access is paid unless the owner confirms otherwise.",
+      "Publisher efficacy claims not independently verified.",
+      "Geographic availability of the app not confirmed."
+    ],
+    "id": "superbetter",
+    "name": "SuperBetter",
+    "publisher": "SuperBetter, LLC (founded by game designer and researcher Jane McGonigal)",
+    "resource_type": "mobile-app",
+    "official_url": "https://superbetter.com/",
+    "description": "A gameful resilience-building tool that applies game psychology to real-life challenges. Players set an 'epic win,' take on quests and power-ups, battle 'bad guys' (stressors), and check in with allies, aiming to build mental, emotional, social, and physical resilience. The current site offers 40+ solo challenges and is positioned around youth mental health, social-emotional learning, and student wellbeing.",
+    "languages": [
+      "English"
+    ],
+    "intended_population": [
+      "adolescents",
+      "young adults",
+      "adults"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "needs": [
+      "practice",
+      "stress",
+      "mood"
+    ],
+    "tags": [
+      "resilience",
+      "gamified",
+      "wellbeing",
+      "youth",
+      "app",
+      "web",
+      "social-emotional-learning"
+    ],
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "regions": [
+      "Not confirmed — English-language site; app-store availability by country not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "U.S.-developed product; gameful framing assumes comfort with quest/hero-narrative metaphors.",
+      "source_notes": [
+        "https://superbetter.com/"
+      ]
+    },
+    "evidence_notes": "Publisher cites a randomized controlled trial at the University of Pennsylvania (30 days of play associated with improved mental health and resilience) and names the World Economic Forum's 'Top Innovator in Youth Mental Health' recognition. Treat both as publisher claims — no independent evaluation in this screening.",
+    "accessibility": [
+      "No accessibility statement reviewed in this screening; verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Account-based app (sign-up required); privacy and data-retention practices not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Paid access — the official site lists a Hero account at $24.99/year (host/squad accounts $99/year) with no free tier visible. Not a crisis service and not clinical treatment. Current positioning leans toward youth/educators, so the individual-use experience may reflect that framing.",
+    "source_notes": [
+      "https://superbetter.com/"
+    ],
+    "reason": "Screened 2026-10-10: official superbetter.com confirmed live; publisher, gameful-resilience framing, science-backing claims, and pricing (paid, $24.99/year hero) confirmed from the primary source. Recorded honestly as paid; owner judgment required on whether a paid resource belongs in the toolbox. Ready for owner review."
+  },
+  {
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-10",
+    "access": [
+      "free"
+    ],
+    "screening_gaps": [
+      "Privacy policy and data-retention terms not reviewed.",
+      "PeerChat staffing/credentialing details not verified beyond the 'experienced peer workers' label.",
+      "Ask ReachOut AI chatbot behavior and guardrails not evaluated."
+    ],
+    "id": "reachout-australia",
+    "name": "ReachOut Australia",
+    "publisher": "ReachOut Australia",
+    "resource_type": "article-library",
+    "official_url": "https://au.reachout.com/",
+    "description": "Leading Australian online mental health service for young people, described on the official site as anonymous, free, and 100% online, designed with young people. Offers one-to-one anonymous PeerChat support with experienced peer workers, an 'Ask ReachOut' AI chatbot, plus tips, stories, and resources. Separate sections exist for parents/carers and schools.",
+    "languages": [
+      "English"
+    ],
+    "intended_population": [
+      "adolescents",
+      "young adults"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "reach-out",
+    "needs": [
+      "support",
+      "understand",
+      "stress",
+      "mood"
+    ],
+    "tags": [
+      "youth",
+      "peer-support",
+      "australia",
+      "online-resources",
+      "chat"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "regions": [
+      "Australia-focused; youth service."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "Australian service; youth mental-health framing, helpline references, and cultural context are Australia-specific.",
+      "source_notes": [
+        "https://au.reachout.com/"
+      ]
+    },
+    "evidence_notes": "No efficacy or evaluation evidence reviewed in this screening; the site's claims of being a leading youth service are publisher claims.",
+    "accessibility": [
+      "No accessibility statement reviewed in this screening; verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Site presents itself as an anonymous service; privacy and data-retention practices not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Australia-focused service — youth helpline context is Australia-specific. PeerChat is peer (not clinician) support. 'Ask ReachOut' is an AI chatbot: per SootheSpot's evidence-aware principle it must never be framed as a clinician or care provider, and its safety behavior is unverified here. Not a crisis service.",
+    "source_notes": [
+      "https://au.reachout.com/"
+    ],
+    "reason": "Screened 2026-10-10: official au.reachout.com confirmed live; publisher, free/anonymous/online scope, PeerChat peer-support offering, and the Ask ReachOut AI chatbot confirmed from the primary source. Owner judgment required on the AI-chatbot element before any promotion. Ready for owner review."
   }
 ]
