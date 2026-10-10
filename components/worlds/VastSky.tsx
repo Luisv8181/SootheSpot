@@ -9,6 +9,7 @@ import {
   MAX_MESSAGE_CHARS
 } from "@/domain/worlds/vastSkyText";
 import { SKY_SONGS, SKY_CONSTELLATIONS, FREE_NOTES } from "@/domain/worlds/vastSkyData";
+import { skyArtwork } from "./skyArtwork";
 import "./vastSky.css";
 
 const labels = {
@@ -114,7 +115,7 @@ export function VastSky({ language, paused, complete, still, onInteract }: {
 
   return (
     <div ref={rootRef} className={`vsky-root${still ? " vsky-still" : ""}`}>
-      <img src="/worlds/vast-sky.webp" className="vsky-photo" alt="" aria-hidden="true" draggable={false} />
+      <img src={skyArtwork.sky.src} className="vsky-photo" alt="" aria-hidden="true" draggable={false} />
       <canvas ref={canvasRef} className="vsky-canvas" aria-hidden="true" />
       <div className="vsky-scrim" aria-hidden="true" />
       <div className="vsky-vignette" aria-hidden="true" />
