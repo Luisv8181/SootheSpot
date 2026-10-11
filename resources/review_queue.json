@@ -1936,5 +1936,305 @@
   "source_notes": [
    "https://www.dougy.org/grief-support-resources"
   ]
+ },
+ {
+  "id": "tara-brach-guided-meditations",
+  "name": "Tara Brach Guided Meditations",
+  "publisher": "Tara Brach — clinical psychologist and meditation teacher (USA)",
+  "resource_type": "audio-library",
+  "official_url": "https://www.tarabrach.com/guided-meditations/",
+  "description": "Free guided-meditation library from clinical psychologist and meditation teacher Tara Brach: dozens of audio practices (~10–25 minutes) including mindfulness, body scan, loving-kindness (metta), and acceptance meditations, with new sessions published regularly (latest at screening: Oct 7, 2026). Donation-supported; no account required to stream.",
+  "tags": [
+   "meditation",
+   "mindfulness",
+   "guided-audio",
+   "loving-kindness",
+   "body-scan",
+   "free",
+   "independent-use"
+  ],
+  "intended_population": [
+   "general",
+   "adults"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "Global (online; US-based publisher)"
+  ],
+  "publisher_region": "US",
+  "platforms": [
+   "Web"
+  ],
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Mindfulness practices with Buddhist roots presented in secular clinical language; no cultural-adaptation claims found on the library page. Do not assume fit across cultural contexts.",
+   "source_notes": [
+    "https://www.tarabrach.com/guided-meditations/"
+   ]
+  },
+  "privacy_notes": "No account required to stream meditations. Data practices/privacy policy not reviewed in this screening.",
+  "evidence_notes": "Publisher is a clinical psychologist (PhD) and established meditation teacher; guided mindfulness practices are broadly evidence-supported, but the efficacy of specific recordings was not evaluated in this screening.",
+  "limitations": "Educational self-practice recordings, not clinical care. Meditation is not a substitute for crisis support; SootheSpot's deterministic safety pathway applies independently.",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "needs": [
+   "listen",
+   "calm",
+   "self-compassion"
+  ],
+  "shelf": "listen",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-10-10",
+  "reason": "Screened 2026-10-10: official library page fetched live this run (dozens of dated guided meditations, latest Oct 7, 2026); publisher, free no-account access, and global independent-use scope confirmed from the primary source. Ready for owner review before any promotion.",
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "screening_gaps": [],
+  "source_notes": [
+   "https://www.tarabrach.com/guided-meditations/"
+  ]
+ },
+ {
+  "id": "mycompass-black-dog",
+  "name": "myCompass (Black Dog Institute)",
+  "publisher": "Black Dog Institute (Sydney, Australia); development and delivery supported by the Australian Government Department of Health",
+  "resource_type": "online-course",
+  "official_url": "https://www.blackdoginstitute.org.au/resources-support/digital-tools-apps/mycompass/",
+  "description": "Free, confidential, self-guided online program for mild-to-moderate depression, anxiety, and stress (ages 18+, English readers): 14 evidence-based learning activities (CBT techniques) plus daily mood tracking with graphical feedback on patterns and triggers. Designed by Black Dog Institute researchers; RCT outcomes published in BMC Psychiatry; ~30 minutes/week suggested, seven-week commitment recommended for full benefit.",
+  "tags": [
+   "cbt",
+   "depression",
+   "anxiety",
+   "stress",
+   "mood-tracking",
+   "self-guided",
+   "free",
+   "independent-use",
+   "research-backed"
+  ],
+  "intended_population": [
+   "adults"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "Australia (developer/funder); program accessed online"
+  ],
+  "publisher_region": "AU",
+  "platforms": [
+   "Web"
+  ],
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Australian-developed; designed for English readers aged 18+. No cultural-adaptation claims found on the program page. Do not substitute for other regions' services.",
+   "source_notes": [
+    "https://www.blackdoginstitute.org.au/resources-support/digital-tools-apps/mycompass/"
+   ]
+  },
+  "privacy_notes": "Free sign-up required (described as confidential by the publisher); data-management terms not reviewed in this screening — verify data practices before any deeper integration.",
+  "evidence_notes": "Publisher cites an RCT (BMC Psychiatry) showing significant reductions in mild-to-moderate anxiety, depression, and stress symptoms over seven weeks. Trial details were not independently reviewed in this screening.",
+  "limitations": "For mild-to-moderate symptoms only; not a crisis service and not a substitute for professional care. Publisher advises speaking to a health professional if symptoms persist, worsen, or change unexpectedly. Ages 18+ only.",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "needs": [
+   "practice",
+   "anxiety",
+   "mood",
+   "stress"
+  ],
+  "shelf": "practice",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-10-10",
+  "reason": "Screened 2026-10-10: official Black Dog Institute program page fetched live this run; free access, 18+/mild-to-moderate scope, RCT backing, and Australian Government funding confirmed from the primary source. Ready for owner review before any promotion.",
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "screening_gaps": [],
+  "source_notes": [
+   "https://www.blackdoginstitute.org.au/resources-support/digital-tools-apps/mycompass/",
+   "https://www.mycompass.org.au/"
+  ]
+ },
+ {
+  "id": "beyond-blue",
+  "name": "Beyond Blue",
+  "publisher": "Beyond Blue (Melbourne, Australia) — Australian mental health organization",
+  "resource_type": "resource-hub",
+  "official_url": "https://www.beyondblue.org.au/",
+  "description": "Australian mental-health organization hub with free information and resources on anxiety, depression, and suicide prevention, plus 24/7 phone and online-chat counseling for people in Australia. The site carries an explicit notice that it is not a substitute for professional medical advice, diagnosis, or treatment.",
+  "tags": [
+   "information",
+   "anxiety",
+   "depression",
+   "support-services",
+   "australia",
+   "free",
+   "nonprofit"
+  ],
+  "intended_population": [
+   "general"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "Australia (support services are Australia-only; information content is globally readable)"
+  ],
+  "publisher_region": "AU",
+  "platforms": [
+   "Web"
+  ],
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Australian organization; content framed for the Australian community and service system. Do not substitute for other regions' support pathways.",
+   "source_notes": [
+    "https://www.beyondblue.org.au/"
+   ]
+  },
+  "privacy_notes": "Information content readable without an account. Counseling/chat services involve personal disclosure; their data practices were not reviewed in this screening.",
+  "evidence_notes": "Established Australian national mental-health organization. The evidence base of specific resources was not evaluated in this screening.",
+  "limitations": "Australia-scoped services: 24/7 counseling (1300 22 4636 / online chat) is available in Australia only. Information is educational, not a substitute for professional advice (stated on the site itself). SootheSpot is not a crisis service; SootheSpot's deterministic safety pathway applies independently.",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "needs": [
+   "understand",
+   "support",
+   "anxiety",
+   "mood"
+  ],
+  "shelf": "reach-out",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-10-10",
+  "reason": "Screened 2026-10-10: official homepage fetched live this run; publisher, free access, Australian scope, and the explicit not-a-substitute-for-professional-advice notice confirmed from the primary source. Support services are Australia-only — recorded in limitations. Ready for owner review before any promotion.",
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "screening_gaps": [],
+  "source_notes": [
+   "https://www.beyondblue.org.au/"
+  ]
+ },
+ {
+  "id": "action-for-happiness",
+  "name": "Action for Happiness — 10 Keys to Happier Living",
+  "publisher": "Action for Happiness (Registered Charity 1175160, England and Wales)",
+  "resource_type": "self-help-toolkit",
+  "official_url": "https://www.actionforhappiness.org/10-keys-to-happier-living",
+  "description": "Free evidence-informed wellbeing framework from UK charity Action for Happiness: 10 research-based keys (GREAT DREAM — Giving, Relating, Exercising, Awareness, Trying out, Direction, Resilience, Emotions, Acceptance, Meaning), each with science summaries, reflections, and practical daily actions. Free iOS/Android app with daily action nudges and a free '10 Days of Happiness' online program; no religious, political, or commercial affiliations.",
+  "tags": [
+   "wellbeing",
+   "positive-psychology",
+   "daily-practices",
+   "free",
+   "nonprofit",
+   "independent-use",
+   "uk"
+  ],
+  "intended_population": [
+   "general"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "Global (online; UK-registered charity)"
+  ],
+  "publisher_region": "GB",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "UK charity with global online membership; the 'happiness' framing may not translate across cultures — do not assume fit. No cultural-adaptation claims assessed in this screening.",
+   "source_notes": [
+    "https://www.actionforhappiness.org/10-keys-to-happier-living"
+   ]
+  },
+  "privacy_notes": "Framework content readable without purchase; app account/data practices not reviewed in this screening.",
+  "evidence_notes": "Charity states the 10 Keys are based on the latest research; specific studies were not reviewed in this screening. Not a clinical intervention.",
+  "limitations": "Wellbeing-promotion framework, not clinical care; not a crisis resource. Some Action for Happiness offerings (courses) may carry fees — this screening covers only the free 10 Keys materials, app, and online program. SootheSpot's deterministic safety pathway applies independently.",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "needs": [
+   "practice",
+   "mood"
+  ],
+  "shelf": "practice",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-10-10",
+  "reason": "Screened 2026-10-10: official 10 Keys page fetched live this run (GREAT DREAM framework, free app, free online program, charity registration 1175160 confirmed on the page). Ready for owner review before any promotion.",
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "screening_gaps": [],
+  "source_notes": [
+   "https://www.actionforhappiness.org/10-keys-to-happier-living",
+   "https://www.actionforhappiness.org/"
+  ]
  }
 ]
