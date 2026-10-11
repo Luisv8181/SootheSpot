@@ -4,7 +4,7 @@ import { breathPhaseAt, experienceSpecSchema } from "../domain/worlds/spec";
 
 describe("SootheSpot Worlds", () => {
   it("ships only valid allowlisted experience specs", () => {
-    expect(worlds.map((world) => world.id)).toEqual(["ocean-calm", "soft-focus", "grounding-garden", "ripple-field", "vast-sky"]);
+    expect(worlds.map((world) => world.id)).toEqual(["ocean-calm", "soft-focus", "grounding-garden", "ripple-field", "vast-sky", "quiet-rain"]);
     for (const world of worlds) {
       expect(experienceSpecSchema.parse(world)).toEqual(world);
       expect(world.provenance).toBe("soothespot");
@@ -16,6 +16,14 @@ describe("SootheSpot Worlds", () => {
   it("offers ocean breathing without a required hold", () => {
     const rhythm = worlds[0].activity.find((item) => item.type === "breathRhythm");
     expect(rhythm?.holdSeconds).toBe(0);
+  });
+
+  it("keeps rain glass interaction bound to its sensory world", () => {
+    const rain = worlds.find(world => world.id === "quiet-rain")!;
+    expect(rain.title.es).toBe("Lluvia tranquila");
+    expect(rain.activity.map(activity => activity.type)).toEqual(["ambientScene", "glassInteraction", "timer", "completion"]);
+    expect(experienceSpecSchema.safeParse({ ...rain, theme: "sky" }).success).toBe(false);
+    expect(experienceSpecSchema.safeParse({ ...rain, activity: worlds[4].activity }).success).toBe(false);
   });
 
   it("includes a bilingual experimental ripple activity", () => {

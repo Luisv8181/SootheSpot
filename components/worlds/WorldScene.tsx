@@ -3,13 +3,15 @@ import type { WorldId } from "@/domain/worlds/types";
 import { waterArtwork } from "./waterArtwork";
 import { atmosphereArtwork } from "./atmosphereArtwork";
 import { skyArtwork } from "./skyArtwork";
+import { rainArtwork } from "./rainArtwork";
 
 const artwork: Record<WorldId, StaticImageData> = {
   "ocean-calm": waterArtwork.ocean,
   "ripple-field": waterArtwork.pool,
   "soft-focus": atmosphereArtwork.focus,
   "grounding-garden": atmosphereArtwork.garden,
-  "vast-sky": skyArtwork.sky
+  "vast-sky": skyArtwork.sky,
+  "quiet-rain": rainArtwork.rain
 };
 
 export function WorldScene({ id }: { id: WorldId }) {

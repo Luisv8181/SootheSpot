@@ -28,3 +28,7 @@ Prompt: vertical night-sky photograph for a calm interactive experience, 9:16 po
 ## Soft Focus and Grounding Garden
 
 `focus-clearing.webp` and `garden-path.webp` are original 1536 × 1024 images generated with the built-in image-generation tool, visually reviewed and compressed locally to WebP. No user data was included. The focus light and sensory trail are separate, authored UI layers. Full prompts and provenance are recorded in [Atmosphere artwork notes](../../docs/superpowers/specs/2026-10-09-atmosphere-artwork.md).
+
+## Quiet Rain
+
+`quiet-rain.webp` and `quiet-rain-portrait.webp` are original landscape/portrait artwork generated with the built-in image-generation tool, reviewed and encoded locally to WebP. Full prompts and transformations are recorded in [Quiet Rain artwork notes](../../docs/plans/2026-10-11-quiet-rain-artwork.md). The drop refraction and condensation clearing are authored Canvas layers. Rain audio is locally synthesized filtered noise, not a recording. No personal information, runtime image service, audio download, microphone or interaction persistence is involved.
