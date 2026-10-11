@@ -2794,5 +2794,251 @@
     "source_notes": [
       "https://www.dbsalliance.org/"
     ]
+  },
+  {
+    "id": "clear-fear-app",
+    "name": "Clear Fear — Anxiety Support App (stem4)",
+    "publisher": "stem4 (UK teenage mental health charity)",
+    "resource_type": "mobile-app",
+    "official_url": "https://clearfear.stem4.org.uk/",
+    "description": "Free smartphone app helping children and young people manage symptoms of anxiety. Developed by clinical psychologist Dr. Nihara Krause with young people, it uses CBT strategies across three areas: calming the physical fear response (breathing, relaxation, mindfulness), changing anxious thoughts and behaviours, and releasing emotions. Includes anxiety psychoeducation, optional personalisation and progress tracking, a resilience 'grit box', signposting to emergency and national resources, and companion workbooks/school programme (Clear Fear for Schools).",
+    "tags": [
+      "anxiety",
+      "cbt",
+      "breathing",
+      "relaxation",
+      "mindfulness",
+      "young-people",
+      "teens",
+      "free",
+      "ios",
+      "android",
+      "resilience"
+    ],
+    "intended_population": [
+      "children-and-young-people",
+      "teens"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "regions": [
+      "United Kingdom (charity base; signposted national resources are UK-specific); app-store availability outside the UK not verified in this screening"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Developed in collaboration with young people; CBT-based framework. No stated cultural-adaptation process. Recommended for ages 11–19 (younger children with parent/carer support).",
+      "source_notes": [
+        "https://clearfear.stem4.org.uk/"
+      ]
+    },
+    "privacy_notes": "App data practices and account requirements were not reviewed in this screening.",
+    "evidence_notes": "Publisher page references a peer-reviewed JMIR Formative Research study reporting anxiety/depression reductions in young users; the study itself was not read in this screening. Publisher frames the app as an aid in treatment, not a replacement.",
+    "limitations": "Aid in treatment, not a replacement for assessment and ongoing care; stem4 states it does not provide a counselling service. Aimed at children/young people, not adults. Signposting resources are UK-oriented. English-language content.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "anxiety",
+      "calm"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-11",
+    "reason": "Screened 2026-10-11: official clearfear.stem4.org.uk homepage fetched live this run (charity publisher, CBT basis, free app, aid-in-treatment framing, JMIR study mention confirmed). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "app-store listings/ratings not checked",
+      "data practices not reviewed",
+      "JMIR study not read; evidence claim unverified beyond the publisher page",
+      "'free*' asterisk meaning on the page not confirmed"
+    ],
+    "source_notes": [
+      "https://clearfear.stem4.org.uk/"
+    ]
+  },
+  {
+    "id": "breathe2relax",
+    "name": "Breathe2Relax",
+    "publisher": "Defense Health Agency (U.S. Department of Defense)",
+    "resource_type": "mobile-app",
+    "official_url": "https://staging-mobile.health.mil/Apps/PWA-Apps/Breathe2Relax",
+    "description": "Portable stress-management app teaching diaphragmatic breathing: explains the effects of stress on the body and provides instructions plus guided practice exercises. Breathing exercises are documented by the publisher to decrease the fight-or-flight response and help with mood stabilization, anger control, and anxiety management. Usable stand-alone or alongside care directed by a healthcare worker. Integrates with Apple Watch/HealthKit to track heart rate during exercises. Listing shows version 4.0.50-QA, last updated 2025-08-08, 40.1 MB.",
+    "tags": [
+      "stress",
+      "breathing",
+      "diaphragmatic-breathing",
+      "anger",
+      "anxiety",
+      "mood",
+      "biofeedback",
+      "free",
+      "ios",
+      "android"
+    ],
+    "intended_population": [
+      "adults",
+      "service-members-and-veterans",
+      "general-public"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "regions": [
+      "United States (offered by the Defense Health Agency); app-store availability and any eligibility restrictions not verified in this screening"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Developed by a U.S. military health agency; originally for service members but publicly listed. No stated cultural-adaptation process.",
+      "source_notes": [
+        "https://staging-mobile.health.mil/Apps/PWA-Apps/Breathe2Relax"
+      ]
+    },
+    "privacy_notes": "Data practices were not reviewed in this screening, including HealthKit/heart-rate data handling.",
+    "evidence_notes": "Publisher documents effects of the diaphragmatic-breathing technique (reduced fight-or-flight response); no app-specific efficacy claims were made or assessed in this screening.",
+    "limitations": "A stress-management skill tool, not therapy and not a crisis service. Military-origin design; civilian appropriateness and any eligibility limits not confirmed. Evidence cited is for the breathing technique, not the app itself. Heart-rate feature is Apple Watch/iOS-specific.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "stress",
+      "calm"
+    ],
+    "shelf": "breathe",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-11",
+    "reason": "Screened 2026-10-11: official Mobile.Health.Mil listing fetched live this run (DHA as offerer, diaphragmatic-breathing focus, version 4.0.50-QA updated 2025-08-08 confirmed). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "app-store pages not opened to verify current availability/ratings",
+      "data practices (incl. HealthKit heart-rate data) not reviewed",
+      "free/price status not stated on the listing page itself (free per DoD news coverage)",
+      "civilian eligibility not confirmed"
+    ],
+    "source_notes": [
+      "https://staging-mobile.health.mil/Apps/PWA-Apps/Breathe2Relax"
+    ]
+  },
+  {
+    "id": "combined-minds-app",
+    "name": "Combined Minds — Supporting a Young Person's Mental Health (stem4)",
+    "publisher": "stem4 (UK teenage mental health charity)",
+    "resource_type": "mobile-app",
+    "official_url": "https://combinedminds.stem4.org.uk/",
+    "description": "Free app for families and friends supporting a young person with mental health difficulties. Developed by consultant clinical psychologist Dr. Nihara Krause using a strengths-based approach: helps supporters identify the young person's strengths, suggests focus areas and practical activities by condition, records what has worked as prompts for future need, signposts to helpful services, and offers support for the supporter themselves. Publisher frames it as an aid in treatment and encourages the young person to see their GP.",
+    "tags": [
+      "family-support",
+      "friends-and-family",
+      "parents-and-carers",
+      "teens",
+      "strengths-based",
+      "free",
+      "ios",
+      "android"
+    ],
+    "intended_population": [
+      "parents-and-carers",
+      "friends-and-family",
+      "supporters-of-young-people"
+    ],
+    "use_context": [
+      "with-support",
+      "independent-use"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "regions": [
+      "United Kingdom (charity base; GP signposting is UK-specific); availability outside the UK not verified in this screening"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Strengths-based, recovery-oriented framing; no stated cultural-adaptation process. For supporters of young people aged 11+.",
+      "source_notes": [
+        "https://combinedminds.stem4.org.uk/"
+      ]
+    },
+    "privacy_notes": "App data practices and account requirements were not reviewed in this screening.",
+    "evidence_notes": "Developer describes the strengths-based approach as shown effective in recovery; no app-specific outcome study was verified in this screening.",
+    "limitations": "Designed for the supporter's use, not direct self-help for the young person. Aid in treatment, not a diagnostic tool or replacement for professional assessment and intervention. GP/service signposting is UK-specific. English-language content.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "find support",
+      "support"
+    ],
+    "shelf": "reach-out",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-11",
+    "reason": "Screened 2026-10-11: official combinedminds.stem4.org.uk homepage fetched live this run (charity publisher, strengths-based approach, free app, aid-in-treatment framing, GP signposting confirmed). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "app-store listings/ratings not checked",
+      "data practices not reviewed",
+      "outcome evidence for the app itself not found"
+    ],
+    "source_notes": [
+      "https://combinedminds.stem4.org.uk/"
+    ]
   }
 ]
