@@ -3291,5 +3291,248 @@
     "source_notes": [
       "https://howwefeel.org/"
     ]
+  },
+  {
+    "id": "finch-self-care-pet",
+    "name": "Finch — Self Care Pet (Finch Care PBC)",
+    "publisher": "Finch Care PBC (US public benefit corporation; per official about page)",
+    "resource_type": "mobile-app",
+    "official_url": "https://finchcare.com/",
+    "description": "Self-care companion app built around a virtual pet bird: users set small daily goals and write reflections; caring for themselves feeds their Finch. Includes breathing exercises, a 'First Aid' kit with grounding exercises for overwhelm, mood check-ins, and 50+ self-care 'Journeys'. Core features free, no ads; Finch Plus is an optional paid subscription for extra content and customization. 500k+ ratings cited on the official site.",
+    "tags": [
+      "self-care",
+      "habit-building",
+      "journaling",
+      "mood-tracking",
+      "breathing-exercises",
+      "grounding",
+      "free",
+      "freemium",
+      "ios",
+      "android"
+    ],
+    "intended_population": [
+      "general-public"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "regions": [
+      "Availability by region not verified in this screening"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free",
+      "paid-optional"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No stated cultural-adaptation process for the app's content was found on the reviewed pages.",
+      "source_notes": [
+        "https://finchcare.com/about-finch"
+      ]
+    },
+    "privacy_notes": "Privacy policy not independently reviewed in this screening; second-hand review sites report reflections stored on device, not verified against the policy here.",
+    "evidence_notes": "No app-level outcome studies verified in this screening; store-rating popularity is not efficacy evidence.",
+    "limitations": "Freemium model: Finch Plus (approx $9.99/mo or $69.99/yr per review sites; check in-app for current price) adds journeys, soundscapes, and customization — core loop stays free. Gamified reward loop can create streak/completion pressure; flag against SootheSpot's no-streaks principle. English-language content per the reviewed page. Not therapy or crisis support. Light AI used for journaling prompts per review sites, not verified on official pages.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "practice",
+      "mood",
+      "understand"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-11",
+    "reason": "Screened 2026-10-11: official finchcare.com homepage + about page fetched live this run (Finch Care PBC publisher, free core features, Finch Plus optional, breathing/grounding content confirmed). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not independently reviewed",
+      "app-level outcome evidence not verified",
+      "regional store availability not verified",
+      "in-app pricing not checked against store listings",
+      "AI features not verified on official pages"
+    ],
+    "source_notes": [
+      "https://finchcare.com/",
+      "https://finchcare.com/about-finch"
+    ]
+  },
+  {
+    "id": "rootd-panic-relief",
+    "name": "Rootd — Panic Attack & Anxiety Relief",
+    "publisher": "Not confirmed from the reviewed page (site presents only as 'the Rootd team'; full publisher and company details not visible on rootd.io homepage)",
+    "resource_type": "mobile-app",
+    "official_url": "https://rootd.io/",
+    "description": "Panic-attack and anxiety relief app. A large red-button 'Rootr' feature offers two in-the-moment paths: face a panic attack head-on or find comfort quickly. Also includes an 'Understanding' psychoeducation section (where anxiety comes from, how panic attacks work), short-term relief lessons, and long-term lessons aimed at changing the user's relationship with anxiety. Testimonials and endorsements from a psychologist and a licensed counsellor are quoted on the homepage.",
+    "tags": [
+      "anxiety",
+      "panic-attacks",
+      "grounding",
+      "psychoeducation",
+      "free",
+      "ios",
+      "android"
+    ],
+    "intended_population": [
+      "general-public"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "regions": [
+      "Availability by region not verified in this screening"
+    ],
+    "platforms": [
+      "iOS/Android per app-store presence referenced on the official site (not separately verified)"
+    ],
+    "access": [
+      "free-download",
+      "full-tier pricing not verified"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No stated cultural-adaptation process for the app's content was found on the reviewed page.",
+      "source_notes": [
+        "https://rootd.io/"
+      ]
+    },
+    "privacy_notes": "Privacy policy not reviewed in this screening.",
+    "evidence_notes": "No peer-reviewed outcome studies verified in this screening; endorsements on the homepage are testimonials, not efficacy evidence.",
+    "limitations": "Publisher/company identity not confirmed on the reviewed page — verify before any promotion. Full feature-tier pricing not stated on the reviewed page. Targeted at panic and anxiety; not a substitute for clinical care. In-the-moment crisis-safety copy should be checked against SootheSpot's deterministic safety pathway before listing.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "calm",
+      "ground",
+      "cope"
+    ],
+    "shelf": "breathe",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-11",
+    "reason": "Screened 2026-10-11: official rootd.io homepage fetched live this run (Rootr in-the-moment feature, understanding/short-term/long-term sections confirmed). Publisher and pricing not confirmed — recorded as screening gaps. Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "publisher/company identity not confirmed on official pages",
+      "privacy policy not reviewed",
+      "full-tier pricing not stated on reviewed page",
+      "app-level outcome evidence not verified",
+      "regional store availability not verified"
+    ],
+    "source_notes": [
+      "https://rootd.io/"
+    ]
+  },
+  {
+    "id": "blueice-nhs-app",
+    "name": "BlueIce — Evidence-Based App for Managing Emotions & Self-Harm Urges (Oxford Health NHS)",
+    "publisher": "Oxford Health NHS Foundation Trust; developed by Prof. Paul Stallard (Clinical Psychologist, University of Bath), co-produced with young people with lived experience of self-harm",
+    "resource_type": "mobile-app",
+    "official_url": "https://oxfordhealth.nhs.uk/blueice/",
+    "description": "Prescribed evidence-based app to help young people manage emotions and reduce urges to self-harm. Includes a mood diary, a toolbox of evidence-based techniques to reduce distress, and automatic routing to emergency numbers if urges to harm continue.",
+    "tags": [
+      "youth",
+      "emotion-regulation",
+      "self-harm-urge-management",
+      "mood-diary",
+      "evidence-based",
+      "nhs",
+      "ios",
+      "android",
+      "emergency-routing"
+    ],
+    "intended_population": [
+      "young-people"
+    ],
+    "use_context": [
+      "independent-use",
+      "clinical-pathway (described as prescribed)"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "regions": [
+      "UK NHS context (per the reviewed page)"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "pricing not stated on the reviewed NHS page"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK NHS youth service context; co-produced with young people with lived experience. No stated wider cultural-adaptation process found on the reviewed page.",
+      "source_notes": [
+        "https://oxfordhealth.nhs.uk/blueice/"
+      ]
+    },
+    "privacy_notes": "Privacy policy not reviewed in this screening.",
+    "evidence_notes": "Described as 'evidence-based' and 'prescribed' by the NHS Trust; the underlying trials and publications were not verified in this screening.",
+    "limitations": "Youth-focused (not designed for adults). Self-harm-urge content: listing must route through SootheSpot's deterministic safety pathway before any use — the app's own emergency-routing behavior should be confirmed in-app. Pricing/access route not stated on the reviewed page. UK regional context may not transfer elsewhere (do not substitute US crisis pathways).",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "calm",
+      "cope",
+      "ground"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-11",
+    "reason": "Screened 2026-10-11: official Oxford Health NHS page fetched live this run (prescribed evidence-based app, mood diary + distress-reduction toolbox + emergency routing, youth population confirmed). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "underlying trial publications not verified",
+      "pricing/access route not stated on reviewed page",
+      "in-app emergency-routing behavior not confirmed"
+    ],
+    "source_notes": [
+      "https://oxfordhealth.nhs.uk/blueice/"
+    ]
   }
 ]
