@@ -2556,5 +2556,243 @@
     "source_notes": [
       "https://www.mynoise.net/"
     ]
+  },
+  {
+    "id": "seven-cups-online-support",
+    "name": "7 Cups",
+    "publisher": "7 Cups",
+    "resource_type": "resource-hub",
+    "official_url": "https://www.7cups.com/",
+    "description": "Free 24/7 anonymous online chat with trained volunteer listeners for emotional support, plus peer support groups and forums (depression, anxiety, relationships, LGBTQ+), a teen (13-17) community, and self-help guides and growth paths. A separate paid service offers chat sessions with licensed therapists.",
+    "tags": [
+      "peer-support",
+      "chat",
+      "listeners",
+      "support-groups",
+      "teens",
+      "self-help-guides",
+      "free",
+      "web",
+      "mobile",
+      "with-support"
+    ],
+    "intended_population": [
+      "general",
+      "teens-13-17"
+    ],
+    "use_context": [
+      "with-support",
+      "independent-use"
+    ],
+    "languages": [
+      "English (site interface and chat per the reviewed page)"
+    ],
+    "regions": [
+      "Global (web-based)"
+    ],
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free",
+      "paid"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Peer-support community with listeners and forums across many countries; no stated cultural-adaptation process. Site content and chat reviewed page are English-language.",
+      "source_notes": [
+        "https://www.7cups.com/"
+      ]
+    },
+    "privacy_notes": "Anonymous chat advertised on the publisher page; account requirements and data practices were not reviewed in this screening.",
+    "evidence_notes": "Listeners are trained volunteers offering emotional support, not professionals; the peer-listener model's effectiveness is not assessed here. Site marketing claims ('proven', 'most awarded') are recorded as claims, not verified facts.",
+    "limitations": "Volunteer listeners are not professionals and not a substitute for therapy. 7 Cups states it is not a crisis or emergency service — distress requiring immediate help must use SootheSpot's deterministic safety pathway instead. Paid licensed-therapy service is a separate product. Support quality and listener availability vary.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "find support",
+      "calm",
+      "understand"
+    ],
+    "shelf": "reach-out",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-11",
+    "reason": "Screened 2026-10-11: official 7cups.com homepage fetched live this run (free anonymous 24/7 listener chat, support groups, teen support, self-help guides confirmed; paid therapist service noted as separate). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "listener training curriculum depth not independently confirmed",
+      "account/data practices not reviewed"
+    ],
+    "source_notes": [
+      "https://www.7cups.com/"
+    ]
+  },
+  {
+    "id": "mindful-org",
+    "name": "Mindful",
+    "publisher": "Mindful (publishers of Mindful magazine)",
+    "resource_type": "article-library",
+    "official_url": "https://www.mindful.org/",
+    "description": "Free mindfulness articles, meditation practices, and guided meditations from Mindful magazine's editors and contributors (breath awareness, loving-kindness, mindful walking, practices for kids and teens). A selection of articles is paywalled as 'Premium'; the print magazine, retreats, and courses are commercial products.",
+    "tags": [
+      "mindfulness",
+      "meditation",
+      "articles",
+      "guided-meditation",
+      "free",
+      "web",
+      "read"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "regions": [
+      "Global (web-based; US-based publisher)"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "access": [
+      "free",
+      "paid"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Mindfulness practices drawn from multiple teachers and traditions; no stated cultural-adaptation or localization process. Content reviewed was English-language.",
+      "source_notes": [
+        "https://www.mindful.org/"
+      ]
+    },
+    "privacy_notes": "Free articles readable without an account per the reviewed page; newsletter signup offered. Data practices were not reviewed in this screening.",
+    "evidence_notes": "General mindfulness practice; individual articles do not present clinical claims that were evaluated. Recorded as educational/self-care content.",
+    "limitations": "Educational/self-care articles, not clinical care; no crisis or professional-support offering. Some articles require a Premium subscription. English-language content only per the reviewed page.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "read",
+      "calm",
+      "practice"
+    ],
+    "shelf": "read",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-11",
+    "reason": "Screened 2026-10-11: official mindful.org fetched live this run (free mindfulness articles and guided meditations confirmed; Premium paywall and magazine/events commerce noted). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "exact legal publisher entity name not read from the site footer",
+      "data practices not reviewed"
+    ],
+    "source_notes": [
+      "https://www.mindful.org/"
+    ]
+  },
+  {
+    "id": "dbsa-peer-support",
+    "name": "Depression and Bipolar Support Alliance (DBSA)",
+    "publisher": "Depression and Bipolar Support Alliance",
+    "resource_type": "resource-hub",
+    "official_url": "https://www.dbsalliance.org/",
+    "description": "US nonprofit providing free peer-led in-person and online support groups for people living with depression or bipolar disorder, plus separate groups for friends and family. Free wellness tools on the site include the DBSA Wellness Wheel, Wellness Tracker, and the Mood Crew program for kids and families; the site also hosts virtual peer-support workshops.",
+    "tags": [
+      "peer-support",
+      "support-groups",
+      "mood-disorders",
+      "depression",
+      "bipolar",
+      "wellness-tools",
+      "free",
+      "web",
+      "with-support"
+    ],
+    "intended_population": [
+      "adults-with-mood-disorders",
+      "friends-and-family",
+      "kids-and-families"
+    ],
+    "use_context": [
+      "with-support",
+      "independent-use"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "regions": [
+      "United States (support-group network); online content globally readable"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Peer-led groups by shared lived experience; no stated cultural-adaptation process. In-person chapter network is US-based; virtual offerings are online.",
+      "source_notes": [
+        "https://www.dbsalliance.org/"
+      ]
+    },
+    "privacy_notes": "Support groups and wellness tools are free per the publisher page; registration/account details and data practices were not reviewed in this screening.",
+    "evidence_notes": "Peer-support model with trained peer facilitators; the wellness tools are self-tracking and reflection aids, recorded as described, not as clinical instruments.",
+    "limitations": "Peer-led support, not professional care; not a crisis service. Support-group network is US-focused — availability outside the US not confirmed in this screening. Mood Crew is designed for use with trusted adults. Serves mood disorders specifically, not general emotional distress.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "find support",
+      "understand"
+    ],
+    "shelf": "reach-out",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-11",
+    "reason": "Screened 2026-10-11: official dbsalliance.org homepage fetched live this run (nonprofit status, free peer support groups, Wellness Wheel/Tracker, Mood Crew, virtual workshops confirmed). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "exact group-meeting schedule/availability not checked",
+      "data practices not reviewed"
+    ],
+    "source_notes": [
+      "https://www.dbsalliance.org/"
+    ]
   }
 ]
