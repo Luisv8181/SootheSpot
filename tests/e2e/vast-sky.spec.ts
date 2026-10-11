@@ -20,7 +20,10 @@ test("short screens retain tappable sky controls and scrollable session controls
     await expect(
       page.getByRole("textbox", { name: "write it in stars", exact: true }),
     ).toBeFocused();
-    await page.keyboard.press("Escape");
+    await page
+      .getByRole("textbox", { name: "write it in stars", exact: true })
+      .fill("I");
+    await page.getByRole("button", { name: "trace it ✦", exact: true }).click();
     await page
       .getByRole("button", { name: "Trace next star", exact: true })
       .click({ timeout: 2000 });
@@ -29,6 +32,21 @@ test("short screens retain tappable sky controls and scrollable session controls
       "data-traced",
       "1",
     );
+    await page.getByRole("button", { name: "Resume", exact: true }).click();
+    const next = page.getByRole("button", {
+      name: "Trace next star",
+      exact: true,
+    });
+    for (let i = 0; i < 20 && (await next.isVisible()); i++)
+      await next.press("Enter");
+    const again = page.getByRole("button", {
+      name: "Trace again",
+      exact: true,
+    });
+    await expect(again).toBeVisible();
+    const guide = await page.getByRole("status").boundingBox();
+    const control = await again.boundingBox();
+    expect(guide!.y + guide!.height).toBeLessThan(control!.y);
   }
 });
 
@@ -88,6 +106,12 @@ test("session completion stops the sky and reset makes it available again", asyn
     "data-rendering",
     "paused",
   );
+  await expect(page.getByRole("status")).toContainText(
+    "Your pause is complete",
+  );
+  await expect(
+    page.getByText("Ready when you are", { exact: true }),
+  ).not.toBeVisible();
   await page.getByRole("button", { name: "Reset", exact: true }).click();
   await expect(next).toBeEnabled();
   await expect(page.locator(".vsky-root")).toHaveAttribute("data-traced", "0");
@@ -386,15 +410,22 @@ test("a trace ends with rest and does not autoplay another round or save words",
     .getByRole("textbox", { name: "write it in stars", exact: true })
     .fill("I");
   await page.getByRole("button", { name: "trace it ✦", exact: true }).click();
+  const firstStar = await page
+    .getByRole("button", { name: "Trace next star", exact: true })
+    .boundingBox();
   await page
     .getByRole("button", { name: "autoplay the current sky", exact: true })
     .click();
   await expect(
     page.getByRole("button", { name: "Trace again", exact: true }),
   ).toBeVisible({ timeout: 10000 });
+  const restart = await page
+    .getByRole("button", { name: "Trace again", exact: true })
+    .boundingBox();
+  expect(restart!.y + restart!.height).toBeLessThan(firstStar!.y);
   await expect(
     page.getByRole("button", { name: "autoplay the current sky", exact: true }),
-  ).toHaveAttribute("aria-pressed", "false");
+  ).toHaveCount(0);
   const traced = await page.locator(".vsky-root").getAttribute("data-traced");
   await page.waitForTimeout(1000);
   await expect(page.locator(".vsky-root")).toHaveAttribute(

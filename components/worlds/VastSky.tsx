@@ -31,6 +31,7 @@ const labels = {
     next: "Trace next star",
     follow: "Trace the warm ring at your pace.",
     rest: "Let your hand rest, if comfortable. Stay here as long as you like.",
+    complete: "Your pause is complete. Stay here as long as you like.",
     again: "Trace again",
     settingsTitle: "Sound and touch settings",
     sound: "Sky sound",
@@ -41,8 +42,7 @@ const labels = {
     supported:
       "English and accented Latin letters are supported. Up to 48 characters.",
     audioError: "Sound is unavailable. You can keep tracing silently.",
-    fallback:
-      "The animated sky is unavailable. You can still trace with the next-star button.",
+    fallback: "Stars unavailable. Use the next-star button to trace.",
     autoNote: "Watching one trace. Touch the sky to take over.",
     close: "Done",
   },
@@ -66,6 +66,7 @@ const labels = {
     next: "Trazar la siguiente estrella",
     follow: "Sigue el aro cálido a tu ritmo.",
     rest: "Deja descansar la mano, si te resulta cómodo. Puedes quedarte aquí.",
+    complete: "Tu pausa ha terminado. Puedes quedarte aquí.",
     again: "Trazar de nuevo",
     settingsTitle: "Ajustes de sonido y tacto",
     sound: "Sonido del cielo",
@@ -76,7 +77,7 @@ const labels = {
     audioError:
       "El sonido no está disponible. Puedes seguir trazando en silencio.",
     fallback:
-      "El cielo animado no está disponible. Puedes usar el botón de la siguiente estrella.",
+      "El cielo no está disponible. Traza con el botón de la siguiente estrella.",
     autoNote: "Una sola pasada. Toca el cielo para tomar el control.",
     close: "Listo",
   },
@@ -284,13 +285,15 @@ export function VastSky({
             (language === "es" ? "TUS PALABRAS" : "YOUR WORDS")}
         </div>
         <div className="vsky-guide" id="sky-trace-instructions" role="status">
-          {graphicsError
-            ? t.fallback
-            : state?.finished
-              ? t.rest
-              : state?.auto
-                ? t.autoNote
-                : t.follow}
+          {complete
+            ? t.complete
+            : graphicsError
+              ? t.fallback
+              : state?.finished
+                ? t.rest
+                : state?.auto
+                  ? t.autoNote
+                  : t.follow}
         </div>
         <div className="vsky-dock">
           <svg
@@ -355,15 +358,25 @@ export function VastSky({
             >
               {t.write}
             </button>
-            <button
-              className="vsky-btn"
-              aria-label={t.autoAria}
-              aria-pressed={state?.auto ?? false}
-              disabled={blocked || still || graphicsError}
-              onClick={() => engine.current?.toggleAuto()}
-            >
-              {state?.auto ? t.stop : t.auto}
-            </button>
+            {state?.finished ? (
+              <button
+                className="vsky-btn"
+                disabled={blocked}
+                onClick={() => engine.current?.restart()}
+              >
+                {t.again}
+              </button>
+            ) : (
+              <button
+                className="vsky-btn"
+                aria-label={t.autoAria}
+                aria-pressed={state?.auto ?? false}
+                disabled={blocked || still || graphicsError}
+                onClick={() => engine.current?.toggleAuto()}
+              >
+                {state?.auto ? t.stop : t.auto}
+              </button>
+            )}
             <button className="vsky-btn" onClick={() => setSettings(true)}>
               {t.settings}
             </button>
@@ -397,22 +410,6 @@ export function VastSky({
           >
             {graphicsError ? t.next : <span aria-hidden="true">✦</span>}
           </button>
-        )}
-        {state?.finished && (
-          <div className="vsky-caption">
-            <p>
-              {state.station.id === "custom"
-                ? state.message
-                : state.station[language]}
-            </p>
-            <button
-              className="vsky-btn"
-              disabled={blocked}
-              onClick={() => engine.current?.restart()}
-            >
-              {t.again}
-            </button>
-          </div>
         )}
       </div>
       {modal && createPortal(modal, document.body)}
