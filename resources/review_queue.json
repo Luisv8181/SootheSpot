@@ -3040,5 +3040,256 @@
     "source_notes": [
       "https://combinedminds.stem4.org.uk/"
     ]
+  },
+  {
+    "id": "medito-app",
+    "name": "Medito — Free Meditation & Sleep App (Medito Foundation)",
+    "publisher": "Medito Foundation (registered nonprofit, Stichting Medito, Netherlands)",
+    "resource_type": "mobile-app",
+    "official_url": "https://meditofoundation.org/medito-app/",
+    "description": "Free-forever guided meditation and mindfulness app from a registered nonprofit. Hundreds of guided meditations, sleep stories and sounds, mindfulness courses (beginner to advanced, 30-day challenges), daily sessions, breathing exercises, and an unguided timer. No ads, no paywalls, no premium tier, and no account required; the code is open source (AGPL). Publisher reports 4.1M+ downloads across 190+ countries.",
+    "tags": [
+      "mindfulness",
+      "meditation",
+      "sleep",
+      "breathing",
+      "free",
+      "open-source",
+      "nonprofit",
+      "ios",
+      "android"
+    ],
+    "intended_population": [
+      "general-public",
+      "beginners-to-advanced"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English (per the reviewed page; other-language content not assessed in this screening)"
+    ],
+    "regions": [
+      "Global (publisher reports 190+ countries; store availability per region not verified in this screening)"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No stated cultural-adaptation process; content developed with mindfulness researchers and teachers per publisher.",
+      "source_notes": [
+        "https://meditofoundation.org/medito-app/"
+      ]
+    },
+    "privacy_notes": "Publisher states no account is required and the code is open source with 'no dark patterns, no hidden tracking'; the privacy policy itself was not reviewed in this screening.",
+    "evidence_notes": "Publisher cites a 2024 RCT (Remskar et al., 2024) as showing wellbeing improvements; the paper was not read in this screening, so the claim is recorded as publisher-reported only.",
+    "limitations": "Wellness tool, not a treatment for clinical conditions and not a replacement for professional help. App-store download still requires a platform account. 2024 RCT claim not independently read here.",
+    "license_notes": "External resource. SootheSpot stores metadata only. App code is AGPL; content license not assessed.",
+    "needs": [
+      "calm",
+      "sleep",
+      "stress",
+      "anxiety",
+      "practice"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-11",
+    "reason": "Screened 2026-10-11: official meditofoundation.org/medito-app/ fetched live this run (registered nonprofit publisher, free-forever/no-ads/no-account confirmed, course/sleep/breathing content confirmed). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not independently reviewed",
+      "Remskar et al. 2024 RCT paper not read",
+      "non-English content availability not assessed",
+      "app-store listings/ratings not checked"
+    ],
+    "source_notes": [
+      "https://meditofoundation.org/medito-app/"
+    ]
+  },
+  {
+    "id": "moodmission-app",
+    "name": "MoodMission — Evidence-Based Missions for Low Mood & Anxiety",
+    "publisher": "MoodMission Pty Ltd (founded by clinical psychologist Dr David Bakker; originated from Monash University MICCN research with Assoc Prof Nikki Rickard)",
+    "resource_type": "mobile-app",
+    "official_url": "https://moodmission.com/",
+    "description": "CBT-based app for coping with low mood, stress, depression, and anxiety. You tell the app how you are feeling and it returns a tailored list of 5 quick, achievable 'Missions' drawn from evidence-based strategies — mindfulness meditations, relaxation, exercise, affirmations and coping statements, behavioral activation, yoga, gratitude. A mission log tracks progress and the app learns which mission types work best for you; the publisher explicitly frames it as not a replacement for professional help.",
+    "tags": [
+      "cbt",
+      "mood",
+      "anxiety",
+      "behavioral-activation",
+      "missions",
+      "evidence-based",
+      "ios",
+      "android",
+      "in-app-purchases"
+    ],
+    "intended_population": [
+      "adults-experiencing-low-mood-or-anxiety",
+      "general-public"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "languages": [
+      "English (per the reviewed store listing)"
+    ],
+    "regions": [
+      "Australia (publisher base); available on the US App Store; availability elsewhere not verified in this screening"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free",
+      "in-app-purchases"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Australian-developed from university research; no stated cultural-adaptation process.",
+      "source_notes": [
+        "https://moodmission.com/",
+        "https://www.monash.edu/monash-innovation/news/success-stories/moodmission"
+      ]
+    },
+    "privacy_notes": "App data practices and account requirements were not reviewed in this screening.",
+    "evidence_notes": "Store listing cites an RCT (Bakker et al., 2019) plus two further peer-reviewed studies as showing improved mental health and wellbeing; papers not read in this screening, so recorded as publisher-reported only.",
+    "limitations": "Free download but full content is paywalled: subscriptions $4.99/3 months or $11.99/12 months and $4.99 one-off packs (App Store, checked 2026-10-11). Last app update was v1.7.2 (2023-11) — maintenance currency is a screening flag. English only. Not a replacement for professional help (publisher's own framing).",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "mood",
+      "anxiety",
+      "stress",
+      "practice"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-11",
+    "reason": "Screened 2026-10-11: official moodmission.com homepage and the App Store listing fetched live this run (publisher identity, CBT missions model, and current pricing confirmed; no update since 2023 flagged). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "RCT papers not read",
+      "mission content not reviewed first-hand",
+      "privacy policy not reviewed",
+      "Google Play listing not checked"
+    ],
+    "source_notes": [
+      "https://moodmission.com/",
+      "https://apps.apple.com/us/app/moodmission/id1140332763",
+      "https://www.monash.edu/monash-innovation/news/success-stories/moodmission"
+    ]
+  },
+  {
+    "id": "how-we-feel-app",
+    "name": "How We Feel — Emotion Check-In Journal (The How We Feel Project)",
+    "publisher": "The How We Feel Project, Inc. (US scientific nonprofit, founded 2020; product team led by Pinterest co-founder Ben Silbermann; scientific team led by Dr Marc Brackett, Yale Center for Emotional Intelligence)",
+    "resource_type": "mobile-app",
+    "official_url": "https://howwefeel.org/",
+    "description": "Free emotion check-in journal built with scientists, designers, engineers, and psychologists. Helps users learn precise words for what they feel via an updated Mood Meter, spot emotion trends and patterns over time, practice research-based regulation strategies in the moment, and follow a mini course on emotions. Nonprofit, donor-funded; positioned for emotional self-awareness rather than diagnosis or treatment.",
+    "tags": [
+      "emotional-awareness",
+      "emotion-regulation",
+      "mood-tracking",
+      "journaling",
+      "free",
+      "nonprofit",
+      "ios",
+      "android",
+      "research-backed"
+    ],
+    "intended_population": [
+      "general-public",
+      "families-and-educators"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "regions": [
+      "Availability by region not verified in this screening (US nonprofit base)"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Built on the Yale RULER/Mood Meter emotion-science lineage (school-adopted SEL framework); no stated cultural-adaptation process for the app itself.",
+      "source_notes": [
+        "https://howwefeel.org/"
+      ]
+    },
+    "privacy_notes": "Nonprofit, donor-funded model stated; app data practices and account requirements were not reviewed in this screening.",
+    "evidence_notes": "Lineage is Brackett's peer-reviewed Mood Meter / RULER work; app-level outcome evidence was not verified in this screening.",
+    "limitations": "Self-report emotion tracking — supports awareness, not assessment or treatment. Requires an app-store download (platform account). English-language content. Do not confuse with the project's retired 2020 COVID symptom-survey app of the same name.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "understand",
+      "mood",
+      "practice"
+    ],
+    "shelf": "understand-yourself",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-11",
+    "reason": "Screened 2026-10-11: official howwefeel.org fetched live this run (nonprofit publisher, free emotion journal, Mood Meter / Yale scientific team confirmed). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not independently reviewed",
+      "app-level outcome evidence not verified",
+      "app-store listings/ratings not checked",
+      "regional store availability not verified"
+    ],
+    "source_notes": [
+      "https://howwefeel.org/"
+    ]
   }
 ]
