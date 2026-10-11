@@ -239,6 +239,27 @@ test("vast sky world opens, takes a custom message, and switches stations", asyn
 
   await sky.getByRole("button", { name: "Start" }).click();
 
+  // visual smoke (bug-journal rule): the sky must actually render pixels,
+  // not a blank or failed canvas. 2D canvas retains its bitmap, so a single
+  // sampled read is deterministic; the star field always has bright stars
+  // on a dark sky, a blank canvas has ~zero variance.
+  const skyVariance = await sky.locator(".vsky-canvas").evaluate((node) => {
+    const c = node as HTMLCanvasElement;
+    const ctx = c.getContext("2d");
+    if (!ctx || c.width === 0 || c.height === 0) return 0;
+    const sx = Math.floor(c.width * 0.2), sy = Math.floor(c.height * 0.4);
+    const sw = Math.floor(c.width * 0.6), sh = Math.floor(c.height * 0.3);
+    const data = ctx.getImageData(sx, sy, sw, sh).data;
+    let min = 255, max = 0;
+    for (let i = 0; i < data.length; i += 12) {
+      const v = (data[i] + data[i + 1] + data[i + 2]) / 3;
+      if (v < min) min = v;
+      if (v > max) max = v;
+    }
+    return max - min;
+  });
+  expect(skyVariance).toBeGreaterThan(24);
+
   // write-your-own flow
   await sky.getByRole("button", { name: "write your own words" }).click();
   const panel = page.getByRole("dialog", {
