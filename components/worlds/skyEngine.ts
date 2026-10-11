@@ -107,8 +107,8 @@ export function createSkyEngine(
   let raf = 0,
     last = 0,
     elapsed = 0,
-    haptics = false,
-    sound = false,
+    haptics = true,
+    sound = true,
     volume = 0.35;
   let audio: AudioContext | null = null,
     master: GainNode | null = null;
@@ -145,7 +145,6 @@ export function createSkyEngine(
     });
   }
   function stopAudio() {
-    sound = false;
     voices.forEach((voice) => {
       try {
         voice.stop();
@@ -163,10 +162,32 @@ export function createSkyEngine(
       void audio.close().catch(() => undefined);
       audio = null;
     }
-    soundChanged(false);
+  }
+  function activateSound() {
+    if (!sound || blocked()) return false;
+    if (audio) return true;
+    try {
+      audio = new window.AudioContext();
+      master = audio.createGain();
+      master.gain.value = volume;
+      master.connect(audio.destination);
+      const requestedAudio = audio;
+      void requestedAudio.resume().catch(() => {
+        if (audio !== requestedAudio || destroyed) return;
+        stopAudio();
+        sound = false;
+        soundChanged(false, true);
+      });
+      return true;
+    } catch {
+      stopAudio();
+      sound = false;
+      soundChanged(false, true);
+      return false;
+    }
   }
   function tone(frequency: number) {
-    if (!sound || !audio || !master || blocked() || !frequency) return;
+    if (!frequency || !activateSound() || !audio || !master) return;
     if (voices.size >= 8) return;
     const voice = audio.createOscillator(),
       envelope = audio.createGain();
@@ -438,7 +459,7 @@ export function createSkyEngine(
           ? "running"
           : "ready";
     if (blocked()) {
-      if (sound) stopAudio();
+      if (audio) stopAudio();
       if (auto) {
         auto = false;
         emit();
@@ -565,6 +586,7 @@ export function createSkyEngine(
       if (blocked() || live.current.still) return;
       auto = !auto;
       if (auto) {
+        activateSound();
         if (free()) {
           changeStation(0);
           auto = true;
@@ -577,31 +599,15 @@ export function createSkyEngine(
       sync();
     },
     setSound: (enabled) => {
+      if (blocked()) return false;
+      sound = enabled;
+      soundChanged(enabled);
       if (!enabled) {
         stopAudio();
         return false;
       }
-      if (blocked()) return false;
-      try {
-        audio = new window.AudioContext();
-        master = audio.createGain();
-        master.gain.value = volume;
-        master.connect(audio.destination);
-        sound = true;
-        const requestedAudio = audio;
-        void requestedAudio.resume().catch(() => {
-          if (audio !== requestedAudio || destroyed) return;
-          stopAudio();
-          soundChanged(false, true);
-        });
-        live.current.onInteract();
-        soundChanged(true);
-        return true;
-      } catch {
-        stopAudio();
-        soundChanged(false, true);
-        return false;
-      }
+      live.current.onInteract();
+      return activateSound();
     },
     setVolume: (value) => {
       volume = Math.min(1, Math.max(0, value));

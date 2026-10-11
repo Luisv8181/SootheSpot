@@ -114,9 +114,9 @@ export function VastSky({
   const [writing, setWriting] = useState(false),
     [settings, setSettings] = useState(false),
     [draft, setDraft] = useState(t.placeholder);
-  const [sound, setSound] = useState(false),
+  const [sound, setSound] = useState(true),
     [volume, setVolume] = useState(0.35),
-    [haptics, setHaptics] = useState(false);
+    [haptics, setHaptics] = useState(true);
   const [audioError, setAudioError] = useState(false),
     [graphicsError, setGraphicsError] = useState(false),
     [photoError, setPhotoError] = useState(false),
@@ -138,6 +138,8 @@ export function VastSky({
       );
     } catch {
       setGraphicsError(true);
+      setSound(false);
+      setHaptics(false);
     }
     return () => {
       engine.current?.destroy();

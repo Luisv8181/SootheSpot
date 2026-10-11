@@ -53,6 +53,17 @@ test("short screens retain tappable sky controls and scrollable session controls
 test("reduced motion keeps deliberate tracing static and reset clears the trace", async ({
   page,
 }) => {
+  await page.addInitScript(() => {
+    const vibrations: number[] = [];
+    Object.defineProperty(window, "__skyVibrations", { value: vibrations });
+    Object.defineProperty(navigator, "vibrate", {
+      configurable: true,
+      value: (duration: number) => {
+        vibrations.push(duration);
+        return true;
+      },
+    });
+  });
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("./");
   await page
@@ -66,6 +77,12 @@ test("reduced motion keeps deliberate tracing static and reset clears the trace"
   });
   await next.press("Enter");
   await expect(page.locator(".vsky-root")).toHaveAttribute("data-traced", "1");
+  expect(
+    await page.evaluate(
+      () =>
+        (window as unknown as { __skyVibrations: number[] }).__skyVibrations,
+    ),
+  ).toEqual([]);
   await expect(page.locator(".vsky-root")).toHaveAttribute(
     "data-rendering",
     "still",
@@ -88,6 +105,17 @@ test("reduced motion keeps deliberate tracing static and reset clears the trace"
 test("session completion stops the sky and reset makes it available again", async ({
   page,
 }) => {
+  await page.addInitScript(() => {
+    const NativeAudio = window.AudioContext;
+    const contexts: AudioContext[] = [];
+    Object.defineProperty(window, "__skyContexts", { value: contexts });
+    window.AudioContext = class extends NativeAudio {
+      constructor(options?: AudioContextOptions) {
+        super(options);
+        contexts.push(this);
+      }
+    };
+  });
   await page.clock.install();
   await page.goto("./");
   await page
@@ -100,7 +128,23 @@ test("session completion stops the sky and reset makes it available again", asyn
     exact: true,
   });
   await next.press("Enter");
+  expect(
+    await page.evaluate(
+      () =>
+        (window as unknown as { __skyContexts: AudioContext[] }).__skyContexts
+          .length,
+    ),
+  ).toBe(1);
   await page.clock.fastForward(301000);
+  await expect
+    .poll(() =>
+      page.evaluate(() =>
+        (
+          window as unknown as { __skyContexts: AudioContext[] }
+        ).__skyContexts.every((context) => context.state === "closed"),
+      ),
+    )
+    .toBe(true);
   await expect(next).toBeDisabled();
   await expect(page.locator(".vsky-root")).toHaveAttribute(
     "data-rendering",
@@ -117,7 +161,7 @@ test("session completion stops the sky and reset makes it available again", asyn
   await expect(page.locator(".vsky-root")).toHaveAttribute("data-traced", "0");
 });
 
-test("sky tracing is keyboard accessible, silent by default and freezes on pause", async ({
+test("sky tracing starts with sound and touch enabled without creating media until tracing", async ({
   page,
 }) => {
   await page.addInitScript(() => {
@@ -125,6 +169,15 @@ test("sky tracing is keyboard accessible, silent by default and freezes on pause
     Object.defineProperty(window, "__skyAudioCreated", {
       value: 0,
       writable: true,
+    });
+    const vibrations: number[] = [];
+    Object.defineProperty(window, "__skyVibrations", { value: vibrations });
+    Object.defineProperty(navigator, "vibrate", {
+      configurable: true,
+      value: (duration: number) => {
+        vibrations.push(duration);
+        return true;
+      },
     });
     window.AudioContext = class extends NativeAudio {
       constructor(options?: AudioContextOptions) {
@@ -146,6 +199,28 @@ test("sky tracing is keyboard accessible, silent by default and freezes on pause
     exact: true,
   });
   await expect(next).toBeVisible();
+  await sky.getByRole("button", { name: "Sound & touch", exact: true }).click();
+  const settings = page.getByRole("dialog", {
+    name: "Sound and touch settings",
+    exact: true,
+  });
+  const sound = settings.getByRole("button", {
+    name: "Sky sound",
+    exact: true,
+  });
+  const touch = settings.getByRole("checkbox", {
+    name: "Gentle vibration",
+    exact: true,
+  });
+  await expect(sound).toHaveAttribute("aria-pressed", "true");
+  await expect(touch).toBeChecked();
+  await settings.getByRole("button", { name: "Done", exact: true }).click();
+  expect(
+    await page.evaluate(
+      () =>
+        (window as unknown as { __skyAudioCreated: number }).__skyAudioCreated,
+    ),
+  ).toBe(0);
   await next.focus();
   await page.keyboard.press("Enter");
   await expect(sky.locator(".vsky-root")).toHaveAttribute("data-traced", "1");
@@ -154,7 +229,17 @@ test("sky tracing is keyboard accessible, silent by default and freezes on pause
       () =>
         (window as unknown as { __skyAudioCreated: number }).__skyAudioCreated,
     ),
-  ).toBe(0);
+  ).toBe(1);
+  expect(
+    await page.evaluate(
+      () =>
+        (window as unknown as { __skyVibrations: number[] }).__skyVibrations,
+    ),
+  ).toEqual([8]);
+  await sky.getByRole("button", { name: "Sound & touch", exact: true }).click();
+  await sound.click();
+  await touch.uncheck();
+  await settings.getByRole("button", { name: "Done", exact: true }).click();
   await sky.getByRole("button", { name: "Pause", exact: true }).click();
   await expect(next).toBeDisabled();
   await expect(sky.locator(".vsky-root")).toHaveAttribute(
@@ -168,6 +253,27 @@ test("sky tracing is keyboard accessible, silent by default and freezes on pause
   await sky.getByRole("button", { name: "Resume", exact: true }).click();
   await next.press("Space");
   await expect(sky.locator(".vsky-root")).toHaveAttribute("data-traced", "2");
+  expect(
+    await page.evaluate(
+      () =>
+        (window as unknown as { __skyAudioCreated: number }).__skyAudioCreated,
+    ),
+  ).toBe(1);
+  expect(
+    await page.evaluate(
+      () =>
+        (window as unknown as { __skyVibrations: number[] }).__skyVibrations,
+    ),
+  ).toEqual([8]);
+  await sky.getByRole("button", { name: "Sound & touch", exact: true }).click();
+  await expect(sound).toHaveAttribute("aria-pressed", "false");
+  await expect(touch).not.toBeChecked();
+  await settings.getByRole("button", { name: "Done", exact: true }).click();
+  await sky.getByRole("button", { name: "Reset", exact: true }).click();
+  await sky.getByRole("button", { name: "Sound & touch", exact: true }).click();
+  await expect(sound).toHaveAttribute("aria-pressed", "true");
+  await expect(touch).toBeChecked();
+  await settings.getByRole("button", { name: "Done", exact: true }).click();
 });
 
 test("sky writing contains focus, preserves Spanish accents and explains unsupported letters", async ({
@@ -268,7 +374,7 @@ test("vast sky world opens, takes a custom message, and switches stations", asyn
   });
   await expect(
     settings.getByRole("button", { name: "Sky sound", exact: true }),
-  ).toHaveAttribute("aria-pressed", "false");
+  ).toHaveAttribute("aria-pressed", "true");
   await settings.getByRole("button", { name: "Done", exact: true }).click();
 
   // autoplay starts the cinematic trace; grabbing the sky hands control back.
@@ -291,7 +397,7 @@ test("vast sky world opens, takes a custom message, and switches stations", asyn
   expect(errors).toEqual([]);
 });
 
-test("sky sound is opt-in, adjustable, and stops on pause, hidden tabs and exit", async ({
+test("sky sound is adjustable, stops with the session, and preserves enabled preference", async ({
   page,
 }) => {
   await page.addInitScript(() => {
@@ -315,8 +421,6 @@ test("sky sound is opt-in, adjustable, and stops on pause, hidden tabs and exit"
     page.getByRole("button", { name: "Sound & touch", exact: true }).click();
   const sound = page.getByRole("button", { name: "Sky sound", exact: true });
   await openSettings();
-  await expect(sound).toHaveAttribute("aria-pressed", "false");
-  await sound.click();
   await expect(sound).toHaveAttribute("aria-pressed", "true");
   await page
     .getByRole("slider", { name: "Sky sound volume", exact: true })
@@ -328,6 +432,15 @@ test("sky sound is opt-in, adjustable, and stops on pause, hidden tabs and exit"
   await page
     .getByRole("button", { name: "Trace next star", exact: true })
     .press("Enter");
+  await expect
+    .poll(() =>
+      page.evaluate(
+        () =>
+          (window as unknown as { __skyContexts: AudioContext[] }).__skyContexts
+            .length,
+      ),
+    )
+    .toBe(1);
   await page.getByRole("button", { name: "Pause", exact: true }).click();
   await expect
     .poll(() =>
@@ -345,9 +458,17 @@ test("sky sound is opt-in, adjustable, and stops on pause, hidden tabs and exit"
     frames!,
   );
   await page.getByRole("button", { name: "Resume", exact: true }).click();
+  await expect
+    .poll(() =>
+      page.evaluate(
+        () =>
+          (window as unknown as { __skyContexts: AudioContext[] }).__skyContexts
+            .length,
+      ),
+    )
+    .toBe(1);
   await openSettings();
-  await expect(sound).toHaveAttribute("aria-pressed", "false");
-  await sound.click();
+  await expect(sound).toHaveAttribute("aria-pressed", "true");
   await page.getByRole("button", { name: "Done", exact: true }).click();
   await page.evaluate(() => {
     Object.defineProperty(document, "hidden", {
@@ -376,11 +497,45 @@ test("sky sound is opt-in, adjustable, and stops on pause, hidden tabs and exit"
     });
     document.dispatchEvent(new Event("visibilitychange"));
   });
+  await expect
+    .poll(() =>
+      page.evaluate(
+        () =>
+          (window as unknown as { __skyContexts: AudioContext[] }).__skyContexts
+            .length,
+      ),
+    )
+    .toBe(1);
   await page.getByRole("button", { name: "Resume", exact: true }).click();
+  await page
+    .getByRole("button", { name: "Trace next star", exact: true })
+    .press("Enter");
+  await expect
+    .poll(() =>
+      page.evaluate(
+        () =>
+          (window as unknown as { __skyContexts: AudioContext[] }).__skyContexts
+            .length,
+      ),
+    )
+    .toBe(2);
   await openSettings();
-  await expect(sound).toHaveAttribute("aria-pressed", "false");
+  await expect(sound).toHaveAttribute("aria-pressed", "true");
   await sound.click();
+  await expect(sound).toHaveAttribute("aria-pressed", "false");
   await page.getByRole("button", { name: "Done", exact: true }).click();
+  await page
+    .getByRole("button", { name: "Trace next star", exact: true })
+    .press("Enter");
+  await expect
+    .poll(() =>
+      page.evaluate(
+        () =>
+          (window as unknown as { __skyContexts: AudioContext[] }).__skyContexts
+            .length,
+      ),
+    )
+    .toBe(2);
   await page.keyboard.press("Escape");
   await expect
     .poll(() =>
@@ -493,9 +648,12 @@ test("unavailable sky audio reports a silent fallback", async ({ page }) => {
     .click();
   await page.getByRole("button", { name: /Vast Sky/ }).click();
   await page
+    .getByRole("button", { name: "Trace next star", exact: true })
+    .press("Enter");
+  await expect(page.locator(".vsky-root")).toHaveAttribute("data-traced", "1");
+  await page
     .getByRole("button", { name: "Sound & touch", exact: true })
     .click();
-  await page.getByRole("button", { name: "Sky sound", exact: true }).click();
   await expect(
     page
       .getByRole("dialog", { name: "Sound and touch settings", exact: true })
@@ -505,8 +663,4 @@ test("unavailable sky audio reports a silent fallback", async ({ page }) => {
     page.getByRole("button", { name: "Sky sound", exact: true }),
   ).toHaveAttribute("aria-pressed", "false");
   await page.keyboard.press("Escape");
-  await page
-    .getByRole("button", { name: "Trace next star", exact: true })
-    .press("Enter");
-  await expect(page.locator(".vsky-root")).toHaveAttribute("data-traced", "1");
 });
