@@ -140,3 +140,5 @@ Existing Worlds should adopt this standard through focused upgrades rather than 
 Quiet Rain adds a sheltered window with separate portrait art, tactile condensation clearing and restrained refracting droplets. Its guide and controls remain below the glass. Keep this separation, the optional rain sound and the still-mode interaction alternative when extending it.
 
 Living Light is a procedural flowing material with cyan, violet and warm light against deep navy. Sweeps bend ribbons, stationary holds gather a bloom, and release unfurls it. Keep its guide below the scene, gestures optional and keyboard equivalents visible. Two fingers and separate openness/turn controls provide the same shaping agency. Sound starts off; no gestures are retained.
+
+Living Light ribbons can be strummed after sound is enabled. Eight distinct note groups respond with restrained resonance; keys 1–8 offer direct note access, and arrows can sweep. Still mode and fallback retain deliberate highlighting without continuous movement. Keep the sound opt-in and the palette exploratory rather than implying a culturally universal calming scale.

@@ -17,7 +17,7 @@ test("living light opens quietly and supports keyboard gather and release", asyn
   const field = world.getByRole("button", { name: "Shape the light" });
   const gather = world.getByRole("button", { name: "Gather a bloom" });
 
-  await expect(world.getByText("Quiet by default", { exact: true })).toBeVisible();
+  await expect(world.getByText("Turn sound on to make music", { exact: true })).toBeVisible();
   await expect(world.getByRole("button", { name: "Light sound" })).toHaveAttribute("aria-pressed", "false");
   await expect(field).toBeEnabled();
   await field.focus();
