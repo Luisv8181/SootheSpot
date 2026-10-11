@@ -89,7 +89,7 @@ export function WorldExperience({ world, onClose, language }: { world: World; on
     {isVastSky && <div className="sky-room" aria-hidden="true" />}
     <section className="world-stage">
       {grounding && <div className="garden-trail" aria-hidden="true">{grounding.senses.map((_, index) => <span key={index} className={index === step ? "current" : index < step ? "visited" : ""} />)}</div>}
-      <div className="world-guidance" hidden={isVastSky && !complete} aria-live="polite" aria-atomic="true">
+      <div className="world-guidance" hidden={isVastSky} aria-live="polite" aria-atomic="true">
         {prompt && !complete ? <><p className="world-step">{t.step(step + 1)}</p><h3 className="world-phase">{prompt.sense[language]}</h3><p className="world-subtle">{prompt.prompt[language]}</p></> : <><p className="world-phase">{complete ? t.complete : breath ? clock.running ? phaseText : t.ready : clock.running ? isRipple ? world.description[language] : t.steady : t.ready}</p><p id={isRipple ? "ripple-instructions" : undefined} className="world-subtle">{complete ? t.completionSub : breath ? t.breathNote : isRipple ? t.rippleNote : world.description[language]}</p></>}
       </div>
       {grounding && !complete && <><div className="world-controls"><button className="world-primary" onClick={() => advance(true)}>{t.notice}</button><button className="world-secondary" onClick={() => advance(false)}>{t.skip}</button></div><p className="world-hint">{t.senseNote}</p></>}

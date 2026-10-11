@@ -154,20 +154,6 @@
   border-radius: 14px;
   font-size: 14px;
 }
-.vsky-caption {
-  position: absolute;
-  top: 49%;
-  left: 24px;
-  right: 24px;
-  text-align: center;
-  color: #ffebcc;
-}
-.vsky-caption p {
-  margin: 0 0 16px;
-  font-size: clamp(18px, 3vw, 28px);
-  letter-spacing: 0.05em;
-  text-shadow: 0 2px 14px #030916;
-}
 .vsky-writepanel {
   position: fixed;
   inset: 0;
@@ -282,8 +268,7 @@
 .vsky-dock,
 .vsky-guide,
 .vsky-station,
-.vsky-next,
-.vsky-caption {
+.vsky-next {
   z-index: 2;
 }
 @media (max-width: 600px) {
@@ -340,10 +325,10 @@
 @media (max-height: 600px) {
   .world-theme-sky .sky-room {
     display: block;
-    flex: 0 0 280px;
+    flex: 0 0 312px;
   }
   .vsky-dock {
-    top: 150px;
+    top: 177px;
   }
   .vsky-guide {
     top: 130px;
