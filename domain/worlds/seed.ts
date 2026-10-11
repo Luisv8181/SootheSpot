@@ -150,5 +150,13 @@ export const worlds: World[] = [
     durationMinutes: 4,
     provenance: "soothespot",
     activity: [{ type: "ambientScene" }, { type: "glassInteraction" }, { type: "timer" }, { type: "completion" }]
+  },
+  {
+    version: 1, id: "living-light", theme: "light", category: "sensory",
+    title: { en: "Living Light", es: "Luz viva" },
+    description: { en: "Shape flowing threads of light. Sweep a current, hold a bloom, then let it unfurl.", es: "Moldea hilos de luz. Guía una corriente, reúne una flor y deja que se abra." },
+    purpose: { en: "A living material to explore at your own pace.", es: "Un material vivo para explorar a tu propio ritmo." },
+    durationMinutes: 4, provenance: "soothespot",
+    activity: [{ type: "ambientScene" }, { type: "lightInteraction" }, { type: "timer" }, { type: "completion" }]
   }
 ].map(validateExperienceSpec);

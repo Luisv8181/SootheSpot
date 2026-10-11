@@ -4,7 +4,7 @@ import { breathPhaseAt, experienceSpecSchema } from "../domain/worlds/spec";
 
 describe("SootheSpot Worlds", () => {
   it("ships only valid allowlisted experience specs", () => {
-    expect(worlds.map((world) => world.id)).toEqual(["ocean-calm", "soft-focus", "grounding-garden", "ripple-field", "vast-sky", "quiet-rain"]);
+    expect(worlds.map((world) => world.id)).toEqual(["ocean-calm", "soft-focus", "grounding-garden", "ripple-field", "vast-sky", "quiet-rain", "living-light"]);
     for (const world of worlds) {
       expect(experienceSpecSchema.parse(world)).toEqual(world);
       expect(world.provenance).toBe("soothespot");
