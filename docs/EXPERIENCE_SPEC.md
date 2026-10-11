@@ -64,3 +64,6 @@ Not supported yet:
 - saved/remixed Worlds
 - therapist-authored Worlds
 - server persistence
+
+
+Vast Sky uses a reviewed local night-sky photograph with Canvas 2D star lettering and constellations. Users can tap or drag near the next star, use its keyboard button, choose a station with the dial, or watch one optional autoplay trace. Completed traces remain visible until the user restarts. Sound and gentle vibration start off; sound has a volume control and unavailable state. Audio closes on pause, hidden tabs, session completion and exit. Still mode keeps deliberate star feedback without continuous animation. Canvas is capped at 2,000,000 physical pixels, with 80 background stars, eight simultaneous notes and 40 free-trace links. Missing Canvas or artwork retains accessible tracing controls and a gradient fallback. Writing is limited to 48 characters, supports accented Latin glyphs including Spanish accents, explains unsupported characters before applying, and stays transient. Nested writing and sound dialogs contain keyboard focus and close independently with Escape.
