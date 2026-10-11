@@ -11,6 +11,8 @@ import { RippleField } from "./worlds/RippleField";
 import { WaterCanvas } from "./worlds/WaterCanvas";
 import { OceanSound } from "./worlds/OceanSound";
 import { VastSky } from "./worlds/VastSky";
+import { QuietRain } from "./worlds/QuietRain";
+import { rainArtwork } from "./worlds/rainArtwork";
 import "./worlds/worlds.css";
 
 const labels = {
@@ -60,6 +62,7 @@ export function WorldExperience({ world, onClose, language }: { world: World; on
   const grounding = world.activity.find((activity) => activity.type === "groundingPrompt");
   const isRipple = world.id === "ripple-field";
   const isVastSky = world.id === "vast-sky";
+  const isRain = world.id === "quiet-rain";
   const waterWorld = isRipple || world.id === "ocean-calm";
   const complete = clock.complete || !!(grounding && step >= grounding.senses.length);
   useEffect(() => {
@@ -84,12 +87,13 @@ export function WorldExperience({ world, onClose, language }: { world: World; on
       <button className="world-close" onClick={onClose} aria-label={t.exit}>×</button>
     </header>
     <div className="world-environment">
-      {isVastSky ? <VastSky key={resetKey} language={language} paused={!clock.running && sessionStarted} complete={complete} still={still} running={clock.running && !complete} onInteract={start} /> : waterWorld ? isRipple ? <RippleField key={resetKey} language={language} paused={!clock.running && sessionStarted} complete={complete} running={clock.running && !complete} still={still} sampleTime={clock.sampleTime} onInteract={start} /> : <WaterCanvas kind="ocean" running={clock.running && !complete} still={still} sampleTime={clock.sampleTime} rhythm={breath} /> : <AtmosphereScene key={resetKey} kind={world.id === "soft-focus" ? "focus" : "garden"} drift={drift} running={clock.running && !complete} still={still} />}
+      {isRain ? <img className="rain-background" src={rainArtwork.rain.src} alt="" /> : isVastSky ? <VastSky key={resetKey} language={language} paused={!clock.running && sessionStarted} complete={complete} still={still} running={clock.running && !complete} onInteract={start} /> : waterWorld ? isRipple ? <RippleField key={resetKey} language={language} paused={!clock.running && sessionStarted} complete={complete} running={clock.running && !complete} still={still} sampleTime={clock.sampleTime} onInteract={start} /> : <WaterCanvas kind="ocean" running={clock.running && !complete} still={still} sampleTime={clock.sampleTime} rhythm={breath} /> : <AtmosphereScene key={resetKey} kind={world.id === "soft-focus" ? "focus" : "garden"} drift={drift} running={clock.running && !complete} still={still} />}
     </div>
     {isVastSky && <div className="sky-room" aria-hidden="true" />}
+    {isRain && <QuietRain key={resetKey} language={language} running={clock.running && !complete} paused={!clock.running && sessionStarted} complete={complete} still={still} sampleTime={clock.sampleTime} onInteract={start} />}
     <section className="world-stage">
       {grounding && <div className="garden-trail" aria-hidden="true">{grounding.senses.map((_, index) => <span key={index} className={index === step ? "current" : index < step ? "visited" : ""} />)}</div>}
-      <div className="world-guidance" hidden={isVastSky} aria-live="polite" aria-atomic="true">
+      <div className="world-guidance" hidden={isVastSky || (isRain && !complete)} aria-live="polite" aria-atomic="true">
         {prompt && !complete ? <><p className="world-step">{t.step(step + 1)}</p><h3 className="world-phase">{prompt.sense[language]}</h3><p className="world-subtle">{prompt.prompt[language]}</p></> : <><p className="world-phase">{complete ? t.complete : breath ? clock.running ? phaseText : t.ready : clock.running ? isRipple ? world.description[language] : t.steady : t.ready}</p><p id={isRipple ? "ripple-instructions" : undefined} className="world-subtle">{complete ? t.completionSub : breath ? t.breathNote : isRipple ? t.rippleNote : world.description[language]}</p></>}
       </div>
       {grounding && !complete && <><div className="world-controls"><button className="world-primary" onClick={() => advance(true)}>{t.notice}</button><button className="world-secondary" onClick={() => advance(false)}>{t.skip}</button></div><p className="world-hint">{t.senseNote}</p></>}

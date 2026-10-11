@@ -138,5 +138,17 @@ export const worlds: World[] = [
       { type: "timer" },
       { type: "completion" }
     ]
+  },
+  {
+    version: 1,
+    id: "quiet-rain",
+    theme: "rain",
+    category: "sensory",
+    title: { en: "Quiet Rain", es: "Lluvia tranquila" },
+    description: { en: "A sheltered window, a misty valley. Slowly clear the glass, or simply watch the rain.", es: "Una ventana protegida y un valle entre la niebla. Despeja el cristal despacio o solo observa la lluvia." },
+    purpose: { en: "Let your hands slow down. There is nothing to finish.", es: "Deja que tus manos vayan despacio. No hay nada que terminar." },
+    durationMinutes: 4,
+    provenance: "soothespot",
+    activity: [{ type: "ambientScene" }, { type: "glassInteraction" }, { type: "timer" }, { type: "completion" }]
   }
 ].map(validateExperienceSpec);

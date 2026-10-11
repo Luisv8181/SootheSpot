@@ -14,6 +14,7 @@ const sensePrompt = z.strictObject({
 const activitySchema = z.discriminatedUnion("type", [
   z.strictObject({ type: z.literal("ambientScene") }),
   z.strictObject({ type: z.literal("rippleInteraction") }),
+  z.strictObject({ type: z.literal("glassInteraction") }),
   z.strictObject({
     type: z.literal("breathRhythm"),
     inhaleSeconds: z.number().int().min(2).max(8),
@@ -39,13 +40,14 @@ const idRules: Record<WorldId, { theme: string; category: string; mainActivity: 
   "soft-focus": { theme: "focus", category: "focus", mainActivity: "focusVisual" },
   "grounding-garden": { theme: "garden", category: "grounding", mainActivity: "groundingPrompt" },
   "ripple-field": { theme: "ripple", category: "sensory", mainActivity: "rippleInteraction" },
-  "vast-sky": { theme: "sky", category: "focus", mainActivity: "focusVisual" }
+  "vast-sky": { theme: "sky", category: "focus", mainActivity: "focusVisual" },
+  "quiet-rain": { theme: "rain", category: "sensory", mainActivity: "glassInteraction" }
 };
 
 export const experienceSpecSchema = z.strictObject({
   version: z.literal(1),
-  id: z.enum(["ocean-calm", "soft-focus", "grounding-garden", "ripple-field", "vast-sky"]),
-  theme: z.enum(["ocean", "focus", "garden", "ripple", "sky"]),
+  id: z.enum(["ocean-calm", "soft-focus", "grounding-garden", "ripple-field", "vast-sky", "quiet-rain"]),
+  theme: z.enum(["ocean", "focus", "garden", "ripple", "sky", "rain"]),
   category: z.enum(["breathing", "focus", "grounding", "sensory"]),
   title: localizedText,
   description: localizedText,
