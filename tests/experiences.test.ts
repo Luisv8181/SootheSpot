@@ -4,7 +4,7 @@ import { breathPhaseAt, experienceSpecSchema } from "../domain/worlds/spec";
 
 describe("SootheSpot Worlds", () => {
   it("ships only valid allowlisted experience specs", () => {
-    expect(worlds.map((world) => world.id)).toEqual(["ocean-calm", "soft-focus", "grounding-garden", "ripple-field", "vast-sky", "quiet-rain", "living-light"]);
+    expect(worlds.map((world) => world.id)).toEqual(["ocean-calm", "soft-focus", "grounding-garden", "ripple-field", "vast-sky", "quiet-rain", "living-light", "quiet-sanctuary"]);
     for (const world of worlds) {
       expect(experienceSpecSchema.parse(world)).toEqual(world);
       expect(world.provenance).toBe("soothespot");
@@ -24,6 +24,18 @@ describe("SootheSpot Worlds", () => {
     expect(rain.activity.map(activity => activity.type)).toEqual(["ambientScene", "glassInteraction", "timer", "completion"]);
     expect(experienceSpecSchema.safeParse({ ...rain, theme: "sky" }).success).toBe(false);
     expect(experienceSpecSchema.safeParse({ ...rain, activity: worlds[4].activity }).success).toBe(false);
+  });
+
+  it("keeps Quiet Sanctuary as an allowlisted bilingual sensory experience", () => {
+    const sanctuary = worlds.find((world) => world.id === "quiet-sanctuary");
+    expect(sanctuary).toBeDefined();
+    expect(sanctuary?.theme).toBe("sanctuary");
+    expect(sanctuary?.category).toBe("sensory");
+    expect(sanctuary?.durationMinutes).toBe(4);
+    expect(sanctuary?.title).toEqual({ en: "Quiet Sanctuary", es: "Refugio tranquilo" });
+    expect(sanctuary?.activity.map((activity) => activity.type)).toEqual(["ambientScene", "sanctuaryInteraction", "timer", "completion"]);
+    expect(experienceSpecSchema.safeParse({ ...sanctuary, theme: "light" }).success).toBe(false);
+    expect(experienceSpecSchema.safeParse({ ...sanctuary, activity: worlds.find((world) => world.id === "living-light")!.activity }).success).toBe(false);
   });
 
   it("includes a bilingual experimental ripple activity", () => {
