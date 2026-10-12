@@ -4025,10 +4025,10 @@
   {
     "id": "sanvello-now-optum-behavioral-care",
     "name": "Sanvello (now Optum Behavioral Care)",
-    "publisher": "Optum Behavioral Care (sanvello.com now resolves to ableto.com)",
+    "publisher": "AbleTo / Optum Behavioral Care (Sanvello Health acquired by AbleTo, per AbleTo FAQ)",
     "resource_type": "service-directory",
     "official_url": "https://www.sanvello.com/",
-    "description": "The standalone Sanvello self-care app is no longer offered as a separate consumer product. As fetched 2026-10-12, sanvello.com resolves to ableto.com, now branded Optum Behavioral Care: a clinical care finder offering one-on-one therapy (adults, children, teens), family and couples therapy, medication care/psychiatry, and testing. Services vary by location; care requires insurance verification and booking.",
+    "description": "The standalone Sanvello self-care app is discontinued: as fetched 2026-10-12, sanvello.com is DNS-dead. Per AbleTo's official FAQ, Sanvello was acquired by AbleTo and the app became 'AbleTo SelfCare+' (also 'Self Care by AbleTo'), available only to AbleTo members rather than the general public. The AbleTo announcement pages are now 404s and ableto.com redirects to optumbhcare.com - AbleTo is being absorbed into Optum Behavioral Care, a clinical therapy/psychiatry provider network requiring insurance verification and booking.",
     "tags": [
       "therapy",
       "psychiatry",
@@ -4052,8 +4052,9 @@
       "Web (care finder)"
     ],
     "access": [
-      "Clinical care; booking after insurance verification and billing confirmation",
-      "Not a free self-help app"
+      "The standalone consumer app is discontinued",
+      "Successor 'AbleTo SelfCare+' is available only to AbleTo members, not as a standalone consumer purchase (per AbleTo FAQ)",
+      "Optum Behavioral Care: clinical care with booking after insurance verification"
     ],
     "accessibility": [
       "Not assessed in this screening."
@@ -4067,14 +4068,14 @@
     },
     "privacy_notes": "Clinical intake involves personal data collection; actual privacy policy not reviewed in this screening.",
     "evidence_notes": "Clinical care provider; no self-help evidence claims reviewed in this screening.",
-    "limitations": "NOT an independent-use self-care tool - this is a clinical provider network requiring insurance verification, so it falls outside SootheSpot's independent-use scope. Do not list as a self-help resource. In an emergency the page directs to the 988 Suicide and Crisis Lifeline.",
+    "limitations": "NOT an independent-use self-care tool - the standalone app is discontinued and its successor is members-only; the remaining Optum Behavioral Care offering is a clinical provider network requiring insurance verification, outside SootheSpot's independent-use scope. Do not list as a self-help resource. Detailed pricing, platforms, and disclaimers could not be verified from live official pages (site defunct).",
     "license_notes": "External resource. SootheSpot stores metadata only.",
     "needs": [],
     "shelf": "unplaced",
     "review_status": "screened",
     "status": "screened",
     "last_verified_at": "2026-10-12",
-    "reason": "Screened 2026-10-12: sanvello.com fetched live this run and resolves to ableto.com (Optum Behavioral Care) - the standalone Sanvello self-care app no longer exists as a separate product; what remains is a clinical therapy/psychiatry provider network, outside SootheSpot's independent-use scope. Kept as a screened record so the decision trail is explicit; recommended NOT to promote. Ready for owner review.",
+    "reason": "Screened 2026-10-12: sanvello.com fetched live this run and is DNS-dead; live-browser verification of AbleTo's official FAQ confirmed Sanvello was acquired by AbleTo and became the members-only 'AbleTo SelfCare+' app, and ableto.com now redirects to optumbhcare.com as AbleTo folds into Optum Behavioral Care. The standalone self-care app no longer exists as a consumer product - outside SootheSpot's independent-use scope. Kept as a screened record so the decision trail is explicit; recommended NOT to promote. Ready for owner review.",
     "required_before_verified": [
       "official_url_checked",
       "publisher_confirmed",
@@ -4085,13 +4086,13 @@
       "primary_source_recorded"
     ],
     "screening_gaps": [
-      "independent-use scope: FAILS - now a clinical provider network, not a self-help tool",
-      "privacy policy not reviewed",
-      "historical Sanvello-app records preserved only as the acquisition trail above"
+      "independent-use scope: FAILS - standalone app discontinued; successor is members-only clinical-network offering",
+      "historical pricing/platforms/disclaimers not verifiable from live official pages (site defunct)",
+      "privacy policy not reviewed"
     ],
     "source_notes": [
       "https://www.sanvello.com/",
-      "https://www.ableto.com/"
+      "https://www.ableto.com/ (redirects to optumbhcare.com)"
     ]
   },
   {
