@@ -4098,7 +4098,7 @@
   {
     "id": "distract-app-expert-self-care",
     "name": "distrACT (UK) - Expert Self Care",
-    "publisher": "Expert Self Care",
+    "publisher": "Expert Self Care Ltd (private limited company registered in England and Wales, Company Number 8306708, per site footer)",
     "resource_type": "mobile-app",
     "official_url": "https://www.expertselfcare.com/distract/",
     "description": "Free self-care app for people who self-harm or feel suicidal - described on the publisher page as clinically reviewed, available offline, and requiring no account or sign-up. Offers grounding, distraction, and calming techniques for difficult moments; plain-English explanations of feelings; a directory of reputable services, helplines, and charities; and calm next steps for crisis situations. Designed for low concentration and high distress: short sections, plain language, nothing to sign up for.",
@@ -4160,7 +4160,7 @@
     "review_status": "screened",
     "status": "screened",
     "last_verified_at": "2026-10-12",
-    "reason": "Screened 2026-10-12: official expertselfcare.com/distract/ page fetched live this run (free, offline, no-signup self-care app for self-harm/suicidal feelings; explicit not-a-replacement-for-clinical-care framing; Samaritans 116 123 crisis direction on page). Ready for owner review before any promotion.",
+    "reason": "Screened 2026-10-12: official expertselfcare.com/distract/ page fetched live this run (free, offline, no-signup self-care app for self-harm/suicidal feelings; publisher identity confirmed from site footer as Expert Self Care Ltd, Co. No. 8306708; explicit not-a-replacement-for-clinical-care framing; Samaritans 116 123 crisis direction on page). Ready for owner review before any promotion.",
     "required_before_verified": [
       "official_url_checked",
       "publisher_confirmed",
