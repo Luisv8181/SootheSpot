@@ -158,5 +158,13 @@ export const worlds: World[] = [
     purpose: { en: "A living material to explore at your own pace.", es: "Un material vivo para explorar a tu propio ritmo." },
     durationMinutes: 4, provenance: "soothespot",
     activity: [{ type: "ambientScene" }, { type: "lightInteraction" }, { type: "timer" }, { type: "completion" }]
+  },
+  {
+    version: 1, id: "quiet-sanctuary", theme: "sanctuary", category: "sensory",
+    title: { en: "Quiet Sanctuary", es: "Refugio tranquilo" },
+    description: { en: "Explore a quiet pool, a musical arch, and soft flowers. Sound is optional.", es: "Explora un estanque tranquilo, un arco musical y flores suaves. El sonido es opcional." },
+    purpose: { en: "Explore a sheltered sensory space at your own pace.", es: "Explora un espacio sensorial protegido a tu propio ritmo." },
+    durationMinutes: 4, provenance: "soothespot",
+    activity: [{ type: "ambientScene" }, { type: "sanctuaryInteraction" }, { type: "timer" }, { type: "completion" }]
   }
 ].map(validateExperienceSpec);

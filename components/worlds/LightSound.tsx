@@ -14,8 +14,9 @@ function stopVoice(current: Engine, voice: Voice) {
 }
 function stopVoices(current: Engine) { for (const voice of current.voices) stopVoice(current, voice); }
 
-export function LightSound({ language, running, complete, instrument, onStart }: { language: Language; running: boolean; complete: boolean; instrument: RefObject<LightInstrument | null>; onStart: () => void }) {
+export function LightSound({ language, running, complete, instrument, onStart, kind = "light" }: { language: Language; running: boolean; complete: boolean; instrument: RefObject<LightInstrument | null>; onStart: () => void; kind?: "light" | "sanctuary" }) {
   const en = language === "en";
+  const sanctuary = kind === "sanctuary";
   const [enabled, setEnabled] = useState(false), [volume, setVolume] = useState(25), [error, setError] = useState(false);
   const engine = useRef<Engine | null>(null);
   const sequence = useRef(0);
@@ -65,8 +66,8 @@ export function LightSound({ language, running, complete, instrument, onStart }:
     } catch { if (id !== sequence.current) return; dispose(); if (context && context.state !== "closed") void context.close().catch(() => {}); setEnabled(false); setError(true); }
   }
   return <div className="light-audio">
-    <button className="world-secondary" aria-label={en ? "Light sound" : "Sonido de luz"} aria-pressed={enabled} disabled={complete} onClick={() => { void toggle(); }}>{en ? "Sound" : "Sonido"} · {enabled ? en ? "On" : "Sí" : en ? "Off" : "No"}</button>
-    {enabled && <label className="world-volume"><span>{en ? "Volume" : "Volumen"}</span><input type="range" min="0" max="100" value={volume} aria-label={en ? "Light volume" : "Volumen de luz"} onChange={event => setVolume(Number(event.target.value))} /></label>}
-    <span role="status">{error ? en ? "Sound unavailable. The light is still yours to shape." : "Sonido no disponible. Puedes seguir moldeando la luz." : enabled ? running ? en ? "Strum the light to play" : "Toca los hilos de luz" : en ? "Sound is paused" : "Sonido pausado" : en ? "Turn sound on to make music" : "Activa el sonido para crear música"}</span>
+    <button className="world-secondary" aria-label={sanctuary ? en ? "Sanctuary sound" : "Sonido del refugio" : en ? "Light sound" : "Sonido de luz"} aria-pressed={enabled} disabled={complete} onClick={() => { void toggle(); }}>{en ? "Sound" : "Sonido"} · {enabled ? en ? "On" : "Sí" : en ? "Off" : "No"}</button>
+    {enabled && <label className="world-volume"><span>{en ? "Volume" : "Volumen"}</span><input type="range" min="0" max="100" value={volume} aria-label={sanctuary ? en ? "Sanctuary volume" : "Volumen del refugio" : en ? "Light volume" : "Volumen de luz"} onChange={event => setVolume(Number(event.target.value))} /></label>}
+    <span role="status">{error ? sanctuary ? en ? "Sound unavailable. You can still explore." : "Sonido no disponible. Puedes seguir explorando." : en ? "Sound unavailable. The light is still yours to shape." : "Sonido no disponible. Puedes seguir moldeando la luz." : enabled ? running ? sanctuary ? en ? "Strum the arch to play" : "Toca el arco para crear música" : en ? "Strum the light to play" : "Toca los hilos de luz" : en ? "Sound is paused" : "Sonido pausado" : en ? "Turn sound on to make music" : "Activa el sonido para crear música"}</span>
   </div>;
 }
