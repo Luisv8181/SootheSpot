@@ -3692,5 +3692,251 @@
     "source_notes": [
       "https://woebothealth.com/"
     ]
+  },
+  {
+    "id": "wysa-everyday-mental-health",
+    "name": "Wysa — Everyday Mental Health (AI Support Chat)",
+    "publisher": "Wysa (company/founder details not stated on the reviewed homepage)",
+    "resource_type": "mobile-app",
+    "official_url": "https://www.wysa.com/",
+    "description": "AI conversational mental-health support described as 'completely anonymous'; offers self-help, guided referral, and between-session care for individuals, teams, and health systems. Positioned as a safe, evidence-based alternative to general AI chat; always-on instant access with no appointments.",
+    "tags": [
+      "chatbot",
+      "ai",
+      "anxiety",
+      "self-help",
+      "referral",
+      "between-session-care",
+      "anonymous",
+      "mobile"
+    ],
+    "intended_population": [
+      "adults 18+ (must be 18 to use; ages 13-17 only with parent/guardian review of Terms of Service and Privacy Policy; not for children under 13, per the reviewed page)"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "regions": [
+      "105 countries and 11 million lives covered claimed on the reviewed page — corporate claims, not verified in this screening"
+    ],
+    "platforms": [
+      "Mobile app (download section on the reviewed page)",
+      "Web/organizational offerings for employers, payors, and health systems mentioned"
+    ],
+    "access": [
+      "Individual access described as anonymous on the reviewed page",
+      "Pricing not stated on the reviewed homepage",
+      "Employer/payor/organization plans mentioned; pricing not stated"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Global footprint claimed (105 countries); no stated cultural-adaptation process found on the reviewed page.",
+      "source_notes": [
+        "https://www.wysa.com/"
+      ]
+    },
+    "privacy_notes": "Page advertises 'completely anonymous' access; actual privacy policy not reviewed in this screening.",
+    "evidence_notes": "Corporate page claims 45+ peer-reviewed publications, 6 million people helped, 1 billion AI conversations, 33% reduction in lost-time days, and 91% of users finding it helpful — corporate claims NOT verified in this screening; do not treat as clinical evidence.",
+    "limitations": "Explicit disclaimer on the reviewed page: not for crises (abuse, severe mental-health conditions with feelings of suicide or harm to self, medical emergencies); cannot and will not offer medical or clinical advice; users directed to country-specific suicide hotlines. Must be framed as a wellness companion, never a therapist or clinical recommendation, per SootheSpot principle 10. Age-gated 18+ (13-17 only with parent/guardian ToS review; under 13 excluded). Corporate 'evidence-based' claims and impact statistics not verified in this screening. In-app crisis/self-harm behavior not confirmed.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "anxiety",
+      "stress",
+      "practice"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "reason": "Screened 2026-10-12: official www.wysa.com homepage fetched live this run (anonymous AI support chat for self-help, guided referral, and between-session care; explicit no-crisis disclaimer; 18+ age gate). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "45+ peer-reviewed publications claim not verified",
+      "pricing for individual and organizational plans not stated",
+      "in-app crisis/self-harm behavior not confirmed"
+    ],
+    "source_notes": [
+      "https://www.wysa.com/"
+    ]
+  },
+  {
+    "id": "minddoc-mental-health-companion",
+    "name": "MindDoc — Your Mental Health Companion (MindDoc App)",
+    "publisher": "MindDoc (company details not stated on the reviewed homepage)",
+    "resource_type": "mobile-app",
+    "official_url": "https://minddoc.com/",
+    "description": "Mental-health companion app that asks questions up to three times a day and suggests audio courses and resources based on responses; offers 70+ courses and exercises, pattern graphics, and personalized feedback across prevention, between-session treatment support, and continuing care.",
+    "tags": [
+      "mood-tracking",
+      "journaling",
+      "courses",
+      "self-management",
+      "depression",
+      "anxiety",
+      "burnout",
+      "insomnia",
+      "medical-device",
+      "personalized-feedback"
+    ],
+    "intended_population": [
+      "people who want to stay on top of their mental health, those feeling emotionally distressed, or those diagnosed with a mental illness (per the reviewed page)"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "regions": [
+      "EU context implied (Class I Medical Device under EU MDR); regions not enumerated on the reviewed page"
+    ],
+    "platforms": [
+      "Mobile app (per reviewed page: App Store and Google Play download links)"
+    ],
+    "access": [
+      "Pricing not stated on the reviewed homepage"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "EU MDR Class I medical-device classification stated on the reviewed page; no stated cultural-adaptation process found.",
+      "source_notes": [
+        "https://minddoc.com/"
+      ]
+    },
+    "privacy_notes": "Privacy policy not reviewed in this screening.",
+    "evidence_notes": "Page states the app 'has been evaluated in a clinical study with more than 1000 participants' and was 'developed by psychologists' — study citation, publication, and team not named on the reviewed page; NOT verified in this screening. 'More than 3 million have used MindDoc' and 'over 45,000 ratings' are corporate claims, not clinical evidence.",
+    "limitations": "Medical-device framing is EU MDR Class I (lower regulatory tier), not an FDA clearance; clinical study not verified. No crisis disclaimer was visible on the reviewed homepage — do not assume crisis coverage. Company/founding team not named on the reviewed page. Must be framed as a self-guided companion, never a clinical recommendation, per SootheSpot principle 10. Pricing and app access route not stated on the reviewed homepage.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "mood",
+      "anxiety",
+      "stress",
+      "practice"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "reason": "Screened 2026-10-12: official minddoc.com homepage fetched live this run (daily question-based mood tracking with 70+ courses; EU MDR Class I medical-device claim). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "clinical study (1000+ participants) not verified",
+      "pricing not stated",
+      "privacy policy not reviewed",
+      "crisis/self-harm behavior and disclaimers not confirmed",
+      "company and team identity not stated on reviewed page"
+    ],
+    "source_notes": [
+      "https://minddoc.com/"
+    ]
+  },
+  {
+    "id": "bearable-symptom-tracker",
+    "name": "Bearable — Symptom, Mood & Health Tracker",
+    "publisher": "Bearable (patient-founded; founder named as James on the reviewed page)",
+    "resource_type": "mobile-app",
+    "official_url": "https://bearable.app/",
+    "description": "Highly customizable symptom/mood/health tracker (mood, emotions, sleep, energy, symptoms, medication, nutrition, menstrual cycle, habits, factors) with 30+ correlation and trend reports, custom experiments, and exportable doctor/therapist reports; patient-founded; 4.7 App Store / 4.6 Play Store ratings.",
+    "tags": [
+      "mood-tracking",
+      "symptom-tracking",
+      "correlation",
+      "journaling",
+      "medication",
+      "chronic-illness",
+      "habits",
+      "exportable-reports",
+      "mobile"
+    ],
+    "intended_population": [
+      "adults managing chronic physical or mental health conditions (900,000+ community members per the reviewed page)"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "regions": [
+      "Regions not enumerated on the reviewed page; UK company per the reviewed FAQ"
+    ],
+    "platforms": [
+      "Mobile app (iOS, Android)"
+    ],
+    "access": [
+      "Free core tier: unlimited custom symptoms/moods/metrics, weekly reports, correlation graphs",
+      "Optional subscription $34.99 with 7-day free trial per the reviewed FAQ (discounts and lifetime-subscription competitions mentioned)"
+    ],
+    "accessibility": [
+      "Customizable hiding of potentially triggering metrics (e.g., calories, weight) noted on the reviewed page — stated by the publisher; not assessed in this screening.",
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Patient-founded, community-driven (chronic-illness community); no stated cultural-adaptation process found on the reviewed page.",
+      "source_notes": [
+        "https://bearable.app/"
+      ]
+    },
+    "privacy_notes": "Page states the company never sells personal data, encrypts backed-up health data, avoids collecting name/age/sex/gender, offers in-app PIN protection, and claims GDPR compliance — page claims; privacy policy not reviewed in this screening. Third-party data sharing only via opt-in integrations (Google Fit, Apple Health, per the reviewed page).",
+    "evidence_notes": "Page states Bearable was 'reviewed by clinicians at Cedars-Sinai as one of the best mobile health applications to track patient outcomes' and recommends named professionals (e.g., Dr. Anthony Levinson, Dr. Claire Ashley) — page claims NOT verified in this screening; do not treat endorsements as clinical evidence.",
+    "limitations": "Correlation reports identify associations, not causes — must be framed as self-insight, never medical advice, per SootheSpot principle 10. Clinical-endorsement claims not verified. Full privacy policy not reviewed despite strong on-page privacy claims. No crisis/self-harm content or disclaimer was visible on the reviewed homepage.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "mood",
+      "stress",
+      "practice"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "reason": "Screened 2026-10-12: official bearable.app homepage fetched live this run (customizable symptom/mood tracker with correlation reports and exportable appointment reports; patient-founded; strong on-page privacy claims). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "Cedars-Sinai clinical review claim not verified",
+      "correlation-report framing against medical-advice use not assessed",
+      "no crisis/self-harm disclaimer found on reviewed homepage"
+    ],
+    "source_notes": [
+      "https://bearable.app/"
+    ]
   }
 ]
