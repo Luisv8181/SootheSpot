@@ -3938,5 +3938,246 @@
     "source_notes": [
       "https://bearable.app/"
     ]
+  },
+  {
+    "id": "headspace-app",
+    "name": "Headspace",
+    "publisher": "Headspace (founded 2010, per the reviewed page)",
+    "resource_type": "mobile-app",
+    "official_url": "https://www.headspace.com/",
+    "description": "Mental-health app with expert-led meditations and tools: 1,000+ guided exercises, sleep wind-downs, soundscapes, and sleepcasts; optional mental-health coaching add-on. Founded 2010 with a stated mission around stress, sleep, and everyday mental health. Separate organizational offerings (EAP, therapy, psychiatry) are also advertised on the page.",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "sleep",
+      "stress",
+      "anxiety",
+      "coaching",
+      "mobile"
+    ],
+    "intended_population": [
+      "general (per the reviewed page; age or eligibility terms not stated on the reviewed homepage)"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "not stated on the reviewed homepage"
+    ],
+    "regions": [
+      "Global footprint claimed ('thousands of employers, health plans, and partners globally') - corporate claim, not verified in this screening"
+    ],
+    "platforms": [
+      "iOS (App Store)",
+      "Android (Google Play)"
+    ],
+    "access": [
+      "Paid subscription (annual/monthly plans, auto-renewing)",
+      "\"Try for $0\" trial offered",
+      "Student, family, and gift plans mentioned",
+      "Exact prices not stated on the reviewed homepage",
+      "HSA/FSA eligibility mentioned"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Global reach claimed; no stated cultural-adaptation process found on the reviewed page.",
+      "source_notes": [
+        "https://www.headspace.com/"
+      ]
+    },
+    "privacy_notes": "Account and subscription required; actual privacy policy not reviewed in this screening.",
+    "evidence_notes": "Page uses 'evidence-based', 'proven mental health resources', and 'tools backed by research' language; page also displays 4.7/5 from ~1.28M reviews. All are publisher claims NOT verified in this screening; do not treat as clinical evidence.",
+    "limitations": "Paid subscription required (beyond trial); not freely usable without payment. Therapy, coaching, and psychiatry offerings advertised on the page are clinical services - SootheSpot must frame the app as a wellness/mindfulness resource, never a clinician recommendation, per SootheSpot principle 10. Corporate evidence and review-count claims not verified. In-app crisis/self-harm behavior not confirmed.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "calm",
+      "sleep",
+      "stress",
+      "anxiety"
+    ],
+    "shelf": "listen",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "reason": "Screened 2026-10-12: official headspace.com homepage fetched live this run (expert-led meditation and sleep app; paid subscription with trial; 1,000+ exercises; coaching add-on). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "exact subscription pricing not stated on the reviewed page",
+      "language availability not stated on the reviewed page",
+      "in-app crisis/self-harm behavior not confirmed"
+    ],
+    "source_notes": [
+      "https://www.headspace.com/"
+    ]
+  },
+  {
+    "id": "sanvello-now-optum-behavioral-care",
+    "name": "Sanvello (now Optum Behavioral Care)",
+    "publisher": "Optum Behavioral Care (sanvello.com now resolves to ableto.com)",
+    "resource_type": "service-directory",
+    "official_url": "https://www.sanvello.com/",
+    "description": "The standalone Sanvello self-care app is no longer offered as a separate consumer product. As fetched 2026-10-12, sanvello.com resolves to ableto.com, now branded Optum Behavioral Care: a clinical care finder offering one-on-one therapy (adults, children, teens), family and couples therapy, medication care/psychiatry, and testing. Services vary by location; care requires insurance verification and booking.",
+    "tags": [
+      "therapy",
+      "psychiatry",
+      "care-finder",
+      "acquisition",
+      "not-self-help"
+    ],
+    "intended_population": [
+      "people seeking clinical mental-health care in covered locations"
+    ],
+    "use_context": [
+      "clinician-referred"
+    ],
+    "languages": [
+      "not stated on the reviewed page"
+    ],
+    "regions": [
+      "United States; therapy for new patients currently unavailable in Alaska, Georgia, Kansas, North Dakota, and West Virginia, per the reviewed page"
+    ],
+    "platforms": [
+      "Web (care finder)"
+    ],
+    "access": [
+      "Clinical care; booking after insurance verification and billing confirmation",
+      "Not a free self-help app"
+    ],
+    "accessibility": [
+      "Not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S. clinical provider network; no stated cultural-adaptation process found on the reviewed page.",
+      "source_notes": [
+        "https://www.ableto.com/"
+      ]
+    },
+    "privacy_notes": "Clinical intake involves personal data collection; actual privacy policy not reviewed in this screening.",
+    "evidence_notes": "Clinical care provider; no self-help evidence claims reviewed in this screening.",
+    "limitations": "NOT an independent-use self-care tool - this is a clinical provider network requiring insurance verification, so it falls outside SootheSpot's independent-use scope. Do not list as a self-help resource. In an emergency the page directs to the 988 Suicide and Crisis Lifeline.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [],
+    "shelf": "unplaced",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "reason": "Screened 2026-10-12: sanvello.com fetched live this run and resolves to ableto.com (Optum Behavioral Care) - the standalone Sanvello self-care app no longer exists as a separate product; what remains is a clinical therapy/psychiatry provider network, outside SootheSpot's independent-use scope. Kept as a screened record so the decision trail is explicit; recommended NOT to promote. Ready for owner review.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "independent-use scope: FAILS - now a clinical provider network, not a self-help tool",
+      "privacy policy not reviewed",
+      "historical Sanvello-app records preserved only as the acquisition trail above"
+    ],
+    "source_notes": [
+      "https://www.sanvello.com/",
+      "https://www.ableto.com/"
+    ]
+  },
+  {
+    "id": "distract-app-expert-self-care",
+    "name": "distrACT (UK) - Expert Self Care",
+    "publisher": "Expert Self Care",
+    "resource_type": "mobile-app",
+    "official_url": "https://www.expertselfcare.com/distract/",
+    "description": "Free self-care app for people who self-harm or feel suicidal - described on the publisher page as clinically reviewed, available offline, and requiring no account or sign-up. Offers grounding, distraction, and calming techniques for difficult moments; plain-English explanations of feelings; a directory of reputable services, helplines, and charities; and calm next steps for crisis situations. Designed for low concentration and high distress: short sections, plain language, nothing to sign up for.",
+    "tags": [
+      "self-harm",
+      "suicidal-feelings",
+      "distress",
+      "grounding",
+      "distraction",
+      "calming",
+      "offline",
+      "free",
+      "mobile",
+      "crisis-support"
+    ],
+    "intended_population": [
+      "people who self-harm or feel suicidal (per the publisher page)"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English (page reviewed in English; other languages not stated)"
+    ],
+    "regions": [
+      "United Kingdom (NHS mental-health teams, university/college wellbeing services, charities); 100,000+ downloads claimed across the UK and beyond - publisher claim, not verified in this screening"
+    ],
+    "platforms": [
+      "iOS (Apple App Store)",
+      "Android (Google Play)"
+    ],
+    "access": [
+      "Free to download and use",
+      "Free for people and organisations; no contracts, no set-up",
+      "No personal data collected (per the publisher page)",
+      "Available offline, no account or sign-up"
+    ],
+    "accessibility": [
+      "Publisher designs for low concentration/high distress (short sections, plain language); verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK NHS context; co-created with people with lived experience of self-harm, mental-health clinicians, and specialist charities (Self-Injury Support, University Hospitals Bristol NHS Foundation Trust, Bristol Health Partners, per the publisher page). No stated adaptation process for other regions found on the reviewed page.",
+      "source_notes": [
+        "https://www.expertselfcare.com/distract/"
+      ]
+    },
+    "privacy_notes": "Publisher states no personal data is collected and no account is needed; actual privacy policy not reviewed in this screening.",
+    "evidence_notes": "Publisher states PIF TICK accreditation, ORCHA assessment, NHS DTAC compliance, and a BMA Patient Information Award for Wellbeing; describes the app as clinically reviewed and co-created with lived-experience contributors and clinicians. All are publisher claims NOT independently verified in this screening; do not treat as clinical evidence.",
+    "limitations": "Publisher states explicitly: not a replacement for clinical care; sits alongside services. In an emergency the page directs to Samaritans 116 123 (UK). SootheSpot must keep any listing framed as between-support coping content with deterministic safety routing, never a crisis intervention, and never present it as a clinician recommendation (principles 5 and 10). UK-focused publisher; local crisis numbers elsewhere not covered. In-app crisis-flow behavior not confirmed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "crisis",
+      "distress",
+      "calm",
+      "ground"
+    ],
+    "shelf": "ground",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "reason": "Screened 2026-10-12: official expertselfcare.com/distract/ page fetched live this run (free, offline, no-signup self-care app for self-harm/suicidal feelings; explicit not-a-replacement-for-clinical-care framing; Samaritans 116 123 crisis direction on page). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "app-store listing content not reviewed",
+      "in-app crisis-flow behavior not confirmed",
+      "languages beyond English not confirmed",
+      "publisher accreditation claims not independently verified"
+    ],
+    "source_notes": [
+      "https://www.expertselfcare.com/distract/"
+    ]
   }
 ]
