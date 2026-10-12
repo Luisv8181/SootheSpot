@@ -3534,5 +3534,163 @@
     "source_notes": [
       "https://oxfordhealth.nhs.uk/blueice/"
     ]
+  },
+  {
+    "id": "happify-twill-app",
+    "name": "Happify (Twill / Dario Mind) — Science-Based Wellbeing Activities & Games",
+    "publisher": "Twill (Twill Therapeutics), part of DarioHealth",
+    "resource_type": "mobile-app",
+    "official_url": "https://www.happify.com/",
+    "description": "Science-based activities and games to reduce stress and worry, disrupt negative-thinking patterns, and build optimism and mindfulness. Tracks were created with positive-psychology researchers and practitioners (e.g., Barbara Fredrickson, Sonja Lyubomirsky). Usable in small slices of time on smartphone, tablet, or computer.",
+    "tags": [
+      "stress",
+      "negative-thoughts",
+      "optimism",
+      "mindfulness",
+      "positive-psychology",
+      "activities",
+      "games",
+      "mobile",
+      "web"
+    ],
+    "intended_population": [
+      "adults (per the reviewed page)"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "regions": [
+      "Region not stated on the reviewed page"
+    ],
+    "platforms": [
+      "Smartphone, tablet, computer (per reviewed page)"
+    ],
+    "access": [
+      "Pricing not stated on the reviewed homepage"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US commercial positive-psychology app; no stated cultural-adaptation process found on the reviewed page.",
+      "source_notes": [
+        "https://www.happify.com/"
+      ]
+    },
+    "privacy_notes": "Privacy policy not reviewed in this screening.",
+    "evidence_notes": "Page claims activities are 'based on over a decade's worth of academic research'; the underlying studies were not verified in this screening. Gamified format: streak/completion mechanics (if present) would need checking against SootheSpot's no-streaks principle.",
+    "limitations": "Commercial product — pricing/access route not stated on the reviewed homepage, so verify before any listing. The happify.com homepage now brands the product as 'Dario Mind (Twill)'; branding/ownership appears to have shifted to DarioHealth — confirm current identity during owner review. Gamification mechanics not audited against SootheSpot's no-dark-patterns principle.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "calm",
+      "cope",
+      "grow"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-11",
+    "reason": "Screened 2026-10-11: official happify.com homepage fetched live this run (science-based activities/games for stress and negative thoughts, expert-created tracks confirmed). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "pricing and access route not stated on reviewed page",
+      "underlying research studies not verified",
+      "gamification/streak mechanics not audited",
+      "branding shift to 'Dario Mind' needs confirming with the owner"
+    ],
+    "source_notes": [
+      "https://www.happify.com/"
+    ]
+  },
+  {
+    "id": "woebot-health-app",
+    "name": "Woebot Health — Chat-Based AI Wellness Tool",
+    "publisher": "Woebot Health; founded 2017 by clinical research psychologist Dr. Alison Darcy",
+    "resource_type": "mobile-app",
+    "official_url": "https://woebothealth.com/",
+    "description": "Chat-based AI wellness tool intended to make mental-health support radically accessible through an empathetic conversational agent. Founded on clinical psychology research (founder Dr. Alison Darcy, clinical research psychologist).",
+    "tags": [
+      "chatbot",
+      "ai",
+      "anxiety",
+      "depression",
+      "cbt",
+      "conversational",
+      "mobile",
+      "accessibility-of-care"
+    ],
+    "intended_population": [
+      "adults (per the reviewed corporate page)"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "regions": [
+      "US context implied (FDA/ORCHA/HIPAA references); regions not enumerated on the reviewed page"
+    ],
+    "platforms": [
+      "Mobile app (per reviewed page badges: App Store, Google Play)"
+    ],
+    "access": [
+      "Pricing not stated on the reviewed corporate page"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US digital-health company context; no stated cultural-adaptation process found on the reviewed page.",
+      "source_notes": [
+        "https://woebothealth.com/"
+      ]
+    },
+    "privacy_notes": "Page displays HIPAA badge; actual privacy policy not reviewed in this screening.",
+    "evidence_notes": "Corporate page lists awards (MedTech Breakthrough 2023/2024, Newsweek digital-health list, App of the Day). Clinical trials of Woebot's CBT-based conversations exist in the literature but were NOT verified in this screening — do not treat awards as clinical evidence.",
+    "limitations": "This is an AI conversational agent — must be framed as a wellness companion, never as a therapist or clinical recommendation, per SootheSpot principle 10. Pricing and app access route not stated on the reviewed corporate page. Clinical evidence (Fitzpatrick et al. 2017 JMIR and later trials) not verified in this screening. The reviewed page is corporate-facing; in-app crisis behavior not confirmed.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "calm",
+      "cope",
+      "ground"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-11",
+    "reason": "Screened 2026-10-11: official woebothealth.com page fetched live this run (chat-based AI wellness tool, founded by clinical psychologist Dr. Alison Darcy, 2017). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "pricing and access route not stated on reviewed page",
+      "clinical trial publications not verified",
+      "in-app crisis/self-harm behavior not confirmed"
+    ],
+    "source_notes": [
+      "https://woebothealth.com/"
+    ]
   }
 ]
