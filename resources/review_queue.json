@@ -4180,5 +4180,261 @@
     "source_notes": [
       "https://www.expertselfcare.com/distract/"
     ]
+  },
+  {
+    "id": "calm-app",
+    "name": "Calm - Meditation & Sleep App",
+    "publisher": "Calm (calm.com); legal entity not stated on the reviewed page",
+    "resource_type": "mobile-app",
+    "official_url": "https://www.calm.com/",
+    "description": "Meditation and sleep app described on its homepage as the \"#1 mental health app\" - a publisher marketing claim, not a verified ranking. Offers guided meditations across sleep, anxiety, stress, focus, and gratitude; 500+ Sleep Stories and sonically engineered soundscapes; music tracks; a 60-second Breathe Bubble grounding tool; and in-the-moment features for acute stress or anxiety including Panic SOS, Body Scan, and breathing exercises. The page also names clinical-psychologist-led programs (e.g., with Dr. Julie Smith), a Sleep Check-In feature, and a kids' library.",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "sleep",
+      "stress",
+      "anxiety",
+      "breathing",
+      "grounding",
+      "soundscapes",
+      "guided-audio",
+      "kids"
+    ],
+    "intended_population": [
+      "general public seeking stress reduction, sleep improvement, and mindfulness practice (per the publisher page)",
+      "children and families (kids' Sleep Stories and meditations)"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English (page reviewed in English; other languages not stated)"
+    ],
+    "regions": [
+      "Global marketing, US-led; regional availability and pricing not stated on the reviewed page"
+    ],
+    "platforms": [
+      "iOS (App Store)",
+      "Android (Google Play)",
+      "Web (browser)",
+      "Apple TV",
+      "Apple Watch",
+      "Google WearOS",
+      "Samsung Health"
+    ],
+    "access": [
+      "Paid subscription for the full library (exact price not stated on the reviewed page)",
+      "Free content exists in the app but its scope is not stated on the reviewed page",
+      "Subscription auto-renewal can be cancelled anytime (per the page's instructions)"
+    ],
+    "accessibility": [
+      "Audio-first content; screen-reader and reduced-motion compatibility not stated on the reviewed page"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Global marketing reach; no stated cultural-adaptation process found on the reviewed page.",
+      "source_notes": [
+        "https://www.calm.com/"
+      ]
+    },
+    "privacy_notes": "Subscription account implied for full use; actual privacy policy and data practices not reviewed in this screening.",
+    "evidence_notes": "Page uses \"research-based tools\" language, cites studies on meditation benefits (\"studies show\"), and reports a Calm Science survey of 900+ US parents with parent-reported outcomes for Calm Kids. All are publisher claims NOT independently verified in this screening; do not treat as clinical evidence.",
+    "limitations": "Most content is paywalled behind the subscription. The \"#1 mental health app\" claim is marketing, not a verified ranking. Features named Panic SOS and stress/anxiety collections are wellness content, not crisis care - SootheSpot must frame the app as between-support coping content with deterministic safety routing, never a crisis intervention, and never present it as a clinician recommendation (principles 5 and 10). In-app crisis/self-harm behavior not confirmed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "calm",
+      "sleep",
+      "stress",
+      "anxiety",
+      "practice"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "reason": "Screened 2026-10-12: official calm.com homepage fetched live this run (meditation and sleep app; subscription for full library with 500+ Sleep Stories, soundscapes, guided meditations; in-the-moment tools incl. 60-second Breathe Bubble, Panic SOS, breathing exercises; platforms confirmed incl. iOS/Android/web/watch/TV). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "exact subscription price not stated on the reviewed page",
+      "language availability not stated on the reviewed page",
+      "legal entity not stated on the reviewed page",
+      "in-app crisis/self-harm behavior not confirmed"
+    ],
+    "source_notes": [
+      "https://www.calm.com/"
+    ]
+  },
+  {
+    "id": "togetherall-peer-community",
+    "name": "Togetherall - Anonymous Peer-to-Peer Mental Health Community",
+    "publisher": "Togetherall (togetherall.com); legal entity not stated on the reviewed page",
+    "resource_type": "web-platform",
+    "official_url": "https://togetherall.com/en-us/",
+    "description": "Anonymous online peer-to-peer support community for mental health, available 24/7. Members connect through shared lived experience, giving and receiving support at their own pace. The page states the community is moderated around-the-clock by licensed clinicians with real-time risk detection, and positions the service as proactive and preventative (support before crisis). Page claims it is the first peer-to-peer support platform registered under the UK's MHRA Software as a Medical Device framework, ORCHA certified, with independent oversight from a Guardian Council.",
+    "tags": [
+      "peer-support",
+      "anonymous",
+      "community",
+      "moderation",
+      "lived-experience",
+      "24-7",
+      "preventative"
+    ],
+    "intended_population": [
+      "members of partner universities, colleges, employers, employee assistance programs, unions, associations, and public-health systems (access is through partner organizations)"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English (page reviewed in English; other languages not stated)"
+    ],
+    "regions": [
+      "US (en-us page reviewed); UK and other regions implied by MHRA registration and international partner testimonials - exact regional availability not stated"
+    ],
+    "platforms": [
+      "Web (community feed shown on a mobile device in the page imagery; a dedicated mobile app is not confirmed)"
+    ],
+    "access": [
+      "Free, but ONLY through partner universities, colleges, employers, EAPs, unions, associations, and public-health organizations - not open to everyone independently",
+      "Individual eligibility must be checked via the provider's own eligibility page"
+    ],
+    "accessibility": [
+      "Community-feed interface; assistive-technology compatibility not stated on the reviewed page"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Built around shared lived experience across populations; operates in multiple countries; no stated cultural-adaptation process found on the reviewed page.",
+      "source_notes": [
+        "https://togetherall.com/en-us/"
+      ]
+    },
+    "privacy_notes": "Anonymous community; access verification is tied to partner-organization eligibility. Actual privacy policy and data-handling practices not reviewed in this screening.",
+    "evidence_notes": "Page claims 24/7 clinician moderation, real-time risk detection, MHRA registration, ORCHA certification, Guardian Council oversight, and member-reported outcomes (82% rated helpful or very helpful; 63% not using any other professional support). All are publisher claims NOT independently verified in this screening; do not treat as clinical evidence.",
+    "limitations": "Access is gated by partner-organization membership - most people cannot sign up directly; individual eligibility must be checked. Peer support is not professional care. SootheSpot must frame the community as a complement to support, never as a crisis intervention or clinician recommendation (principles 5 and 10). Moderation quality and escalation behavior in high-risk moments not confirmed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "find support",
+      "support",
+      "cope",
+      "mood"
+    ],
+    "shelf": "reach-out",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "reason": "Screened 2026-10-12: official togetherall.com/en-us/ page fetched live this run (anonymous 24/7 peer-support community, moderated by licensed clinicians per the page; free only through partner universities/employers/EAPs - gated eligibility, not open to all; MHRA/ORCHA/Guardian Council statements are publisher claims). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "regional availability not fully stated",
+      "dedicated mobile app not confirmed",
+      "moderation and escalation behavior not confirmed",
+      "eligibility-check experience not confirmed",
+      "legal entity not stated on the reviewed page"
+    ],
+    "source_notes": [
+      "https://togetherall.com/en-us/"
+    ]
+  },
+  {
+    "id": "happier-meditation-app",
+    "name": "Happier Meditation - Personalized Meditation & Mindfulness (formerly Ten Percent Happier)",
+    "publisher": "Happier Meditation (tenpercent.com; formerly Ten Percent Happier; legal entity not stated on the reviewed page)",
+    "resource_type": "mobile-app",
+    "official_url": "https://www.tenpercent.com/",
+    "description": "Meditation and mindfulness app rooted in the Insight (Vipassana) meditation tradition. Per the publisher page, founded in 2014 and developed in collaboration with Dan Harris of the book 10% Happier. Offers guided meditations (5-90 minutes), step-by-step courses (e.g., Unlearn to Meditate, Taming Anxiety, Stress Better), real-life mindfulness practices, teacher talks, a weekly newsletter, and email support. Teachers include experienced insight-meditation practitioners; the page names Sharon Salzberg, Joseph Goldstein, and Jon Kabat-Zinn as influences. Mobile app only - not available in a web browser.",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "vipassana",
+      "anxiety",
+      "stress",
+      "courses",
+      "guided-audio",
+      "beginner"
+    ],
+    "intended_population": [
+      "beginning to experienced meditators; general public (per the publisher page)"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English (page reviewed in English; other languages not stated)"
+    ],
+    "regions": [
+      "Pricing stated in USD; regional availability not stated on the reviewed page"
+    ],
+    "platforms": [
+      "iOS (iPhone, iPad, iPod touch, Apple Watch)",
+      "Android (Google Play)",
+      "Not available through a web browser or on desktop (per the page)"
+    ],
+    "access": [
+      "Free to download; free account includes three courses (Unlearn to Meditate, The Basics, The Dalai Lama's Guide to Happiness) plus 50+ guided meditations",
+      "Full subscription $99.99/year USD unlocks everything (per the reviewed page)",
+      "Email support available (support@meditatehappier.com)"
+    ],
+    "accessibility": [
+      "Audio-first content; screen-reader and reduced-motion compatibility not stated on the reviewed page"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Practice rooted in Buddhist Vipassana tradition (page acknowledges its roots and gratitude to teachers); teachers described as diverse voices; no stated cultural-adaptation process found on the reviewed page.",
+      "source_notes": [
+        "https://www.tenpercent.com/"
+      ]
+    },
+    "privacy_notes": "Account and subscription required; privacy policy and data practices not reviewed in this screening.",
+    "evidence_notes": "Page describes the app as \"award winning\" and summarizes research on meditation benefits; all are publisher claims NOT independently verified in this screening; do not treat as clinical evidence.",
+    "limitations": "Most content is paywalled behind the subscription. No web or desktop version (app only). Not a clinical service - SootheSpot must frame it as a wellness/mindfulness resource, never a clinician recommendation (principle 10). In-app crisis/self-harm behavior not confirmed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "calm",
+      "practice",
+      "stress",
+      "anxiety"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "reason": "Screened 2026-10-12: official tenpercent.com page fetched live this run (Happier Meditation, formerly Ten Percent Happier; Vipassana-based meditation app; $99.99/year USD subscription with a meaningful free tier - three courses plus 50+ guided meditations; founded 2014; mobile app only). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "legal entity not stated on the reviewed page",
+      "language availability not stated on the reviewed page",
+      "in-app crisis/self-harm behavior not confirmed"
+    ],
+    "source_notes": [
+      "https://www.tenpercent.com/"
+    ]
   }
 ]
