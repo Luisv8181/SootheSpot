@@ -4741,5 +4741,328 @@
       "https://movemood.stem4.org.uk/",
       "https://stem4.org.uk/app-licensing-opportunities/"
     ]
+  },
+  {
+    "id": "talklife-peer-community",
+    "name": "TalkLife",
+    "publisher": "TalkLife Limited",
+    "official_url": "https://www.talklife.com/",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "description": "Global peer support community app where people share posts and chat (private messages, group chats, public posts) about daily struggles, low moments, and small wins. Free to use in its entirety; optional paid 'Hero Membership' unlocks cosmetic features (profile boosts, highlights).",
+    "tags": [
+      "peer-support",
+      "community",
+      "free",
+      "mobile-app",
+      "independent-use",
+      "english-only",
+      "16-plus"
+    ],
+    "access": [
+      "Free core app; optional paid 'Hero Membership' and in-app purchases (prices on the store listing, e.g. Hero subscription ~599 INR)"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global (per publisher listing); publisher company TalkLife Limited"
+    ],
+    "shelf": "reach-out",
+    "needs": [
+      "support",
+      "stress",
+      "calm"
+    ],
+    "evidence_notes": "Publisher makes no clinical efficacy claims on the reviewed page; describes itself as peer support only. No independent evidence reviewed in this screening.",
+    "limitations": "Publisher-stated: peer support is not a substitute for professional services; not a medical device; in distress, seek qualified professional or crisis service. Age rating 16+ (mature/suggestive themes, profanity, medical treatment information). User-generated content — support quality is peer-level, not clinical. SootheSpot's deterministic safety pathway applies independently.",
+    "privacy_notes": "Apple listing's privacy labels: diagnostics may be used for tracking and linked to identity; user content and diagnostics collected but not linked. The privacy policy itself was not reviewed in this screening.",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "English-only per the store listing. 'Global friendships' framing claims cross-cultural reach, but no localization or cultural-adaptation evidence was reviewed; do not assume fit.",
+      "source_notes": [
+        "https://apps.apple.com/in/app/talklife-24-7-peer-support/id449804588"
+      ]
+    },
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "reason": "Screened 2026-10-12: official App Store listing (TalkLife Limited) fetched live this run — peer-support purpose, free core app with paid Hero membership, explicit not-a-substitute-for-professional-services framing, 16+ rating, and English-only all confirmed on the page. The publisher domain talklife.com is confirmed via the listing's official /terms and /privacy links. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://apps.apple.com/in/app/talklife-24-7-peer-support/id449804588",
+      "https://www.talklife.com/terms",
+      "https://www.talklife.com/privacy"
+    ],
+    "screening_gaps": [
+      "Privacy policy not reviewed",
+      "Content moderation and safety-team practices not reviewed",
+      "Non-English availability not confirmed (listing shows English only)",
+      "In-app crisis response behavior not confirmed"
+    ]
+  },
+  {
+    "id": "daylio-journal-mood-tracker",
+    "name": "Daylio Journal — Mood Tracker",
+    "publisher": "Daylio (Android publisher Habitics s.r.o.; iOS publisher Relaxio — names per app-store metadata summarized in secondary sources)",
+    "official_url": "https://daylio.net/",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "description": "Micro-diary and mood tracker: log mood plus activities in two taps (or add notes, photos, voice memos), then explore charts, correlations, and a 'Year in Pixels' overview. Includes goals, reminders, optional PIN/biometric lock, and PDF/CSV export. Backups go to the user's own Google Drive/iCloud.",
+    "tags": [
+      "mood-tracking",
+      "journaling",
+      "habits",
+      "privacy-claims",
+      "free",
+      "mobile-app",
+      "independent-use"
+    ],
+    "access": [
+      "Free core app; optional paid Premium tier (advanced stats, automatic backups, no ads, PIN lock — details from app-store metadata, not verified on the official site)"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global"
+    ],
+    "shelf": "understand-yourself",
+    "needs": [
+      "mood",
+      "understand",
+      "practice"
+    ],
+    "evidence_notes": "Publisher marketing claims ('MAX PRIVACY', 'trusted by 20M+ users', since 2015) are unverified by this screening. No independent efficacy evidence was reviewed.",
+    "limitations": "A journaling/self-tracking tool — does not replace professional mental health care. Free tier includes ads and locks advanced features behind Premium. Uses daily streaks and achievements (per secondary descriptions), which are unaudited against SootheSpot's no-streaks/engagement-mechanics principle.",
+    "privacy_notes": "Official site claims entries live in the app's private directories, are not sent to developer servers, and backups travel over encrypted channels to the user's own Google Drive/iCloud. MATERIAL GAP: third-party summaries of the Android app's Data Safety label report device IDs collected for analytics plus an advertising SDK — seemingly contradicting the no-collection claim; not reconciled in this screening. Privacy policy not reviewed.",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Store metadata indicates multiple languages, but the full language list was not verified on the official site. Do not assume cultural fit.",
+      "source_notes": [
+        "https://daylio.net/"
+      ]
+    },
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "reason": "Screened 2026-10-12: daylio.net fetched live this run — two-tap mood/activity logging, stats/correlations/Year in Pixels, PIN lock, and encrypted user-cloud backups all confirmed on the official page; free app with Premium tier. The publisher's strong no-collection privacy claim is recorded verbatim, with the apparent Data Safety contradiction flagged as an open gap. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://daylio.net/",
+      "https://en.wikipedia.org/wiki/Daylio"
+    ],
+    "screening_gaps": [
+      "Premium pricing and feature set not verified on the official site",
+      "Full language list not verified on the official site",
+      "Data-safety label vs no-collection claim not reconciled",
+      "Streak/achievement mechanics not audited against the no-streaks principle",
+      "Privacy policy not reviewed"
+    ]
+  },
+  {
+    "id": "plum-village-app",
+    "name": "Plum Village App",
+    "publisher": "The Centre for Applied Ethics Ltd (non-profit, London); content by Thich Nhat Hanh and the Plum Village monastic community",
+    "official_url": "https://plumvillage.app/about-the-plum-village-app/",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "description": "Completely free meditation app in the Plum Village tradition: 100+ guided meditations, deep relaxations, chanting and practice songs, hundreds of talks and Q&As with Thich Nhat Hanh and monastics (including teachings on embracing difficult emotions), a customizable meditation timer, a mindfulness bell, guided meditations for children, offline downloads, optional 'Mindful Minutes' sync to Apple Health, plus a web version and browser add-ons.",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "buddhist-tradition",
+      "free",
+      "no-ads",
+      "mobile-app",
+      "web",
+      "independent-use",
+      "children-content"
+    ],
+    "access": [
+      "Free — no ads, no in-app purchases (per the App Store listing text); donation-supported"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global"
+    ],
+    "shelf": "listen",
+    "needs": [
+      "calm",
+      "listen",
+      "stress"
+    ],
+    "evidence_notes": "Publisher is a non-profit and monastic community; no clinical efficacy claims are made or evaluated. A community-supported digital sangha model, per the about page.",
+    "limitations": "Zen Buddhist tradition framing — not a secular or clinical program; may not suit users wanting secular content. Publisher notes some audio is recorded on retreats (spontaneous, not studio quality). Does not replace professional mental health care.",
+    "privacy_notes": "No account requirement stated on the fetched about page; Apple Health 'Mindful Minutes' sync is opt-in per the store listing. Full data practices not reviewed in this screening.",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Rooted in Vietnamese Zen Buddhism via the Plum Village community; the about page frames it as 'mindfulness in a Buddhist tradition.' Volunteer subtitle/translation efforts exist, but the supported-language list was not verified. Do not assume fit outside this tradition.",
+      "source_notes": [
+        "https://plumvillage.app/about-the-plum-village-app/"
+      ]
+    },
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "reason": "Screened 2026-10-12: plumvillage.app/about-the-plum-village-app/ fetched live this run — completely-free status, Centre for Applied Ethics non-profit publisher, guided meditations/talks/mindfulness bell/timer, children's meditations, and offline downloads all confirmed on the official page. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://plumvillage.app/about-the-plum-village-app/",
+      "https://apps.apple.com/us/app/plum-village-zen-meditation/id1273719339"
+    ],
+    "screening_gaps": [
+      "Language list not verified",
+      "Privacy and data practices not reviewed",
+      "Children's content section not reviewed",
+      "In-app crisis response not confirmed"
+    ]
+  },
+  {
+    "id": "cbt-tools-excel-at-life",
+    "name": "CBT Tools for Healthy Living (Excel At Life)",
+    "publisher": "Excel At Life (psychologist-developed; store listing states 30+ years clinical experience)",
+    "official_url": "https://play.google.com/store/apps/details?id=com.excelatlife.cbtdiary&hl=en_IE",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "Android"
+    ],
+    "description": "Free CBT self-help toolkit by Excel At Life: Cognitive Diary (step-by-step cognitive restructuring), Inspire Diary (affirmations and positive events), cognitive-styles/happiness tests, Healthy Activities Log, Mood Log with analysis graphs, Points Log with encouraging messages, Daily Goals (usable for treatment planning with a therapist), and links to relaxation/assistance audios on the Excel At Life website.",
+    "tags": [
+      "cbt",
+      "thought-diary",
+      "mood-log",
+      "free",
+      "ads",
+      "on-device-data",
+      "mobile-app",
+      "independent-use",
+      "with-support"
+    ],
+    "access": [
+      "Free with display ads; ads removable by earning points or watching short ad videos"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global"
+    ],
+    "shelf": "practice",
+    "needs": [
+      "practice",
+      "mood",
+      "understand"
+    ],
+    "evidence_notes": "Listing states the tools are 'derived from the CBT research base' and developed by a psychologist with 30+ years of clinical experience — publisher claims; no independent efficacy review was done in this screening.",
+    "limitations": "Per the listing: for self-help for minor issues or in collaboration with a health professional — not crisis care. Contains display ads. The Points Log's encouragement/points mechanics are unaudited against SootheSpot's no-streaks principle. SootheSpot's deterministic safety pathway applies independently.",
+    "privacy_notes": "Listing states all personal data is stored on the device, with optional password protection and optional email export of entries/test results (privacy-relevant). The privacy policy and ad-network data practices were not reviewed in this screening.",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "CBT framing from Western psychology with customizable CBT terminology; do not assume cultural fit. Language availability beyond English not verified.",
+      "source_notes": [
+        "https://play.google.com/store/apps/details?id=com.excelatlife.cbtdiary&hl=en_IE"
+      ]
+    },
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "reason": "Screened 2026-10-12: official Google Play listing (Excel At Life) fetched live this run — psychologist-developed CBT diary/mood-log/goal tools, free-with-ads access, on-device data storage, and self-help-or-with-therapist framing all confirmed on the page. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://play.google.com/store/apps/details?id=com.excelatlife.cbtdiary&hl=en_IE"
+    ],
+    "screening_gaps": [
+      "iOS availability not verified in this screening",
+      "Privacy policy not reviewed",
+      "Ad-network data practices not reviewed",
+      "Points/encouragement mechanics not audited against the no-streaks principle",
+      "Clinical efficacy not independently reviewed"
+    ]
   }
 ]
