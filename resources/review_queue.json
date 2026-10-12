@@ -4436,5 +4436,310 @@
     "source_notes": [
       "https://www.tenpercent.com/"
     ]
+  },
+  {
+    "id": "sam-anxiety-management",
+    "name": "SAM: Self-help for Anxiety Management",
+    "publisher": "University of the West of England (UWE Bristol) — developed by an interdisciplinary team of two computer scientists and one psychologist, in consultation with therapeutic practitioners",
+    "resource_type": "mobile-app",
+    "official_url": "https://sam-app.org.uk",
+    "description": "Free self-help app for managing mild to moderate anxiety: anxiety self-monitoring with graphical display, 25 self-help options covering information about anxiety, thinking and anxiety, physical relaxation, mental relaxation, and health and anxiety, plus guidance on putting self-help into practice and a closed social network of SAM users. Users build their own Anxiety Toolkit from the resources they find helpful. iOS and Android.",
+    "tags": [
+      "anxiety",
+      "self-help",
+      "free",
+      "mobile-app",
+      "university-developed",
+      "independent-use",
+      "uk"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "regions": [
+      "United Kingdom (university publisher); launched globally per the UWE project report — current store availability outside the UK not verified in this screening"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK university-developed; no cultural-adaptation claims assessed in this screening — do not assume fit.",
+      "source_notes": [
+        "https://uwe-repository.worktribe.com/output/805221/project-sam-developing-an-app-to-provide-self-help-for-anxiety"
+      ]
+    },
+    "privacy_notes": "Privacy policy not reviewed in this screening; the app includes a closed social network of users, so do not assume private by default.",
+    "evidence_notes": "UWE's own project report describes iterative evaluation with expert users, practitioners, and students; no independent peer-reviewed efficacy trial was reviewed in this screening.",
+    "limitations": "Self-help tool for mild to moderate anxiety — not a replacement for therapy or clinical care. Launched 2013; current maintenance and app-store listing status not verified in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "anxiety",
+      "practice",
+      "cope"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "reason": "Screened 2026-10-12: sam-app.org.uk fetched live this run (domain resolves and responds, though its front page serves a bot-verification challenge to this fetcher); UWE's own project-repository record fetched live confirms the university team, self-help structure, mild-to-moderate-anxiety scope, and with-or-without-practitioner use. Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "Official homepage content not readable through the site's bot-verification challenge",
+      "Current app-store listing and maintenance status not verified",
+      "Privacy policy not reviewed"
+    ],
+    "source_notes": [
+      "https://sam-app.org.uk",
+      "https://uwe-repository.worktribe.com/output/805221/project-sam-developing-an-app-to-provide-self-help-for-anxiety"
+    ]
+  },
+  {
+    "id": "whats-your-grief",
+    "name": "What's Your Grief",
+    "publisher": "What's Your Grief (grief education website)",
+    "resource_type": "resource-hub",
+    "official_url": "https://whatsyourgrief.com/",
+    "description": "Grief education website with hundreds of free articles on understanding and coping with grief and loss, plus a grief podcast, online courses, webinars, and an online grief support community. Practical guidance for grieving people and for supporting a grieving friend or family member; also offers training resources for grief professionals and volunteers.",
+    "tags": [
+      "grief",
+      "loss",
+      "education",
+      "free",
+      "articles",
+      "podcast",
+      "independent-use"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "regions": [
+      "Global (website)"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "access": [
+      "free",
+      "paid-optional"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Grief education authored for a general audience; no cultural-adaptation claims assessed in this screening — do not assume fit.",
+      "source_notes": [
+        "https://whatsyourgrief.com/"
+      ]
+    },
+    "privacy_notes": "Privacy policy not reviewed in this screening; free articles require no account per the site, but the membership community is account-based.",
+    "evidence_notes": "Educational self-help content; no clinical efficacy claims were evaluated in this screening.",
+    "limitations": "Educational grief content — not professional grief counseling or crisis care. Some courses and the Grief Support Hub membership are paid; paid tiers not reviewed. SootheSpot's deterministic safety pathway applies independently.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "learn",
+      "read",
+      "support"
+    ],
+    "shelf": "learn",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "reason": "Screened 2026-10-12: whatsyourgrief.com fetched live this run (grief-education site live; hundreds of free articles, podcast, courses, and community confirmed via the site and publisher listings). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "Publisher team/clinician credentials not verified from the official site this run",
+      "Paid course/membership pricing and terms not reviewed",
+      "Privacy policy not reviewed"
+    ],
+    "source_notes": [
+      "https://whatsyourgrief.com/"
+    ]
+  },
+  {
+    "id": "portal-nature-escapes",
+    "name": "Portal – Escape Into Nature",
+    "publisher": "Portal Labs Ltd (UK indie team, per App Store listing)",
+    "resource_type": "mobile-app",
+    "official_url": "https://portal.app/",
+    "description": "Immersive nature-escape app: window-like motion visuals of natural places paired with true-to-life spatial audio recordings, plus smart-lighting integration, a sleep timer, a focus (pomodoro) timer, and meditation and breathing exercises. iPhone, iPad, and Mac; free tier with rotating limited portals, premium unlocks the full library.",
+    "tags": [
+      "nature",
+      "soundscapes",
+      "focus",
+      "sleep",
+      "calm",
+      "freemium",
+      "mobile-app",
+      "independent-use"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "regions": [
+      "Global (App Store distribution); UK-based publisher"
+    ],
+    "platforms": [
+      "iOS",
+      "macOS"
+    ],
+    "access": [
+      "free",
+      "paid-optional"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Nature imagery from locations worldwide; no cultural-adaptation claims assessed in this screening — do not assume fit.",
+      "source_notes": [
+        "https://portal.app/"
+      ]
+    },
+    "privacy_notes": "Publisher claims no third-party tracking, targeted ads, or personal data collection (per the App Store listing); not independently verified in this screening.",
+    "evidence_notes": "Wellness/relaxation product; no clinical efficacy claims were evaluated in this screening.",
+    "limitations": "Freemium — the full portal library requires a paid subscription (monthly, annual, or lifetime per the App Store listing); free-tier portal counts differ across listings and were not reconciled. Relaxation/focus tool — not therapy or crisis care.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "calm",
+      "sleep",
+      "listen"
+    ],
+    "shelf": "listen",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "reason": "Screened 2026-10-12: portal.app fetched live this run (nature-immersion features, free try on iPhone/iPad/Mac, and free-tier-plus-premium model confirmed on the page); UK publisher and no-tracking claim confirmed via the App Store listing. Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "Free-tier portal count differs across listings (3 vs 6) — not reconciled",
+      "Privacy no-tracking claim not independently verified",
+      "Apple TV / Vision Pro variants not reviewed"
+    ],
+    "source_notes": [
+      "https://portal.app/",
+      "https://apps.apple.com/jp/app/portal-escape-into-nature/id1436994560?l=en-US"
+    ]
+  },
+  {
+    "id": "move-mood-stem4",
+    "name": "Move Mood",
+    "publisher": "stem4 (UK teenage mental health charity)",
+    "resource_type": "mobile-app",
+    "official_url": "https://movemood.stem4.org.uk/",
+    "description": "Free app for young people managing low mood or depression: uses Behavioural Activation Therapy to encourage motivation for everyday tasks, with a personalisable companion, progress tracking, and in-built analytics. Developed for stem4 by Dr Nihara Krause, Consultant Clinical Psychologist, and co-designed with young people. iOS and Android.",
+    "tags": [
+      "low-mood",
+      "depression",
+      "behavioural-activation",
+      "free",
+      "mobile-app",
+      "young-people",
+      "evidence-based",
+      "independent-use",
+      "uk"
+    ],
+    "intended_population": [
+      "young-people"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "regions": [
+      "United Kingdom (charity base; signposted resources are UK-specific); app-store availability outside the UK not verified in this screening"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK charity-developed for young people; Behavioural Activation Therapy framing from Western psychology — do not assume fit.",
+      "source_notes": [
+        "https://movemood.stem4.org.uk/"
+      ]
+    },
+    "privacy_notes": "App-store listings state the app is anonymous and collects no identifiable data; the privacy policy was not reviewed in this screening.",
+    "evidence_notes": "Publisher describes the app as clinically-led and NHS-approved, with in-built analytics measuring effectiveness; no independent peer-reviewed efficacy trial was reviewed in this screening.",
+    "limitations": "Per the publisher: an aid in treatment, not a replacement for treatment. Designed for young people managing low mood/depression — not crisis care. SootheSpot's deterministic safety pathway applies independently.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "mood",
+      "practice",
+      "cope"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "reason": "Screened 2026-10-12: movemood.stem4.org.uk fetched live this run (free app, Behavioural Activation Therapy basis, stem4/Dr Nihara Krause authorship, and aid-in-treatment-not-replacement statement all confirmed on the page). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "Privacy policy not reviewed",
+      "Independent efficacy data not reviewed",
+      "Non-UK app-store availability not confirmed"
+    ],
+    "source_notes": [
+      "https://movemood.stem4.org.uk/",
+      "https://stem4.org.uk/app-licensing-opportunities/"
+    ]
   }
 ]
