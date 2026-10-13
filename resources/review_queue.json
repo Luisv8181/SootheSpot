@@ -5397,5 +5397,261 @@
       "Privacy policy not reviewed",
       "Publisher efficacy claims not independently verified"
     ]
+  },
+  {
+    "id": "act-companion-happiness-trap",
+    "name": "ACT Companion: The Happiness Trap App",
+    "publisher": "ACT Companion team; created 2013 by Anthony Berrick (MAPS psychologist, Sydney; director of The Cynophobia Clinic) in collaboration with Dr Russ Harris (medical practitioner, psychotherapist, ACT trainer, author of The Happiness Trap)",
+    "official_url": "https://actcompanion.com/",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "description": "Acceptance and Commitment Therapy companion app based on Dr Russ Harris's self-help book The Happiness Trap. Dozens of interactive ACT exercises: defusion and acceptance techniques, values-clarification and goal-setting tools, 4+ hours of guided mindfulness recordings, an ACTometer for applying skills to real-life situations, a progress dashboard with Weekly Check-In, Mindful Moments notifications, and a Crisis Tool for regathering during difficult moments. Entries can optionally be shared as a PDF with a therapist or coach, so it supports clinician-guided use as well as independent practice.",
+    "tags": [
+      "act",
+      "acceptance-and-commitment-therapy",
+      "mindfulness",
+      "values",
+      "defusion",
+      "self-help",
+      "mobile-app",
+      "independent-use",
+      "therapist-guided",
+      "evidence-backed"
+    ],
+    "access": [
+      "Free to try (per the official page; 'Try it now for free!')",
+      "Full pricing not enumerated on the fetched page"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "therapist-guided"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global"
+    ],
+    "shelf": "practice",
+    "needs": [
+      "practice",
+      "calm",
+      "understand",
+      "cope"
+    ],
+    "evidence_notes": "Site cites an independent peer-reviewed study (via graphyonline.com) claiming one ACT Companion exercise per day reduced anxiety, depression and stress and improved mindfulness; study not reviewed in this screening — publisher claim, not independently verified. ACT as a model is supported by a large trial literature (site points to contextualscience.org) but that does not validate the app.",
+    "limitations": "The Crisis Tool is a values-regathering aid, not an emergency service — route actual danger through deterministic safety pathways. Publisher efficacy claims not independently verified. Free-tier vs paid boundaries and pricing not enumerated on the fetched page. Exercises are self-help; not a replacement for professional care for severe or complex conditions.",
+    "privacy_notes": "Therapist sharing is opt-in ('if you choose to', via emailed PDF). No login/data practices reviewed in this screening — full privacy policy not read.",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Australia-origin app (Sydney); ACT is a global, values-based model but the app's examples and voice are set by its authors. Language list beyond English not verified — do not assume cultural fit.",
+      "source_notes": [
+        "https://actcompanion.com/"
+      ]
+    },
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-13",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "reason": "Screened 2026-10-13: actcompanion.com fetched live this run — dozens of interactive ACT exercises tied to The Happiness Trap, defusion/acceptance techniques, values and goal-setting tools, 4+ hours of mindfulness recordings, ACTometer, Weekly Check-In, opt-in therapist sharing, and a Crisis Tool all confirmed on the official page. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://actcompanion.com/"
+    ],
+    "screening_gaps": [
+      "Full pricing and free/paid boundaries not enumerated on the fetched page",
+      "Privacy policy and data practices not reviewed",
+      "Publisher-cited efficacy study not independently verified",
+      "Language list beyond English not verified",
+      "Accessibility not assessed"
+    ]
+  },
+  {
+    "id": "breathwrk-breathing-app",
+    "name": "Breathwrk",
+    "publisher": "Breathwrk Inc.",
+    "official_url": "https://breathwrk.com/",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "description": "Breathing-exercise app: timed inhales, exhales, and holds organized by use case (calm, sleep, energizing, performance), paired with music, haptics, and brief education. Includes guided classes led by coaches, curated practice habits, a personal progress area (the Me Tab), day/night-adaptive visuals, and shared group sessions ('Breathe with Friends'). The official page claims 2M users and 40M recorded breaths; those are publisher numbers, not independently verified.",
+    "tags": [
+      "breathwork",
+      "breathing-exercises",
+      "anxiety",
+      "sleep",
+      "stress",
+      "focus",
+      "mobile-app",
+      "independent-use",
+      "practice"
+    ],
+    "access": [
+      "Free tier: limited access to exercises for energy, stress, and sleep, plus limited classes",
+      "Breathwrk Pro: $9/month or $4.08/month billed annually (7-day free trial), per the official page"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global"
+    ],
+    "shelf": "breathe",
+    "needs": [
+      "calm",
+      "sleep",
+      "stress",
+      "practice"
+    ],
+    "evidence_notes": "Page describes the app as science-based and 'rooted in clinical evidence' but cites no specific trials on the fetched page — publisher claim, not independently verified. Slow-breathing techniques (e.g., elongated exhales) have a research base in relaxation, but that does not validate this app's specific efficacy.",
+    "limitations": "Free tier is limited; core content sits behind a paid subscription. Performance-oriented marketing (athletic claims) may oversell for a general audience. Breathing techniques that involve extended holds can cause lightheadedness — people with respiratory or cardiovascular conditions should check with a clinician first (standard caution; page content on this not reviewed). Not a replacement for professional care for panic, insomnia, or other conditions.",
+    "privacy_notes": "Account and data practices not reviewed in this screening — full privacy policy not read. The Me Tab tracks personal practice history, so data handling matters before any promotion.",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US-facing marketing (USD pricing, press quotes). English-only verified on the fetched page. Breathing practices are cross-cultural, but guidance language and habits are the publisher's own — do not assume cultural fit.",
+      "source_notes": [
+        "https://breathwrk.com/"
+      ]
+    },
+    "accessibility": [
+      "Exercises rely on timed visual/audio/haptic cues — verify usability without sound or fine vision before relying on it; not assessed in this screening."
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-13",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "reason": "Screened 2026-10-13: breathwrk.com fetched live this run — 50+ timed breathing exercises by use case (calm, sleep, energizing, performance), guided classes, habits, group sessions, free tier plus Pro pricing ($9/mo or $4.08/mo annual) all confirmed on the official page. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://breathwrk.com/"
+    ],
+    "screening_gaps": [
+      "Privacy policy and data practices not reviewed",
+      "Publisher 'science-based' claims not tied to cited trials on the fetched page",
+      "Language list beyond English not verified",
+      "Accessibility of timed audiovisual cues not assessed",
+      "Region-by-region availability not enumerated"
+    ]
+  },
+  {
+    "id": "lojong-meditation-sleep",
+    "name": "Lojong: Meditação & Sono (Meditation & Sleep)",
+    "publisher": "Lojong Meditation, Mindfulness and Sleep (UNISOLLUS CONSULTORIA, LDA, Lisbon, Portugal; support hello@lojongapp.com, per app-store listing)",
+    "official_url": "https://lojongapp.com/",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "description": "Portuguese-first guided-meditation and mindfulness app (official landing served in Portuguese). Guided meditations, structured programs for anxiety, sleep, focus, and relationships, breathing techniques, sleep stories, ambient sounds, gentle yoga, gratitude journaling, and an emotional journal. Claims 4.2M people and 130k+ five-star reviews — publisher numbers, not independently verified. Notable: Premium subscriptions fund free Premium access for people who cannot afford it (equity model, per app-store text).",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "sleep",
+      "anxiety",
+      "breathwork",
+      "journaling",
+      "portuguese",
+      "mobile-app",
+      "independent-use"
+    ],
+    "access": [
+      "Free to start: gratitude journal, guided meditations for calm/focus/wellbeing, intro-to-mindfulness programs (per app-store text)",
+      "Premium subscription unlocks full programs, sleep stories, offline listening; pricing not enumerated on the fetched page"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "Portuguese",
+      "English (partially; English meditations offered per app-store text)"
+    ],
+    "regions": [
+      "Brazil",
+      "Portugal",
+      "Global"
+    ],
+    "shelf": "practice",
+    "needs": [
+      "calm",
+      "sleep",
+      "stress",
+      "practice"
+    ],
+    "evidence_notes": "Landing page cites general mindfulness RCTs (JAMA Psychiatry 2022, JAMA Internal Medicine 2015, Health Psychology Review 2021) — these study mindfulness programs generally, not this app; publisher use, not independently verified. No app-specific efficacy study seen on the fetched page.",
+    "limitations": "Publisher outcome claims (e.g., '70% of Premium users report reduced stress') not independently verified. Premium pricing not enumerated on the fetched page. Emotional journal and practice data are stored per-app — data handling unreviewed. Not a replacement for professional care for anxiety disorders, insomnia, or depression.",
+    "privacy_notes": "Privacy policy (lojongapp.com/privacy/) not read in this screening. The app tracks moods and journaling, so policy review is needed before any promotion.",
+    "cultural_context": {
+      "adaptation_status": "partially-adapted",
+      "notes": "Primary product is Portuguese-language (landing served in Portuguese; likely Brazil-heavy audience) — valuable non-English option for SootheSpot's global principle. Brazilian contemplative framing; do not assume fit for other Lusophone or non-Portuguese contexts.",
+      "source_notes": [
+        "https://lojongapp.com/"
+      ]
+    },
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-13",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "reason": "Screened 2026-10-13: lojongapp.com fetched live this run — guided meditations, structured anxiety/sleep/focus programs, breathing techniques, sleep stories, yoga, gratitude and emotional journals, free-start plus Premium model, and the equity-funded free-access model all confirmed on the official page (Portuguese landing) and publisher app-store text. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://lojongapp.com/"
+    ],
+    "screening_gaps": [
+      "Premium pricing not enumerated on the fetched page",
+      "Privacy policy not reviewed",
+      "App-specific efficacy evidence not found",
+      "English-language coverage not verified beyond app-store text",
+      "Accessibility not assessed",
+      "Support-email and developer identity from app-store text, not the official page"
+    ]
   }
 ]
