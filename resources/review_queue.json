@@ -5823,5 +5823,161 @@
     "source_notes": [
       "https://mobile.health.mil/"
     ]
+  },
+  {
+    "id": "cbt-i-coach-va",
+    "name": "CBT-i Coach",
+    "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD (with Stanford School of Medicine and DoD's National Center for Telehealth and Technology)",
+    "resource_type": "mobile-app",
+    "official_url": "https://mobile.va.gov/app/cbt-i-coach",
+    "description": "Structured program teaching Cognitive Behavioral Therapy for Insomnia strategies: education about CBT-i and how sleep works, tips for positive sleep routines and sleep environments, a sleep diary to track wake and sleep times, and relaxation tools for bedtime or getting back to sleep. Based on the therapy manual 'Cognitive Behavioral Therapy for Insomnia in Veterans'.",
+    "tags": [
+      "sleep",
+      "insomnia",
+      "cbt-i",
+      "relaxation",
+      "sleep-diary",
+      "treatment-companion"
+    ],
+    "access": [
+      "free"
+    ],
+    "needs": [
+      "sleep",
+      "calm",
+      "practice",
+      "cope"
+    ],
+    "shelf": "practice",
+    "use_context": [
+      "therapist-supported"
+    ],
+    "intended_population": [
+      "People engaged in Cognitive Behavioral Therapy for Insomnia with a health provider (per the official VA Mobile page)"
+    ],
+    "languages": [],
+    "platforms": [],
+    "regions": [
+      "Global availability not verified; U.S. federal government (VA) publisher."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation or language notes observed on the reviewed VA Mobile page.",
+      "source_notes": [
+        "https://mobile.va.gov/app/cbt-i-coach"
+      ]
+    },
+    "accessibility": [
+      "App-level accessibility features were not verified in this screening."
+    ],
+    "evidence_notes": "Official VA Mobile page; app described as based on the therapy manual 'Cognitive Behavioral Therapy for Insomnia in Veterans'. Efficacy claims were not evaluated in this screening.",
+    "privacy_notes": "App-level privacy policy, data practices, and account requirements were not verified in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only. No reuse license applicable.",
+    "limitations": "Provider-supported by design: the official page states the app was designed to be used with a mental healthcare provider as part of CBT for Insomnia and is NOT meant to be used for self-care; VA explicitly directs self-care users to Insomnia Coach (already in the queue as insomnia-coach-va). Not an independent-use resource. Screening based on the official VA Mobile listing only; platforms, languages, account requirements, privacy, and accessibility are unverified.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-13",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "use_scope_confirmed_provider_supported",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "platforms not enumerated on the fetched page",
+      "languages not stated",
+      "account requirement not verified",
+      "app-level privacy policy not reviewed",
+      "accessibility not verified",
+      "cost not explicitly stated on the fetched page"
+    ],
+    "reason": "Screened 2026-10-13: official VA Mobile page checked live; confirmed a structured CBT-for-insomnia program designed for use with a health provider, explicitly not for self-care (VA points self-care users to Insomnia Coach). Recorded as therapist-supported with the scope limitation explicit. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://mobile.va.gov/app/cbt-i-coach"
+    ]
+  },
+  {
+    "id": "moodtools-depression-aid",
+    "name": "MoodTools - Depression Aid",
+    "publisher": "Inquiry Health LLC",
+    "resource_type": "mobile-app",
+    "official_url": "https://www.moodtools.org/",
+    "description": "Free depression-aid app with research-supported tools: a thought diary based on cognitive therapy principles (analyze thoughts, identify negative/distorted patterns), activities based on behavioral activation therapy (energizing activities with mood tracking), a suicide safety plan with emergency resources, the PHQ-9 depression questionnaire for symptom tracking, a self-help information guide, and mood-related videos. The homepage carries a disclaimer that the app is not intended as a replacement for treatment or medical intervention.",
+    "tags": [
+      "depression",
+      "mood",
+      "cbt",
+      "thought-diary",
+      "behavioral-activation",
+      "phq-9",
+      "safety-plan",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "needs": [
+      "mood",
+      "calm",
+      "practice",
+      "cope",
+      "understand"
+    ],
+    "shelf": "practice",
+    "use_context": [
+      "independent-use"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "languages": [],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "regions": [
+      "U.S.-based publisher (Inquiry Health LLC); regional store availability not verified."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Homepage observed in English with no cultural-adaptation notes.",
+      "source_notes": [
+        "https://www.moodtools.org/"
+      ]
+    },
+    "accessibility": [
+      "App-level accessibility features were not verified in this screening."
+    ],
+    "evidence_notes": "Publisher describes the tools as research-supported (thought diary per cognitive therapy, activities per behavioral activation); the PHQ-9 is a standard depression instrument. Efficacy claims were not evaluated in this screening.",
+    "privacy_notes": "Homepage links to iOS and Android privacy policies and terms of service (hosted off-site); their contents were not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only. No reuse license applicable.",
+    "limitations": "Contains a suicide safety-plan feature: per SootheSpot safety rules it must route through the deterministic safety pathway if ever promoted, and the safety-plan content plus crisis-resource correctness were not evaluated here. Screening based on the official homepage only; app-level account requirements, languages, privacy-policy contents, and accessibility are unverified. The app-store listing flags in-app purchases, which was not confirmed on the official site this run.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-13",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "app-level privacy policy and terms contents not reviewed",
+      "in-app purchases flagged on the store listing, unconfirmed on the official site",
+      "languages not stated",
+      "account requirement not verified",
+      "accessibility not verified",
+      "safety-plan feature flagged for owner safety review"
+    ],
+    "reason": "Screened 2026-10-13: official homepage checked live; free depression-aid app with a CBT thought diary, behavioral-activation activities, a PHQ-9 test, and a safety-plan feature. Safety-plan content flagged for owner review per safety routing rules; publisher disclaims it is not a replacement for treatment. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://www.moodtools.org/"
+    ]
   }
 ]
