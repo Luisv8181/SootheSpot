@@ -6220,5 +6220,259 @@
     "source_notes": [
       "https://mobile.va.gov/app/aims-anger-management"
     ]
+  },
+  {
+    "id": "ptsd-family-coach-va",
+    "name": "PTSD Family Coach",
+    "publisher": "U.S. Department of Veterans Affairs — VA National Center for PTSD and the DoD National Center for Telehealth & Technology",
+    "resource_type": "mobile-app",
+    "official_url": "https://mobile.va.gov/app/ptsd-family-coach",
+    "description": "Free VA mobile app for family members of people living with posttraumatic stress disorder. Provides PTSD education, guidance on supporting a loved one and on self-care for the family member, tips for finding counseling (individual and couples), stress-management tools including mindfulness exercises and support-network building, stress tracking with feedback, and links to support resources. Designed as a standalone learning and coping tool; the VA states it does not replace treatment with a healthcare professional.",
+    "tags": [
+      "ptsd",
+      "trauma",
+      "family-support",
+      "stress-management",
+      "mindfulness",
+      "free",
+      "ios",
+      "android"
+    ],
+    "intended_population": [
+      "adults",
+      "family-members-and-caregivers",
+      "service-members-and-veterans"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "regions": [
+      "United States (VA offering); app-store availability not verified in this screening"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Developed by a U.S. military health agency; public and not veteran-exclusive per the reviewed page. No stated cultural-adaptation process.",
+      "source_notes": [
+        "https://mobile.va.gov/app/ptsd-family-coach"
+      ]
+    },
+    "privacy_notes": "Data practices were not reviewed in this screening.",
+    "evidence_notes": "Publisher is a U.S. federal mental-health agency; app includes stress tracking with scientifically valid measures per the VA page. No app-specific efficacy claims were made or assessed in this screening.",
+    "limitations": "VA states PTSD often requires professional evaluation and treatment and the app does not replace needed professional care. Designed for family members, not the person with PTSD (PTSD Coach is the companion app for that use). Not a crisis service.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "learn",
+      "practice",
+      "cope"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-13",
+    "reason": "Screened 2026-10-13: official VA Mobile app page fetched live this run (publisher, free status, family-member target, self-care and counseling-guidance framing confirmed). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "app-store pages not opened to verify current availability/ratings",
+      "data practices not reviewed"
+    ],
+    "source_notes": [
+      "https://mobile.va.gov/app/ptsd-family-coach"
+    ],
+    "screened_by": null,
+    "screened_date": null,
+    "review_history": null
+  },
+  {
+    "id": "stay-alive-grassroots-app",
+    "name": "Stay Alive",
+    "publisher": "Grassroots Suicide Prevention (UK charity), with clinical expertise from Sussex Partnership NHS Foundation Trust",
+    "resource_type": "mobile-app",
+    "official_url": "https://prevent-suicide.org.uk/stay-alive-app-grassroots-suicide-prevention/",
+    "description": "Award-winning UK suicide-prevention app, free on iOS, Android, and as a web app (also available in paper booklet form for digitally excluded groups). Features: customizable safety plan, LifeBox for life-affirming photos/videos/audio, wellness plan, reasons-for-living list, guided-breathing exercises, grounding strategies, myths-about-suicide information, guidance for people worried about someone else, and direct links to UK national and local crisis resources. Usable by people experiencing suicidal ideation, concerned others, and professionals supporting at-risk individuals.",
+    "tags": [
+      "suicide-prevention",
+      "safety-planning",
+      "crisis",
+      "breathing",
+      "grounding",
+      "free",
+      "ios",
+      "android",
+      "web"
+    ],
+    "intended_population": [
+      "adults",
+      "young-people",
+      "concerned-others",
+      "general-public"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "languages": [
+      "English (per the reviewed page); app available in 22 languages per the charity's page"
+    ],
+    "regions": [
+      "United Kingdom (crisis-resource database is UK-focused); the charity reports users in 208 countries and territories"
+    ],
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Paper booklet version exists for digitally excluded users. Verify assistive-technology compatibility before relying on the app; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Developed in the UK with lived-experience consultation and LGBTQ and young-people input per the charity's page. Crisis-resource links are UK-focused; users elsewhere should not rely on its crisis directory.",
+      "source_notes": [
+        "https://prevent-suicide.org.uk/stay-alive-app-grassroots-suicide-prevention/"
+      ]
+    },
+    "privacy_notes": "Data practices were not reviewed in this screening; the charity describes the app as confidential with no advertisements.",
+    "evidence_notes": "Charity reports clinical-expertise input from Sussex Partnership NHS Foundation Trust, 1M+ downloads, NHS endorsement, and awards (Patient Safety Award 2015). Efficacy not independently assessed in this screening.",
+    "limitations": "A safety-planning and support-navigation app, not a crisis service; users in crisis need emergency/crisis resources in their own country, and the in-app crisis directory is UK-focused. Developed within UK mental-health systems.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "safety",
+      "cope",
+      "practice"
+    ],
+    "shelf": "safety",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-13",
+    "reason": "Screened 2026-10-13: official Grassroots Suicide Prevention app page fetched live this run (publisher, free status, safety-plan/LifeBox/crisis-link features, UK focus confirmed). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "app-store pages not opened to verify current availability/ratings",
+      "data practices not reviewed",
+      "crisis-resource directory scope not independently tested"
+    ],
+    "source_notes": [
+      "https://prevent-suicide.org.uk/stay-alive-app-grassroots-suicide-prevention/"
+    ],
+    "screened_by": null,
+    "screened_date": null,
+    "review_history": null
+  },
+  {
+    "id": "my3-suicide-prevention-app",
+    "name": "MY3",
+    "publisher": "Know the Signs suicide-prevention campaign (California Mental Health Services Authority) in partnership with the National Suicide Prevention Lifeline and the Santa Clara County Behavioral Health Department",
+    "resource_type": "mobile-app",
+    "official_url": "https://my3app.org/",
+    "description": "Free safety-planning mobile app for people who may be at risk of suicide. Users define their personal support network (their \"3\" contacts), build a customized safety plan (warning signs, coping strategies, distractions), and personalize crisis resources, including direct access to the National Suicide Prevention Lifeline. Developed under California's Know the Signs campaign in partnership with the National Suicide Prevention Lifeline and Santa Clara County Behavioral Health Department. Free on the Apple App Store and Google Play.",
+    "tags": [
+      "suicide-prevention",
+      "safety-planning",
+      "crisis",
+      "support-network",
+      "free",
+      "ios",
+      "android"
+    ],
+    "intended_population": [
+      "adults",
+      "young-people",
+      "general-public"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "languages": [
+      "English (per the reviewed pages)"
+    ],
+    "regions": [
+      "United States (publisher is a California campaign; app itself distributed nationally through the app stores)"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Developed within a California public mental-health campaign context. No stated cultural-adaptation process.",
+      "source_notes": [
+        "https://my3app.org/",
+        "https://traumatized.com/resources/my3-suicide-prevention-app/"
+      ]
+    },
+    "privacy_notes": "Data practices were not reviewed in this screening.",
+    "evidence_notes": "Publisher is a California public mental-health campaign partnership with the National Suicide Prevention Lifeline. No app-specific efficacy claims were made or assessed in this screening.",
+    "limitations": "A safety-planning aid, not a crisis service or substitute for professional help. The official site (my3app.org) is currently unreachable/under construction; this screening relied on a secondary resource description. Current app-store availability and maintenance status not independently confirmed.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "safety",
+      "cope"
+    ],
+    "shelf": "safety",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-13",
+    "reason": "Screened 2026-10-13: official site my3app.org was unreachable (serves an under-construction placeholder) this run; screening grounded in live fetch of a secondary resource description (traumatized.com) plus live search snippets (CalMHSA campaign origin, Lifeline/Santa Clara County partnership, free iOS/Android status confirmed). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "official site unreachable this run (under-construction placeholder) — publisher claims rely on secondary sources",
+      "app-store pages not opened to verify current availability/ratings",
+      "data practices not reviewed"
+    ],
+    "source_notes": [
+      "https://my3app.org/",
+      "https://traumatized.com/resources/my3-suicide-prevention-app/"
+    ],
+    "screened_by": null,
+    "screened_date": null,
+    "review_history": null
   }
 ]
