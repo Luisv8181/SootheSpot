@@ -5064,5 +5064,338 @@
       "Points/encouragement mechanics not audited against the no-streaks principle",
       "Clinical efficacy not independently reviewed"
     ]
+  },
+  {
+    "id": "waking-up-sam-harris-app",
+    "name": "Waking Up (Sam Harris)",
+    "publisher": "Waking Up (created by Sam Harris; official page describes him as a neuroscientist, philosopher, and five-time New York Times bestselling author with 30+ years of meditation practice)",
+    "official_url": "https://www.wakingup.com/",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "description": "Secular mindfulness meditation app: a 30-day Introductory Course (short daily meditation plus a mindfulness lesson), guided meditations for morning/day/evening across beginner-to-advanced levels, short lessons on science, philosophy, and the nature of mind, long-form conversations with 100+ interdisciplinary teachers, curated playlists, and a member-exclusive community forum spanning 26 countries.",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "secular",
+      "philosophy",
+      "lessons",
+      "mobile-app",
+      "independent-use",
+      "subscription",
+      "community"
+    ],
+    "access": [
+      "Annual subscription after a free trial (trial length not enumerated on the fetched homepage)",
+      "Free full-access scholarship for anyone who cannot afford it — official policy, no questions asked",
+      "Satisfaction guarantee with refunds; cancel anytime via account settings"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global"
+    ],
+    "shelf": "listen",
+    "needs": [
+      "calm",
+      "stress",
+      "learn",
+      "practice"
+    ],
+    "evidence_notes": "Publisher frames the app as combining modern science with ancient wisdom; no independent efficacy evidence was reviewed in this screening.",
+    "limitations": "Paid subscription model (with scholarship route). Strong authorial/philosophical framing from Sam Harris — secular by design, but an opinionated intellectual lens that may not suit users seeking tradition-rooted practice. Does not replace professional mental health care.",
+    "privacy_notes": "Privacy policy and data practices not reviewed in this screening. Account required for subscription access.",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Explicitly secular — the official page states no beliefs, ideology, or spiritual commitments are required. Content draws on multiple traditions (Vipassana, Zen, Stoicism are covered as topics), but the framing is Western scientific/philosophical. Community spans 26 countries. Do not assume cultural fit.",
+      "source_notes": [
+        "https://www.wakingup.com/"
+      ]
+    },
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "reason": "Screened 2026-10-12: wakingup.com fetched live this run — secular framing, 30-day Introductory Course, guided meditations/lessons/conversations with 100+ interdisciplinary teachers, annual subscription with a no-questions-asked scholarship, satisfaction guarantee, and member community forum all confirmed on the official page. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://www.wakingup.com/"
+    ],
+    "screening_gaps": [
+      "Free-trial length not enumerated on the fetched homepage",
+      "Full language list not verified",
+      "Platform list not enumerated on the official homepage this run",
+      "Privacy policy and data practices not reviewed",
+      "Clinical efficacy not independently reviewed"
+    ]
+  },
+  {
+    "id": "buddhify-meditation-app",
+    "name": "Buddhify",
+    "publisher": "Mindfulness Everywhere (independent, self-funded family business — husband-and-wife team Rohan and Lucy Gunatillake, Glasgow, Scotland)",
+    "official_url": "https://buddhify.com/",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "description": "Meditation-on-the-go app: 200+ guided meditations (3–40 minutes) organized in a situation-based wheel (waking up, work break, travelling, difficult emotions, going to sleep, meditation 101), a solo timer for unguided practice, diverse teacher voices, and a dedicated kids wheel with 60 meditations for children.",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "on-the-go",
+      "sleep",
+      "children-content",
+      "mobile-app",
+      "independent-use",
+      "one-time-purchase"
+    ],
+    "access": [
+      "One-off download fee, no subscription (exact price not verified on the official homepage this run)",
+      "Optional annual Membership fee for additional features and to support the publisher's work"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global"
+    ],
+    "shelf": "listen",
+    "needs": [
+      "calm",
+      "stress",
+      "sleep",
+      "listen",
+      "practice"
+    ],
+    "evidence_notes": "Publisher makes no clinical efficacy claims; positions the app as building independent practice ('help you get to the point where you don't need a meditation app'). No independent efficacy evidence reviewed.",
+    "limitations": "Upfront purchase required (modest one-off fee). Mindfulness-as-lifestyle framing, not a clinical program. Does not replace professional mental health care.",
+    "privacy_notes": "Privacy policy and data practices not reviewed in this screening.",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK/Scotland indie publisher; official values page states 'people over profit' and an emphasis on diversity among teachers. Do not assume cultural fit.",
+      "source_notes": [
+        "https://buddhify.com/"
+      ]
+    },
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "reason": "Screened 2026-10-12: buddhify.com fetched live this run — meditation-on-the-go wheel design, 200+ guided meditations, one-off fee (no subscription) model, family-business publisher Mindfulness Everywhere, kids wheel, and optional annual Membership all confirmed on the official page. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://buddhify.com/"
+    ],
+    "screening_gaps": [
+      "Exact download price not verified on the official homepage this run",
+      "Full language list not verified",
+      "Privacy policy and data practices not reviewed",
+      "Children's content section not reviewed in this screening",
+      "Clinical efficacy not independently reviewed"
+    ]
+  },
+  {
+    "id": "youper-ai-emotional-health",
+    "name": "Youper — Emotional Health Assistant",
+    "publisher": "Youper, Inc (San Francisco; team of doctors, scientists, and engineers led by psychiatrist Dr. Jose Hamilton, per app-store metadata — secondary source)",
+    "official_url": "https://www.youper.ai/",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS"
+    ],
+    "description": "AI wellbeing chatbot: quick conversational check-ins drawing on CBT, ACT, and mindfulness techniques, mood tracking, journaling, and emotional insights. The official site leads with a safety disclosure: suicide/self-harm detection-and-referral protocol, crisis resources, 18+ only, not a medical device.",
+    "tags": [
+      "ai-chatbot",
+      "cbt",
+      "act",
+      "mindfulness",
+      "mood-tracking",
+      "journaling",
+      "mobile-app",
+      "independent-use",
+      "subscription"
+    ],
+    "access": [
+      "Free download with in-app purchases; Premium via subscription (pricing from app-store metadata, not verified this run)"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global"
+    ],
+    "shelf": "understand-yourself",
+    "needs": [
+      "understand",
+      "mood",
+      "stress",
+      "practice"
+    ],
+    "evidence_notes": "App-store marketing claims ('80%+ of 3M+ users report it helped manage their mental health') and press coverage of publisher research are unverified by this screening; no independent efficacy review was done.",
+    "limitations": "18+ only — not intended for minors. Publisher states it provides no medical advice, diagnosis, or treatment; it is not FDA-cleared and is not a substitute for professional mental health care. Its own disclosure says self-harm detection systems are not infallible. Crisis resources listed are US-only (988, Crisis Text Line, 911). As an AI companion, it sits in tension with SootheSpot's 'AI creates experiences, not diagnoses' stance — owner review essential. SootheSpot's deterministic safety pathway applies independently.",
+    "privacy_notes": "Publisher claims chats are private, secure, never shared or sold for advertising — marketing claims on the app-store listing, not verified. Privacy policy not reviewed in this screening.",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US-based publisher; crisis pathways listed are US-only. Non-US coverage and language availability not confirmed. Do not assume cultural fit.",
+      "source_notes": [
+        "https://www.youper.ai/"
+      ]
+    },
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "reason": "Screened 2026-10-12: youper.ai fetched live this run — AI wellbeing chatbot with CBT/ACT/mindfulness conversation framing, mood tracking and journaling, explicit safety protocol (self-harm detection with 988/Crisis Text Line referral), 18+ only, and not-a-medical-device disclosures all confirmed on the official page. Android availability is uncertain (a third-party tracker reports Google Play removal in 2026-03, unconfirmed). Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://www.youper.ai/"
+    ],
+    "screening_gaps": [
+      "Android availability not confirmed (third-party report of Google Play removal unconfirmed)",
+      "Subscription pricing not verified on the official site",
+      "Full language list not verified",
+      "Privacy policy and data practices not reviewed",
+      "Clinical efficacy not independently reviewed",
+      "Non-US crisis pathway coverage not confirmed"
+    ]
+  },
+  {
+    "id": "sleepio-big-health",
+    "name": "Sleepio (Big Health)",
+    "publisher": "Big Health (behavioral-medicine company, London + San Francisco; Sleepio created by sleep expert Professor Colin Espie and Peter Hames, per company materials)",
+    "official_url": "https://www.sleepio.com/",
+    "resource_type": "web-platform",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "description": "Six-week self-directed digital CBT-I program: a sleep questionnaire builds a personalized program of evidence-based cognitive and behavioral techniques, with sleep-score and progress tracking. Offered at no cost as a covered benefit through many employers and health plans.",
+    "tags": [
+      "sleep",
+      "insomnia",
+      "cbt-i",
+      "evidence-backed",
+      "digital-therapeutic",
+      "web",
+      "mobile-app",
+      "independent-use"
+    ],
+    "access": [
+      "At no cost via many employers and health plans (per the official page)",
+      "Direct-consumer pricing not enumerated on the fetched page"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global"
+    ],
+    "shelf": "practice",
+    "needs": [
+      "sleep",
+      "calm",
+      "practice"
+    ],
+    "evidence_notes": "Official FAQ cites publisher-reported outcomes (fall asleep 54% faster, 62% less time awake at night, footnote '1') and company materials cite 12+ RCTs; references not reviewed in this screening — publisher claims, not independently verified.",
+    "limitations": "Program-length commitment (six weekly sessions recommended for full benefit). Availability depends on employer/health-plan coverage or regional access routes (US prescription route is SleepioRx; UK/CE-marked medical device routes differ) — none enumerated on the fetched page. Not a replacement for professional care for complex sleep disorders.",
+    "privacy_notes": "Official FAQ states data is encrypted and stored on secure servers with policies against improper use/disclosure — publisher claims on the FAQ page; full privacy policy not reviewed.",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK-origin program (NICE-guidance history per press) now run by a London/San Francisco company. Country-by-country availability not enumerated on the fetched page. Do not assume cultural fit.",
+      "source_notes": [
+        "https://www.sleepio.com/"
+      ]
+    },
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-12",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "reason": "Screened 2026-10-12: sleepio.com fetched live this run — six-week self-directed CBT-I program, personalized sleep questionnaire, evidence-based techniques, progress tracking, and no-cost employer/health-plan access all confirmed on the official page. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://www.sleepio.com/",
+      "https://www.bighealth.com/"
+    ],
+    "screening_gaps": [
+      "Direct-consumer pricing not enumerated on the fetched page",
+      "Age eligibility not enumerated on the fetched page",
+      "Country-by-country availability not enumerated on the fetched page",
+      "Full language list not verified",
+      "Privacy policy not reviewed",
+      "Publisher efficacy claims not independently verified"
+    ]
   }
 ]
