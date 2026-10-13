@@ -5979,5 +5979,246 @@
     "source_notes": [
       "https://www.moodtools.org/"
     ]
+  },
+  {
+    "id": "now-matters-now",
+    "name": "Now Matters Now — DBT Skills & Coping Library",
+    "publisher": "Now Matters Now (NowMattersNow.org); public descriptions attribute development to researcher Ursula Whiteside with the lived-experience team ('Team Now Matters Now'); site pages themselves show peer-led video stories",
+    "resource_type": "resource-hub",
+    "official_url": "https://nowmattersnow.org/help-line",
+    "description": "Free DBT-based coping-skills website for moments of intense emotional overwhelm, including suicidal urges. Peer-led video skill guides (e.g., 'Stop, Drop, and Roll' for emotional fires, Radical Acceptance, Cold Water/TIPP skills) plus direct written coping steps. The 'I Need Help Now' page pairs skills with U.S./UK/Canada/Australia-NZ crisis-line listings and states the content is not medical advice.",
+    "tags": [
+      "distress-tolerance",
+      "dbt",
+      "suicidal-thoughts",
+      "crisis-coping",
+      "peer-led",
+      "skills",
+      "free",
+      "video"
+    ],
+    "intended_population": [
+      "adults",
+      "young-people",
+      "general"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "languages": [
+      "English (per the reviewed pages)"
+    ],
+    "regions": [
+      "Global; site lists crisis lines for the U.S., UK, Canada, Australia, and New Zealand; content appears U.S.-developed"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Peer-led content (videos by people with lived experience); no stated cultural-adaptation process. Crisis-line listings cover five countries; most skill content is culturally neutral DBT skills.",
+      "source_notes": [
+        "https://nowmattersnow.org/help-line",
+        "https://nowmattersnow.org/skill/radical-acceptance/"
+      ]
+    },
+    "privacy_notes": "No account or login observed on the reviewed pages. Data practices were not reviewed in this screening.",
+    "evidence_notes": "Content is DBT skills (Dialectical Behavior Therapy) presented by people with lived experience; the site notes content was developed with scientists and people with lived experience. No site-specific efficacy claims were evaluated in this screening.",
+    "limitations": "Explicitly positioned for overwhelming urges including suicidal thoughts; the site itself states it is not medical advice and directs users to crisis lines. Skill pages advise working through big issues like trauma 'with a therapist' where relevant. SootheSpot's deterministic safety pathway would need to govern any surfacing of this resource. Not a substitute for crisis services or professional care.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "cope",
+      "crisis",
+      "distress",
+      "practice"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-13",
+    "reason": "Screened 2026-10-13: official NowMattersNow.org pages fetched live this run ('I Need Help Now' coping page + Radical Acceptance skill page); free DBT-skill library with peer videos, crisis-line directory, and explicit not-medical-advice framing confirmed. Flagged for owner review on crisis-adjacent placement before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "site homepage not separately opened (verified via /help-line and /skill/radical-acceptance/ pages on the official domain)",
+      "organizational/legal-entity details not confirmed from a primary page",
+      "accessibility and data practices not assessed",
+      "youth suitability boundaries not confirmed on the reviewed pages"
+    ],
+    "source_notes": [
+      "https://nowmattersnow.org/help-line",
+      "https://nowmattersnow.org/skill/radical-acceptance/"
+    ]
+  },
+  {
+    "id": "act-mindfully-free-resources",
+    "name": "ACT Mindfully — Free ACT Resources (Russ Harris)",
+    "publisher": "Dr. Russ Harris (actmindfully.com.au); internationally-known Acceptance & Commitment Therapy trainer, author of The Happiness Trap",
+    "resource_type": "self-help-toolkit",
+    "official_url": "https://www.actmindfully.com.au/free-stuff/",
+    "description": "Free resource hub from ACT trainer Dr. Russ Harris: downloadable worksheets and handouts supporting his ACT self-help books (The Happiness Trap, The Confidence Gap, The Reality Slap, ACT With Love) and textbooks (ACT Made Simple, Trauma-Focused ACT), plus free audio exercises (e.g., 'Dropping Anchor' mindfulness practice, 40 seconds to 11 minutes) and free explainer videos (Choice Point, Struggle Switch, values vs goals).",
+    "tags": [
+      "act",
+      "acceptance-and-commitment-therapy",
+      "worksheets",
+      "audio",
+      "mindfulness",
+      "values",
+      "free",
+      "video"
+    ],
+    "intended_population": [
+      "adults",
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "regions": [
+      "Global; Australian publisher (actmindfully.com.au)"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Content originates from an Australian clinician-author; materials translated into 30+ languages refers to the books, not verified for the free resources themselves. No stated cultural-adaptation process.",
+      "source_notes": [
+        "https://www.actmindfully.com.au/free-stuff/"
+      ]
+    },
+    "privacy_notes": "No account required observed on the reviewed hub page. Data practices were not reviewed in this screening.",
+    "evidence_notes": "Publisher is an internationally-recognized ACT trainer (900+ workshops, 90,000 health professionals trained, per his page); ACT is an established evidence-based approach. No specific clinical claims from the free resources were evaluated in this screening.",
+    "limitations": "Companion material for commercial books (some worksheets reference the books); some content is clinician-textbook oriented rather than public self-help. Not therapy and not a crisis service. Audio/video are hosted embeds; licensing/copyright terms of individual worksheets not confirmed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "practice",
+      "learn",
+      "understand"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-13",
+    "reason": "Screened 2026-10-13: official actmindfully.com.au/free-stuff/ page fetched live this run (free worksheets/audio/videos for Russ Harris's ACT books confirmed; publisher identity confirmed from the page). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "individual worksheet/audio/video pages not opened; license terms of downloadable worksheets not confirmed",
+      "accessibility not assessed",
+      "free status of specific companion materials (books themselves are commercial) — hub page itself is free"
+    ],
+    "source_notes": [
+      "https://www.actmindfully.com.au/free-stuff/"
+    ]
+  },
+  {
+    "id": "aims-anger-management",
+    "name": "AIMS for Anger Management",
+    "publisher": "U.S. Department of Veterans Affairs — VA National Center for PTSD and VA Mental Health Services",
+    "resource_type": "mobile-app",
+    "official_url": "https://mobile.va.gov/app/aims-anger-management",
+    "description": "Free VA mobile app based on the Anger and Irritability Management Skills (AIMS) online self-help course. Provides anger education, a personalized anger-control plan, anger tracking with tailored feedback, customizable tools (voice memos, songs, images), and quick access to support resources including the Veterans' Crisis Line. Designed for Veterans and military service members but, per the VA page, can be used by anyone coping with anger problems. May be used alone or alongside in-person therapy.",
+    "tags": [
+      "anger",
+      "anger-management",
+      "tracking",
+      "free",
+      "ios",
+      "android",
+      "veterans"
+    ],
+    "intended_population": [
+      "adults",
+      "service-members-and-veterans",
+      "general-public"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "regions": [
+      "United States (VA offering); app-store availability and any eligibility restrictions not verified in this screening"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Developed by a U.S. military health agency for service members and veterans; publicly offered. No stated cultural-adaptation process.",
+      "source_notes": [
+        "https://mobile.va.gov/app/aims-anger-management"
+      ]
+    },
+    "privacy_notes": "Data practices were not reviewed in this screening (VA mobile apps state user data is device-resident; not confirmed from the fetched page).",
+    "evidence_notes": "Publisher is a U.S. federal mental-health agency; app is based on the VA's AIMS online self-help course. No app-specific efficacy claims were made or assessed in this screening.",
+    "limitations": "VA states explicitly it is a self-care resource that does not replace treatment with a healthcare professional. Military-origin design; civilian appropriateness beyond the VA's stated general usability not confirmed. Not a crisis service, though it links crisis resources.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "practice",
+      "cope"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-13",
+    "reason": "Screened 2026-10-13: official VA Mobile app page fetched live this run (publisher, free status, veteran/service-member target with general-public usability, self-care framing confirmed). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "app-store pages not opened to verify current availability/ratings",
+      "data practices not reviewed",
+      "civilian eligibility not independently confirmed beyond the VA page's statement"
+    ],
+    "source_notes": [
+      "https://mobile.va.gov/app/aims-anger-management"
+    ]
   }
 ]
