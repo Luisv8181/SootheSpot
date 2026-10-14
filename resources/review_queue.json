@@ -7423,5 +7423,322 @@
       "independent-use",
       "with-support"
     ]
+  },
+  {
+    "id": "nami-national-alliance-on-mental-illness",
+    "name": "NAMI (National Alliance on Mental Illness)",
+    "publisher": "NAMI — National Alliance on Mental Illness (US nonprofit)",
+    "resource_type": "information-hub",
+    "official_url": "https://www.nami.org/",
+    "description": "US nonprofit and the nation’s largest grassroots mental-health organization: an information library on mental-health conditions, support-group and education-program directories through 650+ state and local affiliates, plus the NAMI HelpLine for one-on-one help and information (call 1-800-950-6264 or text “NAMI” to 62640, Mon–Fri 10am–10pm ET). Routes 24/7 crisis needs to 988.",
+    "tags": [
+      "psychoeducation",
+      "support-groups",
+      "helpline",
+      "family-support",
+      "advocacy",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "Web",
+      "Phone",
+      "Text/SMS"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "US-focused nonprofit; affiliate network, HelpLine, and advocacy content are US-specific."
+    ],
+    "intended_population": [
+      "general-public",
+      "families",
+      "carers"
+    ],
+    "needs": [
+      "understand",
+      "read",
+      "support",
+      "find-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "shelf": "read",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US context; condition information broadly applicable, but affiliate support directories, HelpLine access, and advocacy content are US systems. Fit outside the US not assessed.",
+      "source_notes": [
+        "https://www.nami.org/"
+      ]
+    },
+    "accessibility": [
+      "Not listed on the fetched homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Resource pages readable from the public site with no account required on the fetched homepage. HelpLine privacy and data practices were not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher is a large US mental-health nonprofit (650+ affiliates; 93k+ people served by the HelpLine in 2025, per the homepage); program outcomes not evaluated in this screening.",
+    "limitations": "US support system (HelpLine operates Mon–Fri; affiliate network is US-based); 24/7 crisis needs are routed to 988, which this resource is not. Informational only; does not replace professional care.",
+    "reason": "Screened 2026-10-14: official homepage confirmed live; publisher identity (US nonprofit, nation’s largest grassroots mental-health organization), 650+ state/local affiliate network, and HelpLine contact details and hours confirmed from the primary source. US geographic scope recorded explicitly. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-14",
+    "source_notes": [
+      "https://www.nami.org/"
+    ],
+    "screening_gaps": [
+      "privacy policy and data practices not reviewed",
+      "individual resource-page currency not verified",
+      "non-English availability not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
+  },
+  {
+    "id": "youngminds-uk",
+    "name": "YoungMinds (UK youth mental-health charity)",
+    "publisher": "YoungMinds (UK charity)",
+    "resource_type": "information-hub",
+    "official_url": "https://www.youngminds.org.uk/",
+    "description": "UK charity’s youth mental-health hub: guides and advice for young people, parents/carers, and youth professionals; a parent helpfinder; a Parents Helpline service; guidance on how CAMHS services work, how to access them, and young people’s rights; plus youth-voice campaigning and diverse-stories content.",
+    "tags": [
+      "youth",
+      "parents",
+      "carers",
+      "psychoeducation",
+      "uk",
+      "helpfinder",
+      "helpline",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "Web",
+      "Phone"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "UK-focused; CAMHS guidance is UK-specific."
+    ],
+    "intended_population": [
+      "young-people",
+      "parents",
+      "carers",
+      "youth-professionals"
+    ],
+    "needs": [
+      "understand",
+      "read",
+      "support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "shelf": "read",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK context; CAMHS and service-access content is UK-system-specific. Site features dedicated content for marginalised communities (e.g. Black History Month features, diverse stories). Fit outside the UK not assessed.",
+      "source_notes": [
+        "https://www.youngminds.org.uk/"
+      ]
+    },
+    "accessibility": [
+      "Not listed on the fetched homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Public pages readable with no account on the fetched homepage. Parents Helpline privacy and data practices were not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher is a UK charity focused on children and young people’s mental health; program outcomes not evaluated in this screening.",
+    "limitations": "UK services context (CAMHS); users in other regions need local equivalents. Informational only; does not replace professional care.",
+    "reason": "Screened 2026-10-14: official homepage confirmed live; publisher identity (UK mental-health charity for children and young people), guides/advice for young people, parents/carers, and professionals, Parents Helpline and CAMHS guidance confirmed from the primary source. UK scope recorded explicitly. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-14",
+    "source_notes": [
+      "https://www.youngminds.org.uk/"
+    ],
+    "screening_gaps": [
+      "privacy policy and data practices not reviewed",
+      "individual resource-page currency not verified",
+      "non-English availability not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
+  },
+  {
+    "id": "student-minds-uk",
+    "name": "Student Minds (UK student mental-health charity)",
+    "publisher": "Student Minds (UK charity)",
+    "resource_type": "information-hub",
+    "official_url": "https://www.studentminds.org.uk/",
+    "description": "UK charity working so “no student is held back by their mental health”: resources and guidance for university students, training courses and peer-support programmes for the student community, the University Mental Health Charter programme for institutions, and research/reports on student mental health.",
+    "tags": [
+      "students",
+      "young-adults",
+      "psychoeducation",
+      "peer-support",
+      "uk",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "UK-focused; university-system content is UK-specific."
+    ],
+    "intended_population": [
+      "students",
+      "young-adults",
+      "university-staff"
+    ],
+    "needs": [
+      "understand",
+      "read",
+      "support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "shelf": "read",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK higher-education context; University Mental Health Charter and programme content is UK-system-specific. Fit outside the UK not assessed.",
+      "source_notes": [
+        "https://www.studentminds.org.uk/"
+      ]
+    },
+    "accessibility": [
+      "Not listed on the fetched homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Public pages readable with no account on the fetched homepage. Training-course enrolment privacy and data practices were not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher is a UK charity focused on student mental health; program outcomes not evaluated in this screening.",
+    "limitations": "UK universities context; informational only; does not replace professional care.",
+    "reason": "Screened 2026-10-14: official homepage confirmed live; publisher identity (UK student mental-health charity), stated vision, university resources, University Mental Health Charter programme, and training/research offer confirmed from the primary source. UK scope recorded explicitly. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-14",
+    "source_notes": [
+      "https://www.studentminds.org.uk/"
+    ],
+    "screening_gaps": [
+      "privacy policy and data practices not reviewed",
+      "individual resource-page currency not verified",
+      "non-English availability not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
+  },
+  {
+    "id": "warmline-directory-warmline-advisory-group",
+    "name": "Warmline Directory (Warmline Advisory Group)",
+    "publisher": "Warmline Advisory Group (US peer-support directory program)",
+    "resource_type": "support-directory",
+    "official_url": "https://www.warmlines.org/",
+    "description": "Directory of US peer-support warmlines (redirects to warmline.org): searchable by all 50 states; phone, chat, or text lines offering empathetic, non-judgmental listening from peers with lived experience of mental-health challenges. Explicitly not crisis lines: consensual, non-coercive, non-crisis support for distress, loneliness, or validation.",
+    "tags": [
+      "peer-support",
+      "warmline",
+      "directory",
+      "loneliness",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "Web",
+      "Phone",
+      "Text/SMS"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "US-focused; warmlines searchable by US state."
+    ],
+    "intended_population": [
+      "general-public"
+    ],
+    "needs": [
+      "support",
+      "understand"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "shelf": "reach-out",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US context; listed warmlines are US-based phone/chat/text services. Fit outside the US not assessed.",
+      "source_notes": [
+        "https://www.warmlines.org/"
+      ]
+    },
+    "accessibility": [
+      "Homepage includes a 'Toggle accessibility mode' button and 12h/24h time format options; assistive-technology compatibility otherwise not verified."
+    ],
+    "privacy_notes": "All homepage content readable with no account and no login wall observed. Directory-listed warmlines' individual privacy practices were not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher is the Warmline Advisory Group's peer-support directory; warmlines as a model were described on the site as peer-staffed, non-coercive, non-crisis support. Program outcomes not evaluated in this screening.",
+    "limitations": "US warmlines only; not a crisis service (footer disclaimer: informational content only, not medical advice, diagnosis, treatment, or crisis support). Individual listed lines' quality and availability not verified; SootheSpot must route crisis needs to crisis services.",
+    "reason": "Screened 2026-10-14: official site confirmed live via the live browser (warmlines.org resolves to warmline.org); publisher identity (Warmline Advisory Group program), peer-support warmline directory purpose, US state-level scope, no-account readability, and explicit non-crisis positioning confirmed from the primary source. US geographic scope recorded explicitly. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-14",
+    "source_notes": [
+      "https://www.warmlines.org/"
+    ],
+    "screening_gaps": [
+      "individual listed warmlines not verified",
+      "privacy policy and data practices not reviewed",
+      "non-English availability not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
   }
 ]
