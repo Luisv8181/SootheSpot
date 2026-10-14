@@ -6720,5 +6720,257 @@
     "screened_by": null,
     "screened_date": null,
     "review_history": null
+  },
+  {
+    "id": "crisis-text-line",
+    "name": "Crisis Text Line",
+    "publisher": "Crisis Text Line (US nonprofit providing free 24/7 text-based mental health crisis support)",
+    "resource_type": "crisis-service",
+    "official_url": "https://www.crisistextline.org/",
+    "description": "Free, confidential 24/7 text-based crisis support in the United States. A person in distress texts HOME to 741741 and connects with a live trained volunteer Crisis Counselor for concerns including stress, anxiety, loneliness, bullying, substance use, self-harm, and suicidal thoughts. Also offers web chat and WhatsApp contact routes, plus a linked international support page.",
+    "tags": [
+      "crisis",
+      "text-support",
+      "helpline",
+      "volunteer-counselor",
+      "free",
+      "24-7",
+      "united-states",
+      "suicidal-thoughts",
+      "self-harm",
+      "anxiety"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "languages": [
+      "English (per the reviewed pages)"
+    ],
+    "regions": [
+      "United States (text HOME to 741741); international support linked but not verified"
+    ],
+    "platforms": [
+      "SMS text",
+      "Web chat",
+      "WhatsApp"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US service with some international reach via a partner link; no stated cultural-adaptation process was found in the reviewed pages.",
+      "source_notes": [
+        "https://www.crisistextline.org/"
+      ]
+    },
+    "privacy_notes": "Data practices were not reviewed in this screening.",
+    "evidence_notes": "The organization reports 16 million conversations since 2013 and self-reported texter outcomes (84% find the service helpful); these are its own impact figures and were not independently assessed in this screening.",
+    "limitations": "A text-based crisis counseling service, not a substitute for professional care or emergency services. The 741741 shortcode is US-specific; international access routes were linked but not verified this run.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "safety",
+      "find-support",
+      "understand"
+    ],
+    "shelf": "safety",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-14",
+    "reason": "Screened 2026-10-14: official homepage fetched live this run (free 24/7 confidential text support, HOME to 741741, live volunteer Crisis Counselor model confirmed). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "data/privacy practices not reviewed",
+      "international support routes linked but not verified",
+      "counselor training and supervision standards not reviewed"
+    ],
+    "source_notes": [
+      "https://www.crisistextline.org/"
+    ],
+    "screened_by": null,
+    "screened_date": null,
+    "review_history": null
+  },
+  {
+    "id": "shout-85258",
+    "name": "Shout 85258",
+    "publisher": "Shout (UK charity operating a free 24/7 mental health text service)",
+    "resource_type": "crisis-service",
+    "official_url": "https://giveusashout.org/",
+    "description": "The UK's free, confidential, anonymous 24/7 mental health text service. People in crisis text SHOUT to 85258 and connect with a trained volunteer for text-based support. Also offers under-25 support through its sister service The Mix, which provides counseling, peer support, online communities, and tools designed for young people.",
+    "tags": [
+      "crisis",
+      "text-support",
+      "helpline",
+      "volunteer-counselor",
+      "free",
+      "24-7",
+      "united-kingdom",
+      "anonymous",
+      "young-people"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "languages": [
+      "English (per the reviewed pages)"
+    ],
+    "regions": [
+      "United Kingdom (text service, brand 'Shout 85258')"
+    ],
+    "platforms": [
+      "SMS text"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK-wide service with a stated focus on young people via The Mix; no stated cultural-adaptation process was found in the reviewed pages.",
+      "source_notes": [
+        "https://giveusashout.org/"
+      ]
+    },
+    "privacy_notes": "Data practices were not reviewed in this screening.",
+    "evidence_notes": "The charity reports high demand (someone reaches out roughly every 53 seconds during crises) and volunteer training funded by donations; these are the organization's own figures and were not independently assessed in this screening.",
+    "limitations": "A text-based crisis support service, not a substitute for professional care or emergency services. UK-specific; young people needing clinical support are directed to the sister service The Mix, which was not reviewed this run.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "safety",
+      "find-support",
+      "understand"
+    ],
+    "shelf": "safety",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-14",
+    "reason": "Screened 2026-10-14: official homepage fetched live this run (free, confidential, anonymous 24/7 UK text service, trained-volunteer model confirmed; The Mix sister service for under-25s noted). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "data/privacy practices not reviewed",
+      "exact text-in keyword/number corroborated via the charity-administrator notice on papyrus-uk.org, not Shout's own homepage this run",
+      "The Mix sister service not reviewed"
+    ],
+    "source_notes": [
+      "https://giveusashout.org/",
+      "https://papyrus-uk.org/"
+    ],
+    "screened_by": null,
+    "screened_date": null,
+    "review_history": null
+  },
+  {
+    "id": "therapistaid-worksheets",
+    "name": "Therapist Aid",
+    "publisher": "Therapist Aid (publishes research-informed therapy tools; made for therapists, by therapists)",
+    "resource_type": "self-help-toolkit",
+    "official_url": "https://therapistaid.com/",
+    "description": "Library of therapy worksheets, tools, and handouts organized by topic (anger, trauma, depression) and by approach (CBT, positive psychology). Positioned for mental health professionals and their clients; tools are designed to be practiced with in session or taken home between sessions.",
+    "tags": [
+      "worksheets",
+      "handouts",
+      "therapy-tools",
+      "cbt",
+      "positive-psychology",
+      "clinician-authored",
+      "research-informed",
+      "anger",
+      "trauma",
+      "depression"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "use_context": [
+      "therapist-supported",
+      "independent-use"
+    ],
+    "languages": [
+      "English (per the reviewed pages)"
+    ],
+    "regions": [
+      "global (web-based; per the reviewed pages)"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No stated cultural-adaptation process or localization was found in the reviewed pages.",
+      "source_notes": [
+        "https://therapistaid.com/"
+      ]
+    },
+    "privacy_notes": "Data practices were not reviewed in this screening.",
+    "evidence_notes": "Tools are described by the publisher as research-informed and clinician-designed; no outcome or efficacy claims were made or assessed in this screening.",
+    "limitations": "Primarily clinician-facing content; many tools assume therapist guidance or session use. Free versus premium content split not verified this run.",
+    "license_notes": "External resource. SootheSpot stores metadata only. Worksheets may carry the publisher's own terms of use; do not redistribute content.",
+    "needs": [
+      "practice",
+      "understand",
+      "cope"
+    ],
+    "shelf": "practice",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-14",
+    "reason": "Screened 2026-10-14: official homepage fetched live this run (worksheets/tools/handouts library, research-informed, made for therapists by therapists, organized by topic and approach). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "free versus premium content split not verified",
+      "data/privacy practices not reviewed",
+      "reading level and accessibility not assessed",
+      "license terms for individual worksheets not read"
+    ],
+    "source_notes": [
+      "https://therapistaid.com/"
+    ],
+    "screened_by": null,
+    "screened_date": null,
+    "review_history": null
   }
 ]
