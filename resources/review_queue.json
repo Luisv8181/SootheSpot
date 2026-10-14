@@ -6474,5 +6474,251 @@
     "screened_by": null,
     "screened_date": null,
     "review_history": null
+  },
+  {
+    "id": "988-suicide-crisis-lifeline",
+    "name": "988 Suicide & Crisis Lifeline",
+    "publisher": "Funded by the U.S. Department of Health and Human Services through SAMHSA; administered by Vibrant Emotional Health",
+    "resource_type": "crisis-service",
+    "official_url": "https://988lifeline.org/",
+    "description": "U.S. national 24/7/365 call, text, and chat service for mental-health struggles, emotional distress, alcohol or drug use concerns, or anyone who needs someone to talk to. Conversations are free and confidential with trained crisis counselors, routed through a network of 200+ local crisis contact centers. Offers a Deaf/HoH access pathway and ASL videophone; the Lifeline reports more than 25 million contacts since its 2022 launch.",
+    "tags": [
+      "suicide-prevention",
+      "crisis",
+      "helpline",
+      "call-text-chat",
+      "free",
+      "us-national",
+      "asl-access"
+    ],
+    "intended_population": [
+      "general-public"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "languages": [
+      "English (per the reviewed pages)"
+    ],
+    "regions": [
+      "United States (dial 988 within the U.S.; service is a U.S. federal program)"
+    ],
+    "platforms": [
+      "Phone",
+      "Text/SMS",
+      "Web"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Deaf/HoH access pathway and ASL videophone listed on the official site; assistive-technology compatibility not otherwise assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "National network of 200+ local contact centers; no stated cultural-adaptation process was found in the reviewed pages.",
+      "source_notes": [
+        "https://988lifeline.org/"
+      ]
+    },
+    "privacy_notes": "Data practices were not reviewed in this screening.",
+    "evidence_notes": "Federally funded national crisis service administered by Vibrant Emotional Health under SAMHSA; contact-volume figures are the service's own reporting. No outcome or efficacy claims were made or assessed in this screening.",
+    "limitations": "A crisis-support service, not ongoing treatment or a substitute for professional care. Only reachable via 988 within the United States; not a global service.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "shelf": "safety",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-13",
+    "reason": "Screened 2026-10-13: official site fetched live (24/7/365 availability, free and confidential, call/text/chat + Deaf/HoH access confirmed on the homepage). Publisher and funding confirmed via live SAMHSA press announcement (Vibrant Emotional Health administers under SAMHSA/HHS). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "data/privacy practices not reviewed",
+      "Spanish-language pathways not verified this run",
+      "per-center details and wait-time information not assessed"
+    ],
+    "source_notes": [
+      "https://988lifeline.org/",
+      "https://www.samhsa.gov/newsroom/press-announcements/20260515/samhsa-awards-225-million-administer-988-lifeline"
+    ],
+    "screened_by": null,
+    "screened_date": null,
+    "review_history": null
+  },
+  {
+    "id": "samaritans-uk-ireland",
+    "name": "Samaritans",
+    "publisher": "Samaritans (charity providing suicide-prevention listening services in the UK and Ireland)",
+    "resource_type": "crisis-service",
+    "official_url": "https://www.samaritans.org/",
+    "description": "UK and Ireland charity offering a free listening service from trained volunteers, day or night, 365 days a year, for anyone in crisis or feeling suicidal. Call 116 123 free. The service emphasizes non-judgmental listening: volunteers listen without telling callers what to do and are willing to talk through difficult areas.",
+    "tags": [
+      "suicide-prevention",
+      "crisis",
+      "helpline",
+      "volunteer-listening",
+      "free",
+      "united-kingdom",
+      "ireland"
+    ],
+    "intended_population": [
+      "general-public"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "languages": [
+      "English (per the reviewed pages)"
+    ],
+    "regions": [
+      "United Kingdom and Ireland (freephone 116 123)"
+    ],
+    "platforms": [
+      "Phone"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Operates across UK and Ireland branches; no stated cultural-adaptation process was found in the reviewed pages.",
+      "source_notes": [
+        "https://www.samaritans.org/"
+      ]
+    },
+    "privacy_notes": "Data practices were not reviewed in this screening.",
+    "evidence_notes": "Long-established suicide-prevention charity; no outcome or efficacy claims were made or assessed in this screening.",
+    "limitations": "A listening and crisis-support service, not a substitute for professional care. Phone number and service scope are UK/Ireland-specific; not a global service.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "shelf": "safety",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-13",
+    "reason": "Screened 2026-10-13: official homepage fetched live (free 116 123 line, day or night 365 days, trained-volunteer listening model confirmed). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "data/privacy practices not reviewed",
+      "email/chat options and Welsh-language service not verified this run"
+    ],
+    "source_notes": [
+      "https://www.samaritans.org/"
+    ],
+    "screened_by": null,
+    "screened_date": null,
+    "review_history": null
+  },
+  {
+    "id": "kids-help-phone-canada",
+    "name": "Kids Help Phone",
+    "publisher": "Kids Help Phone (Canadian registered charity)",
+    "resource_type": "crisis-service",
+    "official_url": "https://kidshelpphone.ca/",
+    "description": "Canada's 24/7 e-mental-health service for young people: professional counsellors by phone (1-800-668-6868) and live chat, crisis responders by text (text 686868), a peer-to-peer community, and self-directed resources (articles, quizzes, activities). Includes RiseUp, free confidential wellness and mental-health support for African, Caribbean and Black youth across Canada. No referral, ID, insurance, or diagnosis required for the national service.",
+    "tags": [
+      "youth",
+      "crisis",
+      "counselling",
+      "text",
+      "peer-community",
+      "free",
+      "canada",
+      "self-help-resources"
+    ],
+    "intended_population": [
+      "young-people",
+      "teens",
+      "children"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "languages": [
+      "English (per the reviewed pages)"
+    ],
+    "regions": [
+      "Canada"
+    ],
+    "platforms": [
+      "Phone",
+      "Text/SMS",
+      "Web"
+    ],
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Some articles carry ASL-interpreted versions (per site media metadata); assistive-technology compatibility otherwise not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Runs RiseUp, a program connecting African, Caribbean and Black youth to free confidential support; the overall service's cultural-adaptation process was not stated in the reviewed pages.",
+      "source_notes": [
+        "https://kidshelpphone.ca/"
+      ]
+    },
+    "privacy_notes": "Data practices were not reviewed in this screening.",
+    "evidence_notes": "Long-running Canadian youth mental-health charity; no outcome or efficacy claims were made or assessed in this screening.",
+    "limitations": "Youth-focused service; a support and counselling service, not a substitute for professional care. Canada-specific; not a global service.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "needs": [
+      "safety",
+      "find-support",
+      "understand"
+    ],
+    "shelf": "safety",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-13",
+    "reason": "Screened 2026-10-13: official homepage fetched live (phone 1-800-668-6868, text 686868 crisis responders, counsellor live chat, peer community, and RiseUp for Black youth confirmed). Notable: Wellness Together Canada (the former federal portal) has ended; this partner service remains live and is the better Canadian listing. Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "data/privacy practices not reviewed",
+      "French-language service (Jeunesse, J'ecoute) not verified this run",
+      "any mobile-app offerings not assessed"
+    ],
+    "source_notes": [
+      "https://kidshelpphone.ca/",
+      "https://wellnesstogether.ca/"
+    ],
+    "screened_by": null,
+    "screened_date": null,
+    "review_history": null
   }
 ]
