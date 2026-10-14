@@ -6972,5 +6972,228 @@
     "screened_by": null,
     "screened_date": null,
     "review_history": null
+  },
+  {
+    "access": [
+      "Free to try (free trial per the fetched homepage)",
+      "Paid subscription for the full library (pricing not stated on the fetched homepage)"
+    ],
+    "accessibility": [
+      "Not listed on the fetched homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "Publisher claims 500+ fillable resources available in 70+ languages; translation coverage and quality not assessed.",
+      "source_notes": [
+        "https://psychologytools.com"
+      ]
+    },
+    "description": "Evidence-based psychotherapy resource hub (500+ worksheets, exercises, audio resources, and workbooks in 70+ languages, per the publisher homepage) with therapist guidance on each tool. Platform is clinician-oriented with a free trial; full-library access is paid.",
+    "evidence_notes": "Publisher describes resources as evidence-based, with therapist guidance and references on each tool. The 500+ resource / 70+ language claims are the publisher's and were not independently evaluated in this screening.",
+    "id": "psychology-tools",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-14",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Primarily a clinician platform; free access is via a free trial and full-library access is paid — free-tier scope was not fully mapped. Designed for in-session and between-session use with a professional; independent self-use fit not established. Does not replace professional care.",
+    "name": "Psychology Tools",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://psychologytools.com",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Homepage advertises ISO/IEC 27001-aligned security and GDPR/HIPAA-supporting compliance for the platform. Free-trial signup data practices were not reviewed in this screening.",
+    "publisher": "Psychology Tools",
+    "reason": "Screened 2026-10-14: official site confirmed live; 500+ resource library, 70+ language claim, free trial, and clinician-platform orientation confirmed from the primary source. Free-tier scope and independent-use fit recorded as gaps. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; publisher region not confirmed on the fetched homepage."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "resource-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "free-tier scope and pricing not fully mapped",
+      "independent self-use fit not established",
+      "70+ language claim not independently evaluated",
+      "accessibility statement not reviewed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://psychologytools.com"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "worksheets",
+      "psychoeducation",
+      "skills-training",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use",
+      "therapist-guided"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the fetched page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "VA Veteran Training course developed for Veterans and Service members but available to anyone with internet access. Fit for non-U.S. and non-military contexts not assessed.",
+      "source_notes": [
+        "https://veterantraining.va.gov/MovingForward/"
+      ]
+    },
+    "description": "Free online problem-solving course from VA's Veteran Training site. Teaches step-by-step problem-solving skills for common challenges: managing stress, relationship challenges, coping with physical injury, financial difficulties, and adjustment issues. Self-paced and web-based.",
+    "evidence_notes": "Publisher is a U.S. federal agency; the course content's effectiveness was not evaluated in this screening.",
+    "id": "moving-forward-va",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-14",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "The page states the courses are not intended to replace treatment by a healthcare professional. No certificate of completion is offered, and the site notes it is not designed to fulfill court requirements. Self-help education; does not replace professional care.",
+    "name": "Moving Forward: Overcome Life's Challenges",
+    "needs": [
+      "practice",
+      "calm",
+      "understand"
+    ],
+    "official_url": "https://veterantraining.va.gov/MovingForward/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "The course is free and web-based; privacy and data practices were not reviewed in this screening.",
+    "publisher": "U.S. Department of Veterans Affairs (Veteran Training)",
+    "reason": "Screened 2026-10-14: official VA Veteran Training course page confirmed live; free access, problem-solving skills focus, challenge coverage, and the professional-care disclaimer confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; U.S.-government publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "online-course",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy and data practices not reviewed",
+      "non-English availability not confirmed",
+      "accessibility not assessed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://veterantraining.va.gov/MovingForward/"
+    ],
+    "status": "screened",
+    "tags": [
+      "problem-solving",
+      "stress",
+      "coping-skills",
+      "resilience",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the fetched homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK charity; examples, statistics, and service references are UK-oriented. Fit outside the UK not assessed.",
+      "source_notes": [
+        "https://www.mentalhealth.org.uk/homepage"
+      ]
+    },
+    "description": "UK charity's free mental-health information hub: A-Z topics, in-depth how-to guides free to download and read, blog, publications, and research reports, with a prevention-of-mental-health-problems focus.",
+    "evidence_notes": "Publisher is a UK registered charity focused on mental-health prevention research and policy; individual claims not evaluated in this screening.",
+    "id": "mental-health-foundation-uk",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-14",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "UK-oriented examples and service references must not be substituted for other regions' systems, per repo policy. Informational only; the charity notes it does not advise on personal circumstances. Does not replace professional care.",
+    "name": "Mental Health Foundation (UK)",
+    "needs": [
+      "read",
+      "understand"
+    ],
+    "official_url": "https://www.mentalhealth.org.uk/homepage",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Guides are readable and downloadable from the public site; no account required on the fetched pages. The privacy policy and data practices were not reviewed in this screening.",
+    "publisher": "Mental Health Foundation (UK registered charity)",
+    "reason": "Screened 2026-10-14: official charity homepage confirmed live; publisher identity, free how-to guides, A-Z topics, and prevention-research focus confirmed from the primary source. UK geographic scope recorded explicitly. Ready for owner review before any promotion.",
+    "regions": [
+      "UK-focused charity publisher; informational content broadly applicable."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "information-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy and data practices not reviewed",
+      "multilingual sections not reviewed",
+      "individual guide currency not verified"
+    ],
+    "shelf": "read",
+    "source_notes": [
+      "https://www.mentalhealth.org.uk/homepage"
+    ],
+    "status": "screened",
+    "tags": [
+      "wellbeing",
+      "prevention",
+      "psychoeducation",
+      "how-to-guides",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
