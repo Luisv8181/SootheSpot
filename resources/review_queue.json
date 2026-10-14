@@ -7195,5 +7195,233 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the fetched homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Explicitly LGBTQ+ youth-focused; content is culturally situated for US LGBTQ+ young people. Fit outside the US not assessed; crisis channels are US-numbered.",
+      "source_notes": [
+        "https://www.thetrevorproject.org/"
+      ]
+    },
+    "description": "US nonprofit's LGBTQ+ youth suicide-prevention hub: 24/7 crisis contact (call/text/chat) with trained counselors, a browsable resource center (self-harm recovery, suicide facts, friends-and-family support), volunteer counselor program, and advocacy initiatives.",
+    "evidence_notes": "Publisher is a US nonprofit focused on LGBTQ+ youth suicide prevention; program outcomes and counselor training quality not evaluated in this screening.",
+    "id": "the-trevor-project",
+    "intended_population": [
+      "young-people",
+      "LGBTQ+ youth"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-14",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Crisis channels (call/text/chat) are US-numbered; international reach varies — do not substitute for local crisis pathways outside the US. Informational content is US-oriented. Does not replace professional care; explicit safety concerns should route to SootheSpot's deterministic safety pathway, not to this entry's contact channels alone.",
+    "name": "The Trevor Project",
+    "needs": [
+      "safety",
+      "support",
+      "understand"
+    ],
+    "official_url": "https://www.thetrevorproject.org/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Crisis contact via call/text/chat necessarily involves disclosing to a third party; the privacy policy and data handling were not reviewed in this screening.",
+    "publisher": "The Trevor Project (US nonprofit)",
+    "reason": "Screened 2026-10-14: official homepage confirmed live; publisher identity, 24/7 crisis contact for LGBTQ+ young people, and resource center confirmed from the primary source. US geographic scope recorded explicitly. Ready for owner review before any promotion.",
+    "regions": [
+      "US-focused crisis service; informational content broadly applicable but US-oriented."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy and data handling of crisis channels not reviewed",
+      "non-English availability not assessed",
+      "international availability of chat/text channels not verified"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://www.thetrevorproject.org/"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis-support",
+      "lgbtq-youth",
+      "suicide-prevention",
+      "peer-free",
+      "trained-counselors"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the fetched homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "British Columbia service context; examples and service links are BC-specific. Fit outside BC not assessed.",
+      "source_notes": [
+        "https://www.heretohelp.bc.ca/"
+      ]
+    },
+    "description": "BC Partners' free mental-health and substance-use information hub: plain-language topic pages, self-care and skill-building strategies, caregiver/family support content, the Visions journal, and links into BC services.",
+    "evidence_notes": "Published by seven BC mental-health and substance-use agencies as a joint public-information project; individual topic content not evaluated in this screening.",
+    "id": "here-to-help-bc",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-14",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Service links and system references are BC/Canada-specific and must not be substituted for other regions' systems, per repo policy. Informational only; does not replace professional care.",
+    "name": "Here to Help BC",
+    "needs": [
+      "read",
+      "understand",
+      "cope"
+    ],
+    "official_url": "https://www.heretohelp.bc.ca/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Information pages readable from the public site with no account required on the fetched homepage. Newsletter signup exists; privacy policy and data practices were not reviewed in this screening.",
+    "publisher": "BC Partners for Mental Health and Substance Use Information (seven BC agencies)",
+    "reason": "Screened 2026-10-14: official homepage confirmed live; publisher identity (BC Partners, seven agencies), mental-health/substance-use information focus, and free public pages confirmed from the primary source. BC geographic scope recorded explicitly. Ready for owner review before any promotion.",
+    "regions": [
+      "BC-focused publisher; informational content broadly applicable but BC service context."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "information-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy and newsletter data practices not reviewed",
+      "individual topic-page currency not verified",
+      "multilingual availability not assessed"
+    ],
+    "shelf": "read",
+    "source_notes": [
+      "https://www.heretohelp.bc.ca/"
+    ],
+    "status": "screened",
+    "tags": [
+      "psychoeducation",
+      "substance-use",
+      "self-care-skills",
+      "caregivers",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the fetched homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US schools and communities context; statistics, school partnerships, and help-seeking content are US-oriented. Fit outside the US not assessed.",
+      "source_notes": [
+        "https://www.jedfoundation.org/"
+      ]
+    },
+    "description": "US nonprofit's teen and young-adult emotional-health hub: info and advice resources, bullying-prevention and suicide-prevention-awareness materials, skills content for helping self and others, plus school/community program partnerships.",
+    "evidence_notes": "Publisher is a US nonprofit focused on teen and young-adult emotional health and suicide prevention; program outcomes not evaluated in this screening.",
+    "id": "the-jed-foundation",
+    "intended_population": [
+      "teens",
+      "young-adults"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-14",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "US schools/communities context; do not substitute US-oriented help-seeking guidance for other regions' systems. Informational only; does not replace professional care.",
+    "name": "The Jed Foundation",
+    "needs": [
+      "understand",
+      "support",
+      "read"
+    ],
+    "official_url": "https://www.jedfoundation.org/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Resource pages readable from the public site with no account required on the fetched homepage. Privacy policy and data practices were not reviewed in this screening.",
+    "publisher": "The Jed Foundation (US nonprofit)",
+    "reason": "Screened 2026-10-14: official homepage confirmed live; publisher identity (nonprofit protecting teen/young-adult emotional health), info-and-advice resources, and school-strengthening work confirmed from the primary source. US geographic scope recorded explicitly. Ready for owner review before any promotion.",
+    "regions": [
+      "US-focused nonprofit; informational content broadly applicable but US-oriented."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "information-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy and data practices not reviewed",
+      "individual resource-page currency not verified",
+      "non-English availability not assessed"
+    ],
+    "shelf": "read",
+    "source_notes": [
+      "https://www.jedfoundation.org/"
+    ],
+    "status": "screened",
+    "tags": [
+      "youth",
+      "young-adults",
+      "suicide-prevention",
+      "psychoeducation",
+      "bullying-prevention",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
   }
 ]
