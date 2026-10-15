@@ -8858,5 +8858,247 @@
             "date_checked_recorded",
             "primary_source_recorded"
         ]
-    }
+    },
+
+        {
+            "id": "the-steve-fund",
+            "name": "The Steve Fund — Mental Health Resources for Young People of Color",
+            "publisher": "The Steve Fund (US nonprofit)",
+            "resource_type": "resource-hub",
+            "official_url": "https://stevefund.org/",
+            "description": "US nonprofit dedicated to promoting the mental health and emotional well-being of young people, particularly those from underserved and under-resourced communities. Runs the Knowledge Center (library of articles, expert insights, and practical tips on managing stress, understanding therapies, and nurturing emotional intelligence), plus events, an Insights blog, and podcasts. Partners with Crisis Text Line on a culturally-focused crisis text option: multiple university counseling pages list 'Text STEVE to 741741' for young people of color (partnership details corroborated from secondary sources, not from the primary site this run). Homepage and resources page confirmed live 2026-10-15.",
+            "tags": [
+                "young-people",
+                "bipoc",
+                "students",
+                "education",
+                "podcasts",
+                "crisis-text",
+                "find-support"
+            ],
+            "access": [
+                "free"
+            ],
+            "platforms": [
+                "Web",
+                "SMS"
+            ],
+            "languages": [
+                "English"
+            ],
+            "regions": [
+                "United States"
+            ],
+            "intended_population": [
+                "young-people",
+                "young-adults",
+                "bipoc",
+                "families"
+            ],
+            "needs": [
+                "find-support",
+                "learn",
+                "support"
+            ],
+            "use_context": [
+                "independent-use"
+            ],
+            "shelf": "reach-out",
+            "cultural_context": {
+                "adaptation_status": "community-centered",
+                "notes": "Explicitly centers young people from underserved and under-resourced communities; crisis text line partnership is culturally focused on young people of color.",
+                "source_notes": [
+                    "https://stevefund.org/",
+                    "https://stevefund.org/resources/"
+                ]
+            },
+            "accessibility": [
+                "Web-based resources; assistive-technology compatibility not assessed on the fetched pages."
+            ],
+            "privacy_notes": "Privacy policy not reviewed in this screening.",
+            "license_notes": "External resource. SootheSpot stores metadata only.",
+            "evidence_notes": "Established nonprofit; crisis text line partnership corroborated on multiple university counseling pages. Service effectiveness not independently assessed.",
+            "limitations": "US-focused. Primarily an information/education hub rather than direct coping tools — wrong shelf for in-the-moment calming without owner judgment. Crisis text line partnership details (hours, counselor training, current status) not confirmed from the primary site this run. Not a replacement for 988 or emergency services.",
+            "reason": "Screened 2026-10-15: official stevefund.org homepage and /resources/ confirmed live; mission, Knowledge Center, events, Insights blog, and podcasts confirmed from the primary source. Crisis text line partnership (Text STEVE to 741741) corroborated on university counseling pages; primary-source crisis page not opened this run. Ready for owner review before any promotion.",
+            "review_status": "screened",
+            "status": "screened",
+            "last_verified_at": "2026-10-15",
+            "source_notes": [
+                "https://stevefund.org/",
+                "https://stevefund.org/resources/"
+            ],
+            "screening_gaps": [
+                "Crisis text line partnership details not confirmed from the primary site",
+                "Privacy policy not reviewed",
+                "Accessibility not assessed",
+                "Non-US access not assessed",
+                "Effectiveness evidence not assessed"
+            ],
+            "required_before_verified": [
+                "official_url_checked",
+                "publisher_confirmed",
+                "purpose_and_population_confirmed",
+                "independent_use_scope_confirmed",
+                "limitations_recorded",
+                "date_checked_recorded",
+                "primary_source_recorded"
+            ]
+        },
+        {
+            "id": "fireweed-collective",
+            "name": "Fireweed Collective — Peer Support Groups & Mutual Aid (Healing Justice)",
+            "publisher": "Fireweed Collective (US mutual-aid collective; formerly the Icarus Project)",
+            "resource_type": "peer-support",
+            "official_url": "https://fireweedcollective.org/",
+            "description": "US mutual-aid collective offering mental health education and mutual aid through a Healing Justice and Disability Justice lens; centers QTBIPOC folks in internal leadership, programs, and resources. Runs virtual peer-led support groups that meet weekly for 60–90 minutes over a month on a sliding scale. Groups listed this run: QTPOC Support Space (Mondays), Healing Verses collective poetry for POC folks (Tuesdays), and Spooned Out & Plugged In groups for disabled/chronically ill/neurodivergent folks (Fridays) and for POC disabled/chronically ill/neurodivergent folks (Saturdays). Homepage and support-groups page confirmed live 2026-10-15.",
+            "tags": [
+                "peer-support",
+                "mutual-aid",
+                "qtbipoc",
+                "disability-justice",
+                "healing-justice",
+                "support-groups"
+            ],
+            "access": [
+                "sliding-scale"
+            ],
+            "platforms": [
+                "Web"
+            ],
+            "languages": [
+                "English"
+            ],
+            "regions": [
+                "United States"
+            ],
+            "intended_population": [
+                "adults",
+                "bipoc",
+                "lgbtq"
+            ],
+            "needs": [
+                "find-support",
+                "support"
+            ],
+            "use_context": [
+                "with-support"
+            ],
+            "shelf": "reach-out",
+            "cultural_context": {
+                "adaptation_status": "community-centered",
+                "notes": "Explicitly centers QTBIPOC folks in leadership, programs, and resources; Healing Justice and Disability Justice framing. Identity-specific groups (QTPOC, POC, BIPOC disabled/chronically ill/neurodivergent).",
+                "source_notes": [
+                    "https://fireweedcollective.org/",
+                    "https://fireweedcollective.org/support-groups/"
+                ]
+            },
+            "accessibility": [
+                "Virtual groups; accessibility accommodations and assistive-technology compatibility not assessed."
+            ],
+            "privacy_notes": "Group registration runs through a third-party ticketing platform (Givebutter); data practices not reviewed in this screening.",
+            "license_notes": "External resource. SootheSpot stores metadata only.",
+            "evidence_notes": "Long-running peer-led mutual aid model (roots in the 2002–2020 Icarus Project). Service effectiveness not independently assessed.",
+            "limitations": "Peer-led, not clinical; explicit divestment-from-psychiatric-systems framing may not suit users seeking conventional care — owner judgment needed on placement and framing. Groups are sliding scale (not fully free) and run month-to-month, so the listed schedule can change. Virtual only. Not a crisis service.",
+            "reason": "Screened 2026-10-15: official fireweedcollective.org homepage and /support-groups/ confirmed live; mission, Healing Justice/Disability Justice lens, QTBIPOC centering, and the four current groups (schedule, sliding scale, peer-led format) confirmed from the primary source. Ready for owner review before any promotion.",
+            "review_status": "screened",
+            "status": "screened",
+            "last_verified_at": "2026-10-15",
+            "source_notes": [
+                "https://fireweedcollective.org/",
+                "https://fireweedcollective.org/support-groups/"
+            ],
+            "screening_gaps": [
+                "Group schedule is month-to-month; re-confirm before any promotion",
+                "Privacy/data practices of group registration (Givebutter) not reviewed",
+                "Accessibility not assessed",
+                "Non-US participation not assessed"
+            ],
+            "required_before_verified": [
+                "official_url_checked",
+                "publisher_confirmed",
+                "purpose_and_population_confirmed",
+                "independent_use_scope_confirmed",
+                "limitations_recorded",
+                "date_checked_recorded",
+                "primary_source_recorded"
+            ]
+        },
+        {
+            "id": "stronghearts-native-helpline",
+            "name": "StrongHearts Native Helpline — 24/7 Support for Native Survivors",
+            "publisher": "StrongHearts Native Helpline",
+            "resource_type": "crisis-service",
+            "official_url": "https://strongheartshelpline.org/",
+            "description": "24/7 confidential and anonymous domestic and sexual violence helpline for Native Americans. Connect by calling 1-844-762-8483 (1-844-7NATIVE), chatting one-on-one with an advocate via the website chat icon, or texting START to 1-844-762-8483. Advocates provide peer support and advocacy, information and education about domestic and sexual violence, personalized safety planning, crisis intervention, and referrals to Native-centered service providers — all at no cost. Homepage confirmed live 2026-10-15.",
+            "tags": [
+                "crisis",
+                "domestic-violence",
+                "sexual-violence",
+                "safety-planning",
+                "peer-advocacy",
+                "native-american"
+            ],
+            "access": [
+                "free"
+            ],
+            "platforms": [
+                "Phone",
+                "Web",
+                "SMS"
+            ],
+            "languages": [
+                "English"
+            ],
+            "regions": [
+                "United States"
+            ],
+            "intended_population": [
+                "adults"
+            ],
+            "needs": [
+                "safety",
+                "find-support"
+            ],
+            "use_context": [
+                "with-support"
+            ],
+            "shelf": "safety",
+            "cultural_context": {
+                "adaptation_status": "community-centered",
+                "notes": "Culturally specific service for Native Americans and Alaska Natives; referrals go to Native-centered domestic and sexual violence service providers.",
+                "source_notes": [
+                    "https://strongheartshelpline.org/"
+                ]
+            },
+            "accessibility": [
+                "Phone, web chat, and SMS channels; assistive-technology compatibility not assessed on the fetched page."
+            ],
+            "privacy_notes": "Described as confidential and anonymous on the official homepage; full privacy policy and SMS terms not reviewed in this screening. Site includes a safety alert with a quick-exit option for users on monitored devices.",
+            "license_notes": "External resource. SootheSpot stores metadata only.",
+            "evidence_notes": "Stated 24/7 operation; service effectiveness not independently assessed.",
+            "limitations": "Domestic/sexual-violence-specific — not a general emotional-regulation or coping resource; SootheSpot's mild-distress coping pathway must not frame it as a calm-down tool without owner judgment. US only; intended for Native Americans and Alaska Natives. Average wait/response times not verified.",
+            "reason": "Screened 2026-10-15: official strongheartshelpline.org confirmed live; phone number, web chat, text option, 24/7 confidential-and-anonymous framing, and the full service list confirmed from the primary source. Ready for owner review before any promotion.",
+            "review_status": "screened",
+            "status": "screened",
+            "last_verified_at": "2026-10-15",
+            "source_notes": [
+                "https://strongheartshelpline.org/"
+            ],
+            "screening_gaps": [
+                "Privacy policy and SMS terms not reviewed",
+                "Accessibility not assessed",
+                "Average wait/response times not verified",
+                "Eligibility details beyond 'Native Americans' not assessed"
+            ],
+            "required_before_verified": [
+                "official_url_checked",
+                "publisher_confirmed",
+                "purpose_and_population_confirmed",
+                "independent_use_scope_confirmed",
+                "limitations_recorded",
+                "date_checked_recorded",
+                "primary_source_recorded"
+            ]
+        }
+
 ]
