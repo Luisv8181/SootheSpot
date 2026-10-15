@@ -7740,5 +7740,329 @@
       "date_checked_recorded",
       "primary_source_recorded"
     ]
+  },
+  {
+    "id": "trans-lifeline",
+    "name": "Trans Lifeline (trans-led peer support hotline)",
+    "publisher": "Trans Lifeline (US nonprofit organization)",
+    "resource_type": "crisis-service",
+    "official_url": "https://translifeline.org/hotline/",
+    "description": "Peer support phone service run entirely by trans-identified operators for trans and questioning callers in the US and Canada, including people who are not in crisis. Calls and texts are anonymous and confidential, and the hotline has a stated policy against nonconsensual active rescue: operators do not call 911, police, or emergency services without the caller's expressed request and consent. US (877) 565-8860; Canada (877) 330-6366. Hours Monday-Friday, 10 AM-6 PM Pacific (1-9 PM Eastern).",
+    "tags": [
+      "trans",
+      "peer-support",
+      "hotline",
+      "crisis",
+      "lgbtq",
+      "anonymous",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "Phone",
+      "Text"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "regions": [
+      "US and Canada; separate numbers for each."
+    ],
+    "intended_population": [
+      "transgender",
+      "questioning",
+      "gender-diverse"
+    ],
+    "needs": [
+      "support",
+      "crisis"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "reach-out",
+    "cultural_context": {
+      "adaptation_status": "affirming",
+      "notes": "Trans-led and trans-staffed; the hotline page states respect for callers' gender identity regardless of age, nationality, race/ethnicity, religion, orientation, socioeconomic or immigration status, ability, or body type. Spanish-language option is offered on the line.",
+      "source_notes": [
+        "https://translifeline.org/hotline/"
+      ]
+    },
+    "accessibility": [
+      "Phone and text options; text option may help users who cannot call. TTY/relay compatibility not listed on the fetched page; verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Page states full anonymity and confidentiality for callers. The same page reserves mandated-reporting exceptions (credible threats of violence to others; suspected child abuse/neglect laws). Full privacy policy was not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Peer-support crisis service from a US nonprofit founded in 2014. Outcome evidence was not evaluated in this screening.",
+    "limitations": "Not 24/7: weekday hours only (Mon-Fri, 10 AM-6 PM Pacific); high call volume can mean longer waits. Not a substitute for emergency services; people in immediate danger should use local emergency numbers. Mandated-reporting exceptions apply as stated on the page.",
+    "reason": "Screened 2026-10-14: official Trans Lifeline hotline page confirmed live; trans-staffed peer support, US and Canada numbers, weekday hours, anonymity/no-nonconsensual-rescue policy, and mandated-reporting exceptions confirmed from the primary source. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-14",
+    "source_notes": [
+      "https://translifeline.org/hotline/"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "Spanish service depth not assessed",
+      "financial-assistance programs not evaluated"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
+  },
+  {
+    "id": "postpartum-support-international",
+    "name": "Postpartum Support International (perinatal mental health hub)",
+    "publisher": "Postpartum Support International (nonprofit, Portland OR)",
+    "resource_type": "resource-hub",
+    "official_url": "https://postpartum.net/",
+    "description": "International nonprofit focused on perinatal mental health. Runs the PSI HelpLine (call 1-800-944-4773 or text; English and Spanish; 8 AM-11 PM EST; non-emergency), a provider directory for perinatal specialists, free online peer support groups, education on perinatal mood and anxiety disorders, and professional trainings including perinatal mental-health certification. A 'Connect by PSI' app is also offered.",
+    "tags": [
+      "perinatal",
+      "postpartum",
+      "parents",
+      "helpline",
+      "peer-support",
+      "provider-directory",
+      "spanish",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "Web",
+      "Phone",
+      "Text",
+      "App"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "regions": [
+      "US-focused helpline (8 AM-11 PM EST); site describes broader international reach not confirmed in this screening."
+    ],
+    "intended_population": [
+      "pregnant",
+      "postpartum",
+      "parents",
+      "partners",
+      "families",
+      "professionals"
+    ],
+    "needs": [
+      "support",
+      "find-support"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "reach-out",
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "HelpLine and app available in English and Spanish. Perinatal focus across the childbearing family, including partners. Fit for non-US users not assessed.",
+      "source_notes": [
+        "https://postpartum.net/"
+      ]
+    },
+    "accessibility": [
+      "HelpLine offers call and text options. Assistive-technology compatibility of the site and app not listed on the fetched homepage; verify before relying on it."
+    ],
+    "privacy_notes": "HelpLine calls/texts described as confidential by third-party listings; the fetched homepage does not detail data practices, and the app's data practices were not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Leading perinatal-mental-health nonprofit; runs professional trainings and a certification program. Outcome evidence was not evaluated in this screening.",
+    "limitations": "HelpLine does not handle emergencies; the page directs people in crisis to their local emergency number or 988. Not 24/7 (8 AM-11 PM EST). Professional trainings may be paid; not assessed.",
+    "reason": "Screened 2026-10-14: official postpartum.net homepage confirmed live; HelpLine number, hours, English/Spanish service, non-emergency scope, provider directory, peer groups, trainings, and app confirmed from the primary source. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-14",
+    "source_notes": [
+      "https://postpartum.net/"
+    ],
+    "screening_gaps": [
+      "privacy policy and data practices not reviewed",
+      "app data practices not reviewed",
+      "international reach details not confirmed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
+  },
+  {
+    "id": "inclusive-therapists",
+    "name": "Inclusive Therapists (social-justice therapist directory)",
+    "publisher": "Inclusive Therapists (directory & community, established 2019)",
+    "resource_type": "service-directory",
+    "official_url": "https://www.inclusivetherapists.com/",
+    "description": "Social justice and liberation-oriented mental-health directory and resource hub connecting people with therapists, counselors, and coaches. Centers Black, Brown, Indigenous, People of Global Majority and queer, trans, nonbinary, intersex, ACE+ intersections, and prioritizes racialized neurodivergent and disabled communities. Providers are vetted (identity/qualification proof plus values questions); the Get-Matched service is done by humans, not AI. Sliding-scale and low-cost options are common. The site states it never sells or shares data and does not cooperate with police or ICE.",
+    "tags": [
+      "therapist-directory",
+      "bipoc",
+      "lgbtq",
+      "neurodivergent",
+      "disability",
+      "sliding-scale",
+      "culturally-responsive",
+      "find-support",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "International; browse-by-location directory with listings in multiple countries. Coverage varies by region."
+    ],
+    "intended_population": [
+      "bipoc",
+      "lgbtq",
+      "neurodivergent",
+      "disabled",
+      "general"
+    ],
+    "needs": [
+      "find-support"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "reach-out",
+    "cultural_context": {
+      "adaptation_status": "affirming",
+      "notes": "Explicitly centers marginalized identities (racial, 2SLGBTQIA+, neurodivergence, disability justice). Multilingual welcome text (Spanish 'Bienvenides') on the homepage; full non-English availability not assessed. Site states it does not cooperate with police/ICE, but each listed provider keeps their own mandated-reporting practices; users are advised to ask providers directly.",
+      "source_notes": [
+        "https://www.inclusivetherapists.com/",
+        "https://www.inclusivetherapists.com/about"
+      ]
+    },
+    "accessibility": [
+      "Web directory with disability-related search categories. Assistive-technology compatibility not listed; verify before relying on it."
+    ],
+    "privacy_notes": "Site states it never sells or shares data and removes platform messages from storage within 90 days. Full privacy policy was not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Directory and community founded 2019; providers practice independently and the site advises users to verify credentials directly. Fit and outcomes were not evaluated in this screening.",
+    "limitations": "Directory browsing is free but provider sessions are paid; fees and sliding-scale availability vary by provider and were not assessed. Listing is not a clinical endorsement. Each provider's mandated-reporting practices differ.",
+    "reason": "Screened 2026-10-14: official site and about page confirmed live; mission, centered populations, provider vetting, human (non-AI) Get-Matched service, data-privacy commitments, and no-police/ICE stance confirmed from the primary source. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-14",
+    "source_notes": [
+      "https://www.inclusivetherapists.com/",
+      "https://www.inclusivetherapists.com/about"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed in full",
+      "provider vetting depth not independently assessed",
+      "non-English availability not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
+  },
+  {
+    "id": "camh-mental-health-101",
+    "name": "CAMH Mental Health 101 (free courses)",
+    "publisher": "Centre for Addiction and Mental Health (CAMH), Toronto",
+    "resource_type": "online-course",
+    "official_url": "https://www.camh.ca/en/health-info/mental-health-101",
+    "description": "Free Mental Health 101 tutorial series from CAMH, Canada's large mental-health teaching hospital: short courses on mental health, addiction, depression, youth mental health, anxiety, bipolar disorder, PTSD, psychosis, schizophrenia, harm reduction, veterans, and older adults. Courses run on the CAMH Global Learning Academy and require a free account.",
+    "tags": [
+      "psychoeducation",
+      "courses",
+      "canada",
+      "addiction",
+      "depression",
+      "anxiety",
+      "youth",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "regions": [
+      "Canada-focused (Ontario); courses accessed via free account."
+    ],
+    "intended_population": [
+      "general",
+      "families",
+      "friends"
+    ],
+    "needs": [
+      "understand",
+      "learn"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "learn",
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "English and French versions linked on the page (Santé mentale 101). Canadian health-system context; fit outside Canada not assessed.",
+      "source_notes": [
+        "https://www.camh.ca/en/health-info/mental-health-101"
+      ]
+    },
+    "accessibility": [
+      "Web-based courses; free account required. Assistive-technology compatibility not listed on the fetched page; verify before relying on it."
+    ],
+    "privacy_notes": "Courses require a free CAMH Global Learning Academy account; the account's data practices were not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher is a major mental-health teaching hospital and research centre. Course content quality was not evaluated in this screening.",
+    "limitations": "Free account required to take the courses. Canadian (Ontario) service context for any treatment referrals. Educational only; does not replace professional care.",
+    "reason": "Screened 2026-10-14: official CAMH page confirmed live; free 101 course series, topic list, English/French availability, and free-account access confirmed from the primary source. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-14",
+    "source_notes": [
+      "https://www.camh.ca/en/health-info/mental-health-101"
+    ],
+    "screening_gaps": [
+      "Academy account data practices not reviewed",
+      "course currency and completion experience not verified"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
   }
 ]
