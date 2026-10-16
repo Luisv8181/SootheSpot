@@ -10350,5 +10350,313 @@
       "date_checked_recorded",
       "primary_source_recorded"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK academic publisher. Fit for non-UK contexts not assessed.",
+      "source_notes": [
+        "https://oxfordmindfulness.org/events-and-resources"
+      ]
+    },
+    "description": "Free mindfulness resources from Oxford Mindfulness to support learning, practice, and well-being: recorded practices (mindful walking, body scan, breathing space, sitting), mindfulness podcasts, and additional reading and resource links.",
+    "evidence_notes": "Publisher is an Oxford-based mindfulness research and teaching organization associated with the University of Oxford. No efficacy claims were evaluated in this screening.",
+    "id": "oxford-mindfulness-free-resources",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Educational/self-care audio; does not replace professional mental health care. The page also promotes a mindfulness app and books, which were not reviewed.",
+    "name": "Oxford Mindfulness Free Resources",
+    "needs": [
+      "listen",
+      "calm"
+    ],
+    "official_url": "https://oxfordmindfulness.org/events-and-resources",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Practices stream from the publisher site; no account noted on the reviewed page. Data practices were not reviewed in this screening.",
+    "publisher": "Oxford Mindfulness (Oxford Mindfulness Centre)",
+    "reason": "Screened 2026-10-16: official Oxford Mindfulness resources page confirmed live; free meditation recordings (mindful walking, body scan, breathing space, sitting), podcasts, and resource sections confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; UK-based publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "audio-library",
+    "review_status": "screened",
+    "screening_gaps": [
+      "Privacy policy and data practices not reviewed",
+      "Non-English availability not confirmed",
+      "Publisher app and book resources not reviewed"
+    ],
+    "shelf": "listen",
+    "source_notes": [
+      "https://oxfordmindfulness.org/events-and-resources"
+    ],
+    "status": "screened",
+    "tags": [
+      "mindfulness",
+      "meditation",
+      "body-scan",
+      "breathing",
+      "mbct",
+      "podcasts",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Lessons are image-based slides; text alternatives not confirmed on the reviewed page. Verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S.-based organization. Fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://www.retrainpain.org/languages/english"
+      ]
+    },
+    "description": "Free science-based pain-education lessons for people with persistent pain, organized in short numbered slide modules covering why we feel pain, what causes persistent pain, how attention and goals shape the pain experience, and mindful techniques. Reached from the site's Free Patient Resources navigation.",
+    "evidence_notes": "Publisher presents the lessons as a science-based approach to persistent pain. Individual scientific claims were not evaluated in this screening.",
+    "id": "retrain-pain-foundation",
+    "intended_population": [
+      "general",
+      "adults"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Educational content; does not replace professional medical care. Lesson assets are served from third-party document and image hosts, per the reviewed page.",
+    "name": "Retrain Pain Free Pain Education",
+    "needs": [
+      "learn",
+      "understand"
+    ],
+    "official_url": "https://www.retrainpain.org/languages/english",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Lessons viewable on the publisher site; no account noted on the reviewed page. Data practices were not reviewed in this screening.",
+    "publisher": "Retrain Pain (Retrain Pain Foundation)",
+    "reason": "Screened 2026-10-16: Retrain Pain's free patient lessons page confirmed live via the site's own Free Patient Resources navigation; free science-based lesson modules (pain science, attention, goals, mindfulness) confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; U.S.-based organization."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "online-course",
+    "review_status": "screened",
+    "screening_gaps": [
+      "Other-language editions not reviewed",
+      "Privacy policy and data practices not reviewed",
+      "Publisher background beyond the site itself not verified"
+    ],
+    "shelf": "learn",
+    "source_notes": [
+      "https://www.retrainpain.org/languages/english",
+      "https://retrainpain.org/"
+    ],
+    "status": "screened",
+    "tags": [
+      "chronic-pain",
+      "pain-education",
+      "pain-science",
+      "self-management",
+      "mindfulness",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "England-and-Wales charity service; fit for other regions not assessed.",
+      "source_notes": [
+        "https://sidebyside.mind.org.uk/faqs/"
+      ]
+    },
+    "description": "Online peer-support community run by Mind: talk about mental health and connect with others who have experience of mental-health problems, in a moderated space for listening, sharing, and being heard. Open 24/7 with moderation from 8am to midnight daily; registration requires confirming age 18+ and understanding it is not a crisis service.",
+    "evidence_notes": "Publisher is Mind, a major UK mental-health charity. Peer-support outcomes were not evaluated in this screening.",
+    "id": "mind-side-by-side",
+    "intended_population": [
+      "adults"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Peer support only; explicitly not a crisis service and not a substitute for professional care. Aged 18+ only. Full support scope (e.g., bespoke signposting) is limited to England and Wales per the publisher.",
+    "name": "Side by Side (Mind online community)",
+    "needs": [
+      "support",
+      "find support",
+      "calm"
+    ],
+    "official_url": "https://www.mind.org.uk/information-support/side-by-side-our-online-community/",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Registration requires a username, email address, and password; the privacy policy is presented at signup and was not reviewed in this screening.",
+    "publisher": "Mind (UK mental health charity)",
+    "reason": "Screened 2026-10-16: Mind's Side by Side page confirmed live; peer-support purpose, 24/7 availability, 8am-to-midnight moderation, 18+ scope, England-and-Wales focus, and not-a-crisis-service status confirmed from the primary source (Mind page, official FAQs, registration page). Ready for owner review before any promotion.",
+    "regions": [
+      "England and Wales focused; people elsewhere welcome for peer support per publisher FAQ; UK-based charity publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "web-platform",
+    "review_status": "screened",
+    "screening_gaps": [
+      "Privacy policy and data practices not reviewed",
+      "Community guidelines not reviewed in full",
+      "App-store listing not reviewed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://www.mind.org.uk/information-support/side-by-side-our-online-community/",
+      "https://sidebyside.mind.org.uk/faqs/",
+      "https://sidebyside.mind.org.uk/register"
+    ],
+    "status": "screened",
+    "tags": [
+      "peer-support",
+      "community",
+      "moderated",
+      "mental-health",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK youth charity; fit for non-UK contexts not assessed.",
+      "source_notes": [
+        "https://www.themix.org.uk/"
+      ]
+    },
+    "description": "UK charity providing free, confidential support and information for young people under 25 on mental health, relationships, housing, money, and wellbeing, including free self-paced LifeSkills courses (e.g., on loneliness), articles, a podcast, and peer and one-to-one support options.",
+    "evidence_notes": "UK-registered charity serving under-25s. Service quality and outcomes were not evaluated in this screening.",
+    "id": "the-mix-uk",
+    "intended_population": [
+      "adolescents",
+      "young adults"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-10-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "UK-focused and scoped to under-25s. Counselling and live-chat services operate on the charity's own pathways — verify current availability before any promotion. Does not replace professional care.",
+    "name": "The Mix",
+    "needs": [
+      "support",
+      "understand",
+      "calm"
+    ],
+    "official_url": "https://www.themix.org.uk/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "The publisher describes its support as free, confidential, and anonymous; the privacy policy and data practices were not reviewed in this screening.",
+    "publisher": "The Mix (UK youth charity)",
+    "reason": "Screened 2026-10-16: official The Mix homepage confirmed live; UK charity status, free confidential under-25 support scope (mental health, relationships, housing, money, wellbeing), and free LifeSkills courses confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "UK-focused; UK-based charity."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "resource-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "Privacy policy and data practices not reviewed",
+      "Counselling and live-chat service details not reviewed",
+      "Availability outside the UK not confirmed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://www.themix.org.uk/"
+    ],
+    "status": "screened",
+    "tags": [
+      "youth",
+      "under-25",
+      "peer-support",
+      "counselling",
+      "lifeskills",
+      "loneliness",
+      "mental-health",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
   }
 ]
