@@ -9327,5 +9327,241 @@
       "date_checked_recorded",
       "primary_source_recorded"
     ]
+  },
+  {
+    "id": "rainn-national-sexual-assault-hotline",
+    "name": "RAINN National Sexual Assault Hotline — 24/7 Support for Survivors",
+    "publisher": "RAINN (Rape, Abuse & Incest National Network)",
+    "resource_type": "crisis-service",
+    "official_url": "https://www.rainn.org/",
+    "description": "National Sexual Assault Hotline operated by RAINN, the largest anti-sexual-violence nonprofit in the US (founded 1994). Free, confidential 24/7 support in English and Spanish via phone (800.656.HOPE / 800-656-4673), online chat, and text ('HOPE' to 64673). Phone callers are routed to a local RAINN affiliate by area code/ZIP. Publisher reports 5.5M+ people served since 1994. Also runs the DoD Safe Helpline and publishes survivor education resources.",
+    "tags": [
+      "crisis",
+      "sexual-assault",
+      "trauma",
+      "24-7",
+      "multilingual"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "Phone",
+      "Web",
+      "SMS"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "regions": [
+      "United States"
+    ],
+    "intended_population": [
+      "adults",
+      "youth",
+      "loved-ones"
+    ],
+    "needs": [
+      "safety",
+      "find-support",
+      "understand"
+    ],
+    "use_context": [
+      "with-support"
+    ],
+    "shelf": "safety",
+    "cultural_context": {
+      "adaptation_status": "community-centered",
+      "notes": "Service positioned for survivors of sexual violence and their loved ones; outreach and materials available in Spanish (rainn.org/es).",
+      "source_notes": [
+        "https://www.rainn.org/"
+      ]
+    },
+    "accessibility": [
+      "Phone, online chat, and SMS channels; assistive-technology compatibility not assessed on the fetched page."
+    ],
+    "privacy_notes": "Service described as free and confidential on the official homepage; full privacy policy and reporting-obligation details not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Long-established nonprofit; published hotline program reports exist but were not evaluated here.",
+    "limitations": "Sexual-violence crisis service — not a general emotional-regulation or coping resource; SootheSpot's mild-distress coping pathway must not frame it as a calm-down tool without owner judgment. US-only routing for phone; chat availability covers US-based affiliates.",
+    "reason": "Screened 2026-10-15: rainn.org fetched live; free, confidential 24/7 hotline in English/Spanish via phone (800.656.HOPE), chat, and text confirmed from the primary source. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-15",
+    "source_notes": [
+      "https://www.rainn.org/"
+    ],
+    "screening_gaps": [
+      "Privacy policy and reporting obligations not reviewed",
+      "Accessibility not assessed",
+      "Average wait/response times not verified",
+      "DoD Safe Helpline details not screened"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
+  },
+  {
+    "id": "samhsa-national-helpline",
+    "name": "SAMHSA National Helpline — Treatment Referral & Information Service",
+    "publisher": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+    "resource_type": "crisis-service",
+    "official_url": "https://www.samhsa.gov/find-help/helplines/national-helpline",
+    "description": "Free, confidential, 24/7, 365-day-a-year treatment referral and information service (English and Spanish) for individuals and families facing mental and/or substance use disorders. Trained information specialists connect callers to local treatment facilities, support groups, and community-based organizations; free publications can be ordered. Phone 1-800-662-HELP (4357), TTY 1-800-487-4889, or text ZIP code to 435748 (HELP4U). Does NOT provide counseling — information and referral only. Page last updated 2026-06-09 per the official site.",
+    "tags": [
+      "crisis",
+      "referral",
+      "substance-use",
+      "mental-health",
+      "24-7",
+      "multilingual"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "Phone",
+      "SMS"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "regions": [
+      "United States"
+    ],
+    "intended_population": [
+      "adults",
+      "families"
+    ],
+    "needs": [
+      "find-support",
+      "understand"
+    ],
+    "use_context": [
+      "with-support"
+    ],
+    "shelf": "safety",
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "Federal service in English and Spanish; HELP4U text service is English-only. No insurance required; state-funded and sliding-fee referrals available.",
+      "source_notes": [
+        "https://www.samhsa.gov/find-help/helplines/national-helpline"
+      ]
+    },
+    "accessibility": [
+      "TTY line provided (1-800-487-4889); SMS option available. Assistive-technology compatibility not assessed on the fetched page."
+    ],
+    "privacy_notes": "Service described as confidential; callers may be asked for ZIP code or geographic info to identify local resources. Full privacy policy not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only. US federal government public-domain content conventions may apply; not independently assessed.",
+    "evidence_notes": "Federal agency service; published call-volume figures exist (833,598 calls in 2020 per FAQ) but service effectiveness not independently assessed.",
+    "limitations": "Information-and-referral only — explicitly does not provide counseling or crisis intervention. Best matched to SootheSpot's find-support pathway, not the coping shelf, without owner judgment.",
+    "reason": "Screened 2026-10-15: samhsa.gov page fetched live; free confidential 24/7 referral service (1-800-662-HELP), no counseling provided, English/Spanish, no insurance required — all confirmed from the primary source. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-15",
+    "source_notes": [
+      "https://www.samhsa.gov/find-help/helplines/national-helpline"
+    ],
+    "screening_gaps": [
+      "Privacy policy not reviewed",
+      "Accessibility of phone tree / TTY not assessed",
+      "HELP4U text carrier charges (message and data rates may apply)",
+      "Wait/response times not verified"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
+  },
+  {
+    "id": "calm-campaign-against-living-miserably",
+    "name": "CALM (Campaign Against Living Miserably) — Suicide Prevention Helpline & Support",
+    "publisher": "Campaign Against Living Miserably (CALM)",
+    "resource_type": "crisis-service",
+    "official_url": "https://www.thecalmzone.net/",
+    "description": "UK suicide prevention charity offering a free helpline (0800 58 58 58), webchat, and WhatsApp, 5pm–midnight, 365 days a year, staffed by trained professionals. Calls are confidential and anonymous; translation services available for non-English speakers. Also publishes practical mental-health support articles and hosts the Support After Suicide Partnership. Homepage confirmed live 2026-10-15.",
+    "tags": [
+      "crisis",
+      "suicide-prevention",
+      "men",
+      "multilingual",
+      "peer-support"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "Phone",
+      "Web",
+      "SMS"
+    ],
+    "languages": [
+      "English",
+      "translation services available"
+    ],
+    "regions": [
+      "United Kingdom"
+    ],
+    "intended_population": [
+      "adults",
+      "bereaved"
+    ],
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "use_context": [
+      "with-support"
+    ],
+    "shelf": "safety",
+    "cultural_context": {
+      "adaptation_status": "community-centered",
+      "notes": "Known for challenging stereotypes of masculinity and male suicide; open to anyone in the UK of any age or gender who is down or in crisis, per the publisher.",
+      "source_notes": [
+        "https://www.thecalmzone.net/"
+      ]
+    },
+    "accessibility": [
+      "Phone, webchat, and WhatsApp channels; assistive-technology compatibility not assessed on the fetched page."
+    ],
+    "privacy_notes": "Calls described as confidential and anonymous on the official site; full privacy policy not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Established UK charity; published intervention figures exist (675 in 2018, 588 in 2019 per fundraising pages) but not independently assessed.",
+    "limitations": "UK-only service with evening-hours helpline (5pm–midnight), not 24/7. Suicide-prevention service — not a general coping resource; SootheSpot's mild-distress coping pathway must not frame it as a calm-down tool without owner judgment. Per SootheSpot's no-US-defaults rule: region-scoped resource, not a substitute for other regions' crisis pathways.",
+    "reason": "Screened 2026-10-15: thecalmzone.net fetched live; free helpline 0800 58 58 58 + webchat/WhatsApp (5pm–midnight, 365 days), confidential/anonymous, translation services confirmed from the primary source. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-15",
+    "source_notes": [
+      "https://www.thecalmzone.net/"
+    ],
+    "screening_gaps": [
+      "Privacy policy not reviewed",
+      "Accessibility not assessed",
+      "Average wait/response times not verified",
+      "Hours of operation taken from directory listings, not the fetched homepage"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
   }
 ]
