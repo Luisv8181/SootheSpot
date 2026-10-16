@@ -9870,5 +9870,242 @@
       "date_checked_recorded",
       "primary_source_recorded"
     ]
+  },
+  {
+    "id": "pe-coach-va",
+    "name": "PE Coach",
+    "publisher": "VA National Center for PTSD and DoD National Center for Telehealth & Technology",
+    "resource_type": "mobile-app",
+    "official_url": "https://mobile.va.gov/app/pe-coach",
+    "description": "Treatment-companion app for Prolonged Exposure (PE) therapy for PTSD: guides the user through exercises assigned by their therapist, records PE sessions as audio on the user's device for later review, tracks PTSD symptoms over time, reminds about homework, and coaches breathing retraining. The VA states the app by itself is not sufficient to treat PTSD and is meant for people receiving PE with a trained clinical provider.",
+    "tags": [
+      "ptsd",
+      "prolonged-exposure",
+      "treatment-companion",
+      "symptom-tracking",
+      "breathing-retraining",
+      "therapist-supported"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global availability not verified; U.S. federal government (VA/DoD) publisher."
+    ],
+    "intended_population": [
+      "People engaged in Prolonged Exposure therapy for PTSD with a trained clinical provider (per the official VA Mobile page)"
+    ],
+    "needs": [
+      "practice",
+      "cope",
+      "calm"
+    ],
+    "use_context": [
+      "therapist-supported"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S. federal agencies' clinical-treatment companion; cultural-context fit not assessed in this screening.",
+      "source_notes": [
+        "https://mobile.va.gov/app/pe-coach"
+      ]
+    },
+    "accessibility": [
+      "App-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "Session recordings are stored on the user's own device; the VA's PTSD treatment decision-aid page states the app does not share information with VA. The app's full privacy policy and data practices were not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher is VA/DoD; Prolonged Exposure is described by the publisher as an evidence-based psychotherapy for PTSD. The app is a treatment companion, not a standalone intervention — no efficacy claims for the app itself were evaluated.",
+    "limitations": "Not self-help: designed for use during professional care with a PE-trained therapist, and not sufficient to treat PTSD alone. PTSD is a serious condition that requires professional evaluation and treatment. Must never be framed as a crisis or standalone care pathway.",
+    "reason": "Screened 2026-10-16: mobile.va.gov PE Coach page fetched live; VA/DoD publishers, treatment-companion scope, clinician-required framing, and feature set confirmed from the primary source. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-16",
+    "source_notes": [
+      "https://mobile.va.gov/app/pe-coach",
+      "https://www.ptsd.va.gov/apps/decisionaid/prolonged-exposure/"
+    ],
+    "screening_gaps": [
+      "App-store listing (exact current title, data-safety labels) not reviewed",
+      "Languages beyond English not confirmed",
+      "Availability outside the U.S. not verified",
+      "Assistive-technology compatibility not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
+  },
+  {
+    "id": "dare-anxiety-relief-app",
+    "name": "DARE — Panic & Anxiety Relief",
+    "publisher": "DARE Response (Barry McDonagh)",
+    "resource_type": "mobile-app",
+    "official_url": "https://dareresponse.com/",
+    "description": "Anxiety and panic program built around the DARE response method: a smartphone app with audios for quick anxiety relief, the book 'Dare: The New Way to End Anxiety and Stop Panic Attacks', plus coaching and community offerings. Marketed for panic attacks, general anxiety, anxious or intrusive thoughts, and sleep worry.",
+    "tags": [
+      "anxiety",
+      "panic-attacks",
+      "intrusive-thoughts",
+      "sleep",
+      "self-help-program",
+      "independent-use"
+    ],
+    "access": [
+      "free",
+      "paid-optional",
+      "Free app download; book, coaching, and community tiers are paid (per publisher-linked materials; pricing not enumerated on the reviewed homepage)"
+    ],
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global; U.S.-based publisher."
+    ],
+    "intended_population": [
+      "adults"
+    ],
+    "needs": [
+      "anxiety",
+      "calm",
+      "cope",
+      "sleep"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Program framing and testimonials are in English; cultural-context fit not assessed in this screening.",
+      "source_notes": [
+        "https://dareresponse.com/"
+      ]
+    },
+    "accessibility": [
+      "App- and audio-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "Privacy policy and data practices not reviewed in this screening — do not treat any privacy or confidentiality claims as verified.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher describes the DARE method as based on hard science; no independent clinical-trial citation was verified in this screening. Outcomes shown on the homepage are user testimonials, not controlled evidence.",
+    "limitations": "Effectiveness language ('end anxiety', 'stop panic attacks') is publisher marketing and must not be presented as a clinical claim or guarantee. Not a substitute for professional care; must never be framed as a crisis pathway. Free-vs-paid feature boundary not confirmed on the reviewed homepage.",
+    "reason": "Screened 2026-10-16: dareresponse.com fetched live; program structure (app, book, audios, coaching/community) and anxiety/panic purpose confirmed from the primary source. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-16",
+    "source_notes": [
+      "https://dareresponse.com/"
+    ],
+    "screening_gaps": [
+      "Clinical evidence for the DARE method not independently verified",
+      "Privacy policy and data practices not reviewed",
+      "Exact free-vs-paid feature boundary not confirmed on the reviewed homepage",
+      "Support availability outside English not verified"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
+  },
+  {
+    "id": "bettersleep-sleep-app",
+    "name": "BetterSleep (formerly Relax Melodies)",
+    "publisher": "Ipnos Software Inc. (part of Teladoc Health)",
+    "resource_type": "mobile-app",
+    "official_url": "https://www.bettersleep.com/",
+    "description": "Sleep and relaxation app with custom-mixable soundscapes (nature sounds, white/brown/green noise, brainwaves), sleep meditations and hypnosis tracks, SleepTales bedtime stories, music playlists, SleepMoves bedtime routines, and breathing exercises. Formerly Relax Melodies; publisher claims 65M+ users worldwide.",
+    "tags": [
+      "sleep",
+      "soundscapes",
+      "meditation",
+      "bedtime-stories",
+      "breathing",
+      "independent-use"
+    ],
+    "access": [
+      "free",
+      "paid-optional",
+      "Free trial, then auto-renewable paid subscription (homepage lists Price: 9.99 USD; billing cadence not stated there); a limited selection of free content remains after the trial"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "sleep",
+      "calm",
+      "stress",
+      "practice"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Sleep sounds and stories are largely culture-general; cultural-context fit not assessed in this screening.",
+      "source_notes": [
+        "https://www.bettersleep.com/"
+      ]
+    },
+    "accessibility": [
+      "App-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "Privacy policy and data practices not reviewed in this screening — the app's microphone-based sleep-recording feature has obvious privacy implications that were not evaluated.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher states content is designed by sleep experts (publisher claim); no clinical-trial evidence was evaluated in this screening.",
+    "limitations": "The full library sits behind a paid subscription after the free trial. Not a treatment for sleep disorders or other medical conditions. Hypnosis-track content is wellness framing, not clinical hypnotherapy.",
+    "reason": "Screened 2026-10-16: bettersleep.com fetched live; freemium model, sound-mixer/meditation/story feature set, and 65M-user publisher context confirmed from the primary source. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-16",
+    "source_notes": [
+      "https://www.bettersleep.com/",
+      "https://www.globenewswire.com/fr/news-release/2021/11/30/2343201/0/en/Relax-Melodies-rebrands-to-BetterSleep-on-its-path-to-become-the-leader-in-digital-sleep.html"
+    ],
+    "screening_gaps": [
+      "Languages beyond English not enumerated on the reviewed homepage (publisher press materials claim 10)",
+      "Privacy policy and data practices not reviewed",
+      "Subscription billing cadence not stated on the reviewed homepage",
+      "Assistive-technology compatibility not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
   }
 ]
