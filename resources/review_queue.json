@@ -10107,5 +10107,248 @@
       "date_checked_recorded",
       "primary_source_recorded"
     ]
+  },
+  {
+    "id": "aura-health-meditation-sleep",
+    "name": "Aura — Meditation & Sleep",
+    "publisher": "Aura Health, Inc.",
+    "resource_type": "mobile-app",
+    "official_url": "https://www.aurahealth.io/",
+    "description": "Personalized mental-wellness and sleep app offering thousands of tracks across meditation, sleep stories, relaxing music, nature sounds, hypnosis, life coaching, spirituality, prayer, breathwork, and affirmations, plus live sessions with coaches and therapists and a community. AI-driven personalization builds plans from a needs questionnaire. Homepage claims 45,000+ 5-star reviews and 8M+ App Store ratings (publisher claims).",
+    "tags": [
+      "meditation",
+      "sleep",
+      "breathwork",
+      "hypnosis",
+      "coaching",
+      "personalized",
+      "independent-use"
+    ],
+    "access": [
+      "free",
+      "paid-optional",
+      "Free tier plus 7-day free guest pass (per homepage); full track library sits behind a paid subscription — $69.99 USD/year seen on the gift purchase page, full pricing and terms gated in the onboarding quiz"
+    ],
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "calm",
+      "sleep",
+      "stress",
+      "practice",
+      "listen"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Prayer and spirituality content present alongside secular tracks; cultural-context fit not assessed in this screening.",
+      "source_notes": [
+        "https://www.aurahealth.io/"
+      ]
+    },
+    "accessibility": [
+      "App-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "Privacy policy and data practices not reviewed in this screening — the app's AI personalization collects usage/behavioral data, which has privacy implications that were not evaluated.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher presents content as led by named coaches, therapists, and clinical psychologists and cites press coverage; no clinical-trial evidence was evaluated in this screening.",
+    "limitations": "Full library requires a paid subscription after the free tier/guest pass. Not a treatment for sleep disorders, anxiety disorders, or other medical conditions. Hypnosis and 'therapy' tracks are wellness framing, not clinical care. 1-1 coaching access details not stated on the reviewed pages.",
+    "reason": "Screened 2026-10-16: aurahealth.io fetched live; publisher (Aura Health, Inc., per footer), content categories, free tier + $69.99 USD/year subscription price, and 45,000+ 5-star-review claim confirmed from the primary source (homepage read live plus live-browser verification of the gift purchase page). Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-16",
+    "source_notes": [
+      "https://www.aurahealth.io/",
+      "https://app.aurahealth.io/gift/purchase?campaign=website&source=gift&giftCampaign=gift-holidays"
+    ],
+    "screening_gaps": [
+      "Languages beyond English not enumerated on the reviewed homepage",
+      "Free-vs-paid feature split and subscription terms beyond the headline price are gated in the onboarding quiz",
+      "Privacy policy and data practices not reviewed",
+      "Regional app-store availability not checked",
+      "Assistive-technology compatibility not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
+  },
+  {
+    "id": "brave-online-child-anxiety",
+    "name": "BRAVE Online — Online Help for Worried Kids",
+    "publisher": "BRAVE Program (brave-online.com; site states developed by global experts in youth anxiety and depression)",
+    "resource_type": "self-help-program",
+    "official_url": "https://brave-online.com/",
+    "description": "Evidence-based online CBT program for children and teens who want to learn to reduce stress and anxiety and improve mood; also includes help for parents and carers. Self-help format usable from home at any time, grounded (per the site) in 20+ years of CBT research. Site cites 50,000+ young Australian registrants since 2014 and peer-reviewed studies reporting 70% of clinically anxious young people free of diagnosis after completing the program. Recommended by RANZCP clinical practice guidelines for anxiety, BeyondBlue, and HealthDirect.",
+    "tags": [
+      "anxiety",
+      "cbt",
+      "children",
+      "teens",
+      "parents",
+      "self-help",
+      "independent-use"
+    ],
+    "access": [
+      "Pricing not stated on the reviewed homepage"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Australia"
+    ],
+    "intended_population": [
+      "children",
+      "adolescents",
+      "parents"
+    ],
+    "needs": [
+      "anxiety",
+      "practice",
+      "cope",
+      "understand"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Australian-developed program; cultural-context fit outside Australia not assessed in this screening.",
+      "source_notes": [
+        "https://brave-online.com/"
+      ]
+    },
+    "accessibility": [
+      "Web-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "Privacy policy and data practices not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Site describes the program as grounded in 20+ years of CBT research, cites peer-reviewed studies (70% of clinically anxious youth free of diagnosis post-completion, per the site), and notes recommendation in RANZCP anxiety clinical practice guidelines; no study papers were read in this screening.",
+    "limitations": "Appears Australia-focused (50,000+ young Australian registrants cited; endorsed by Australian bodies) — availability and suitability outside Australia unverified. Not for crisis situations or conditions requiring professional care.",
+    "reason": "Screened 2026-10-16: brave-online.com fetched live; CBT basis, children/teen + parent population, home-based anytime self-help scope, Australian endorsements (RANZCP, BeyondBlue, HealthDirect), and registrant-scale claims confirmed from the primary source. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-16",
+    "source_notes": [
+      "https://brave-online.com/"
+    ],
+    "screening_gaps": [
+      "Whether registration is free was not stated on the reviewed homepage",
+      "Exact age band (site says children and teens; finer banding not shown) not confirmed",
+      "Institutional publisher affiliation (beyond 'global experts in youth anxiety and depression') not confirmed on the reviewed page",
+      "Availability outside Australia not assessed",
+      "Privacy policy not reviewed",
+      "Assistive-technology compatibility not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
+  },
+  {
+    "id": "sleep-ninja-black-dog-institute",
+    "name": "Sleep Ninja — Teen Sleep App (Black Dog Institute)",
+    "publisher": "Black Dog Institute",
+    "resource_type": "mobile-app",
+    "official_url": "https://www.blackdoginstitute.org.au/sleep-ninja/",
+    "description": "Free app for teenagers aged 12–16 based on cognitive behavioural therapy for insomnia (CBT-I). Teens track their sleep in a sleep diary, work through six training sessions about their sleep and habits, and listen to sleep tips and bedtime stories. Developed by the Black Dog Institute, co-designed with young people, psychologists, and sleep experts; the institute's research page lists pilot-study and randomised-controlled-trial publications for the app.",
+    "tags": [
+      "sleep",
+      "cbt-i",
+      "teens",
+      "self-help",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Australia"
+    ],
+    "intended_population": [
+      "adolescents"
+    ],
+    "needs": [
+      "sleep",
+      "practice",
+      "learn"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Australian-developed; cultural-context fit outside Australia not assessed in this screening.",
+      "source_notes": [
+        "https://www.blackdoginstitute.org.au/sleep-ninja/"
+      ]
+    },
+    "accessibility": [
+      "App-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "Privacy policy and data practices not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher describes it as an evidence-based digital intervention based on CBT-I, co-designed with young people, psychologists, and sleep experts, with pilot-study and randomised-controlled-trial publications listed on the research page; no papers were read in this screening.",
+    "limitations": "Designed for teens aged 12–16; not suitable for younger children or adults. Not a treatment for diagnosed sleep disorders. Free download explicitly stated for Australia; product page lists App Store/Google Play without stated geographic limits, so availability outside Australia is unclear.",
+    "reason": "Screened 2026-10-16: blackdoginstitute.org.au Sleep Ninja pages verified live (product page at /sleep-ninja/ confirmed; the /our-services/sleep-ninja/ path redirects to the research page); free access, 12–16 age range, six-session CBT-I structure, Black Dog Institute publisher, and pilot/RCT evidence-basis claims confirmed from the primary source. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-16",
+    "source_notes": [
+      "https://www.blackdoginstitute.org.au/sleep-ninja/",
+      "https://www.blackdoginstitute.org.au/research-projects/sleep-ninja/"
+    ],
+    "screening_gaps": [
+      "Individual topics of the six training sessions not named on the reviewed pages",
+      "Sleep-diary mechanics beyond sleep/habit tracking not detailed",
+      "Product page lists App Store/Google Play without geographic limits while the research page says 'anywhere in Australia' — availability outside Australia unclear",
+      "Privacy policy and data practices not reviewed",
+      "Assistive-technology compatibility not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
   }
 ]
