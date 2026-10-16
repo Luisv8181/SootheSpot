@@ -10658,5 +10658,268 @@
       "independent-use",
       "with-support"
     ]
+  },
+  {
+    "access": [
+      "free",
+      "paid-optional"
+    ],
+    "accessibility": [
+      "Verify assistive-technology compatibility before relying on it; not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No stated cultural-adaptation process for the app's content was found on the reviewed page.",
+      "source_notes": [
+        "https://www.getmoodfit.com"
+      ]
+    },
+    "description": "Mental-fitness app combining a mood journal, CBT thought records, breathwork, mindfulness, a gratitude journal, a nervous-system conditioning tool, grounding and mood-boost tools, lifestyle insights (sleep, exercise, nutrition, social), validated assessments (PHQ-9, GAD-7), and education on rumination and procrastination. Programs (e.g., DESTRESS, GRATITUDE, POSITIVE, RELAX) preconfigure daily goals. Free core; Moodfit Premium is an optional paid tier with a 7-day free trial.",
+    "evidence_notes": "Publisher site claims Verywell Mind's 'Best Overall Mental Health App' three years running; award claims not independently verified. No app-level outcome studies verified in this screening.",
+    "id": "moodfit-mental-health-fitness",
+    "intended_population": [
+      "general-public"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-10-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Freemium model; Premium pricing not checked in-app. PHQ-9/GAD-7 are screening instruments, not diagnosis. Not therapy or crisis support. English-language content per the reviewed page.",
+    "name": "Moodfit — Mental Health Fitness",
+    "needs": [
+      "practice",
+      "mood",
+      "calm",
+      "understand"
+    ],
+    "official_url": "https://www.getmoodfit.com",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Privacy policy not independently reviewed in this screening; the Google Play data-safety listing (secondary source) states no data shared with third parties, data encrypted in transit, and deletion available — not verified against the policy here.",
+    "publisher": "Roble Ridge Software LLC (Palo Alto, CA; per official site footer)",
+    "reason": "Screened 2026-10-16: official getmoodfit.com homepage confirmed live (Roble Ridge Software LLC publisher, free core plus Premium tier, mood journal/CBT/breathwork/mindfulness/assessments confirmed from the primary source). Ready for owner review before any promotion.",
+    "regions": [
+      "Availability by region not verified in this screening"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not independently reviewed",
+      "app-level outcome evidence not verified",
+      "award claims not independently verified",
+      "in-app pricing not checked",
+      "regional store availability not verified"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.getmoodfit.com"
+    ],
+    "status": "screened",
+    "tags": [
+      "mood-tracking",
+      "cbt",
+      "thought-records",
+      "breathwork",
+      "mindfulness",
+      "gratitude",
+      "journaling",
+      "grounding",
+      "nervous-system",
+      "assessments",
+      "lifestyle-insights",
+      "freemium",
+      "ios",
+      "android",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility features not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "Available in English, Arabic, Spanish, Hebrew, and Ukrainian per the publisher page; CRM is explicitly framed as a community model. Fit for specific cultural contexts not assessed.",
+      "source_notes": [
+        "https://www.traumaresourceinstitute.com/ichill"
+      ]
+    },
+    "description": "Free app teaching six wellness skills from the Trauma Resiliency Model (TRM) and Community Resiliency Model (CRM) for managing sensations tied to trauma and stress. Frames nervous-system states as a Resilient Zone ('Okay Zone') versus High Zone (anxious, uptight) and Low Zone (numb, disconnected), with guided practice to return to balance. Available in English, Arabic, Spanish, Hebrew, and Ukrainian; for children, teens, and adults of all ages. The publisher states the app is not a substitute for counseling with a licensed mental health professional.",
+    "evidence_notes": "Publisher states the six skills are drawn from TRM/CRM; app-level outcome evidence was not verified in this screening.",
+    "id": "ichill-trauma-resource-institute",
+    "intended_population": [
+      "children",
+      "adolescents",
+      "adults"
+    ],
+    "languages": [
+      "English",
+      "Arabic",
+      "Spanish",
+      "Hebrew",
+      "Ukrainian (per the official page)"
+    ],
+    "last_verified_at": "2026-10-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Not a substitute for professional counseling (publisher's own statement). Data practices not reviewed. App-level efficacy evidence not verified.",
+    "name": "iChill (Trauma Resource Institute)",
+    "needs": [
+      "calm",
+      "cope",
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://www.traumaresourceinstitute.com/ichill",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Privacy policy and data practices were not reviewed in this screening.",
+    "publisher": "Trauma Resource Institute (US 501(c)(3) nonprofit; per site footer)",
+    "reason": "Screened 2026-10-16: official traumaresourceinstitute.com/ichill page confirmed live (nonprofit publisher, free app, six TRM/CRM wellness skills, five languages, all-ages scope confirmed from the primary source). Ready for owner review before any promotion.",
+    "regions": [
+      "Global; US-based nonprofit publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy and data practices not reviewed",
+      "app-level outcome evidence not verified",
+      "regional store availability not verified"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.traumaresourceinstitute.com/ichill"
+    ],
+    "status": "screened",
+    "tags": [
+      "trauma-informed",
+      "resilience",
+      "grounding",
+      "resourcing",
+      "nervous-system",
+      "resilient-zone",
+      "multilingual",
+      "youth",
+      "teens",
+      "free",
+      "ios",
+      "android",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Publisher notes a simple interface and simple language for use in crisis; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "community_informed",
+      "notes": "Co-created with youth, CAMH, and community partners; the ORCHA evaluation covered cultural safety and equity. Fit for non-Canadian contexts not assessed.",
+      "source_notes": [
+        "https://mindyourmind.ca/games-tools/posters-infographics/be-safe-mindyourmind/"
+      ]
+    },
+    "description": "Free crisis safety-planning app for youth and young adults aged 14 to 29: a digital safety plan, a Get Help Decision Tree to find local services, and a Get Help Script to make reaching out easier. Co-created with youth, the Centre for Addiction and Mental Health, and community partners; now includes regional resources for every Canadian province and territory. In 2024 it was evaluated by the Mental Health Commission of Canada via ORCHA across data privacy, clinical evidence, usability/accessibility, cultural safety, equity, and data sovereignty, and passed.",
+    "evidence_notes": "Passed the 2024 MHCC/ORCHA evaluation (publisher page); app-level outcome studies were not verified in this screening.",
+    "id": "be-safe-mindyourmind",
+    "intended_population": [
+      "adolescents",
+      "young adults"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-10-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Canada-focused and scoped to ages 14–29; does not replace professional clinical advice or emergency services. Data practices not reviewed in this screening.",
+    "name": "Be Safe by mindyourmind",
+    "needs": [
+      "safety",
+      "find-support",
+      "cope"
+    ],
+    "official_url": "https://mindyourmind.ca/games-tools/posters-infographics/be-safe-mindyourmind/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Privacy policy and data practices were not reviewed in this screening; third-party store data-safety claims were not verified against the policy.",
+    "publisher": "mindyourmind (program of ConnexOntario; supported by the Ontario Ministry of Health; per official site)",
+    "reason": "Screened 2026-10-16: official mindyourmind.ca Be Safe page confirmed live (Canadian nonprofit publisher, free safety-planning app for 14–29, decision tree/safety plan/script scope, 2024 ORCHA evaluation pass confirmed from the primary source). Ready for owner review before any promotion.",
+    "regions": [
+      "Canada-focused; Canadian publisher. Regional resources for all provinces and territories."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy and data practices not reviewed",
+      "app-level outcome evidence not verified",
+      "availability outside Canada not confirmed",
+      "long-term maintenance status not assessed"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://mindyourmind.ca/games-tools/posters-infographics/be-safe-mindyourmind/"
+    ],
+    "status": "screened",
+    "tags": [
+      "safety-planning",
+      "youth",
+      "crisis",
+      "decision-tree",
+      "local-services",
+      "co-designed",
+      "free",
+      "ios",
+      "android",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
   }
 ]
