@@ -9563,5 +9563,312 @@
       "date_checked_recorded",
       "primary_source_recorded"
     ]
+  },
+  {
+    "id": "the-safe-place-app",
+    "name": "The Safe Place",
+    "publisher": "Jasmin Pierre (Certified Peer Support Specialist, mental health advocate, New Orleans, LA)",
+    "resource_type": "mobile-app",
+    "official_url": "https://www.gofundme.com/f/support-the-safe-place",
+    "description": "Free minority mental health app geared toward the Black community, created by Certified Peer Support Specialist Jasmin Pierre. Features: Black mental health statistics, mental illness descriptions, self-assessment questions, self-care tips (including self-care during police brutality), a mental health directory, mental health videos and articles, and an open forum. The founder's page also references a 'Suicide Support = No Cops' peer chat wall for talking about suicidal ideation. Founder's fundraiser page confirmed live 2026-10-16; app listed on Google Play and Apple App Store via the founder's own links.",
+    "tags": [
+      "peer-support",
+      "psychoeducation",
+      "self-care",
+      "community-specific",
+      "black-community"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "United States"
+    ],
+    "intended_population": [
+      "general",
+      "bipoc"
+    ],
+    "needs": [
+      "understand",
+      "find-support",
+      "cope"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "cultural_context": {
+      "adaptation_status": "community_informed",
+      "notes": "Black-led, community-specific psychoeducation and peer space; the founder is a Certified Peer Support Specialist from the community the app serves. Content addresses racial trauma and police brutality explicitly.",
+      "source_notes": [
+        "https://www.gofundme.com/f/support-the-safe-place"
+      ]
+    },
+    "accessibility": [
+      "App-only delivery; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "Open forum discussions involve peer (non-professional) participants; moderation policy not reviewed. App privacy policy and data practices not independently reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Creator credentials (Certified Peer Support Specialist, Mental Health First Aid responder) stated on the founder's page; app effectiveness not independently assessed.",
+    "limitations": "Peer forum and chat wall are peer-only spaces, not professional or crisis services — the 'Suicide Support = No Cops' wall is anonymous peer chat, which must never be framed as a crisis pathway. Self-assessment questions are informational, not clinical. Funding is donation-dependent (founder reports ~$5k/year maintenance costs); sustainability of the app is a real screening risk. Language coverage beyond English not verified; store-region availability beyond the US not verified.",
+    "reason": "Screened 2026-10-16: founder's official fundraiser page fetched live; free status, feature list, creator credentials, and both store listings confirmed from the founder's own page. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-16",
+    "source_notes": [
+      "https://www.gofundme.com/f/support-the-safe-place"
+    ],
+    "screening_gaps": [
+      "App privacy policy and data practices not reviewed",
+      "Forum/chat moderation policy not reviewed",
+      "Languages beyond English not verified",
+      "Store availability outside the US not verified",
+      "Actual app content not inspected (screening is metadata-level)"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
+  },
+  {
+    "id": "equoo-emotional-fitness-game",
+    "name": "eQuoo — Emotional Fitness Game",
+    "publisher": "PsycApps (United Kingdom)",
+    "resource_type": "mobile-app",
+    "official_url": "https://psycapps.com/",
+    "description": "Gamified emotional-fitness app: choose-your-own-adventure stories and mini-games that teach resilience, relationship skills, anxiety management, and personal development, with Big Five personality insights. The publisher describes eQuoo as 'clinically proven' and 'engineered by psychologists', built for students and young adults. Publisher homepage confirmed live 2026-10-16; the standalone product site (equoo.com) no longer resolves, so the publisher site is the official presence. Third-party app trackers show the app updated 2026-06-10, free on App Store/Google Play, content rating 13+.",
+    "tags": [
+      "gamified",
+      "resilience",
+      "anxiety",
+      "self-development",
+      "storytelling"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "United Kingdom",
+      "United States",
+      "Canada"
+    ],
+    "intended_population": [
+      "teens",
+      "young-adults",
+      "students"
+    ],
+    "needs": [
+      "cope",
+      "practice",
+      "understand"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK-developed; cultural adaptation status not assessed in this screening.",
+      "source_notes": [
+        "https://psycapps.com/"
+      ]
+    },
+    "accessibility": [
+      "App-only delivery; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "Account/data practices and the app privacy policy not independently reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher claims 'clinically proven'; a clinical trial is referenced in third-party copy but the trial citation was not located this run — the clinical claim is unverified at screening level.",
+    "limitations": "The 'clinically proven' claim could not be verified this run (no trial citation found); treat as publisher marketing until verified. Free-tier scope and pricing not fully verified. Language coverage beyond English not verified. Dedicated product domain equoo.com is dead — the publisher site is the only official presence found.",
+    "reason": "Screened 2026-10-16: psycapps.com fetched live; eQuoo confirmed as the publisher's flagship product with the stated audience and psychologist-engineered framing. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-16",
+    "source_notes": [
+      "https://psycapps.com/"
+    ],
+    "screening_gaps": [
+      "Clinical-trial citation for the 'clinically proven' claim not located",
+      "App privacy policy and data practices not reviewed",
+      "Full pricing/free-tier scope not verified",
+      "Languages beyond English not verified",
+      "Actual app content not inspected (screening is metadata-level)"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
+  },
+  {
+    "id": "gonoodle-kids-mindfulness",
+    "name": "GoNoodle",
+    "publisher": "GoNoodle",
+    "resource_type": "web-platform",
+    "official_url": "https://www.gonoodle.com/",
+    "description": "Free movement and mindfulness video platform for kids: yoga and stretching brain breaks, breathing exercises, dance and movement videos, and themed activities featuring original characters. Classroom-oriented (educators are the primary audience) with a free account for watched history and badges. Homepage confirmed live 2026-10-16; grown-up gate shown on sections aimed at adults.",
+    "tags": [
+      "kids",
+      "mindfulness",
+      "movement",
+      "breathing",
+      "yoga",
+      "families"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "United States"
+    ],
+    "intended_population": [
+      "children",
+      "families"
+    ],
+    "needs": [
+      "calm",
+      "practice"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US-designed classroom content; cultural adaptation status not assessed in this screening.",
+      "source_notes": [
+        "https://www.gonoodle.com/"
+      ]
+    },
+    "accessibility": [
+      "Video-first content; captions, screen-reader, and reduced-motion compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "Children's platform with a free account system; children's privacy practices (COPPA posture) not reviewed in this screening — owner judgment required before any family-facing promotion.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Widely used in classrooms; content effectiveness not independently assessed.",
+    "limitations": "Classroom-first design (teacher/educator orientation) — not a personal coping tool for adults; child-facing, so the grown-up gate and account model matter for any SootheSpot framing. Mobile app presence not verified this run. Language and region coverage beyond US English not verified.",
+    "reason": "Screened 2026-10-16: gonoodle.com fetched live; free status, mindfulness/movement content categories, and account model confirmed from the primary source. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-16",
+    "source_notes": [
+      "https://www.gonoodle.com/"
+    ],
+    "screening_gaps": [
+      "Children's privacy policy (COPPA posture) not reviewed",
+      "Captions/accessibility of video content not assessed",
+      "Mobile app presence not verified",
+      "Languages beyond English not verified",
+      "Availability outside the US not verified"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
+  },
+  {
+    "id": "blahtherapy-vent-chat",
+    "name": "BlahTherapy — Anonymous Vent Chat",
+    "publisher": "BlahTherapy",
+    "resource_type": "peer-support",
+    "official_url": "https://blahtherapy.com/",
+    "description": "Free anonymous one-to-one venting/listening chat with strangers: no signup, random assigned username, with listeners the site describes as usually available (wait times vary). The same site also sells a professional-therapy tier via a BetterHelp referral (video/phone/live chat/messaging, $65–$100/week billed every four weeks). Homepage confirmed live 2026-10-16.",
+    "tags": [
+      "peer-support",
+      "venting",
+      "anonymous",
+      "chat"
+    ],
+    "access": [
+      "free",
+      "paid-optional"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "United States"
+    ],
+    "intended_population": [
+      "adults"
+    ],
+    "needs": [
+      "find-support"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Listener pool is an open internet audience; cultural-context fit not assessed in this screening.",
+      "source_notes": [
+        "https://blahtherapy.com/"
+      ]
+    },
+    "accessibility": [
+      "Text-chat format; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "Marketed as anonymous with no signup, but the actual privacy policy and data-retention practices were not reviewed in this screening — do not treat anonymity claims as verified.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Service existence and free-anonymous-chat mechanics confirmed from the homepage; peer support quality is unvetted.",
+    "limitations": "Listeners are untrained strangers; no quality or moderation assurance — must never be framed as crisis support or professional help. Anonymity claims unverified (privacy policy not read). The professional tier is a BetterHelp affiliate referral, not a SootheSpot-vetted clinical pathway; any financial relationship between BlahTherapy and BetterHelp was not assessed. No visible crisis routing on the reviewed page.",
+    "reason": "Screened 2026-10-16: blahtherapy.com fetched live; free anonymous vent-chat mechanics and the separate paid BetterHelp tier confirmed from the primary source. Ready for owner review before any promotion.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-10-16",
+    "source_notes": [
+      "https://blahtherapy.com/"
+    ],
+    "screening_gaps": [
+      "Privacy policy and data practices not reviewed",
+      "Listener moderation/safety policy not reviewed",
+      "Financial relationship with BetterHelp not assessed",
+      "Crisis-routing behavior not assessed",
+      "Availability outside the US not verified"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ]
   }
 ]
