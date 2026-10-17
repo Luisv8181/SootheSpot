@@ -11174,5 +11174,262 @@
       "independent-use",
       "with-support"
     ]
+  },
+  {
+    "id": "adaa-anxiety-depression-association",
+    "name": "Anxiety and Depression Association of America (ADAA)",
+    "publisher": "Anxiety and Depression Association of America (ADAA)",
+    "resource_type": "information-hub",
+    "official_url": "https://adaa.org/",
+    "description": "US nonprofit (describes itself as serving the field since 1979) offering free public resources on anxiety, depression, OCD, PTSD and related disorders: explainers on symptoms and treatments, tips for managing anxiety and depression, expert webinars, blogs and podcasts, and personal stories from people with lived experience. Also hosts a Find Your Therapist directory of licensed professionals specializing in anxiety, depression, OCD and PTSD.",
+    "intended_population": [
+      "general",
+      "adults"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "General-audience US nonprofit framing; non-US applicability of therapist directory not verified in this screening.",
+      "source_notes": [
+        "https://adaa.org/"
+      ]
+    },
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of webinars and videos (captions, transcripts) not verified in this screening."
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "needs": [
+      "learn",
+      "understand",
+      "find-support"
+    ],
+    "tags": [
+      "anxiety",
+      "depression",
+      "ocd",
+      "ptsd",
+      "education",
+      "articles",
+      "webinars",
+      "podcasts",
+      "personal-stories",
+      "therapist-directory",
+      "nonprofit",
+      "free",
+      "web",
+      "independent-use",
+      "us"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "evidence_notes": "Describes its content as science-backed and expert-curated; specific claims were not independently evaluated in this screening.",
+    "limitations": "Educational/self-help information; not a substitute for professional care. The Find Your Therapist directory is US-licensed professionals; directory vetting criteria were not reviewed in this screening.",
+    "privacy_notes": "Privacy practices were not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "last_verified_at": "2026-10-17",
+    "review_status": "screened",
+    "status": "screened",
+    "shelf": "read",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "source_notes": [
+      "https://adaa.org/"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "directory vetting criteria not reviewed",
+      "specific evidence claims not evaluated",
+      "accessibility features not verified"
+    ],
+    "reason": "Screened 2026-10-17: official site confirmed live (free public resources on anxiety/depression/OCD/PTSD — explainers, webinars, blogs, podcasts, personal stories, therapist directory; professional membership/CE track also offered). Ready for owner review before any promotion."
+  },
+  {
+    "id": "child-mind-institute",
+    "name": "Child Mind Institute",
+    "publisher": "Child Mind Institute, Inc. (501(c)(3) nonprofit)",
+    "resource_type": "information-hub",
+    "official_url": "https://childmind.org/",
+    "description": "Independent nonprofit for children's mental health, working across science, education and care. Its free Family Resource Center offers topics and articles on child and adolescent mental health and learning disorders, a symptom checker, videos, and screening questionnaires (ADHD, autism, depression, OCD), plus toolkits and training for educators. States it is the leading independent nonprofit in children's mental health with a growing global presence and does not accept pharmaceutical funding. Clinical centers in New York City, San Francisco and San Mateo offer fee-for-service care with financial aid available.",
+    "intended_population": [
+      "parents",
+      "caregivers",
+      "educators",
+      "adolescents"
+    ],
+    "languages": [
+      "English",
+      "Spanish (Spanish-language pages and social channels offered, per the footer)"
+    ],
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "Spanish-language content and channels offered (childmindinstituteespanol); global programs described as reaching children and families across five continents. Cultural adaptation beyond translation not assessed.",
+      "source_notes": [
+        "https://childmind.org/"
+      ]
+    },
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of symptom checker and videos (captions, transcripts, screen-reader compatibility) not verified in this screening."
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "needs": [
+      "learn",
+      "understand",
+      "find-support"
+    ],
+    "tags": [
+      "children",
+      "adolescents",
+      "parenting",
+      "caregivers",
+      "educators",
+      "adhd",
+      "autism",
+      "depression",
+      "ocd",
+      "symptom-checker",
+      "articles",
+      "videos",
+      "screening-tools",
+      "spanish",
+      "nonprofit",
+      "free",
+      "web",
+      "independent-use",
+      "global"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "evidence_notes": "Describes its care as evidence-based and funds neuroscience/open-science research; the content's clinical claims were not independently evaluated in this screening.",
+    "limitations": "Educational/self-help resources; not a substitute for professional evaluation and care. The symptom checker is a screening aid, not a diagnosis. In-person clinical care is limited to US locations and is fee-for-service (financial aid noted).",
+    "privacy_notes": "Privacy practices for the symptom checker and questionnaires were not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "last_verified_at": "2026-10-17",
+    "review_status": "screened",
+    "status": "screened",
+    "shelf": "read",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "source_notes": [
+      "https://childmind.org/"
+    ],
+    "screening_gaps": [
+      "privacy practices for questionnaires not reviewed",
+      "symptom-checker validation not assessed",
+      "accessibility features not verified",
+      "in-person care costs and coverage not reviewed"
+    ],
+    "reason": "Screened 2026-10-17: official site confirmed live (free Family Resource Center: articles, symptom checker, videos, ADHD/autism/depression/OCD screening questionnaires, educator toolkits; Spanish-language resources; clinical centers in NYC/SF/San Mateo, fee-for-service with financial aid). Ready for owner review before any promotion."
+  },
+  {
+    "id": "smart-recovery",
+    "name": "SMART Recovery",
+    "publisher": "SMART Recovery (nonprofit)",
+    "resource_type": "peer-support",
+    "official_url": "https://www.smartrecovery.org/",
+    "description": "Free, evidence-informed recovery support for addictive behaviors, open to people at any stage of change. Peer support groups meet in person and online, led by trained facilitators, using inclusive, secular language with no long-term commitment required. Separate Family & Friends groups support loved ones. Handbooks are encouraged but not required, and SMART can be used alone or alongside other approaches.",
+    "intended_population": [
+      "adults",
+      "families of people in recovery"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Secular, inclusive-language framing may suit people avoiding faith-based programs; meeting availability outside the US not verified in this screening.",
+      "source_notes": [
+        "https://www.smartrecovery.org/"
+      ]
+    },
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of online meetings not verified in this screening."
+    ],
+    "platforms": [
+      "Web",
+      "In-person"
+    ],
+    "needs": [
+      "connect",
+      "cope",
+      "find-support"
+    ],
+    "tags": [
+      "addiction",
+      "substance-use",
+      "recovery",
+      "peer-support",
+      "meetings",
+      "online",
+      "in-person",
+      "secular",
+      "family-support",
+      "nonprofit",
+      "free",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "evidence_notes": "Describes its approach as evidence-informed; program-level outcome evidence was not verified in this screening.",
+    "limitations": "Peer support, not professional treatment; does not replace clinical care for substance use disorders. Meeting availability by location not verified in this screening.",
+    "privacy_notes": "Privacy practices for online meetings were not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "last_verified_at": "2026-10-17",
+    "review_status": "screened",
+    "status": "screened",
+    "shelf": "reach-out",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "source_notes": [
+      "https://www.smartrecovery.org/"
+    ],
+    "screening_gaps": [
+      "privacy practices for online meetings not reviewed",
+      "program outcome evidence not verified",
+      "meeting availability by location not verified",
+      "accessibility of online meetings not verified"
+    ],
+    "reason": "Screened 2026-10-17: official site confirmed live (free secular peer support groups for addictive behaviors, in-person and online with trained facilitators; Family & Friends groups; usable alone or with other approaches). Ready for owner review before any promotion."
   }
 ]
