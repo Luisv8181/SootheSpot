@@ -10921,5 +10921,258 @@
       "independent-use",
       "with-support"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility features not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "general",
+      "notes": "UK-commissioned service; Soluna was co-designed with young people (per publisher).",
+      "source_notes": [
+        "https://kooth.com/"
+      ]
+    },
+    "description": "Kooth's new free mental-wellbeing platform for young people, co-designed with young people: one-to-one practitioner support via chat, moderated community forums, self-care activities, thought journaling, and professional/user-written content. Available as a mobile app or in any web browser (web app for under-13s); existing Kooth accounts link across with support history and safety plan carried over. Kooth/Soluna is commissioned across much of the UK with no referral, thresholds, or waiting lists.",
+    "evidence_notes": "BACP-accredited counsellors per secondary sources; outcome evidence was not verified in this screening.",
+    "id": "soluna-by-kooth",
+    "intended_population": [
+      "adolescents",
+      "young adults"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-10-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Availability depends on commissioned area (UK-focused). Live practitioner chat has set hours (per secondary sources); not a crisis service. Data practices not reviewed.",
+    "name": "Soluna by Kooth",
+    "needs": [
+      "support",
+      "cope",
+      "understand"
+    ],
+    "official_url": "https://kooth.com/",
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "privacy_notes": "Publisher states the service is confidential and information is kept private and secure in line with UK law; the privacy policy itself was not reviewed in this screening.",
+    "publisher": "Kooth Digital Health (UK; per official site — 'built by the same people who brought you Kooth')",
+    "reason": "Screened 2026-10-16: official kooth.com confirmed live, now presenting Soluna by Kooth as the new platform (free, co-designed with young people, chat with practitioners, moderated forums, self-care activities, journaling; existing Kooth accounts migrate). Ready for owner review before any promotion.",
+    "regions": [
+      "UK-focused; commissioned across much of the UK (per secondary sources)"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "web-platform",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy and data practices not reviewed",
+      "eligible age ranges vary by commissioned area and were not stated on the reviewed page",
+      "outcome evidence not verified",
+      "long-term maintenance status not assessed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://kooth.com/"
+    ],
+    "status": "screened",
+    "tags": [
+      "counselling",
+      "youth",
+      "peer-support",
+      "self-care",
+      "journaling",
+      "free",
+      "anonymous",
+      "uk",
+      "independent-use",
+      "with-support",
+      "web",
+      "ios",
+      "android"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility features not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "general",
+      "notes": "General-audience framing; developed by university psychologists (per publisher).",
+      "source_notes": [
+        "https://news.liverpool.ac.uk/2015/04/16/psychologists-develop-app-to-help-people-maintain-their-mental-health/"
+      ]
+    },
+    "description": "CBT-based mood diary app developed by psychologists at the Universities of Liverpool and Manchester: users record their feelings, what prompted them, and what they were thinking, then are prompted to re-evaluate — for example, how they would advise a friend, or how they might view the situation in a week's time — to build a more balanced perspective. Modelled on one-to-one therapy sessions ('Catch it, Check it, Change it').",
+    "evidence_notes": "A University of Liverpool usage study (published in BJPsych Open, per secondary coverage) reported user responses largely consistent with CBT principles and reduced negative-mood intensity after the app's intervention; not verified against the primary paper in this screening.",
+    "id": "catch-it-liverpool",
+    "intended_population": [
+      "young adults",
+      "adults"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-10-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "App dates to 2015; current store availability and maintenance status not confirmed in this screening. Not a substitute for professional care. Data practices not reviewed.",
+    "name": "Catch It (University of Liverpool)",
+    "needs": [
+      "understand",
+      "cope",
+      "calm",
+      "practice"
+    ],
+    "official_url": "https://news.liverpool.ac.uk/2015/04/16/psychologists-develop-app-to-help-people-maintain-their-mental-health/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Privacy policy and data practices were not reviewed in this screening.",
+    "publisher": "University of Liverpool, Institute of Psychology, Health and Society (with the University of Manchester; per official news page)",
+    "reason": "Screened 2026-10-16: official University of Liverpool news page confirmed live (CBT-based mood diary scope, 'Catch it, Check it, Change it' method, developed by Liverpool/Manchester psychologists). Current availability flagged as a gap. Ready for owner review before any promotion.",
+    "regions": [
+      "UK (University of Liverpool)"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy and data practices not reviewed",
+      "current store availability and maintenance status not confirmed (app dates to 2015)",
+      "study not verified against the primary paper"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://news.liverpool.ac.uk/2015/04/16/psychologists-develop-app-to-help-people-maintain-their-mental-health/"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "mood-diary",
+      "thought-challenging",
+      "free",
+      "ios",
+      "android",
+      "university",
+      "research",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "Free core app; optional paid Pro upgrade for custom symptoms and multiple timestamped notes (per the store listing)"
+    ],
+    "accessibility": [
+      "Listing notes a dark color theme and a colorblind-friendly color scheme; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "general",
+      "notes": "General-audience framing; founded by Jon Stavis with a community newsletter (per developer site, secondary source).",
+      "source_notes": [
+        "https://play.google.com/store/apps/details?id=my.tracker&hl=en_IN"
+      ]
+    },
+    "description": "Private, on-device mood-tracking journal for Bipolar I/II, depression, anxiety, and general mood tracking: chart daily highs and lows, sleep, medications, and symptoms; view in-app graphs and printable charts; track medication changes with a doctor; email a monthly PDF report to a clinician or caregiver. No data is stored in the cloud or sent to APIs — nothing leaves the phone without explicit user action. Base features free; optional paid Pro upgrade adds custom symptoms and multiple timestamped notes.",
+    "evidence_notes": "Mood journaling described as part of CBT and other treatments (developer listing); app-level outcome evidence was not verified in this screening.",
+    "id": "emoods-mood-tracker",
+    "intended_population": [
+      "young adults",
+      "adults"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-10-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Charts one set of daily extremes, not multiple moods per day (per listing). Intended for use with a doctor; not a substitute for professional care. Optional paid Pro upgrade exists. Data practices beyond the on-device claim not reviewed.",
+    "name": "eMoods Bipolar Mood Tracker",
+    "needs": [
+      "understand",
+      "practice",
+      "mood"
+    ],
+    "official_url": "https://play.google.com/store/apps/details?id=my.tracker&hl=en_IN",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Developer states no data is stored in the cloud or sent to APIs and nothing leaves the phone without explicit user action; the privacy policy itself was not reviewed in this screening.",
+    "publisher": "Yottaram LLC (per app-store listing; founded by Jon Stavis)",
+    "reason": "Screened 2026-10-16: official developer store listing confirmed live (free core mood tracker for bipolar/depression/anxiety, on-device-only privacy model, medication tracking, monthly clinician PDF reports, 4.3 rating). Ready for owner review before any promotion.",
+    "regions": [
+      "Availability by region not verified in this screening"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed (on-device claim taken from the listing)",
+      "app-level outcome evidence not verified",
+      "long-term maintenance status not assessed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://play.google.com/store/apps/details?id=my.tracker&hl=en_IN"
+    ],
+    "status": "screened",
+    "tags": [
+      "mood-tracking",
+      "bipolar",
+      "journaling",
+      "medication",
+      "clinician-reports",
+      "privacy-first",
+      "free",
+      "ios",
+      "android",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
   }
 ]
