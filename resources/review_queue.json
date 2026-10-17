@@ -11431,5 +11431,260 @@
       "accessibility of online meetings not verified"
     ],
     "reason": "Screened 2026-10-17: official site confirmed live (free secular peer support groups for addictive behaviors, in-person and online with trained facilitators; Family & Friends groups; usable alone or with other approaches). Ready for owner review before any promotion."
+  },
+  {
+    "id": "bounceback-ontario",
+    "name": "BounceBack Ontario",
+    "publisher": "Canadian Mental Health Association (CMHA)",
+    "resource_type": "self-help-program",
+    "official_url": "https://bouncebackontario.ca/",
+    "description": "Free CBT-based mental health program for Ontario residents aged 15 and over: up to six confidential telephone coaching sessions plus workbooks and online videos for anxiety, depression, low mood, stress, and worry. Coaches come from psychology, social work, and lived-experience backgrounds and are trained by clinical psychologists; telephone coaching is available in many languages at intake request. No referral required; the program is funded through the Ontario healthcare system.",
+    "intended_population": [
+      "youth aged 15-17",
+      "adults"
+    ],
+    "languages": [
+      "English (per the reviewed page)",
+      "Telephone coaching in many languages at intake request (per the reviewed page)"
+    ],
+    "cultural_context": {
+      "adaptation_status": "localized",
+      "notes": "Ontario-only program; coaches receive training in cultural and LGBTQ+ competency and trauma-informed care, per the publisher page. Coaching language preference is collected at intake.",
+      "source_notes": [
+        "https://bouncebackontario.ca/"
+      ]
+    },
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of telephone coaching and online videos not verified in this screening."
+    ],
+    "platforms": [
+      "Phone",
+      "Web"
+    ],
+    "needs": [
+      "practice",
+      "cope",
+      "find-support",
+      "stress",
+      "mood",
+      "anxiety"
+    ],
+    "tags": [
+      "anxiety",
+      "depression",
+      "stress",
+      "low-mood",
+      "worry",
+      "cbt",
+      "coaching",
+      "telephone",
+      "free",
+      "ontario",
+      "canada",
+      "cmha",
+      "youth",
+      "adults",
+      "independent-use",
+      "with-support",
+      "nonprofit"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "evidence_notes": "Publisher describes the program as evidence-based CBT coaching; program-level outcome evidence was not verified in this screening.",
+    "limitations": "Ontario residents aged 15+ only; coaching support for manageable distress, not crisis care and not a substitute for clinical treatment. Coach availability and wait times not verified in this screening.",
+    "privacy_notes": "Page states sessions are confidential and personal information is kept private in accordance with healthcare privacy standards; the full privacy policy was not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "last_verified_at": "2026-10-17",
+    "review_status": "screened",
+    "status": "screened",
+    "shelf": "practice",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "source_notes": [
+      "https://bouncebackontario.ca/"
+    ],
+    "screening_gaps": [
+      "program outcome evidence not verified",
+      "coach availability and wait times not verified",
+      "accessibility of telephone coaching and online videos not verified",
+      "full privacy policy not reviewed"
+    ],
+    "reason": "Screened 2026-10-17: official site confirmed live (free CBT-based coaching for Ontario residents 15+, up to six confidential telephone sessions plus workbooks/videos, trained coaches, multilingual at intake, no referral needed). Ready for owner review before any promotion."
+  },
+  {
+    "id": "dbt-self-help",
+    "name": "DBT Self Help",
+    "publisher": "DBT Self Help (community site; founded 2001 by Lisa Dietz)",
+    "resource_type": "self-help-toolkit",
+    "official_url": "https://dbtselfhelp.com/",
+    "description": "Free self-serve DBT skills library covering the four modules — mindfulness, distress tolerance, emotion regulation, and interpersonal effectiveness — with exercises, printable flashcard sets, diary-card instructions, an introductory 'what is DBT' guide, curated resource lists, and a companion podcast. Founded in 2001 by Lisa Dietz; the site has since changed hands.",
+    "intended_population": [
+      "adults",
+      "general"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "General DBT skills content; no community-specific adaptation stated on the reviewed page.",
+      "source_notes": [
+        "https://dbtselfhelp.com/"
+      ]
+    },
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the website and downloadable materials not verified in this screening."
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "needs": [
+      "practice",
+      "cope",
+      "distress",
+      "understand"
+    ],
+    "tags": [
+      "dbt",
+      "dialectical-behavior-therapy",
+      "mindfulness",
+      "distress-tolerance",
+      "emotion-regulation",
+      "interpersonal-effectiveness",
+      "diary-cards",
+      "flashcards",
+      "free",
+      "independent-use",
+      "self-help"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "evidence_notes": "DBT as a treatment has published outcome literature; this site's content quality and fidelity to DBT were not evaluated in this screening.",
+    "limitations": "Self-help skills content, not a substitute for clinical DBT or professional care. The reviewed page carries affiliate advertising (sponsored ad placements), which users should be aware of. Current operator credentials not verified in this screening.",
+    "privacy_notes": "Privacy practices for the site were not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "last_verified_at": "2026-10-17",
+    "review_status": "screened",
+    "status": "screened",
+    "shelf": "practice",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "source_notes": [
+      "https://dbtselfhelp.com/"
+    ],
+    "screening_gaps": [
+      "content fidelity to DBT not evaluated",
+      "current operator credentials not verified",
+      "accessibility of website and downloadable materials not verified",
+      "privacy practices not reviewed"
+    ],
+    "reason": "Screened 2026-10-17: official site confirmed live (free DBT skills library across all four modules: exercises, flashcards, diary cards, intro guide, resource lists, podcast; founded 2001, since changed hands). Ready for owner review before any promotion."
+  },
+  {
+    "id": "ptsd-national-center-va",
+    "name": "PTSD: National Center for PTSD",
+    "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
+    "resource_type": "information-hub",
+    "official_url": "https://www.ptsd.va.gov/",
+    "description": "Free PTSD education hub from the VA's National Center for PTSD: PTSD basics, trauma types, how PTSD is assessed, treatment basics (talk therapy, medications, choosing a treatment), self-help and coping pages, resources for families and friends, provider assessment tools, a PTSD Treatment Decision Aid, mobile apps and videos (including the AboutFace video gallery), and a dedicated Spanish-language section. Site footer dated 'Last updated October 1, 2026'.",
+    "intended_population": [
+      "general",
+      "veterans",
+      "families of people with PTSD"
+    ],
+    "languages": [
+      "English (per the reviewed page)",
+      "Spanish (dedicated En Espanol section, per the reviewed page)"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Content is designed with Veterans in focus (VA publisher); applicability to non-Veteran users not assessed in this screening. Dedicated Spanish-language section available.",
+      "source_notes": [
+        "https://www.ptsd.va.gov/"
+      ]
+    },
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of pages, videos, and the decision aid not verified in this screening."
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "needs": [
+      "understand",
+      "learn",
+      "cope",
+      "find-support"
+    ],
+    "tags": [
+      "ptsd",
+      "trauma",
+      "psychoeducation",
+      "treatment-information",
+      "self-help",
+      "decision-aid",
+      "videos",
+      "spanish",
+      "veterans",
+      "families",
+      "free",
+      "government",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "evidence_notes": "Publisher is a federal research and education center (VA National Center for PTSD); page-level evidence claims were not evaluated in this screening.",
+    "limitations": "Informational and educational; does not replace clinical assessment or treatment. Some linked services (e.g., provider finders) are Veteran/VA-oriented.",
+    "privacy_notes": "Privacy practices for the site were not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "last_verified_at": "2026-10-17",
+    "review_status": "screened",
+    "status": "screened",
+    "shelf": "learn",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "source_notes": [
+      "https://www.ptsd.va.gov/"
+    ],
+    "screening_gaps": [
+      "page-level evidence claims not evaluated",
+      "accessibility of pages, videos, and decision aid not verified",
+      "privacy practices not reviewed",
+      "non-Veteran applicability not assessed"
+    ],
+    "reason": "Screened 2026-10-17: official site confirmed live (VA National Center for PTSD education hub: basics, assessment, treatment options, self-help and coping, family resources, treatment decision aid, apps/videos, Spanish section). Ready for owner review before any promotion."
   }
 ]
