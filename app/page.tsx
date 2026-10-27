@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import { CheckIn } from "@/components/CheckIn";
 import { stateCopy, uiCopy, type Language } from "@/domain/i18n/copy";
 import { localizeTool } from "@/domain/i18n/tools";
