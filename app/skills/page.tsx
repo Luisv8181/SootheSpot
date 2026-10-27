@@ -1,3 +1,4 @@
+import "./skills.css";
 "use client";
 
 import Link from "next/link";
