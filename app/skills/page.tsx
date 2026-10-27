@@ -1,5 +1,6 @@
-import "./skills.css";
 "use client";
+
+import "./skills.css";
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
