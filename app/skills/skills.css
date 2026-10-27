@@ -1,2 +1,1 @@
-@import url('');
-/* Skill tree styling is defined in the global application stylesheet to support static export. */
+/* Styles for this route live in app/globals.css to match the existing app styling architecture. */
