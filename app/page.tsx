@@ -115,7 +115,6 @@ export default function Home() {
   async function clearDemoData() {
     if (!window.confirm(language === "en" ? "Delete all SootheSpot data in this browser, including tools, feedback, and hidden recommendations? Export first if you want a copy. This cannot be undone." : "¿Borrar todos los datos de SootheSpot en este navegador, incluidas herramientas, comentarios y recomendaciones ocultas? Exporta antes si quieres una copia. No se puede deshacer.")) return;
     if (!await update(emptyData, true)) return;
-    try { window.localStorage.setItem("soothespot.skill-tree.v1", JSON.stringify({ practiced: [], helpful: {}, saved: [] })); } catch { /* The core data clear still completed. */ }
     setState(null);
     setMomentContext(undefined);
     setActiveTool(null);
