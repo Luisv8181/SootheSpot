@@ -297,6 +297,7 @@ export default function Home() {
                 <span>{t.experiences}</span>
                 <small>{worlds.length} {language === "en" ? "interactive worlds" : "mundos interactivos"}</small>
               </button>
+              <Link className="quick-card skill-tree-quick-card" href="/skills/"><span>{language === "en" ? "Skill Tree" : "Árbol de habilidades"}</span><small>{language === "en" ? "Build real-life coping skills" : "Desarrolla habilidades para la vida"}</small></Link>
             </section>
           </>
         )}
