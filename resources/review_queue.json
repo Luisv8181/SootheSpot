@@ -11854,5 +11854,246 @@
       "privacy practices not reviewed"
     ],
     "reason": "Screened 2026-11-01: official site confirmed live (UK bipolar charity: peer support line, online community, group finder, eight-week self-management courses; explicitly not a crisis service). Ready for owner review before any promotion."
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the phone service, webchat, My Circle, and Qwibbl app not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Australian service for young people across Australia; community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "http://www.kidshelpline.com.au",
+        "http://www.kidshelpline.com.au/help-us-reach-them/"
+      ]
+    },
+    "description": "Australia's free phone and web counselling service for children and young people aged 5 to 25, available 24/7 for any reason: friendships, family, school, relationships, identity, stress, and things that are hard to put into words. Contact by phone on 1800 55 1800 or by real-time webchat. Counsellors are tertiary-qualified mental health professionals. The site also offers a counsellor-supported peer space (My Circle), self-help information, and a free wellbeing app (Qwibbl).",
+    "evidence_notes": "Publisher is an Australian youth service powered by yourtown, reporting more than 9 million calls over 35 years; counselling quality and outcomes were not evaluated in this screening.",
+    "id": "kids-helpline-australia",
+    "intended_population": [
+      "young people"
+    ],
+    "languages": [
+      "English (per the reviewed pages)"
+    ],
+    "last_verified_at": "2026-11-01",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Counselling and support service, not a substitute for treatment of complex mental illness or addiction; wait times can occur at busy times. Not a crisis service for life-threatening emergencies; the reviewed pages direct emergencies to 000 (Australia). Does not replace professional care.",
+    "name": "Kids Helpline (Australia)",
+    "needs": [
+      "support",
+      "understand",
+      "safety"
+    ],
+    "official_url": "https://www.kidshelpline.com.au",
+    "platforms": [
+      "Web",
+      "Phone"
+    ],
+    "privacy_notes": "The site states it is committed to a digital space accessible to the widest possible audience and links a privacy policy; the full privacy policy and confidentiality limits were not reviewed in this screening.",
+    "publisher": "Kids Helpline, powered by yourtown",
+    "reason": "Screened 2026-11-01: official site confirmed live (Australia's free 24/7 phone and web counselling for ages 5-25, 1800 55 1800, tertiary-qualified counsellors, My Circle peer space, Qwibbl app). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "full privacy policy and confidentiality limits not reviewed",
+      "accessibility of phone, webchat, My Circle, and Qwibbl not verified",
+      "webchat wait times and session limits not verified",
+      "counselling quality and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "http://www.kidshelpline.com.au",
+      "http://www.kidshelpline.com.au/help-us-reach-them/"
+    ],
+    "status": "screened",
+    "tags": [
+      "youth",
+      "children",
+      "teens",
+      "counselling",
+      "helpline",
+      "webchat",
+      "peer-support",
+      "australia",
+      "charity",
+      "free",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the phone, text, chat, toolkit, app, and forums not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Australian national service with a 43-centre member network; community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://www.lifeline.org.au/about-us/who-we-are"
+      ]
+    },
+    "description": "Australian national charity providing free 24-hour crisis support, suicide prevention, mental health, and domestic and family violence prevention services. Crisis support is available 24/7 by phone on 13 11 14, by text on 0477 13 11 14, and by online chat, from trained crisis supporters who listen without judgement. The charity also runs counselling services (including MensLine Australia, Suicide Call Back Service, and SuicideLine Victoria), community centres, training, a Support Toolkit, the Beyond Now safety-planning app, and peer forums.",
+    "evidence_notes": "Publisher is Australia's national crisis-support charity, reporting over one million contacts a year and more than 60 years of operation; supporter training and service outcomes were not evaluated in this screening.",
+    "id": "lifeline-australia",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English (per the reviewed page)",
+      "Interpreter access via the Translating and Interpreting Service, per a related official page"
+    ],
+    "last_verified_at": "2026-11-01",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Short-term crisis support, not ongoing treatment. Life-threatening emergencies should go to Triple Zero (000) in Australia, per the reviewed page. Counselling services, centre services, and forum moderation were not individually verified in this screening.",
+    "name": "Lifeline Australia",
+    "needs": [
+      "safety",
+      "support"
+    ],
+    "official_url": "https://www.lifeline.org.au/about-us/who-we-are",
+    "platforms": [
+      "Web",
+      "Phone"
+    ],
+    "privacy_notes": "The reviewed page describes crisis support as confidential and one-to-one; the full privacy policy and confidentiality limits were not reviewed in this screening.",
+    "publisher": "Lifeline Australia",
+    "reason": "Screened 2026-11-01: official site confirmed live (Australian national charity: free 24/7 crisis support by phone 13 11 14, text 0477 13 11 14, and chat, plus counselling, toolkit, Beyond Now app, and forums). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "full privacy policy and confidentiality limits not reviewed",
+      "accessibility of phone, text, chat, toolkit, app, and forums not verified",
+      "individual counselling and centre services not verified",
+      "crisis-supporter training and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://www.lifeline.org.au/about-us/who-we-are"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "suicide-prevention",
+      "helpline",
+      "text",
+      "chat",
+      "australia",
+      "charity",
+      "free",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the website, FIND HELP tool, and podcast not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US-based nonprofit with a global audience (messages from over 100 countries, per the reviewed page); community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://twloha.com/learn/"
+      ]
+    },
+    "description": "US nonprofit movement presenting hope and help for people struggling with depression, addiction, self-injury, and suicide. It shares stories, blog posts, and a podcast, runs a FIND HELP tool for finding counselling and crisis resources, and invests in treatment and recovery, reporting more than $3 million donated to treatment and recovery across 105 organisations and practices. The organisation also points people to Crisis Text Line by texting TWLOHA to 741741.",
+    "evidence_notes": "Publisher is a US nonprofit founded in 2006 (official nonprofit status in 2007, per the reviewed page); the FIND HELP tool's listings, treatment funding recipients, and outcomes were not evaluated in this screening.",
+    "id": "twloha-find-help",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-01",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A hope-and-help movement and referral starting point, not a treatment provider and not a crisis service; people in immediate danger should use local emergency or crisis services. FIND HELP listings, scholarship/grant criteria, and podcast content were not individually verified in this screening.",
+    "name": "To Write Love on Her Arms (TWLOHA)",
+    "needs": [
+      "support",
+      "understand",
+      "find-support"
+    ],
+    "official_url": "https://twloha.com/learn/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Privacy practices for the FIND HELP tool and message responses were not reviewed in this screening.",
+    "publisher": "To Write Love on Her Arms",
+    "reason": "Screened 2026-11-01: official site confirmed live (nonprofit for depression, addiction, self-injury, and suicide: stories, podcast, FIND HELP tool, $3M+ donated to treatment and recovery). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "service-directory",
+    "review_status": "screened",
+    "screening_gaps": [
+      "FIND HELP tool listings and coverage not individually verified",
+      "treatment-funding criteria and recipients not verified",
+      "accessibility of site, tool, and podcast not verified",
+      "privacy practices not reviewed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://twloha.com/learn/"
+    ],
+    "status": "screened",
+    "tags": [
+      "depression",
+      "addiction",
+      "self-injury",
+      "suicide-prevention",
+      "stories",
+      "find-help",
+      "treatment",
+      "nonprofit",
+      "free",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
   }
 ]
