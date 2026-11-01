@@ -11606,5 +11606,253 @@
       "non-Veteran applicability not assessed"
     ],
     "reason": "Screened 2026-10-17: official site confirmed live (VA National Center for PTSD education hub: basics, assessment, treatment options, self-help and coping, family resources, treatment decision aid, apps/videos, Spanish section). Ready for owner review before any promotion."
+  },
+  {
+    "id": "rethink-mental-illness",
+    "name": "Rethink Mental Illness",
+    "publisher": "Rethink Mental Illness",
+    "resource_type": "resource-hub",
+    "official_url": "https://www.rethink.org/aboutus/what-we-do/our-services-and-groups/",
+    "description": "UK charity supporting people severely affected by mental illness in England: over 140 local peer support groups run by people with experience of mental illness, over 90 services covering advocacy, carers support, community support, advice and helplines, criminal justice, housing, nursing and residential care, and employment and training, plus advice and information services. The reviewed page states its services aim to keep people safe and well in the community, prevent needs escalating, support independent living, and help people access the support and care they are entitled to and understand their rights.",
+    "intended_population": [
+      "adults",
+      "families and carers"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Services described are in England; applicability outside England, and any community-specific adaptation, not assessed in this screening.",
+      "source_notes": [
+        "https://www.rethink.org/aboutus/what-we-do/our-services-and-groups/"
+      ]
+    },
+    "access": [
+      "Pricing not stated on the reviewed services page"
+    ],
+    "accessibility": [
+      "Accessibility of services, groups, and advice pages not verified in this screening."
+    ],
+    "platforms": [
+      "Web",
+      "In-person"
+    ],
+    "needs": [
+      "support",
+      "understand"
+    ],
+    "tags": [
+      "severe-mental-illness",
+      "peer-support",
+      "support-groups",
+      "advice",
+      "advocacy",
+      "carers",
+      "housing",
+      "employment",
+      "england",
+      "uk",
+      "charity",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "evidence_notes": "Publisher is an established UK mental health charity and service provider; service-level outcome claims on the page (for example, the 98 percent and 97 percent figures quoted there) were not evaluated in this screening.",
+    "limitations": "Services are England-based and some may require referral or meet eligibility criteria; referral routes, costs, and waiting times were not verified in this screening. Informational and support services, not a substitute for clinical care or crisis services.",
+    "privacy_notes": "Privacy practices for the charity's services were not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "last_verified_at": "2026-11-01",
+    "review_status": "screened",
+    "status": "screened",
+    "shelf": "reach-out",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "source_notes": [
+      "https://www.rethink.org/aboutus/what-we-do/our-services-and-groups/"
+    ],
+    "screening_gaps": [
+      "costs, referral routes, and waiting times not verified",
+      "service-level outcome claims not evaluated",
+      "accessibility of services and groups not verified",
+      "privacy practices not reviewed",
+      "applicability outside England not assessed"
+    ],
+    "reason": "Screened 2026-11-01: official site confirmed live (England charity for people severely affected by mental illness: 140+ peer support groups, 90+ services across advocacy, carers, community support, advice, housing, and employment). Ready for owner review before any promotion."
+  },
+  {
+    "id": "beat-eating-disorders-uk",
+    "name": "Beat (UK eating disorders charity)",
+    "publisher": "Beat",
+    "resource_type": "peer-support",
+    "official_url": "https://www.beateatingdisorders.org.uk/get-information-and-support/get-help-for-myself/support-now/",
+    "description": "UK eating disorders charity helpline for anyone affected by an eating disorder, of any age and at any stage: one-to-one webchat, phone, email (separate addresses for England, Scotland, Wales, and Northern Ireland), online support groups, and downloadable resources. Helpline advisors are trained to offer a supportive space, information about eating disorders, signposting, and help exploring options including NHS treatment, private therapy, charity support, peer support, or self-help. Calls are free from UK landlines and mobiles and do not appear on itemised bills; helpline hours on the reviewed page are 3pm-8pm, Monday to Friday, with calls limited to 30 minutes and webchats to 40 minutes. No formal diagnosis is needed to use the helpline.",
+    "intended_population": [
+      "general",
+      "families and carers"
+    ],
+    "languages": [
+      "English (per the reviewed page)",
+      "Interpreter access via Language Line on the phone, and support in Welsh on request (per the reviewed page)"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK-wide service with nation-specific helpline numbers and email addresses; community-specific adaptation not assessed in this screening. Interpreter access is stated on the reviewed page.",
+      "source_notes": [
+        "https://www.beateatingdisorders.org.uk/get-information-and-support/get-help-for-myself/support-now/"
+      ]
+    },
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the helpline, webchat, and online groups not verified in this screening."
+    ],
+    "platforms": [
+      "Web",
+      "Phone"
+    ],
+    "needs": [
+      "support",
+      "understand"
+    ],
+    "tags": [
+      "eating-disorders",
+      "anorexia",
+      "bulimia",
+      "binge-eating",
+      "helpline",
+      "webchat",
+      "peer-support",
+      "support-groups",
+      "carers",
+      "uk",
+      "charity",
+      "free",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "evidence_notes": "Publisher is the UK's eating disorders charity; helpline quality and outcomes were not evaluated in this screening.",
+    "limitations": "Support and information service, explicitly not a crisis service and not medically trained; the reviewed page directs urgent help to 999, Samaritans 116 123, or NHS 111. Helpline hours are limited (3pm-8pm weekdays on the reviewed page) and demand is high, with email replies currently taking up to 5 working days. Does not replace clinical assessment or treatment.",
+    "privacy_notes": "Page states confidentiality is fundamental, with exceptions where a child may be at risk, a contact is at serious risk, or staff are threatened or abused, and that contacts may be monitored for quality; the full privacy policy was not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "last_verified_at": "2026-11-01",
+    "review_status": "screened",
+    "status": "screened",
+    "shelf": "reach-out",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "source_notes": [
+      "https://www.beateatingdisorders.org.uk/get-information-and-support/get-help-for-myself/support-now/"
+    ],
+    "screening_gaps": [
+      "helpline quality and outcomes not evaluated",
+      "online support group details not verified",
+      "accessibility of helpline, webchat, and groups not verified",
+      "full privacy policy not reviewed"
+    ],
+    "reason": "Screened 2026-11-01: official site confirmed live (UK eating disorders helpline: free UK calls, webchat, email, online groups, no diagnosis needed; explicitly not a crisis service). Ready for owner review before any promotion."
+  },
+  {
+    "id": "bipolar-uk",
+    "name": "Bipolar UK",
+    "publisher": "Bipolar UK",
+    "resource_type": "peer-support",
+    "official_url": "https://www.bipolaruk.org/get-support/?Title=get-support",
+    "description": "UK charity for people affected by bipolar disorder: a Peer Support Line for one-to-one advice, information, and conversations; an online Community for peer connection; a Peer Support Group Finder for in-person or online meetings; and eight-week online self-management courses covering understanding the condition and tools and coping strategies to stay well. The reviewed page states plainly that Bipolar UK does not provide urgent or crisis services, and directs immediate risk to emergency services 999 (UK), Samaritans 116 123, or NHS 111.",
+    "intended_population": [
+      "general",
+      "families and carers"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK charity; community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://www.bipolaruk.org/get-support/?Title=get-support"
+      ]
+    },
+    "access": [
+      "Pricing not stated on the reviewed support page"
+    ],
+    "accessibility": [
+      "Accessibility of the peer support line, online community, groups, and courses not verified in this screening."
+    ],
+    "platforms": [
+      "Web",
+      "Phone",
+      "In-person"
+    ],
+    "needs": [
+      "support",
+      "mood",
+      "understand"
+    ],
+    "tags": [
+      "bipolar",
+      "peer-support",
+      "support-groups",
+      "online-community",
+      "self-management",
+      "courses",
+      "uk",
+      "charity",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "evidence_notes": "Publisher is a national UK charity focused on bipolar disorder; peer-support quality and course outcomes were not evaluated in this screening.",
+    "limitations": "Peer support and self-management education, not urgent or crisis care and not a substitute for clinical treatment. Group availability, course costs and schedules, and peer support line hours were not verified in this screening.",
+    "privacy_notes": "Privacy practices for the community, groups, and courses were not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "last_verified_at": "2026-11-01",
+    "review_status": "screened",
+    "status": "screened",
+    "shelf": "reach-out",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "source_notes": [
+      "https://www.bipolaruk.org/get-support/?Title=get-support"
+    ],
+    "screening_gaps": [
+      "peer-support quality and course outcomes not evaluated",
+      "group availability, course costs and schedules, and line hours not verified",
+      "accessibility of line, community, groups, and courses not verified",
+      "privacy practices not reviewed"
+    ],
+    "reason": "Screened 2026-11-01: official site confirmed live (UK bipolar charity: peer support line, online community, group finder, eight-week self-management courses; explicitly not a crisis service). Ready for owner review before any promotion."
   }
 ]
