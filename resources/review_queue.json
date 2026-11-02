@@ -13290,5 +13290,235 @@
       "independent-use",
       "with-support"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the phone, chat, WhatsApp, and email services not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Austrian national service, present in every federal state; reviewed official homepage is in German. Community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://telefonseelsorge.at/"
+      ]
+    },
+    "description": "Telefonseelsorge Österreich (Notruf 142) is Austria's national telephone counselling service, available around the clock every day, free of charge and confidential, for people in moments of crisis or loneliness or who simply need someone to talk to. Counselling is person-to-person, explicitly without AI. It also offers an anonymous instant chat daily from 16:00 to 23:00, WhatsApp replies daily from 17:30 to 19:30, and email counselling answered within 48 hours. Calls do not appear on the caller's phone bill, and staff are bound by confidentiality, with encrypted chat counselling.",
+    "evidence_notes": "Publisher is Telefonseelsorge Österreich, per its own homepage. Service quality and outcomes were not evaluated in this screening.",
+    "id": "telefonseelsorge-austria-142",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "German (per the reviewed official homepage)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A listening and crisis-counselling service, not a substitute for emergency services (112 in Austria) or ongoing treatment. The homepage does not state the staffing model (volunteer vs professional) or whether support is available in languages other than German, so neither was recorded as verified. Not a substitute for emergency services or ongoing treatment.",
+    "name": "Telefonseelsorge Österreich (Austria, 142)",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://telefonseelsorge.at/",
+    "platforms": [
+      "Phone",
+      "Chat/Online",
+      "Email"
+    ],
+    "privacy_notes": "The reviewed official homepage describes the service as confidential, with staff bound by confidentiality and encrypted chat counselling. The full privacy policy was not reviewed in this screening.",
+    "publisher": "Telefonseelsorge Österreich",
+    "reason": "Screened 2026-11-02: official homepage confirmed live (Notruf 142 around the clock every day, free and confidential; chat 16:00-23:00, WhatsApp 17:30-19:30, email within 48 hours; nationwide in every federal state). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "staffing model not stated on the reviewed homepage",
+      "availability in languages other than German not verified",
+      "accessibility of the phone, chat, WhatsApp, and email services not verified",
+      "service quality and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://telefonseelsorge.at/"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "suicide-prevention",
+      "helpline",
+      "austria",
+      "free",
+      "confidential",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the phone, chat, and email services not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Flemish (Dutch-speaking Belgium) service; reviewed official homepage is in Dutch. Community-specific adaptation not assessed in this screening. Belgium's French- and German-speaking communities have separate lines, which are not covered by this entry.",
+      "source_notes": [
+        "https://zelfmoord1813.be/"
+      ]
+    },
+    "description": "Zelfmoordlijn 1813 is the free and anonymous suicide-prevention helpline for Dutch-speaking Belgium: someone is ready to listen at 1813, reachable 24 hours a day, 7 days a week. It also offers chat every day from 17:00 to 00:00 (from 12:00 on Wednesdays) and email answered within 5 working days. The service is for people for whom suicide sometimes seems the only solution, for people worried about someone close to them, and for bereaved relatives.",
+    "evidence_notes": "Publisher is Zelfmoordlijn 1813, per its own homepage; the site is managed by the Flemish Centre of Expertise in Suicide Prevention (VLESP) per secondary sources, not stated on the homepage fetched this run. Service quality and outcomes were not evaluated in this screening.",
+    "id": "zelfmoordlijn-1813-belgium",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "Dutch (per the reviewed official homepage; the line serves Dutch-speaking Belgium)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A suicide-prevention helpline, not a substitute for emergency services (112 in Belgium) or ongoing treatment. The operating-centre attribution (VLESP/CPZ) rests on secondary sources and was not confirmed on the homepage fetched this run. Chat hours on the homepage (daily 17:00-00:00, Wednesdays from 12:00) differ from some older listings (18:30-22:00); the homepage hours are recorded here. Not a substitute for emergency services or ongoing treatment.",
+    "name": "Zelfmoordlijn 1813 (Belgium, Dutch-speaking, 1813)",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://zelfmoord1813.be/",
+    "platforms": [
+      "Phone",
+      "Chat/Online",
+      "Email"
+    ],
+    "privacy_notes": "The reviewed official homepage describes every conversation as anonymous and free. The full privacy policy was not reviewed in this screening.",
+    "publisher": "Zelfmoordlijn 1813",
+    "reason": "Screened 2026-11-02: official homepage confirmed live (phone 1813 reachable 24/7, anonymous and free; chat daily 17:00-00:00, Wednesdays from 12:00; email answered within 5 working days). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "operating-centre attribution not confirmed on the homepage fetched this run",
+      "accessibility of the phone, chat, and email services not verified",
+      "service quality and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://zelfmoord1813.be/"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "suicide-prevention",
+      "helpline",
+      "belgium",
+      "flanders",
+      "dutch",
+      "free",
+      "anonymous",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the phone and chat services not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Danish national service; reviewed official homepage is in Danish. Community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://www.livslinien.dk"
+      ]
+    },
+    "description": "Livslinien is Denmark's helpline for people in crisis or with thoughts of suicide, and for relatives and people bereaved by suicide. Its telephone counselling is reachable at 70 201 201 every day of the year from 09:00 to 05:00, and its chat counselling runs Monday to Friday from 17:00 to 21:00 and Saturday and Sunday from 13:00 to 17:00. Contact with Livslinien's counselling is always anonymous. The page notes that in busy periods it can be hard to get through, and that anyone acutely at risk of suicide should contact 112.",
+    "evidence_notes": "Publisher is Livslinien, per its own homepage. Service quality and outcomes were not evaluated in this screening.",
+    "id": "livslinien-denmark-70-201-201",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "Danish (per the reviewed official homepage)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A crisis and suicide-prevention helpline, not a substitute for emergency services (112 in Denmark) or ongoing treatment. Phone hours on the current homepage (09:00-05:00) differ from some older listings (11:00-05:00); the homepage hours are recorded here. Whether support is available in languages other than Danish was not verified, and the homepage itself warns that getting through can be difficult in busy periods. Not a substitute for emergency services or ongoing treatment.",
+    "name": "Livslinien (Denmark, 70 201 201)",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://www.livslinien.dk",
+    "platforms": [
+      "Phone",
+      "Chat/Online"
+    ],
+    "privacy_notes": "The reviewed official homepage states contact with Livslinien's counselling is always anonymous, and links its privacy policies. The full privacy policy was not reviewed in this screening.",
+    "publisher": "Livslinien",
+    "reason": "Screened 2026-11-02: official homepage confirmed live (phone 70 201 201 every day of the year 09:00-05:00; chat Mon-Fri 17:00-21:00, Sat-Sun 13:00-17:00; always anonymous; also for relatives and bereaved). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "availability in languages other than Danish not verified",
+      "accessibility of the phone and chat services not verified",
+      "service quality and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://www.livslinien.dk"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "suicide-prevention",
+      "helpline",
+      "denmark",
+      "free",
+      "anonymous",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
   }
 ]
