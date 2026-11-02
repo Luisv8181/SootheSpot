@@ -13058,5 +13058,237 @@
       "independent-use",
       "with-support"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the phone service not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Spanish national service run by the Ministerio de Sanidad; reviewed official page is in Spanish and the launch notice in English. Community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://www.sanidad.gob.es/en/linea024/home.htm",
+        "https://www.lamoncloa.gob.es/lang/en/gobierno/news/Paginas/2022/20220510_call-for-life.aspx"
+      ]
+    },
+    "description": "Línea 024 is Spain's national suicide-behaviour support line, promoted by the Ministerio de Sanidad. It is free, confidential, national in scope, and available 24 hours a day, 365 days a year, for people with suicidal thoughts, ideation, or risk of suicidal behaviour and for their family members and loved ones. Support is given mainly through emotional containment via active listening by 024 professionals, with recommendation to contact National Health System services or referral to 112 where an emergency situation is apparent. The line states it does not replace or serve as an alternative to in-person consultation with a health professional when one is needed.",
+    "evidence_notes": "Publisher is the Ministerio de Sanidad (Spanish Ministry of Health), per its own 024 page. Service quality and outcomes were not evaluated in this screening.",
+    "id": "linea-024-spain-suicide-behaviour",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "Spanish (per the reviewed official Ministry page)",
+      "English (launch notice reviewed; whether the line itself answers in English was not verified)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A suicide-behaviour support line, not a substitute for in-person consultation with a health professional or for emergency services (112 in Spain). Whether the line answers in languages other than Spanish, including via the sign-language video-interpretation and telephone-interpretation services described at launch, was not verified on the current official page in this screening. Not a substitute for emergency services or ongoing treatment.",
+    "name": "Línea 024 (Spain, 024)",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://www.sanidad.gob.es/en/linea024/home.htm",
+    "platforms": [
+      "Phone"
+    ],
+    "privacy_notes": "The reviewed official page describes the line as confidential. The full privacy policy was not reviewed in this screening.",
+    "publisher": "Ministerio de Sanidad (Spain)",
+    "reason": "Screened 2026-11-02: official Ministry of Health 024 page confirmed live (free, confidential, national, 24 hours a day, 365 days a year, for people with suicidal thoughts/ideation/risk and their family and loved ones). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "whether the line answers in languages other than Spanish not verified on the current official page",
+      "accessibility of the phone service not verified",
+      "service quality and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://www.sanidad.gob.es/en/linea024/home.htm",
+      "https://www.lamoncloa.gob.es/lang/en/gobierno/news/Paginas/2022/20220510_call-for-life.aspx"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "suicide-prevention",
+      "helpline",
+      "spain",
+      "free",
+      "confidential",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the phone, chat, and email services not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Italian national volunteer listening service, active since 1967; reviewed homepage and press release are in Italian. Community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://telefonoamico.it/",
+        "https://www.telefonoamico.it/z_site2021/wp-content/uploads/CS_2023_TelefonoAmicoItalia_GiornataMondialeSalute.pdf"
+      ]
+    },
+    "description": "Telefono Amico Italia is a national volunteer listening service that has offered anyone in a state of crisis or emotional emergency, at any time and completely free of charge, the chance to find a volunteer open to listening and dialogue, since 1967. Contact is anonymous and confidential, and the service is non-denominational and non-partisan. Its national number is 02 2327 2327; it also offers WhatsApp chat at 324 011 72 52 and an anonymous email form (Mail@mica) on its site. Per its April 2023 official press release, the phone line answers 365 days a year from 10:00 to 24:00 and WhatsApp chat daily from 18:00 to 21:00; the homepage fetched this run does not restate those hours, so they are recorded as 2023-dated, not re-confirmed.",
+    "evidence_notes": "Publisher is Telefono Amico Italia, a volunteer organisation, per its own homepage and press release. Service quality and outcomes were not evaluated in this screening.",
+    "id": "telefono-amico-italia",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "Italian (per the reviewed homepage and press release)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "An emotional-listening service staffed by trained volunteers, not a clinical or emergency service; callers bear only the live cost of the call to a landline number per the 2023 release, so the service is free of charge but not necessarily cost-free to call. Phone and WhatsApp hours rest on the April 2023 official press release and were not restated on the homepage fetched this run, so current hours should be re-confirmed before promotion. Not a substitute for emergency services or ongoing treatment.",
+    "name": "Telefono Amico Italia (Italy, 02 2327 2327)",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://telefonoamico.it/",
+    "platforms": [
+      "Phone",
+      "Chat/Online",
+      "Email"
+    ],
+    "privacy_notes": "The reviewed homepage states the service guarantees openness and confidentiality, safeguarding anonymity. The full privacy policy was not reviewed in this screening.",
+    "publisher": "Telefono Amico Italia",
+    "reason": "Screened 2026-11-02: official homepage confirmed live (free, anonymous, confidential volunteer listening since 1967; national number 02 2327 2327 and WhatsApp contact shown) and official April 2023 press release confirms the three contact routes and their hours. Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "phone and WhatsApp hours rest on an April 2023 press release, not restated on the homepage fetched this run",
+      "accessibility of the phone, chat, and email services not verified",
+      "service quality and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://telefonoamico.it/",
+      "https://www.telefonoamico.it/z_site2021/wp-content/uploads/CS_2023_TelefonoAmicoItalia_GiornataMondialeSalute.pdf"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "emotional-support",
+      "listening-service",
+      "helpline",
+      "italy",
+      "free",
+      "anonymous",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the phone and chat services not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Swedish national service run by the non-profit Mind; reviewed official page is in English. Community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://mind.se/en/are-you-experiencing-suicidal-thoughts/",
+        "https://mind.se/en/organizations-and-emergency-centres-that-can-help/"
+      ]
+    },
+    "description": "Mind's Självmordslinjen (Suicide Hotline) is Sweden's suicide prevention line, run by the non-profit Mind. It is for people experiencing suicidal thoughts and for people worried about someone close to them. Callers dial 90101 to speak to a volunteer, and chat is also available; the line is open 24 hours a day, every day, and calls are anonymous. In an acute emergency the same page directs people to call 112 or visit the nearest psychiatric emergency department.",
+    "evidence_notes": "Publisher is Mind (Sweden), per its own English-language pages. Service quality and outcomes were not evaluated in this screening.",
+    "id": "mind-sjalvmordslinjen-sweden-90101",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "Swedish (line name Självmordslinjen; reviewed page in English)",
+      "English (official English-language page reviewed; whether the line itself answers in English was not verified)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A suicide-prevention helpline staffed by volunteers, not a substitute for emergency services (112 in Sweden) or ongoing treatment. Whether phone and chat support are available in English, beyond the English information page, was not verified in this screening, and chat availability beyond the stated 24/7 claim was not independently confirmed. Not a substitute for emergency services or ongoing treatment.",
+    "name": "Mind Självmordslinjen (Sweden, 90101)",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://mind.se/en/are-you-experiencing-suicidal-thoughts/",
+    "platforms": [
+      "Phone",
+      "Chat/Online"
+    ],
+    "privacy_notes": "The reviewed official page states all calls are anonymous. The full privacy policy was not reviewed in this screening.",
+    "publisher": "Mind (Sweden)",
+    "reason": "Screened 2026-11-02: official Mind page confirmed live (phone 90101 and chat, open 24 hours a day every day, anonymous, for people with suicidal thoughts and those worried about someone close). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "phone/chat availability in English not verified beyond the English information page",
+      "accessibility of the phone and chat services not verified",
+      "service quality and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://mind.se/en/are-you-experiencing-suicidal-thoughts/",
+      "https://mind.se/en/organizations-and-emergency-centres-that-can-help/"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "suicide-prevention",
+      "helpline",
+      "sweden",
+      "free",
+      "anonymous",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
   }
 ]
