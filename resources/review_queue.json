@@ -12344,5 +12344,244 @@
       "independent-use",
       "with-support"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of web chat and phone services not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "New Zealand youth service; whanau and support people explicitly included; community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://youthline.co.nz/web-chat-counselling/"
+      ]
+    },
+    "description": "New Zealand youth counselling service offering web chat with counsellors 24/7, 7 days a week, for any young person in New Zealand or anyone supporting a young person, including parents, grandparents, friends, whanau, teachers, and coaches. Counsellors do not judge, criticise, or tell the young person what to do; chats may take more than one session, and counsellors can help find ongoing services in the young person's area. Free call 0800 376 633; the page also lists phone (09) 376 6645. People in crisis needing emergency assistance are directed to dial 111 in New Zealand (999 or 998 in the Cook Islands).",
+    "evidence_notes": "Publisher is Youthline; the reviewed page states counsellors provide chat services 24/7, 7 days a week. Service quality and outcomes were not evaluated in this screening.",
+    "id": "youthline-new-zealand",
+    "intended_population": [
+      "young people"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A counselling and support service, not presented as an emergency service on the reviewed page; at high-volume times no counsellor may be immediately available, and chat sessions cannot currently be scheduled. Not a substitute for ongoing treatment.",
+    "name": "Youthline (New Zealand)",
+    "needs": [
+      "support",
+      "understand"
+    ],
+    "official_url": "https://youthline.co.nz/web-chat-counselling/",
+    "platforms": [
+      "Web",
+      "Phone"
+    ],
+    "privacy_notes": "The reviewed page states everything said is confidential within Youthline and is not passed to external organisations or family members except in dangerous situations where there is high risk of harm to the young person or someone else, in which case Youthline will attempt to work with the young person first. The full privacy policy and confidentiality limits were not reviewed in this screening.",
+    "publisher": "Youthline",
+    "reason": "Screened 2026-11-02: official site confirmed live (New Zealand youth web-chat counselling 24/7, free call 0800 376 633, support people explicitly included). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "age range not stated on the reviewed page",
+      "text and face-to-face options not confirmed from the reviewed page",
+      "counsellor qualifications not verified",
+      "full privacy policy and confidentiality limits not reviewed",
+      "accessibility of web chat and phone services not verified",
+      "service quality and outcomes not evaluated"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://youthline.co.nz/web-chat-counselling/"
+    ],
+    "status": "screened",
+    "tags": [
+      "youth",
+      "teens",
+      "young-adults",
+      "counselling",
+      "webchat",
+      "new-zealand",
+      "charity",
+      "free",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of phone, SMS, and WhatsApp helplines not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "South African national mental-health organisation; community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://sadag.org/index.php?option=com_content&view=article&id=17&Itemid=122"
+      ]
+    },
+    "description": "South African Depression and Anxiety Group (SADAG) helpline hub listing toll-free helplines for people in South Africa. Its 24-hour toll-free emergency helplines include the Suicide Crisis Helpline on 0800 567 567, the Department of Social Development Substance Abuse Helpline on 0800 12 13 14 (SMS 32312), the Cipla Mental Health Helpline on 0800 456 789 (SMS 31393), the Healthcare Workers Care Network Helpline on 0800 21 21 21 (SMS 43001), and others. Additional 8AM-8PM toll-free helplines cover depression and anxiety, ADHD, and police and trauma support, and WhatsApp numbers are listed for several services. SADAG also states it has over 200 free support groups.",
+    "evidence_notes": "Publisher is the South African Depression and Anxiety Group; the reviewed page is its helpline listing. Service quality, counsellor qualifications, and outcomes were not evaluated in this screening.",
+    "id": "sadag-south-africa",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A helpline and support-group directory, not a treatment service; several listed helplines run 8AM-8PM only, and WhatsApp lines run 8AM-5PM, so not every number is 24-hour. Call costs, language options, and current availability of each line were not verified in this screening. Not a substitute for ongoing treatment.",
+    "name": "SADAG (South Africa)",
+    "needs": [
+      "safety",
+      "support",
+      "find-support"
+    ],
+    "official_url": "https://sadag.org/index.php?option=com_content&view=article&id=17&Itemid=122",
+    "platforms": [
+      "Phone",
+      "Text/SMS"
+    ],
+    "privacy_notes": "The reviewed page does not state a privacy or confidentiality policy for the helplines; confidentiality limits were not reviewed in this screening.",
+    "publisher": "South African Depression and Anxiety Group (SADAG)",
+    "reason": "Screened 2026-11-02: official site confirmed live (South African helpline hub with 24-hour Suicide Crisis Helpline 0800 567 567 plus daytime and WhatsApp lines and 200+ free support groups). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "call costs and language options not verified",
+      "current availability of each listed line not verified",
+      "counsellor qualifications not verified",
+      "privacy and confidentiality policy not reviewed",
+      "accessibility of phone, SMS, and WhatsApp services not verified",
+      "service quality and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://sadag.org/index.php?option=com_content&view=article&id=17&Itemid=122"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "suicide-prevention",
+      "helpline",
+      "depression",
+      "anxiety",
+      "substance-use",
+      "south-africa",
+      "charity",
+      "free",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of phone and text services not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Canadian national service delivered through a network of local, provincial, territorial, and national crisis lines; specialised partners include Hope for Wellness for First Nations, Inuit, and Metis peoples and Kids Help Phone for young people. Community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://988.ca/about-us"
+      ]
+    },
+    "description": "Canada's national suicide crisis helpline: anyone feeling they have lost hope and are struggling to cope, dealing with thoughts of suicide, or worried about someone else can call or text 9-8-8 and reach a trained responder at one of nearly 40 local, provincial and territorial, and national crisis lines who co-deliver the service. Responders listen without judgement, provide support and understanding, and can tell callers about resources that will help. The service is led and coordinated by the Centre for Addiction and Mental Health (CAMH) and funded by the Government of Canada.",
+    "evidence_notes": "Publisher is 9-8-8: Suicide Crisis Helpline, led and coordinated by CAMH and funded by the Government of Canada, per the reviewed page. Service quality and outcomes were not evaluated in this screening.",
+    "id": "988-suicide-crisis-helpline-canada",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A crisis helpline, not a treatment service; it connects callers to responders and resources rather than providing ongoing care. Hours of operation and French-language availability were not stated on the reviewed page. Not a substitute for emergency services or ongoing treatment.",
+    "name": "9-8-8: Suicide Crisis Helpline (Canada)",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://988.ca/about-us",
+    "platforms": [
+      "Phone",
+      "Text/SMS"
+    ],
+    "privacy_notes": "The reviewed page does not state a privacy or confidentiality policy; confidentiality limits were not reviewed in this screening.",
+    "publisher": "9-8-8: Suicide Crisis Helpline (led by CAMH, funded by the Government of Canada)",
+    "reason": "Screened 2026-11-02: official site confirmed live (Canada's national suicide crisis helpline, call or text 9-8-8, nearly 40 partner crisis lines, CAMH-led). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "hours of operation not stated on the reviewed page",
+      "French-language availability not confirmed from the reviewed page",
+      "responder qualifications not verified",
+      "privacy and confidentiality policy not reviewed",
+      "accessibility of phone and text services not verified",
+      "service quality and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://988.ca/about-us"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "suicide-prevention",
+      "helpline",
+      "canada",
+      "free",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
   }
 ]
