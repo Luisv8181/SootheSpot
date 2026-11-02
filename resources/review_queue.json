@@ -12583,5 +12583,245 @@
       "independent-use",
       "with-support"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the phone, chat, and email services not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Indian national service run by the Tata Institute of Social Sciences; counsellors are trained to respond to LGBTQAI+ and other marginalised communities, per the reviewed page. Community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://icallhelpline.org/reyou-chat-line-faqs/",
+        "https://icallhelpline.org/for-students/"
+      ]
+    },
+    "description": "iCall is a free psychosocial counselling service of the Tata Institute of Social Sciences (TISS), established in 2012, offering support by telephone (9152987821) and email (icall@tiss.edu) for stress, difficult emotions, academic concerns, relationship issues, and self-image concerns, including crises such as violence, non-suicidal self-injury, and suicidal ideation. Its ReYou crisis chat-line offers real-time chat with trained mental-health professionals for young people aged 18-24, Monday to Friday, 9 am to 9 pm, free of charge. Chats are confidential, with a trusted adult or emergency services contacted only as a last resort if the counsellor is concerned about the client's safety. iCall does not provide face-to-face counselling.",
+    "evidence_notes": "Publisher is iCall, a field action project of the School of Human Ecology at the Tata Institute of Social Sciences, per the reviewed pages; ReYou counsellors are trained mental-health professionals with a Master's degree in Psychology under continued supervision, per the reviewed FAQ. Service quality and outcomes were not evaluated in this screening.",
+    "id": "icall-tiss-india",
+    "intended_population": [
+      "general",
+      "young people"
+    ],
+    "languages": [
+      "English (chat service, per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A counselling and support service, not a substitute for long-term therapeutic treatment, per the reviewed FAQ. Helpline and email hours were not stated on the reviewed official pages. Not a substitute for emergency services or ongoing treatment.",
+    "name": "iCall Psychosocial Helpline (TISS, India)",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://icallhelpline.org/",
+    "platforms": [
+      "Phone",
+      "Chat/Online",
+      "Email"
+    ],
+    "privacy_notes": "The reviewed FAQ states chat conversations are confidential and secure, records are not shared with third parties, and data collected for research is anonymised and de-identified; personal details requested include age, phone number, gender, and state. The full privacy policy was not reviewed in this screening.",
+    "publisher": "iCall, Tata Institute of Social Sciences (TISS)",
+    "reason": "Screened 2026-11-02: official site confirmed live (free TISS psychosocial helpline 9152987821 and email, plus ReYou youth chat Mon-Fri 9 am-9 pm). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "helpline and email hours of operation not stated on the reviewed official pages",
+      "helpline and email languages not confirmed from the reviewed pages",
+      "full privacy policy not reviewed",
+      "accessibility of phone, chat, and email services not verified",
+      "service quality and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://icallhelpline.org/reyou-chat-line-faqs/",
+      "https://icallhelpline.org/for-students/"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "counselling",
+      "helpline",
+      "india",
+      "free",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the Lifeline phone and chat services not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "English-language service in Japan for people living in Japan, including cultural-adjustment support; community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://telljp.com/counseling-services/"
+      ]
+    },
+    "description": "TELL Lifeline is a free, confidential English-language emotional-support service in Japan for anyone living in Japan, whatever they are going through — callers do not have to be suicidal to reach out. The toll-free number is 0800-300-8355, with service hours split across phone and chat platforms: 9 AM to 11 PM Monday to Thursday, and 9 AM to 2 AM on Fridays, Saturdays, and Sundays; the reviewed page advises checking weekly hours to see whether phone or chat is currently available. TELL also offers separate paid, appointment-only counselling (in person in Tokyo and Okinawa, and by telehealth) in English, Japanese, Chinese, and Cantonese, which is not the free Lifeline service.",
+    "evidence_notes": "Publisher is TELL Japan, per the reviewed official page. Service quality and outcomes were not evaluated in this screening.",
+    "id": "tell-lifeline-japan",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English (Lifeline, per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A listening and emotional-support service, not an emergency service: the reviewed page directs emergencies to the police or local emergency line. Paid TELL counselling is appointment-only with no same-day appointments and is a separate service from the free Lifeline. Whether the older Tokyo number 03-5774-0992 is still current was not confirmed from the reviewed official page. Not a substitute for emergency services or ongoing treatment.",
+    "name": "TELL Lifeline (Japan)",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://telljp.com/counseling-services/",
+    "platforms": [
+      "Phone",
+      "Chat/Online"
+    ],
+    "privacy_notes": "The reviewed page describes Lifeline and counselling services as confidential; confidentiality limits and any privacy policy were not reviewed in this screening.",
+    "publisher": "TELL Japan",
+    "reason": "Screened 2026-11-02: official site confirmed live (free English-language Lifeline, toll-free 0800-300-8355, split phone/chat hours). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "which platform (phone vs chat) is live at a given hour requires checking the weekly hours page, not verified here",
+      "older Tokyo number 03-5774-0992 not confirmed from the reviewed official page",
+      "responder qualifications for the Lifeline specifically not verified",
+      "privacy and confidentiality policy not reviewed",
+      "accessibility of phone and chat services not verified",
+      "service quality and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://telljp.com/counseling-services/"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "suicide-prevention",
+      "helpline",
+      "japan",
+      "english-language",
+      "free",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the phone, chat, email, and in-person services not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Brazilian national service; reviewed pages are in Portuguese. Community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://cvv.org.br/politica-de-privacidade/",
+        "https://cvv.org.br/wp-content/uploads/2026/08/RelatorioCVV_2Tri_2026.pdf"
+      ]
+    },
+    "description": "CVV (Centro de Valorização da Vida) is a Brazilian non-profit providing free, anonymous emotional support and suicide prevention through trained volunteers. Its national telephone line is 188, available 24 hours with no call charge under a technical cooperation agreement with the Ministry of Health, alongside email and chat via cvv.org.br and in-person support at its posts (88 posts in 20 states, per its Q2 2026 activity report). The service is built on non-directive, non-judgemental listening and explicitly does not replace psychotherapy, health treatment, or specialised help.",
+    "evidence_notes": "Publisher is the Centro de Valorização da Vida, a non-profit civil association founded in 1962 and recognised as a federal public-utility entity in 1973, per its Q2 2026 activity report; the report states the 188 service received over 550,000 calls in the quarter with about 70,000 volunteer hours. Service quality and outcomes were not evaluated in this screening.",
+    "id": "cvv-brazil-188",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "Portuguese (per the reviewed pages)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "An emotional-support listening service, not a treatment service; it does not give advice or replace psychotherapy or specialised help, per the reviewed report. Chat and email hours and availability were not stated on the reviewed pages, and the homepage itself was not rendered in this screening (official_url is the https canonical; the exact fetched official pages are kept in source_notes). Not a substitute for emergency services or ongoing treatment.",
+    "name": "CVV — Centro de Valorização da Vida (Brazil, 188)",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://cvv.org.br/",
+    "platforms": [
+      "Phone",
+      "Chat/Online",
+      "Email",
+      "In person"
+    ],
+    "privacy_notes": "The reviewed official privacy policy states phone support respects caller anonymity with no personal data collected from callers, and electronic-channel connection data is anonymised; personal data sharing is limited to what Brazilian law requires. Full policy implications were not assessed in this screening.",
+    "publisher": "Centro de Valorização da Vida (CVV)",
+    "reason": "Screened 2026-11-02: official site confirmed live (free national 188 line, 24 hours, plus chat, email, and in-person posts, per the Q2 2026 activity report and official privacy policy). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "homepage not rendered in this screening; official_url is the https canonical with exact fetched official pages in source_notes",
+      "chat and email hours and availability not stated on the reviewed pages",
+      "availability in languages other than Portuguese not verified",
+      "volunteer training and supervision details not verified",
+      "accessibility of phone, chat, email, and in-person services not verified",
+      "service quality and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://cvv.org.br/politica-de-privacidade/",
+      "https://cvv.org.br/wp-content/uploads/2026/08/RelatorioCVV_2Tri_2026.pdf"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "suicide-prevention",
+      "helpline",
+      "brazil",
+      "free",
+      "anonymous",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
   }
 ]
