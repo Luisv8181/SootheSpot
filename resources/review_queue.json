@@ -12823,5 +12823,240 @@
       "independent-use",
       "with-support"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the phone, chat, email, and in-person services not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "German national service run by TelefonSeelsorge Deutschland; its own international-help page states conversations in Germany are offered only in German, with referrals to helplines in other languages. Community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://www.telefonseelsorge.de/",
+        "https://www.telefonseelsorge.de/internationale-hilfe/"
+      ]
+    },
+    "description": "TelefonSeelsorge is Germany's national pastoral-counselling and crisis service, reachable day and night, free of charge and anonymously, by phone (0800 1110111, 0800 1110222, or 116 123), email, chat, or in-person counselling. It listens in crises and difficult life situations — including grief, anxiety, loneliness, job loss, relationship crises, and parenting problems — and names suicide prevention as a core topic of its work. The service is carried by more than 7,700 trained volunteers, per the reviewed homepage, with local centres providing training and supervision.",
+    "evidence_notes": "Publisher is TelefonSeelsorge Deutschland, per the reviewed official homepage (branded TelefonSeelsorge Deutschland, with local TelefonSeelsorge centres described as training and supervising the volunteers). The offer's free, anonymous, day-and-night character is stated on that homepage. Service quality and outcomes were not evaluated in this screening.",
+    "id": "telefonseelsorge-germany",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "German (conversations in Germany offered only in German, per the reviewed international-help page)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A listening and counselling service, not a substitute for emergency services or ongoing treatment. Conversations in Germany are in German only; people writing in German with difficulty are told to expect a first email reply within three days, per the reviewed page. Chat and email hours were not stated on the reviewed pages. Not a substitute for emergency services or ongoing treatment.",
+    "name": "TelefonSeelsorge (Germany, 0800 1110111 / 0800 1110222 / 116 123)",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://www.telefonseelsorge.de/",
+    "platforms": [
+      "Phone",
+      "Chat/Online",
+      "Email",
+      "In person"
+    ],
+    "privacy_notes": "The reviewed homepage states the service is anonymous; the international-help page describes a confidential email system. The full privacy policy was not reviewed in this screening.",
+    "publisher": "TelefonSeelsorge Deutschland",
+    "reason": "Screened 2026-11-02: official homepage confirmed live (free, anonymous, day-and-night phone, email, chat, and in-person counselling; suicide prevention a core topic), plus the official international-help page confirming German-only conversations in Germany. Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "chat and email availability hours not stated on the reviewed pages",
+      "accessibility of phone, chat, email, and in-person services not verified",
+      "volunteer training and supervision details beyond the homepage summary not verified",
+      "service quality and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://www.telefonseelsorge.de/",
+      "https://www.telefonseelsorge.de/internationale-hilfe/"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "suicide-prevention",
+      "helpline",
+      "germany",
+      "free",
+      "anonymous",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the phone service not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "French national service; reviewed page is in French. Community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://3114.fr/"
+      ]
+    },
+    "description": "3114 is France's national suicide prevention number. Its official site describes itself as the advice and resources site of the national suicide prevention number and states: 'Nous sommes là pour vous répondre, 24h/24, 7j/7. Appelez le 3114.' It is presented as a resource for people in distress, those worried about someone close to them, professionals, and people bereaved by suicide in secondary descriptions, but those audience details were not confirmed on the fetched official page in this screening and are recorded as gaps, not as verified claims.",
+    "evidence_notes": "Publisher is the French national suicide prevention number service (3114.fr). The fetched official page confirms the number, 24/7 availability, and a resources-and-advice site, but gives little further detail. Service quality and outcomes were not evaluated in this screening.",
+    "id": "3114-france-suicide-prevention",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "French (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A suicide-prevention helpline, not a substitute for emergency services or ongoing treatment. The fetched official page was a short summary (cached copy dated 2026-10-19); staffing, caller-identification/privacy practice, chat or text availability, and cost were not stated on the fetched page and were not verified in this screening. Not a substitute for emergency services or ongoing treatment.",
+    "name": "3114 — Numéro national de prévention du suicide (France)",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://3114.fr/",
+    "platforms": [
+      "Phone"
+    ],
+    "privacy_notes": "Caller privacy and identification practice were not stated on the fetched official page and were not verified in this screening; the full privacy policy was not reviewed.",
+    "publisher": "Numéro national de prévention du suicide (3114)",
+    "reason": "Screened 2026-11-02: official site confirmed live as the national suicide prevention number's advice-and-resources site, answering 24 hours a day, 7 days a week at 3114. Ready for owner review before any promotion; staffing and privacy details still unverified.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "fetched official page was a short summary (cached copy dated 2026-10-19); full homepage content not rendered",
+      "staffing and professional qualifications not verified on the fetched page",
+      "caller-identification and privacy practice not verified",
+      "chat, text, or online contact availability not verified",
+      "cost not stated on the fetched page",
+      "accessibility of the phone service not verified",
+      "service quality and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://3114.fr/"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "suicide-prevention",
+      "helpline",
+      "france",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the phone and chat services not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Dutch national service; reviewed homepage is in Dutch and the reviewed folder is in English. Community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://www.113.nl/",
+        "https://www.113.nl/sites/default/files/113/2020%20middelen/113-Algemene%20Folder%20ENG.pdf"
+      ]
+    },
+    "description": "113 Zelfmoordpreventie is the Netherlands' national suicide prevention service, describing itself as an independent care institution and the leading national organisation for suicide prevention. People with suicidal thoughts and their loved ones can call 113 or 0800-0113 free of charge, or chat via 113.nl, anonymously and confidentially, 24 hours a day, 7 days a week. Help is offered by professionals and by volunteers who have received intensive training, per its official English-language folder, alongside online therapy courses and digital self-help options.",
+    "evidence_notes": "Publisher is 113 Zelfmoordpreventie, described in its official folder as an independent care institution and the leading national organisation for suicide prevention in the Netherlands. Service quality and outcomes were not evaluated in this screening.",
+    "id": "113-zelfmoordpreventie-netherlands",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "Dutch (per the reviewed homepage)",
+      "English (official English-language folder reviewed)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A suicide-prevention helpline and support service, supplementing regular healthcare, per its folder — not a substitute for emergency services or ongoing treatment. Whether phone and chat support are available in English (beyond the English information folder) was not verified in this screening, and chat hours beyond the stated 24/7 claim were not independently confirmed. Not a substitute for emergency services or ongoing treatment.",
+    "name": "113 Zelfmoordpreventie (Netherlands, 113 / 0800-0113)",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://www.113.nl/",
+    "platforms": [
+      "Phone",
+      "Chat/Online"
+    ],
+    "privacy_notes": "The reviewed official folder states contact is anonymous and confidential. The full privacy policy was not reviewed in this screening.",
+    "publisher": "113 Zelfmoordpreventie",
+    "reason": "Screened 2026-11-02: official homepage and official English-language folder confirmed live (free, anonymous, confidential phone 113 / 0800-0113 and chat, 24/7, for people with suicidal thoughts and their loved ones). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "homepage text fetch was thin (story-led page); detail rests on the official folder",
+      "phone/chat availability in English not verified beyond the English information folder",
+      "accessibility of phone and chat services not verified",
+      "service quality and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://www.113.nl/",
+      "https://www.113.nl/sites/default/files/113/2020%20middelen/113-Algemene%20Folder%20ENG.pdf"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "suicide-prevention",
+      "helpline",
+      "netherlands",
+      "free",
+      "anonymous",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
   }
 ]
