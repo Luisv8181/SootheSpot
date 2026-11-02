@@ -12095,5 +12095,254 @@
       "independent-use",
       "with-support"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the phone service, 1-2-1 chat, message boards, locker, Calm zone, and Deaf Zone not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK service for children and young people; community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://www.childline.org.uk/",
+        "https://www.nspcc.org.uk/about-us/our-services/childline/"
+      ]
+    },
+    "description": "UK free, confidential counselling and support service for children and young people, provided by the NSPCC, for any worry, including bullying, abuse, family problems, feelings, and relationships. Contact by phone on 0800 1111, by 1-2-1 counsellor chat, or by message (the homepage states a reply within 24 hours). The site also offers a personal locker, message boards, advice pages, a Calm zone of calming activities, games, a Coping Kit, an under-12s site, and a Deaf Zone with SignVideo interpreter access and BSL content.",
+    "evidence_notes": "Publisher is the NSPCC (registered charity in England and Wales 216401 and Scotland SC037717, per the reviewed pages); the homepage notes Childline recently celebrated its 40th birthday. Counsellor training and service outcomes were not evaluated in this screening.",
+    "id": "childline-uk",
+    "intended_population": [
+      "children",
+      "young people"
+    ],
+    "languages": [
+      "English (per the reviewed pages)",
+      "Welsh advice pages available (Childline Cymru), per the reviewed homepage"
+    ],
+    "last_verified_at": "2026-11-01",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A counselling and support service, not a substitute for treatment of complex mental illness or addiction. The reviewed pages direct emergencies to 999. Phone and chat operating hours were not stated on the reviewed pages.",
+    "name": "Childline (UK)",
+    "needs": [
+      "support",
+      "understand",
+      "safety"
+    ],
+    "official_url": "https://www.childline.org.uk/",
+    "platforms": [
+      "Web",
+      "Phone"
+    ],
+    "privacy_notes": "The reviewed pages describe the locker and contacts as fully confidential; the full confidentiality promise and its limits were not reviewed in this screening.",
+    "publisher": "Childline, a service provided by NSPCC",
+    "reason": "Screened 2026-11-01: official site confirmed live (UK free confidential counselling for children and young people: phone 0800 1111, 1-2-1 chat, messages with a reply within 24 hours, locker, message boards, Calm zone, Deaf Zone). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "phone and 1-2-1 chat operating hours not stated on the reviewed pages",
+      "full confidentiality promise and its limits not reviewed",
+      "accessibility of phone, chat, message boards, locker, and Calm zone not verified",
+      "counsellor training and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://www.childline.org.uk/",
+      "https://www.nspcc.org.uk/about-us/our-services/childline/"
+    ],
+    "status": "screened",
+    "tags": [
+      "youth",
+      "children",
+      "teens",
+      "counselling",
+      "helpline",
+      "chat",
+      "calm-zone",
+      "uk",
+      "charity",
+      "free",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of the helpline, text service, and phone/video/in-person therapy not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Irish national service; community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://www.pieta.ie/how-we-can-help/",
+        "https://www.pieta.ie/how-we-can-help/therapy-services/"
+      ]
+    },
+    "description": "Irish charity providing free services nationally to people experiencing thoughts of suicide, engaging in self-harm, and bereaved by suicide, with no referral needed. Its 24-hour crisis helpline is freephone 1800 247 247, with a text service (text HELP to 51444, standard message rates apply), staffed by therapists 365 days a year. Free therapy is available by phone, video, and in person at more than 20 locations around Ireland, booked by calling 0818 111 126; phone and video therapy is for anyone aged 13 and over. The charity also offers bereavement support and SIGNs of suicide education for people worried about a loved one.",
+    "evidence_notes": "Publisher describes itself as Ireland's suicide prevention charity; therapy quality and outcomes were not evaluated in this screening.",
+    "id": "pieta-ireland",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English (per the reviewed pages)"
+    ],
+    "last_verified_at": "2026-11-01",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A crisis and therapy service, not an emergency service; the reviewed pages direct medical emergencies to 112 or 999. Therapy session counts and limits were not stated on the reviewed pages, and under-18 access conditions were not verified in this screening.",
+    "name": "Pieta (Ireland)",
+    "needs": [
+      "safety",
+      "support"
+    ],
+    "official_url": "https://www.pieta.ie/how-we-can-help/",
+    "platforms": [
+      "Web",
+      "Phone"
+    ],
+    "privacy_notes": "The reviewed pages describe the helpline space as non-judgemental and confidential; the full privacy policy and confidentiality limits were not reviewed in this screening.",
+    "publisher": "Pieta",
+    "reason": "Screened 2026-11-01: official site confirmed live (Irish free suicide-prevention charity: 24-hour helpline 1800 247 247, text HELP to 51444, free therapy by phone/video/in person at 20+ locations, no referral needed). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "therapy session counts and limits not stated on the reviewed pages",
+      "under-18 access conditions not verified",
+      "full privacy policy and confidentiality limits not reviewed",
+      "accessibility of helpline, text service, and therapy not verified",
+      "therapy quality and outcomes not evaluated"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://www.pieta.ie/how-we-can-help/",
+      "https://www.pieta.ie/how-we-can-help/therapy-services/"
+    ],
+    "status": "screened",
+    "tags": [
+      "suicide-prevention",
+      "self-harm",
+      "bereavement",
+      "helpline",
+      "text",
+      "therapy",
+      "ireland",
+      "charity",
+      "free",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility of online support, live chats, and in-person services not verified in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Irish national youth service; community-specific adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://jigsaw.ie/about-jigsaw/",
+        "https://jigsaw.ie/"
+      ]
+    },
+    "description": "Irish youth mental-health charity providing free therapy and support to young people aged 12 to 25 living in Ireland, online and in person at 18 locations around Ireland. Young people reach out about problems at school, at home, with friends, and with how they are feeling; Jigsaw aims to see all young people within a few weeks of contact, a single timely meeting is often enough, and many return for several meetings. If Jigsaw is not the right place for the support needed, it works to connect the young person with other services. It also provides training and resources for youth clubs, community groups, schools, and sports organisations, runs a Youth Advocate Programme, and leads health-services research on youth mental health. Online, it offers text-based chats with a therapist, group chats, and email support, per its homepage.",
+    "evidence_notes": "Publisher is Jigsaw, the National Centre for Youth Mental Health; its homepage notes Jigsaw celebrated 20 years of supporting young people in September 2026. Service quality and outcomes were not evaluated in this screening.",
+    "id": "jigsaw-ireland",
+    "intended_population": [
+      "young people"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-01",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "An early-intervention support service that aims to see young people within a few weeks, not presented as a crisis service on the reviewed page; wait times, session limits, and the urgent-access route were not verified in this screening. Not a substitute for ongoing treatment.",
+    "name": "Jigsaw (Ireland)",
+    "needs": [
+      "support",
+      "understand"
+    ],
+    "official_url": "https://jigsaw.ie/about-jigsaw/",
+    "platforms": [
+      "Web",
+      "In person"
+    ],
+    "privacy_notes": "The reviewed page describes support as confidential; the full privacy policy and confidentiality limits were not reviewed in this screening.",
+    "publisher": "Jigsaw — The National Centre for Youth Mental Health",
+    "reason": "Screened 2026-11-01: official site confirmed live (Irish free therapy and support for ages 12-25, online and at 18 locations, aiming to see young people within a few weeks, plus community training and a Youth Advocate Programme). Ready for owner review before any promotion.",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "resource-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "crisis scope and urgent-access route not stated on the reviewed page",
+      "wait times and session limits not verified",
+      "service availability by location not verified",
+      "full privacy policy and confidentiality limits not reviewed",
+      "accessibility of online and in-person services not verified",
+      "service quality and outcomes not evaluated"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "http://jigsaw.ie/about-jigsaw/",
+      "https://jigsaw.ie/"
+    ],
+    "status": "screened",
+    "tags": [
+      "youth",
+      "teens",
+      "young-adults",
+      "therapy",
+      "early-intervention",
+      "ireland",
+      "charity",
+      "free",
+      "independent-use",
+      "with-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
   }
 ]
