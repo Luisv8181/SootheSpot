@@ -13520,5 +13520,174 @@
       "independent-use",
       "with-support"
     ]
+  },
+  {
+    "access": [
+      "free download with free trial",
+      "paid subscription after trial"
+    ],
+    "accessibility": [
+      "Audio-first content with animated breathing exercises; screen-reader and reduced-motion compatibility not stated on the reviewed pages; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S.-developed personalized meditation product; no stated cultural-adaptation process found on the reviewed pages.",
+      "source_notes": [
+        "https://play.google.com/store/apps/details?id=com.elevatelabs.geonosis&gl=GB&ref=buymobiles.net",
+        "https://apps.apple.com/nz/app/balance-meditation-sleep/id1361356590"
+      ]
+    },
+    "description": "Personalized meditation coach app: daily questions about experience, goals, and preferences assemble a tailored guided session. Content is organized in 10-day Plans teaching concrete skills (Breath Focus, Body Scan, and more), plus bite-sized Singles, sleep meditations, sleep sounds, wind-down activities using bilateral stimulation and controlled breathing, and animated breathing exercises. Foundations Plan for beginners, Advanced Plan for experienced meditators.",
+    "evidence_notes": "Store pages describe activities as research-backed; no independent evaluation of efficacy in this screening. Treat benefit language as publisher claims.",
+    "id": "balance-meditation-sleep-app",
+    "intended_population": [
+      "general",
+      "beginners (Foundations Plan)",
+      "experienced meditators (Advanced Plan)"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Subscription product: after the free trial, $11.99/month or $69.99/year (U.S. prices on the store pages) or a $399.99 lifetime purchase; the widely repeated first-year-free offer was NOT stated on either store page fetched and is not recorded here. Wellness content, not clinical treatment and not a crisis service; in-app crisis/self-harm behavior not confirmed. App Store data labels say identifiers may be used to track across other companies' apps/websites, and purchases, contact info, identifiers, and usage data may be linked to identity — privacy policy itself not reviewed.",
+    "name": "Balance: Meditation & Sleep",
+    "needs": [
+      "calm",
+      "sleep",
+      "stress",
+      "anxiety",
+      "practice"
+    ],
+    "official_url": "https://play.google.com/store/apps/details?id=com.elevatelabs.geonosis&gl=GB&ref=buymobiles.net",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Account/subscription implied; App Store data labels disclose tracking identifiers and linked purchases/contact/usage data. The full privacy policy (balanceapp.com, linked from the store pages) was not reviewed in this screening.",
+    "publisher": "Elevate Labs, LLC (per App Store seller line; copyright 2025 Elevate Labs, LLC)",
+    "reason": "Screened 2026-11-02: Google Play and App Store listings fetched live this run (personalized meditation coach; 10-day Plans, Singles, sleep tools; free trial then $11.99/month or $69.99/year U.S., $399.99 lifetime; seller Elevate Labs, LLC; English; iOS/Android). No standalone official homepage was fetched — official_url is the Play listing. Ready for owner review before any promotion.",
+    "regions": [
+      "Not confirmed — U.S. subscription prices stated; regional availability and pricing not stated on the reviewed pages."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "standalone official homepage not fetched (store listings used)",
+      "first-year-free claim seen in secondary sources but absent from store pages — left unrecorded",
+      "in-app crisis/self-harm behavior not confirmed"
+    ],
+    "shelf": "listen",
+    "source_notes": [
+      "https://play.google.com/store/apps/details?id=com.elevatelabs.geonosis&gl=GB&ref=buymobiles.net",
+      "https://apps.apple.com/nz/app/balance-meditation-sleep/id1361356590"
+    ],
+    "status": "screened",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "sleep",
+      "stress",
+      "anxiety",
+      "breathing",
+      "personalized",
+      "guided-audio"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Breathing exercises use animated visual instruction, which may not suit users who cannot follow on-screen visuals; screen-reader compatibility not stated on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S.-developed meditation product with mindful and loving-kindness practices; no stated cultural-adaptation process found on the reviewed page.",
+      "source_notes": [
+        "https://apps.apple.com/ca/app/oak-meditation-breathing/id1210209691"
+      ]
+    },
+    "description": "Free meditation and breathing app: guided mindful and loving-kindness meditations (5-30 minutes, male or female instructors), unguided sessions (5 minutes to 24 hours) with a meditation timer and interval chimes, simple yogic breathing exercises (Box Breathing, Deep Calm, Awake) with animated instruction, sleep wind-downs with guided breathing, and background sounds (bells, blocks, bowls, streams) or silence. Optional Apple HealthKit mindful-minutes tracking. A 10-day Mantra meditation course is listed as a $0.00 in-app purchase.",
+    "evidence_notes": "No efficacy claims evaluated in this screening; the store page quotes an AppAdvice line and a 2018 Apple 'New Apps We Love' mention, both publisher-selected, not independent evidence.",
+    "id": "oak-meditation-breathing-app",
+    "intended_population": [
+      "general",
+      "beginners and experienced meditators"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "iOS-family only on the reviewed page (iPhone, iPad, iPod touch, Mac with Apple silicon, Apple Vision) — no Android version stated, so Android users cannot use it. Free at screening, but the store page lists in-app purchases, so the free scope could change. Oak tracks consecutive streaks and awards badges; SootheSpot's own no-streaks principle applies to how SootheSpot presents it, not to the app itself — flag for owner judgment. Wellness content, not clinical treatment and not a crisis service; in-app crisis/self-harm behavior not confirmed.",
+    "name": "Oak - Meditation & Breathing",
+    "needs": [
+      "calm",
+      "sleep",
+      "stress",
+      "practice",
+      "breathing"
+    ],
+    "official_url": "https://apps.apple.com/ca/app/oak-meditation-breathing/id1210209691",
+    "platforms": [
+      "iOS",
+      "iPadOS",
+      "macOS (Apple silicon)",
+      "Apple Vision"
+    ],
+    "privacy_notes": "App Store data labels: contact info may be linked to identity; health & fitness, identifiers, usage data, and diagnostics may be collected but not linked to identity. The full privacy policy was not reviewed in this screening; whether an account is required is not stated on the reviewed page.",
+    "publisher": "Nyllon LLC (App Store seller line reads NYLLON LLC; copyright 2025 Nyllon LLC; support contact support@oakmeditation.com)",
+    "reason": "Screened 2026-11-02: App Store listing fetched live this run (free meditation/breathing/sleep app; guided 5-30 min and unguided up to 24 h sessions; Box/Deep Calm/Awake breathing; Mantra course listed at $0.00; seller Nyllon LLC; English; iOS-family only). Ready for owner review before any promotion.",
+    "regions": [
+      "Not confirmed — store listing reviewed in the Canadian storefront; regional availability not stated."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "account requirement not stated on the reviewed page",
+      "standalone official homepage not fetched (store listing used)",
+      "in-app crisis/self-harm behavior not confirmed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://apps.apple.com/ca/app/oak-meditation-breathing/id1210209691"
+    ],
+    "status": "screened",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "breathing",
+      "sleep",
+      "unguided",
+      "loving-kindness",
+      "guided-audio"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
