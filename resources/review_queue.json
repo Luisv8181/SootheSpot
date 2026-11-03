@@ -13689,5 +13689,252 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Audio-guided meditations, sleep stories, and music; calming videos and visual breathing cues may rely on sight; assistive-technology compatibility not stated on the reviewed page; verify before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Meditation and sleep product with masterclasses from named teachers; no stated cultural-adaptation process found on the reviewed page.",
+      "source_notes": [
+        "https://play.google.com/store/apps/details?id=com.Meditation.app"
+      ]
+    },
+    "description": "Meditation and sleep app with 1700+ guided meditations, soothing music, nature sounds, sleep stories, bedtime visualizations, hypnotherapy sessions, breathing exercises, calming videos, an alarm clock with morning meditations, and a 12-week Learn to Meditate program. A free version with many free meditations is offered; a Premium Membership unlocks all content.",
+    "evidence_notes": "No efficacy claims evaluated in this screening; the listing's 'Recommended by People & InStyle' line is publisher-selected, not independent evidence, and the linked blog's health-benefit claims were not reviewed.",
+    "id": "breethe-sleep-meditation-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English (listing reviewed in English; other languages not stated on the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Free to download with a free tier, but full content sits behind a Premium Membership; prices and subscription terms are not stated on the reviewed page. Hypnotherapy sessions are publisher-described wellness content, not clinical treatment, and the app is not a crisis service; in-app crisis/self-harm behavior not confirmed. Android listing reviewed; iOS availability not confirmed from this page.",
+    "name": "Breethe - Sleep & Meditation",
+    "needs": [
+      "calm",
+      "sleep",
+      "stress",
+      "anxiety",
+      "practice",
+      "breathing"
+    ],
+    "official_url": "https://play.google.com/store/apps/details?id=com.Meditation.app",
+    "platforms": [
+      "Android"
+    ],
+    "privacy_notes": "Privacy policy was not reviewed in this screening; whether an account is required is not stated on the reviewed page.",
+    "publisher": "Breethe (Google Play developer line; copyright 2015 OMG. I Can Meditate! Inc.; support support@breethe.com per the listing)",
+    "reason": "Screened 2026-11-02: Google Play listing fetched live this run (1700+ guided meditations, sleep sounds and stories, bedtime visualizations, hypnotherapy sessions, breathing exercises, 12-week Learn to Meditate program; free tier with Premium Membership; 4.6 stars from 7,025 ratings on the listing). Ready for owner review before any promotion.",
+    "regions": [
+      "Not confirmed — store listing reviewed; regional availability not stated."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "Premium Membership prices and terms not stated on the reviewed page",
+      "iOS availability not confirmed from this page",
+      "account requirement not stated on the reviewed page",
+      "standalone official homepage not fetched (store listing used)",
+      "in-app crisis/self-harm behavior not confirmed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://play.google.com/store/apps/details?id=com.Meditation.app"
+    ],
+    "status": "screened",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "sleep",
+      "sleep-stories",
+      "breathing",
+      "nature-sounds",
+      "guided-audio"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Guided tapping sessions follow audio instruction with on-screen cues; assistive-technology compatibility not stated on the reviewed page; verify before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "EFT tapping product; no stated cultural-adaptation process found on the reviewed page.",
+      "source_notes": [
+        "https://play.google.com/store/apps/details?id=com.datechnologies.tappingsolution&hl=en_US&gl=US"
+      ]
+    },
+    "description": "Guided EFT (Emotional Freedom Techniques) tapping meditations, 5 to 20 minutes, with hundreds of sessions: lowering stress about family, finances, health, politics, work, and world events; sleep support; releasing emotions such as anger, anxiety, fear, grief, guilt, sadness, self-doubt, and shame; pain-relief topics; women's health topics; and weight-loss and sports-performance topics.",
+    "evidence_notes": "No efficacy claims evaluated in this screening. The listing's 'reduce stress & anxiety by 41%' headline and its 'clinical research published in a top-tier journal' line are publisher claims; the underlying study was not reviewed in this screening, and the quoted member testimonials are publisher-selected.",
+    "id": "tapping-solution-eft-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English (listing reviewed in English; other languages not stated on the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Free to download, but full access sits behind auto-renewing monthly, yearly, or lifetime subscriptions; prices are not enumerated on the reviewed page. The listing names medical topics (including cancer pain, high blood pressure, and inflammation) as session themes; these are publisher claims, not evaluated clinical content, and the app is wellness content, not clinical treatment and not a crisis service. Android listing reviewed; iOS availability not confirmed from this page. In-app crisis/self-harm behavior not confirmed.",
+    "name": "The Tapping Solution",
+    "needs": [
+      "calm",
+      "sleep",
+      "stress",
+      "anxiety",
+      "practice"
+    ],
+    "official_url": "https://play.google.com/store/apps/details?id=com.datechnologies.tappingsolution&hl=en_US&gl=US",
+    "platforms": [
+      "Android"
+    ],
+    "privacy_notes": "Privacy policy was not reviewed in this screening (the listing links terms/privacy via a shortened URL, not followed); whether an account is required is not stated on the reviewed page.",
+    "publisher": "The Tapping Solution, LLC (Google Play developer line; support contact@thetappingsolution.com per the listing)",
+    "reason": "Screened 2026-11-02: Google Play listing fetched live this run (hundreds of guided EFT tapping meditations, 5-20 minutes; stress, sleep, emotion-release, and pain-relief topics; free download with auto-renewing subscriptions; 4.5 stars from 12,190 ratings on the listing). Ready for owner review before any promotion; medical-topic sessions flagged for owner judgment.",
+    "regions": [
+      "Not confirmed — store listing reviewed; regional availability not stated."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "subscription prices not enumerated on the reviewed page",
+      "iOS availability not confirmed from this page",
+      "account requirement not stated on the reviewed page",
+      "standalone official homepage not fetched (store listing used)",
+      "in-app crisis/self-harm behavior not confirmed",
+      "underlying 'clinical research' study not reviewed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://play.google.com/store/apps/details?id=com.datechnologies.tappingsolution&hl=en_US&gl=US"
+    ],
+    "status": "screened",
+    "tags": [
+      "tapping",
+      "eft",
+      "stress",
+      "anxiety",
+      "sleep",
+      "guided-audio",
+      "emotion-regulation"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Audio-guided meditations; assistive-technology compatibility not stated on the reviewed page; verify before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S.-listed meditation product with sessions 'designed for life's daily problems'; no stated cultural-adaptation process found on the reviewed page.",
+      "source_notes": [
+        "https://play.google.com/store/apps/details/Simple_Habit_Meditation_Sleep?id=com.simplehabit.simplehabitapp"
+      ]
+    },
+    "description": "Wellness and sleep app built around 5-minute daily mindfulness and meditation: guided mindfulness and meditation, daily motivation, guided sleep sessions, coaching content and motivational talks, an On-the-Go feature to calm anxiety quickly, Mindful Minutes progress tracking, and offline access with Premium.",
+    "evidence_notes": "No efficacy claims evaluated in this screening; the listing's 'recommended by psychologists, therapists and mental health experts' line and its 2017-2018 awards are publisher-selected and dated, not independent evidence.",
+    "id": "simple-habit-meditation-app",
+    "intended_population": [
+      "general",
+      "busy lifestyles (per the listing)"
+    ],
+    "languages": [
+      "English (listing reviewed in English; other languages not stated on the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-02",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Free to download, but unlimited access sits behind two auto-renewing Premium subscriptions; prices are not enumerated on the reviewed page, and the listing states refunds are not provided for any unused portion of a term. Simple Habit tracks streaks and mindful minutes; SootheSpot's own no-streaks principle applies to how SootheSpot presents it, not to the app itself — flag for owner judgment. Freshness unclear: the freshly fetched page shows no update date, and an older listing copy dated the last update December 2024, so the app may be unmaintained — flag for owner judgment. Android listing reviewed; iOS availability not confirmed from this page. Wellness content, not clinical treatment and not a crisis service; in-app crisis/self-harm behavior not confirmed.",
+    "name": "Simple Habit: Meditation",
+    "needs": [
+      "calm",
+      "sleep",
+      "stress",
+      "anxiety",
+      "practice"
+    ],
+    "official_url": "https://play.google.com/store/apps/details/Simple_Habit_Meditation_Sleep?id=com.simplehabit.simplehabitapp",
+    "platforms": [
+      "Android"
+    ],
+    "privacy_notes": "Privacy policy was not reviewed in this screening (linked on the listing as simplehabit.com/privacy, not fetched); whether an account is required is not stated on the reviewed page.",
+    "publisher": "Ingenio, LLC (Google Play developer line; support feedback@simplehabit.com / help@simplehabit.com per the listing)",
+    "reason": "Screened 2026-11-02: Google Play listing fetched live this run (5-minute daily mindfulness/meditation, guided sleep sessions, daily motivation, coaching, On-the-Go anxiety feature, Mindful Minutes tracking; free download with auto-renewing Premium; 4.6 stars from 45,161 ratings on the listing). Freshness and streak mechanics flagged for owner judgment. Ready for owner review before any promotion.",
+    "regions": [
+      "Not confirmed — store listing reviewed; regional availability not stated."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "Premium subscription prices not enumerated on the reviewed page",
+      "iOS availability not confirmed from this page",
+      "account requirement not stated on the reviewed page",
+      "standalone official homepage not fetched (store listing used)",
+      "in-app crisis/self-harm behavior not confirmed",
+      "app freshness unclear (no update date on freshly fetched page; older copy dated December 2024)"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://play.google.com/store/apps/details/Simple_Habit_Meditation_Sleep?id=com.simplehabit.simplehabitapp"
+    ],
+    "status": "screened",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "sleep",
+      "anxiety",
+      "motivation",
+      "coaching",
+      "guided-audio"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
