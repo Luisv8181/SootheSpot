@@ -14144,5 +14144,232 @@
   "use_context": [
     "independent-use"
   ]
-}
+},
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "University mindfulness-education content; Basic Meditations offered in 19 languages per the publisher, but the full language list was not verified in this screening.",
+      "source_notes": [
+        "https://www.uclahealth.org/ulcamindful/ucla-mindful-app"
+      ]
+    },
+    "description": "Free mindfulness meditation app from UCLA Mindful, the mindfulness education center at UCLA Health: Basic Meditations for getting started (in 19 languages), Wellness Meditations for people with challenging health conditions, informative videos on getting started and the science of mindfulness, weekly 30-minute podcast/drop-in recordings, and a self-guided meditation timer. Publisher states the meditations are for educational purposes and are not clinical treatments.",
+    "evidence_notes": "Publisher is UCLA Health's mindfulness education center. Research claims about mindfulness benefits are the publisher's and were not independently evaluated in this screening.",
+    "id": "ucla-mindful-app",
+    "intended_population": [
+      "adults"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-03",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Educational content only, not a clinical treatment (publisher disclaimer); app privacy practices and accessibility features not reviewed in this screening; full list of the 19 meditation languages not verified.",
+    "name": "UCLA Mindful App",
+    "needs": [
+      "practice",
+      "calm"
+    ],
+    "official_url": "https://www.uclahealth.org/ulcamindful/ucla-mindful-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "No account or data-practice claims were reviewed on the fetched publisher page; data practices were not reviewed in this screening.",
+    "publisher": "UCLA Mindful, UCLA Health",
+    "reason": "Screened 2026-11-03: official UCLA Health app page confirmed live; publisher, free access, iOS/Android availability, meditation content, and multilingual Basic Meditations confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; U.S.-based university publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "accessibility statement not reviewed",
+      "full 19-language list not verified"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.uclahealth.org/ulcamindful/ucla-mindful-app"
+    ],
+    "status": "screened",
+    "tags": [
+      "mindfulness",
+      "meditation",
+      "breathing",
+      "stress",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "Australian-origin program with international trial populations; English and German versions listed by the ANU Beacon review.",
+      "source_notes": [
+        "https://www.moodgym.com.au/",
+        "https://beacon.anu.edu.au/service/website/view/217/2"
+      ]
+    },
+    "description": "Interactive online cognitive behaviour therapy (CBT) program in five sequential modules (Feelings, Thoughts, Unwarping, Destressing, Relationships), each with information, interactive exercises, workbooks, and quizzes with personalised feedback, designed to help prevent and manage symptoms of depression and anxiety. Publisher reports over 1 million users worldwide and extensive randomised-controlled-trial evaluation.",
+    "evidence_notes": "Originated at the Australian National University Centre for Mental Health Research; now delivered by eHub Health. Trial evidence summarised on the publisher page and in the ANU Beacon review (8 anxiety RCTs); individual papers were not re-read in this screening.",
+    "id": "moodgym",
+    "intended_population": [
+      "adolescents",
+      "adults"
+    ],
+    "languages": [
+      "English",
+      "German"
+    ],
+    "last_verified_at": "2026-11-03",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Self-guided program, not a substitute for professional care; registration required (per ANU Beacon review); price is not stated on the fetched official homepage, with the Beacon review listing Fee: Free; completion rates in trials were variable.",
+    "name": "MoodGYM",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://moodgym.com.au/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Publisher describes the program as anonymous and confidential with secure data handling; the privacy policy itself was not reviewed in this screening.",
+    "publisher": "eHub Health (originated at Australian National University)",
+    "reason": "Screened 2026-11-03: official moodgym homepage confirmed live; publisher lineage, five-module CBT structure, and trial-evaluation claims confirmed from the primary source plus the ANU Beacon review. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; Australian-origin."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "online-course",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "accessibility statement not reviewed",
+      "price not stated on fetched official homepage (Beacon lists Free)",
+      "German version not individually checked"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://moodgym.com.au/",
+      "https://beacon.anu.edu.au/service/website/view/217/2"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "depression",
+      "anxiety",
+      "self-help",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "Australian-origin program; brief information readable without registration per secondary sources, full program requires registration (not confirmed on the fetched official page).",
+      "source_notes": [
+        "https://www.ecouch.com.au/"
+      ]
+    },
+    "description": "Online, self-directed training program with five programs - Depression, Anxiety & Worry, Social Anxiety, Divorce & Separation, and Loss & Bereavement - each with a comprehensive information module plus self-help modules with interactive exercises and workbooks teaching evidence-based strategies (CBT, interpersonal psychotherapy, problem-solving, relaxation, physical activity). Accredited under Australia's National Safety and Quality Digital Mental Health Standards; publisher states it is not appropriate for crisis help and not a substitute for diagnosis or treatment.",
+    "evidence_notes": "Originated at the Australian National University; now delivered by eHub Health, an ANU spin-off. Publisher page lists RCT evaluations for the Depression, Anxiety & Worry, and Social Anxiety programs; individual papers were not re-read in this screening.",
+    "id": "ecouch",
+    "intended_population": [
+      "adults"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-03",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Not appropriate for crisis help and not a substitute for professional diagnosis or treatment (publisher statements); full program requires registration; age suitability (16+ per a secondary directory) was not stated on the fetched official page; privacy policy and accessibility not reviewed.",
+    "name": "e-couch",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://www.ecouch.com.au/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Data practices were not reviewed in this screening.",
+    "publisher": "eHub Health (originated at Australian National University)",
+    "reason": "Screened 2026-11-03: official e-couch homepage confirmed live; publisher lineage, five-program structure, evidence-based strategies, accreditation badge, and not-for-crisis scope confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; Australian-origin."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "online-course",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "accessibility statement not reviewed",
+      "age suitability not stated on fetched official page",
+      "registration requirement for full program confirmed only via secondary source"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.ecouch.com.au/"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "depression",
+      "anxiety",
+      "grief",
+      "self-help",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  }
 ]
