@@ -14371,5 +14371,159 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "free",
+      "paid"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "UK-origin CBT life-skills course by a University of Glasgow professor. Publisher lists books and live classes in more than 15 languages, but the online course language list was not verified in this screening.",
+      "source_notes": [
+        "https://llttf.com/",
+        "https://llttf.com/faqs/"
+      ]
+    },
+    "description": "Self-directed online CBT life-skills course for low mood, anxiety and life challenges. The free core course covers eight modules: why you feel so bad, breaking the inactivity/low-mood cycle, tackling negative worrying thoughts, building confidence, practical problem solving, reducing unhelpful behaviours, anger and irritability control, and ten small steps to feeling happier. A paid Plus version adds optional modules, course books and interactive worksheets.",
+    "evidence_notes": "Publisher describes the course as research-evaluated and based on CBT life-skills work by Professor Chris Williams (Emeritus Professor of Psychosocial Psychiatry, University of Glasgow). Individual trials were not re-read in this screening.",
+    "id": "living-life-to-the-full",
+    "intended_population": [
+      "adults"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-03",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Free scope is the core course only; Plus modules, books and classes are paid, and Plus pricing was not checked in this screening. Self-guided course; suitability for more severe difficulties was not assessed in this screening. Not a substitute for professional care.",
+    "name": "Living Life to the Full (LLTTF)",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://llttf.com/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Data practices were not reviewed in this screening.",
+    "publisher": "Living Life to the Full (Professor Chris Williams, University of Glasgow)",
+    "reason": "Screened 2026-11-03: official homepage confirmed live; free core course and its eight modules confirmed from the publisher FAQ, with the paid Plus scope recorded honestly. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; UK-origin."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "online-course",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "accessibility statement not reviewed",
+      "Plus pricing not checked",
+      "online-course language list not verified",
+      "evidence trials not re-read"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://llttf.com/",
+      "https://llttf.com/faqs/"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "low-mood",
+      "anxiety",
+      "stress",
+      "self-help",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "Scotland national health information service content; crisis numbers quoted are UK/Scotland numbers (111 / 999) and do not transfer to other regions.",
+      "source_notes": [
+        "https://www.nhsinform.scot/illnesses-and-conditions/mental-health"
+      ]
+    },
+    "description": "NHS inform's mental health self-help hub: 14 work-through self-help guides, generally based on cognitive behavioural therapy (CBT) - anger problems, anxiety, bereavement and grief, binge eating, depression, sleep, chronic pain and mental health, obsessive compulsive disorder, panic, phobias, problem solving, PTSD and CPTSD, self-esteem, and social anxiety. The anxiety guide is stated to be for people with mild-to-moderate symptoms, and no login is used on the guides for privacy reasons.",
+    "evidence_notes": "Publisher is NHS inform, Scotland's national health information service, run by NHS 24. Guide evidence bases were not individually evaluated in this screening.",
+    "id": "nhs-inform-mental-health-self-help-guides",
+    "intended_population": [
+      "adults"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-03",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Self-help guides only, not an urgent or crisis service: the anxiety guide directs people who feel distressed, in despair or suicidal to phone 111, and 999 in an emergency. Guides are stated for mild-to-moderate symptoms (anxiety guide); scope of the other guides was not individually confirmed. Crisis numbers are Scotland/UK-specific and must not be presented as universal.",
+    "name": "NHS inform Mental Health Self-Help Guides",
+    "needs": [
+      "understand",
+      "practice"
+    ],
+    "official_url": "https://www.nhsinform.scot/illnesses-and-conditions/mental-health",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "The anxiety guide states no login feature is used on the mental health self-help guides for privacy reasons; the full privacy policy was not reviewed in this screening.",
+    "publisher": "NHS inform (run by NHS 24)",
+    "reason": "Screened 2026-11-03: the former Moodjuice address (moodjuice.scot.nhs.uk) was checked live and redirects to this NHS inform hub, with no Moodjuice branding shown on the observed pages, so the entry is recorded under NHS inform rather than as a standalone Moodjuice site. Fourteen CBT-based guides, no-login/no-paywall access in this check, and the mild-to-moderate scope plus 111/999 routing were confirmed from the hub and anxiety guide. Ready for owner review before any promotion.",
+    "regions": [
+      "Scotland; UK crisis numbers only."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "self-help-toolkit",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "accessibility statement not reviewed",
+      "Moodjuice lineage to NHS inform guides not confirmed from a publisher statement",
+      "scope of guides other than anxiety not individually confirmed"
+    ],
+    "shelf": "learn",
+    "source_notes": [
+      "https://www.nhsinform.scot/illnesses-and-conditions/mental-health",
+      "https://www.moodjuice.scot.nhs.uk/"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "anxiety",
+      "depression",
+      "self-help",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
