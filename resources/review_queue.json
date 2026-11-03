@@ -14525,5 +14525,246 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary sources; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S. federal (VA) app created for everyone including Veterans and service members; no stated cultural-adaptation process on the reviewed pages.",
+      "source_notes": [
+        "https://www.ptsd.va.gov/appvid/mobile/coping_coach_app.asp",
+        "https://play.google.com/store/apps/details?id=gov.va.mobilehealth.ncptsd.covid&hl=en_US"
+      ]
+    },
+    "description": "Free VA app for self-care and overall mental health: education about stress and coping, self-care and stress-management tools, mood trackers with progress graphs, personal goal tracking, daily reminders, a personal support network builder, and resources for basic needs or professional help. Publisher states it can be used stand-alone or as a supplement to professional care. Google Play listing (updated Jul 8, 2026; 10K+ downloads) states no account or password is required.",
+    "evidence_notes": "Publisher is VA's National Center for PTSD (mobile mental health team, Dissemination and Training Division). The VA page notes several in-app questionnaires, including the PCL-5, are reliable and valid self-report measures but not a replacement for professional evaluation; no app-specific efficacy claims were made or assessed in this screening.",
+    "id": "coping-coach-va",
+    "intended_population": [
+      "general",
+      "service-members-and-veterans"
+    ],
+    "languages": [
+      "English (per the reviewed pages)"
+    ],
+    "last_verified_at": "2026-11-03",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Self-care and education tool, not a replacement for professional care; contains PTSD-related questionnaires (PCL-5) even though positioned for general self-care. Privacy tension flagged, not resolved: the store listing description says user data is not collected, while its data-safety section says app activity and device IDs may be collected and data cannot be deleted; the VA page adds that user-created data are only as secure as the device itself. The Android listing sits on the former COVID Coach package id, a rebrand detail worth confirming before promotion.",
+    "name": "Coping Coach",
+    "needs": [
+      "calm",
+      "practice",
+      "cope"
+    ],
+    "official_url": "https://www.ptsd.va.gov/appvid/mobile/coping_coach_app.asp",
+    "platforms": [
+      "Android"
+    ],
+    "privacy_notes": "No account required per the store listing. Data-safety section on the same listing states app activity and device IDs may be collected, data encrypted in transit, and data cannot be deleted, which sits in tension with the listing's 'user data is not collected' description. Full VA privacy policy linked from the VA page but not reviewed in this screening.",
+    "publisher": "VA National Center for PTSD (U.S. Department of Veterans Affairs)",
+    "reason": "Screened 2026-11-03: official VA National Center for PTSD page and Google Play listing fetched live this run; publisher, free access, general self-care purpose, and stand-alone-use scope confirmed from primary sources. Ready for owner review before any promotion.",
+    "regions": [
+      "United States (offered by the VA); app-store availability outside the U.S. not verified in this screening"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "iOS listing not fetched live this run",
+      "full privacy policy not reviewed",
+      "individual coping tools not evaluated",
+      "accessibility not assessed",
+      "rebrand from COVID Coach package not confirmed beyond the store listing id"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.ptsd.va.gov/appvid/mobile/coping_coach_app.asp",
+      "https://play.google.com/store/apps/details?id=gov.va.mobilehealth.ncptsd.covid&hl=en_US"
+    ],
+    "status": "screened",
+    "tags": [
+      "self-care",
+      "stress",
+      "coping",
+      "mood-tracking",
+      "goal-tracking",
+      "resilience",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed listings; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Independent developer app (Jackson Tempra; developer contact address in Australia per the Google Play listing); no stated cultural-adaptation process on the reviewed listings.",
+      "source_notes": [
+        "https://play.google.com/store/apps/details?id=com.jacksontempra.apps.whatsup&hl=en",
+        "https://apps.apple.com/us/app/whats-up-a-mental-health-app/id968251160"
+      ]
+    },
+    "description": "Free CBT- and ACT-based coping app: a grounding game with 100+ questions, 12 common negative thinking patterns with methods to overcome them, 10 coping metaphors, a thought-and-feeling diary exportable as PDF, positive and negative habit trackers, a catastrophe scale, 3 breathing techniques, quotes and affirmations, local data backups, and optional Apple Health integration for Mindful Minutes. Listings state all major features are 100% free with no ads; the iOS listing (version 3.02.1, Sep 27) lists optional donation in-app purchases and a cloud-backup subscription.",
+    "evidence_notes": "Publisher is an individual developer (Jackson Tempra); no institutional or clinical affiliation stated on the reviewed listings. The CBT/ACT basis is the developer's own description; no independent evaluation of the content was made in this screening.",
+    "id": "whats-up-mental-health-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-03",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Self-help coping tool, not therapy and not a crisis service; the developer advises seeking a doctor's advice in addition to using the app. Individual-developer app: content quality and long-term maintenance rest on one developer. Google Play data-safety section states the app may collect personal info, app info/performance, and device IDs, and may share app info/performance with third parties; the Apple listing states data collected (contact info, usage data, diagnostics) is not linked to identity. Age rating 13+ on the iOS listing.",
+    "name": "What's Up? A Mental Health App",
+    "needs": [
+      "calm",
+      "practice",
+      "cope",
+      "understand"
+    ],
+    "official_url": "https://play.google.com/store/apps/details?id=com.jacksontempra.apps.whatsup&hl=en",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Listings differ by store: Google Play data-safety section reports possible collection of personal info, app info/performance, and device IDs plus sharing of app info/performance with third parties, with encryption in transit and deletion requestable; Apple listing reports contact info, usage data, and diagnostics collected but not linked to identity. Full privacy policy not reviewed in this screening.",
+    "publisher": "Jackson Tempra",
+    "reason": "Screened 2026-11-03: Google Play and App Store listings fetched live this run; publisher, free core access, CBT/ACT coping purpose, and independent-use scope confirmed from primary sources. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; Australian developer per the Google Play listing; regional availability not individually verified"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "individual CBT/ACT exercises not evaluated",
+      "accessibility not assessed",
+      "forum/community features described in older secondary coverage not confirmed on the current listings"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://play.google.com/store/apps/details?id=com.jacksontempra.apps.whatsup&hl=en",
+      "https://apps.apple.com/us/app/whats-up-a-mental-health-app/id968251160"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "act",
+      "grounding",
+      "breathing",
+      "thought-diary",
+      "habit-tracker",
+      "anxiety",
+      "depression",
+      "stress",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S. youth mental-health nonprofit; campus-chapter model integrated with campus health and counseling services. Page notes 600+ chapters in the U.S. and internationally, but non-U.S. fit was not assessed.",
+      "source_notes": [
+        "https://activeminds.org/resource/referral-resources/"
+      ]
+    },
+    "description": "Referral and wayfinding hub from youth mental-health nonprofit Active Minds: crisis pointer to call/text 988, how to find help on campus (a trusted person, the counseling center, the health clinic) and in the community (SAMHSA treatment locator, Mental Health America and NAMI affiliates, support groups), peer connection through 600+ campus chapters, a free ShareWell peer-support subscription offer for ages 18-25 (limited, first-come first-served), and links to self-care and supporting-a-friend resources. Page states its content is educational only and not a substitute for professional advice.",
+    "evidence_notes": "Publisher is Active Minds, a U.S. nonprofit focused on youth and young adult mental health. No efficacy claims were assessed in this screening, and the ShareWell offer itself was not reviewed.",
+    "id": "active-minds-referral-resources",
+    "intended_population": [
+      "young adults",
+      "students"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-03",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Wayfinding and referral hub, not a coping tool or care provider; U.S.-centric (988, campus counseling model, SAMHSA locator). Chapters are advocacy and awareness groups, not peer support groups, per the page itself. The ShareWell free-subscription offer is limited and first-come first-served, and ShareWell was not reviewed in this screening.",
+    "name": "Active Minds Referral Resources",
+    "needs": [
+      "find support"
+    ],
+    "official_url": "https://activeminds.org/resource/referral-resources/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "No account or data collection described on the reviewed page; the linked third-party services (SAMHSA locator, ShareWell, MHA/NAMI affiliates) were not reviewed in this screening.",
+    "publisher": "Active Minds",
+    "reason": "Screened 2026-11-03: official Active Minds page fetched live this run; publisher, free access, youth wayfinding purpose, and educational-only scope confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United States; chapters also international per the page, but non-U.S. fit not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "resource-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "linked third-party services not reviewed",
+      "accessibility not assessed",
+      "chapter availability in any specific location not verified"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://activeminds.org/resource/referral-resources/"
+    ],
+    "status": "screened",
+    "tags": [
+      "referral",
+      "peer-support",
+      "youth",
+      "students",
+      "campus",
+      "find-help",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
