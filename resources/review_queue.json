@@ -15150,5 +15150,234 @@
     "use_context": [
       "therapist-guided"
     ]
+  },
+  {
+    "id": "loona-sleep-app",
+    "name": "Loona - Fall in Love with Sleep Again",
+    "official_url": "https://loona.app/",
+    "publisher": "Loona",
+    "description": "Sleep wind-down app for iOS and Android, available globally. Its core feature is 'escapes': immersive, narrated coloring scenes (rotating dioramas) combining guided imagery, art activities, calming sounds, and breathing exercises to disengage from racing thoughts before sleep. Also offers immersive stories, music and nature sounds, and breathing exercises. The site frames the content as bundling science-based relaxation techniques (guided imagery, art activities, calming sounds, breathing exercises) and cites a sleep psychologist at Northwestern Medicine Sleep Disorders Center.",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "Pricing not stated on the reviewed homepage (a 'dream plan' purchase flow and gift cards are mentioned)"
+    ],
+    "languages": [
+      "Not stated on the reviewed homepage"
+    ],
+    "regions": [
+      "Global (stated on the reviewed homepage)"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "sleep",
+      "calm",
+      "anxiety"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "tags": [
+      "sleep",
+      "wind-down",
+      "guided-imagery",
+      "breathing",
+      "relaxation"
+    ],
+    "evidence_notes": "Site describes techniques as science-based and cites one named sleep psychologist; no efficacy claims for the app itself were assessed in this screening.",
+    "limitations": "A wind-down and relaxation aid, not a treatment for sleep disorders or anxiety; no clinical scope is stated on the homepage and none is assumed here. Pricing, free-vs-paid content scope, age eligibility, languages, and data handling are NOT stated on the reviewed homepage.",
+    "privacy_notes": "Privacy policy and terms were not reviewed in this screening.",
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural adaptation information stated on the reviewed homepage.",
+      "source_notes": [
+        "https://loona.app/"
+      ]
+    },
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "screening_gaps": [
+      "pricing and free-vs-paid scope not stated on the homepage",
+      "age eligibility not stated on the homepage",
+      "languages not stated on the homepage",
+      "privacy policy and terms not reviewed",
+      "accessibility not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "last_verified_at": "2026-11-04",
+    "source_notes": [
+      "https://loona.app/"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "reason": "Screened 2026-11-04: official homepage read live this run; global iOS/Android availability, escapes format, and relaxation-technique framing confirmed from the primary source. Ready for owner review before any promotion."
+  },
+  {
+    "id": "reframe-alcohol-habit-app",
+    "name": "Reframe: Quit or Cut Back on Drinking",
+    "official_url": "https://reframeapp.com/",
+    "publisher": "Reframe",
+    "description": "Alcohol habit-change app for iOS and Android, described as developed with hundreds of medical and mental health experts. Offers a neuroscience-based behavior-change program with daily tasks, in-depth courses (recorded and live videos) on building a life while drinking less, a 24/7 private peer community (including specialized groups such as LGBTQIA+ and Parents' forums), and a craving toolkit (meditations, games, and other tools). The site reports 4,500,000+ downloads and 100,000,000+ drinks eliminated as of August 2025, and claims 91% of users noted a substantial decrease in alcohol use within 3 months.",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "Pricing not stated on the reviewed homepage"
+    ],
+    "languages": [
+      "Not stated on the reviewed homepage"
+    ],
+    "regions": [
+      "Not stated on the reviewed homepage (site says tens of thousands of users 'around the world')"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "tags": [
+      "alcohol",
+      "habit-change",
+      "craving",
+      "peer-community"
+    ],
+    "evidence_notes": "Publisher outcome claims (91% decrease, drinks eliminated) are shown without study citation, sample, or method on the reviewed homepage and were NOT assessed in this screening. 'Developed with experts' is a publisher claim, not a verified credential review.",
+    "limitations": "An alcohol habit-change support app, not a substitute for addiction treatment or medical care; people with alcohol dependence or withdrawal risk need clinical guidance, and the homepage does not state any medical screening or referral pathway — none is assumed here. The community is peer support, not clinical care. Pricing, free-vs-paid scope, age eligibility, languages, geographic availability, and data handling are NOT stated on the reviewed homepage. Owner judgment requested before any promotion given the alcohol-use scope.",
+    "privacy_notes": "Privacy policy and terms were not reviewed in this screening.",
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Community includes specialized forums (e.g., LGBTQIA+, Parents'); broader cultural adaptation is not described on the reviewed homepage.",
+      "source_notes": [
+        "https://reframeapp.com/"
+      ]
+    },
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "screening_gaps": [
+      "pricing and free-vs-paid scope not stated on the homepage",
+      "age eligibility not stated on the homepage",
+      "languages not stated on the homepage",
+      "geographic availability not stated on the homepage",
+      "publisher outcome claims not independently assessed",
+      "medical screening/referral pathway not stated on the homepage",
+      "privacy policy and terms not reviewed",
+      "accessibility not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "last_verified_at": "2026-11-04",
+    "source_notes": [
+      "https://reframeapp.com/"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "reason": "Screened 2026-11-04: official homepage read live this run; program, courses, peer community, and craving toolkit confirmed from the primary source. Owner judgment requested on the alcohol-use scope before any promotion."
+  },
+  {
+    "id": "reflectly-journal",
+    "name": "Reflectly - A Journal for Happiness",
+    "official_url": "https://reflectly.app/",
+    "publisher": "Reflectly",
+    "description": "Journal app that uses artificial intelligence to help users structure and reflect upon daily thoughts and problems; described on its homepage as a personal mental health companion. The official homepage reviewed this run is minimal and does not detail features beyond AI-assisted journaling, platforms, pricing, or availability.",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "Not stated on the reviewed homepage"
+    ],
+    "access": [
+      "Pricing not stated on the reviewed homepage"
+    ],
+    "languages": [
+      "Not stated on the reviewed homepage"
+    ],
+    "regions": [
+      "Not stated on the reviewed homepage"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "tags": [
+      "journaling",
+      "reflection",
+      "ai-assisted"
+    ],
+    "evidence_notes": "No evidence claims were made on the reviewed homepage and none were assessed in this screening.",
+    "limitations": "Screening is thin: the official homepage states only the AI-journaling concept, so platforms, pricing, age eligibility, languages, data handling, and the scope of AI involvement are all UNCONFIRMED and none are assumed here. The AI element must never be framed as clinical care. Owner judgment requested on whether this thin-evidence entry merits promotion at all.",
+    "privacy_notes": "Privacy policy and terms were not reviewed in this screening; how journal entries and AI processing handle user data is unconfirmed.",
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural adaptation information stated on the reviewed homepage.",
+      "source_notes": [
+        "https://reflectly.app/"
+      ]
+    },
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "screening_gaps": [
+      "platforms not stated on the reviewed homepage",
+      "pricing not stated on the reviewed homepage",
+      "age eligibility not stated on the homepage",
+      "languages not stated on the homepage",
+      "geographic availability not stated on the homepage",
+      "AI data-handling details not stated on the homepage",
+      "privacy policy and terms not reviewed",
+      "accessibility not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "last_verified_at": "2026-11-04",
+    "source_notes": [
+      "https://reflectly.app/"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "reason": "Screened 2026-11-04: official homepage read live this run; only the AI-assisted journaling concept is confirmed, and the thin evidence base is recorded honestly in screening_gaps. Ready for owner review before any promotion."
   }
 ]
