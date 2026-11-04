@@ -14995,5 +14995,160 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "Available via GP, health plan, employer, or university; pricing not stated on the reviewed homepage"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Deployed through institutions in the UK (NHS), Ireland (HSE), employers, and higher education; US health-plan and employer use also described. Fit for other regions was not assessed.",
+      "source_notes": [
+        "https://silvercloudhealth.com/"
+      ]
+    },
+    "description": "Interactive, personalised digital mental-health and wellbeing programmes accessed confidentially via an app on mobile, tablet, or computer. Programmes cover wellbeing (stress, resilience, money worries, positive body image), mental health (depression, anxiety, depression and anxiety, ADHD and more), chronic conditions (chronic pain, diabetes, CHD, COPD and lung conditions), substance use (alcohol, drug), and family (supporting an anxious child or teen, low mood and anxiety for teens, perinatal wellbeing), plus digital tools for therapy services. The homepage directs individuals to access through their GP, certain health plans, or university.",
+    "evidence_notes": "Publisher describes the programmes as clinically validated and claims up to 80% of users show improvement in anxiety and depression and up to 65% recovery. No efficacy claims were assessed in this screening.",
+    "id": "silvercloud-by-amwell",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-03",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Not open self-serve access: availability and cost depend on the local referrer (GP, health plan, employer, university), and pricing is not stated on the homepage. Publisher efficacy percentages are shown without sample size, date, or source on the homepage. Supporter/therapist model per programme is not described on the homepage.",
+    "name": "SilverCloud by Amwell",
+    "needs": [
+      "find support"
+    ],
+    "official_url": "https://silvercloudhealth.com/",
+    "platforms": [
+      "Web",
+      "Mobile app"
+    ],
+    "privacy_notes": "Homepage describes the platform as confidential; the privacy policy itself was not reviewed in this screening.",
+    "publisher": "SilverCloud by Amwell (Amwell)",
+    "reason": "Screened 2026-11-03: official homepage fetched live this run; publisher, programme areas, and GP/health-plan/university access route confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United Kingdom",
+      "Ireland",
+      "United States"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "web-platform",
+    "review_status": "screened",
+    "screening_gaps": [
+      "individual access route and cost not confirmed",
+      "programme language availability not stated on the homepage",
+      "supporter/therapist model per programme not confirmed",
+      "accessibility not assessed",
+      "privacy policy not reviewed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://silvercloudhealth.com/"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "digital-therapy",
+      "wellbeing",
+      "referral-based"
+    ],
+    "use_context": [
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "Pricing not stated on the reviewed homepage"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Canadian programme (TELUS Health; formerly Morneau Shepell's AbilitiCBT). The homepage offers a separate entry point for Programs for Indigenous Peoples, not reviewed in detail this run. The homepage does not state geographic eligibility, so availability outside Canada is unconfirmed.",
+      "source_notes": [
+        "https://myicbt.com"
+      ]
+    },
+    "description": "Internet-based cognitive behavioural therapy (CBT) programme accessed from any device, anytime and anywhere. Five-step flow on the homepage: a brief self-assessment (5-10 minutes) with therapist choice and first-appointment booking; app or web programme of activities, videos, and exercises for changing thoughts, feelings, and behaviours; connection with a dedicated therapist by phone or video; and regular therapist check-ins by message, phone, or video at a frequency decided with the therapist. Therapists are described as licensed health professionals with specialised training for virtual CBT. Separate homepage entry points: General Programs and Programs for Indigenous Peoples.",
+    "evidence_notes": "Publisher describes virtual therapist-assisted support as just as effective as traditional in-person therapy. No efficacy claims were assessed in this screening.",
+    "id": "telus-health-cbt",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English",
+      "French (Francais selector on the homepage)"
+    ],
+    "last_verified_at": "2026-11-03",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Pricing, payment/benefits coverage, age eligibility, geographic eligibility, and treated conditions are NOT stated on the homepage — none are assumed here. Publisher homepage percentages (for example 97% would recommend the programme) are shown without sample size, date, or source. This is a therapist-guided service, not an independent-use self-help tool.",
+    "name": "TELUS Health CBT (formerly AbilitiCBT)",
+    "needs": [
+      "find support"
+    ],
+    "official_url": "https://myicbt.com",
+    "platforms": [
+      "Web",
+      "Mobile app",
+      "Phone"
+    ],
+    "privacy_notes": "Homepage describes shared information as confidential; the privacy policy and terms were not reviewed in this screening.",
+    "publisher": "TELUS Health (formerly Morneau Shepell's AbilitiCBT)",
+    "reason": "Screened 2026-11-03: official homepage (redirects to myicbt.com/home) read live this run via a rendered browser check; publisher, therapist-guided model, five-step flow, and English/Francais availability confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Canada"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "web-platform",
+    "review_status": "screened",
+    "screening_gaps": [
+      "price and benefits coverage not confirmed",
+      "age eligibility not stated on the homepage",
+      "geographic eligibility not stated on the homepage",
+      "treated-condition list not stated on the homepage",
+      "Programs for Indigenous Peoples details not reviewed",
+      "privacy policy and terms not reviewed",
+      "accessibility not assessed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://myicbt.com",
+      "https://myicbt.com/home"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "therapist-guided",
+      "canada",
+      "online-therapy"
+    ],
+    "use_context": [
+      "therapist-guided"
+    ]
   }
 ]
