@@ -15379,5 +15379,162 @@
     "review_status": "screened",
     "status": "screened",
     "reason": "Screened 2026-11-04: official homepage read live this run; only the AI-assisted journaling concept is confirmed, and the thin evidence base is recorded honestly in screening_gaps. Ready for owner review before any promotion."
-  }
+  },
+{
+  "id": "i-am-sober-app",
+  "name": "I Am Sober - Sobriety Tracker",
+  "official_url": "https://iamsober.com/en/site/home",
+  "publisher": "I Am Sober",
+  "description": "Sobriety and habit-change tracker app built around a daily pledge and end-of-day review system: track sober days toward milestones, watch savings grow, reflect on patterns, and connect with a peer community organized by addiction type (including alcohol, drugs, nicotine, and self-harm) and by sobriety-milestone stage. The homepage reports 127M+ daily pledges made, 30M+ addictions set up and tracked, 11M+ stories shared, and 200K+ 5-star reviews; these are publisher counts, not assessed outcomes.",
+  "resource_type": "mobile-app",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "access": [
+    "Pricing not stated on the reviewed homepage (store listings describe a free app with an optional paid Sober Plus subscription)"
+  ],
+  "languages": [
+    "Not stated on the reviewed homepage"
+  ],
+  "regions": [
+    "Not stated on the reviewed homepage"
+  ],
+  "intended_population": [
+    "general"
+  ],
+  "needs": [
+    "practice"
+  ],
+  "use_context": [
+    "independent-use"
+  ],
+  "shelf": "practice",
+  "tags": [
+    "sobriety",
+    "habit-change",
+    "daily-pledge",
+    "milestones",
+    "peer-community"
+  ],
+  "evidence_notes": "Publisher usage counts and review counts are shown without method or sample on the reviewed homepage and were NOT assessed in this screening. A CBT-methods mention appears only in a user testimonial on the page, not as a publisher claim, and was not treated as evidence.",
+  "limitations": "A tracking and peer-support aid, not addiction treatment or medical care; people with dependence or withdrawal risk need clinical guidance, and the homepage states no medical screening or referral pathway - none is assumed here. The community is peer support, not clinical care, and it includes a self-harm community, so owner judgment is requested before any promotion. Pricing, free-vs-paid scope, age eligibility, languages, geographic availability, and data handling are NOT stated on the reviewed homepage.",
+  "privacy_notes": "Privacy policy and terms were not reviewed in this screening.",
+  "accessibility": [
+    "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "No cultural adaptation information stated on the reviewed homepage.",
+    "source_notes": [
+      "https://iamsober.com/en/site/home"
+    ]
+  },
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "screening_gaps": [
+    "pricing and free-vs-paid scope not stated on the homepage",
+    "age eligibility not stated on the homepage",
+    "languages not stated on the homepage",
+    "geographic availability not stated on the homepage",
+    "platforms not stated in homepage text (iOS/Android inferred from app screenshots and store listings)",
+    "publisher usage and review counts not independently assessed",
+    "medical screening/referral pathway not stated on the homepage",
+    "privacy policy and terms not reviewed",
+    "accessibility not assessed"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "last_verified_at": "2026-11-04",
+  "source_notes": [
+    "https://iamsober.com/en/site/home"
+  ],
+  "review_status": "screened",
+  "status": "screened",
+  "reason": "Screened 2026-11-04: official homepage read live this run; daily pledge/review system, milestone and savings tracking, and peer community by addiction type and stage confirmed from the primary source. Ready for owner review before any promotion; owner judgment requested given the addiction and self-harm community scope."
+},
+{
+  "id": "meditopia-meditation-sleep-app",
+  "name": "Meditopia: Meditation, Sleep, Mindfulness",
+  "official_url": "https://meditopia.com/en/individuals",
+  "publisher": "Meditopia",
+  "description": "Personalized mindfulness meditation program: complete an emotional assessment, download the app, and receive a personal program drawn from a library of 1000+ meditations, articles, sleep stories, and music, plus daily meditations and articles, sleep meditations and nature sounds, and chat with one of 100+ certified mental health coaches. Topics include developing focus, facing work challenges, reducing stress, dealing with anxiety, and sleep. The page claims 36M+ users, a 4.9/5 rating from 850k+ reviews, and use in over 60 countries.",
+  "resource_type": "mobile-app",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "access": [
+    "Pricing and free-vs-paid scope not stated on the reviewed page"
+  ],
+  "languages": [
+    "Not stated on the reviewed page"
+  ],
+  "regions": [
+    "60+ countries (publisher claim on the reviewed page)"
+  ],
+  "intended_population": [
+    "general"
+  ],
+  "needs": [
+    "sleep",
+    "calm",
+    "anxiety"
+  ],
+  "use_context": [
+    "independent-use"
+  ],
+  "shelf": "practice",
+  "tags": [
+    "meditation",
+    "mindfulness",
+    "sleep",
+    "stress",
+    "coaching"
+  ],
+  "evidence_notes": "Coaching-program outcome figures on the page (42% decrease in stress, 60% improvement in sleep, 32% less anxiety) are footnoted as pre and post survey results of program participants, with no control group, sample size, or study citation, and were NOT assessed in this screening. User counts and ratings are publisher claims, not independently assessed.",
+  "limitations": "A meditation and wellbeing aid, not a treatment for anxiety, stress, or insomnia; coach chat is described as coaching, and no clinical scope is stated on the reviewed page - none is assumed here. Pricing, free-vs-paid scope, languages, age eligibility, and data handling are NOT stated on the reviewed page.",
+  "privacy_notes": "Privacy policy and terms were not reviewed in this screening.",
+  "accessibility": [
+    "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "No cultural adaptation information stated on the reviewed page, beyond the 60+ country reach claim.",
+    "source_notes": [
+      "https://meditopia.com/en/individuals"
+    ]
+  },
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "screening_gaps": [
+    "pricing and free-vs-paid scope not stated on the reviewed page",
+    "age eligibility not stated on the reviewed page",
+    "languages not stated on the reviewed page",
+    "coaching outcome figures not independently assessed (participant pre/post survey only)",
+    "privacy policy and terms not reviewed",
+    "accessibility not assessed"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "last_verified_at": "2026-11-04",
+  "source_notes": [
+    "https://meditopia.com/en/individuals"
+  ],
+  "review_status": "screened",
+  "status": "screened",
+  "reason": "Screened 2026-11-04: official individuals page read live this run; assessment-to-personal-program flow, 1000+ content library, sleep content, and coach chat confirmed from the primary source. Ready for owner review before any promotion."
+}
 ]
