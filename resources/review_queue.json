@@ -15766,5 +15766,257 @@
  "review_status": "screened",
  "status": "screened",
  "reason": "Screened 2026-11-04: official homepage read live this run; free gratitude journaling flow, prompts, reminders, journeys, local storage with Face/Touch ID, iCloud sync, and Apple-only availability confirmed from the primary source. Ready for owner review before any promotion."
+},
+{
+ "id": "emoods-classic-mood-tracker",
+ "name": "eMoods Classic - Bipolar Mood Tracker",
+ "official_url": "https://emoodtracker.com/additional-apps/classic",
+ "publisher": "Yottaram LLC",
+ "description": "Completely offline mood and symptom tracker, originally developed in 2010 for the bipolar community and free for all users. Logs daily highs and lows, sleep, medications, and other symptoms related to bipolar/manic-depressive illness, depression, anxiety, or BPD, with toggleable custom tracking points, and emails a printable monthly chart/report to a doctor or caregiver to help identify triggers or events that could lead to an episode or relapse. No registration and no login; data is stored only on the device.",
+ "resource_type": "mobile-app",
+ "platforms": [
+  "iOS",
+  "Android"
+ ],
+ "access": [
+  "free"
+ ],
+ "languages": [
+  "English",
+  "Russian",
+  "Korean",
+  "German",
+  "French",
+  "Spanish",
+  "Portuguese"
+ ],
+ "regions": [
+  "Not stated on the reviewed official page"
+ ],
+ "intended_population": [
+  "general"
+ ],
+ "needs": [
+  "practice"
+ ],
+ "use_context": [
+  "independent-use"
+ ],
+ "shelf": "practice",
+ "tags": [
+  "mood-tracking",
+  "bipolar",
+  "symptom-tracking",
+  "sleep",
+  "medication",
+  "offline"
+ ],
+ "evidence_notes": "No outcome claims are made on the reviewed official page beyond user testimonials, and none were assessed in this screening; no study is cited on the reviewed page.",
+ "limitations": "A tracking aid, not medical advice or treatment: the official page states it should only be used under the supervision of a licensed professional, and it is not a crisis service (the page points to 911 / 988 in the US). The store listing notes the app charts one daily set of extremes rather than multiple moods per day, and that an optional paid patron tier unlocks extra features; patron pricing was not reviewed on the official page. Do not confuse Classic with eMoods Insights, the separate cloud-based web product.",
+ "privacy_notes": "Official page states Classic is completely offline with no registration, no cloud storage, and no data ever leaving the device without the user's permission; this is a strong privacy fit, but the privacy policy itself was not reviewed in this screening.",
+ "accessibility": [
+  "Not listed on the reviewed official page; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Translated into several languages per the official page (see languages); no cultural adaptation information beyond translation is stated.",
+  "source_notes": [
+   "https://emoodtracker.com/additional-apps/classic"
+  ]
+ },
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "screening_gaps": [
+  "full language list not stated (official page says \"including\" the listed languages)",
+  "age eligibility not stated on the reviewed official page",
+  "regions not stated on the reviewed official page",
+  "patron tier pricing/features not reviewed on the official page",
+  "privacy policy not reviewed",
+  "accessibility not assessed"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "last_verified_at": "2026-11-04",
+ "source_notes": [
+  "https://emoodtracker.com/additional-apps/classic"
+ ],
+ "review_status": "screened",
+ "status": "screened",
+ "reason": "Screened 2026-11-04: official Classic page read live this run; fully offline free mood/symptom tracking, device-only storage, monthly printable reports, and licensed-professional-supervision scope confirmed from the primary source. Ready for owner review before any promotion."
+},
+{
+ "id": "freecbt-thought-diary",
+ "name": "FreeCBT - Open Source Thought Diary",
+ "official_url": "https://github.com/erosson/freecbt",
+ "publisher": "Evan Rosson (erosson)",
+ "description": "Free, ad-free, GPL-3.0 open-source thought diary for Cognitive Behavioral Therapy, a maintained fork of Quirk, for iOS and Android. Deliberately minimal: record an automatic thought, tag the cognitive distortion, and write an alternative thought (catch it, check it, change it). Unlike many CBT apps it does not ask about mood or push depression-specific exercises, which the project says keeps entries quick and discreet in public settings; it also states a design rule against engagement-maximizing mechanics.",
+ "resource_type": "mobile-app",
+ "platforms": [
+  "iOS",
+  "Android"
+ ],
+ "access": [
+  "free"
+ ],
+ "languages": [
+  "English",
+  "German",
+  "Norwegian Bokmål",
+  "Bulgarian",
+  "Russian",
+  "Hindi",
+  "Portuguese",
+  "Farsi",
+  "Italian",
+  "Spanish",
+  "Polish",
+  "Finnish",
+  "Dutch",
+  "Korean",
+  "Chinese",
+  "French",
+  "Romanian"
+ ],
+ "regions": [
+  "Not stated on the reviewed project page"
+ ],
+ "intended_population": [
+  "general"
+ ],
+ "needs": [
+  "practice"
+ ],
+ "use_context": [
+  "independent-use"
+ ],
+ "shelf": "practice",
+ "tags": [
+  "cbt",
+  "thought-diary",
+  "cognitive-distortions",
+  "open-source",
+  "offline"
+ ],
+ "evidence_notes": "No outcome study for FreeCBT itself is cited on the reviewed project page and none was assessed in this screening; the project invites mental-health professionals to audit its distortion descriptions, which signals the descriptions are community-maintained rather than clinically validated here.",
+ "limitations": "A self-help CBT practice aid, not a treatment and not a substitute for a therapist; best framed as a companion to CBT work. Single-purpose by design: no mood tracking, diary, relaxation audio, or meditation content, so users wanting those need a second tool. Translation coverage varies by contributor (see languages); age eligibility is NOT stated on the reviewed project page.",
+ "privacy_notes": "Project design statement treats thoughts as highly private and opposes undisclosed server transmission; the repo ships a PRIVACY.md, but that file was not read in this screening, so data handling beyond the design statement is unconfirmed.",
+ "accessibility": [
+  "Not listed on the reviewed project page; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Community translations cover many languages (see languages); no cultural adaptation information beyond translation is stated on the reviewed project page.",
+  "source_notes": [
+   "https://github.com/erosson/freecbt"
+  ]
+ },
+ "license_notes": "App code GPL-3.0; the project notes its license does not grant redistribution of the FreeCBT name/branding. SootheSpot stores metadata only.",
+ "screening_gaps": [
+  "PRIVACY.md not read",
+  "age eligibility not stated on the reviewed project page",
+  "regions not stated on the reviewed project page",
+  "distortion descriptions not clinically audited in this screening",
+  "accessibility not assessed"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "last_verified_at": "2026-11-04",
+ "source_notes": [
+  "https://github.com/erosson/freecbt"
+ ],
+ "review_status": "screened",
+ "status": "screened",
+ "reason": "Screened 2026-11-04: official project repo read live this run; free ad-free GPL thought diary, three-column CBT flow, no-mood-tracking design, and anti-engagement design rules confirmed from the primary source. Ready for owner review before any promotion."
+},
+{
+ "id": "intellect-self-care-app",
+ "name": "Intellect: Create A Better You",
+ "official_url": "https://play.google.com/store/apps/details?id=co.intellect.app",
+ "publisher": "Intellect Company Pte. Ltd.",
+ "description": "Self-care cognitive behavioural therapy app with bite-sized learning paths (managing emotions, poor sleep, anxiety, procrastination, stress, relationship issues), a mood tracker that suggests coping actions, short rescue sessions for overwhelming feelings, and guided journals. The developer listing also offers matching to an online therapist or behavioural health coach, but only for enterprise users and consumers in select markets. Listing states the app serves users in more than 50 countries and was one of Google's Best Apps of 2020.",
+ "resource_type": "mobile-app",
+ "platforms": [
+  "iOS",
+  "Android"
+ ],
+ "access": [
+  "free"
+ ],
+ "languages": [
+  "Not stated on the reviewed listing"
+ ],
+ "regions": [
+  "More than 50 countries worldwide, per the developer listing (specific countries not listed)"
+ ],
+ "intended_population": [
+  "general"
+ ],
+ "needs": [
+  "practice"
+ ],
+ "use_context": [
+  "independent-use"
+ ],
+ "shelf": "practice",
+ "tags": [
+  "cbt",
+  "learning-paths",
+  "mood-tracking",
+  "rescue-sessions",
+  "guided-journaling",
+  "habits"
+ ],
+ "evidence_notes": "The developer listing claims the content is \"clinically validated by psychologists and behavioural experts,\" but no validation study is cited on the reviewed listing and that claim was NOT assessed in this screening.",
+ "limitations": "A self-care aid, not a treatment and not a crisis service; coaching/therapy matching is market-restricted and is not the self-care product screened here. Owner judgment requested on two points: the listing advertises \"personal usage streaks and badges,\" which sit in tension with SootheSpot's no-streaks / no-engagement-mechanics principle, and the free-vs-paid boundary is unclear on the reviewed listing (price listed as free, but third-party listings report in-app purchases/subscriptions) — the paid tier was not verified. Languages and age eligibility are NOT stated on the reviewed listing.",
+ "privacy_notes": "The reviewed listing does not state data practices for the consumer self-care app; the privacy policy was not reviewed in this screening. (A separate enterprise page states Intellect never discloses personal information to an employer, but that is an enterprise claim, not verified here for the consumer app.)",
+ "accessibility": [
+  "Not listed on the reviewed listing; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Marketed across 50+ countries with coaches in a variety of languages per the listing, but no cultural adaptation information for the self-guided content is stated on the reviewed listing.",
+  "source_notes": [
+   "https://play.google.com/store/apps/details?id=co.intellect.app"
+  ]
+ },
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "screening_gaps": [
+  "official homepage not separately reviewed (developer store listing used as the primary source this run)",
+  "clinical-validation claim not assessed",
+  "free-vs-paid boundary not verified",
+  "languages not stated on the reviewed listing",
+  "age eligibility not stated on the reviewed listing",
+  "privacy policy not reviewed",
+  "accessibility not assessed"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "last_verified_at": "2026-11-04",
+ "source_notes": [
+  "https://play.google.com/store/apps/details?id=co.intellect.app"
+ ],
+ "review_status": "screened",
+ "status": "screened",
+ "reason": "Screened 2026-11-04: developer store listing read live this run; self-guided CBT learning paths, mood tracker, rescue sessions, guided journals, and market-restricted coaching/therapy matching confirmed from the primary source, with streaks/badges and the unverified validation claim flagged for owner judgment. Ready for owner review before any promotion."
 }
 ]
