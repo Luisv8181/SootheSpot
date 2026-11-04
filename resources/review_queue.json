@@ -15536,5 +15536,235 @@
   "review_status": "screened",
   "status": "screened",
   "reason": "Screened 2026-11-04: official individuals page read live this run; assessment-to-personal-program flow, 1000+ content library, sleep content, and coach chat confirmed from the primary source. Ready for owner review before any promotion."
+},
+{
+ "id": "stoic-journal-app",
+ "name": "Stoic - Journal for Daily Reflection",
+ "official_url": "https://www.getstoic.com/",
+ "publisher": "Stoic",
+ "description": "Daily reflection journaling app: morning check-in and evening wrap-up, guided journals with prompts curated by therapists and experts, mood-trend tracking, meditation and breathing practices, quotes and affirmations, and themed events. Habit features include smart reminders, streak trackers, and badges. Free to start with optional Premium; syncing across Apple devices and the Web requires Premium. The homepage reports 4M+ downloads and states the app works on iPhone, iPad, macOS, Apple Watch, and the Web.",
+ "resource_type": "mobile-app",
+ "platforms": [
+  "iOS",
+  "macOS",
+  "Apple Watch",
+  "Web"
+ ],
+ "access": [
+  "Free to start with optional Premium (Premium price not stated on the reviewed homepage)"
+ ],
+ "languages": [
+  "Not stated on the reviewed homepage"
+ ],
+ "regions": [
+  "Not stated on the reviewed homepage"
+ ],
+ "intended_population": [
+  "general"
+ ],
+ "needs": [
+  "practice",
+  "mood"
+ ],
+ "use_context": [
+  "independent-use"
+ ],
+ "shelf": "practice",
+ "tags": [
+  "journaling",
+  "reflection",
+  "mood-tracking",
+  "breathing",
+  "meditation"
+ ],
+ "evidence_notes": "App Store user testimonials quoted on the homepage (including claims about easing anxiety and depression) are testimonials, not assessed outcomes, and no study citation appears on the reviewed homepage. The 4M+ download count is a publisher claim, not independently assessed.",
+ "limitations": "A journaling and reflection aid, not a treatment for anxiety or depression; testimonial language must never be framed as clinical evidence. Streak trackers and badges sit in tension with SootheSpot's no-streaks, no-engagement-mechanics principle - owner judgment requested before any promotion. If AI features are enabled, journal entries are sent to the publisher's AI providers (stated on the homepage); that data flow needs privacy review. Premium price, languages, and age eligibility are NOT stated on the reviewed homepage.",
+ "privacy_notes": "Homepage states journals are stored on the user's devices and, with Premium, backed up so they are never lost, and that enabling AI features sends entries to AI providers listed in the Privacy Policy. The privacy policy and terms were not reviewed in this screening.",
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "No cultural adaptation information stated on the reviewed homepage.",
+  "source_notes": [
+   "https://www.getstoic.com/"
+  ]
+ },
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "screening_gaps": [
+  "Premium pricing not stated on the reviewed homepage",
+  "languages not stated on the reviewed homepage",
+  "age eligibility not stated on the reviewed homepage",
+  "AI provider list and privacy policy not reviewed",
+  "accessibility not assessed",
+  "testimonial claims not assessed"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "last_verified_at": "2026-11-04",
+ "source_notes": [
+  "https://www.getstoic.com/"
+ ],
+ "review_status": "screened",
+ "status": "screened",
+ "reason": "Screened 2026-11-04: official homepage read live this run; morning/evening reflection flow, guided journals, mood-trend tracking, breathing/meditation content, and the AI data-flow disclosure confirmed from the primary source. Ready for owner review before any promotion."
+},
+{
+ "id": "moshi-kids-sleep-app",
+ "name": "Moshi Kids - Sleep, Relax, Play",
+ "official_url": "https://www.moshikids.com/faqs/",
+ "publisher": "Moshi",
+ "description": "Children's audio sleep and relaxation app: bedtime stories, sleep sounds, white noise, lullabies, music, and meditations, designed to be used audio-only at bedtime (the device screen can be switched off). The official FAQ page states the app is designed for kids but enjoyable at any age, supports Apple iOS 12+ and Android 8.0+, offers selected free content with the full library via subscription, and describes the whole app suite as 100% ad-free. A separate Moshi Play app covers play activities, and a bundle subscription covers all five Moshi apps.",
+ "resource_type": "mobile-app",
+ "platforms": [
+  "iOS",
+  "Android"
+ ],
+ "access": [
+  "Free to download with selected free content; full library via subscription (price not stated on the reviewed FAQ page); 7-day free trial offered"
+ ],
+ "languages": [
+  "Not stated on the reviewed FAQ page"
+ ],
+ "regions": [
+  "Not stated on the reviewed FAQ page"
+ ],
+ "intended_population": [
+  "children",
+  "families"
+ ],
+ "needs": [
+  "sleep",
+  "calm"
+ ],
+ "use_context": [
+  "independent-use"
+ ],
+ "shelf": "practice",
+ "tags": [
+  "sleep",
+  "bedtime-stories",
+  "children",
+  "audio",
+  "relaxation"
+ ],
+ "evidence_notes": "Sleep-effectiveness claims (for example, falling asleep faster or fewer night wakings) appear on store listings, not on the official FAQ page reviewed here, and were NOT assessed in this screening; no study is cited on the reviewed page.",
+ "limitations": "A children's sleep and relaxation aid, not a treatment for sleep problems or anxiety. Owner judgment requested on two points: the reward mechanics in the Moshi Play companion app (daily quests, collectible stickers) sit in tension with SootheSpot's no-engagement-mechanics principle, and any listing for children needs a child-safety review. Trial caution stated on the reviewed page: a free trial can be redeemed only once, and attempting a second trial may result in immediate charging; subscriptions renew automatically unless cancelled at least 24 hours before renewal. Subscription price, languages, and regions are NOT stated on the reviewed page; offline mode is subscribers-only and requires reconnection within 24 hours.",
+ "privacy_notes": "An account is required to unlock the full experience, per the reviewed FAQ page. The privacy policy and terms were not reviewed in this screening.",
+ "accessibility": [
+  "Not listed on the reviewed FAQ page; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "No cultural adaptation information stated on the reviewed FAQ page.",
+  "source_notes": [
+   "https://www.moshikids.com/faqs/"
+  ]
+ },
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "screening_gaps": [
+  "subscription price not stated on the reviewed FAQ page",
+  "languages not stated on the reviewed FAQ page",
+  "regions not stated on the reviewed FAQ page",
+  "store-listing sleep claims not assessed",
+  "privacy policy and terms not reviewed",
+  "accessibility not assessed"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "last_verified_at": "2026-11-04",
+ "source_notes": [
+  "https://www.moshikids.com/faqs/"
+ ],
+ "review_status": "screened",
+ "status": "screened",
+ "reason": "Screened 2026-11-04: official FAQ page read live this run; audio-only bedtime design, iOS/Android support, free-content-plus-subscription model, ad-free claim, and trial/renewal terms confirmed from the primary source. Ready for owner review before any promotion."
+},
+{
+ "id": "gratu-gratitude-journal-app",
+ "name": "gratu - Gratitude Journal",
+ "official_url": "https://gratu.app/",
+ "publisher": "gratu",
+ "description": "Gratitude journaling app: capture daily gratitude entries as they happen, revisit them on a timeline, use thoughtful guided prompts and gentle daily reminders, and build momentum with 7-day or 30-day gratitude journeys. Free to download and use with no subscriptions, per the homepage. Entries are stored locally on the device, protected by Face ID or Touch ID, and sync across Apple devices via iCloud. Dark mode is included.",
+ "resource_type": "mobile-app",
+ "platforms": [
+  "iOS",
+  "macOS"
+ ],
+ "access": [
+  "free"
+ ],
+ "languages": [
+  "Not stated on the reviewed homepage"
+ ],
+ "regions": [
+  "Not stated on the reviewed homepage"
+ ],
+ "intended_population": [
+  "general"
+ ],
+ "needs": [
+  "practice"
+ ],
+ "use_context": [
+  "independent-use"
+ ],
+ "shelf": "practice",
+ "tags": [
+  "gratitude",
+  "journaling",
+  "reflection",
+  "prompts"
+ ],
+ "evidence_notes": "No outcome claims are made on the reviewed homepage beyond user testimonials, and none were assessed in this screening. The publisher's no-ads, no-analytics, no-data-collection statements are publisher claims; the privacy policy was not reviewed.",
+ "limitations": "A gratitude journaling aid, not a treatment for any condition. Apple-only: the homepage FAQ states gratu is available on iPhone, iPad, and Mac with no Android version, so Android users are excluded. Languages and age eligibility are NOT stated on the reviewed homepage.",
+ "privacy_notes": "Homepage states entries are stored locally, protected by Face ID or Touch ID, never stored on the publisher's servers, with zero tracking or analytics, and synced via iCloud across Apple devices. The privacy policy was not reviewed in this screening.",
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "No cultural adaptation information stated on the reviewed homepage.",
+  "source_notes": [
+   "https://gratu.app/"
+  ]
+ },
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "screening_gaps": [
+  "languages not stated on the reviewed homepage",
+  "age eligibility not stated on the reviewed homepage",
+  "privacy policy not reviewed",
+  "accessibility not assessed"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "last_verified_at": "2026-11-04",
+ "source_notes": [
+  "https://gratu.app/"
+ ],
+ "review_status": "screened",
+ "status": "screened",
+ "reason": "Screened 2026-11-04: official homepage read live this run; free gratitude journaling flow, prompts, reminders, journeys, local storage with Face/Touch ID, iCloud sync, and Apple-only availability confirmed from the primary source. Ready for owner review before any promotion."
 }
 ]
