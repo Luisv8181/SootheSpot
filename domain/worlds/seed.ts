@@ -166,5 +166,19 @@ export const worlds: World[] = [
     purpose: { en: "Explore a sheltered sensory space at your own pace.", es: "Explora un espacio sensorial protegido a tu propio ritmo." },
     durationMinutes: 4, provenance: "soothespot",
     activity: [{ type: "ambientScene" }, { type: "sanctuaryInteraction" }, { type: "timer" }, { type: "completion" }]
+  },
+  {
+    version: 1, id: "listening-forest", theme: "forest", category: "sensory",
+    title: { en: "Listening Forest", es: "Bosque que escucha" },
+    description: {
+      en: "Explore a pixel rainforest inspired by the blue waters and lush green of Río Celeste, Costa Rica.",
+      es: "Explora una selva de píxeles inspirada en las aguas azules y el verdor de Río Celeste, Costa Rica."
+    },
+    purpose: {
+      en: "Listen and explore a gentle rainforest at your own pace.",
+      es: "Escucha y explora una selva tranquila a tu propio ritmo."
+    },
+    durationMinutes: 8, provenance: "soothespot",
+    activity: [{ type: "ambientScene" }, { type: "forestInteraction" }, { type: "timer" }, { type: "completion" }]
   }
 ].map(validateExperienceSpec);
