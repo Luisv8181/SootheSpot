@@ -14766,5 +14766,234 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed pages; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Australian Government mental-health gateway. The news page lists TIS National (131 450) for interpreter access; non-Australian fit was not assessed.",
+      "source_notes": [
+        "https://www.medicarementalhealth.gov.au/news/new-head-to-health-website"
+      ]
+    },
+    "description": "Australian Government gateway for finding mental-health and wellbeing support: a website (formerly Head to Health) with a starting-point quiz, information pages on wellbeing, talking about challenges, diagnoses and navigating services, and search for GPs and local mental-health services; a national phone service on 1800 595 212; and walk-in centres described as a safe and welcoming space to talk to someone in distress or needing help finding support. The site also carries carer and support-network resources.",
+    "evidence_notes": "Publisher is the Australian Government (Department of Health and Aged Care). No efficacy claims were assessed in this screening.",
+    "id": "medicare-mental-health-australia",
+    "intended_population": [
+      "adults",
+      "carers"
+    ],
+    "languages": [
+      "English (per the reviewed pages)",
+      "Interpreter access via TIS National 131 450 (per the news page)"
+    ],
+    "last_verified_at": "2026-11-03",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Wayfinding and referral gateway, not a treatment provider and not a crisis service; PHN notices direct emergencies to triple zero (000). Australia-only scope; U.S. crisis numbers do not apply. Branding is mid-transition: the fetched official page still presents the service as Head to Health, while Primary Health Network notices report the website and phone service were renamed Medicare Mental Health in 2025 (centres retaining Head to Health branding) — confirm current branding before promoting.",
+    "name": "Medicare Mental Health (formerly Head to Health)",
+    "needs": [
+      "find support"
+    ],
+    "official_url": "https://www.medicarementalhealth.gov.au/",
+    "platforms": [
+      "Web",
+      "Phone"
+    ],
+    "privacy_notes": "No account or data-collection description on the reviewed pages; the quiz and any linked services were not reviewed in this screening.",
+    "publisher": "Australian Government (Department of Health and Aged Care)",
+    "reason": "Screened 2026-11-03: official Medicare Mental Health news page fetched live this run; publisher, free access, gateway purpose and phone number confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Australia"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "service-directory",
+    "review_status": "screened",
+    "screening_gaps": [
+      "quiz content and data handling not reviewed",
+      "centre locations and hours not verified",
+      "current branding transition not resolved",
+      "accessibility not assessed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://www.medicarementalhealth.gov.au/news/new-head-to-health-website"
+    ],
+    "status": "screened",
+    "tags": [
+      "referral",
+      "gateway",
+      "australia",
+      "find-help",
+      "independent-use",
+      "phone-support"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "paid"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Canadian virtual therapy clinic, now part of GreenShield. Clinician licensing and benefits coverage are province- and plan-specific; non-Canadian fit was not assessed.",
+      "source_notes": [
+        "https://www.mindbeacon.com/"
+      ]
+    },
+    "description": "Canadian virtual mental-health therapy clinic (now part of GreenShield, described on its homepage as Canada's only national non-profit health-care and insurance organization). Offers therapist-guided CBT programs of readings and exercises, live video or phone sessions with a therapist of the client's choice (appointments typically available next day), and in-person sessions and assessments via CBT Associate Clinics. Joining is free and includes a monthly newsletter and Ask an Expert events; clinicians are licensed social workers, psychotherapists or psychologists. Listed concern areas include anxiety, depression, trauma, panic, OCD concerns, sleep, grief, chronic pain and relationships.",
+    "evidence_notes": "Publisher describes its programs as guided by licensed professionals. No efficacy claims were assessed in this screening.",
+    "id": "mindbeacon-guided-cbt",
+    "intended_population": [
+      "adults"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-03",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Therapy service, not a free self-help tool: joining is free, but guided programs and live sessions are priced — the fetched homepage cites flexible pricing and benefits coverage but states no prices, so no price is quoted here. Canada-focused; not a crisis service. Age eligibility and language availability are not stated on the fetched homepage.",
+    "name": "MindBeacon Guided CBT",
+    "needs": [
+      "find support"
+    ],
+    "official_url": "https://www.mindbeacon.com/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Homepage describes therapy as taking place in a private, secure virtual clinic account; the privacy policy itself was not reviewed in this screening.",
+    "publisher": "MindBeacon (part of GreenShield)",
+    "reason": "Screened 2026-11-03: official MindBeacon homepage fetched live this run; publisher, free-to-join scope, guided-CBT and live-session offerings confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Canada"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "web-platform",
+    "review_status": "screened",
+    "screening_gaps": [
+      "program prices and benefits eligibility not confirmed from the homepage",
+      "age eligibility not stated on the fetched page",
+      "language availability not stated on the fetched page",
+      "privacy policy not reviewed",
+      "accessibility not assessed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://www.mindbeacon.com/"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "guided-therapy",
+      "online-therapy",
+      "canada",
+      "therapist-guided"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Ontario provincial program delivered through regional lead networks and local partner sites (CMHA North Bay and District page reviewed). Non-Ontario fit was not assessed.",
+      "source_notes": [
+        "https://nbd.cmha.ca/programs-services/ontario-structured-psychotherapy-program/"
+      ]
+    },
+    "description": "Free mental-health support for Ontario adults (18+) experiencing mild to moderate depression, anxiety and anxiety-related concerns. Services are based on cognitive behavioural therapy (CBT) and can be delivered virtually, by phone, or in person, ranging from self-paced tools with guidance from a coach or clinician to one-on-one and group therapy. Self-referrals are accepted; no Ontario health card or primary care provider is needed. In Northeastern Ontario, intake is managed by Health Sciences North (self-refer by calling 1-833-496-3677 or visiting neosp.ca); elsewhere in Ontario, the Ontario Health program page lists the regional lead network.",
+    "evidence_notes": "Publisher is the Ontario Structured Psychotherapy Program, via a CMHA chapter page. No efficacy claims were assessed in this screening.",
+    "id": "ontario-structured-psychotherapy-program",
+    "intended_population": [
+      "adults"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-03",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Ontario residents only, and mild-to-moderate scope: the page states the program is not suitable for everyone, including people with complex needs or conditions outside its scope. Regional access routes differ; only the Northeastern Ontario route was confirmed in detail this run.",
+    "name": "Ontario Structured Psychotherapy Program",
+    "needs": [
+      "find support"
+    ],
+    "official_url": "https://nbd.cmha.ca/programs-services/ontario-structured-psychotherapy-program/",
+    "platforms": [
+      "Phone",
+      "Web",
+      "In person"
+    ],
+    "privacy_notes": "No account or data-collection description on the reviewed page; intake and referral handling were not reviewed in this screening.",
+    "publisher": "Ontario Structured Psychotherapy Program (via CMHA North Bay and District)",
+    "reason": "Screened 2026-11-03: CMHA North Bay and District program page fetched live this run; free access, Ontario 18+ scope, CBT basis, self-referral route and no-health-card rule confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Ontario, Canada"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "self-help-program",
+    "review_status": "screened",
+    "screening_gaps": [
+      "regional lead networks outside Northeastern Ontario not verified",
+      "language availability not stated on the reviewed page",
+      "wait times and intake criteria not confirmed",
+      "accessibility not assessed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://nbd.cmha.ca/programs-services/ontario-structured-psychotherapy-program/"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "ontario",
+      "canada",
+      "free",
+      "therapy",
+      "self-referral",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
