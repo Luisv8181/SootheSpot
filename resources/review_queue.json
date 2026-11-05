@@ -16569,5 +16569,259 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "free",
+      "paid-optional"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural adaptation information is stated on the reviewed page; the app is presented as a general self-care journal with no culture-specific framing assessed in this screening.",
+      "source_notes": [
+        "https://daylio.net/"
+      ]
+    },
+    "description": "Micro-diary and mood tracker: a daily entry takes two taps (pick a mood, tick the activities done that day), optionally extended with notes, writing templates, photos or voice memos. Entries feed statistics, charts, mood-activity correlations and a Year in Pixels view, plus goals, reminders and a PIN/fingerprint/Face ID lock. Free to download; Premium unlocks advanced statistics, automatic backups and PDF export.",
+    "evidence_notes": "No outcome study is cited on the fetched page and none was assessed in this screening. The '20M+ users' figure and the press quotes on the page are publisher claims, not evaluated findings.",
+    "id": "daylio-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "Not stated on the reviewed page"
+    ],
+    "last_verified_at": "2026-11-05",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A general wellness self-care journal, not treatment and not a crisis service. Two flags for owner judgment: (1) the site advertises goals and achievements/habit-building mechanics, which cuts against SootheSpot's no-streaks principle; (2) mood data is self-report and must not be read as clinical measurement. No desktop or web version and no real-time sync between devices, per the reviewed page. Premium prices are not listed on the site.",
+    "name": "Daylio",
+    "needs": [
+      "practice",
+      "mood"
+    ],
+    "official_url": "https://daylio.net/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Favourable on the site's own terms: entries are stored on the device and the site states 'We don't send your data to our servers so we don't have the access to your entries'; backups go to Google Drive or iCloud via encrypted channels, and the app supports PIN/fingerprint/Face ID lock. The privacy policy itself was not reviewed in this screening, so data handling beyond those claims is unconfirmed.",
+    "publisher": "Relaxio s.r.o.",
+    "reason": "Screened 2026-11-05: official site read live this run; two-tap mood-and-activity micro-diary with correlations, Year in Pixels, goals and app-level lock, free with Premium, and a local-only data posture stated on the site, with goals/achievements mechanics flagged for owner judgment. Ready for owner review before any promotion.",
+    "regions": [
+      "Not stated on the reviewed page"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "languages not stated on the reviewed page",
+      "regions not stated on the reviewed page",
+      "age eligibility not stated on the reviewed page",
+      "Premium prices not listed on the site (store listings show varying prices)",
+      "privacy policy not reviewed",
+      "accessibility not assessed",
+      "app effectiveness not assessed",
+      "Android publisher is Habitics s.r.o. while iOS is Relaxio s.r.o.; current publisher split not confirmed from a primary source this run"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://daylio.net/"
+    ],
+    "status": "screened",
+    "tags": [
+      "mood-tracking",
+      "journaling",
+      "micro-diary",
+      "offline"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "paid-optional"
+    ],
+    "accessibility": [
+      "Not assessed in this screening; no accessibility information stated in the reviewed source."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Community-contributed translations exist for many languages, but cultural framing of the cognitive-distortion descriptions was not assessed in this screening.",
+      "source_notes": [
+        "https://github.com/Flaque/quirk"
+      ]
+    },
+    "description": "GPL-licensed open-source CBT thought diary for iOS and Android: record an automatic thought, identify the cognitive distortion(s) behind it (drawn from Feeling Good), challenge the distortion and write an alternative thought. Designed for quick, discreet entry in public settings, with a pin-code lock and translations contributed by the community.",
+    "evidence_notes": "No outcome study is cited in the reviewed source and none was assessed in this screening. The README cites one unnamed study on the consequences of app failure in mental-health contexts; the '50% feel better immediately' figure comes from a Product Hunt launch post and is a publisher claim, not an evaluated finding.",
+    "id": "quirk-cbt-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English",
+      "Spanish",
+      "German",
+      "Polish",
+      "Finnish",
+      "Dutch",
+      "Korean",
+      "Chinese",
+      "Russian",
+      "Portuguese",
+      "Norwegian Bokmål",
+      "Italian",
+      "French",
+      "Romanian"
+    ],
+    "last_verified_at": "2026-11-05",
+    "license_notes": "External resource. SootheSpot stores metadata only. App code is GPL-3.0; the name and branding are not freely redistributable.",
+    "limitations": "UNMAINTAINED — the README banner states 'Quirk is no longer being maintained', the company behind it pivoted to a different product (Room Service), and the original official site quirk.fyi now serves a domain-parking page. The app may be unavailable or broken on current operating systems; store availability and current pricing were not confirmed this run. A general wellness CBT self-help tool, not treatment and not a crisis service. The README itself invites mental-health professionals to audit the distortion descriptions, which have not been clinically reviewed here.",
+    "name": "Quirk",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://github.com/Flaque/quirk",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "The README's design logic treats thoughts as more valuable than passwords and states data must not be sent to a server without making that clear in the app, but the privacy policy itself was not reviewed and the app is unmaintained, so current data handling is unconfirmed.",
+    "publisher": "Evan Conrad",
+    "reason": "Screened 2026-11-05: GitHub repository read live this run; open-source CBT thought diary with strong privacy-by-design statements and wide community translations, but flagged UNMAINTAINED — README banner, company pivoted, official site now a domain-parking page. Owner judgment needed on whether an unmaintained app belongs in the queue at all; the maintained fork FreeCBT may be the better candidate. Ready for owner review before any promotion.",
+    "regions": [
+      "Not stated in the reviewed source"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "current App Store / Google Play availability not confirmed",
+      "current pricing not confirmed (README cites a historical $5.99/month subscription)",
+      "last release date not confirmed",
+      "privacy policy not reviewed",
+      "accessibility not assessed",
+      "app effectiveness not assessed",
+      "official site quirk.fyi is a domain-parking page, so the repository is used as the primary source"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://github.com/Flaque/quirk"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "thought-diary",
+      "cognitive-distortions",
+      "open-source"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "paid-optional"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed listing; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Eight languages are listed but no cultural adaptation information is stated on the reviewed listing, and none was assessed in this screening.",
+      "source_notes": [
+        "https://apps.apple.com/us/app/moodnotes-mood-tracker/id1019230398"
+      ]
+    },
+    "description": "Mood tracker and journaling app grounded in CBT and positive psychology, created by design experts and clinical psychologists (creators of MoodKit): track mood over time with a face slider, identify triggers and common 'thinking traps', develop healthier perspectives, keep memories with photos, and read self-awareness articles written by mental-health experts. Includes an Apple Watch app and iCloud sync/backup. Free with a Premium subscription that unlocks unlimited entries per day, personal statistics and mood insights, notes on entries and full-text articles.",
+    "evidence_notes": "No outcome study is cited on the fetched listing and none was assessed in this screening. The listing's 'scientifically-supported content of CBT' is the publisher's account, not an evaluated finding, and the 4.6/5 store rating from 11K ratings is a store aggregate, not evidence of effectiveness.",
+    "id": "moodnotes-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English",
+      "French",
+      "German",
+      "Italian",
+      "Russian",
+      "Simplified Chinese",
+      "Spanish",
+      "Swedish"
+    ],
+    "last_verified_at": "2026-11-05",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A general wellness journal, not treatment and not a crisis service. Flags for owner judgment: (1) Premium gates core features (unlimited entries, notes, statistics) behind an auto-renewing subscription, and the listing shows a long, overlapping set of Premium price points ($2.99-$89.99) that is hard to parse; (2) a face-scan feature uses the device camera; (3) the last listed version is 3.14.8 from 10/24/2024, over a year old, so maintenance recency needs confirmation. Age rating 13+ on the listing.",
+    "name": "Moodnotes",
+    "needs": [
+      "practice",
+      "mood"
+    ],
+    "official_url": "https://apps.apple.com/us/app/moodnotes-mood-tracker/id1019230398",
+    "platforms": [
+      "iOS"
+    ],
+    "privacy_notes": "App Store privacy labels on the listing: data used to track the user across apps/websites (purchases, identifiers); data linked to the user (purchases, location, user content, identifiers, usage data); data not linked to the user (contact info, diagnostics). iCloud sync/backup means entries leave the device. The privacy policy itself was not reviewed in this screening, so data handling beyond the labels is unconfirmed.",
+    "publisher": "Mosaic S.r.l. (Bending Spoons)",
+    "reason": "Screened 2026-11-05: App Store listing read live this run; CBT-based mood journal with thinking-trap identification, 8 languages, age 13+, free with Premium. The official site moodnotesapp.com was DNS-unreachable on three attempts this run, so the App Store listing is the primary source. Ownership has moved from the original Thriveport/ustwo creators to Bending Spoons (seller Mosaic S.r.l.) — flag for owner review. Ready for owner review before any promotion.",
+    "regions": [
+      "Not stated on the reviewed listing"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "official site moodnotesapp.com DNS-unreachable this run; App Store listing used as primary source",
+      "Android availability not confirmed on the reviewed listing",
+      "regions not stated on the reviewed listing",
+      "privacy policy not reviewed",
+      "accessibility not assessed",
+      "app effectiveness not assessed",
+      "Premium price list on the store is long and overlapping (multiple 1-year prices)",
+      "maintenance recency: last listed version 3.14.8 dated 10/24/2024"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://apps.apple.com/us/app/moodnotes-mood-tracker/id1019230398"
+    ],
+    "status": "screened",
+    "tags": [
+      "mood-tracking",
+      "journaling",
+      "cbt",
+      "thinking-traps"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
