@@ -16824,4 +16824,253 @@
       "independent-use"
     ]
   }
+,
+  {
+    "access": [
+      "free",
+      "paid-optional"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural adaptation information is stated on the reviewed page. The app's framing — core beliefs absorbed from surrounding culture in childhood — is presented in general terms; fit for any specific culture was not assessed in this screening.",
+      "source_notes": [
+        "https://www.thinkladder.com/app/"
+      ]
+    },
+    "description": "CBT- and ACT-based self-awareness app: pick a theme (e.g. perfectionism, self-worth, anxiety, anger), select the symptoms you relate to, and the Insight Finder surfaces possible limiting beliefs behind them, with alternative perspectives ('Insights') written by mental health professionals. Also offers gratitude practice with hundreds of prompts, therapist-written journalling questions, audio embodiment and visualisation practices, and insight reminders and location alerts. Available on the App Store and Google Play; basic tier free with a paid upgrade.",
+    "evidence_notes": "No outcome study is cited on the reviewed page and none was assessed in this screening. A 2022 practitioner-focused review of cognitive-restructuring apps (The Cognitive Behaviour Therapist) rated Thinkladder MARS 3.18 and found 80% of core cognitive-restructuring elements present — a published review, not a trial of effectiveness. The page's neuroscience framing ('beliefs absorbed from culture') is publisher copy, not an evaluated finding.",
+    "id": "thinkladder-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "Not stated on the reviewed page"
+    ],
+    "last_verified_at": "2026-11-05",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A general wellness self-help app, not treatment and not a crisis service. Flags for owner judgment: (1) an independent Healthify NZ review (last reviewed 31 May 2023) found very limited content accessible without setting up an account and paying for a subscription, so the free tier's real scope is thin; (2) subscription prices are not stated on the official page; (3) the 'Insights' are written by unnamed wellness professionals from around the world, so their clinical quality was not assessed here.",
+    "name": "Thinkladder",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://www.thinkladder.com/app/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "The privacy policy was not reviewed in this screening, and the reviewed page does not state what account or usage data the app collects, so data handling is unconfirmed. The app prompts account setup for fuller access, per the Healthify review.",
+    "publisher": "Thinkladder Ltd (per an independent Healthify NZ review; the official page does not name the company)",
+    "reason": "Screened 2026-11-05: official app page read live this run; CBT/ACT-based belief-exploration app with professional-written insights, gratitude and audio practices, free basic tier with paid upgrade. Free-tier scope is thin per an independent review, so the owner should weigh whether it earns a place. Ready for owner review before any promotion.",
+    "regions": [
+      "Not stated on the reviewed page"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "subscription prices not stated on the official page",
+      "languages not stated on the reviewed page",
+      "regions not stated on the reviewed page",
+      "age eligibility not stated on the reviewed page",
+      "privacy policy not reviewed",
+      "accessibility not assessed",
+      "app effectiveness not assessed",
+      "free-tier scope not confirmed first-hand (independent review reports it as thin)",
+      "last app update not confirmed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.thinkladder.com/app/",
+      "https://healthify.nz/apps/t/thinkladder"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "act",
+      "limiting-beliefs",
+      "self-awareness",
+      "journaling",
+      "gratitude"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "paid-optional"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural adaptation information is stated on the reviewed page; presented as a general anxiety journal with no culture-specific framing assessed in this screening.",
+      "source_notes": [
+        "https://worrywatch.com/"
+      ]
+    },
+    "description": "iOS-only guided anxiety journal: log a worry (what might happen), then track it to what actually happened, with a guided Record·Reason·Respond·Reflect flow, guided coping techniques (breathe, ground, visualise, meditate), a guided mood journal tracking mood, feeling, energy and trigger, and positive affirmations. Statistics slice entries by day, month, outcome and context to surface worry patterns.",
+    "evidence_notes": "No outcome study is cited on the reviewed page and none was assessed in this screening. The worry-tracking ('was it as bad as feared') and guided-journal structure follow CBT-style self-monitoring, but effectiveness was not assessed here.",
+    "id": "worry-watch-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "Not stated on the reviewed page"
+    ],
+    "last_verified_at": "2026-11-05",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A general wellness journal, not treatment and not a crisis service. Flags for owner judgment: (1) iOS only — no Android or web version on the reviewed page; (2) publisher has changed hands: older listings name developer Akilan Rajendran, while the current site footer reads Copyright (C) 2024 Appceler LLC, and the current publisher relationship was not confirmed from a primary source this run; (3) maintenance recency is unclear — the latest version seen in a secondary listing is 5.3 from 11/15/2023, and no update date is stated on the official site.",
+    "name": "Worry Watch",
+    "needs": [
+      "practice",
+      "mood"
+    ],
+    "official_url": "https://worrywatch.com/",
+    "platforms": [
+      "iOS"
+    ],
+    "privacy_notes": "The privacy policy was not reviewed in this screening. A secondary listing states the app works offline without account signups or usage tracking, but that claim was not confirmed from a primary source this run, so data handling is unconfirmed.",
+    "publisher": "Appceler LLC (per the current site footer; older listings name Akilan Rajendran)",
+    "reason": "Screened 2026-11-05: official site read live this run; guided worry journal with outcome tracking, coping techniques and mood journal, iOS only. Publisher change and maintenance recency are unresolved — owner judgment needed on whether a possibly-stale iOS-only app belongs in the queue. Ready for owner review before any promotion.",
+    "regions": [
+      "Not stated on the reviewed page"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "publisher change (Akilan Rajendran to Appceler LLC) not confirmed from a primary source",
+      "latest version 5.3 dated 11/15/2023 per a secondary listing; current maintenance status not confirmed",
+      "subscription pricing not stated on the official site",
+      "languages not stated on the reviewed page",
+      "regions not stated on the reviewed page",
+      "age eligibility not stated on the reviewed page",
+      "privacy policy not reviewed",
+      "accessibility not assessed",
+      "app effectiveness not assessed",
+      "Android availability: none stated on the reviewed page"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://worrywatch.com/"
+    ],
+    "status": "screened",
+    "tags": [
+      "anxiety",
+      "worry-journal",
+      "cbt",
+      "mood-tracking",
+      "guided-coping"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "paid-optional"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "German publisher with English and German site versions; no cultural-adaptation information is stated on the reviewed page, and fit for any specific culture was not assessed in this screening.",
+      "source_notes": [
+        "https://minddoc.de/magazin/en/minddoc-app"
+      ]
+    },
+    "description": "Mental-health companion app developed by clinical psychologists and researchers: daily check-in questions (three times a day in the free version), mood tracking with personalised insights, expert-backed assessments, and a CBT-based course library for depression, anxiety, insomnia and eating disorders, covering symptom management, painful emotions, stress, mindfulness, relationships, time management and self-image. Free version keeps the last month of entries and basic resources; MindDoc Plus unlocks full courses and tools.",
+    "evidence_notes": "The reviewed page states clinical research shows MindDoc can ease symptoms of depression and anxiety and boost empowerment, and reports 88% of users with improved attitudes toward their mental health, 93% behaving in ways good for their mental health, and 92% with improved motivation — all publisher-reported figures; the cited research was not read or evaluated in this screening, so effectiveness is unconfirmed here. Store listings rate the app 4.6–4.7 stars from 40,000+ reviews, a store aggregate, not evidence of effectiveness.",
+    "id": "minddoc-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English",
+      "German"
+    ],
+    "last_verified_at": "2026-11-05",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A self-help companion, not a replacement for medical or psychotherapeutic assessment or treatment, per the store listing — which also states the app is a risk class I medical product under the EU Medical Device Regulation (2017/745). Flags for owner judgment: (1) MindDoc Plus pricing is not stated on the reviewed page; (2) the app logs signs and symptoms of common mental illnesses over long periods, so symptom-tracking data sensitivity is higher than a plain journal — the privacy policy was not reviewed; (3) the publisher's magazine pages carry a BetterHelp affiliate ad with a commission disclosure, seen in search results this run, which sits oddly beside the app's clinical positioning.",
+    "name": "MindDoc",
+    "needs": [
+      "practice",
+      "understand",
+      "mood"
+    ],
+    "official_url": "https://minddoc.de/magazin/en/minddoc-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "The privacy policy was not reviewed in this screening, so data handling is unconfirmed. The app requires an account for tracking and stores symptom logs over time; the store listing links the publisher's terms and privacy policy (minddoc.com/us/en/self-help/privacy-policy).",
+    "publisher": "MindDoc Health GmbH",
+    "reason": "Screened 2026-11-05: official site read live this run; clinically developed CBT companion with daily check-ins, assessments and courses, free with Plus, 3M+ downloads, EU class I medical-device status per the store listing. Symptom-logging sensitivity and unreviewed privacy policy are the flags. Ready for owner review before any promotion.",
+    "regions": [
+      "Not stated on the reviewed page"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "MindDoc Plus pricing not stated on the reviewed page",
+      "age eligibility not stated on the reviewed page",
+      "regions not stated on the reviewed page",
+      "privacy policy not reviewed",
+      "accessibility not assessed",
+      "cited clinical research not read or evaluated",
+      "app effectiveness not assessed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://minddoc.de/magazin/en/minddoc-app",
+      "https://play.google.com/store/apps/details?id=de.moodpath.android&hl=en-US"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "mood-tracking",
+      "mental-health-companion",
+      "assessments",
+      "courses",
+      "depression",
+      "anxiety"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  }
 ]
