@@ -16823,8 +16823,7 @@
     "use_context": [
       "independent-use"
     ]
-  }
-,
+  },
   {
     "access": [
       "free",
@@ -17068,6 +17067,254 @@
       "courses",
       "depression",
       "anxiety"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "paid"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural adaptation information is stated on the reviewed page; presented as a general anxiety program, with no culture-specific framing assessed in this screening.",
+      "source_notes": [
+        "https://unwindinganxiety.com/"
+      ]
+    },
+    "description": "App-based anxiety program built on mindfulness and habit-change science: short daily video lessons on anxiety as a habit loop, mindfulness exercises, in-app tools for managing anxiety in real time, check-ins throughout the day, optional journaling, community support, and weekly live sessions with habit-change experts. Created by psychiatrist and neuroscientist Dr. Judson Brewer (MD PhD) with Sharecare's Behavioral Health team.",
+    "evidence_notes": "The official page reports a 2020 clinical study of physicians showing a 48% reduction in anxiety after 28 modules, and a 2021 randomized trial in people with generalized anxiety disorder showing a 67% reduction after 2 months, linking to JMIR publications. The studies themselves were not read or evaluated in this screening, so effectiveness is unconfirmed here and the figures are publisher-reported.",
+    "id": "unwinding-anxiety-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "Not stated on the reviewed page"
+    ],
+    "last_verified_at": "2026-11-05",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A self-help program, not treatment and not a crisis service. Flags for owner judgment: (1) paid subscription with no free tier on the reviewed page — $29.99/month, $139.99/6 months, $209.99/year, $499.99 lifetime, with a 7-day free trial; (2) a separate free app, 'Unwinding by Sharecare', exists and is easily confused with this paid program; (3) the 'clinically proven' figures are publisher-reported and the underlying studies were not evaluated here.",
+    "name": "Unwinding Anxiety",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://unwindinganxiety.com/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "The privacy policy was not reviewed in this screening, so data handling is unconfirmed. The store listing links the program's terms and privacy policy at unwindinganxiety.com/terms-conditions-and-privacy-policy/.",
+    "publisher": "Sharecare, Inc. (program created with Dr. Judson Brewer, MD PhD)",
+    "reason": "Screened 2026-11-05: official site read live this run; mindfulness-based anxiety program with daily lessons, real-time tools, journaling and live expert sessions, reporting trial-backed anxiety reductions (studies not evaluated here). Paid-only with a 7-day trial, and a similarly named free Sharecare app is a confusion risk. Ready for owner review before any promotion.",
+    "regions": [
+      "Not stated on the reviewed page"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "cited 2020 and 2021 studies not read or evaluated",
+      "no free tier on the reviewed page (paid subscription only, 7-day trial)",
+      "separate free 'Unwinding by Sharecare' app not compared",
+      "languages not stated on the reviewed page",
+      "regions not stated on the reviewed page",
+      "age eligibility not stated on the reviewed page",
+      "privacy policy not reviewed",
+      "accessibility not assessed",
+      "app effectiveness not assessed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://unwindinganxiety.com/",
+      "https://play.google.com/store/apps/details?id=com.claritasmindsciences.UnwindingAnxiety&gl=mw&hl=en"
+    ],
+    "status": "screened",
+    "tags": [
+      "anxiety",
+      "mindfulness",
+      "habit-change",
+      "guided-program",
+      "journaling",
+      "community-support"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "paid-optional"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural adaptation information is stated on the reviewed pages; presented as a general self-therapy app, with fit for any specific culture not assessed in this screening.",
+      "source_notes": [
+        "https://www.enjoybloom.com/about"
+      ]
+    },
+    "description": "Self-guided CBT app ('be your own therapist'): interactive video-guided therapy sessions, therapeutic CBT journaling, breathwork and mindfulness activities, daily mental-health habit sessions, and mood checks that log emotions to surface patterns. Content designed with CBT therapist and author Seth J. Gillihan, PhD; the site reports over 2 million downloads and a library of 500+ sessions covering burnout, anxiety, confidence, self-esteem, sleep and relationships.",
+    "evidence_notes": "No outcome study is cited on the reviewed pages and none was assessed in this screening. Publisher-reported figures on the homepage ('most users report feeling 5 times better 1 week into Bloom', '98% would recommend the app') are marketing claims with no method stated, so effectiveness is unconfirmed here.",
+    "id": "bloom-cbt-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "Not stated on the reviewed page"
+    ],
+    "last_verified_at": "2026-11-05",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A self-help app, not treatment and not a crisis service. Flags for owner judgment: (1) 'be your own therapist' is the publisher's framing, not an evaluated claim; (2) subscription pricing is not stated on the official pages read — the store listing shows Premium lifetime and yearly in-app purchases, and the free tier's real scope was not confirmed first-hand; (3) the official site's Android copy ('Android launching in 2022') is stale, so Android availability is unconfirmed, and a different Android app also called Bloom (by Zuplon) risks confusion; (4) AI-powered features (AI insights, AI mood tracking) are described in store copy but were not assessed.",
+    "name": "Bloom",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://www.enjoybloom.com/",
+    "platforms": [
+      "iOS"
+    ],
+    "privacy_notes": "The homepage states Bloom keeps user information 'secure and encrypted', 'never read[s] anything you write' and 'never sell[s] data'. The privacy policy itself was not reviewed in this screening, so data handling is unconfirmed beyond that publisher statement; the store listing says journal entries are encrypted and saved in the cloud.",
+    "publisher": "Bloom (founders Leon Mueller and Daniel Lohse; Seth J. Gillihan, PhD, therapy advisor; headquartered in New York)",
+    "reason": "Screened 2026-11-05: official site read live this run; video-guided CBT self-therapy app with journaling, breathwork and mood checks, 2M+ downloads, content designed with a named CBT therapist. Pricing unstated on the official pages, Android status unclear from stale site copy, and outcome figures are publisher marketing. Ready for owner review before any promotion.",
+    "regions": [
+      "Not stated on the reviewed page"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "subscription pricing not stated on the official pages read",
+      "free-tier scope not confirmed first-hand",
+      "Android availability unconfirmed (site copy says 'launching in 2022'; a different Android app named Bloom by Zuplon exists)",
+      "languages not stated on the reviewed page",
+      "regions not stated on the reviewed page",
+      "age eligibility not stated on the reviewed page",
+      "privacy policy not reviewed",
+      "accessibility not assessed",
+      "publisher-reported outcome figures not evaluated",
+      "app effectiveness not assessed",
+      "last app update not confirmed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.enjoybloom.com/copy-of-new-home",
+      "https://www.enjoybloom.com/about",
+      "https://iphone.apkpure.com/app/bloom-selfcare-classes/com.dailybloom.bloom"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "self-therapy",
+      "video-guided",
+      "journaling",
+      "mood-tracking",
+      "breathwork"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "Pricing not stated on the reviewed homepage"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "culturally_adapted",
+      "notes": "Designed for Black people: culturally rooted practices built on the Guiding Principles of Mindfulness, Nguzo Saba and Ma'at, with content developed in the Psychology Department at Spelman College (an HBCU). Fit for any specific individual was not assessed in this screening.",
+      "source_notes": [
+        "https://www.blackfullness.com/"
+      ]
+    },
+    "description": "Culturally rooted mindfulness app for Black people: guided meditations under 15 minutes, sound healings and breathing exercises (including a 4-7-8 breathe audio), prayer and gratitude practices, and growth content for applying mindfulness day to day. Built on the Guiding Principles of Mindfulness, Nguzo Saba and Ma'at, anchored in interdependence, community, resilience, holistic wellness, spirituality, love and gratitude. Available on iOS and Android.",
+    "evidence_notes": "The official site states the app's content was developed in the Psychology Department at Spelman College and 'rigorously evaluated via Randomized Control Trials with a $1.5 Million grant from National Institutes of Health', with results 'published in well known peer reviewed publications' showing 'increased access to health skills that reduces stress and improves well-being'. The trials and publications were not read or evaluated in this screening, so the evidence claim is publisher-reported and unconfirmed here.",
+    "id": "blackfullness-app",
+    "intended_population": [
+      "Black community"
+    ],
+    "languages": [
+      "Not stated on the reviewed page"
+    ],
+    "last_verified_at": "2026-11-05",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A mindfulness wellness app, not treatment and not a crisis service. Flags for owner judgment: (1) the site's 'Coming in 2025!' banner for app 2.0 is out of date at screening (November 2026), so the current app version and maintenance status are unclear from the reviewed page; (2) pricing is not stated on the reviewed page; (3) the RCT evidence is publisher-reported and the underlying publications were not checked here.",
+    "name": "Blackfullness",
+    "needs": [
+      "practice",
+      "calm"
+    ],
+    "official_url": "https://www.blackfullness.com/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "The privacy policy was not reviewed in this screening, and the reviewed page states nothing about what account or usage data the app collects, so data handling is unconfirmed.",
+    "publisher": "Blackfullness (company/legal name not stated on the reviewed page)",
+    "reason": "Screened 2026-11-05: official site read live this run; culturally rooted mindfulness app for Black people (meditation, breathwork, prayer, gratitude), content developed at Spelman College with publisher-reported RCT evaluation. App 2.0 banner is out of date and pricing is unstated, so current status needs the owner's eye. Ready for owner review before any promotion.",
+    "regions": [
+      "Not stated on the reviewed page"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "pricing not stated on the reviewed page",
+      "app 2.0 'Coming in 2025' banner out of date; current version and maintenance status unconfirmed",
+      "cited RCTs and peer-reviewed publications not read or evaluated",
+      "languages not stated on the reviewed page",
+      "regions not stated on the reviewed page",
+      "age eligibility not stated on the reviewed page",
+      "privacy policy not reviewed",
+      "accessibility not assessed",
+      "app effectiveness not assessed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.blackfullness.com/"
+    ],
+    "status": "screened",
+    "tags": [
+      "mindfulness",
+      "meditation",
+      "breathing",
+      "culturally-rooted",
+      "gratitude",
+      "prayer"
     ],
     "use_context": [
       "independent-use"
