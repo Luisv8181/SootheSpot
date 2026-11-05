@@ -16329,5 +16329,245 @@
     "review_status": "screened",
     "status": "screened",
     "reason": "Screened 2026-11-04: developer store listing read live this run; free nonprofit emotion-labeling journal, Yale-conceived framework, four strategy themes, and device-first privacy posture confirmed from the primary source, with the sharing feature flagged for owner judgment. Ready for owner review before any promotion."
+  },
+  {
+    "access": [
+      "free",
+      "paid-optional"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed pages; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural adaptation information is stated on the reviewed pages; the partner page is UK-framed (999/A&E crisis wording, Priory as the partner), so availability and crisis routing outside that context are unconfirmed.",
+      "source_notes": [
+        "https://www.priorygroup.com/my-possible-self"
+      ]
+    },
+    "description": "CBT-customised self-help app: toolkits to identify behaviours and monitor progress, mood trackers with tags for the activities, people and places that influence mood, journals for worries, emotions and actions in the moment, visual and audio exercises, insights, motivational messages, and eight guided series (including sleeping well, overcoming anxiety, tackling depression, managing stress, drinking safely and gambling safely), plus lifestyle questionnaires, exercise videos and logs on the partner page.",
+    "evidence_notes": "No outcome study for the app itself is cited on the fetched pages and none was assessed in this screening; the partner page's general claim that the toolkit activities have 'clear scientific evidence' is a publisher claim, not an evaluated finding, and the listing's press quotes ('doctor-approved', 'pocket therapist') are publisher-selected praise, not clinical endorsement.",
+    "id": "my-possible-self-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "Not stated on the reviewed pages"
+    ],
+    "last_verified_at": "2026-11-04",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A general self-help app, not treatment and not a crisis service: the partner page states it is not intended for people in an emergency. The free-vs-paid boundary is mixed and must be checked before any recommendation: the store listing is free to download, the partner page describes a premium version free to Priory patients via an organisation code, and its FAQ discusses managing subscriptions, so the full library is not clearly free to the general public. Registration requires an email address and password.",
+    "name": "My Possible Self",
+    "needs": [
+      "practice"
+    ],
+    "official_url": "https://play.google.com/store/apps/details?id=com.mypossibleself.app",
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "privacy_notes": "The partner FAQ states data entered in the app is backed up to My Possible Self servers, encrypted before storage and only decrypted when the user's device or browser requests it, with 'no-one at My Possible Self' able to decrypt it; the privacy policy itself was not reviewed in this screening, so that claim is recorded as the publisher's account, not a verified finding.",
+    "publisher": "My Possible Self, in partnership with Priory",
+    "reason": "Screened 2026-11-04: developer store listing and Priory partner page read live this run; CBT toolkits, mood trackers, journals and eight guided series confirmed from the primary sources, with the mixed free/premium boundary and the emergency-use exclusion flagged for owner judgment. Ready for owner review before any promotion.",
+    "regions": [
+      "Not stated on the reviewed pages"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "app's own homepage (my-possible-self.com, linked from the partner page) timed out on fetch this run and was not used; the store listing stands in as the official_url",
+      "developer legal name not stated on the fetched listing text",
+      "languages not stated on the reviewed pages",
+      "regions not stated on the reviewed pages",
+      "age eligibility not stated on the reviewed pages",
+      "free-vs-paid boundary for the general public not settled on the fetched pages",
+      "privacy policy not reviewed",
+      "accessibility not assessed",
+      "app effectiveness not assessed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://play.google.com/store/apps/details?id=com.mypossibleself.app",
+      "https://www.priorygroup.com/my-possible-self"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "mood-tracking",
+      "journaling",
+      "self-help",
+      "guided-series"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "paid-optional"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed pages; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural adaptation information is stated on the reviewed pages; global reach is claimed without language or adaptation detail.",
+      "source_notes": [
+        "https://dayoneapp.com/privacy-pledge/"
+      ]
+    },
+    "description": "Private digital journal app: unlimited text entries and journals on the free Basic tier, with photos, video, audio recording, cross-device sync and AI-assisted features (Daily Chat, summaries, prompts) in paid Silver and Gold tiers. Entries can capture location, weather, date, time and moon phase automatically; export options include PDF, JSON and plain text; multiple journals, tags, search filters and an 'On This Day' view are included.",
+    "evidence_notes": "No outcome study for journaling with this app is cited on the reviewed pages and none was assessed in this screening; download and rating figures (15M+ downloads, 300,000+ 5-star ratings) are the publisher's own claims, not independently verified here.",
+    "id": "day-one-journal-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "Not stated on the reviewed pages"
+    ],
+    "last_verified_at": "2026-11-04",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A general journaling tool, not treatment and not a crisis service. Two flags for owner judgment: (1) the listing advertises streaks and calendar views for habit momentum, which cuts against SootheSpot's no-streaks principle; (2) entries automatically capture location and other metadata, so the privacy story depends on the user's own settings. Paid-tier boundary is clear on the listing (Basic free forever; Silver/Gold for unlimited media, sync and AI features), but prices are not stated on the fetched listing.",
+    "name": "Day One Journal",
+    "needs": [
+      "practice"
+    ],
+    "official_url": "https://play.google.com/store/apps/details?id=com.dayoneapp.dayone&hl=en_CA",
+    "platforms": [
+      "iOS",
+      "Android",
+      "macOS",
+      "Windows",
+      "Web"
+    ],
+    "privacy_notes": "Strong privacy posture on the publisher's own pages, read live this run: end-to-end encryption is the default for new journals since September 2019 and the publisher states it cannot read those journals, local-only storage is an option, Basic users' journal data stays on-device, and the app runs no ads and does not sell personal data. Material nuance: journals created before end-to-end encryption became the default use standard encryption with keys Day One manages, so not every journal is end-to-end encrypted; the full privacy policy itself was not reviewed in this screening.",
+    "publisher": "Automattic Inc.",
+    "reason": "Screened 2026-11-04: developer store listing and the publisher's own privacy pledge and App Privacy pages read live this run; free Basic tier, end-to-end encryption default for new journals, and export options confirmed from the primary sources, with streaks, automatic location capture, and the older-journal encryption exception flagged for owner judgment. Ready for owner review before any promotion.",
+    "regions": [
+      "Global downloads claimed on the reviewed listing (specific countries not listed)"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "developer legal name (Automattic Inc.) comes from store metadata, not the fetched listing text",
+      "languages not stated on the reviewed pages",
+      "age eligibility not stated on the reviewed pages",
+      "Silver/Gold prices not stated on the fetched listing",
+      "privacy policy not reviewed",
+      "accessibility not assessed",
+      "app effectiveness not assessed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://play.google.com/store/apps/details?id=com.dayoneapp.dayone&hl=en_CA",
+      "https://dayoneapp.com/privacy-pledge/",
+      "http://dayoneapp.com/guides/settings/app-privacy/"
+    ],
+    "status": "screened",
+    "tags": [
+      "journaling",
+      "reflection",
+      "privacy"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "paid-optional"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed listing; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "The listing presents practices from multiple breathing traditions with claimed source citations; authenticity, attribution quality and cultural framing were not assessed in this screening, and no adaptation information beyond the 30+ language claim is stated.",
+      "source_notes": [
+        "https://play.google.com/store/apps/details?id=com.abdula.pranabreath&hl=en"
+      ]
+    },
+    "description": "Narrator-free breathing and meditation timer: pick a practice and follow the animation and phase sounds instead of a voice. 80+ breathing exercises and meditations in 7 collections, from beginner breathwork and classical pranayama (Nadi Shodhana, Bhramari, Kapalabhati, Ujjayi, Bhastrika, Sitali) to Sufi, Tibetan, Taoist and Orthodox traditions, modern methods (coherent breathing, 4-7-8, box breathing, Buteyko) and applied methods for singers, divers and runners. The Essentials collection (12 short practices), pattern editor, reminders and statistics are free forever with no ads and no account; Guru unlocks the rest of the library by subscription or one-time payment.",
+    "evidence_notes": "No specific outcome study is cited on the fetched listing and none was assessed in this screening; the listing's claims that practices come with explanations, cautions and checkable sources, and that regular practice settles the nervous system and sharpens attention, are the publisher's account, not evaluated findings. The '5 million+ people have practiced' and 'in the store since 2014' figures are likewise publisher claims.",
+    "id": "prana-breath-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "30+ languages, per the reviewed listing (specific languages not listed)"
+    ],
+    "last_verified_at": "2026-11-04",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A general wellness breathing aid, not treatment and not a crisis service. Two flags for owner judgment: (1) the listing advertises sessions, streaks and mastery levels, which cuts against SootheSpot's no-streaks principle; (2) self-measured health metrics (breath-hold time, pulse recovery, peak flow, charted over months) are unassessed and must not be read as clinical measurement. Some patterns are energising and some slow the user toward sleep, so the app's own guidance matters; breathing practices are presented as suitable for general use, with no contraindication screening described on the fetched listing.",
+    "name": "Prana Breath",
+    "needs": [
+      "practice"
+    ],
+    "official_url": "https://play.google.com/store/apps/details?id=com.abdula.pranabreath&hl=en",
+    "platforms": [
+      "Android"
+    ],
+    "privacy_notes": "Favourable on the listing's own terms (no ads, no account required, works offline), but the privacy policy itself was not reviewed in this screening, so data handling beyond those claims is unconfirmed.",
+    "publisher": "Oleksandr Albul",
+    "reason": "Screened 2026-11-04: developer store listing read live this run; narrator-free 80+ practice library, free-forever Essentials tier, no-ads/no-account/offline posture and 30+ language claim confirmed from the primary source, with streaks mechanics and unassessed self-measured health metrics flagged for owner judgment. Ready for owner review before any promotion.",
+    "regions": [
+      "Not stated on the reviewed listing"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "developer name (Oleksandr Albul) comes from store listing metadata, not the fetched description text",
+      "iOS availability not confirmed on the fetched listing",
+      "regions not stated on the reviewed listing",
+      "age eligibility not stated on the reviewed listing",
+      "Guru prices not stated on the fetched listing",
+      "privacy policy not reviewed",
+      "accessibility not assessed",
+      "app effectiveness not assessed"
+    ],
+    "shelf": "breathe",
+    "source_notes": [
+      "https://play.google.com/store/apps/details?id=com.abdula.pranabreath&hl=en"
+    ],
+    "status": "screened",
+    "tags": [
+      "breathing",
+      "meditation",
+      "pranayama",
+      "offline"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
