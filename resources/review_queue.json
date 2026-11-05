@@ -13937,214 +13937,214 @@
       "independent-use"
     ]
   },
-{
-  "access": [
-    "free"
-  ],
-  "accessibility": [
-    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
-  ],
-  "description": "Digital brochures and fact sheets on mental disorders and related topics for the general public, including patients and their families, health professionals, and other audiences. Health information is available in English and Spanish; NIMH no longer offers print materials for ordering.",
-  "evidence_notes": "U.S. federal health institute content. Informational only; no efficacy claims evaluated in this screening.",
-  "id": "nimh-brochures-fact-sheets",
-  "intended_population": [
-    "general"
-  ],
-  "languages": [
-    "English",
-    "Spanish"
-  ],
-  "last_verified_at": "2026-11-03",
-  "license_notes": "External resource. SootheSpot stores metadata only. U.S. government materials; confirm reuse terms before any republication.",
-  "limitations": "Informational brochures and fact sheets only; not a substitute for professional mental health care. Print ordering is discontinued, so only digital copies are available.",
-  "name": "NIMH Brochures and Fact Sheets",
-  "needs": [
-    "read",
-    "understand"
-  ],
-  "official_url": "https://www.nimh.nih.gov/health/publications",
-  "platforms": [
-    "Web"
-  ],
-  "privacy_notes": "No account mentioned on the reviewed page for reading or downloading digital materials. Data practices were not reviewed in this screening.",
-  "publisher": "National Institute of Mental Health (NIMH), U.S. National Institutes of Health",
-  "reason": "Screened 2026-11-03: official NIMH page confirmed live; publisher, free digital brochures and fact sheets, English and Spanish availability, and discontinued print ordering confirmed from the primary source. Ready for owner review before any promotion.",
-  "regions": [
-    "Global; U.S.-government publisher."
-  ],
-  "required_before_verified": [
-    "official_url_checked",
-    "publisher_confirmed",
-    "purpose_and_population_confirmed",
-    "independent_use_scope_confirmed",
-    "limitations_recorded",
-    "date_checked_recorded",
-    "primary_source_recorded"
-  ],
-  "resource_type": "article-library",
-  "review_status": "screened",
-  "screening_gaps": [
-    "accessibility statement not reviewed",
-    "individual brochures not evaluated"
-  ],
-  "shelf": "read",
-  "source_notes": [
-    "https://www.nimh.nih.gov/health/publications"
-  ],
-  "status": "screened",
-  "tags": [
-    "psychoeducation",
-    "mental-health-conditions",
-    "fact-sheets",
-    "independent-use"
-  ],
-  "use_context": [
-    "independent-use"
-  ]
-},
-{
-  "access": [
-    "free"
-  ],
-  "accessibility": [
-    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
-  ],
-  "description": "Psychologist association's stress topic hub: plain-language explanations of stress and its effects on the body, articles on healthy ways to handle life's stressors, coping with stress at work and traumatic stress, stress and anxiety differences, help for children and teens managing stress, and the Stress in America survey findings. Includes at least one Spanish-language stress article.",
-  "evidence_notes": "Publisher is the American Psychological Association; stress definition adapted from the APA Dictionary of Psychology. Individual articles and survey findings were not evaluated in this screening.",
-  "id": "apa-stress-resources",
-  "intended_population": [
-    "general"
-  ],
-  "languages": [
-    "English",
-    "Spanish"
-  ],
-  "last_verified_at": "2026-11-03",
-  "license_notes": "External resource. SootheSpot stores metadata only.",
-  "limitations": "Informational and educational content; not a substitute for professional mental health care. Stress in America findings describe U.S. adults and should not be generalized beyond that population. Spanish-language coverage on the hub is partial.",
-  "name": "APA Stress Resources",
-  "needs": [
-    "read",
-    "understand",
-    "calm"
-  ],
-  "official_url": "https://www.apa.org/topics/stress",
-  "platforms": [
-    "Web"
-  ],
-  "privacy_notes": "No account mentioned on the reviewed page for reading articles. Data practices were not reviewed in this screening.",
-  "publisher": "American Psychological Association (APA)",
-  "reason": "Screened 2026-11-03: official APA stress topic page confirmed live; publisher, free access, coping article scope, children/teens stress content, and Stress in America survey presence confirmed from the primary source. Ready for owner review before any promotion.",
-  "regions": [
-    "Global; U.S.-based publisher; survey findings are U.S.-focused."
-  ],
-  "required_before_verified": [
-    "official_url_checked",
-    "publisher_confirmed",
-    "purpose_and_population_confirmed",
-    "independent_use_scope_confirmed",
-    "limitations_recorded",
-    "date_checked_recorded",
-    "primary_source_recorded"
-  ],
-  "resource_type": "article-library",
-  "review_status": "screened",
-  "screening_gaps": [
-    "accessibility statement not reviewed",
-    "individual articles not evaluated",
-    "full extent of Spanish-language coverage not confirmed"
-  ],
-  "shelf": "read",
-  "source_notes": [
-    "https://www.apa.org/topics/stress"
-  ],
-  "status": "screened",
-  "tags": [
-    "stress",
-    "coping",
-    "psychoeducation",
-    "workplace-stress",
-    "independent-use"
-  ],
-  "use_context": [
-    "independent-use"
-  ]
-},
-{
-  "access": [
-    "free"
-  ],
-  "accessibility": [
-    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
-  ],
-  "cultural_context": {
-    "adaptation_status": "original",
-    "notes": "Written for teens in plain language with everyday examples (sports, school tasks). Fit for other age groups not assessed.",
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "description": "Digital brochures and fact sheets on mental disorders and related topics for the general public, including patients and their families, health professionals, and other audiences. Health information is available in English and Spanish; NIMH no longer offers print materials for ordering.",
+    "evidence_notes": "U.S. federal health institute content. Informational only; no efficacy claims evaluated in this screening.",
+    "id": "nimh-brochures-fact-sheets",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "last_verified_at": "2026-11-03",
+    "license_notes": "External resource. SootheSpot stores metadata only. U.S. government materials; confirm reuse terms before any republication.",
+    "limitations": "Informational brochures and fact sheets only; not a substitute for professional mental health care. Print ordering is discontinued, so only digital copies are available.",
+    "name": "NIMH Brochures and Fact Sheets",
+    "needs": [
+      "read",
+      "understand"
+    ],
+    "official_url": "https://www.nimh.nih.gov/health/publications",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "No account mentioned on the reviewed page for reading or downloading digital materials. Data practices were not reviewed in this screening.",
+    "publisher": "National Institute of Mental Health (NIMH), U.S. National Institutes of Health",
+    "reason": "Screened 2026-11-03: official NIMH page confirmed live; publisher, free digital brochures and fact sheets, English and Spanish availability, and discontinued print ordering confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; U.S.-government publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "article-library",
+    "review_status": "screened",
+    "screening_gaps": [
+      "accessibility statement not reviewed",
+      "individual brochures not evaluated"
+    ],
+    "shelf": "read",
     "source_notes": [
-      "https://kidshealth.org/en/teens/mindfulness.html"
+      "https://www.nimh.nih.gov/health/publications"
+    ],
+    "status": "screened",
+    "tags": [
+      "psychoeducation",
+      "mental-health-conditions",
+      "fact-sheets",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
     ]
   },
-  "description": "Teen-facing explainer of mindfulness: what it is, why it helps (attention, calm under stress, mood, self-control, social patience), how practice trains attention, and a step-by-step mindful breathing exercise (relax muscles, breathe deeply, follow each breath, gently return focus when the mind wanders), with links to further mindfulness, meditation, and breathing exercises.",
-  "evidence_notes": "Publisher is a pediatric health system (Nemours) teen health library. Claims about mindfulness benefits are the publisher's and were not independently evaluated in this screening.",
-  "id": "kidshealth-mindfulness-teens",
-  "intended_population": [
-    "adolescents"
-  ],
-  "languages": [
-    "English"
-  ],
-  "last_verified_at": "2026-11-03",
-  "license_notes": "External resource. SootheSpot stores metadata only.",
-  "limitations": "Single introductory article with one breathing exercise, not a full program; educational content only and not a substitute for professional care. Medical review date was not shown on the fetched page.",
-  "name": "Mindfulness (for Teens) — Nemours KidsHealth",
-  "needs": [
-    "practice",
-    "calm",
-    "understand"
-  ],
-  "official_url": "https://kidshealth.org/en/teens/mindfulness.html",
-  "platforms": [
-    "Web"
-  ],
-  "privacy_notes": "No account mentioned on the reviewed page for reading. Data practices were not reviewed in this screening.",
-  "publisher": "Nemours KidsHealth",
-  "reason": "Screened 2026-11-03: official KidsHealth teen page confirmed live; publisher, free access, teen audience, mindfulness explanation, and step-by-step breathing exercise confirmed from the primary source. Ready for owner review before any promotion.",
-  "regions": [
-    "Global; U.S.-based children's health publisher."
-  ],
-  "required_before_verified": [
-    "official_url_checked",
-    "publisher_confirmed",
-    "purpose_and_population_confirmed",
-    "independent_use_scope_confirmed",
-    "limitations_recorded",
-    "date_checked_recorded",
-    "primary_source_recorded"
-  ],
-  "resource_type": "article",
-  "review_status": "screened",
-  "screening_gaps": [
-    "accessibility statement not reviewed",
-    "medical review date not shown on the fetched page",
-    "linked follow-up exercises not individually evaluated"
-  ],
-  "shelf": "practice",
-  "source_notes": [
-    "https://kidshealth.org/en/teens/mindfulness.html"
-  ],
-  "status": "screened",
-  "tags": [
-    "mindfulness",
-    "breathing",
-    "teens",
-    "attention",
-    "stress",
-    "independent-use"
-  ],
-  "use_context": [
-    "independent-use"
-  ]
-},
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "description": "Psychologist association's stress topic hub: plain-language explanations of stress and its effects on the body, articles on healthy ways to handle life's stressors, coping with stress at work and traumatic stress, stress and anxiety differences, help for children and teens managing stress, and the Stress in America survey findings. Includes at least one Spanish-language stress article.",
+    "evidence_notes": "Publisher is the American Psychological Association; stress definition adapted from the APA Dictionary of Psychology. Individual articles and survey findings were not evaluated in this screening.",
+    "id": "apa-stress-resources",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "last_verified_at": "2026-11-03",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Informational and educational content; not a substitute for professional mental health care. Stress in America findings describe U.S. adults and should not be generalized beyond that population. Spanish-language coverage on the hub is partial.",
+    "name": "APA Stress Resources",
+    "needs": [
+      "read",
+      "understand",
+      "calm"
+    ],
+    "official_url": "https://www.apa.org/topics/stress",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "No account mentioned on the reviewed page for reading articles. Data practices were not reviewed in this screening.",
+    "publisher": "American Psychological Association (APA)",
+    "reason": "Screened 2026-11-03: official APA stress topic page confirmed live; publisher, free access, coping article scope, children/teens stress content, and Stress in America survey presence confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; U.S.-based publisher; survey findings are U.S.-focused."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "article-library",
+    "review_status": "screened",
+    "screening_gaps": [
+      "accessibility statement not reviewed",
+      "individual articles not evaluated",
+      "full extent of Spanish-language coverage not confirmed"
+    ],
+    "shelf": "read",
+    "source_notes": [
+      "https://www.apa.org/topics/stress"
+    ],
+    "status": "screened",
+    "tags": [
+      "stress",
+      "coping",
+      "psychoeducation",
+      "workplace-stress",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "Written for teens in plain language with everyday examples (sports, school tasks). Fit for other age groups not assessed.",
+      "source_notes": [
+        "https://kidshealth.org/en/teens/mindfulness.html"
+      ]
+    },
+    "description": "Teen-facing explainer of mindfulness: what it is, why it helps (attention, calm under stress, mood, self-control, social patience), how practice trains attention, and a step-by-step mindful breathing exercise (relax muscles, breathe deeply, follow each breath, gently return focus when the mind wanders), with links to further mindfulness, meditation, and breathing exercises.",
+    "evidence_notes": "Publisher is a pediatric health system (Nemours) teen health library. Claims about mindfulness benefits are the publisher's and were not independently evaluated in this screening.",
+    "id": "kidshealth-mindfulness-teens",
+    "intended_population": [
+      "adolescents"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-03",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Single introductory article with one breathing exercise, not a full program; educational content only and not a substitute for professional care. Medical review date was not shown on the fetched page.",
+    "name": "Mindfulness (for Teens) — Nemours KidsHealth",
+    "needs": [
+      "practice",
+      "calm",
+      "understand"
+    ],
+    "official_url": "https://kidshealth.org/en/teens/mindfulness.html",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "No account mentioned on the reviewed page for reading. Data practices were not reviewed in this screening.",
+    "publisher": "Nemours KidsHealth",
+    "reason": "Screened 2026-11-03: official KidsHealth teen page confirmed live; publisher, free access, teen audience, mindfulness explanation, and step-by-step breathing exercise confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; U.S.-based children's health publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "article",
+    "review_status": "screened",
+    "screening_gaps": [
+      "accessibility statement not reviewed",
+      "medical review date not shown on the fetched page",
+      "linked follow-up exercises not individually evaluated"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://kidshealth.org/en/teens/mindfulness.html"
+    ],
+    "status": "screened",
+    "tags": [
+      "mindfulness",
+      "breathing",
+      "teens",
+      "attention",
+      "stress",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
   {
     "access": [
       "free"
@@ -15380,643 +15380,954 @@
     "status": "screened",
     "reason": "Screened 2026-11-04: official homepage read live this run; only the AI-assisted journaling concept is confirmed, and the thin evidence base is recorded honestly in screening_gaps. Ready for owner review before any promotion."
   },
-{
-  "id": "i-am-sober-app",
-  "name": "I Am Sober - Sobriety Tracker",
-  "official_url": "https://iamsober.com/en/site/home",
-  "publisher": "I Am Sober",
-  "description": "Sobriety and habit-change tracker app built around a daily pledge and end-of-day review system: track sober days toward milestones, watch savings grow, reflect on patterns, and connect with a peer community organized by addiction type (including alcohol, drugs, nicotine, and self-harm) and by sobriety-milestone stage. The homepage reports 127M+ daily pledges made, 30M+ addictions set up and tracked, 11M+ stories shared, and 200K+ 5-star reviews; these are publisher counts, not assessed outcomes.",
-  "resource_type": "mobile-app",
-  "platforms": [
-    "iOS",
-    "Android"
-  ],
-  "access": [
-    "Pricing not stated on the reviewed homepage (store listings describe a free app with an optional paid Sober Plus subscription)"
-  ],
-  "languages": [
-    "Not stated on the reviewed homepage"
-  ],
-  "regions": [
-    "Not stated on the reviewed homepage"
-  ],
-  "intended_population": [
-    "general"
-  ],
-  "needs": [
-    "practice"
-  ],
-  "use_context": [
-    "independent-use"
-  ],
-  "shelf": "practice",
-  "tags": [
-    "sobriety",
-    "habit-change",
-    "daily-pledge",
-    "milestones",
-    "peer-community"
-  ],
-  "evidence_notes": "Publisher usage counts and review counts are shown without method or sample on the reviewed homepage and were NOT assessed in this screening. A CBT-methods mention appears only in a user testimonial on the page, not as a publisher claim, and was not treated as evidence.",
-  "limitations": "A tracking and peer-support aid, not addiction treatment or medical care; people with dependence or withdrawal risk need clinical guidance, and the homepage states no medical screening or referral pathway - none is assumed here. The community is peer support, not clinical care, and it includes a self-harm community, so owner judgment is requested before any promotion. Pricing, free-vs-paid scope, age eligibility, languages, geographic availability, and data handling are NOT stated on the reviewed homepage.",
-  "privacy_notes": "Privacy policy and terms were not reviewed in this screening.",
-  "accessibility": [
-    "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
-  ],
-  "cultural_context": {
-    "adaptation_status": "unknown",
-    "notes": "No cultural adaptation information stated on the reviewed homepage.",
+  {
+    "id": "i-am-sober-app",
+    "name": "I Am Sober - Sobriety Tracker",
+    "official_url": "https://iamsober.com/en/site/home",
+    "publisher": "I Am Sober",
+    "description": "Sobriety and habit-change tracker app built around a daily pledge and end-of-day review system: track sober days toward milestones, watch savings grow, reflect on patterns, and connect with a peer community organized by addiction type (including alcohol, drugs, nicotine, and self-harm) and by sobriety-milestone stage. The homepage reports 127M+ daily pledges made, 30M+ addictions set up and tracked, 11M+ stories shared, and 200K+ 5-star reviews; these are publisher counts, not assessed outcomes.",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "Pricing not stated on the reviewed homepage (store listings describe a free app with an optional paid Sober Plus subscription)"
+    ],
+    "languages": [
+      "Not stated on the reviewed homepage"
+    ],
+    "regions": [
+      "Not stated on the reviewed homepage"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "tags": [
+      "sobriety",
+      "habit-change",
+      "daily-pledge",
+      "milestones",
+      "peer-community"
+    ],
+    "evidence_notes": "Publisher usage counts and review counts are shown without method or sample on the reviewed homepage and were NOT assessed in this screening. A CBT-methods mention appears only in a user testimonial on the page, not as a publisher claim, and was not treated as evidence.",
+    "limitations": "A tracking and peer-support aid, not addiction treatment or medical care; people with dependence or withdrawal risk need clinical guidance, and the homepage states no medical screening or referral pathway - none is assumed here. The community is peer support, not clinical care, and it includes a self-harm community, so owner judgment is requested before any promotion. Pricing, free-vs-paid scope, age eligibility, languages, geographic availability, and data handling are NOT stated on the reviewed homepage.",
+    "privacy_notes": "Privacy policy and terms were not reviewed in this screening.",
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural adaptation information stated on the reviewed homepage.",
+      "source_notes": [
+        "https://iamsober.com/en/site/home"
+      ]
+    },
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "screening_gaps": [
+      "pricing and free-vs-paid scope not stated on the homepage",
+      "age eligibility not stated on the homepage",
+      "languages not stated on the homepage",
+      "geographic availability not stated on the homepage",
+      "platforms not stated in homepage text (iOS/Android inferred from app screenshots and store listings)",
+      "publisher usage and review counts not independently assessed",
+      "medical screening/referral pathway not stated on the homepage",
+      "privacy policy and terms not reviewed",
+      "accessibility not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "last_verified_at": "2026-11-04",
     "source_notes": [
       "https://iamsober.com/en/site/home"
-    ]
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "reason": "Screened 2026-11-04: official homepage read live this run; daily pledge/review system, milestone and savings tracking, and peer community by addiction type and stage confirmed from the primary source. Ready for owner review before any promotion; owner judgment requested given the addiction and self-harm community scope."
   },
-  "license_notes": "External resource. SootheSpot stores metadata only.",
-  "screening_gaps": [
-    "pricing and free-vs-paid scope not stated on the homepage",
-    "age eligibility not stated on the homepage",
-    "languages not stated on the homepage",
-    "geographic availability not stated on the homepage",
-    "platforms not stated in homepage text (iOS/Android inferred from app screenshots and store listings)",
-    "publisher usage and review counts not independently assessed",
-    "medical screening/referral pathway not stated on the homepage",
-    "privacy policy and terms not reviewed",
-    "accessibility not assessed"
-  ],
-  "required_before_verified": [
-    "official_url_checked",
-    "publisher_confirmed",
-    "purpose_and_population_confirmed",
-    "independent_use_scope_confirmed",
-    "limitations_recorded",
-    "date_checked_recorded",
-    "primary_source_recorded"
-  ],
-  "last_verified_at": "2026-11-04",
-  "source_notes": [
-    "https://iamsober.com/en/site/home"
-  ],
-  "review_status": "screened",
-  "status": "screened",
-  "reason": "Screened 2026-11-04: official homepage read live this run; daily pledge/review system, milestone and savings tracking, and peer community by addiction type and stage confirmed from the primary source. Ready for owner review before any promotion; owner judgment requested given the addiction and self-harm community scope."
-},
-{
-  "id": "meditopia-meditation-sleep-app",
-  "name": "Meditopia: Meditation, Sleep, Mindfulness",
-  "official_url": "https://meditopia.com/en/individuals",
-  "publisher": "Meditopia",
-  "description": "Personalized mindfulness meditation program: complete an emotional assessment, download the app, and receive a personal program drawn from a library of 1000+ meditations, articles, sleep stories, and music, plus daily meditations and articles, sleep meditations and nature sounds, and chat with one of 100+ certified mental health coaches. Topics include developing focus, facing work challenges, reducing stress, dealing with anxiety, and sleep. The page claims 36M+ users, a 4.9/5 rating from 850k+ reviews, and use in over 60 countries.",
-  "resource_type": "mobile-app",
-  "platforms": [
-    "iOS",
-    "Android"
-  ],
-  "access": [
-    "Pricing and free-vs-paid scope not stated on the reviewed page"
-  ],
-  "languages": [
-    "Not stated on the reviewed page"
-  ],
-  "regions": [
-    "60+ countries (publisher claim on the reviewed page)"
-  ],
-  "intended_population": [
-    "general"
-  ],
-  "needs": [
-    "sleep",
-    "calm",
-    "anxiety"
-  ],
-  "use_context": [
-    "independent-use"
-  ],
-  "shelf": "practice",
-  "tags": [
-    "meditation",
-    "mindfulness",
-    "sleep",
-    "stress",
-    "coaching"
-  ],
-  "evidence_notes": "Coaching-program outcome figures on the page (42% decrease in stress, 60% improvement in sleep, 32% less anxiety) are footnoted as pre and post survey results of program participants, with no control group, sample size, or study citation, and were NOT assessed in this screening. User counts and ratings are publisher claims, not independently assessed.",
-  "limitations": "A meditation and wellbeing aid, not a treatment for anxiety, stress, or insomnia; coach chat is described as coaching, and no clinical scope is stated on the reviewed page - none is assumed here. Pricing, free-vs-paid scope, languages, age eligibility, and data handling are NOT stated on the reviewed page.",
-  "privacy_notes": "Privacy policy and terms were not reviewed in this screening.",
-  "accessibility": [
-    "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
-  ],
-  "cultural_context": {
-    "adaptation_status": "unknown",
-    "notes": "No cultural adaptation information stated on the reviewed page, beyond the 60+ country reach claim.",
+  {
+    "id": "meditopia-meditation-sleep-app",
+    "name": "Meditopia: Meditation, Sleep, Mindfulness",
+    "official_url": "https://meditopia.com/en/individuals",
+    "publisher": "Meditopia",
+    "description": "Personalized mindfulness meditation program: complete an emotional assessment, download the app, and receive a personal program drawn from a library of 1000+ meditations, articles, sleep stories, and music, plus daily meditations and articles, sleep meditations and nature sounds, and chat with one of 100+ certified mental health coaches. Topics include developing focus, facing work challenges, reducing stress, dealing with anxiety, and sleep. The page claims 36M+ users, a 4.9/5 rating from 850k+ reviews, and use in over 60 countries.",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "Pricing and free-vs-paid scope not stated on the reviewed page"
+    ],
+    "languages": [
+      "Not stated on the reviewed page"
+    ],
+    "regions": [
+      "60+ countries (publisher claim on the reviewed page)"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "sleep",
+      "calm",
+      "anxiety"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "sleep",
+      "stress",
+      "coaching"
+    ],
+    "evidence_notes": "Coaching-program outcome figures on the page (42% decrease in stress, 60% improvement in sleep, 32% less anxiety) are footnoted as pre and post survey results of program participants, with no control group, sample size, or study citation, and were NOT assessed in this screening. User counts and ratings are publisher claims, not independently assessed.",
+    "limitations": "A meditation and wellbeing aid, not a treatment for anxiety, stress, or insomnia; coach chat is described as coaching, and no clinical scope is stated on the reviewed page - none is assumed here. Pricing, free-vs-paid scope, languages, age eligibility, and data handling are NOT stated on the reviewed page.",
+    "privacy_notes": "Privacy policy and terms were not reviewed in this screening.",
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural adaptation information stated on the reviewed page, beyond the 60+ country reach claim.",
+      "source_notes": [
+        "https://meditopia.com/en/individuals"
+      ]
+    },
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "screening_gaps": [
+      "pricing and free-vs-paid scope not stated on the reviewed page",
+      "age eligibility not stated on the reviewed page",
+      "languages not stated on the reviewed page",
+      "coaching outcome figures not independently assessed (participant pre/post survey only)",
+      "privacy policy and terms not reviewed",
+      "accessibility not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "last_verified_at": "2026-11-04",
     "source_notes": [
       "https://meditopia.com/en/individuals"
-    ]
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "reason": "Screened 2026-11-04: official individuals page read live this run; assessment-to-personal-program flow, 1000+ content library, sleep content, and coach chat confirmed from the primary source. Ready for owner review before any promotion."
   },
-  "license_notes": "External resource. SootheSpot stores metadata only.",
-  "screening_gaps": [
-    "pricing and free-vs-paid scope not stated on the reviewed page",
-    "age eligibility not stated on the reviewed page",
-    "languages not stated on the reviewed page",
-    "coaching outcome figures not independently assessed (participant pre/post survey only)",
-    "privacy policy and terms not reviewed",
-    "accessibility not assessed"
-  ],
-  "required_before_verified": [
-    "official_url_checked",
-    "publisher_confirmed",
-    "purpose_and_population_confirmed",
-    "independent_use_scope_confirmed",
-    "limitations_recorded",
-    "date_checked_recorded",
-    "primary_source_recorded"
-  ],
-  "last_verified_at": "2026-11-04",
-  "source_notes": [
-    "https://meditopia.com/en/individuals"
-  ],
-  "review_status": "screened",
-  "status": "screened",
-  "reason": "Screened 2026-11-04: official individuals page read live this run; assessment-to-personal-program flow, 1000+ content library, sleep content, and coach chat confirmed from the primary source. Ready for owner review before any promotion."
-},
-{
- "id": "stoic-journal-app",
- "name": "Stoic - Journal for Daily Reflection",
- "official_url": "https://www.getstoic.com/",
- "publisher": "Stoic",
- "description": "Daily reflection journaling app: morning check-in and evening wrap-up, guided journals with prompts curated by therapists and experts, mood-trend tracking, meditation and breathing practices, quotes and affirmations, and themed events. Habit features include smart reminders, streak trackers, and badges. Free to start with optional Premium; syncing across Apple devices and the Web requires Premium. The homepage reports 4M+ downloads and states the app works on iPhone, iPad, macOS, Apple Watch, and the Web.",
- "resource_type": "mobile-app",
- "platforms": [
-  "iOS",
-  "macOS",
-  "Apple Watch",
-  "Web"
- ],
- "access": [
-  "Free to start with optional Premium (Premium price not stated on the reviewed homepage)"
- ],
- "languages": [
-  "Not stated on the reviewed homepage"
- ],
- "regions": [
-  "Not stated on the reviewed homepage"
- ],
- "intended_population": [
-  "general"
- ],
- "needs": [
-  "practice",
-  "mood"
- ],
- "use_context": [
-  "independent-use"
- ],
- "shelf": "practice",
- "tags": [
-  "journaling",
-  "reflection",
-  "mood-tracking",
-  "breathing",
-  "meditation"
- ],
- "evidence_notes": "App Store user testimonials quoted on the homepage (including claims about easing anxiety and depression) are testimonials, not assessed outcomes, and no study citation appears on the reviewed homepage. The 4M+ download count is a publisher claim, not independently assessed.",
- "limitations": "A journaling and reflection aid, not a treatment for anxiety or depression; testimonial language must never be framed as clinical evidence. Streak trackers and badges sit in tension with SootheSpot's no-streaks, no-engagement-mechanics principle - owner judgment requested before any promotion. If AI features are enabled, journal entries are sent to the publisher's AI providers (stated on the homepage); that data flow needs privacy review. Premium price, languages, and age eligibility are NOT stated on the reviewed homepage.",
- "privacy_notes": "Homepage states journals are stored on the user's devices and, with Premium, backed up so they are never lost, and that enabling AI features sends entries to AI providers listed in the Privacy Policy. The privacy policy and terms were not reviewed in this screening.",
- "accessibility": [
-  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
- ],
- "cultural_context": {
-  "adaptation_status": "unknown",
-  "notes": "No cultural adaptation information stated on the reviewed homepage.",
-  "source_notes": [
-   "https://www.getstoic.com/"
-  ]
- },
- "license_notes": "External resource. SootheSpot stores metadata only.",
- "screening_gaps": [
-  "Premium pricing not stated on the reviewed homepage",
-  "languages not stated on the reviewed homepage",
-  "age eligibility not stated on the reviewed homepage",
-  "AI provider list and privacy policy not reviewed",
-  "accessibility not assessed",
-  "testimonial claims not assessed"
- ],
- "required_before_verified": [
-  "official_url_checked",
-  "publisher_confirmed",
-  "purpose_and_population_confirmed",
-  "independent_use_scope_confirmed",
-  "limitations_recorded",
-  "date_checked_recorded",
-  "primary_source_recorded"
- ],
- "last_verified_at": "2026-11-04",
- "source_notes": [
-  "https://www.getstoic.com/"
- ],
- "review_status": "screened",
- "status": "screened",
- "reason": "Screened 2026-11-04: official homepage read live this run; morning/evening reflection flow, guided journals, mood-trend tracking, breathing/meditation content, and the AI data-flow disclosure confirmed from the primary source. Ready for owner review before any promotion."
-},
-{
- "id": "moshi-kids-sleep-app",
- "name": "Moshi Kids - Sleep, Relax, Play",
- "official_url": "https://www.moshikids.com/faqs/",
- "publisher": "Moshi",
- "description": "Children's audio sleep and relaxation app: bedtime stories, sleep sounds, white noise, lullabies, music, and meditations, designed to be used audio-only at bedtime (the device screen can be switched off). The official FAQ page states the app is designed for kids but enjoyable at any age, supports Apple iOS 12+ and Android 8.0+, offers selected free content with the full library via subscription, and describes the whole app suite as 100% ad-free. A separate Moshi Play app covers play activities, and a bundle subscription covers all five Moshi apps.",
- "resource_type": "mobile-app",
- "platforms": [
-  "iOS",
-  "Android"
- ],
- "access": [
-  "Free to download with selected free content; full library via subscription (price not stated on the reviewed FAQ page); 7-day free trial offered"
- ],
- "languages": [
-  "Not stated on the reviewed FAQ page"
- ],
- "regions": [
-  "Not stated on the reviewed FAQ page"
- ],
- "intended_population": [
-  "children",
-  "families"
- ],
- "needs": [
-  "sleep",
-  "calm"
- ],
- "use_context": [
-  "independent-use"
- ],
- "shelf": "practice",
- "tags": [
-  "sleep",
-  "bedtime-stories",
-  "children",
-  "audio",
-  "relaxation"
- ],
- "evidence_notes": "Sleep-effectiveness claims (for example, falling asleep faster or fewer night wakings) appear on store listings, not on the official FAQ page reviewed here, and were NOT assessed in this screening; no study is cited on the reviewed page.",
- "limitations": "A children's sleep and relaxation aid, not a treatment for sleep problems or anxiety. Owner judgment requested on two points: the reward mechanics in the Moshi Play companion app (daily quests, collectible stickers) sit in tension with SootheSpot's no-engagement-mechanics principle, and any listing for children needs a child-safety review. Trial caution stated on the reviewed page: a free trial can be redeemed only once, and attempting a second trial may result in immediate charging; subscriptions renew automatically unless cancelled at least 24 hours before renewal. Subscription price, languages, and regions are NOT stated on the reviewed page; offline mode is subscribers-only and requires reconnection within 24 hours.",
- "privacy_notes": "An account is required to unlock the full experience, per the reviewed FAQ page. The privacy policy and terms were not reviewed in this screening.",
- "accessibility": [
-  "Not listed on the reviewed FAQ page; verify assistive-technology compatibility before relying on it."
- ],
- "cultural_context": {
-  "adaptation_status": "unknown",
-  "notes": "No cultural adaptation information stated on the reviewed FAQ page.",
-  "source_notes": [
-   "https://www.moshikids.com/faqs/"
-  ]
- },
- "license_notes": "External resource. SootheSpot stores metadata only.",
- "screening_gaps": [
-  "subscription price not stated on the reviewed FAQ page",
-  "languages not stated on the reviewed FAQ page",
-  "regions not stated on the reviewed FAQ page",
-  "store-listing sleep claims not assessed",
-  "privacy policy and terms not reviewed",
-  "accessibility not assessed"
- ],
- "required_before_verified": [
-  "official_url_checked",
-  "publisher_confirmed",
-  "purpose_and_population_confirmed",
-  "independent_use_scope_confirmed",
-  "limitations_recorded",
-  "date_checked_recorded",
-  "primary_source_recorded"
- ],
- "last_verified_at": "2026-11-04",
- "source_notes": [
-  "https://www.moshikids.com/faqs/"
- ],
- "review_status": "screened",
- "status": "screened",
- "reason": "Screened 2026-11-04: official FAQ page read live this run; audio-only bedtime design, iOS/Android support, free-content-plus-subscription model, ad-free claim, and trial/renewal terms confirmed from the primary source. Ready for owner review before any promotion."
-},
-{
- "id": "gratu-gratitude-journal-app",
- "name": "gratu - Gratitude Journal",
- "official_url": "https://gratu.app/",
- "publisher": "gratu",
- "description": "Gratitude journaling app: capture daily gratitude entries as they happen, revisit them on a timeline, use thoughtful guided prompts and gentle daily reminders, and build momentum with 7-day or 30-day gratitude journeys. Free to download and use with no subscriptions, per the homepage. Entries are stored locally on the device, protected by Face ID or Touch ID, and sync across Apple devices via iCloud. Dark mode is included.",
- "resource_type": "mobile-app",
- "platforms": [
-  "iOS",
-  "macOS"
- ],
- "access": [
-  "free"
- ],
- "languages": [
-  "Not stated on the reviewed homepage"
- ],
- "regions": [
-  "Not stated on the reviewed homepage"
- ],
- "intended_population": [
-  "general"
- ],
- "needs": [
-  "practice"
- ],
- "use_context": [
-  "independent-use"
- ],
- "shelf": "practice",
- "tags": [
-  "gratitude",
-  "journaling",
-  "reflection",
-  "prompts"
- ],
- "evidence_notes": "No outcome claims are made on the reviewed homepage beyond user testimonials, and none were assessed in this screening. The publisher's no-ads, no-analytics, no-data-collection statements are publisher claims; the privacy policy was not reviewed.",
- "limitations": "A gratitude journaling aid, not a treatment for any condition. Apple-only: the homepage FAQ states gratu is available on iPhone, iPad, and Mac with no Android version, so Android users are excluded. Languages and age eligibility are NOT stated on the reviewed homepage.",
- "privacy_notes": "Homepage states entries are stored locally, protected by Face ID or Touch ID, never stored on the publisher's servers, with zero tracking or analytics, and synced via iCloud across Apple devices. The privacy policy was not reviewed in this screening.",
- "accessibility": [
-  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
- ],
- "cultural_context": {
-  "adaptation_status": "unknown",
-  "notes": "No cultural adaptation information stated on the reviewed homepage.",
-  "source_notes": [
-   "https://gratu.app/"
-  ]
- },
- "license_notes": "External resource. SootheSpot stores metadata only.",
- "screening_gaps": [
-  "languages not stated on the reviewed homepage",
-  "age eligibility not stated on the reviewed homepage",
-  "privacy policy not reviewed",
-  "accessibility not assessed"
- ],
- "required_before_verified": [
-  "official_url_checked",
-  "publisher_confirmed",
-  "purpose_and_population_confirmed",
-  "independent_use_scope_confirmed",
-  "limitations_recorded",
-  "date_checked_recorded",
-  "primary_source_recorded"
- ],
- "last_verified_at": "2026-11-04",
- "source_notes": [
-  "https://gratu.app/"
- ],
- "review_status": "screened",
- "status": "screened",
- "reason": "Screened 2026-11-04: official homepage read live this run; free gratitude journaling flow, prompts, reminders, journeys, local storage with Face/Touch ID, iCloud sync, and Apple-only availability confirmed from the primary source. Ready for owner review before any promotion."
-},
-{
- "id": "emoods-classic-mood-tracker",
- "name": "eMoods Classic - Bipolar Mood Tracker",
- "official_url": "https://emoodtracker.com/additional-apps/classic",
- "publisher": "Yottaram LLC",
- "description": "Completely offline mood and symptom tracker, originally developed in 2010 for the bipolar community and free for all users. Logs daily highs and lows, sleep, medications, and other symptoms related to bipolar/manic-depressive illness, depression, anxiety, or BPD, with toggleable custom tracking points, and emails a printable monthly chart/report to a doctor or caregiver to help identify triggers or events that could lead to an episode or relapse. No registration and no login; data is stored only on the device.",
- "resource_type": "mobile-app",
- "platforms": [
-  "iOS",
-  "Android"
- ],
- "access": [
-  "free"
- ],
- "languages": [
-  "English",
-  "Russian",
-  "Korean",
-  "German",
-  "French",
-  "Spanish",
-  "Portuguese"
- ],
- "regions": [
-  "Not stated on the reviewed official page"
- ],
- "intended_population": [
-  "general"
- ],
- "needs": [
-  "practice"
- ],
- "use_context": [
-  "independent-use"
- ],
- "shelf": "practice",
- "tags": [
-  "mood-tracking",
-  "bipolar",
-  "symptom-tracking",
-  "sleep",
-  "medication",
-  "offline"
- ],
- "evidence_notes": "No outcome claims are made on the reviewed official page beyond user testimonials, and none were assessed in this screening; no study is cited on the reviewed page.",
- "limitations": "A tracking aid, not medical advice or treatment: the official page states it should only be used under the supervision of a licensed professional, and it is not a crisis service (the page points to 911 / 988 in the US). The store listing notes the app charts one daily set of extremes rather than multiple moods per day, and that an optional paid patron tier unlocks extra features; patron pricing was not reviewed on the official page. Do not confuse Classic with eMoods Insights, the separate cloud-based web product.",
- "privacy_notes": "Official page states Classic is completely offline with no registration, no cloud storage, and no data ever leaving the device without the user's permission; this is a strong privacy fit, but the privacy policy itself was not reviewed in this screening.",
- "accessibility": [
-  "Not listed on the reviewed official page; verify assistive-technology compatibility before relying on it."
- ],
- "cultural_context": {
-  "adaptation_status": "unknown",
-  "notes": "Translated into several languages per the official page (see languages); no cultural adaptation information beyond translation is stated.",
-  "source_notes": [
-   "https://emoodtracker.com/additional-apps/classic"
-  ]
- },
- "license_notes": "External resource. SootheSpot stores metadata only.",
- "screening_gaps": [
-  "full language list not stated (official page says \"including\" the listed languages)",
-  "age eligibility not stated on the reviewed official page",
-  "regions not stated on the reviewed official page",
-  "patron tier pricing/features not reviewed on the official page",
-  "privacy policy not reviewed",
-  "accessibility not assessed"
- ],
- "required_before_verified": [
-  "official_url_checked",
-  "publisher_confirmed",
-  "purpose_and_population_confirmed",
-  "independent_use_scope_confirmed",
-  "limitations_recorded",
-  "date_checked_recorded",
-  "primary_source_recorded"
- ],
- "last_verified_at": "2026-11-04",
- "source_notes": [
-  "https://emoodtracker.com/additional-apps/classic"
- ],
- "review_status": "screened",
- "status": "screened",
- "reason": "Screened 2026-11-04: official Classic page read live this run; fully offline free mood/symptom tracking, device-only storage, monthly printable reports, and licensed-professional-supervision scope confirmed from the primary source. Ready for owner review before any promotion."
-},
-{
- "id": "freecbt-thought-diary",
- "name": "FreeCBT - Open Source Thought Diary",
- "official_url": "https://github.com/erosson/freecbt",
- "publisher": "Evan Rosson (erosson)",
- "description": "Free, ad-free, GPL-3.0 open-source thought diary for Cognitive Behavioral Therapy, a maintained fork of Quirk, for iOS and Android. Deliberately minimal: record an automatic thought, tag the cognitive distortion, and write an alternative thought (catch it, check it, change it). Unlike many CBT apps it does not ask about mood or push depression-specific exercises, which the project says keeps entries quick and discreet in public settings; it also states a design rule against engagement-maximizing mechanics.",
- "resource_type": "mobile-app",
- "platforms": [
-  "iOS",
-  "Android"
- ],
- "access": [
-  "free"
- ],
- "languages": [
-  "English",
-  "German",
-  "Norwegian Bokmål",
-  "Bulgarian",
-  "Russian",
-  "Hindi",
-  "Portuguese",
-  "Farsi",
-  "Italian",
-  "Spanish",
-  "Polish",
-  "Finnish",
-  "Dutch",
-  "Korean",
-  "Chinese",
-  "French",
-  "Romanian"
- ],
- "regions": [
-  "Not stated on the reviewed project page"
- ],
- "intended_population": [
-  "general"
- ],
- "needs": [
-  "practice"
- ],
- "use_context": [
-  "independent-use"
- ],
- "shelf": "practice",
- "tags": [
-  "cbt",
-  "thought-diary",
-  "cognitive-distortions",
-  "open-source",
-  "offline"
- ],
- "evidence_notes": "No outcome study for FreeCBT itself is cited on the reviewed project page and none was assessed in this screening; the project invites mental-health professionals to audit its distortion descriptions, which signals the descriptions are community-maintained rather than clinically validated here.",
- "limitations": "A self-help CBT practice aid, not a treatment and not a substitute for a therapist; best framed as a companion to CBT work. Single-purpose by design: no mood tracking, diary, relaxation audio, or meditation content, so users wanting those need a second tool. Translation coverage varies by contributor (see languages); age eligibility is NOT stated on the reviewed project page.",
- "privacy_notes": "Project design statement treats thoughts as highly private and opposes undisclosed server transmission; the repo ships a PRIVACY.md, but that file was not read in this screening, so data handling beyond the design statement is unconfirmed.",
- "accessibility": [
-  "Not listed on the reviewed project page; verify assistive-technology compatibility before relying on it."
- ],
- "cultural_context": {
-  "adaptation_status": "unknown",
-  "notes": "Community translations cover many languages (see languages); no cultural adaptation information beyond translation is stated on the reviewed project page.",
-  "source_notes": [
-   "https://github.com/erosson/freecbt"
-  ]
- },
- "license_notes": "App code GPL-3.0; the project notes its license does not grant redistribution of the FreeCBT name/branding. SootheSpot stores metadata only.",
- "screening_gaps": [
-  "PRIVACY.md not read",
-  "age eligibility not stated on the reviewed project page",
-  "regions not stated on the reviewed project page",
-  "distortion descriptions not clinically audited in this screening",
-  "accessibility not assessed"
- ],
- "required_before_verified": [
-  "official_url_checked",
-  "publisher_confirmed",
-  "purpose_and_population_confirmed",
-  "independent_use_scope_confirmed",
-  "limitations_recorded",
-  "date_checked_recorded",
-  "primary_source_recorded"
- ],
- "last_verified_at": "2026-11-04",
- "source_notes": [
-  "https://github.com/erosson/freecbt"
- ],
- "review_status": "screened",
- "status": "screened",
- "reason": "Screened 2026-11-04: official project repo read live this run; free ad-free GPL thought diary, three-column CBT flow, no-mood-tracking design, and anti-engagement design rules confirmed from the primary source. Ready for owner review before any promotion."
-},
-{
- "id": "intellect-self-care-app",
- "name": "Intellect: Create A Better You",
- "official_url": "https://play.google.com/store/apps/details?id=co.intellect.app",
- "publisher": "Intellect Company Pte. Ltd.",
- "description": "Self-care cognitive behavioural therapy app with bite-sized learning paths (managing emotions, poor sleep, anxiety, procrastination, stress, relationship issues), a mood tracker that suggests coping actions, short rescue sessions for overwhelming feelings, and guided journals. The developer listing also offers matching to an online therapist or behavioural health coach, but only for enterprise users and consumers in select markets. Listing states the app serves users in more than 50 countries and was one of Google's Best Apps of 2020.",
- "resource_type": "mobile-app",
- "platforms": [
-  "iOS",
-  "Android"
- ],
- "access": [
-  "free"
- ],
- "languages": [
-  "Not stated on the reviewed listing"
- ],
- "regions": [
-  "More than 50 countries worldwide, per the developer listing (specific countries not listed)"
- ],
- "intended_population": [
-  "general"
- ],
- "needs": [
-  "practice"
- ],
- "use_context": [
-  "independent-use"
- ],
- "shelf": "practice",
- "tags": [
-  "cbt",
-  "learning-paths",
-  "mood-tracking",
-  "rescue-sessions",
-  "guided-journaling",
-  "habits"
- ],
- "evidence_notes": "The developer listing claims the content is \"clinically validated by psychologists and behavioural experts,\" but no validation study is cited on the reviewed listing and that claim was NOT assessed in this screening.",
- "limitations": "A self-care aid, not a treatment and not a crisis service; coaching/therapy matching is market-restricted and is not the self-care product screened here. Owner judgment requested on two points: the listing advertises \"personal usage streaks and badges,\" which sit in tension with SootheSpot's no-streaks / no-engagement-mechanics principle, and the free-vs-paid boundary is unclear on the reviewed listing (price listed as free, but third-party listings report in-app purchases/subscriptions) — the paid tier was not verified. Languages and age eligibility are NOT stated on the reviewed listing.",
- "privacy_notes": "The reviewed listing does not state data practices for the consumer self-care app; the privacy policy was not reviewed in this screening. (A separate enterprise page states Intellect never discloses personal information to an employer, but that is an enterprise claim, not verified here for the consumer app.)",
- "accessibility": [
-  "Not listed on the reviewed listing; verify assistive-technology compatibility before relying on it."
- ],
- "cultural_context": {
-  "adaptation_status": "unknown",
-  "notes": "Marketed across 50+ countries with coaches in a variety of languages per the listing, but no cultural adaptation information for the self-guided content is stated on the reviewed listing.",
-  "source_notes": [
-   "https://play.google.com/store/apps/details?id=co.intellect.app"
-  ]
- },
- "license_notes": "External resource. SootheSpot stores metadata only.",
- "screening_gaps": [
-  "official homepage not separately reviewed (developer store listing used as the primary source this run)",
-  "clinical-validation claim not assessed",
-  "free-vs-paid boundary not verified",
-  "languages not stated on the reviewed listing",
-  "age eligibility not stated on the reviewed listing",
-  "privacy policy not reviewed",
-  "accessibility not assessed"
- ],
- "required_before_verified": [
-  "official_url_checked",
-  "publisher_confirmed",
-  "purpose_and_population_confirmed",
-  "independent_use_scope_confirmed",
-  "limitations_recorded",
-  "date_checked_recorded",
-  "primary_source_recorded"
- ],
- "last_verified_at": "2026-11-04",
- "source_notes": [
-  "https://play.google.com/store/apps/details?id=co.intellect.app"
- ],
- "review_status": "screened",
- "status": "screened",
- "reason": "Screened 2026-11-04: developer store listing read live this run; self-guided CBT learning paths, mood tracker, rescue sessions, guided journals, and market-restricted coaching/therapy matching confirmed from the primary source, with streaks/badges and the unverified validation claim flagged for owner judgment. Ready for owner review before any promotion."
-}
+  {
+    "id": "stoic-journal-app",
+    "name": "Stoic - Journal for Daily Reflection",
+    "official_url": "https://www.getstoic.com/",
+    "publisher": "Stoic",
+    "description": "Daily reflection journaling app: morning check-in and evening wrap-up, guided journals with prompts curated by therapists and experts, mood-trend tracking, meditation and breathing practices, quotes and affirmations, and themed events. Habit features include smart reminders, streak trackers, and badges. Free to start with optional Premium; syncing across Apple devices and the Web requires Premium. The homepage reports 4M+ downloads and states the app works on iPhone, iPad, macOS, Apple Watch, and the Web.",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "macOS",
+      "Apple Watch",
+      "Web"
+    ],
+    "access": [
+      "Free to start with optional Premium (Premium price not stated on the reviewed homepage)"
+    ],
+    "languages": [
+      "Not stated on the reviewed homepage"
+    ],
+    "regions": [
+      "Not stated on the reviewed homepage"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice",
+      "mood"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "tags": [
+      "journaling",
+      "reflection",
+      "mood-tracking",
+      "breathing",
+      "meditation"
+    ],
+    "evidence_notes": "App Store user testimonials quoted on the homepage (including claims about easing anxiety and depression) are testimonials, not assessed outcomes, and no study citation appears on the reviewed homepage. The 4M+ download count is a publisher claim, not independently assessed.",
+    "limitations": "A journaling and reflection aid, not a treatment for anxiety or depression; testimonial language must never be framed as clinical evidence. Streak trackers and badges sit in tension with SootheSpot's no-streaks, no-engagement-mechanics principle - owner judgment requested before any promotion. If AI features are enabled, journal entries are sent to the publisher's AI providers (stated on the homepage); that data flow needs privacy review. Premium price, languages, and age eligibility are NOT stated on the reviewed homepage.",
+    "privacy_notes": "Homepage states journals are stored on the user's devices and, with Premium, backed up so they are never lost, and that enabling AI features sends entries to AI providers listed in the Privacy Policy. The privacy policy and terms were not reviewed in this screening.",
+    "accessibility": [
+      "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural adaptation information stated on the reviewed homepage.",
+      "source_notes": [
+        "https://www.getstoic.com/"
+      ]
+    },
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "screening_gaps": [
+      "Premium pricing not stated on the reviewed homepage",
+      "languages not stated on the reviewed homepage",
+      "age eligibility not stated on the reviewed homepage",
+      "AI provider list and privacy policy not reviewed",
+      "accessibility not assessed",
+      "testimonial claims not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "last_verified_at": "2026-11-04",
+    "source_notes": [
+      "https://www.getstoic.com/"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "reason": "Screened 2026-11-04: official homepage read live this run; morning/evening reflection flow, guided journals, mood-trend tracking, breathing/meditation content, and the AI data-flow disclosure confirmed from the primary source. Ready for owner review before any promotion."
+  },
+  {
+    "id": "moshi-kids-sleep-app",
+    "name": "Moshi Kids - Sleep, Relax, Play",
+    "official_url": "https://www.moshikids.com/faqs/",
+    "publisher": "Moshi",
+    "description": "Children's audio sleep and relaxation app: bedtime stories, sleep sounds, white noise, lullabies, music, and meditations, designed to be used audio-only at bedtime (the device screen can be switched off). The official FAQ page states the app is designed for kids but enjoyable at any age, supports Apple iOS 12+ and Android 8.0+, offers selected free content with the full library via subscription, and describes the whole app suite as 100% ad-free. A separate Moshi Play app covers play activities, and a bundle subscription covers all five Moshi apps.",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "Free to download with selected free content; full library via subscription (price not stated on the reviewed FAQ page); 7-day free trial offered"
+    ],
+    "languages": [
+      "Not stated on the reviewed FAQ page"
+    ],
+    "regions": [
+      "Not stated on the reviewed FAQ page"
+    ],
+    "intended_population": [
+      "children",
+      "families"
+    ],
+    "needs": [
+      "sleep",
+      "calm"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "tags": [
+      "sleep",
+      "bedtime-stories",
+      "children",
+      "audio",
+      "relaxation"
+    ],
+    "evidence_notes": "Sleep-effectiveness claims (for example, falling asleep faster or fewer night wakings) appear on store listings, not on the official FAQ page reviewed here, and were NOT assessed in this screening; no study is cited on the reviewed page.",
+    "limitations": "A children's sleep and relaxation aid, not a treatment for sleep problems or anxiety. Owner judgment requested on two points: the reward mechanics in the Moshi Play companion app (daily quests, collectible stickers) sit in tension with SootheSpot's no-engagement-mechanics principle, and any listing for children needs a child-safety review. Trial caution stated on the reviewed page: a free trial can be redeemed only once, and attempting a second trial may result in immediate charging; subscriptions renew automatically unless cancelled at least 24 hours before renewal. Subscription price, languages, and regions are NOT stated on the reviewed page; offline mode is subscribers-only and requires reconnection within 24 hours.",
+    "privacy_notes": "An account is required to unlock the full experience, per the reviewed FAQ page. The privacy policy and terms were not reviewed in this screening.",
+    "accessibility": [
+      "Not listed on the reviewed FAQ page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural adaptation information stated on the reviewed FAQ page.",
+      "source_notes": [
+        "https://www.moshikids.com/faqs/"
+      ]
+    },
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "screening_gaps": [
+      "subscription price not stated on the reviewed FAQ page",
+      "languages not stated on the reviewed FAQ page",
+      "regions not stated on the reviewed FAQ page",
+      "store-listing sleep claims not assessed",
+      "privacy policy and terms not reviewed",
+      "accessibility not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "last_verified_at": "2026-11-04",
+    "source_notes": [
+      "https://www.moshikids.com/faqs/"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "reason": "Screened 2026-11-04: official FAQ page read live this run; audio-only bedtime design, iOS/Android support, free-content-plus-subscription model, ad-free claim, and trial/renewal terms confirmed from the primary source. Ready for owner review before any promotion."
+  },
+  {
+    "id": "gratu-gratitude-journal-app",
+    "name": "gratu - Gratitude Journal",
+    "official_url": "https://gratu.app/",
+    "publisher": "gratu",
+    "description": "Gratitude journaling app: capture daily gratitude entries as they happen, revisit them on a timeline, use thoughtful guided prompts and gentle daily reminders, and build momentum with 7-day or 30-day gratitude journeys. Free to download and use with no subscriptions, per the homepage. Entries are stored locally on the device, protected by Face ID or Touch ID, and sync across Apple devices via iCloud. Dark mode is included.",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "macOS"
+    ],
+    "access": [
+      "free"
+    ],
+    "languages": [
+      "Not stated on the reviewed homepage"
+    ],
+    "regions": [
+      "Not stated on the reviewed homepage"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "tags": [
+      "gratitude",
+      "journaling",
+      "reflection",
+      "prompts"
+    ],
+    "evidence_notes": "No outcome claims are made on the reviewed homepage beyond user testimonials, and none were assessed in this screening. The publisher's no-ads, no-analytics, no-data-collection statements are publisher claims; the privacy policy was not reviewed.",
+    "limitations": "A gratitude journaling aid, not a treatment for any condition. Apple-only: the homepage FAQ states gratu is available on iPhone, iPad, and Mac with no Android version, so Android users are excluded. Languages and age eligibility are NOT stated on the reviewed homepage.",
+    "privacy_notes": "Homepage states entries are stored locally, protected by Face ID or Touch ID, never stored on the publisher's servers, with zero tracking or analytics, and synced via iCloud across Apple devices. The privacy policy was not reviewed in this screening.",
+    "accessibility": [
+      "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural adaptation information stated on the reviewed homepage.",
+      "source_notes": [
+        "https://gratu.app/"
+      ]
+    },
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "screening_gaps": [
+      "languages not stated on the reviewed homepage",
+      "age eligibility not stated on the reviewed homepage",
+      "privacy policy not reviewed",
+      "accessibility not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "last_verified_at": "2026-11-04",
+    "source_notes": [
+      "https://gratu.app/"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "reason": "Screened 2026-11-04: official homepage read live this run; free gratitude journaling flow, prompts, reminders, journeys, local storage with Face/Touch ID, iCloud sync, and Apple-only availability confirmed from the primary source. Ready for owner review before any promotion."
+  },
+  {
+    "id": "emoods-classic-mood-tracker",
+    "name": "eMoods Classic - Bipolar Mood Tracker",
+    "official_url": "https://emoodtracker.com/additional-apps/classic",
+    "publisher": "Yottaram LLC",
+    "description": "Completely offline mood and symptom tracker, originally developed in 2010 for the bipolar community and free for all users. Logs daily highs and lows, sleep, medications, and other symptoms related to bipolar/manic-depressive illness, depression, anxiety, or BPD, with toggleable custom tracking points, and emails a printable monthly chart/report to a doctor or caregiver to help identify triggers or events that could lead to an episode or relapse. No registration and no login; data is stored only on the device.",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free"
+    ],
+    "languages": [
+      "English",
+      "Russian",
+      "Korean",
+      "German",
+      "French",
+      "Spanish",
+      "Portuguese"
+    ],
+    "regions": [
+      "Not stated on the reviewed official page"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "tags": [
+      "mood-tracking",
+      "bipolar",
+      "symptom-tracking",
+      "sleep",
+      "medication",
+      "offline"
+    ],
+    "evidence_notes": "No outcome claims are made on the reviewed official page beyond user testimonials, and none were assessed in this screening; no study is cited on the reviewed page.",
+    "limitations": "A tracking aid, not medical advice or treatment: the official page states it should only be used under the supervision of a licensed professional, and it is not a crisis service (the page points to 911 / 988 in the US). The store listing notes the app charts one daily set of extremes rather than multiple moods per day, and that an optional paid patron tier unlocks extra features; patron pricing was not reviewed on the official page. Do not confuse Classic with eMoods Insights, the separate cloud-based web product.",
+    "privacy_notes": "Official page states Classic is completely offline with no registration, no cloud storage, and no data ever leaving the device without the user's permission; this is a strong privacy fit, but the privacy policy itself was not reviewed in this screening.",
+    "accessibility": [
+      "Not listed on the reviewed official page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Translated into several languages per the official page (see languages); no cultural adaptation information beyond translation is stated.",
+      "source_notes": [
+        "https://emoodtracker.com/additional-apps/classic"
+      ]
+    },
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "screening_gaps": [
+      "full language list not stated (official page says \"including\" the listed languages)",
+      "age eligibility not stated on the reviewed official page",
+      "regions not stated on the reviewed official page",
+      "patron tier pricing/features not reviewed on the official page",
+      "privacy policy not reviewed",
+      "accessibility not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "last_verified_at": "2026-11-04",
+    "source_notes": [
+      "https://emoodtracker.com/additional-apps/classic"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "reason": "Screened 2026-11-04: official Classic page read live this run; fully offline free mood/symptom tracking, device-only storage, monthly printable reports, and licensed-professional-supervision scope confirmed from the primary source. Ready for owner review before any promotion."
+  },
+  {
+    "id": "freecbt-thought-diary",
+    "name": "FreeCBT - Open Source Thought Diary",
+    "official_url": "https://github.com/erosson/freecbt",
+    "publisher": "Evan Rosson (erosson)",
+    "description": "Free, ad-free, GPL-3.0 open-source thought diary for Cognitive Behavioral Therapy, a maintained fork of Quirk, for iOS and Android. Deliberately minimal: record an automatic thought, tag the cognitive distortion, and write an alternative thought (catch it, check it, change it). Unlike many CBT apps it does not ask about mood or push depression-specific exercises, which the project says keeps entries quick and discreet in public settings; it also states a design rule against engagement-maximizing mechanics.",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free"
+    ],
+    "languages": [
+      "English",
+      "German",
+      "Norwegian Bokmål",
+      "Bulgarian",
+      "Russian",
+      "Hindi",
+      "Portuguese",
+      "Farsi",
+      "Italian",
+      "Spanish",
+      "Polish",
+      "Finnish",
+      "Dutch",
+      "Korean",
+      "Chinese",
+      "French",
+      "Romanian"
+    ],
+    "regions": [
+      "Not stated on the reviewed project page"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "tags": [
+      "cbt",
+      "thought-diary",
+      "cognitive-distortions",
+      "open-source",
+      "offline"
+    ],
+    "evidence_notes": "No outcome study for FreeCBT itself is cited on the reviewed project page and none was assessed in this screening; the project invites mental-health professionals to audit its distortion descriptions, which signals the descriptions are community-maintained rather than clinically validated here.",
+    "limitations": "A self-help CBT practice aid, not a treatment and not a substitute for a therapist; best framed as a companion to CBT work. Single-purpose by design: no mood tracking, diary, relaxation audio, or meditation content, so users wanting those need a second tool. Translation coverage varies by contributor (see languages); age eligibility is NOT stated on the reviewed project page.",
+    "privacy_notes": "Project design statement treats thoughts as highly private and opposes undisclosed server transmission; the repo ships a PRIVACY.md, but that file was not read in this screening, so data handling beyond the design statement is unconfirmed.",
+    "accessibility": [
+      "Not listed on the reviewed project page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Community translations cover many languages (see languages); no cultural adaptation information beyond translation is stated on the reviewed project page.",
+      "source_notes": [
+        "https://github.com/erosson/freecbt"
+      ]
+    },
+    "license_notes": "App code GPL-3.0; the project notes its license does not grant redistribution of the FreeCBT name/branding. SootheSpot stores metadata only.",
+    "screening_gaps": [
+      "PRIVACY.md not read",
+      "age eligibility not stated on the reviewed project page",
+      "regions not stated on the reviewed project page",
+      "distortion descriptions not clinically audited in this screening",
+      "accessibility not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "last_verified_at": "2026-11-04",
+    "source_notes": [
+      "https://github.com/erosson/freecbt"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "reason": "Screened 2026-11-04: official project repo read live this run; free ad-free GPL thought diary, three-column CBT flow, no-mood-tracking design, and anti-engagement design rules confirmed from the primary source. Ready for owner review before any promotion."
+  },
+  {
+    "id": "intellect-self-care-app",
+    "name": "Intellect: Create A Better You",
+    "official_url": "https://play.google.com/store/apps/details?id=co.intellect.app",
+    "publisher": "Intellect Company Pte. Ltd.",
+    "description": "Self-care cognitive behavioural therapy app with bite-sized learning paths (managing emotions, poor sleep, anxiety, procrastination, stress, relationship issues), a mood tracker that suggests coping actions, short rescue sessions for overwhelming feelings, and guided journals. The developer listing also offers matching to an online therapist or behavioural health coach, but only for enterprise users and consumers in select markets. Listing states the app serves users in more than 50 countries and was one of Google's Best Apps of 2020.",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free"
+    ],
+    "languages": [
+      "Not stated on the reviewed listing"
+    ],
+    "regions": [
+      "More than 50 countries worldwide, per the developer listing (specific countries not listed)"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "tags": [
+      "cbt",
+      "learning-paths",
+      "mood-tracking",
+      "rescue-sessions",
+      "guided-journaling",
+      "habits"
+    ],
+    "evidence_notes": "The developer listing claims the content is \"clinically validated by psychologists and behavioural experts,\" but no validation study is cited on the reviewed listing and that claim was NOT assessed in this screening.",
+    "limitations": "A self-care aid, not a treatment and not a crisis service; coaching/therapy matching is market-restricted and is not the self-care product screened here. Owner judgment requested on two points: the listing advertises \"personal usage streaks and badges,\" which sit in tension with SootheSpot's no-streaks / no-engagement-mechanics principle, and the free-vs-paid boundary is unclear on the reviewed listing (price listed as free, but third-party listings report in-app purchases/subscriptions) — the paid tier was not verified. Languages and age eligibility are NOT stated on the reviewed listing.",
+    "privacy_notes": "The reviewed listing does not state data practices for the consumer self-care app; the privacy policy was not reviewed in this screening. (A separate enterprise page states Intellect never discloses personal information to an employer, but that is an enterprise claim, not verified here for the consumer app.)",
+    "accessibility": [
+      "Not listed on the reviewed listing; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Marketed across 50+ countries with coaches in a variety of languages per the listing, but no cultural adaptation information for the self-guided content is stated on the reviewed listing.",
+      "source_notes": [
+        "https://play.google.com/store/apps/details?id=co.intellect.app"
+      ]
+    },
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "screening_gaps": [
+      "official homepage not separately reviewed (developer store listing used as the primary source this run)",
+      "clinical-validation claim not assessed",
+      "free-vs-paid boundary not verified",
+      "languages not stated on the reviewed listing",
+      "age eligibility not stated on the reviewed listing",
+      "privacy policy not reviewed",
+      "accessibility not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "last_verified_at": "2026-11-04",
+    "source_notes": [
+      "https://play.google.com/store/apps/details?id=co.intellect.app"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "reason": "Screened 2026-11-04: developer store listing read live this run; self-guided CBT learning paths, mood tracker, rescue sessions, guided journals, and market-restricted coaching/therapy matching confirmed from the primary source, with streaks/badges and the unverified validation claim flagged for owner judgment. Ready for owner review before any promotion."
+  },
+  {
+    "id": "moodtools-depression-tools",
+    "name": "MoodTools - Depression Aid",
+    "official_url": "https://moodtools.org/",
+    "publisher": "MoodTools",
+    "description": "Free app built around evidence-based tools for low mood and depression: a PHQ-9 depression questionnaire with symptom-severity tracking over time, a Thought Diary for analyzing thoughts and identifying negative/distorted thinking patterns based on Cognitive Therapy principles, and a suicide safety plan tool with emergency resources. The homepage states the app is not intended to be a replacement for treatment or any sort of medical intervention.",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free"
+    ],
+    "languages": [
+      "Not stated on the reviewed official page"
+    ],
+    "regions": [
+      "Not stated on the reviewed official page"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "tags": [
+      "cbt",
+      "thought-diary",
+      "depression",
+      "mood-tracking",
+      "safety-plan",
+      "phq-9"
+    ],
+    "evidence_notes": "Homepage describes the tools as evidence-based but cites no outcome study on the reviewed page, and none was assessed in this screening; the PHQ-9 is a validated questionnaire, but the app's own effectiveness was not assessed here.",
+    "limitations": "A self-help aid, not treatment: the homepage disclaims it as a replacement for treatment or medical intervention. Owner judgment required before any promotion: the in-app suicide safety plan feature touches the safety pathway, so SootheSpot's deterministic safety routing applies independently and this feature must never be framed as crisis care. PHQ-9 scores are self-assessment, not diagnosis. Languages, age eligibility, and regions are NOT stated on the reviewed homepage.",
+    "privacy_notes": "Privacy policy and terms are linked only as Medium posts on the homepage and were not reviewed in this screening; data handling for PHQ-9 responses, diary entries, and safety plans is unconfirmed.",
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural adaptation information is stated on the reviewed homepage beyond the tool descriptions.",
+      "source_notes": [
+        "https://moodtools.org/"
+      ]
+    },
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "screening_gaps": [
+      "publisher legal entity not stated on the reviewed homepage",
+      "privacy policy and terms not reviewed (linked via Medium)",
+      "languages not stated on the reviewed homepage",
+      "age eligibility not stated on the reviewed homepage",
+      "regions not stated on the reviewed homepage",
+      "app effectiveness not assessed",
+      "accessibility not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "last_verified_at": "2026-11-04",
+    "source_notes": [
+      "https://moodtools.org/"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "reason": "Screened 2026-11-04: official homepage read live this run; free PHQ-9 tracking, Cognitive Therapy thought diary, and safety-plan tool confirmed from the primary source, with the safety-plan feature flagged for owner judgment. Ready for owner review before any promotion."
+  },
+  {
+    "id": "medito-free-meditation",
+    "name": "Medito - Free Meditation App",
+    "official_url": "https://medito.app/",
+    "publisher": "Medito Foundation",
+    "description": "Free-forever meditation app from a registered charity: hundreds of guided meditations, sleep stories, courses (beginner to advanced, including short and 30-day challenges), daily guided sessions, breathing exercises, and an unguided timer with ambient sounds. The homepage states there are no ads, no paywalls, no premium tier, and no account required, and that the code is open source. Homepage claims 4.1M+ downloads and a 4.9-star app-store rating.",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free"
+    ],
+    "languages": [
+      "Not stated on the reviewed official page"
+    ],
+    "regions": [
+      "190+ countries, per the reviewed official page (specific countries not listed)"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "breathing",
+      "sleep",
+      "open-source",
+      "nonprofit"
+    ],
+    "evidence_notes": "No outcome study for Medito itself is cited on the reviewed homepage and none was assessed in this screening; the download and rating figures are the publisher's own claims, not independently verified here.",
+    "limitations": "A general wellness meditation aid, not treatment and not a crisis service. Languages and age eligibility are NOT stated on the reviewed homepage; the sleep-story and stress/anxiety content is general-purpose, not tailored to any condition. Charity status is claimed on the homepage but registration details were not checked in this screening.",
+    "privacy_notes": "Strong privacy fit on the homepage's own terms (no account, no paywall, open-source code, 'no hidden tracking' claim), but the privacy policy itself was not reviewed in this screening, so data handling beyond those claims is unconfirmed.",
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural adaptation information is stated on the reviewed homepage; global reach is claimed (190+ countries) without language or adaptation detail.",
+      "source_notes": [
+        "https://medito.app/"
+      ]
+    },
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "screening_gaps": [
+      "languages not stated on the reviewed official page",
+      "age eligibility not stated on the reviewed official page",
+      "charity registration not independently checked",
+      "privacy policy not reviewed",
+      "accessibility not assessed",
+      "effectiveness not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "last_verified_at": "2026-11-04",
+    "source_notes": [
+      "https://medito.app/"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "reason": "Screened 2026-11-04: official homepage read live this run; free-forever, no-account, no-ads meditation library, nonprofit and open-source positioning confirmed from the primary source. Ready for owner review before any promotion."
+  },
+  {
+    "id": "oak-meditation-breathing",
+    "name": "Oak - Meditation & Breathing",
+    "official_url": "https://oakmeditation.com/",
+    "publisher": "Oak by Big Sky Health, Inc. (per App Store listing; not named on the official homepage)",
+    "description": "Simple breathing and meditation app: guided breathing exercises and meditation for everyday practice, presented as a simple daily practice. The official homepage is minimal and states only the breathing/meditation focus and iOS availability via an App Store badge. App Store listing material (via search results, not the homepage) describes mindful and loving-kindness guided meditations, unguided sessions, breathing techniques, and sleep content, free with one optional in-app purchase (a mantra meditation course).",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS"
+    ],
+    "access": [
+      "free"
+    ],
+    "languages": [
+      "Not stated on the reviewed official page"
+    ],
+    "regions": [
+      "Not stated on the reviewed official page"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "tags": [
+      "meditation",
+      "breathing",
+      "mindfulness",
+      "sleep",
+      "simple"
+    ],
+    "evidence_notes": "No outcome study is cited on the reviewed homepage and none was assessed in this screening.",
+    "limitations": "A general wellness aid, not treatment and not a crisis service. Owner judgment requested on two points: (1) the official homepage is very thin, so most feature detail comes from the App Store listing rather than the publisher's own site; (2) the free-vs-paid boundary (one optional paid mantra course per the store listing) was not verified on the official homepage. Android availability is NOT stated on the official homepage (older reviews describe it as iOS-only). Languages and age eligibility are NOT stated on the reviewed homepage.",
+    "privacy_notes": "No privacy information is stated on the reviewed official homepage, and the privacy policy was not reviewed in this screening.",
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural adaptation information is stated on the reviewed official homepage.",
+      "source_notes": [
+        "https://oakmeditation.com/"
+      ]
+    },
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "screening_gaps": [
+      "official homepage is minimal; feature detail rests on the App Store listing",
+      "free-vs-paid boundary not verified on the official homepage",
+      "Android availability not stated on the official homepage",
+      "publisher not named on the official homepage",
+      "languages not stated on the reviewed official page",
+      "age eligibility not stated on the reviewed official page",
+      "privacy policy not reviewed",
+      "accessibility not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "last_verified_at": "2026-11-04",
+    "source_notes": [
+      "https://oakmeditation.com/"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "reason": "Screened 2026-11-04: official homepage read live this run (thin page: breathing + meditation, iOS App Store badge); App Store listing used only to supplement feature/paid-tier detail, flagged as such. Ready for owner review before any promotion."
+  },
+  {
+    "id": "how-we-feel-emotion-journal",
+    "name": "How We Feel - Emotional Wellbeing Journal",
+    "official_url": "https://play.google.com/store/apps/details?id=org.howwefeel.moodmeter&hl=en_CA",
+    "publisher": "The How We Feel Project, Inc.",
+    "description": "Free emotional-wellbeing journal created by scientists, designers, engineers, and therapists, conceived with Yale University's Center for Emotional Intelligence and based on the work of Dr Marc Brackett. Helps users find the right word for how they feel, track sleep, exercise, and health trends to spot patterns over time, and use step-by-step video strategies (as short as one minute) across four themes: Change Your Thinking (cognitive), Move Your Body (movement), Be Mindful (mindfulness), and Reach Out (social). A friends feature lets users share how they feel with trusted people in real time. Founded as a science-based nonprofit funded by donations; store listing price 0 USD.",
+    "resource_type": "mobile-app",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "access": [
+      "free"
+    ],
+    "languages": [
+      "Not stated on the reviewed listing"
+    ],
+    "regions": [
+      "Not stated on the reviewed listing"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "tags": [
+      "emotion-labeling",
+      "mood-tracking",
+      "journaling",
+      "cognitive-strategies",
+      "mindfulness",
+      "nonprofit"
+    ],
+    "evidence_notes": "The listing grounds the app in Yale Center for Emotional Intelligence work and Dr Marc Brackett's research, but cites no outcome study for the app itself on the reviewed listing and none was assessed in this screening.",
+    "limitations": "A self-help wellbeing journal, not treatment, diagnosis, or a crisis service. The friends/sharing feature involves sharing emotional states with others, so owner judgment is requested on how that is framed before promotion. Languages (including a reported Spanish version), age eligibility, and regions are NOT stated on the reviewed listing; the iOS listing was confirmed only via search results, not a live fetch of the App Store page this run.",
+    "privacy_notes": "Listing states data is stored on the device unless the user chooses another storage solution, is accessible only to the user unless shared, and is not used for research unless the user opts in to contribute an anonymized version; the full privacy policy itself was not reviewed in this screening.",
+    "accessibility": [
+      "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Conceived with a US university center; no cultural adaptation information beyond that origin is stated on the reviewed listing.",
+      "source_notes": [
+        "https://play.google.com/store/apps/details?id=org.howwefeel.moodmeter&hl=en_CA"
+      ]
+    },
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "screening_gaps": [
+      "official homepage not separately reviewed (developer store listing used as the primary source this run)",
+      "iOS listing confirmed via search results only, not a live App Store fetch",
+      "languages not stated on the reviewed listing (Spanish version reported in listing notes, unconfirmed on the fetched page)",
+      "age eligibility not stated on the reviewed listing",
+      "regions not stated on the reviewed listing",
+      "privacy policy not reviewed",
+      "accessibility not assessed",
+      "app effectiveness not assessed"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "last_verified_at": "2026-11-04",
+    "source_notes": [
+      "https://play.google.com/store/apps/details?id=org.howwefeel.moodmeter&hl=en_CA"
+    ],
+    "review_status": "screened",
+    "status": "screened",
+    "reason": "Screened 2026-11-04: developer store listing read live this run; free nonprofit emotion-labeling journal, Yale-conceived framework, four strategy themes, and device-first privacy posture confirmed from the primary source, with the sharing feature flagged for owner judgment. Ready for owner review before any promotion."
+  }
 ]
