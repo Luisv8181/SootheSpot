@@ -17319,5 +17319,303 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "id": "stair-coach-va",
+    "name": "STAIR Coach",
+    "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
+    "resource_type": "mobile-app",
+    "official_url": "https://mobile.va.gov/app/stair-coach",
+    "description": "Treatment-companion app for Skills Training in Affective & Interpersonal Regulation (STAIR), an evidence-based psychotherapy for emotion regulation and interpersonal relationship problems commonly experienced after a trauma. Guides the user through exercises assigned by their therapist, tracks and records progress, and includes tools for self-care, a mood journal, and a training plan to help understand and regulate emotions and improve relationships.",
+    "tags": [
+      "ptsd",
+      "trauma",
+      "emotion-regulation",
+      "interpersonal-skills",
+      "treatment-companion",
+      "mood-journal",
+      "therapist-supported"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [],
+    "languages": [],
+    "regions": [
+      "Global availability not verified; U.S. federal government (VA) publisher."
+    ],
+    "intended_population": [
+      "People engaged in Skills Training in Affective & Interpersonal Regulation (STAIR) therapy with a mental health professional (per the official VA Mobile page)"
+    ],
+    "needs": [
+      "practice",
+      "calm",
+      "trauma"
+    ],
+    "use_context": [
+      "therapist-supported"
+    ],
+    "shelf": "practice",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S. federal agency's clinical-treatment companion; cultural-context fit not assessed in this screening.",
+      "source_notes": [
+        "https://mobile.va.gov/app/stair-coach"
+      ]
+    },
+    "accessibility": [
+      "App-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "App-level privacy policy, data practices, and account requirements were not verified in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher is VA's National Center for PTSD; STAIR is described by the publisher as an evidence-based psychotherapy. The app is a treatment companion, not a standalone intervention - no efficacy claims for the app itself were evaluated.",
+    "limitations": "Not self-help: designed to be used with a mental healthcare provider as part of STAIR therapy, and the official page states it is 'not meant to be used for self-care'. PTSD is a serious condition that requires professional evaluation and treatment. Must never be framed as a crisis or standalone care pathway.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-05",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "use_scope_confirmed_provider_supported",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "platforms not enumerated on the fetched page",
+      "languages not stated",
+      "account requirement not verified",
+      "app-level privacy policy not reviewed",
+      "accessibility not verified",
+      "cost not explicitly stated on the fetched page"
+    ],
+    "reason": "Screened 2026-11-05: official VA Mobile page checked live; confirmed a STAIR treatment-companion app designed for use with a mental health professional, explicitly not for self-care. Recorded as therapist-supported with the scope limitation explicit. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://mobile.va.gov/app/stair-coach"
+    ]
+  },
+  {
+    "id": "pain-coach-va",
+    "name": "Pain Coach",
+    "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
+    "resource_type": "mobile-app",
+    "official_url": "https://mobile.va.gov/app/pain-coach",
+    "description": "Interactive app for anyone who experiences chronic pain or pain that disrupts their life. Uses evidence-informed strategies to help manage chronic pain, with in-depth education, customizable support, and in-the-moment practice activities based on the latest in pain management. Features daily check-ins for tracking emotions and coping strategies, 12 levels of activities, a multimedia journal, a step-by-step guide for identifying a pain support network, and trackers for pain and mood symptoms.",
+    "tags": [
+      "chronic-pain",
+      "pain-management",
+      "coping-skills",
+      "symptom-tracking",
+      "mood-tracking",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [],
+    "languages": [],
+    "regions": [
+      "Global availability not verified; U.S. federal government (VA) publisher."
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice",
+      "understand",
+      "calm"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S. federal publisher; created for anyone with chronic or disruptive pain. Fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://mobile.va.gov/app/pain-coach"
+      ]
+    },
+    "accessibility": [
+      "App-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "App-level privacy policy, data practices, and account requirements were not verified in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher describes the app's strategies as evidence-informed and based on the latest in pain management. Effectiveness of the app itself was not evaluated in this screening.",
+    "limitations": "Can be used as a stand-alone education and self-care tool or as a supplement to professional care, but does not replace treatment with a healthcare professional for chronic pain or mental health conditions such as PTSD.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-05",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "platforms not enumerated on the fetched page",
+      "languages not stated",
+      "account requirement not verified",
+      "app-level privacy policy not reviewed",
+      "accessibility not verified",
+      "cost not explicitly stated on the fetched page"
+    ],
+    "reason": "Screened 2026-11-05: official VA Mobile page checked live; confirmed a free-standing chronic-pain self-management app (education, 12 activity levels, journal, pain/mood trackers) with a professional-care disclaimer. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://mobile.va.gov/app/pain-coach"
+    ]
+  },
+  {
+    "id": "concussion-coach-va",
+    "name": "Concussion Coach",
+    "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
+    "resource_type": "mobile-app",
+    "official_url": "https://mobile.va.gov/app/concussion-coach",
+    "description": "App for everyone, including Veterans and Service members, to help manage symptoms related to a concussion or head injury such as headaches, insomnia, concentration and memory problems, and irritability. Helps users learn and practice healthy activities that can improve concussion symptoms. Features daily check-ins with Bean, a personalized concussion guide, suggested activities and tools, screeners for concussion and PTSD, trackers for goals, concussion symptoms, pain, and self-compassion, plus education about concussion and resources for related conditions.",
+    "tags": [
+      "concussion",
+      "brain-injury",
+      "symptom-tracking",
+      "self-compassion",
+      "education",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [],
+    "languages": [],
+    "regions": [
+      "Global availability not verified; U.S. federal government (VA) publisher."
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice",
+      "understand",
+      "calm"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S. federal publisher; created for everyone including Veterans and Service members. Fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://mobile.va.gov/app/concussion-coach"
+      ]
+    },
+    "accessibility": [
+      "App-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "App-level privacy policy, data practices, and account requirements were not verified in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher is VA's National Center for PTSD. Effectiveness of the app itself was not evaluated in this screening.",
+    "limitations": "Can be used as a stand-alone education and self-care tool or as a supplement to professional care, but does not replace treatment with a healthcare professional for a head injury or mental health conditions such as PTSD.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-05",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "platforms not enumerated on the fetched page",
+      "languages not stated",
+      "account requirement not verified",
+      "app-level privacy policy not reviewed",
+      "accessibility not verified",
+      "cost not explicitly stated on the fetched page"
+    ],
+    "reason": "Screened 2026-11-05: official VA Mobile page checked live; confirmed a stand-alone concussion symptom-management app (guided check-ins, screeners, symptom/goal/self-compassion trackers, education) with a professional-care disclaimer. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://mobile.va.gov/app/concussion-coach"
+    ]
+  },
+  {
+    "id": "stay-quit-coach-va",
+    "name": "Stay Quit Coach 2",
+    "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD",
+    "resource_type": "mobile-app",
+    "official_url": "https://mobile.va.gov/app/stay-quit-coach",
+    "description": "App to help anyone who would like to quit or reduce use of cigarettes, electronic nicotine delivery systems, cigars, and chewing tobacco. Helps users identify their personal reasons for quitting, set goals, and track progress over time; provides information about tobacco use and nicotine withdrawal; interactive tools help cope with urges, motivational messages help users stay tobacco-free, and a breathing tool helps manage stress. Features goal-setting for cutting back or quitting, real-time logging of multiple tobacco products, progress tracking, personalized coping plans for urges, strategies for managing lapses, and resources for getting support.",
+    "tags": [
+      "tobacco-cessation",
+      "smoking-cessation",
+      "nicotine",
+      "substance-use",
+      "goal-tracking",
+      "coping-skills",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [],
+    "languages": [],
+    "regions": [
+      "Global availability not verified; U.S. federal government (VA) publisher."
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice",
+      "substance-use",
+      "calm"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S. federal publisher; created for anyone who wants to quit or reduce tobacco use. Fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://mobile.va.gov/app/stay-quit-coach"
+      ]
+    },
+    "accessibility": [
+      "App-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "App-level privacy policy, data practices, and account requirements were not verified in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher is VA's National Center for PTSD. Effectiveness of the app itself was not evaluated in this screening; the user testimonial quoted on the publisher page was not evaluated.",
+    "limitations": "Can be used on its own, but for maximum benefit the publisher recommends using it with the help of a counselor or healthcare provider. It does not replace treatment with a healthcare professional.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-05",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "platforms not enumerated on the fetched page",
+      "languages not stated",
+      "account requirement not verified",
+      "app-level privacy policy not reviewed",
+      "accessibility not verified",
+      "cost not explicitly stated on the fetched page"
+    ],
+    "reason": "Screened 2026-11-05: official VA Mobile page checked live; confirmed a stand-alone tobacco-cessation app (goal-setting, real-time use logging, coping plans, breathing tool, lapse strategies) with a counselor-recommended note and a professional-care disclaimer. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://mobile.va.gov/app/stay-quit-coach"
+    ]
   }
 ]
