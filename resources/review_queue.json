@@ -17845,5 +17845,248 @@
     "source_notes": [
       "https://clementineapp.co.uk/"
     ]
+  },
+  {
+    "id": "endel-app",
+    "name": "Endel — Focus, Relax & Sleep",
+    "publisher": "Endel",
+    "resource_type": "mobile-app",
+    "official_url": "https://endel.io/",
+    "description": "Adaptive-soundscape app: patented technology generates soundscapes in real time from local inputs (time of day, weather, heart rate via Apple Watch, location) across four modes — Relax ('calms your mind to create feelings of comfort and safety'), Focus, Sleep ('soothes you into a deep sleep with soft, gentle sounds') and Activity — plus timed Scenarios, a Binaural Beats scenario (headphones required), and a circadian-rhythm mode. Also available on Apple Watch (Apple Watch App of the Year 2020), Amazon Alexa, Apple TV / Fire TV, desktop, and streaming platforms (albums and artist collaborations, e.g. James Blake). Publisher reports over 4 million downloads; that figure was not evaluated in this screening.",
+    "tags": [
+      "soundscapes",
+      "sleep",
+      "focus",
+      "relaxation",
+      "stress",
+      "adaptive-audio",
+      "binaural-beats",
+      "circadian"
+    ],
+    "access": [
+      "Paid subscription model (price not stated on the reviewed homepage)"
+    ],
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "languages": [],
+    "regions": [
+      "Global availability not verified."
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "calm",
+      "sleep"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation information on the reviewed homepage; fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://endel.io/"
+      ]
+    },
+    "accessibility": [
+      "App-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "App-level privacy policy, data practices, and account requirements were not verified in this screening. Soundscapes adapt using local inputs (weather, time of day, heart rate, location); what data leaves the device was not verified.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher states its soundscapes are based on neuroscience and circadian science and cites peer-reviewed research backing its sound versus playlists and silence, plus publisher figures ('7x increase in focus', '3.6x decrease in stress', '95% focus maintained'); the study and those figures were not evaluated in this screening.",
+    "limitations": "A soundscape/focus aid, not a treatment for sleep disorders, anxiety, or ADHD; the homepage does not state a clinical disclaimer. Sound perception is subjective and the publisher itself notes Endel may not work for everyone in the same way. It does not replace treatment with a healthcare professional.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-05",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "languages not stated",
+      "subscription price not stated on the reviewed homepage",
+      "account requirement not verified",
+      "app-level privacy policy not reviewed",
+      "accessibility not verified",
+      "peer-reviewed study not read or evaluated",
+      "global availability not verified"
+    ],
+    "reason": "Screened 2026-11-05: official Endel homepage checked live; confirmed an adaptive-soundscape app (Relax, Focus, Sleep, Activity modes; iOS, Android, web, desktop, Apple Watch, Alexa, TV) with neuroscience-backed claims not evaluated. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://endel.io/"
+    ]
+  },
+  {
+    "id": "clarity-cbt-journal",
+    "name": "Clarity — CBT Self Help Journal (formerly CBT Thought Diary)",
+    "publisher": "Clarity",
+    "resource_type": "mobile-app",
+    "official_url": "https://cbtthoughtdiary.com/",
+    "description": "CBT self-help journal app (the site at cbtthoughtdiary.com now presents the app as Clarity; formerly CBT Thought Diary): thought reframing with 60+ guided therapeutic exercises for identifying and challenging cognitive distortions, AI journaling and CBT/DBT/ACT chatbot, mood and emotion tracking with pattern insights and streaks/badges, guided journals, standardized self-assessments (depression, anxiety, ADHD screening, personality tests), educational crash courses, meditation, breathwork, soundscapes and affirmations. Publisher reports 3M+ downloads, a 4.8-star App Store rating and 10 languages; those figures were not evaluated, and the 10 languages are not enumerated on the reviewed page. Publisher states data is stored locally on the device by default, never sold, with optional cloud backup and Face ID/Touch ID app lock. Core CBT features (Analyze Thought journal, daily check-ins, mood tracking, insights) are free; Clarity Pro is USD $60/year. Publisher states the app is designed to complement professional treatment, not replace it.",
+    "tags": [
+      "CBT",
+      "thought-record",
+      "journaling",
+      "mood-tracking",
+      "anxiety",
+      "depression",
+      "AI-chatbot",
+      "DBT",
+      "ACT",
+      "assessments"
+    ],
+    "access": [
+      "Core CBT features free; Clarity Pro USD $60/year (per the reviewed page)"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "languages": [],
+    "regions": [
+      "Global availability not verified."
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "understand",
+      "practice"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation information on the reviewed page; fit for non-U.S. contexts not assessed. Publisher states 10 languages but does not list them.",
+      "source_notes": [
+        "https://cbtthoughtdiary.com/"
+      ]
+    },
+    "accessibility": [
+      "App-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "Publisher states data is stored locally on the device by default, never sold, with optional cloud backup and Face ID/Touch ID app lock; the full privacy policy was not reviewed in this screening, and AI journaling/chat data practices were not verified.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher describes CBT as 'the gold standard in psychological treatment' and cites features by the New York Times, Forbes, PsychCentral, Harvard Medical School and Duke; those citations and the app's effectiveness were not evaluated in this screening. The app includes AI chatbots (CBT, DBT, ACT, sleep coach); AI responses were not evaluated.",
+    "limitations": "A self-help journaling and skill-practice app; the publisher states it is designed to complement professional treatment, not replace it, and that many therapists recommend it as a between-session tool. Its standardized assessments (depression, anxiety, ADHD screening) are self-assessments, not diagnoses. It uses streaks and badges — a mechanic at odds with SootheSpot's no-streaks stance; fit for the toolbox is an owner call. It does not replace treatment with a healthcare professional.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-05",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "languages not enumerated (publisher states 10 languages)",
+      "account requirement not verified (page states no account required for core features)",
+      "full privacy policy not reviewed",
+      "AI chatbot data practices not verified",
+      "accessibility not verified",
+      "publisher legal/company name not stated on the reviewed page",
+      "assessment validity not evaluated"
+    ],
+    "reason": "Screened 2026-11-05: official cbtthoughtdiary.com checked live — the site now presents the app as Clarity: CBT Self Help Journal (formerly CBT Thought Diary), with thought reframing, AI journaling/chat, mood tracking, assessments and courses; core features free, Pro $60/year. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://cbtthoughtdiary.com/"
+    ]
+  },
+  {
+    "id": "brain-fm-app",
+    "name": "Brain.fm — Music for Focus, Relax & Sleep",
+    "publisher": "Brain.fm",
+    "resource_type": "mobile-app",
+    "official_url": "https://brain.fm/",
+    "description": "Functional-music app using patented 'phase-locking neural modulation' music in modes for Deep Work, Creativity, Learning, Light Work and Motivation; Unwind, Destress, Recharge and Chill for relaxation; guided and unguided meditation; and sleep (guided sleep, deep sleep, sleep and wake, wind down, power nap). Includes an ADHD mode with 'High Neural Effect' music and adaptive timers (infinite, countdown, interval). Publisher claims its focus music boosts focus-associated beta brainwaves by 119% and cites peer-reviewed research (Communication Biology) and National Science Foundation funding; those claims were not evaluated in this screening. Free trial offered; subscription pricing not stated on the reviewed homepage; 20% student discount stated.",
+    "tags": [
+      "focus",
+      "music",
+      "sleep",
+      "relaxation",
+      "ADHD",
+      "meditation",
+      "soundscapes",
+      "productivity"
+    ],
+    "access": [
+      "Free trial offered; subscription pricing not stated on the reviewed homepage",
+      "20% student discount stated (email from a .edu address or student ID)"
+    ],
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "languages": [],
+    "regions": [
+      "Global availability not verified."
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "calm",
+      "sleep",
+      "practice"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation information on the reviewed homepage; fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://brain.fm/"
+      ]
+    },
+    "accessibility": [
+      "App-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "App-level privacy policy, data practices, and account requirements were not verified in this screening. The app adjusts music from a signup quiz about the user's brain/neurotype; what data that stores was not verified.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher cites peer-reviewed research (Communication Biology) and NSF funding and claims its focus music boosts focus-associated beta brainwaves by 119%; the studies were not read or evaluated in this screening, and the publisher's statement that its studies used hundreds of participants with placebo groups was also not verified.",
+    "limitations": "Functional music for focus, relaxation and sleep; not a treatment for ADHD, anxiety, or sleep disorders, and the homepage does not state a clinical disclaimer. The ADHD mode is a product feature, not a clinical intervention. It does not replace treatment with a healthcare professional.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-05",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "languages not stated",
+      "subscription price not stated on the reviewed homepage",
+      "account requirement not verified",
+      "app-level privacy policy not reviewed",
+      "accessibility not verified",
+      "peer-reviewed research not read or evaluated",
+      "global availability not verified"
+    ],
+    "reason": "Screened 2026-11-05: official Brain.fm homepage checked live; confirmed a functional-music app (focus, relax, sleep, meditation modes including an ADHD mode; web, iOS, Android, desktop) with peer-reviewed-research claims not evaluated. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://brain.fm/"
+    ]
   }
 ]
