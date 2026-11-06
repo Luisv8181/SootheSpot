@@ -18563,5 +18563,169 @@
     "source_notes": [
       "https://www.nervahealth.com/"
     ]
+  },
+  {
+    "id": "wellness-society-free-tools",
+    "name": "The Wellness Society — Free Tools Library",
+    "publisher": "The Wellness Society",
+    "resource_type": "article-library",
+    "official_url": "https://thewellnesssociety.org/free-tools/",
+    "description": "Free Tools Library of downloadable self-help materials grounded in CBT, DBT, ACT and mindfulness: introductory eBooks, workbooks and worksheets, including the free eBook 'The Framework: Understanding and Reducing Stress, Autostress and Anxiety', the Coronavirus Anxiety Workbook, a trauma healing guide and audiobook, journaling guides, STOP technique worksheets, anger iceberg worksheets, a gratitude log, self-care checklists, and a UK situational-support directory. The publisher states the free Coronavirus Anxiety Workbook went viral in 2020, was translated into six languages and was featured by the NHS. The publisher is a small UK organisation founded in 2016 by Rebecca (described as having worked in mental health services), using a transdiagnostic, integrative approach with co-production by professionals and people with lived experience; blog contributors include counsellors, psychotherapists and clinical psychologists.",
+    "tags": [
+      "cbt",
+      "dbt",
+      "act",
+      "mindfulness",
+      "workbooks",
+      "worksheets",
+      "anxiety",
+      "stress",
+      "self-help",
+      "trauma",
+      "journaling",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global; UK-based publisher; situational support directory is UK-specific."
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice",
+      "understand",
+      "calm"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK-based publisher; examples and the situational-support directory are UK-oriented. Fit outside the UK not assessed.",
+      "source_notes": [
+        "https://thewellnesssociety.org/free-tools/"
+      ]
+    },
+    "accessibility": [
+      "Not listed on the reviewed pages; verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Free tools are downloadable PDFs; some items are subscriber exclusives delivered by email signup. The site's privacy policy and data handling were not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only. The free eBook and Coronavirus Anxiety Workbook are stated as uncopyrighted, shareable with attribution and a link; confirm terms for other items before any reuse.",
+    "evidence_notes": "Publisher states its tools are grounded in evidence-based approaches (CBT, DBT, ACT, MBSR); no specific trial evidence is presented on the reviewed pages. No clinical claims were evaluated in this screening.",
+    "limitations": "The publisher's main business is paid toolkits for professionals (flexible pricing, e.g. $19/$27/$39 for the Mindfulness Journal); the free library is a subset. The free eBook and some items are delivered via email signup. The founder's clinical credentials are not stated on the reviewed pages. UK-oriented content and support directory. Self-help education; does not replace professional mental health care.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-06",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "founder's clinical credentials not stated on reviewed pages",
+      "accessibility not verified",
+      "paid-toolkit pricing and scope not fully evaluated",
+      "non-English availability of current library not confirmed",
+      "evidence base of individual tools not evaluated"
+    ],
+    "reason": "Screened 2026-11-06: official Free Tools Library page confirmed live; free downloadable eBooks, workbooks and worksheets (CBT/DBT/ACT/mindfulness) confirmed from the primary source, including the uncopyrighted Framework eBook and Coronavirus Anxiety Workbook. Email signup gates some items and the site's main offer is paid professional toolkits — recorded honestly. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://thewellnesssociety.org/free-tools/",
+      "https://thewellnesssociety.org/about/"
+    ]
+  },
+  {
+    "id": "free-mindfulness-project",
+    "name": "The Free Mindfulness Project",
+    "publisher": "The Free Mindfulness Project (founded by Peter Morgan, mindfulness teacher)",
+    "resource_type": "audio-library",
+    "official_url": "https://freemindfulness.org/",
+    "description": "Non-commercial collection of free-to-download guided mindfulness meditation recordings focused on mindfulness as practiced in MBSR, MBCT and closely related approaches, contributed by experienced mindfulness teachers and shared under Creative Commons licences for free non-commercial download and distribution. Includes a free web-app meditation player and live online practice session listings (via the Mindfulness Network and Gaia House). Founded by Peter Morgan, a mindfulness teacher (Lancaster University DClinPsy trainee at founding), and run non-commercially with running costs covered by the creator; donations were suspended in 2020. The site states it does not collect personal details such as names or dates of birth.",
+    "tags": [
+      "mindfulness",
+      "meditation",
+      "mbsr",
+      "mbct",
+      "audio",
+      "free",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global; UK-based project; contributors from the UK, Ireland, US and Australia per the project history."
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "listen",
+      "calm",
+      "practice"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "listen",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK-based project with international contributors; cultural adaptation of individual recordings not assessed.",
+      "source_notes": [
+        "https://freemindfulness.org/"
+      ]
+    },
+    "accessibility": [
+      "Audio recordings; transcripts not stated on the reviewed pages. Verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "The site states it does not collect personal details such as names or dates of birth. No account required for downloads per the reviewed pages. The full privacy statement was not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only. Recordings are shared under Creative Commons licences for free non-commercial download and distribution with credit to the original sources, per the Free Resources page.",
+    "evidence_notes": "Content is limited to MBSR/MBCT and closely related approaches, per the publisher. No efficacy claims are made or evaluated in this screening.",
+    "limitations": "Small community-run project; individual recordings vary in teacher, quality and date, and were not individually evaluated. The site's upkeep depends on one creator. Educational/self-care audio; does not replace professional mental health care.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-06",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "individual recordings not evaluated",
+      "transcripts not confirmed",
+      "accessibility not verified",
+      "full privacy statement not reviewed",
+      "currency of the collection not verified"
+    ],
+    "reason": "Screened 2026-11-06: official homepage and About/FAQ confirmed live; free CC-licensed MBSR/MBCT guided recordings, web-app player, non-commercial operation and no-personal-data statement confirmed from the primary source. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://freemindfulness.org/",
+      "https://www.freemindfulness.org/about-us-faq"
+    ]
   }
 ]
