@@ -18727,5 +18727,252 @@
       "https://freemindfulness.org/",
       "https://www.freemindfulness.org/about-us-faq"
     ]
+  },
+  {
+    "id": "moodtools",
+    "name": "MoodTools - Depression Aid",
+    "publisher": "MoodTools",
+    "resource_type": "mobile-app",
+    "official_url": "https://moodtools.org/",
+    "description": "Free evidence-based app for lifting mood. Features a PHQ-9 depression questionnaire with symptom-severity tracking over time, a thought diary for analyzing thoughts and identifying negative or distorted thinking patterns based on principles from Cognitive Therapy, and a suicide safety plan with emergency resources. The publisher states the application is not intended to be a replacement for treatment or any sort of medical intervention.",
+    "tags": [
+      "depression",
+      "mood",
+      "cbt",
+      "thought-diary",
+      "phq-9",
+      "safety-plan",
+      "free",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global; publisher location not stated on the reviewed homepage"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "mood",
+      "understand",
+      "practice",
+      "support"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "CBT-based content presented in English on the reviewed homepage; cultural adaptation not assessed.",
+      "source_notes": [
+        "https://moodtools.org/"
+      ]
+    },
+    "accessibility": [
+      "App-based; accessibility features not stated on the reviewed homepage. Verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Privacy policy and terms of service are linked from the homepage (hosted on medium.com); the full privacy statement was not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Described by the publisher as evidence-based tools; the thought diary is based on Cognitive Therapy principles and the depression test uses the PHQ-9. No efficacy claims are made or evaluated in this screening.",
+    "limitations": "Not a replacement for treatment or medical intervention, per the publisher disclaimer. Includes a suicide safety-plan feature; crisis routing in SootheSpot must remain deterministic and is not delegated to this app. Individual features were not tested hands-on in this screening.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-06",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "languages beyond English not confirmed",
+      "accessibility not verified",
+      "features not tested hands-on",
+      "publisher organization behind MoodTools not confirmed beyond the site and its UpLift link"
+    ],
+    "reason": "Screened 2026-11-06: official homepage confirmed live; free PHQ-9 test with tracking, CBT thought diary, and safety plan confirmed from the primary source, with the not-a-replacement-for-treatment disclaimer. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://moodtools.org/"
+    ]
+  },
+  {
+    "id": "ptsd-coach",
+    "name": "PTSD Coach",
+    "publisher": "VA National Center for PTSD and the U.S. Department of Defense National Center for Telehealth & Technology",
+    "resource_type": "mobile-app",
+    "official_url": "https://mobile.va.gov/app/ptsd-coach",
+    "description": "Free app designed for Veterans experiencing symptoms of PTSD. Offers reliable information on PTSD and treatments that work, tools for screening and tracking symptoms, stress-management tools including guided relaxation exercises, soothing sounds and images, and relationship tips, plus direct links to support and help. Tools are customizable and can integrate the user's contacts and photos. A web version, PTSD Coach Online, is available for users without a smartphone. The publisher states the app does not replace treatment with a healthcare professional.",
+    "tags": [
+      "ptsd",
+      "trauma",
+      "veterans",
+      "relaxation",
+      "symptom-tracking",
+      "free",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web (PTSD Coach Online)"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global; US Department of Veterans Affairs program, designed for Veterans"
+    ],
+    "intended_population": [
+      "general",
+      "veterans"
+    ],
+    "needs": [
+      "trauma",
+      "calm",
+      "practice",
+      "support"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Designed for US Veterans; cultural adaptation beyond that population not assessed. Content is US-government produced.",
+      "source_notes": [
+        "https://mobile.va.gov/app/ptsd-coach"
+      ]
+    },
+    "accessibility": [
+      "App and web versions; accessibility features not stated on the reviewed page. Verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "No data-collection statement was reviewed on the app page in this screening; the app lets users integrate personal contacts and photos, so local data handling should be checked before recommending. The full privacy statement was not reviewed.",
+    "license_notes": "External resource. SootheSpot stores metadata only. US government-produced app; licensing terms not stated on the reviewed page.",
+    "evidence_notes": "Created by VA's National Center for PTSD; tools cover PTSD education, symptom screening and tracking, and coping skills. No efficacy claims are made or evaluated in this screening.",
+    "limitations": "Designed for Veterans with PTSD symptoms; does not replace professional evaluation and treatment, per the publisher. General-population fit not assessed. Features were not tested hands-on in this screening.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-06",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy statement not reviewed",
+      "languages beyond English not confirmed",
+      "accessibility not verified",
+      "features not tested hands-on",
+      "PTSD Coach Online not reviewed in depth"
+    ],
+    "reason": "Screened 2026-11-06: official VA Mobile page confirmed live; PTSD education, symptom screening and tracking, coping tools and support links confirmed from the primary source, with the does-not-replace-treatment statement. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://mobile.va.gov/app/ptsd-coach",
+      "https://www.ptsd.va.gov"
+    ]
+  },
+  {
+    "id": "7-cups",
+    "name": "7 Cups",
+    "publisher": "7 Cups of Tea",
+    "resource_type": "peer-support",
+    "official_url": "https://www.7cups.com/",
+    "description": "Peer-support community offering free 24/7 anonymous chat with trained volunteer listeners, plus support groups, chat rooms and forums for issues including depression, anxiety, relationships and LGBTQ+ topics, self-help growth paths with simple coping activities, and a dedicated teen community for ages 13-17. Licensed online therapy with credentialed therapists is also offered for a low monthly fee, described as confidential, HIPAA-compliant and SOC 2 Type II certified. The publisher describes 7 Cups as the world's largest mental-health community, operating for over 10 years.",
+    "tags": [
+      "peer-support",
+      "chat",
+      "listeners",
+      "community",
+      "teens",
+      "free",
+      "independent-use"
+    ],
+    "access": [
+      "free",
+      "paid-optional"
+    ],
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "support",
+      "understand",
+      "practice"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "shelf": "reach-out",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Global community with forums for many issues and identities; cultural adaptation of listener support not assessed. Listener quality and training were not evaluated.",
+      "source_notes": [
+        "https://www.7cups.com/"
+      ]
+    },
+    "accessibility": [
+      "Web and app chat; accessibility features not stated on the reviewed homepage. Verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Listener chat is described as anonymous and free. The full privacy policy was not reviewed in this screening; account and data practices for the paid therapy tier were not reviewed.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "No efficacy claims are made or evaluated in this screening. The site cites awards (Stanford Medicine X, Verywell Mind, Healthline, PsychCentral) and user counts; these were not independently verified.",
+    "limitations": "Peer listeners are trained volunteers, not clinicians; listener quality was not evaluated. Paid therapy tier pricing not enumerated on the reviewed homepage. Not a crisis service and not a replacement for professional care. Features were not tested hands-on in this screening.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-06",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "languages beyond English not confirmed",
+      "accessibility not verified",
+      "listener training and quality not evaluated",
+      "paid therapy pricing not enumerated",
+      "features not tested hands-on"
+    ],
+    "reason": "Screened 2026-11-06: official homepage confirmed live; free 24/7 anonymous listener chat, support groups and forums, self-help growth paths and teen community confirmed from the primary source, with paid licensed therapy as a separate tier. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://www.7cups.com/"
+    ]
   }
 ]
