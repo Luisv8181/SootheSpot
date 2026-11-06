@@ -18327,5 +18327,241 @@
       "https://www.recoveryrecord.com/patients",
       "https://www.recoveryrecord.com/about"
     ]
+  },
+  {
+    "id": "meru-health",
+    "name": "Meru Health — Digital Mental Health Program (Depression, Anxiety, Burnout)",
+    "publisher": "Meru Health",
+    "resource_type": "digital-program",
+    "official_url": "https://meruhealth.com/",
+    "description": "A 12-week, smartphone-based mental health program combining scheduled video sessions with a dedicated licensed therapist, secure in-app chat, self-paced lessons and guided activities, an anonymous peer community, on-demand evidence-based wellness practices available 24/7, and a biofeedback device for breath-based stress reduction. The publisher describes it as a clinically proven therapy program, states participants find it 63% more effective than traditional therapy, and reports members feeling better in 12 weeks; those outcome claims were not evaluated in this screening. The site states it is in network with health plans; cost details were not stated on the reviewed homepage. Serves adults and teens.",
+    "tags": [
+      "depression",
+      "anxiety",
+      "burnout",
+      "therapy",
+      "biofeedback",
+      "breathing",
+      "digital-program"
+    ],
+    "access": [
+      "In network with health plans (per publisher); cost not stated on homepage"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "languages": [],
+    "regions": [
+      "Availability outside the U.S. not verified."
+    ],
+    "intended_population": [
+      "adults",
+      "teens"
+    ],
+    "needs": [
+      "practice",
+      "understand",
+      "mood",
+      "calm"
+    ],
+    "use_context": [
+      "with-support"
+    ],
+    "shelf": "practice",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation information on the reviewed page; fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://meruhealth.com/"
+      ]
+    },
+    "accessibility": [
+      "App-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "The homepage mentions a secure chat and asks 'Will my information be private?' in its FAQ, but the answer text was not visible on the reviewed page and the privacy policy was not reviewed in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher describes the program as clinically proven, states participants find it 63% more effective than traditional therapy, and reports members feeling better in 12 weeks; the studies, figures and effectiveness claim were not evaluated in this screening.",
+    "limitations": "A therapist-led 12-week care program, not a standalone self-help tool: the core is scheduled sessions with a licensed therapist plus a biofeedback device, so it is not independent-use in the toolbox sense and requires enrollment and plan coverage. Its evidence and cost claims are publisher statements not evaluated here; fit for the toolbox is an owner call.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-06",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "cost not stated on homepage",
+      "languages not stated",
+      "account/enrollment requirement not verified",
+      "privacy policy not reviewed",
+      "accessibility not verified",
+      "evidence base and effectiveness claims not evaluated",
+      "availability outside the U.S. not verified"
+    ],
+    "reason": "Screened 2026-11-06: Meru Health's official homepage checked live; confirmed a 12-week therapist-led digital program for depression, anxiety and burnout with video sessions, chat, on-demand wellness practices and a biofeedback device, in network with health plans, with evidence and cost claims not evaluated. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://meruhealth.com/"
+    ]
+  },
+  {
+    "id": "curable",
+    "name": "Curable — Chronic Pain Recovery Program",
+    "publisher": "Curable Health",
+    "resource_type": "mobile-app",
+    "official_url": "https://curablehealth.com/",
+    "description": "A guided, self-paced recovery program for persistent (chronic) pain and symptoms, combining pain-science education, practical recovery skills (somatic tracking, cognitive reflection, guided relaxation, expressive writing), expert live workshops and video classes, flare-up support, and recovery stories. Developed alongside experts in pain medicine, physical therapy, neuroscience and psychology per the publisher. Access via web browser or iOS/Android app, with a 14-day free trial; subscription price was not stated on the reviewed homepage. Publisher states the program has been evaluated in an independent randomized controlled trial and was rated highest for quality in an independent peer-reviewed study of pain-related digital health apps, and that 82% of surveyed members reported improved quality of life; those claims were not evaluated in this screening.",
+    "tags": [
+      "chronic-pain",
+      "pain",
+      "relaxation",
+      "somatic",
+      "education",
+      "CBT"
+    ],
+    "access": [
+      "14-day free trial; subscription price not stated on homepage"
+    ],
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "languages": [],
+    "regions": [
+      "Global availability not verified."
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice",
+      "understand",
+      "calm"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ],
+    "shelf": "practice",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation information on the reviewed pages; fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://curablehealth.com/"
+      ]
+    },
+    "accessibility": [
+      "App- and web-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "The privacy policy and data practices were not reviewed in this screening, and account requirements were not verified.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher states an independent randomized controlled trial found meaningful improvements vs a control group, a peer-reviewed study rated Curable highest for quality among pain apps, and 82% of surveyed members reported improved quality of life; the studies and figures were not evaluated in this screening.",
+    "limitations": "A chronic-pain recovery program, not a general emotional-regulation tool; it is designed to work alongside existing care and is not a replacement for medical treatment. Trial is free for 14 days, then paid at a price not stated on the homepage. Evidence claims are publisher statements not evaluated here; fit for the toolbox is an owner call.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-06",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "subscription price not stated on homepage",
+      "languages not stated",
+      "account requirement not verified",
+      "privacy policy not reviewed",
+      "accessibility not verified",
+      "evidence base and trial claims not evaluated",
+      "global availability not verified"
+    ],
+    "reason": "Screened 2026-11-06: Curable's official homepage checked live; confirmed a self-paced guided chronic-pain recovery program (pain-science education, somatic tracking, relaxation, expressive writing) on web and iOS/Android with a 14-day free trial, with RCT and quality-rating claims not evaluated. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://curablehealth.com/"
+    ]
+  },
+  {
+    "id": "nerva",
+    "name": "Nerva — Gut-Brain Program for Digestive Health (IBS)",
+    "publisher": "Mindset Health Pty Ltd",
+    "resource_type": "digital-program",
+    "official_url": "https://www.nervahealth.com/",
+    "description": "A structured 6-week, self-guided gut-brain program for IBS and other disorders of gut-brain interaction: one 15-minute gut-directed hypnotherapy audio session a day at home with a quick check-in after, plus CBT-informed education, week-by-week symptom tracking on validated measures, and a flare-up toolkit; users keep access after week six. Developed with Dr Simone Peters, a psychophysiologist at Monash University and a leading researcher in gut-directed hypnotherapy. Publisher states the program is backed by 17 published studies including a peer-reviewed randomized controlled trial, that 81% of people saw significant improvements in symptom management and 71% meaningful improvements in abdominal pain management, with results maintained at 6 months; those claims were not evaluated in this screening. 7-day free trial; standard offer $199 USD for 12 months, $149.25 with a practitioner referral; 100% money-back guarantee, no-cost access for eligible US patients 65+, and HSA/FSA payment possible with a Letter of Medical Necessity.",
+    "tags": [
+      "IBS",
+      "gut-brain",
+      "hypnotherapy",
+      "CBT",
+      "chronic-conditions",
+      "self-management"
+    ],
+    "access": [
+      "7-day free trial; $199 USD/year standard, $149.25 with practitioner referral"
+    ],
+    "platforms": [],
+    "languages": [],
+    "regions": [
+      "US, Australia, Europe (region chooser on homepage); availability elsewhere not verified."
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "practice",
+      "understand",
+      "calm"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation information on the reviewed page; fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://www.nervahealth.com/"
+      ]
+    },
+    "accessibility": [
+      "App-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "The privacy policy and data practices were not reviewed in this screening, and account requirements were not verified.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher states 17 published studies including a peer-reviewed RCT, 81% significant symptom-management improvement and 71% meaningful abdominal-pain improvement maintained at 6 months, cites Anderson et al. (2025) Am J Gastroenterol and Peters et al. (2016), and quotes a March 2026 Peterson Health Technology Institute assessment; the studies, figures and assessment were not evaluated in this screening.",
+    "limitations": "A gut-brain program for people with a diagnosed disorder of gut-brain interaction (e.g. IBS), not a general emotional-regulation tool; per the publisher's own footer it is not a substitute for professional medical care, diagnosis or treatment, and has not been evaluated by the FDA, TGA or MHRA. Paid after the 7-day trial ($199 USD/year standard). Evidence claims are publisher statements not evaluated here; fit for the toolbox is an owner call.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-06",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "platforms not stated on homepage",
+      "languages not stated",
+      "account requirement not verified",
+      "privacy policy not reviewed",
+      "accessibility not verified",
+      "evidence base and trial claims not evaluated",
+      "availability outside US/AU/EU not verified"
+    ],
+    "reason": "Screened 2026-11-06: Nerva's official homepage checked live (note: the former try-nerva.com domain no longer resolves; current official homepage is nervahealth.com). Confirmed a 6-week self-guided gut-directed hypnotherapy program for IBS and other gut-brain disorders with daily 15-minute audio sessions, CBT-informed education and symptom tracking, 7-day free trial then $199 USD/year, with RCT and study claims not evaluated. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://www.nervahealth.com/"
+    ]
   }
 ]
