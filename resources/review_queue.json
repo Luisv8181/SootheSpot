@@ -17617,5 +17617,233 @@
     "source_notes": [
       "https://mobile.va.gov/app/stay-quit-coach"
     ]
+  },
+  {
+    "id": "aura-app",
+    "name": "Aura — Mental Wellness & Sleep",
+    "publisher": "Aura Health",
+    "resource_type": "mobile-app",
+    "official_url": "https://www.aurahealth.io/",
+    "description": "Personalized mental-wellness and sleep app: expert-led meditation, sleep tracks, CBT, therapy content, life coaching, breathwork, hypnosis, stories, prayer, ASMR and soundscapes, with AI-driven personalization and live sessions with coaches and therapists. Publisher describes it as the '#1 most comprehensive mental wellness & sleep app' and cites 45,000+ 5-star reviews; those publisher claims were not evaluated in this screening.",
+    "tags": [
+      "meditation",
+      "sleep",
+      "CBT",
+      "therapy",
+      "life-coaching",
+      "breathwork",
+      "hypnosis",
+      "soundscapes",
+      "stories",
+      "AI-personalization"
+    ],
+    "access": [
+      "Pricing not stated on the reviewed homepage"
+    ],
+    "platforms": [],
+    "languages": [],
+    "regions": [
+      "Global availability not verified."
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "calm",
+      "sleep",
+      "practice",
+      "understand",
+      "cope"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Publisher describes diverse teachers and voices; cultural fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://www.aurahealth.io/"
+      ]
+    },
+    "accessibility": [
+      "App-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "App-level privacy policy, data practices, and account requirements were not verified in this screening. The app advertises AI-driven personalization; what data that uses was not verified.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher describes expert-led content (clinical psychologists, psychotherapists, and sleep experts among named coaches) and AI-driven personalization; effectiveness of the app itself was not evaluated in this screening. The '45,000+ 5-star reviews' figure is a publisher-reported store-review count, not evaluated.",
+    "limitations": "Includes therapy and CBT content alongside meditation; the homepage does not state whether that content replaces or supplements professional care. It does not replace treatment with a healthcare professional.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-05",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "platforms not enumerated on the fetched page",
+      "languages not stated",
+      "pricing not stated on the reviewed homepage",
+      "account requirement not verified",
+      "app-level privacy policy not reviewed",
+      "accessibility not verified",
+      "AI personalization data practices not verified"
+    ],
+    "reason": "Screened 2026-11-05: official Aura homepage checked live; confirmed a personalized mental-wellness and sleep app (meditation, sleep tracks, CBT, therapy, coaching, breathwork, hypnosis, stories, soundscapes, live sessions) with expert-led content. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://www.aurahealth.io/"
+    ]
+  },
+  {
+    "id": "pzizz-app",
+    "name": "Pzizz — Sleep at the Push of a Button",
+    "publisher": "Pzizz",
+    "resource_type": "mobile-app",
+    "official_url": "https://pzizz.com/",
+    "description": "Sleep app built on a 'Hybrid Music System' of human-composed, algorithmically remixed sounds to help users fall asleep, stay asleep, and wake refreshed, with variable voiceover narrations based on proven clinical sleep interventions, custom listening lengths up to 24 hours, personalized sound learning, offline use, fadeout timers, custom alarm songs, and sleep history tracking. Press quotes (New York Times, WIRED, Lifehacker, Engadget) are publisher-selected and were not evaluated in this screening.",
+    "tags": [
+      "sleep",
+      "insomnia",
+      "naps",
+      "soundscapes",
+      "music",
+      "relaxation",
+      "offline-use"
+    ],
+    "access": [
+      "Pricing not stated on the reviewed homepage"
+    ],
+    "platforms": [],
+    "languages": [],
+    "regions": [
+      "Global availability not verified."
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "sleep",
+      "calm"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation information on the reviewed homepage; fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://pzizz.com/"
+      ]
+    },
+    "accessibility": [
+      "App-based; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "App-level privacy policy, data practices, and account requirements were not verified in this screening. The app advertises personalized sound learning and sleep history tracking; what data that stores was not verified.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher states narrations are 'based on proven clinical sleep interventions' and cites press quotes; the underlying interventions and the app's effectiveness were not evaluated in this screening.",
+    "limitations": "A sleep aid, not a treatment for sleep disorders; the homepage does not state a clinical disclaimer. It does not replace treatment with a healthcare professional.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-05",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "platforms not enumerated on the fetched page",
+      "languages not stated",
+      "pricing not stated on the reviewed homepage",
+      "account requirement not verified",
+      "app-level privacy policy not reviewed",
+      "accessibility not verified"
+    ],
+    "reason": "Screened 2026-11-05: official Pzizz homepage checked live; confirmed a sleep app (algorithmically remixed sleep sounds, variable voiceover, custom lengths up to 24 hours, offline use, sleep history). Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://pzizz.com/"
+    ]
+  },
+  {
+    "id": "clementine-app",
+    "name": "Clementine — Hypnotherapy for Sleep (Women)",
+    "publisher": "Clementine",
+    "resource_type": "mobile-app",
+    "official_url": "https://clementineapp.co.uk/",
+    "description": "Hypnotherapy app for women who can't sleep, voiced by master cognitive hypnotherapy practitioner Hazel Gale: the free app plays hypnotherapy sessions, and the current offering centers on the Unwind & Sleep Set — a soft sleep band with built-in speakers, four hypnotherapy session cards, and a built-in 'Wide Awake At 3am?' session playable by pressing the band, with no phone needed at night. Publisher reports nine years of hypnotherapy sessions for women and 170,000 downloads, and that 5,656 of 5,784 women who reviewed the four deep-sleep sessions in the original app said they helped; those figures were not evaluated in this screening.",
+    "tags": [
+      "sleep",
+      "insomnia",
+      "hypnotherapy",
+      "women",
+      "3am-waking",
+      "relaxation"
+    ],
+    "access": [
+      "Free app; Unwind & Sleep Set £54.99 one-off plus £3.95 UK delivery (per the reviewed page)"
+    ],
+    "platforms": [],
+    "languages": [],
+    "regions": [
+      "UK-based publisher (clementineapp.co.uk, prices in GBP, UK delivery); global availability not verified."
+    ],
+    "intended_population": [
+      "women"
+    ],
+    "needs": [
+      "sleep",
+      "calm"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Made for women by a woman, per the publisher; UK-based. Fit for other contexts not assessed.",
+      "source_notes": [
+        "https://clementineapp.co.uk/"
+      ]
+    },
+    "accessibility": [
+      "App plus hardware sleep band; assistive-technology compatibility not assessed in this screening."
+    ],
+    "privacy_notes": "App-level privacy policy, data practices, and account requirements were not verified in this screening.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher reports nine years of hypnotherapy sessions and 170,000 downloads, cites a Guardian quote ('One of the seven apps every woman should own', 2018), and a self-reported review figure (5,656 of 5,784 women said the four deep-sleep sessions helped); none of these were evaluated in this screening, and no clinical study was cited on the reviewed page.",
+    "limitations": "Hypnotherapy for sleep; the homepage does not state a clinical disclaimer or a scope for sleep disorders. The current offering is built around a paid hardware set (£54.99), though the app itself is described as free with no subscription. It does not replace treatment with a healthcare professional.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-05",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "platforms not enumerated on the fetched page",
+      "languages not stated",
+      "account requirement not verified",
+      "app-level privacy policy not reviewed",
+      "accessibility not verified",
+      "hardware set pricing/availability outside the UK not verified"
+    ],
+    "reason": "Screened 2026-11-05: official Clementine homepage checked live; confirmed a women's hypnotherapy-for-sleep app (free app, Hazel Gale-voiced sessions) now sold with a £54.99 one-off Unwind & Sleep Set sleep band. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://clementineapp.co.uk/"
+    ]
   }
 ]
