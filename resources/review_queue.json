@@ -18974,5 +18974,169 @@
     "source_notes": [
       "https://www.7cups.com/"
     ]
+  },
+  {
+    "id": "talkspace-online-therapy",
+    "name": "Talkspace - Online Therapy",
+    "publisher": "Talkspace",
+    "resource_type": "online-therapy",
+    "official_url": "https://www.talkspace.com/",
+    "description": "Online therapy platform matching users with a licensed therapist, with therapy sessions over video, voice, or live chat, unlimited messaging 24/7, free therapist switching, between-session Talkcast podcasts, and psychiatry/medication management. The site reports 5,600 licensed providers covering 150+ conditions, in-network coverage with most major insurance plans (most insured members have a $0 copay), and out-of-pocket plans beginning at $69/week.",
+    "tags": [
+      "therapy",
+      "online-therapy",
+      "licensed-therapist",
+      "messaging",
+      "psychiatry",
+      "insurance",
+      "paid",
+      "with-support"
+    ],
+    "access": [
+      "Paid subscription; insurance-covered for many members (most insured members $0 copay per the reviewed page)",
+      "Out-of-pocket plans begin at $69/week (per the reviewed page)"
+    ],
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "United States; therapists licensed in the user's state per the reviewed page"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "support",
+      "understand"
+    ],
+    "use_context": [
+      "with-support"
+    ],
+    "shelf": "reach-out",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US-based licensed therapists covering 150+ conditions and specialties per the reviewed page; cultural adaptation of care not assessed.",
+      "source_notes": [
+        "https://www.talkspace.com/"
+      ]
+    },
+    "accessibility": [
+      "Web and app; an accessibility page is linked from the homepage but its contents were not reviewed in this screening. Verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Privacy policy linked from the homepage; not reviewed in this screening. Messaging-based therapy involves account and health data; data practices were not assessed.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Site cites 70% improvement in anxiety or depression symptoms within 3 months, 80% as-or-more effective than face-to-face therapy, and a Journal of Telemedicine and e-Health study; none of these claims was independently verified in this screening.",
+    "limitations": "Paid online therapy service (insurance or out-of-pocket from $69/week); not a free self-help tool and not a crisis service - the site directs life-threatening situations to 988. US-based; therapists licensed in the user's state. Features were not tested hands-on and no account was created.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-06",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "languages beyond English not confirmed",
+      "accessibility not verified",
+      "efficacy claims not independently verified",
+      "therapist vetting and licensing not independently verified",
+      "features not tested hands-on"
+    ],
+    "reason": "Screened 2026-11-06: official homepage confirmed live; licensed-therapist matching, video/voice/chat sessions, unlimited messaging, psychiatry, insurance coverage, and $69/week out-of-pocket starting price confirmed from the primary source. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://www.talkspace.com/"
+    ]
+  },
+  {
+    "id": "betterhelp-online-therapy",
+    "name": "BetterHelp - Online Therapy",
+    "publisher": "BetterHelp",
+    "resource_type": "online-therapy",
+    "official_url": "https://www.betterhelp.com/",
+    "description": "Online therapy service matching users with licensed therapists (PhD/PsyD, LMFT, LCSW, LPC, LMHC or similar, with 3+ years of experience and at least 1,000 hours of hands-on experience per the site). Communicate by message, chat, audio, or video, with digital worksheets and group sessions. Insurance accepted with copays as low as $15 for eligible members; self-pay $70-$100 per week; financial aid available; HSA/FSA eligible. The site states it is not for minors, urgent crisis, or court-ordered therapy, and providers cannot diagnose, fulfill court orders, or prescribe medication.",
+    "tags": [
+      "therapy",
+      "online-therapy",
+      "licensed-therapist",
+      "messaging",
+      "insurance",
+      "paid",
+      "with-support"
+    ],
+    "access": [
+      "Self-pay $70-$100/week (per the reviewed page)",
+      "Insurance accepted with copays as low as $15 for eligible members (per the reviewed page)",
+      "Financial aid available (per the reviewed page)"
+    ],
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "United States; therapists licensed by state per the reviewed page"
+    ],
+    "intended_population": [
+      "adults"
+    ],
+    "needs": [
+      "support",
+      "understand"
+    ],
+    "use_context": [
+      "with-support"
+    ],
+    "shelf": "reach-out",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US-licensed therapists covering depression, anxiety, relationships, trauma, grief, LGBT matters, and more per the reviewed page; cultural adaptation of care not assessed.",
+      "source_notes": [
+        "https://www.betterhelp.com/"
+      ]
+    },
+    "accessibility": [
+      "Web and app; accessibility features not stated on the reviewed homepage. Verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Privacy policy not reviewed in this screening. Therapy messaging involves account and health data; data practices were not assessed.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Site cites network size (31,461 licensed therapists, 6,766,115 people helped) and member reviews; no outcome claims were independently verified in this screening.",
+    "limitations": "Paid therapy service ($70-$100/week self-pay); not a free self-help tool and not for urgent crisis - the site excludes minors, court-ordered therapy, and emergency situations. Providers cannot diagnose, fulfill court orders, or prescribe medication, per the site. US-licensed therapists only. Features were not tested hands-on and no account was created.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-06",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "languages beyond English not confirmed",
+      "accessibility not verified",
+      "efficacy claims not independently verified",
+      "therapist vetting and licensing not independently verified",
+      "features not tested hands-on"
+    ],
+    "reason": "Screened 2026-11-06: official homepage confirmed live; licensed-therapist matching, message/chat/audio/video sessions, $70-$100/week self-pay range, insurance copays as low as $15, and the not-for-minors/crisis exclusions confirmed from the primary source. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://www.betterhelp.com/"
+    ]
   }
 ]
