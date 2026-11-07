@@ -19375,4 +19375,243 @@
       "https://www.wisdo.com/"
     ]
   }
+,
+  {
+    "id": "koko-peer-support",
+    "name": "Koko - Free Digital Mental Health Support for Young People",
+    "publisher": "Koko (501(c)(3) nonprofit)",
+    "resource_type": "peer-support",
+    "official_url": "https://kokocares.org/",
+    "description": "Free, evidence-based, instant digital mental health support for young people, delivered on the social platforms they already use - the homepage names TikTok, Roblox, Pinterest, OpenAI, and GIPHY as partner platforms, with some services available directly at getsupport.org. Includes topic-specific mini-courses (mood regulation, body image, self-harm) and AI-assisted detection of high-risk content.",
+    "tags": [
+      "peer-support",
+      "youth",
+      "social-platforms",
+      "free",
+      "mini-courses",
+      "self-harm",
+      "mood-regulation",
+      "with-support"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Global; publisher claims reach across 199 countries."
+    ],
+    "intended_population": [
+      "adolescents"
+    ],
+    "needs": [
+      "support"
+    ],
+    "use_context": [
+      "with-support"
+    ],
+    "shelf": "reach-out",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Delivered on social platforms young people already use; cultural adaptation of the support not assessed.",
+      "source_notes": [
+        "https://kokocares.org/"
+      ]
+    },
+    "accessibility": [
+      "Accessibility features not stated on the reviewed homepage. Verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Privacy policy not reviewed in this screening. Delivered via third-party social platforms; data practices were not assessed.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher cites three randomized controlled trials and peer-reviewed research; individual study results were not evaluated in this screening. The page claims 10M+ people reached across 199 countries; not independently verified.",
+    "limitations": "Includes a self-harm mini-course, which touches SootheSpot's safety pathway - owner judgment required before any promotion. No 'not a substitute for professional care' statement found on the homepage. Delivered through third-party social platforms, so use is subject to those platforms' data practices. Features were not tested hands-on and no account was created.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-07",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "languages beyond English not confirmed",
+      "accessibility not verified",
+      "RCT claims not independently verified",
+      "reach figures not independently verified",
+      "safety-pathway fit for SootheSpot not determined",
+      "features not tested hands-on"
+    ],
+    "reason": "Screened 2026-11-07: official homepage confirmed live; nonprofit publisher, free access, social-platform delivery, mini-courses, and RCT evidence claims confirmed from the primary source. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://kokocares.org/"
+    ]
+  },
+  {
+    "id": "hallow-prayer-app",
+    "name": "Hallow - Christian and Catholic Prayer App",
+    "publisher": "Hallow, Inc.",
+    "resource_type": "mobile-app",
+    "official_url": "https://hallow.com/",
+    "description": "Prayer app for Christian and Catholic prayer, meditation, Bible content, and sleep; also offers content for parishes and schools. The homepage is a sign-in gate (phone/email, Google, Apple, student login) with a free-trial offer.",
+    "tags": [
+      "prayer",
+      "meditation",
+      "sleep",
+      "bible",
+      "faith-based",
+      "christian",
+      "catholic",
+      "independent-use"
+    ],
+    "access": [
+      "Free trial offered; subscription pricing not shown on the reviewed homepage"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Not stated on the reviewed homepage"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "listen",
+      "calm",
+      "sleep"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "listen",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Christian/Catholic prayer content; fit outside that faith tradition not assessed.",
+      "source_notes": [
+        "https://hallow.com/"
+      ]
+    },
+    "accessibility": [
+      "Accessibility features not stated on the reviewed homepage. Verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Privacy policy not reviewed in this screening. Account and sign-in required to use; data practices were not assessed.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher markets itself as the '#1 prayer app'; the ranking claim was not independently verified. No efficacy claims assessed in this screening.",
+    "limitations": "Faith-specific (Christian/Catholic) content; not a general-purpose resource. Account and sign-in required. Subscription pricing not shown on the homepage. Prayer and meditation content is not a substitute for professional mental health care. Features were not tested hands-on and no account was created.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-07",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "subscription pricing not confirmed",
+      "privacy policy not reviewed",
+      "languages beyond English not confirmed",
+      "accessibility not verified",
+      "platform availability not explicitly stated on the reviewed homepage; app store listings not reviewed",
+      "features not tested hands-on"
+    ],
+    "reason": "Screened 2026-11-07: official homepage confirmed live; publisher, prayer/meditation/Bible/sleep scope, and free-trial offer confirmed from the primary source. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://hallow.com/"
+    ]
+  },
+  {
+    "id": "nomo-sobriety-clocks",
+    "name": "Nomo - Sobriety Clocks",
+    "publisher": "Nomo (saynomo.com; independent developer in recovery)",
+    "resource_type": "mobile-app",
+    "official_url": "https://saynomo.com",
+    "description": "Free sobriety-tracking app with sobriety clocks, partner matching with encrypted chat, a journal, resources, home and lock-screen widgets (iOS only at present), encouragement and connect walls, craving 'refocus' mini-games, and milestone tokens. The site also offers a BetterHelp referral with 20% off counseling.",
+    "tags": [
+      "sobriety",
+      "recovery",
+      "addiction",
+      "tracker",
+      "peer-support",
+      "journal",
+      "independent-use"
+    ],
+    "access": [
+      "free"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Not stated on the reviewed homepage"
+    ],
+    "intended_population": [
+      "adults"
+    ],
+    "needs": [
+      "practice"
+    ],
+    "use_context": [
+      "independent-use"
+    ],
+    "shelf": "practice",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Sobriety-tracking app run by an individual in recovery; cultural adaptation not assessed.",
+      "source_notes": [
+        "https://saynomo.com"
+      ]
+    },
+    "accessibility": [
+      "Accessibility features not stated on the reviewed homepage. Verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Privacy policy not reviewed in this screening. Partner matching uses encrypted chat per the site; data practices were not assessed.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Publisher reports 3,862,737 clocks created; not independently verified. No efficacy claims assessed in this screening.",
+    "limitations": "Sobriety tracking and peer support, not professional addiction treatment; not a substitute for professional care. The site links a BetterHelp referral (20% off) - commercial relationship recorded. Home and lock-screen widgets are iOS only at present. Run by an individual, not an organization. Features were not tested hands-on.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-07",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "languages beyond English not confirmed",
+      "accessibility not verified",
+      "clock-count claim not independently verified",
+      "features not tested hands-on",
+      "old domain nomosobriety.com no longer resolves (DNS failure) - official site is saynomo.com"
+    ],
+    "reason": "Screened 2026-11-07: official site saynomo.com confirmed live (nomosobriety.com no longer resolves); free access, sobriety clocks, partner matching, journal, and widgets confirmed from the primary source. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://saynomo.com"
+    ]
+  }
 ]
