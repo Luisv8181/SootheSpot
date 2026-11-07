@@ -19854,5 +19854,243 @@
   "use_context": [
     "with-support"
   ]
-}
+},
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility features not stated on the reviewed homepage. Verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Canada-focused youth movement; includes a collection of stories and resources for 2SLGBTQ+ youth and allies. Fit outside Canada not assessed.",
+      "source_notes": [
+        "https://jack.org/"
+      ]
+    },
+    "description": "Canadian youth mental-health movement offering free learning resources: the Be There Certificate (a free course on supporting someone who is struggling), Jack Talks (peer-to-peer mental-health presentations), Jack Chapters (youth-led groups in schools and communities), a free Educator Hub of curriculum-mapped lesson plans and activities, and story collections including resources for 2SLGBTQ+ youth. Publisher reports reaching 300,000 youth through Jack Talks and supporting over 1 million people; 90% of Be There Certificate participants reported feeling better able to take care of their own mental health.",
+    "evidence_notes": "Publisher-reported figures (300,000 youth reached through Jack Talks, 1 million+ people supported, 96% of users said the Be There Certificate improved their ability to recognize mental-health struggle, 90% felt better able to care for their own mental health) are the publisher's and were not independently verified. No efficacy claims assessed in this screening.",
+    "id": "jack-org-youth-mental-health",
+    "intended_population": [
+      "adolescents",
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-07",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Canada-focused content and statistics; crisis guidance on the page points to 988 (Canada) and emergency departments, which must not be substituted for other regions' crisis resources per repo policy. Peer-education and self-learning content, not professional care; Jack Talks and Chapters are group/school formats, not individual tools. The Be There Certificate and Educator Hub were not completed or tested hands-on.",
+    "name": "Jack.org — Canada's Movement for Youth Mental Health",
+    "needs": [
+      "understand",
+      "practice",
+      "support"
+    ],
+    "official_url": "https://jack.org/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Privacy policy not reviewed in this screening. The Be There Certificate and Educator Hub signup requirements were not assessed.",
+    "publisher": "Jack.org",
+    "reason": "Screened 2026-11-07: official homepage confirmed live; free Be There Certificate, Jack Talks, Jack Chapters, Educator Hub lesson plans, and 2SLGBTQ+ resource collection confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Canada-focused; online resources broadly accessible."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "online-course",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "languages beyond English not confirmed",
+      "accessibility not verified",
+      "publisher figures not independently verified",
+      "Be There Certificate and Educator Hub not tested hands-on",
+      "signup requirements not assessed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://jack.org/"
+    ],
+    "status": "screened",
+    "tags": [
+      "youth",
+      "peer-support",
+      "mental-health-literacy",
+      "suicide-prevention",
+      "educators",
+      "schools",
+      "2slgbtq",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility features not stated on the reviewed homepage. Verify captioning and assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S. Veteran-focused; stories span branches, service eras, and backgrounds. Fit for non-Veteran and non-U.S. audiences not assessed.",
+      "source_notes": [
+        "https://www.maketheconnection.net/"
+      ]
+    },
+    "description": "U.S. Department of Veterans Affairs site presenting a large collection of videos of U.S. Veterans speaking openly about their mental-health challenges and how they found help — the page describes it as the world's largest video collection of Veterans speaking about mental health, with more than 700 Veterans sharing stories across ages, backgrounds, branches, service eras, and types of military experience. Stories cover stress, anger, suicidal thoughts, transition to civilian life, loss, self-medication, and sexual assault, plus how Veterans decided to seek treatment.",
+    "evidence_notes": "Publisher is the U.S. Department of Veterans Affairs. Video stories are personal accounts, not clinical guidance; no efficacy claims assessed in this screening.",
+    "id": "make-the-connection-va",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-07",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Peer-story videos, not professional care; some stories describe suicidal thoughts, sexual assault, and substance use, so content warnings and owner judgment are needed before any promotion. U.S.-Veteran focus; support links on the site are U.S.-specific. Individual videos were not reviewed.",
+    "name": "Make the Connection",
+    "needs": [
+      "watch",
+      "understand"
+    ],
+    "official_url": "https://www.maketheconnection.net/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "No account indicated for watching videos on the reviewed homepage. Privacy policy not reviewed in this screening.",
+    "publisher": "U.S. Department of Veterans Affairs",
+    "reason": "Screened 2026-11-07: official VA homepage confirmed live; 700+ Veteran video stories, topic range, and free access confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "U.S.-focused (Veterans); videos viewable online."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "video",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "captioning and accessibility not verified",
+      "individual videos not reviewed",
+      "languages beyond English not confirmed"
+    ],
+    "shelf": "watch",
+    "source_notes": [
+      "https://www.maketheconnection.net/"
+    ],
+    "status": "screened",
+    "tags": [
+      "veterans",
+      "peer-stories",
+      "video",
+      "mental-health",
+      "ptsd",
+      "transition",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility features not stated on the reviewed homepage. Verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Community-written content across health topics; cultural adaptation not assessed.",
+      "source_notes": [
+        "https://themighty.com/"
+      ]
+    },
+    "description": "Free online health community built around lived experience: peer stories, advice, and resources written by community members and curated by editors, plus a 24/7 live-moderated app for connecting with others. The homepage presents it as the largest daily conversation in health and notes partnerships that deliver resources and information to the community.",
+    "evidence_notes": "Community-written stories curated by editors; health claims in individual stories were not evaluated in this screening. No efficacy claims assessed.",
+    "id": "the-mighty-health-community",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-07",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "User-generated community content: individual stories and advice vary in quality and are not clinical guidance; moderation is described as live 24/7 but was not verified hands-on. Advertising and partner content appear on the site — flag for owner judgment. Does not replace professional mental health care.",
+    "name": "The Mighty",
+    "needs": [
+      "read",
+      "understand",
+      "support"
+    ],
+    "official_url": "https://themighty.com/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Privacy policy and community data practices not reviewed in this screening. Account requirements for the app and community features were not assessed.",
+    "publisher": "The Mighty",
+    "reason": "Screened 2026-11-07: official homepage confirmed live; free community, 24/7 live-moderated app, and editor-curated story collections confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; online."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "article-library",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "community data practices not reviewed",
+      "accessibility not verified",
+      "app store listings not individually reviewed",
+      "account requirements not assessed",
+      "moderation not verified hands-on",
+      "languages beyond English not confirmed"
+    ],
+    "shelf": "read",
+    "source_notes": [
+      "https://themighty.com/"
+    ],
+    "status": "screened",
+    "tags": [
+      "peer-support",
+      "community",
+      "lived-experience",
+      "stories",
+      "chronic-illness",
+      "mental-health",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  }
 ]
