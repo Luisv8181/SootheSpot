@@ -19139,4 +19139,240 @@
       "https://www.betterhelp.com/"
     ]
   }
+,
+  {
+    "id": "supportiv-peer-support",
+    "name": "Supportiv - 24/7 Peer Support",
+    "publisher": "Supportiv",
+    "resource_type": "peer-support",
+    "official_url": "https://www.supportiv.com/",
+    "description": "24/7 anonymous peer support through Conversational Care: users describe their struggle in a few words and are matched with peers with shared lived experience plus hyper-personalized resources. Chats are peer-supported and moderator-facilitated in real time with stepped care. The site states it has helped 3 million people feel better.",
+    "tags": [
+      "peer-support",
+      "anonymous",
+      "chat",
+      "moderated",
+      "24-7",
+      "with-support"
+    ],
+    "access": [
+      "No pricing or payment step shown on the reviewed homepage; access via web chat"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Not stated on the reviewed homepage"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "support"
+    ],
+    "use_context": [
+      "with-support"
+    ],
+    "shelf": "reach-out",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Peer matching by shared lived experience per the reviewed page; cultural adaptation of care not assessed.",
+      "source_notes": [
+        "https://www.supportiv.com/"
+      ]
+    },
+    "accessibility": [
+      "Web chat; accessibility features not stated on the reviewed homepage. Verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Privacy policy not reviewed in this screening. Anonymous chat per the site; data practices were not assessed.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Site cites 36% depression reduction, 33% anxiety reduction, 68% optimism increase, and 3 million people helped; none of these claims was independently verified in this screening.",
+    "limitations": "Peer support with moderator facilitation, not professional therapy and not a crisis service. Outcome claims on the site were not independently verified. Pricing not stated on the homepage. Features were not tested hands-on and no account was created.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-06",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "pricing not confirmed",
+      "languages beyond English not confirmed",
+      "accessibility not verified",
+      "outcome claims not independently verified",
+      "moderator vetting and training not independently verified",
+      "features not tested hands-on"
+    ],
+    "reason": "Screened 2026-11-06: official homepage confirmed live; 24/7 anonymous peer chat with moderator facilitation and shared-lived-experience matching confirmed from the primary source. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://www.supportiv.com/"
+    ]
+  },
+  {
+    "id": "circles-group-support",
+    "name": "Circles - Group Support for Narcissistic Abuse & Divorce",
+    "publisher": "Circles",
+    "resource_type": "peer-support",
+    "official_url": "https://www.circlesup.com/",
+    "description": "Facilitator-led online group support sessions focused on narcissistic abuse and divorce; the site states 500+ group sessions weekly, with named facilitators and per-facilitator ratings, review counts, and session counts. Sign-up is via a form. The site also publishes blog content on divorcing a narcissist and related topics.",
+    "tags": [
+      "peer-support",
+      "group-support",
+      "divorce",
+      "narcissistic-abuse",
+      "facilitator-led",
+      "with-support"
+    ],
+    "access": [
+      "Pricing not shown on the reviewed homepage; sign-up via a form"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Not stated on the reviewed homepage"
+    ],
+    "intended_population": [
+      "adults"
+    ],
+    "needs": [
+      "support"
+    ],
+    "use_context": [
+      "with-support"
+    ],
+    "shelf": "reach-out",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Focused on narcissistic abuse and divorce support per the reviewed page; cultural adaptation of care not assessed.",
+      "source_notes": [
+        "https://www.circlesup.com/"
+      ]
+    },
+    "accessibility": [
+      "Web; accessibility features not stated on the reviewed homepage. Verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Privacy policy linked from the homepage; not reviewed in this screening. Group support involves sharing personal experiences; data practices were not assessed.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Site cites 500+ weekly group sessions and facilitator ratings (4.7-4.9 stars, thousands of reviews); these figures were not independently verified in this screening.",
+    "limitations": "Narrow population focus (narcissistic abuse and divorce); facilitator-led group support, not professional therapy and not a crisis service. Pricing not shown on the homepage; facilitator credentials not stated on the reviewed page. Features were not tested hands-on and no account was created.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-06",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "pricing not confirmed",
+      "languages beyond English not confirmed",
+      "accessibility not verified",
+      "facilitator credentials not independently verified",
+      "session claims not independently verified",
+      "features not tested hands-on"
+    ],
+    "reason": "Screened 2026-11-06: official homepage confirmed live; 500+ weekly facilitator-led group sessions for narcissistic abuse and divorce support confirmed from the primary source. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://www.circlesup.com/"
+    ]
+  },
+  {
+    "id": "wisdo-social-health",
+    "name": "Wisdo - Social Health Peer Support",
+    "publisher": "Wisdo Health",
+    "resource_type": "peer-support",
+    "official_url": "https://www.wisdo.com/",
+    "description": "Evidence-based social-health platform offering precision-matched peer support, professionally moderated communities, and coach-led groups: 30+ coach-led communities, 1:1 peer connections, group coaching, monthly check-ins and referrals, and 24/7 support. A banner on the homepage states Wisdo has been acquired by Talkspace. Access is via a health plan or organization (the main call to action is Request a Demo); no individual sign-up or consumer pricing on the homepage. Serves people facing loneliness, social isolation, chronic conditions, mental-health challenges, caregiving, diabetes, cancer, addiction/recovery, and grief/loss.",
+    "tags": [
+      "peer-support",
+      "loneliness",
+      "social-health",
+      "coach-led",
+      "moderated",
+      "health-plan",
+      "with-support"
+    ],
+    "access": [
+      "Access via a health plan or organization; no individual sign-up on the reviewed homepage",
+      "No consumer pricing shown on the reviewed homepage"
+    ],
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "languages": [
+      "English"
+    ],
+    "regions": [
+      "Not stated on the reviewed homepage"
+    ],
+    "intended_population": [
+      "general"
+    ],
+    "needs": [
+      "support"
+    ],
+    "use_context": [
+      "with-support"
+    ],
+    "shelf": "reach-out",
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Peer matching by shared lived experience (loneliness, chronic conditions, caregiving, grief/loss and more) per the reviewed page; cultural adaptation not assessed.",
+      "source_notes": [
+        "https://www.wisdo.com/"
+      ]
+    },
+    "accessibility": [
+      "Web and apps; accessibility features not stated on the reviewed homepage. Verify assistive-technology compatibility before relying on it."
+    ],
+    "privacy_notes": "Privacy policy not reviewed in this screening. Peer-support platform handling health-related personal data; data practices were not assessed.",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "evidence_notes": "Site cites a 31% reduction in depression by day 90, a 21% reduction in loneliness within 90 days, and 5% lower total cost of care; none of these claims was independently verified in this screening.",
+    "limitations": "Population-health platform accessed via a health plan or organization - no individual sign-up and no consumer pricing on the homepage; acquired by Talkspace per the homepage banner. Peer support and coaching, not professional therapy and not a crisis service. Outcome claims not independently verified. Features were not tested hands-on and no account was created.",
+    "review_status": "screened",
+    "status": "screened",
+    "last_verified_at": "2026-11-06",
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "individual access route not confirmed",
+      "pricing not confirmed",
+      "languages beyond English not confirmed",
+      "accessibility not verified",
+      "outcome claims not independently verified",
+      "features not tested hands-on"
+    ],
+    "reason": "Screened 2026-11-06: official homepage confirmed live via a live-browser read (text fetch returned a CloudFront 403); precision-matched peer support, 30+ coach-led communities, 1:1 peer connections, group coaching, and the Talkspace acquisition confirmed from the primary source. Access is plan/organization-gated. Ready for owner review before any promotion.",
+    "source_notes": [
+      "https://www.wisdo.com/"
+    ]
+  }
 ]
