@@ -19614,4 +19614,245 @@
       "https://saynomo.com"
     ]
   }
+,
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Accessibility features not stated on the reviewed homepage. Verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "Self-care reminder app with a gentle, encouraging tone; cultural adaptation not assessed.",
+    "source_notes": [
+      "https://www.aloebud.com/"
+    ]
+  },
+  "description": "Free self-care companion app that sends gentle, encouraging push-notification reminders from your present self to your future self for everyday activities (hydrating, breathing, moving, rest). Publisher reports 1.5M+ downloads and 10.3M+ activities completed; an Apple App Store 'App of the Day' badge is shown on the homepage.",
+  "evidence_notes": "Publisher-reported figures (1.5M+ downloads, 10.3M+ activities, 20M+ reminders) not independently verified. No efficacy claims assessed in this screening.",
+  "id": "aloe-bud-self-care-companion",
+  "intended_population": [
+    "general"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-07",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Reminder-based self-care support, not professional mental health care. The gentle, non-guilt framing fits calm-design preferences, but the reminder model itself was not tested hands-on. Publisher's legal identity not stated on the reviewed homepage. Android availability not confirmed from the reviewed page.",
+  "name": "Aloe Bud - Gentle Self-Care Companion",
+  "needs": [
+    "practice",
+    "calm"
+  ],
+  "official_url": "https://www.aloebud.com/",
+  "platforms": [
+    "iOS"
+  ],
+  "privacy_notes": "Privacy policy not reviewed in this screening. App data practices were not assessed.",
+  "publisher": "Aloe Bud",
+  "reason": "Screened 2026-11-07: official homepage confirmed live; free access, self-care reminder model, download figures, and App Store link confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "Not stated on the reviewed homepage"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+    "privacy policy not reviewed",
+    "languages beyond English not confirmed",
+    "accessibility not verified",
+    "download and activity figures not independently verified",
+    "Android availability not confirmed",
+    "publisher legal identity not stated on the reviewed homepage",
+    "features not tested hands-on"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+    "https://www.aloebud.com/"
+  ],
+  "status": "screened",
+  "tags": [
+    "self-care",
+    "reminders",
+    "daily-life",
+    "gentle",
+    "hydration",
+    "breathing",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+},
+{
+  "access": [
+    "free",
+    "paid"
+  ],
+  "accessibility": [
+    "Accessibility features not stated on the reviewed homepage. Verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "Global social-media community (3M+ followers claimed); cultural adaptation of the content not assessed.",
+    "source_notes": [
+      "https://thedepressionproject.com/"
+    ]
+  },
+  "description": "Mental-health education community and publisher: stigma-reducing educational posts on social media (publisher claims 3M+ followers and 10B+ views), a free downloadable 'depression letter' template for explaining depression to loved ones, free encouraging-quote emails, and a range of CBT-based books and journals (negative thoughts, worrying thoughts, depression) sold as paid products.",
+  "evidence_notes": "Publisher states its books and journals use evidence-based CBT principles (including DBT, ACT, and exposure therapy). Follower and view figures are the publisher's and were not independently verified. Individual books were not evaluated in this screening.",
+  "id": "the-depression-project",
+  "intended_population": [
+    "general"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-07",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Core offering is social-media education plus paid books and journals; the free material is the posts, the letter, and the quotes. Email signup required for the free letter and quote emails. Educational content, not therapy; does not replace professional mental health care. The letter and quote emails were not signed up for or tested.",
+  "name": "The Depression Project",
+  "needs": [
+    "read",
+    "understand"
+  ],
+  "official_url": "https://thedepressionproject.com/",
+  "platforms": [
+    "Web"
+  ],
+  "privacy_notes": "Privacy policy not reviewed in this screening. Email signup is required for the free letter and quotes; data handling was not assessed.",
+  "publisher": "The Depression Project",
+  "reason": "Screened 2026-11-07: official homepage confirmed live; free educational content, free letter and quote emails, and the paid CBT-based book and journal range confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "Global; online."
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "article-library",
+  "review_status": "screened",
+  "screening_gaps": [
+    "privacy policy not reviewed",
+    "languages beyond English not confirmed",
+    "accessibility not verified",
+    "follower and view figures not independently verified",
+    "individual books and journals not evaluated",
+    "email signup flow not tested"
+  ],
+  "shelf": "read",
+  "source_notes": [
+    "https://thedepressionproject.com/"
+  ],
+  "status": "screened",
+  "tags": [
+    "depression",
+    "psychoeducation",
+    "cbt",
+    "stigma",
+    "community",
+    "journals",
+    "books",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+},
+{
+  "access": [
+    "paid"
+  ],
+  "accessibility": [
+    "Accessibility features not stated on the reviewed homepage. Verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "Therapist-led online classes; cultural adaptation of the class content not assessed.",
+    "source_notes": [
+      "https://www.joincoa.com/"
+    ]
+  },
+  "description": "Therapist-led online emotional-fitness classes on real-life challenges: emotionally fit leadership (including series for female leaders and product managers), emotional fitness for mental health, navigating job change, confidence and impostor syndrome, managing burnout, romantic relationships, setting boundaries, and emotionally fit management. Classes run as 2- to 8-class series starting at $49 per month for unlimited classes.",
+  "evidence_notes": "Publisher describes classes as therapist-led and focused on emotional fitness; no efficacy or outcome claims were presented on the reviewed page and none were assessed in this screening.",
+  "id": "coa-emotional-fitness-classes",
+  "intended_population": [
+    "general",
+    "adults"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-07",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Paid-only ($49/month starting price shown on the homepage); no free tier confirmed. Classes are group education, not individual therapy, and are not a substitute for professional mental health care. The page footer shows the pre-988 lifeline number (800-273-8255), which still routes to the Lifeline but is the older number. Features were not tested hands-on and no account was created.",
+  "name": "Coa - Mental Health & Emotional Fitness Classes",
+  "needs": [
+    "practice",
+    "understand"
+  ],
+  "official_url": "https://www.joincoa.com/",
+  "platforms": [
+    "Web"
+  ],
+  "privacy_notes": "Privacy policy not reviewed in this screening. Account and payment required; data practices were not assessed.",
+  "publisher": "Coa",
+  "reason": "Screened 2026-11-07: official homepage confirmed live; therapist-led class model, topic range, series lengths, and $49/month starting price confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "Not stated on the reviewed homepage"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "online-course",
+  "review_status": "screened",
+  "screening_gaps": [
+    "privacy policy not reviewed",
+    "languages beyond English not confirmed",
+    "accessibility not verified",
+    "no free tier confirmed",
+    "features not tested hands-on",
+    "footer crisis number uses the pre-988 800 number"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+    "https://www.joincoa.com/"
+  ],
+  "status": "screened",
+  "tags": [
+    "emotional-fitness",
+    "classes",
+    "therapy-led",
+    "resilience",
+    "burnout",
+    "boundaries",
+    "leadership",
+    "paid",
+    "with-support"
+  ],
+  "use_context": [
+    "with-support"
+  ]
+}
 ]
