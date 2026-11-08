@@ -20245,5 +20245,328 @@
     "use_context": [
       "independent-use"
     ]
+  },
+    {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility statement not found on the reviewed homepage; a 'Skip to main content' link is present. Verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Australian service for young people; cultural adaptation and First Nations-specific support not assessed in this screening.",
+      "source_notes": [
+        "https://headspace.org.au/"
+      ]
+    },
+    "description": "headspace National Youth Mental Health Foundation (Australia): free account with a personalised wellbeing toolkit, community connection with other young people, 1-on-1 support from a clinician by webchat, email, or phone on 1800 650 890 between 3pm and 10pm local time, personalised support suggestions, and an online parent support program for family members supporting a young person.",
+    "evidence_notes": "Service model and contact hours are as stated on the reviewed homepage. No efficacy claims assessed; the service itself was not used in this screening.",
+    "id": "headspace-australia-youth",
+    "intended_population": [
+      "young-people",
+      "families"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-07",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Australian service; phone support hours are 3pm-10pm local time. Not a crisis service and not professional care outside its stated scope. In-person centres were not reviewed. Do not confuse with the Headspace meditation app, a separate product.",
+    "name": "headspace National Youth Mental Health Foundation",
+    "needs": [
+      "find-support",
+      "support",
+      "understand"
+    ],
+    "official_url": "https://headspace.org.au/",
+    "platforms": [
+      "Web",
+      "Phone",
+      "Email",
+      "In person"
+    ],
+    "privacy_notes": "Privacy policy not reviewed in this screening. Account creation is offered; data practices not assessed.",
+    "publisher": "headspace National Youth Mental Health Foundation",
+    "reason": "Screened 2026-11-07: official homepage confirmed live; free account, clinician contact channels and hours, community, and parent support confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Australia"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "service-directory",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "accessibility not verified",
+      "age range not stated on the reviewed homepage",
+      "languages beyond English not confirmed",
+      "in-person centres not reviewed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://headspace.org.au/"
+    ],
+    "status": "screened",
+    "tags": [
+      "youth",
+      "young-people",
+      "mental-health",
+      "peer-support",
+      "clinician-support",
+      "families",
+      "australia",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "Paid; individual access described as one affordable payment (amount not stated on the reviewed homepage)",
+      "Free mood and anxiety test"
+    ],
+    "accessibility": [
+      "Accessibility features not stated on the reviewed homepage. Verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK-oriented program; cultural adaptation not assessed in this screening.",
+      "source_notes": [
+        "https://www.beatingtheblues.co.uk/"
+      ]
+    },
+    "description": "Online Cognitive Behavioural Therapy (CBT) program for mild to moderate depression and anxiety: 8 sessions, each with 3 or 4 modules of 10-15 minutes, with reading material, interactive elements, video examples, worksheets, weekly projects, and inbuilt assessment tools at each session. A free online mood and anxiety test is offered. The homepage states the program is NICE approved and evidence-based.",
+    "evidence_notes": "Homepage states NICE approval and published UK evidence that the program is clinically effective with outcomes similar to face-to-face CBT. The evidence itself was not reviewed in this screening.",
+    "id": "beating-the-blues",
+    "intended_population": [
+      "adults"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-07",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Structured CBT program for mild to moderate depression and anxiety, not professional care and not a substitute for a clinician; individual price not stated on the reviewed homepage. Program content was not used hands-on. Publisher/company name not stated on the reviewed homepage.",
+    "name": "Beating the Blues",
+    "needs": [
+      "learn",
+      "practice",
+      "cope",
+      "mood",
+      "anxiety"
+    ],
+    "official_url": "https://www.beatingtheblues.co.uk/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Privacy policy not reviewed in this screening. The homepage describes the program as confidential and secure; data practices not assessed.",
+    "publisher": "Publisher not stated on the reviewed homepage",
+    "reason": "Screened 2026-11-07: official homepage confirmed live; 8-session structure, module length, target conditions, NICE approval claim, and free mood/anxiety test confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United Kingdom; online."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "online-course",
+    "review_status": "screened",
+    "screening_gaps": [
+      "publisher not stated on homepage",
+      "individual price not stated",
+      "privacy policy not reviewed",
+      "accessibility not verified",
+      "program not used hands-on",
+      "languages beyond English not confirmed"
+    ],
+    "shelf": "learn",
+    "source_notes": [
+      "https://www.beatingtheblues.co.uk/"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "depression",
+      "anxiety",
+      "online-course",
+      "self-help-program",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "Free to download; Abide Premium $39.99/year after a 7-day free trial (monthly $9.99/mo)"
+    ],
+    "accessibility": [
+      "No accessibility statement or accessibility link was visible on the reviewed homepage. Verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Explicitly Christian content; faith-based framing. Cultural adaptation beyond the faith tradition not assessed in this screening.",
+      "source_notes": [
+        "https://abide.com/"
+      ]
+    },
+    "description": "Christian meditation app from Guideposts: daily meditations, devotionals, and sleep stories; meditation categories including Anxiety; biblical sleep stories, music, and kids sleep content; full free audio Bible, daily devotions, and daily Bible reading plans. Available for iOS and Android.",
+    "evidence_notes": "Homepage features and pricing are as stated on the rendered homepage, read live 2026-11-07. The homepage also cites user-reported improvement figures (91% depression, 80% insomnia, 84% stress); these are self-reported survey figures, not assessed in this screening and not treated as efficacy evidence. The app itself was not tested hands-on.",
+    "id": "abide-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-07",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Faith-based (Christian) content; only suitable for users who want that framing. Meditation app, not professional care. Full library requires Abide Premium ($39.99/year after a 7-day free trial). App content was not reviewed hands-on.",
+    "name": "Abide",
+    "needs": [
+      "practice",
+      "calm",
+      "sleep",
+      "anxiety"
+    ],
+    "official_url": "https://abide.com/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Privacy policy not reviewed in this screening; the homepage links to a Privacy Policy and Terms of Use only. Data practices not assessed.",
+    "publisher": "Guideposts - A Church Corporation",
+    "reason": "Screened 2026-11-07: rendered official homepage read live; daily meditation/devotional/sleep-story features, free audio Bible, platforms, and Premium pricing confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; online."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "accessibility not verified",
+      "app not tested hands-on",
+      "languages beyond English not confirmed",
+      "prayer features not confirmed as a standalone section"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://abide.com/"
+    ],
+    "status": "screened",
+    "tags": [
+      "meditation",
+      "christian",
+      "faith-based",
+      "sleep",
+      "bible",
+      "prayer",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Accessibility features not stated on the reviewed homepage. Verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Explicitly culturally focused: the foundation's mission is culturally competent therapy for Black women and girls and non-binary individuals, and it invests in the professional development of BIPOC therapists.",
+      "source_notes": [
+        "https://thelovelandfoundation.org/"
+      ]
+    },
+    "description": "Nonprofit therapy fund: covers the cost of therapy for Black women and girls and non-binary individuals, provides mental health resources, and invests in the professional development of BIPOC therapists. The homepage states the goal is high-quality, culturally competent therapy, and includes testimonials from therapy fund recipients and participating therapists.",
+    "evidence_notes": "Mission and fund model are as stated on the reviewed homepage. Homepage testimonials are recipient and therapist accounts; no outcome data was assessed in this screening.",
+    "id": "loveland-foundation",
+    "intended_population": [
+      "bipoc"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-07",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Therapy fund, not a therapy provider; eligibility, the application process, and how many sessions are covered were not stated on the reviewed homepage. Fund availability may be limited; verify current status before referring anyone.",
+    "name": "The Loveland Foundation",
+    "needs": [
+      "find-support",
+      "support"
+    ],
+    "official_url": "https://thelovelandfoundation.org/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Privacy policy not reviewed in this screening. Application and data practices not assessed.",
+    "publisher": "The Loveland Foundation",
+    "reason": "Screened 2026-11-07: official homepage confirmed live; therapy-fund mission, population served, and BIPOC therapist investment confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United States"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "resource-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "eligibility and application details not stated on homepage",
+      "fund availability and current status not confirmed",
+      "geographic scope not stated on the reviewed homepage",
+      "privacy policy not reviewed",
+      "accessibility not verified",
+      "languages beyond English not confirmed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://thelovelandfoundation.org/"
+    ],
+    "status": "screened",
+    "tags": [
+      "therapy-fund",
+      "financial-assistance",
+      "bipoc",
+      "black-women",
+      "culturally-competent",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
   }
 ]
