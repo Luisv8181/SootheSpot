@@ -20568,5 +20568,313 @@
       "independent-use",
       "with-support"
     ]
+  },
+  {
+    "access": [
+      "free",
+      "paid-optional"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation information stated on the reviewed homepage.",
+      "source_notes": [
+        "https://www.thetappingsolution.com/"
+      ]
+    },
+    "description": "Guided EFT (Emotional Freedom Techniques) tapping sessions for stress, anxiety, sleep and overwhelm; free to download with free guided sessions and a premium library of 1,000+ sessions. Publisher states the app is for general wellness, not a substitute for professional care.",
+    "evidence_notes": "Publisher cites 400+ published studies and a public evidence base at evidence.thetappingsolution.com, including null results; no individual study was evaluated in this screening. Publisher outcome claims (e.g. cortisol reduction) are marketing claims, not independently verified.",
+    "id": "tapping-solution-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-07",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Premium membership required for the full 1,000+ session library; pricing not reviewed. EFT evidence claims are the publisher's; efficacy not assessed. Not a replacement for therapy or medication, per the publisher's own notice.",
+    "name": "The Tapping Solution App",
+    "needs": [
+      "practice",
+      "calm"
+    ],
+    "official_url": "https://www.thetappingsolution.com/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Account and data practices not reviewed in this screening.",
+    "publisher": "The Tapping Solution",
+    "reason": "Screened 2026-11-07: official site confirmed live; EFT tapping app with free guided sessions confirmed from the primary source. Pricing, privacy and evidence details not reviewed - recorded as gaps. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; regional availability not independently confirmed."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy and data practices not reviewed",
+      "premium pricing not reviewed",
+      "evidence-base studies not individually evaluated",
+      "language availability beyond English not confirmed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.thetappingsolution.com/"
+    ],
+    "status": "screened",
+    "tags": [
+      "tapping",
+      "eft",
+      "stress",
+      "anxiety",
+      "sleep",
+      "guided-sessions",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "Pricing not stated on the reviewed homepage"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Publisher notes use by people from marginalised backgrounds and describes the community as inclusive; no formal cultural-adaptation information stated on the reviewed homepage.",
+      "source_notes": [
+        "https://www.tellmi.help/"
+      ]
+    },
+    "description": "Pre-moderated, anonymous peer-support community for young people and adults, with age-banded spaces for under-18s, preemptive counsellor intervention for high-risk posts, a directory of 700+ support resources, and scheduled text-based Solution Focused Therapy. Available 24/7 with no referral or waiting list, per the publisher.",
+    "evidence_notes": "Publisher cites an independent evaluation by the Evidence Based Practice Unit at University College London (82% said it connects them to people with similar problems; 79% felt less alone; 72% feel better when they use it). The evaluation itself was not reviewed in this screening.",
+    "id": "tellmi",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-07",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "UK service; availability and free access outside commissioned areas not confirmed from the reviewed page. Peer support is not a substitute for professional care; high-risk posts are redirected to the counselling team per the publisher. Premium extensions exist; pricing not reviewed.",
+    "name": "Tellmi",
+    "needs": [
+      "find-support"
+    ],
+    "official_url": "https://www.tellmi.help/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Registration requires a validated email or phone number, encrypted and accessible only to the safeguarding team per the publisher; full privacy policy not reviewed.",
+    "publisher": "Tellmi",
+    "reason": "Screened 2026-11-07: official site confirmed live; pre-moderated anonymous peer support, age-banding and preemptive counselling confirmed from the primary source. Pricing, privacy and evaluation details not reviewed - recorded as gaps. Ready for owner review before any promotion.",
+    "regions": [
+      "United Kingdom; availability elsewhere not independently confirmed."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "peer-support",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "pricing and free-access scope not confirmed",
+      "UCL evaluation not independently reviewed",
+      "non-UK availability not confirmed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://www.tellmi.help/"
+    ],
+    "status": "screened",
+    "tags": [
+      "peer-support",
+      "young-people",
+      "anonymous",
+      "moderated",
+      "crisis-support",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "Pricing not stated on the reviewed homepage"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation information stated on the reviewed homepage.",
+      "source_notes": [
+        "https://balanceapp.com/"
+      ]
+    },
+    "description": "Personalized guided meditation app that builds a daily program from the user's goals, experience and obstacles, covering stress, sleep, focus and mood, with an on-demand library of singles. Named Google Play's Best App of 2021 and rated 4.9 stars, per the publisher.",
+    "evidence_notes": "Publisher describes guidance from meditation experts and neuroscience expertise; no specific studies cited on the reviewed homepage. Google Play Best App of 2021 and 4.9-star rating are publisher claims not independently verified.",
+    "id": "balance-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-07",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Pricing and free-trial terms not stated on the reviewed homepage; most content is expected to be subscription-based - verify before listing as free. Personalization requires answering daily questions about experience and goals. Does not replace professional mental health care.",
+    "name": "Balance",
+    "needs": [
+      "practice",
+      "calm",
+      "sleep"
+    ],
+    "official_url": "https://balanceapp.com/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Privacy policy and data practices not reviewed in this screening.",
+    "publisher": "Balance (The Mind Company)",
+    "reason": "Screened 2026-11-07: official site confirmed live; personalized meditation program and expert guidance confirmed from the primary source. Pricing and privacy not stated on the page - recorded as gaps. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; regional availability not independently confirmed."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "pricing and free-trial terms not reviewed",
+      "privacy policy and data practices not reviewed",
+      "language availability beyond English not confirmed",
+      "evidence claims not evaluated"
+    ],
+    "shelf": "listen",
+    "source_notes": [
+      "https://balanceapp.com/"
+    ],
+    "status": "screened",
+    "tags": [
+      "meditation",
+      "personalized",
+      "sleep",
+      "stress",
+      "focus",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Publisher describes a global nonprofit reaching 140 countries; no cultural-adaptation information stated on the reviewed homepage.",
+      "source_notes": [
+        "https://www.humin.org/"
+      ]
+    },
+    "description": "Free, science-grounded wellbeing app from the nonprofit Humin (formerly Healthy Minds Innovations, founded on Dr. Richard Davidson's research), offering up to 600 days of guided practices across four pillars - awareness, connection, insight and purpose - with no ads. The publisher's FAQ states the app is entirely free, supported by donors.",
+    "evidence_notes": "Publisher cites 50+ studies using its tools and randomized controlled trials of the app (general, educators, healthcare professionals, firefighters, caregivers), plus outcome figures (-16% loneliness, -24% depression, +25% insight, 70% felt less stressed). No individual study was evaluated in this screening; figures are publisher-reported.",
+    "id": "healthy-minds-program",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-07",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Outcome figures are publisher-reported and not independently verified. The original hminnovations.org address no longer resolves; the organization has rebranded as Humin at humin.org. Does not replace professional mental health care.",
+    "name": "Healthy Minds Program",
+    "needs": [
+      "practice",
+      "calm"
+    ],
+    "official_url": "https://www.humin.org/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Account and data practices not reviewed in this screening.",
+    "publisher": "Humin (formerly Healthy Minds Innovations)",
+    "reason": "Screened 2026-11-07: successor site humin.org confirmed live after hminnovations.org was found not to resolve; free app, four pillars and donor-supported model confirmed from the primary source and its Free App page. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; regional availability not independently confirmed."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy and data practices not reviewed",
+      "individual studies not evaluated",
+      "language availability beyond English not confirmed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.humin.org/",
+      "https://www.humin.org/wellbeing-tools/app"
+    ],
+    "status": "screened",
+    "tags": [
+      "meditation",
+      "wellbeing",
+      "free",
+      "science-based",
+      "awareness",
+      "compassion",
+      "purpose",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
