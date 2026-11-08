@@ -20876,5 +20876,80 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S.-based nonprofit; the page states OCD and related disorders affect more than 1 in 100 people worldwide. Fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://iocdf.org/"
+      ]
+    },
+    "description": "Nonprofit hub for obsessive-compulsive disorder and related disorders: education about OCD and treatment, a Resource Directory of therapists, clinics, support groups and organizations, a free confidential OCD Screener, a clinician training and resource hub, webinars and courses, and research and community-involvement pages.",
+    "evidence_notes": "Publisher is the International OCD Foundation, a donor-powered nonprofit. The page states OCD affects more than 1 in 100 people worldwide; no specific trial evidence was presented on the homepage. Individual claims were not evaluated in this screening.",
+    "id": "iocdf-ocd-resources",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-08",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Informational and directory content; does not replace professional evaluation or treatment. The screener identifies whether OCD may be a concern and supports next steps toward professional care - it is not a diagnosis. Webinar and course pricing not reviewed.",
+    "name": "International OCD Foundation (IOCDF)",
+    "needs": [
+      "understand",
+      "find-support"
+    ],
+    "official_url": "https://iocdf.org/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "The OCD Screener is described as free and confidential on the publisher page. The site's full privacy policy was not reviewed in this screening.",
+    "publisher": "International OCD Foundation",
+    "reason": "Screened 2026-11-08: official site confirmed live (copy crawled 2026-11-08 08:55 UTC, minutes before the read); nonprofit publisher, OCD education, resource directory, free confidential screener, and clinician training hub confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; U.S.-based nonprofit publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "information-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "webinar and course pricing not reviewed",
+      "privacy policy not reviewed",
+      "non-English availability not confirmed"
+    ],
+    "shelf": "learn",
+    "source_notes": [
+      "https://iocdf.org/"
+    ],
+    "status": "screened",
+    "tags": [
+      "ocd",
+      "psychoeducation",
+      "screening",
+      "resource-directory",
+      "support-groups",
+      "clinician-training",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
