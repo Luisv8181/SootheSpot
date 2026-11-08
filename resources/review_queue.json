@@ -21246,4 +21246,311 @@
     "independent-use"
   ]
 }
+,
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "National Canadian organization with provincial divisions and local branches; content reflects Canadian services and crisis numbers (9-8-8); fit outside Canada not assessed.",
+    "source_notes": [
+      "https://cmha.ca/"
+    ]
+  },
+  "description": "Canada's national mental-health charity, with 330 community locations across the country. The national site offers free mental-health information and resources, a local branch finder, and the Not Myself Today workplace mental-health program, and points people in crisis to call or text 9-8-8.",
+  "evidence_notes": "Charity status and 330 community locations stated on the homepage; effectiveness of individual programs not evaluated in this screening.",
+  "id": "cmha-canada",
+  "intended_population": [
+    "general"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-08",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Most services are delivered through local branches, so what a user can actually access depends on their location; the national site is largely an information and signposting hub. Informational only; does not replace professional care.",
+  "name": "Canadian Mental Health Association (CMHA)",
+  "needs": [
+    "understand"
+  ],
+  "official_url": "https://cmha.ca/",
+  "platforms": [
+    "Web"
+  ],
+  "privacy_notes": "Public information is readable without an account; privacy policy not reviewed in this screening.",
+  "publisher": "Canadian Mental Health Association (National)",
+  "reason": "Screened 2026-11-08: official national homepage confirmed live (copy crawled 2026-11-08 16:56 UTC); 330 community locations, branch finder, 9-8-8 pointer, and the Not Myself Today workplace program confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "Canada"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "resource-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+    "French-language edition not reviewed",
+    "branch-level service availability varies by location and was not checked",
+    "privacy policy and accessibility statement not reviewed",
+    "Not Myself Today program details not reviewed"
+  ],
+  "shelf": "learn",
+  "source_notes": [
+    "https://cmha.ca/"
+  ],
+  "status": "screened",
+  "tags": [
+    "mental-health",
+    "psychoeducation",
+    "canada",
+    "community",
+    "workplace",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "UK charity for children and young people; school and trauma resources are built for UK systems and services; fit outside the UK not assessed.",
+    "source_notes": [
+      "https://www.annafreud.org/"
+    ]
+  },
+  "description": "UK mental-health charity for children and young people. Free resources include school and college support services, expert-led training for professionals, the UK Trauma Council's evidence-based trauma resources, and Autism Central peer support for families of autistic people. Also runs the Anna Freud Crisis Messenger, a free, confidential, 24/7 text service (text AFC to 85258).",
+  "evidence_notes": "Charity describes its work as evidence-informed and research-led (registered charity 1077106); individual resources' evidence not evaluated in this screening.",
+  "id": "anna-freud",
+  "intended_population": [
+    "children",
+    "young-people",
+    "families"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-08",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Most content is aimed at children, young people, families, schools, and professionals, not a general adult self-help library. The Crisis Messenger is UK-only. Informational only; does not replace professional care.",
+  "name": "Anna Freud",
+  "needs": [
+    "understand"
+  ],
+  "official_url": "https://www.annafreud.org/",
+  "platforms": [
+    "Web",
+    "Text/SMS"
+  ],
+  "privacy_notes": "Public information is readable without an account; Crisis Messenger privacy and data practices not reviewed in this screening.",
+  "publisher": "Anna Freud (UK registered charity 1077106)",
+  "reason": "Screened 2026-11-08: official homepage confirmed live (copy crawled 2026-11-08 16:56 UTC); Crisis Messenger (text AFC to 85258), UK Trauma Council, Autism Central, and school/college support confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "United Kingdom"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "resource-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+    "professional training and Studio membership pricing/access not reviewed",
+    "Crisis Messenger privacy and data practices not reviewed",
+    "accessibility statement not reviewed"
+  ],
+  "shelf": "learn",
+  "source_notes": [
+    "https://www.annafreud.org/"
+  ],
+  "status": "screened",
+  "tags": [
+    "children",
+    "young-people",
+    "trauma",
+    "schools",
+    "psychoeducation",
+    "crisis-support",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Site states it makes use of images and videos; assistive-technology compatibility not listed on the reviewed homepage — verify before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "Content aimed at UK professional and caregiving audiences (teachers, health and mental health professionals, social workers, police, youth volunteers, school counsellors); fit outside the UK not assessed.",
+    "source_notes": [
+      "https://minded.org.uk/"
+    ]
+  },
+  "description": "Free e-learning hub on mental health for adults who work with or care for infants, children, teenagers, adults, and older people, including people with a learning disability and autistic people. Content is described as quality assured by experts; registered learners get a learning path tailored to their needs.",
+  "evidence_notes": "Site states all information is quality assured by experts in mental health; individual modules' evidence not evaluated in this screening.",
+  "id": "minded-hub",
+  "intended_population": [
+    "adults",
+    "carers"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-08",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Aimed at adults supporting others, not at people seeking help for themselves — a learning resource for carers and professionals rather than a self-help tool. General advice only; the site's own disclaimer says it is not a substitute for individual professional advice.",
+  "name": "MindEd",
+  "needs": [
+    "understand"
+  ],
+  "official_url": "https://minded.org.uk/",
+  "platforms": [
+    "Web"
+  ],
+  "privacy_notes": "Free registration required for tailored learning paths; privacy and data practices not reviewed in this screening.",
+  "publisher": "MindEd (operator not stated on the reviewed page)",
+  "reason": "Screened 2026-11-08: official homepage confirmed live (copy crawled 2026-11-08 16:56 UTC); audience, expert quality assurance, and tailored learning paths confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "Regions not stated on the reviewed page; .org.uk domain and UK professional audiences suggest UK scope — confirm before promoting outside the UK."
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "online-course",
+  "review_status": "screened",
+  "screening_gaps": [
+    "operator/publisher not stated on the reviewed page",
+    "module catalogue and registration flow not reviewed",
+    "privacy policy and accessibility statement not reviewed",
+    "regional scope not explicitly stated on the reviewed page"
+  ],
+  "shelf": "learn",
+  "source_notes": [
+    "https://minded.org.uk/"
+  ],
+  "status": "screened",
+  "tags": [
+    "e-learning",
+    "psychoeducation",
+    "children",
+    "young-people",
+    "caregivers",
+    "professionals",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "Australian service; helpline number and crisis referral (Lifeline 13 11 14) are Australia-specific; fit outside Australia not assessed.",
+    "source_notes": [
+      "https://panda.org.au/"
+    ]
+  },
+  "description": "Australian perinatal mental-health support for expecting, new, and growing families. Free information and articles, an online mental-health checklist, the Dot chatbot, stories from parents, and resources for health professionals, plus the PANDA National Helpline (1300 726 306), open 7 days a week.",
+  "evidence_notes": "Helpline, checklist, and chatbot stated on the homepage; effectiveness not evaluated in this screening.",
+  "id": "panda-australia",
+  "intended_population": [
+    "parents",
+    "families"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-08",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "PANDA states it is not a crisis service and directs people in immediate danger to call 000 and people with suicidal thoughts to Lifeline 13 11 14. Australian scope — helpline and referrals do not apply outside Australia. Informational only; does not replace professional care.",
+  "name": "PANDA (Perinatal Anxiety & Depression Australia)",
+  "needs": [
+    "understand",
+    "find-support"
+  ],
+  "official_url": "https://panda.org.au/",
+  "platforms": [
+    "Web",
+    "Phone"
+  ],
+  "privacy_notes": "Public information is readable without an account; Dot chatbot and checklist data practices not reviewed in this screening.",
+  "publisher": "PANDA (Perinatal Anxiety & Depression Australia)",
+  "reason": "Screened 2026-11-08: official homepage confirmed live (copy crawled 2026-11-08 16:56 UTC); National Helpline number and 7-day availability, mental-health checklist, Dot chatbot, and the not-a-crisis-service statement confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "Australia"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "resource-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+    "helpline hours beyond '7 days a week' not stated on the reviewed page",
+    "Dot chatbot and checklist privacy practices not reviewed",
+    "accessibility statement not reviewed",
+    "cost of helpline calls not stated"
+  ],
+  "shelf": "learn",
+  "source_notes": [
+    "https://panda.org.au/"
+  ],
+  "status": "screened",
+  "tags": [
+    "perinatal",
+    "pregnancy",
+    "parenting",
+    "depression",
+    "anxiety",
+    "helpline",
+    "psychoeducation",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+}
 ]
