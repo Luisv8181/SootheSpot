@@ -20951,5 +20951,299 @@
     "use_context": [
       "independent-use"
     ]
-  }
+  },
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "original",
+    "notes": "UK-based OCD charity; examples and service references are UK-oriented. Verify fit outside the UK before recommending.",
+    "source_notes": [
+      "https://ocdaction.org.uk/"
+    ]
+  },
+  "description": "The UK's largest OCD charity, delivering frontline services for over 30 years to people with OCD, their families, carers, and friends. The homepage presents the charity's vision that OCD is well understood and everyone gets the treatment and support they need, when they need it.",
+  "evidence_notes": "Informational and support charity; no efficacy claims evaluated in this screening.",
+  "id": "ocd-action-uk",
+  "intended_population": [
+    "general"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-08",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "The fetched homepage is thin on service specifics — helpline, support groups, and other services were not detailed on the reviewed page; verify service details before promotion. Informational and support only; does not replace professional mental health care.",
+  "name": "OCD Action",
+  "needs": [
+    "understand"
+  ],
+  "official_url": "https://ocdaction.org.uk/",
+  "platforms": [
+    "Web"
+  ],
+  "privacy_notes": "No account required to read the homepage. The charity's privacy policy was not reviewed in this screening.",
+  "publisher": "OCD Action (UK charity)",
+  "reason": "Screened 2026-11-08: official homepage confirmed live (copy crawled 2026-11-08 12:55 UTC, minutes before the read); UK's largest OCD charity positioning and 30+ years of frontline services confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "UK-based charity; online."
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "information-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+    "specific support services (helpline, support groups) not detailed on the fetched homepage",
+    "privacy policy and accessibility statement not reviewed",
+    "charity registration number not confirmed from the reviewed page"
+  ],
+  "shelf": "learn",
+  "source_notes": [
+    "https://ocdaction.org.uk/"
+  ],
+  "status": "screened",
+  "tags": [
+    "ocd",
+    "charity",
+    "support",
+    "psychoeducation",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "original",
+    "notes": "UK-based PTSD charity; treatment pathways reference NICE guidance (UK). Verify fit outside the UK before recommending.",
+    "source_notes": [
+      "https://www.ptsduk.org/"
+    ]
+  },
+  "description": "The only charity in the UK dedicated to raising awareness of post-traumatic stress disorder, whatever the trauma that caused it. The homepage covers what can cause PTSD and C-PTSD, symptoms, treatments (EMDR and CBT per NICE guidance), what to do if you think you have PTSD, supporting a loved one, and next steps after diagnosis. Also runs a supporters store (100% of profits to the mission), a 2026 survey on PTSD care, and workplace, school, and community training via the PTSD UK Academy.",
+  "evidence_notes": "Treatment information references NICE guidance (EMDR, CBT). Individual claims not evaluated in this screening.",
+  "id": "ptsd-uk",
+  "intended_population": [
+    "general"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-08",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Awareness and information charity, not a treatment provider; content is UK-oriented (NHS/NICE pathways). Informational only; does not replace professional care. The site carries an article on suicide amongst people with PTSD — owner judgment on safety-pathway fit before promotion.",
+  "name": "PTSD UK",
+  "needs": [
+    "understand"
+  ],
+  "official_url": "https://www.ptsduk.org/",
+  "platforms": [
+    "Web"
+  ],
+  "privacy_notes": "No account required to read the homepage. The charity's privacy policy was not reviewed in this screening.",
+  "publisher": "PTSD UK (UK charity)",
+  "reason": "Screened 2026-11-08: official homepage confirmed live (copy crawled 2026-11-08 12:55 UTC, minutes before the read); sole-UK-PTSD-charity positioning, causes/symptoms/treatment information, and NICE-referenced EMDR/CBT content confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "UK-based charity; information broadly applicable."
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "information-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+    "charity registration number not confirmed from the reviewed page",
+    "support services beyond information not detailed on the fetched homepage",
+    "privacy policy and accessibility statement not reviewed"
+  ],
+  "shelf": "learn",
+  "source_notes": [
+    "https://www.ptsduk.org/"
+  ],
+  "status": "screened",
+  "tags": [
+    "ptsd",
+    "c-ptsd",
+    "trauma",
+    "psychoeducation",
+    "awareness",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "Global directory; listing coverage and helpline availability vary by country and were not independently verified.",
+    "source_notes": [
+      "https://findahelpline.org/"
+    ]
+  },
+  "description": "Free, anonymous, confidential directory of helplines worldwide. Explains what helplines are and what they support — suicide prevention, domestic violence, sexual assault, anxiety, depression, gender or sexual identity, substance use — and ranks and recommends helplines by country with filters and service descriptions. Notes helplines are often toll-free, available by phone, text, or online chat, and frequently 24/7.",
+  "evidence_notes": "Page states research has shown people feel less distressed after contacting helplines; that claim was not evaluated in this screening.",
+  "id": "find-a-helpline",
+  "intended_population": [
+    "general"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-08",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "A directory, not a support service itself; individual helpline quality, availability, and listing accuracy were not verified. Crisis-related content — owner judgment on safety-pathway fit before promotion. Does not replace professional care.",
+  "name": "Find a Helpline",
+  "needs": [
+    "understand"
+  ],
+  "official_url": "https://findahelpline.org/",
+  "platforms": [
+    "Web"
+  ],
+  "privacy_notes": "Directory use is described as free, anonymous, and confidential on the page. The site's privacy policy was not reviewed in this screening.",
+  "publisher": "Find a Helpline (operator not stated on the reviewed page)",
+  "reason": "Screened 2026-11-08: official homepage confirmed live (copy crawled 2026-11-08 12:56 UTC, minutes before the read); free, anonymous, confidential helpline directory with country-based ranking and filters confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "Global; country-specific listings."
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "service-directory",
+  "review_status": "screened",
+  "screening_gaps": [
+    "publisher/operator identity not stated on the reviewed page",
+    "individual helpline listings not verified",
+    "privacy policy and accessibility statement not reviewed"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+    "https://findahelpline.org/"
+  ],
+  "status": "screened",
+  "tags": [
+    "helplines",
+    "crisis-support",
+    "directory",
+    "global",
+    "anonymous",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "Site structured around European depression resources and help addresses; fit outside Europe not assessed.",
+    "source_notes": [
+      "https://www.ifightdepression.com/en/"
+    ]
+  },
+  "description": "Depression information site with an internet-based, guided self-management program for people with mild depression. Public content covers depression for all audiences, young people, family and friends, community professionals, and doctors and pharmacists, plus a self-test and help addresses. The self-management tool itself requires referral by a family doctor or psychotherapist and a personal user account.",
+  "evidence_notes": "Page cites WHO 2017 figures on depression prevalence. The tool is described as guided self-management; effectiveness not evaluated in this screening.",
+  "id": "ifightdepression",
+  "intended_population": [
+    "general",
+    "adolescents"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-08",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "The self-management tool requires clinician referral and a personal account — not freely usable independently; the public information is the independent-use portion. Informational only; does not replace professional care.",
+  "name": "iFightDepression",
+  "needs": [
+    "understand",
+    "practice"
+  ],
+  "official_url": "https://www.ifightdepression.com/en/",
+  "platforms": [
+    "Web"
+  ],
+  "privacy_notes": "Public information is readable without an account. The self-management tool requires a personal user account; its data practices were not reviewed in this screening.",
+  "publisher": "iFightDepression (operator not stated on the reviewed page)",
+  "reason": "Screened 2026-11-08: official English homepage confirmed live (copy crawled 2026-11-08 12:56 UTC, minutes before the read); depression information sections, self-test, help addresses, and the referral-gated self-management tool confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "Regions not stated on the reviewed page; the site uses a language-path URL (/en/), suggesting multiple language editions."
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "self-help-program",
+  "review_status": "screened",
+  "screening_gaps": [
+    "publisher/operator not stated on the reviewed page",
+    "other language editions not reviewed (only the English /en/ edition was read)",
+    "patient-side access and cost for the tool not stated",
+    "privacy policy and accessibility statement not reviewed"
+  ],
+  "shelf": "learn",
+  "source_notes": [
+    "https://www.ifightdepression.com/en/"
+  ],
+  "status": "screened",
+  "tags": [
+    "depression",
+    "cbt",
+    "self-management",
+    "psychoeducation",
+    "self-test",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+}
 ]
