@@ -21552,5 +21552,235 @@
   "use_context": [
     "independent-use"
   ]
-}
+},
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Global network of member centres in 35 countries; each centre operates locally, so languages, hours, and cultural fit vary by centre and were not assessed per centre.",
+      "source_notes": [
+        "https://befrienders.org/"
+      ]
+    },
+    "description": "UK charity uniting independent crisis centres in 35 countries. A global directory of confidential helplines for people facing loneliness, despair, and suicidal distress, plus a 24/7 Seafarers Helpline and short resources on listening skills and suicidal feelings.",
+    "evidence_notes": "Global directory, 35-country network, and Seafarers Helpline stated on the homepage; effectiveness not evaluated in this screening.",
+    "id": "befrienders-worldwide",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-08",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Befrienders Worldwide is a network, not itself a helpline; availability, hours, and languages depend on the individual member centre. Not an emergency service; people in immediate danger should contact local emergency services.",
+    "name": "Befrienders Worldwide",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://befrienders.org/",
+    "platforms": [
+      "Web",
+      "Phone"
+    ],
+    "privacy_notes": "Directory is browsable without an account; data practices of individual member centres not reviewed in this screening.",
+    "publisher": "Befrienders Worldwide",
+    "reason": "Screened 2026-11-08: official homepage confirmed live (copy crawled 2026-11-08 20:55 UTC); global helpline directory, 35-country network, and 24/7 Seafarers Helpline confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "service-directory",
+    "review_status": "screened",
+    "screening_gaps": [
+      "per-centre hours, languages, and availability not reviewed",
+      "accessibility statement not reviewed",
+      "privacy practices of member centres not reviewed",
+      "Seafarers Helpline access details beyond 24/7 not confirmed from the reviewed page"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://befrienders.org/"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis-support",
+      "helpline-directory",
+      "suicide-prevention",
+      "loneliness",
+      "listening",
+      "global",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "British Columbia project; linked services and referrals are BC-specific; fit outside BC not assessed.",
+      "source_notes": [
+        "https://www.heretohelp.bc.ca/"
+      ]
+    },
+    "description": "Mental-health and substance-use information hub from the BC Partners (seven BC agencies). Trusted information on mental health and substance use, self-management strategies, help finding BC resources, the Visions Journal, and e-newsletters.",
+    "evidence_notes": "Seven-agency BC Partners project and information/self-management focus stated on the homepage; effectiveness not evaluated in this screening.",
+    "id": "heretohelp-bc",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-08",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "British Columbia scope — linked services and referrals do not apply outside BC. Informational only; does not replace professional care.",
+    "name": "Here to Help BC",
+    "needs": [
+      "understand",
+      "find-support"
+    ],
+    "official_url": "https://www.heretohelp.bc.ca/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Public information is readable without an account; e-newsletter sign-up data practices not reviewed in this screening.",
+    "publisher": "BC Partners for Mental Health and Substance Use Information",
+    "reason": "Screened 2026-11-08: official homepage confirmed live (copy crawled 2026-11-08 20:56 UTC); BC Partners project, information and self-management focus confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Canada"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "information-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "accessibility statement not reviewed",
+      "newsletter sign-up privacy practices not reviewed",
+      "French or other language availability not stated on the reviewed page",
+      "whether Anxiety Canada resources are now hosted here not confirmed beyond the closure notice link"
+    ],
+    "shelf": "learn",
+    "source_notes": [
+      "https://www.heretohelp.bc.ca/"
+    ],
+    "status": "screened",
+    "tags": [
+      "psychoeducation",
+      "mental-health",
+      "substance-use",
+      "british-columbia",
+      "canada",
+      "information",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "paid"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Groups are hosted by churches and carry a faith-based framing (videos feature pastors); fit for non-religious users not assessed.",
+      "source_notes": [
+        "https://www.griefshare.org/"
+      ]
+    },
+    "description": "Grief support groups (in person and online) for people grieving the death of a loved one. Each weekly meeting shows a 30-minute video on a grief topic, followed by group discussion, plus a participant guide with tips and exercises for the week.",
+    "evidence_notes": "Group format (video plus discussion plus guide) and cost range stated on the homepage; effectiveness not evaluated in this screening.",
+    "id": "griefshare",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-08",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Church-hosted groups with a faith-based framing. Cost varies by group (free to around $25 for the participant guide). In-person availability depends on local groups; online groups available. Peer support only; does not replace professional care.",
+    "name": "GriefShare",
+    "needs": [
+      "find-support",
+      "understand"
+    ],
+    "official_url": "https://www.griefshare.org/",
+    "platforms": [
+      "Web",
+      "In-person"
+    ],
+    "privacy_notes": "Group finder and sign-up data practices not reviewed in this screening.",
+    "publisher": "GriefShare",
+    "reason": "Screened 2026-11-08: official homepage confirmed live (copy crawled 2026-11-08 20:56 UTC); weekly group format, video plus discussion plus guide, and cost range confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "peer-support",
+    "review_status": "screened",
+    "screening_gaps": [
+      "online group schedule and sign-up flow not reviewed",
+      "accessibility statement not reviewed",
+      "privacy practices for group sign-up not reviewed",
+      "non-English availability not stated on the reviewed page"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://www.griefshare.org/"
+    ],
+    "status": "screened",
+    "tags": [
+      "grief",
+      "bereavement",
+      "loss",
+      "support-group",
+      "peer-support",
+      "faith-based"
+    ],
+    "use_context": [
+      "with-support"
+    ]
+  }
 ]
