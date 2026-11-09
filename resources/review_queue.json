@@ -22577,5 +22577,230 @@
     "use_context": [
       "with-support"
     ]
-  }
+  },
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "original",
+    "notes": "UK charity supporting people with phobias, OCD and anxiety-based disorders. Fit outside the UK not assessed.",
+    "source_notes": [
+      "https://nopanic.org.uk/"
+    ]
+  },
+  "description": "UK charity offering advice, support, mentoring and self-help recovery programmes for people living with phobias, OCD and any other anxiety-based disorders. Helpline 0300 772 9844 (10am-10pm), a 24-hour crisis line (01952 680835), monthly support emails, and youth help.",
+  "evidence_notes": "Publisher describes a self-help recovery approach with programmes to manage and reduce anxiety. No efficacy claims evaluated in this screening.",
+  "id": "no-panic-uk",
+  "intended_population": [
+    "general"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-09",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Support and self-help programmes; not a substitute for professional mental health care. Helpline calls are charged at the same rate as 01/02 numbers (included in minutes packages); membership and programme pricing were not confirmed from the fetched homepage.",
+  "name": "No Panic",
+  "needs": [
+    "safety",
+    "find-support",
+    "calm"
+  ],
+  "official_url": "https://nopanic.org.uk/",
+  "platforms": [
+    "Phone",
+    "Web"
+  ],
+  "privacy_notes": "No account noted for the helpline or monthly emails on the reviewed homepage. Data practices were not reviewed in this screening.",
+  "publisher": "No Panic (UK registered charity)",
+  "reason": "Screened 2026-11-09: official homepage confirmed live; helpline (0300 772 9844, 10am-10pm), 24-hour crisis line (01952 680835), self-help recovery programmes, mentoring and youth help confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "UK"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "crisis-service",
+  "review_status": "screened",
+  "screening_gaps": [
+    "membership and programme pricing not confirmed from the fetched homepage",
+    "privacy/data practices not reviewed",
+    "accessibility statement not reviewed"
+  ],
+  "shelf": "safety",
+  "source_notes": [
+    "https://nopanic.org.uk/"
+  ],
+  "status": "screened",
+  "tags": [
+    "anxiety",
+    "panic",
+    "ocd",
+    "phobia",
+    "helpline",
+    "self-help",
+    "mentoring",
+    "crisis-support"
+  ],
+  "use_context": [
+    "with-support"
+  ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "original",
+    "notes": "Australian suicide prevention charity. The homepage acknowledges Aboriginal and/or Torres Strait Islander peoples as the traditional custodians of the land. Fit outside Australia not assessed.",
+    "source_notes": [
+      "https://www.ruok.org.au/"
+    ]
+  },
+  "description": "Australian suicide prevention charity and registered public health promotion that teaches people to have supportive conversations: four steps - Ask R U OK?, Listen, Encourage action, Check in. Free conversation guides, roleplay videos, workplace resources, and a Find Help directory of support services.",
+  "evidence_notes": "Publisher is an Australian suicide prevention charity and registered public health promotion. No efficacy claims evaluated in this screening.",
+  "id": "r-u-ok-australia",
+  "intended_population": [
+    "general"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-09",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Teaches conversation skills and signposts to services; it is not itself a crisis service - people in immediate distress should contact a crisis line (the site signposts Lifeline 13 11 14). Australia-focused. Does not replace professional care.",
+  "name": "R U OK?",
+  "needs": [
+    "understand",
+    "find-support"
+  ],
+  "official_url": "https://www.ruok.org.au/",
+  "platforms": [
+    "Web"
+  ],
+  "privacy_notes": "No account noted for reading guides and resources on the reviewed pages; newsletter signup is optional. Data practices were not reviewed in this screening.",
+  "publisher": "R U OK? (Australian suicide prevention charity)",
+  "reason": "Screened 2026-11-09: official homepage confirmed live; charity identity, four conversation steps (Ask, Listen, Encourage action, Check in), free guides and roleplays, and the Find Help directory confirmed from the primary source and publisher pages. Ready for owner review before any promotion.",
+  "regions": [
+    "Australia"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "article-library",
+  "review_status": "screened",
+  "screening_gaps": [
+    "privacy/data practices not reviewed",
+    "accessibility statement not reviewed"
+  ],
+  "shelf": "read",
+  "source_notes": [
+    "https://www.ruok.org.au/"
+  ],
+  "status": "screened",
+  "tags": [
+    "suicide-prevention",
+    "conversation-skills",
+    "peer-support",
+    "australia",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "original",
+    "notes": "UK LGBTQIA+ support line staffed by volunteers from the LGBTQIA+ community. Fit outside the UK not assessed.",
+    "source_notes": [
+      "https://switchboard.lgbt/"
+    ]
+  },
+  "description": "Free UK LGBTQIA+ support line. Every phone call (0800 0119 100), instant message, or email is answered by a volunteer from the LGBTQIA+ community. Publisher states the service has run for over fifty years and supported millions of people.",
+  "evidence_notes": "Publisher states 50+ years of operation and millions supported. No efficacy claims evaluated in this screening.",
+  "id": "switchboard-lgbtq-support-line",
+  "intended_population": [
+    "general"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-09",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Listening and support service; not a substitute for professional mental health care. Hours of operation were not stated on the fetched homepage - confirm before promotion. UK-focused service.",
+  "name": "Switchboard - LGBTQIA+ Support Line",
+  "needs": [
+    "safety",
+    "find-support"
+  ],
+  "official_url": "https://switchboard.lgbt/",
+  "platforms": [
+    "Phone",
+    "Web chat",
+    "Email"
+  ],
+  "privacy_notes": "Publisher describes callers as anonymous in a service-user quote; no account noted. Data practices were not reviewed in this screening.",
+  "publisher": "Switchboard LGBT+ (UK charity)",
+  "reason": "Screened 2026-11-09: official homepage confirmed live; free LGBTQIA+ support line (phone 0800 0119 100, instant message, email), volunteer staffing from the community, and 50+ years of operation confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "UK"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "crisis-service",
+  "review_status": "screened",
+  "screening_gaps": [
+    "hours of operation not stated on the fetched homepage",
+    "privacy/data practices not reviewed",
+    "accessibility statement not reviewed"
+  ],
+  "shelf": "safety",
+  "source_notes": [
+    "https://switchboard.lgbt/"
+  ],
+  "status": "screened",
+  "tags": [
+    "lgbtq",
+    "helpline",
+    "peer-support",
+    "listening-service",
+    "chat-support"
+  ],
+  "use_context": [
+    "with-support"
+  ]
+}
 ]
