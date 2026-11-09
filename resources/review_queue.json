@@ -22345,4 +22345,237 @@
       "independent-use"
     ]
   }
+,
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "Culturally competent counselling for First Nations, Inuit and Metis peoples across Canada. Phone counselling in English and French, with Cree, Ojibway and Inuktitut available on request by phone; chat counselling in English and French.",
+      "source_notes": [
+        "https://hopeforwellness.ca/"
+      ]
+    },
+    "description": "24/7 phone and online-chat counselling and crisis support for all Indigenous peoples across Canada. Call toll-free 1-855-242-3310 or connect to the online chat at hopeforwellness.ca. Offers immediate help, crisis intervention, and referrals to community-based services.",
+    "evidence_notes": "Publisher describes the service as available 24/7 to all Indigenous peoples across Canada. No efficacy claims evaluated in this screening.",
+    "id": "hope-for-wellness-helpline",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English",
+      "French",
+      "Cree",
+      "Ojibway",
+      "Inuktitut"
+    ],
+    "last_verified_at": "2026-11-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Crisis and counselling helpline; not a substitute for professional care. Cree, Ojibway and Inuktitut counselling is available on request by phone only; chat counselling is in English and French. Free status is not stated on the fetched homepage (toll-free number; secondary directories describe it as free) - confirm at promotion time.",
+    "name": "Hope for Wellness Helpline",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://hopeforwellness.ca/",
+    "platforms": [
+      "Phone",
+      "Web chat"
+    ],
+    "privacy_notes": "No account noted for phone or chat on the reviewed homepage. Data practices were not reviewed in this screening.",
+    "publisher": "Hope for Wellness Helpline",
+    "reason": "Screened 2026-11-09: official homepage confirmed live; 24/7 phone (1-855-242-3310) and online chat for all Indigenous peoples across Canada confirmed from the primary source; language coverage (English/French, Cree/Ojibway/Inuktitut on request) confirmed via secondary directory listings. Ready for owner review before any promotion.",
+    "regions": [
+      "Canada"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "operator/funder not confirmed from the primary source (homepage fetch was thin)",
+      "free status not stated on the fetched homepage",
+      "chat availability details and privacy/data practices not reviewed"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://hopeforwellness.ca/"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis-support",
+      "helpline",
+      "indigenous",
+      "counselling",
+      "24-7",
+      "chat-support"
+    ],
+    "use_context": [
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "Run by Aboriginal and Torres Strait Islander people; callers speak with an Aboriginal and Torres Strait Islander crisis supporter in a culturally safe yarning model, without judgement or shame.",
+      "source_notes": [
+        "https://www.13yarn.org.au/"
+      ]
+    },
+    "description": "Free, confidential 24/7 crisis support line for Aboriginal and Torres Strait Islander people, staffed by Aboriginal and Torres Strait Islander crisis supporters. Call 13 92 76; text and webchat available 4pm-midnight.",
+    "evidence_notes": "Publisher states 13YARN is the first national service of its kind for Aboriginal and Torres Strait Islander people in crisis. No efficacy claims evaluated in this screening.",
+    "id": "13yarn-aboriginal-torres-strait-islander-crisis-support",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Crisis support; not a substitute for professional care. Text and webchat are available 4pm-midnight only (timezone not stated on the fetched homepage - confirm at promotion time). Australia-focused service.",
+    "name": "13YARN",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://www.13yarn.org.au/",
+    "platforms": [
+      "Phone",
+      "SMS text",
+      "Web chat"
+    ],
+    "privacy_notes": "Publisher describes the service as confidential and anonymous. Data practices were not reviewed in this screening.",
+    "publisher": "13YARN",
+    "reason": "Screened 2026-11-09: official homepage confirmed live; free 24/7 crisis support (call 13 92 76), Aboriginal and Torres Strait Islander staffing, and text/webchat hours confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Australia"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "text/chat timezone not stated on the fetched homepage",
+      "privacy/data practices not reviewed"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://www.13yarn.org.au/"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis-support",
+      "helpline",
+      "indigenous",
+      "culturally-safe",
+      "24-7",
+      "australia"
+    ],
+    "use_context": [
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "paid"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "Mental health service run by and for LGBTQ people. Welcomes asexual, aromantic, pansexual, non-binary, genderqueer, genderfluid and intersex people. Dedicated online-support sessions for People of Colour (Mondays) and Trans/Non-binary people (Tuesdays).",
+      "source_notes": [
+        "https://mindout.org.uk/"
+      ]
+    },
+    "description": "Mental health service run by and for lesbian, gay, bisexual, trans and queer (LGBTQ) people, offering counselling, advocacy, peer support groups, suicide-prevention groups, and a national online support live chat for people aged 18+. In-person services are for LGBTQ people based in Sussex; the online support service is available nationally across the UK.",
+    "evidence_notes": "Publisher is an LGBTQ mental-health charity (registered charity no. 1140098). No efficacy claims evaluated in this screening.",
+    "id": "mindout-lgbtq-mental-health",
+    "intended_population": [
+      "adults",
+      "lgbtq"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Most services are free; the counselling service is low-cost on a sliding scale depending on income. In-person services are limited to LGBTQ people aged 18+ based in Sussex; online support is national but live chat runs Monday-Wednesday 3-5pm only (per the fetched homepage), outside which the page signposts Samaritans. Not a substitute for professional care.",
+    "name": "MindOut - LGBTQ Mental Health Service",
+    "needs": [
+      "support",
+      "understand"
+    ],
+    "official_url": "https://mindout.org.uk/",
+    "platforms": [
+      "Web",
+      "Phone"
+    ],
+    "privacy_notes": "Online support is described as confidential, non-judgmental and anonymous, with a safety-disclosure exception noted on the publisher's online-support page. Full privacy/data practices were not reviewed in this screening.",
+    "publisher": "MindOut (LGBTQ Mental Health Service)",
+    "reason": "Screened 2026-11-09: official homepage confirmed live; run-by-and-for-LGBTQ service model, counselling/advocacy/peer-support scope, Sussex-local vs national-online split, and live-chat hours confirmed from the primary source; free-except-counselling cost model confirmed via secondary sources. Ready for owner review before any promotion.",
+    "regions": [
+      "UK; in-person services Sussex-based, online support national"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "peer-support",
+    "review_status": "screened",
+    "screening_gaps": [
+      "cost model not stated on the fetched homepage (confirmed via secondary sources)",
+      "privacy policy and accessibility statement not reviewed",
+      "live-chat hours differ between the homepage (Mon-Wed 3-5pm) and other publisher pages - confirm current hours at promotion time"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://mindout.org.uk/"
+    ],
+    "status": "screened",
+    "tags": [
+      "lgbtq",
+      "peer-support",
+      "counselling",
+      "advocacy",
+      "online-chat",
+      "suicide-prevention",
+      "mental-health"
+    ],
+    "use_context": [
+      "with-support"
+    ]
+  }
 ]
