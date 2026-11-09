@@ -22802,5 +22802,237 @@
   "use_context": [
     "with-support"
   ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "original",
+    "notes": "Zimbabwean community model built around the Shona concept of kufungisisa ('thinking too much'); sessions delivered in local languages by community grandmothers. Replications exist in several other countries, but the core model is rooted in Zimbabwean community life — fit outside those settings not assessed.",
+    "source_notes": [
+      "https://www.friendshipbenchzimbabwe.org/"
+    ]
+  },
+  "description": "Community-based mental health intervention founded in Zimbabwe in 2006 by psychiatrist Dr Dixon Chibanda. Trained community health workers ('grandmothers') deliver structured problem-solving therapy in free one-to-one sessions on wooden benches at primary health clinics and community spaces, followed by peer-led support groups (Circle Kubatana Tose). A 2016 JAMA randomised controlled trial found significantly lower depression and anxiety symptoms at six months versus control.",
+  "evidence_notes": "2016 JAMA randomised controlled trial (Chibanda et al.) reported significantly reduced symptoms of common mental disorders at six months. Programme received the 2025-2026 King Baudouin Foundation Africa Prize. Trial details and effect sizes were not independently evaluated in this screening.",
+  "id": "friendship-bench-zimbabwe",
+  "intended_population": [
+    "general",
+    "adults"
+  ],
+  "languages": [
+    "English",
+    "Shona"
+  ],
+  "last_verified_at": "2026-11-09",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "In-person, location-dependent service (Zimbabwe plus replications in El Salvador, Botswana, Malawi, Tanzania, Kenya, the US, UK, Colombia and Vietnam); not a digital self-help tool and not independently usable from anywhere. Designed for mild-to-moderate common mental disorders; higher-need cases (psychosis, severe substance use, acute suicide risk) are screened and referred to professionals. Not a substitute for professional mental health care.",
+  "name": "Friendship Bench",
+  "needs": [
+    "support",
+    "understand",
+    "calm"
+  ],
+  "official_url": "https://www.friendshipbenchzimbabwe.org/",
+  "platforms": [
+    "In person"
+  ],
+  "privacy_notes": "Sessions take place in person in discreet spaces at clinics; no account or digital data handling involved. The programme's data practices were not reviewed in this screening.",
+  "publisher": "Friendship Bench Zimbabwe (Registered PVO 12/21)",
+  "reason": "Screened 2026-11-09: official site confirmed live; community-grandmother problem-solving therapy model, free sessions, 2016 JAMA RCT, and 2025-2026 KBF Africa Prize confirmed from the primary source and published trial reporting. Ready for owner review before any promotion.",
+  "regions": [
+    "Zimbabwe; replications in El Salvador, Botswana, Malawi, Tanzania, Kenya, US, UK, Colombia, Vietnam"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "community-program",
+  "review_status": "screened",
+  "screening_gaps": [
+    "session availability and locations outside Zimbabwe not confirmed",
+    "data practices not reviewed",
+    "replication quality outside Zimbabwe not assessed"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+    "https://www.friendshipbenchzimbabwe.org/"
+  ],
+  "status": "screened",
+  "tags": [
+    "problem-solving-therapy",
+    "community-health-workers",
+    "depression",
+    "anxiety",
+    "zimbabwe",
+    "culturally-grounded",
+    "peer-support",
+    "in-person"
+  ],
+  "use_context": [
+    "with-support"
+  ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "original",
+    "notes": "UK service for adults (18+), from Kooth plc — the same organisation behind Kooth/Soluna for young people. Availability depends on local NHS commissioning. Fit outside the UK not assessed.",
+    "source_notes": [
+      "https://qwell.io/"
+    ]
+  },
+  "description": "Free, anonymous online mental wellbeing service for adults. Offers one-to-one chat with accredited counsellors (BACP, UKCP or NCS registered) with no referral and no waiting list, moderated peer forums, and self-help tools including journals, mood tracking and goal-setting.",
+  "evidence_notes": "Publisher states it is the UK's only digital BACP-accredited service. No efficacy claims evaluated in this screening.",
+  "id": "qwell-adult-wellbeing",
+  "intended_population": [
+    "adults"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-09",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Free only where NHS-funded/commissioned — availability varies by area and was not confirmed for any specific locality. Anonymous sign-up (username, no name or email required) but some personal data is collected to run the service. Not a substitute for professional mental health care; safeguarding exceptions to anonymity apply where safety is a concern.",
+  "name": "Qwell",
+  "needs": [
+    "support",
+    "calm",
+    "understand"
+  ],
+  "official_url": "https://qwell.io/",
+  "platforms": [
+    "Web"
+  ],
+  "privacy_notes": "Publisher states no name or email is required at sign-up (unique username); personal data is collected to provide and measure the service, and may be shared with relevant services in specific safeguarding situations. Full privacy policy was not reviewed in this screening.",
+  "publisher": "Kooth plc (Qwell)",
+  "reason": "Screened 2026-11-09: official site confirmed live; free access, no-referral counsellor chat, moderated peer forums, self-help tools, BACP accreditation claim, and anonymity model confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "UK (commissioned areas only)"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "online-support-platform",
+  "review_status": "screened",
+  "screening_gaps": [
+    "local availability/commissioning not confirmed for any specific area",
+    "privacy policy not reviewed",
+    "accessibility statement not reviewed"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+    "https://qwell.io/"
+  ],
+  "status": "screened",
+  "tags": [
+    "counselling",
+    "chat-support",
+    "peer-support",
+    "mood-tracking",
+    "journaling",
+    "anonymous",
+    "adults",
+    "uk"
+  ],
+  "use_context": [
+    "with-support",
+    "independent-use"
+  ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "original",
+    "notes": "UK NHS-contracted service; free only to patients registered with a GP in a contracted area. Fit outside the UK not assessed.",
+    "source_notes": [
+      "https://iesohealth.com/"
+    ]
+  },
+  "description": "One-to-one typed cognitive behavioural therapy (CBT) delivered online by a therapist in live text sessions, typically 4-8 sessions for anxiety and depression. Free for NHS patients in contracted areas (self-referral in some areas, GP referral in others). As of August 2025, ieso is now Mindler Ltd; the iesohealth.com site serves the Mindler service.",
+  "evidence_notes": "Publisher cites over 650,000 hours of de-identified therapy data used to improve treatment matching, and states 95% of users would recommend the service. No efficacy claims independently evaluated in this screening.",
+  "id": "mindler-typed-cbt",
+  "intended_population": [
+    "adults"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-09",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Therapist-delivered treatment, not self-guided — requires eligibility questionnaires before allocation and a GP registration in a contracted NHS area. Not available outside the UK NHS. Not a crisis service; the site signposts Samaritans 116 123, NHS 111 and 999 for urgent help.",
+  "name": "Mindler (formerly ieso) — Typed CBT",
+  "needs": [
+    "understand",
+    "practice"
+  ],
+  "official_url": "https://iesohealth.com/",
+  "platforms": [
+    "Web"
+  ],
+  "privacy_notes": "Account required; sessions and messages are stored and remain accessible to the user for 20 years after discharge per the publisher page. Full privacy and data-handling practices were not reviewed in this screening.",
+  "publisher": "Mindler Ltd (formerly ieso Digital Health)",
+  "reason": "Screened 2026-11-09: official site confirmed live; typed one-to-one CBT model, free NHS access, self-referral/GP-referral routes, and the August 2025 ieso-to-Mindler rebrand confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "UK (NHS-contracted areas only)"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "online-therapy",
+  "review_status": "screened",
+  "screening_gaps": [
+    "privacy policy and data practices not reviewed",
+    "accessibility statement not reviewed",
+    "eligibility coverage by area not confirmed"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+    "https://iesohealth.com/"
+  ],
+  "status": "screened",
+  "tags": [
+    "cbt",
+    "typed-therapy",
+    "online-therapy",
+    "anxiety",
+    "depression",
+    "nhs",
+    "therapist-delivered"
+  ],
+  "use_context": [
+    "with-support"
+  ]
 }
 ]
