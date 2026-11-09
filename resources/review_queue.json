@@ -22107,5 +22107,242 @@
       "independent-use",
       "with-support"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "United Kingdom charity; SANEline and linked services are UK-focused; fit outside the UK not assessed.",
+      "source_notes": [
+        "https://www.sane.org.uk/"
+      ]
+    },
+    "description": "Independent UK mental health charity aiming to raise awareness, improve services, provide emotional support and host research. SANEline offers emotional support by phone, open 4pm to 10pm, 365 days a year, at 0300 304 7000.",
+    "evidence_notes": "SANEline hours (4pm-10pm, 365 days a year), phone number 0300 304 7000, and the charity's mission stated on the homepage; effectiveness not evaluated in this screening.",
+    "id": "sane",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-08",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "UK-focused; SANEline is open 4pm-10pm only, not 24/7. Emotional support, not an emergency service; does not replace professional care.",
+    "name": "SANE",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://www.sane.org.uk/",
+    "platforms": [
+      "Phone",
+      "Web"
+    ],
+    "privacy_notes": "Data practices for SANEline and account registration not reviewed in this screening.",
+    "publisher": "SANE",
+    "reason": "Screened 2026-11-08: official homepage confirmed live (copy crawled 2026-11-09 04:56 UTC); SANEline hours and phone number confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United Kingdom"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "SANEline access routes beyond phone not reviewed",
+      "accessibility statement not reviewed",
+      "privacy practices not reviewed",
+      "non-English availability not stated on the reviewed page"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://www.sane.org.uk/"
+    ],
+    "status": "screened",
+    "tags": [
+      "helpline",
+      "emotional-support",
+      "united-kingdom",
+      "charity",
+      "mental-health-awareness",
+      "campaigning",
+      "research"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "British Columbia service; in-person centres and virtual services are BC-based; fit outside BC not assessed.",
+      "source_notes": [
+        "https://foundrybc.ca/"
+      ]
+    },
+    "description": "Free and confidential mental health and wellness services for youth ages 12-24 in British Columbia and their families. Offers free counselling, physical and sexual health care, peer support, workshops and groups, and work and education support, through in-person Foundry Centres and Foundry Virtual BC. No referrals required.",
+    "evidence_notes": "Free and confidential services, ages 12-24, no-referral access, and the service list (counselling, health care, peer support, workshops, work/education) stated on the homepage; effectiveness not evaluated in this screening.",
+    "id": "foundry-bc",
+    "intended_population": [
+      "young-people",
+      "parents",
+      "carers"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-08",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "British Columbia scope - in-person centres and virtual services are BC-based. Crisis numbers listed on the homepage (310-6789, 9-8-8) are BC/Canada-specific. Services do not replace professional care.",
+    "name": "Foundry BC",
+    "needs": [
+      "find-support",
+      "understand"
+    ],
+    "official_url": "https://foundrybc.ca/",
+    "platforms": [
+      "Web",
+      "Phone"
+    ],
+    "privacy_notes": "Data practices for virtual services and centre visits not reviewed in this screening.",
+    "publisher": "Foundry BC",
+    "reason": "Screened 2026-11-08: official homepage confirmed live (copy crawled 2026-11-09 04:56 UTC); free confidential youth services, ages 12-24, and no-referral access confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Canada"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "resource-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "Foundry Virtual BC eligibility and hours not reviewed",
+      "accessibility statement not reviewed",
+      "privacy practices not reviewed",
+      "non-English availability not stated on the reviewed page"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://foundrybc.ca/"
+    ],
+    "status": "screened",
+    "tags": [
+      "youth",
+      "young-people",
+      "families",
+      "counselling",
+      "peer-support",
+      "british-columbia",
+      "canada",
+      "free-services"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Western Australia service; clinical treatment is WA-only and referral-based; fit of the free online resources outside Australia not assessed. Homepage footer acknowledges the Noongar people as traditional custodians of the land on which CCI works.",
+      "source_notes": [
+        "https://www.cci.health.wa.gov.au/"
+      ]
+    },
+    "description": "Specialised clinical psychology service from the Department of Health, Western Australia. Develops evidence-based psychological treatment, conducts clinically applied research, trains health professionals, and provides free online resources to help people overcome mental health issues, with a focus on anxiety, depression, bipolar and eating disorders.",
+    "evidence_notes": "Free online resources, four areas of work (therapy, research, training, resources), and WA Department of Health provenance stated on the homepage; individual workbook titles and contents were not listed on the homepage; effectiveness not evaluated in this screening.",
+    "id": "centre-for-clinical-interventions",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-08",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Clinical treatment is referral-based for adults living in Western Australia, subject to eligibility - not open self-referral. Only the free online resources are relevant outside WA, and their contents were not reviewed beyond the homepage. Does not replace professional care.",
+    "name": "Centre for Clinical Interventions (CCI)",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://www.cci.health.wa.gov.au/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Data practices for the free online resources not reviewed in this screening.",
+    "publisher": "Centre for Clinical Interventions, Department of Health, Western Australia",
+    "reason": "Screened 2026-11-08: official homepage confirmed live in the live browser (2026-11-09 04:57 UTC); free online resources, WA Health provenance, and referral-based treatment scope confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Australia"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "self-help-toolkit",
+    "review_status": "screened",
+    "screening_gaps": [
+      "Individual workbook titles and contents not reviewed (not listed on the homepage)",
+      "accessibility statement not reviewed",
+      "privacy practices not reviewed",
+      "non-English availability not stated on the reviewed page"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.cci.health.wa.gov.au/"
+    ],
+    "status": "screened",
+    "tags": [
+      "self-help",
+      "cbt",
+      "anxiety",
+      "depression",
+      "bipolar",
+      "eating-disorders",
+      "australia",
+      "workbooks",
+      "free-resources"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
