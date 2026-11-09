@@ -23034,5 +23034,239 @@
   "use_context": [
     "with-support"
   ]
-}
+},
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "Developed in Aotearoa New Zealand by young people working with clinicians and researchers at the University of Auckland; the game frames gloomy negative automatic thoughts as 'GNATs' and the site features Māori young people. Fit outside New Zealand not assessed.",
+      "source_notes": [
+        "https://sparx.org.nz/"
+      ]
+    },
+    "description": "Free self-help tool for young people experiencing stress, anxiety or tough emotions. An interactive game in which players practise Cognitive Behavioural Therapy techniques such as relaxation, controlled breathing, avoiding automatic negative thoughts and thinking more constructively, equipping users with tools they can use at any point in life.",
+    "evidence_notes": "Publisher states SPARX uses proven talking-therapy techniques in a game-like format and that research shows it helps young people manage stress, anxiety, and low mood. Developed with clinicians and researchers at the University of Auckland. Trial details and effect sizes were not independently evaluated in this screening.",
+    "id": "sparx-nz",
+    "intended_population": [
+      "young-people"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Not a substitute for professional mental health care; the site offers a 'Need help? Chat with us' option for people who need more help or faster help. Designed for young people; age range and availability outside New Zealand not confirmed in this screening.",
+    "name": "SPARX",
+    "needs": [
+      "practice",
+      "calm",
+      "understand"
+    ],
+    "official_url": "https://sparx.org.nz/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Sign-up offered on the site; data practices were not reviewed in this screening.",
+    "publisher": "University of Auckland",
+    "reason": "Screened 2026-11-09: official site confirmed live; free game-based CBT self-help tool for young people, developed with the University of Auckland, with publisher-stated research support. Ready for owner review before any promotion.",
+    "regions": [
+      "New Zealand"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "self-help-toolkit",
+    "review_status": "screened",
+    "screening_gaps": [
+      "age range not confirmed",
+      "mobile-app availability not confirmed",
+      "data practices not reviewed",
+      "trial details not independently evaluated"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://sparx.org.nz/"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "game-based",
+      "youth",
+      "anxiety",
+      "depression",
+      "stress",
+      "new-zealand",
+      "free"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "Australian perinatal service founded in honour of Gidget, a young mother who died by suicide while experiencing postnatal depression. Fit outside Australia not assessed.",
+      "source_notes": [
+        "https://www.gidgetfoundation.org.au/"
+      ]
+    },
+    "description": "Australian not-for-profit supporting the mental health of families from pre-conception to early infancy. Offers free group programs (including Expecting and Connecting and Parenting in Partnership, a free six-week program for dads facilitated by perinatal mental health clinicians) and clinical appointments. Publisher reports 4,270 families supported in FY25 and more than 100,000 appointments since inception.",
+    "evidence_notes": "Publisher reports 4,270 families supported in FY25 and 100,000+ appointments provided since inception, with 97 new clinicians trained through its workforce development program in FY25. No efficacy claims evaluated in this screening.",
+    "id": "gidget-foundation-australia",
+    "intended_population": [
+      "parents",
+      "families"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Perinatal mental health service (pre-conception to early infancy); not a general-purpose tool and not a crisis service — the site signposts the PANDA National Helpline (1300 726 306), Lifeline 13 11 14, and 000 for urgent help. Appointment access, eligibility, and location specifics not confirmed in this screening.",
+    "name": "Gidget Foundation Australia",
+    "needs": [
+      "support",
+      "find-support"
+    ],
+    "official_url": "https://www.gidgetfoundation.org.au/",
+    "platforms": [
+      "Web",
+      "In person"
+    ],
+    "privacy_notes": "Clinical appointments offered; data practices were not reviewed in this screening.",
+    "publisher": "Gidget Foundation Australia",
+    "reason": "Screened 2026-11-09: official site confirmed live; free Australian perinatal mental health service with group programs and clinical appointments, including a dads program. Ready for owner review before any promotion.",
+    "regions": [
+      "Australia"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "community-program",
+    "review_status": "screened",
+    "screening_gaps": [
+      "appointment access and eligibility not confirmed",
+      "in-person vs telehealth mix not confirmed",
+      "data practices not reviewed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://www.gidgetfoundation.org.au/"
+    ],
+    "status": "screened",
+    "tags": [
+      "perinatal",
+      "parents",
+      "postnatal-depression",
+      "anxiety",
+      "australia",
+      "free",
+      "group-programs",
+      "fathers"
+    ],
+    "use_context": [
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "Australian service for men; the site acknowledges Traditional Custodians and Elders and displays Aboriginal, Torres Strait Islander, and Progress Pride flags. Fit outside Australia not assessed (service is for Australian men).",
+      "source_notes": [
+        "https://mensline.org.au/"
+      ]
+    },
+    "description": "Free telephone and online counselling service for Australian men, available 24/7. Professional counsellors support concerns about mental health, relationships, anger management, family violence (using and experiencing), stress, and suicidal thoughts. Also offers online chat and video counselling plus articles on topics such as burnout, anger, disappointment, and depression. Phone: 1300 78 99 78.",
+    "evidence_notes": "Publisher describes free professional 24/7 telephone and online counselling. No efficacy claims evaluated in this screening.",
+    "id": "mensline-australia",
+    "intended_population": [
+      "adults"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "For Australian men; not a general-purpose self-help tool and not a substitute for professional mental health care. Counsellor-delivered — users speak with a professional rather than using a self-guided tool.",
+    "name": "MensLine Australia",
+    "needs": [
+      "support",
+      "find-support",
+      "safety"
+    ],
+    "official_url": "https://mensline.org.au/",
+    "platforms": [
+      "Phone",
+      "Web chat"
+    ],
+    "privacy_notes": "Privacy policy is hosted by Lifeline Australia (lifeline.org.au); data practices were not reviewed in this screening.",
+    "publisher": "MensLine Australia",
+    "reason": "Screened 2026-11-09: official site confirmed live; free 24/7 phone and online counselling for Australian men (1300 78 99 78), covering mental health, relationships, anger, family violence, stress, and suicidal thoughts. Ready for owner review before any promotion.",
+    "regions": [
+      "Australia"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "data practices not reviewed",
+      "online chat/video availability details not confirmed",
+      "eligibility beyond Australian men not confirmed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://mensline.org.au/"
+    ],
+    "status": "screened",
+    "tags": [
+      "mens-mental-health",
+      "counselling",
+      "helpline",
+      "relationships",
+      "anger-management",
+      "australia",
+      "free",
+      "24-7"
+    ],
+    "use_context": [
+      "with-support"
+    ]
+  }
 ]
