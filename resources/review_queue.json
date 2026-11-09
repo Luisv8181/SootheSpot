@@ -21782,5 +21782,330 @@
     "use_context": [
       "with-support"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Deaf/HoH contact route linked from the homepage; assistive-technology compatibility otherwise not listed on the reviewed homepage — verify before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "United States national service; the 988 number is US-specific and fit outside the US was not assessed.",
+      "source_notes": [
+        "https://988lifeline.org/"
+      ]
+    },
+    "description": "United States national mental-health hotline. Free, confidential, 24/7/365 support from trained counselors by call, text, or chat for mental-health struggles, emotional distress, alcohol or drug use concerns, or just needing someone to talk to, including support for a friend or loved one.",
+    "evidence_notes": "24/7/365 availability, free and confidential conversations, and call/text/chat routes stated on the homepage; effectiveness not evaluated in this screening.",
+    "id": "988-lifeline",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-08",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "US-specific (dial 988). Crisis support only; not an emergency service and does not replace professional care.",
+    "name": "988 Suicide & Crisis Lifeline",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://988lifeline.org/",
+    "platforms": [
+      "Phone",
+      "SMS text",
+      "Web chat"
+    ],
+    "privacy_notes": "Conversations stated to be free and confidential on the homepage; detailed data practices not reviewed in this screening.",
+    "publisher": "988 Suicide & Crisis Lifeline",
+    "reason": "Screened 2026-11-08: official homepage confirmed live (copy crawled 2026-11-09 00:57 UTC); 24/7/365 free confidential support by call, text, or chat confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United States"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "Spanish-language service details not confirmed from the reviewed homepage",
+      "Deaf/HoH service details beyond the homepage link not reviewed",
+      "privacy/data practices beyond the homepage confidentiality statement not reviewed",
+      "counselor training and supervision standards not reviewed"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://988lifeline.org/"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "helpline",
+      "suicide-prevention",
+      "free",
+      "24-7",
+      "united-states",
+      "emotional-distress",
+      "substance-use",
+      "chat-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "United Kingdom and Ireland service; the 116 123 number is free in the UK and Ireland; fit outside those regions not assessed.",
+      "source_notes": [
+        "https://samaritans.org/"
+      ]
+    },
+    "description": "UK and Ireland charity preventing suicide through the power of human connection. Trained volunteers listen free of charge, 24 hours a day, 365 days a year, by phone at 116 123, without judgement and without telling the caller what to do. Also runs suicide-prevention campaigning and workplace training programmes.",
+    "evidence_notes": "24/7 volunteer listening service, free helpline 116 123, and suicide-prevention mission stated on the homepage; effectiveness not evaluated in this screening.",
+    "id": "samaritans",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-08",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "UK and Ireland scope — the 116 123 number does not apply elsewhere. Listening and emotional support; not an emergency service and does not replace professional care.",
+    "name": "Samaritans",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://samaritans.org/",
+    "platforms": [
+      "Phone",
+      "Web"
+    ],
+    "privacy_notes": "Listening-service confidentiality practices not reviewed in this screening.",
+    "publisher": "Samaritans",
+    "reason": "Screened 2026-11-08: official homepage confirmed live (copy crawled 2026-11-09 00:57 UTC); 24/7 free listening service by phone at 116 123 confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United Kingdom",
+      "Ireland"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "email and webchat contact routes not confirmed from the reviewed page",
+      "accessibility statement not reviewed",
+      "privacy/confidentiality practices not reviewed",
+      "non-English availability not stated on the reviewed page"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://samaritans.org/"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "helpline",
+      "suicide-prevention",
+      "listening-service",
+      "free",
+      "24-7",
+      "united-kingdom",
+      "ireland",
+      "volunteers"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US service for LGBTQ+ young people; cultural fit and support routes outside the US not assessed.",
+      "source_notes": [
+        "https://www.thetrevorproject.org/"
+      ]
+    },
+    "description": "Leading US suicide prevention and crisis intervention nonprofit for LGBTQ+ young people ages 13-24. Free 24/7 support from trained counselors by call, text, or chat for anyone thinking about suicide, feeling lonely, or needing someone to listen, plus a resource center, advocacy work, and volunteer counselor opportunities.",
+    "evidence_notes": "24/7 crisis support for LGBTQ+ young people ages 13-24, call/text/chat routes, and resource center stated on the homepage; effectiveness not evaluated in this screening.",
+    "id": "trevor-project",
+    "intended_population": [
+      "LGBTQ+ youth"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-08",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "US service for LGBTQ+ young people ages 13-24; support routes outside the US not assessed. Crisis support only; does not replace professional care.",
+    "name": "The Trevor Project",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://www.thetrevorproject.org/",
+    "platforms": [
+      "Phone",
+      "SMS text",
+      "Web chat"
+    ],
+    "privacy_notes": "Data practices for call, text, and chat contact not reviewed in this screening.",
+    "publisher": "The Trevor Project",
+    "reason": "Screened 2026-11-08: official homepage confirmed live (copy crawled 2026-11-09 00:57 UTC); 24/7 crisis support for LGBTQ+ young people ages 13-24 by call, text, or chat confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United States"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "specific phone number and text shortcode not stated on the reviewed homepage",
+      "accessibility statement not reviewed",
+      "privacy/confidentiality practices not reviewed",
+      "counselor training standards not reviewed"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://www.thetrevorproject.org/"
+    ],
+    "status": "screened",
+    "tags": [
+      "crisis",
+      "lgbtq",
+      "youth",
+      "helpline",
+      "suicide-prevention",
+      "free",
+      "24-7",
+      "united-states",
+      "chat-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK charity; guidance on accessing CAMHS and other services is UK-specific; fit outside the UK not assessed.",
+      "source_notes": [
+        "https://www.youngminds.org.uk/"
+      ]
+    },
+    "description": "UK charity for children and young people's mental health. Guides and advice to help young people understand how they are feeling and find ways to feel better, support for parents and carers (including a Parents Helpline and parent helpfinder), and resources for professionals working with young people. YoungMinds states it is not part of CAMHS and does not offer one-to-one support.",
+    "evidence_notes": "Guides and advice for young people, parents and carers, Parents Helpline, and parent helpfinder stated on the homepage; effectiveness not evaluated in this screening.",
+    "id": "youngminds",
+    "intended_population": [
+      "young-people",
+      "parents",
+      "carers"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-08",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "UK-focused; guidance on accessing CAMHS is UK-specific. Information and advice only; YoungMinds states it is not part of CAMHS and does not offer one-to-one support.",
+    "name": "YoungMinds",
+    "needs": [
+      "understand",
+      "find-support"
+    ],
+    "official_url": "https://www.youngminds.org.uk/",
+    "platforms": [
+      "Web",
+      "Phone"
+    ],
+    "privacy_notes": "Data practices for the Parents Helpline and newsletter sign-up not reviewed in this screening.",
+    "publisher": "YoungMinds",
+    "reason": "Screened 2026-11-08: official homepage confirmed live (copy crawled 2026-11-09 00:57 UTC); guides for young people, parents and carers, and the Parents Helpline confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United Kingdom"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "information-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "Parents Helpline hours and access details not reviewed",
+      "accessibility statement not reviewed",
+      "privacy practices not reviewed",
+      "non-English availability not stated on the reviewed page"
+    ],
+    "shelf": "learn",
+    "source_notes": [
+      "https://www.youngminds.org.uk/"
+    ],
+    "status": "screened",
+    "tags": [
+      "youth",
+      "children",
+      "parents",
+      "carers",
+      "information",
+      "advice",
+      "united-kingdom",
+      "mental-health-awareness",
+      "campaigning"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
   }
 ]
