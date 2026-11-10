@@ -23268,5 +23268,238 @@
     "use_context": [
       "with-support"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "US organization; its About page states an anti-racist approach and a commitment to culturally informed, evidence-based mental health care. Fit outside the United States not assessed.",
+      "source_notes": [
+        "https://afsp.org/about-afsp/"
+      ]
+    },
+    "description": "Voluntary health organization founded in 1987 with a mission to save lives and bring hope to those affected by suicide. Its core strategies are funding scientific research, educating the public about mental health and suicide prevention, advocating for public policies, and supporting survivors of suicide loss. It has local chapters in all 50 states, Washington, DC, and Puerto Rico, and is headquartered in New York with a policy office in Washington, DC.",
+    "evidence_notes": "Publisher states it funds scientific research and runs education, advocacy, and loss-survivor support programs, with chapters in all 50 states, DC, and Puerto Rico. No efficacy claims evaluated in this screening.",
+    "id": "afsp-american-foundation-suicide-prevention",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "AFSP states it is unable to provide crisis support services; people in crisis are directed to call or text 988 (or text TALK to 741741). It is an education, research, and advocacy organization, not a treatment provider or a crisis line.",
+    "name": "American Foundation for Suicide Prevention",
+    "needs": [
+      "support",
+      "find-support",
+      "grief",
+      "learn"
+    ],
+    "official_url": "https://afsp.org/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Data practices were not reviewed in this screening.",
+    "publisher": "American Foundation for Suicide Prevention",
+    "reason": "Screened 2026-11-09: official site and About page confirmed live; US suicide-prevention organization (founded 1987) funding research and running education, advocacy, and suicide-loss support, with chapters in all 50 states, DC, and Puerto Rico. Does not provide crisis support itself - directs to 988. Ready for owner review before any promotion.",
+    "regions": [
+      "United States"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "information-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "specific education program details not confirmed",
+      "data practices not reviewed",
+      "non-English language availability not confirmed"
+    ],
+    "shelf": "learn",
+    "source_notes": [
+      "https://afsp.org/",
+      "https://afsp.org/about-afsp/"
+    ],
+    "status": "screened",
+    "tags": [
+      "suicide-prevention",
+      "loss-support",
+      "research",
+      "education",
+      "advocacy",
+      "united-states",
+      "free"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "US nonprofit; the site states its community is open to everyone regardless of identity or background. Fit outside the United States not assessed.",
+      "source_notes": [
+        "https://anad.org/"
+      ]
+    },
+    "description": "US nonprofit offering free peer support for anyone navigating a difficult relationship with eating or body image, open to everyone regardless of identity, background, or whether they have a formal eating disorder diagnosis. Offers a free Eating Disorder Helpline providing support and encouragement and treatment referrals, free peer support groups, and recovery resources covering yoga, music, art, journaling, positive self-talk, and self-care. Peer run and professionally supported.",
+    "evidence_notes": "Publisher describes itself as the nation's leading nonprofit offering free peer support for eating and body image concerns. No efficacy claims evaluated in this screening.",
+    "id": "anad-eating-disorder-support",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Peer support, not clinical treatment. The helpline phone number and hours were not visible on the reviewed pages - the helpline subpage (anad.org/get-help/anad-helpline/) redirected to the homepage in two live reads, and no number or hours appeared in the visible page text.",
+    "name": "ANAD",
+    "needs": [
+      "support",
+      "find-support",
+      "cope"
+    ],
+    "official_url": "https://anad.org/",
+    "platforms": [
+      "Web",
+      "Phone"
+    ],
+    "privacy_notes": "Data practices were not reviewed in this screening.",
+    "publisher": "ANAD",
+    "reason": "Screened 2026-11-09: official site confirmed live; free peer support and helpline for eating and body-image concerns, open to all regardless of diagnosis, peer run and professionally supported. Helpline number and hours not visible on the reviewed pages. Ready for owner review before any promotion.",
+    "regions": [
+      "United States"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "peer-support",
+    "review_status": "screened",
+    "screening_gaps": [
+      "helpline phone number and hours not confirmed",
+      "data practices not reviewed",
+      "support-group schedule and availability not confirmed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://anad.org/"
+    ],
+    "status": "screened",
+    "tags": [
+      "eating-disorders",
+      "peer-support",
+      "helpline",
+      "body-image",
+      "recovery",
+      "united-states",
+      "free"
+    ],
+    "use_context": [
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "original",
+      "notes": "Australian organization supporting survivors of repeated or ongoing abuse, violence, or neglect. Fit outside Australia not assessed.",
+      "source_notes": [
+        "https://blueknot.org.au/"
+      ]
+    },
+    "description": "Australia's National Centre of Excellence for Complex Trauma. Provides a Helpline and a Redress Support Service (both 1300 657 380; helpline 9am-5pm AEDT/AEST, 7 days a week), information and resources for survivors of complex trauma, guidance for family, friends, and supporters, and training, supervision, and consultancy for professionals and organizations.",
+    "evidence_notes": "Publisher describes itself as the National Centre of Excellence for Complex Trauma. No efficacy claims evaluated in this screening.",
+    "id": "blue-knot-foundation",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-09",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Helpline operates 9am-5pm AEDT/AEST, not 24/7. The site states it is for general education and information only and should not be used instead of counselling or therapeutic support. Australian service; fit outside Australia not assessed.",
+    "name": "Blue Knot Foundation",
+    "needs": [
+      "support",
+      "find-support",
+      "trauma",
+      "safety"
+    ],
+    "official_url": "https://blueknot.org.au/",
+    "platforms": [
+      "Web",
+      "Phone"
+    ],
+    "privacy_notes": "Data practices were not reviewed in this screening.",
+    "publisher": "Blue Knot Foundation",
+    "reason": "Screened 2026-11-09: official site confirmed live; Australian National Centre of Excellence for Complex Trauma with a helpline and Redress Support Service (1300 657 380, 9am-5pm AEDT/AEST daily) plus resources for survivors, supporters, and professionals. Ready for owner review before any promotion.",
+    "regions": [
+      "Australia"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "data practices not reviewed",
+      "helpline eligibility details not confirmed",
+      "training costs and availability not confirmed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://blueknot.org.au/"
+    ],
+    "status": "screened",
+    "tags": [
+      "complex-trauma",
+      "trauma-support",
+      "helpline",
+      "survivors",
+      "redress",
+      "australia",
+      "free"
+    ],
+    "use_context": [
+      "with-support"
+    ]
   }
 ]
