@@ -23660,5 +23660,263 @@
   "use_context": [
     "independent-use"
   ]
-}
+},
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation information stated on the reviewed pages.",
+      "source_notes": [
+        "https://giveanhour.org/military/"
+      ]
+    },
+    "description": "Nonprofit providing confidential, no-cost mental health care to active-duty military, reservists, National Guard, veterans, and in certain cases spouses and caregivers; also serves people affected by natural and man-made disasters. Programs include one-on-one counseling with volunteer licensed mental health professionals, peer support groups, and emotional wellness training. Care is available in person, by phone, or via HIPAA-compliant virtual sessions.",
+    "evidence_notes": "Organization states its network includes nearly 4,500 independently licensed providers nationwide (per its key-messages document); no outcome study was evaluated in this screening and the figure is publisher-reported.",
+    "id": "give-an-hour",
+    "intended_population": [
+      "veterans",
+      "service-members",
+      "military-families"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-10",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "No-cost counseling is for eligible populations (military community and disaster-affected people); availability depends on volunteer provider capacity in the user's area. Professional counseling, not a crisis line; people in immediate danger should use an emergency service.",
+    "name": "Give an Hour",
+    "needs": [
+      "find-support"
+    ],
+    "official_url": "https://giveanhour.org/",
+    "platforms": [
+      "Web",
+      "Phone",
+      "Video"
+    ],
+    "privacy_notes": "Pages state services are confidential and virtual sessions are HIPAA-compliant; full privacy practices not reviewed in this screening.",
+    "publisher": "Give an Hour",
+    "publisher_region": "US",
+    "reason": "Screened 2026-11-10: official Give an Hour homepage and military services page confirmed live; nonprofit status, no-cost confidential counseling, peer support groups, emotional wellness training, and eligible populations confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United States"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "service-directory",
+    "review_status": "screened",
+    "screening_gaps": [
+      "provider network size and availability by location not independently verified",
+      "languages other than English not confirmed on the reviewed pages",
+      "full privacy policy not reviewed",
+      "eligibility details for disaster-affected populations confirmed only from the organization's key-messages document, not the reviewed pages"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://giveanhour.org/",
+      "https://giveanhour.org/military/",
+      "http://giveanhour.org/wp-content/uploads/Give-an-Hour-Key-Messages-2021.pdf"
+    ],
+    "status": "screened",
+    "tags": [
+      "counseling",
+      "veterans",
+      "military",
+      "free",
+      "peer-support",
+      "independent-use",
+      "find-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "paid"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Homepage describes programs with specific communities (including an Indigenous Initiative and groups in Haiti and Puerto Rico); whether materials are culturally adapted for a given user was not assessed.",
+      "source_notes": [
+        "https://cmbm.org/"
+      ]
+    },
+    "description": "Nonprofit teaching mind-body skills for stress recovery and resilience. Offers free video instruction in individual mind-body practices, self-care webinars, and facilitated Mind-Body Skills Groups; also runs professional training and certification in mind-body medicine and partners with communities and workplaces to deliver population-wide trauma-relief programs.",
+    "evidence_notes": "Publisher describes its techniques as proven and evidence-based; no study was evaluated in this screening and the claims are publisher-reported.",
+    "id": "center-for-mind-body-medicine",
+    "intended_population": [
+      "general",
+      "adults"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-10",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Skills groups and professional training may carry fees or require enrollment; free video instruction is self-guided and does not replace professional mental health care. Evidence claims on the homepage were not evaluated in this screening.",
+    "name": "Center for Mind-Body Medicine (CMBM)",
+    "needs": [
+      "practice",
+      "calm",
+      "stress"
+    ],
+    "official_url": "https://cmbm.org/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "No account or data practices stated on the reviewed homepage; not reviewed in this screening.",
+    "publisher": "Center for Mind-Body Medicine",
+    "publisher_region": "US",
+    "reason": "Screened 2026-11-10: official CMBM homepage confirmed live; free video instruction in mind-body practices, self-care webinars, Mind-Body Skills Groups, and professional training confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; U.S.-based organization."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "community-program",
+    "review_status": "screened",
+    "screening_gaps": [
+      "pricing and enrollment for skills groups and trainings not confirmed",
+      "languages other than English not confirmed",
+      "delivery format (online vs in-person) for skills groups not confirmed",
+      "privacy and data practices not reviewed",
+      "evidence claims not evaluated"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://cmbm.org/"
+    ],
+    "status": "screened",
+    "tags": [
+      "mind-body",
+      "stress",
+      "resilience",
+      "trauma",
+      "groups",
+      "free",
+      "independent-use",
+      "practice"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "paid"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "India-based service offering support in multiple Indian languages; cultural fit outside India not assessed.",
+      "source_notes": [
+        "https://www.vandrevalafoundation.com/"
+      ]
+    },
+    "description": "Indian nonprofit providing free, 24/7 mental-health support. Its free all-India emergency mental-health helpline (+91 9999 666 555) is staffed by psychologists and reachable from India and abroad by voice call, email, chat, and WhatsApp; the foundation also offers regular consultations with experts and paid audio/video e-counselling.",
+    "evidence_notes": "Foundation states it was the first in India to offer a 24x7 helpline staffed by psychologists, working in mental health since 2009; that history claim was not independently verified in this screening.",
+    "id": "vandrevala-foundation",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Gujarati",
+      "Marathi",
+      "Tamil",
+      "Telugu",
+      "Malayalam",
+      "Kannada",
+      "Oriya",
+      "Bengali"
+    ],
+    "last_verified_at": "2026-11-10",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Helpline is a support and crisis-intervention service, not an emergency service; the foundation states it cannot be an emergency contact and directs people in crisis to a local helpline, hospital, or health care facility. Paid e-counselling is a separate, fee-based service. Additional helpline numbers reported by directories (1860 266 2345, 1800 233 3330) were not confirmed on the reviewed official pages.",
+    "name": "Vandrevala Foundation",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://www.vandrevalafoundation.com/",
+    "platforms": [
+      "Phone",
+      "Chat/Online",
+      "Email"
+    ],
+    "privacy_notes": "No privacy or data practices stated on the reviewed pages; not reviewed in this screening.",
+    "publisher": "Vandrevala Foundation",
+    "publisher_region": "IN",
+    "reason": "Screened 2026-11-10: official Vandrevala Foundation homepage and terms page confirmed live; free 24/7 all-India helpline (+91 9999 666 555), psychologist-staffed service since 2009, and voice/chat/WhatsApp contact confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "India; contactable from India and abroad per the foundation's terms page."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "language list comes from third-party directories, not the reviewed official pages",
+      "additional helpline numbers (1860 266 2345, 1800 233 3330) not confirmed on the reviewed official pages",
+      "privacy and data practices not reviewed",
+      "paid e-counselling pricing not reviewed"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://www.vandrevalafoundation.com/",
+      "https://www.vandrevalafoundation.com/free-counseling/tnc"
+    ],
+    "status": "screened",
+    "tags": [
+      "helpline",
+      "crisis",
+      "free",
+      "24-7",
+      "india",
+      "multilingual",
+      "whatsapp",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  }
 ]
