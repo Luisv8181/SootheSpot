@@ -24486,5 +24486,255 @@
       "independent-use",
       "with-support"
     ]
-  }
+  },
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "UK charity; support is for grieving children and young people (25 or under) and parents bereaved of a baby or child. Fit for non-UK contexts not assessed; helpline hours are UK time (8am-8pm Mon-Fri).",
+    "source_notes": [
+      "https://www.childbereavementuk.org/"
+    ]
+  },
+  "description": "UK charity supporting grieving children, young people (25 or under), and parents bereaved of a baby or child to rebuild their lives. Offers expert bereavement support by phone, live chat, email, and text/WhatsApp from 8am to 8pm, Monday to Friday (except bank holidays), with no appointment needed, plus online grief resources, family stories, and training for professionals. Winston\u2019s Wish has merged into Child Bereavement UK, forming one unified charity.",
+  "evidence_notes": "Charity reports having supported 130,000 bereaved children, young people and parents and reaching 3,500,000 digital users with online grief content; effectiveness of the support itself was not independently evaluated in this screening.",
+  "id": "child-bereavement-uk",
+  "intended_population": [
+    "children",
+    "young people",
+    "parents",
+    "families"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-10",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Support hours are limited (8am-8pm, Monday to Friday except bank holidays); not a 24/7 crisis service. UK-focused; helpline number is a UK freephone (0800 02 888 40). Not intended to replace professional care.",
+  "name": "Child Bereavement UK",
+  "needs": [
+    "support",
+    "grief"
+  ],
+  "official_url": "https://www.childbereavementuk.org/",
+  "platforms": [
+    "web",
+    "phone",
+    "live-chat"
+  ],
+  "privacy_notes": "Privacy policy exists on the site but was not reviewed in this screening; contact via phone, live chat, email, or text/WhatsApp involves sharing personal details with the charity.",
+  "publisher": "Child Bereavement UK (Registered Charity 1061359 England and Wales, SC041140 Scotland)",
+  "publisher_region": "UK",
+  "reason": "Screened 2026-11-10: official homepage confirmed live; helpline and contact channels, hours, population served, and the Winston\u2019s Wish merger confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "UK"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "resource-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+    "no explicit \u201cfree\u201d statement on the reviewed homepage (0800 number is a UK freephone; verify before stating free access)",
+    "non-English availability not confirmed",
+    "effectiveness evidence not assessed",
+    "accessibility features not listed on the reviewed page",
+    "privacy policy not reviewed"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+    "https://www.childbereavementuk.org/"
+  ],
+  "status": "screened",
+  "tags": [
+    "grief",
+    "bereavement",
+    "children",
+    "young-people",
+    "parents",
+    "helpline",
+    "free",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use",
+    "with-support"
+  ]
+},
+{
+  "access": [
+    "paid"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "U.S. and Canada service (US/CA selector on the site); eligibility is financial need (uninsured or inadequate mental-health benefits, unable to afford market rates of $80-200 per session). Fit for other regions not assessed.",
+    "source_notes": [
+      "https://openpathcollective.org/"
+    ]
+  },
+  "description": "Nonprofit directory of over 40,000 vetted therapists offering sliding-scale therapy for people in financial need: individual sessions $40-70, couples/family sessions $40-80, and student-intern sessions at a flat $30. Clients pay a one-time $65 lifetime membership fee (no recurring fees); session fees are paid directly to the therapist. Online and in-person sessions available, searchable with detailed filters. Membership also includes discounts on wellness products, exclusive therapist-led videos, and free online wellness courses.",
+  "evidence_notes": "No independent effectiveness evaluation was reviewed in this screening; the directory reports a network of over 40,000 vetted therapists.",
+  "id": "open-path-collective",
+  "intended_population": [
+    "adults",
+    "couples",
+    "families"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-10",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Not free: a $65 one-time membership fee plus $40-70 per session. Eligibility is limited to people who lack adequate insurance and cannot afford market rates; the collective itself decides eligibility. Finding a therapist is not a crisis service and does not replace professional care.",
+  "name": "Open Path Psychotherapy Collective",
+  "needs": [
+    "support"
+  ],
+  "official_url": "https://openpathcollective.org/",
+  "platforms": [
+    "web"
+  ],
+  "privacy_notes": "Registration and therapist search involve sharing personal and payment details with the nonprofit; the privacy policy was not reviewed in this screening.",
+  "publisher": "Open Path Psychotherapy Collective (nonprofit)",
+  "publisher_region": "US",
+  "reason": "Screened 2026-11-10: official homepage read live in the browser; session prices ($40-70 individual, $40-80 couples/family, $30 interns), one-time $65 membership, eligibility criteria, and 40,000+ vetted therapist network confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "US",
+    "Canada"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "service-directory",
+  "review_status": "screened",
+  "screening_gaps": [
+    "non-English availability not confirmed",
+    "effectiveness evidence not assessed",
+    "accessibility features not listed on the reviewed page",
+    "privacy policy not reviewed",
+    "eligibility decision process not reviewed beyond the FAQ summary"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+    "https://openpathcollective.org/"
+  ],
+  "status": "screened",
+  "tags": [
+    "therapy",
+    "affordable-therapy",
+    "sliding-scale",
+    "therapist-directory",
+    "low-cost",
+    "online-therapy",
+    "in-person-therapy",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use",
+    "with-support"
+  ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "U.S. peer-support organization with chapters in all 50 states, Washington DC, and Puerto Rico. Fit for non-U.S. contexts not assessed.",
+    "source_notes": [
+      "https://compassionatefriends.org/"
+    ]
+  },
+  "description": "Nonprofit peer-support organization for families after the death of a child (at any age, from any cause), providing friendship, understanding, and hope through a network of over 500 local chapters in all 50 U.S. states, Washington DC, and Puerto Rico, plus a chapter locator, articles, and a newsletter. Operating for five decades.",
+  "evidence_notes": "Peer-support model described by the organization ('in caring and sharing comes healing'); effectiveness of the support itself was not independently evaluated in this screening.",
+  "id": "the-compassionate-friends",
+  "intended_population": [
+    "parents",
+    "families"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-10",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Peer support, not professional counseling or crisis intervention; local chapter availability varies by area. Not intended to replace professional care.",
+  "name": "The Compassionate Friends",
+  "needs": [
+    "support",
+    "grief"
+  ],
+  "official_url": "https://compassionatefriends.org/",
+  "platforms": [
+    "web",
+    "in-person"
+  ],
+  "privacy_notes": "Chapter locator and newsletter signup involve sharing location and contact details; the privacy policy was not reviewed in this screening.",
+  "publisher": "The Compassionate Friends (nonprofit)",
+  "publisher_region": "US",
+  "reason": "Screened 2026-11-10: official homepage confirmed live; peer-support purpose, 500+ chapter network, all-50-states coverage, and five-decade history confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "US",
+    "Puerto Rico"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "peer-support",
+  "review_status": "screened",
+  "screening_gaps": [
+    "no explicit \u201cfree\u201d statement on the reviewed homepage (chapters are peer support; verify before stating free access)",
+    "non-English availability not confirmed",
+    "effectiveness evidence not assessed",
+    "accessibility features not listed on the reviewed page",
+    "privacy policy not reviewed"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+    "https://compassionatefriends.org/"
+  ],
+  "status": "screened",
+  "tags": [
+    "grief",
+    "bereavement",
+    "child-loss",
+    "peer-support",
+    "parents",
+    "families",
+    "free",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use",
+    "with-support"
+  ]
+}
 ]
