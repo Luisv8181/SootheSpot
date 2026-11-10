@@ -24246,4 +24246,245 @@
       "with-support"
     ]
   }
+,
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Developed with input from Aboriginal and Torres Strait Islander community members and representatives per the Lifeline page; fit for other cultural contexts not assessed.",
+      "source_notes": [
+        "https://www.lifeline.org.au/get-help/support-toolkit/safety-planning"
+      ]
+    },
+    "description": "Free suicide safety planning app (iOS, Android, and web). Guides the user through creating a personal safety plan: warning signs, ways to make the environment safe, distractions and activities, reasons to live, and people to contact. Includes a red telephone icon linking straight to emergency contacts and the option to email the plan to trusted supporters or a health professional.",
+    "evidence_notes": "No outcome study of the app itself was evaluated in this screening.",
+    "id": "beyond-now-suicide-safety-plan",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-10",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A safety-planning tool, not a crisis service and not a substitute for professional care; the publisher states it is designed to be used as part of an overall mental wellbeing and safety strategy. It addresses suicidal thoughts, which touches SootheSpot's safety pathway — owner judgment required before any promotion. Australian crisis numbers in the app context (Triple Zero 000) are not universal.",
+    "name": "Beyond Now — Suicide Safety Planning",
+    "needs": [
+      "calm",
+      "practice"
+    ],
+    "official_url": "https://www.lifeline.org.au/get-help/support-toolkit/safety-planning",
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "privacy_notes": "App is described by the publisher as convenient and confidential; the app's Terms of Use and Privacy Collection Statement are linked from the reviewed page but were not reviewed in this screening.",
+    "publisher": "Lifeline Australia (developed 2016 by Beyond Blue and Monash University; ownership transferred to Lifeline Australia in March 2024)",
+    "publisher_region": "AU",
+    "reason": "Screened 2026-11-10: official Lifeline safety-planning page confirmed live; free app on iOS/Android/web, safety-plan steps, emergency-contact link, development history, and March 2024 ownership transfer confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; Australia-based publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "app privacy policy and terms not reviewed",
+      "non-English availability not confirmed",
+      "effectiveness evidence not assessed",
+      "safety-pathway fit for SootheSpot not determined"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.lifeline.org.au/get-help/support-toolkit/safety-planning",
+      "https://play.google.com/store/apps/details?id=au.org.beyondblue.beyondnow&hl=en"
+    ],
+    "status": "screened",
+    "tags": [
+      "suicide-prevention",
+      "safety-planning",
+      "crisis",
+      "coping-skills",
+      "free",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Course states it covers intersections of culture, identity, and social determinants of mental wellness; specific adaptation for a given user was not assessed.",
+      "source_notes": [
+        "https://www.betherecertificate.org/about"
+      ]
+    },
+    "description": "Free, digital, self-paced online course (under two hours) teaching how to support someone who may be struggling with their mental health, built around five Golden Rules: Say what you see, Show you care, Hear them out, Know your role, Connect to help. Includes a self-care section (Be There For Yourself). Available in English, French, and Spanish.",
+    "evidence_notes": "No outcome study was evaluated in this screening. The course is explicitly not peer-support certification and not crisis-intervention training.",
+    "id": "be-there-certificate",
+    "intended_population": [
+      "general",
+      "adolescents"
+    ],
+    "languages": [
+      "English",
+      "French",
+      "Spanish"
+    ],
+    "last_verified_at": "2026-11-10",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Educational course on supporting others, not a crisis service and not a substitute for professional care; the publisher states it is not crisis-intervention training and that someone at risk of harming themselves is beyond its scope. Completion does not qualify the user as a therapist.",
+    "name": "Be There Certificate",
+    "needs": [
+      "learn",
+      "understand",
+      "find-support"
+    ],
+    "official_url": "https://bethere.org/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "No account or data practices stated on the reviewed pages; not reviewed in this screening.",
+    "publisher": "Jack.org, in partnership with Born This Way Foundation",
+    "publisher_region": "CA",
+    "reason": "Screened 2026-11-10: official Be There homepage and Be There Certificate About page confirmed live; free self-paced course, five Golden Rules, English/French/Spanish availability, and the Jack.org / Born This Way Foundation partnership confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; Canada-based publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "online-course",
+    "review_status": "screened",
+    "screening_gaps": [
+      "course duration and certificate requirements not independently verified",
+      "privacy and data practices not reviewed",
+      "effectiveness evidence not assessed"
+    ],
+    "shelf": "learn",
+    "source_notes": [
+      "https://bethere.org/",
+      "https://www.betherecertificate.org/about"
+    ],
+    "status": "screened",
+    "tags": [
+      "peer-support",
+      "mental-health-literacy",
+      "youth",
+      "supporting-others",
+      "free",
+      "course",
+      "learn"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S. federal publisher; created for anyone who has experienced thoughts about suicide or self-harm, with crisis resources oriented to U.S. Veterans (Veterans Crisis Line). Fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://www.ptsd.va.gov/appvid/mobile/safety_plan_app.asp"
+      ]
+    },
+    "description": "Free mobile app for anyone who has experienced thoughts about suicide or self-harm. Guides the user through a six-step safety plan (warning signs, coping strategies, distractions, friends and family to call, professionals to call, making the environment safe), plus personal reasons to live with photo and video reminders, coping tools, mood and symptom tracking, goal-setting, and direct links to crisis support resources including the Veterans Crisis Line.",
+    "evidence_notes": "Publisher notes the in-app PTSD Checklist (PCL-5) is a reliable and valid self-report measure used across VA and DoD; effectiveness of the app itself was not independently evaluated in this screening.",
+    "id": "safety-plan-va-ptsd",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-10",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Not intended to replace professional care; the publisher recommends creating the plan with a mental health provider where possible. It addresses suicidal thoughts, which touches SootheSpot's safety pathway — owner judgment required before any promotion. Crisis resources in the app are U.S.-oriented.",
+    "name": "Safety Plan (VA)",
+    "needs": [
+      "calm",
+      "practice"
+    ],
+    "official_url": "https://www.ptsd.va.gov/appvid/mobile/safety_plan_app.asp",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "VA page states user-created data are only as secure as the phone/device itself and that self-monitoring data belong to the user. The full VA mobile-app privacy policy was not reviewed in this screening.",
+    "publisher": "U.S. Department of Veterans Affairs, National Center for PTSD; created with VA's Office of Mental Health and Suicide Prevention",
+    "publisher_region": "US",
+    "reason": "Screened 2026-11-10: official VA page confirmed live; free access, six-step safety plan, reasons-to-live reminders, coping tools, mood tracking, and the professional-care disclaimer confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; U.S.-government publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "app privacy policy not reviewed",
+      "non-English availability not confirmed",
+      "effectiveness evidence not assessed",
+      "safety-pathway fit for SootheSpot not determined"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.ptsd.va.gov/appvid/mobile/safety_plan_app.asp"
+    ],
+    "status": "screened",
+    "tags": [
+      "suicide-prevention",
+      "safety-planning",
+      "self-harm",
+      "coping-skills",
+      "mood-tracking",
+      "free",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  }
 ]
