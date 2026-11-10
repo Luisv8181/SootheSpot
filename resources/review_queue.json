@@ -23502,4 +23502,163 @@
       "with-support"
     ]
   }
+,
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "original",
+    "notes": "U.S. Department of Veterans Affairs app developed for Veterans and Service members; fit outside that population and outside the United States not assessed.",
+    "source_notes": [
+      "https://mobile.va.gov/app/mindfulness-coach"
+    ]
+  },
+  "description": "Free app offering a gradual, self-guided mindfulness training program: education about mindfulness, 12 audio-guided exercises plus a growing catalog of additional exercises available for free download, goal-setting and tracking, a mindfulness mastery assessment, customizable reminders, and links to other support and crisis resources. Developed for Veterans, Service members, and others.",
+  "evidence_notes": "Publisher is VA's National Center for PTSD. Page states mindfulness 'has been shown to be effective for reducing stress, improving emotional balance, increasing self-awareness, helping with anxiety and depression, and coping more effectively with chronic pain'; those effectiveness claims were not evaluated in this screening.",
+  "id": "mindfulness-coach",
+  "intended_population": [
+    "veterans",
+    "service-members",
+    "general"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-10",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Self-guided education and self-care tool; page states it does not replace treatment with a healthcare professional for PTSD or other mental health conditions.",
+  "name": "Mindfulness Coach",
+  "needs": [
+    "practice",
+    "calm"
+  ],
+  "official_url": "https://mobile.va.gov/app/mindfulness-coach",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "privacy_notes": "No account or data practices stated on the reviewed page; not reviewed in this screening.",
+  "publisher": "VA National Center for PTSD (U.S. Department of Veterans Affairs)",
+  "publisher_region": "US",
+  "reason": "Screened 2026-11-10: official VA Mobile page confirmed live; publisher, free access, self-guided program structure, 12 audio-guided exercises, goal tracking, and non-treatment limitation confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "Global; U.S.-based publisher."
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+    "app-store availability not confirmed from the reviewed page",
+    "languages other than English not confirmed",
+    "privacy and data practices not reviewed"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+    "https://mobile.va.gov/app/mindfulness-coach"
+  ],
+  "status": "screened",
+  "tags": [
+    "mindfulness",
+    "meditation",
+    "stress",
+    "anxiety",
+    "depression",
+    "chronic-pain",
+    "self-guided",
+    "independent-use",
+    "veterans"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+},
+{
+  "access": [
+    "paid"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "No cultural-adaptation information stated on the reviewed homepage.",
+    "source_notes": [
+      "https://hearme.app/"
+    ]
+  },
+  "description": "App connecting users with trained human Listeners (not chatbots) for anonymous text conversations, usually matched in under three minutes, 24 hours a day. Listeners are peers matched on lived experience who complete Foundations in Responsive Support Training; Guides offer deeper support and licensed Clinicians are available in the same app. Also offers Sleep Insights linked to Apple Health or Google Health Connect.",
+  "evidence_notes": "Page states teams at Stanford, Northwell Health, Penn State, Ohio State, University of Minnesota and University of Mississippi studied conversations with HearMe Listeners, and reports a 57% average lift in mood after a single conversation; no study was evaluated in this screening and the figures are publisher-reported.",
+  "id": "hearme-app",
+  "intended_population": [
+    "general"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-10",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Paid subscription ($14.99/month for unlimited conversations); no free tier stated on the reviewed homepage. Peer listening, not therapy; licensed Clinicians are available in-app for moments needing more than peer support. Does not replace professional mental health care.",
+  "name": "HearMe",
+  "needs": [
+    "find-support"
+  ],
+  "official_url": "https://hearme.app/",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "privacy_notes": "Page states conversations are anonymous, encrypted, and HIPAA-compliant; full privacy practices not reviewed in this screening.",
+  "publisher": "HearMe",
+  "reason": "Screened 2026-11-10: official HearMe homepage confirmed live; paid subscription model, trained human listeners (not chatbots), 24/7 matching, anonymity and HIPAA-compliance claims, and iOS/Android availability confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "Global; regional availability not independently confirmed."
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "peer-support",
+  "review_status": "screened",
+  "screening_gaps": [
+    "publisher legal name not stated on the reviewed homepage",
+    "languages other than English not confirmed",
+    "full privacy policy not reviewed",
+    "research claims not evaluated"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+    "https://hearme.app/"
+  ],
+  "status": "screened",
+  "tags": [
+    "peer-support",
+    "listening",
+    "anonymous",
+    "24-7",
+    "text-support",
+    "sleep",
+    "paid",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+}
 ]
