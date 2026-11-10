@@ -23919,4 +23919,331 @@
       "with-support"
     ]
   }
+,
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation information stated on the reviewed pages.",
+      "source_notes": [
+        "https://sprc.org/about/"
+      ]
+    },
+    "description": "Federally supported center advancing suicide prevention nationwide through free consultation, training, and tools for community organizations and coalitions, workplaces, state and Tribal leaders, health and behavioral health systems, and professionals. Maintains the Best Practices Registry of suicide prevention programs and publishes suicide data and prevention resources.",
+    "evidence_notes": "The Best Practices Registry distinguishes Approved Programs (reviewed, including by independent suicide prevention professionals and people with suicide-centered lived experience) from Selected Programs (chosen on peer-reviewed research, not through the full application process); no outcome study was evaluated in this screening.",
+    "id": "suicide-prevention-resource-center",
+    "intended_population": [
+      "professionals",
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-10",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A professional-facing prevention resource hub, not a crisis service and not a substitute for immediate help; people in immediate danger should use an emergency service or crisis line. Program effectiveness claims in the registry were not independently evaluated in this screening.",
+    "name": "Suicide Prevention Resource Center (SPRC)",
+    "needs": [
+      "learn"
+    ],
+    "official_url": "https://sprc.org/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "No account or data practices stated on the reviewed pages; not reviewed in this screening.",
+    "publisher": "Suicide Prevention Resource Center",
+    "publisher_region": "US",
+    "reason": "Screened 2026-11-10: official SPRC homepage and About page confirmed live; SAMHSA-supported center providing free consultation, training, tools, and the Best Practices Registry confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United States"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "resource-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "whether any resources are available in languages other than English not confirmed",
+      "privacy and data practices not reviewed",
+      "registry program effectiveness claims not independently evaluated",
+      "whether public-facing self-help content exists beyond practitioner resources not assessed"
+    ],
+    "shelf": "learn",
+    "source_notes": [
+      "https://sprc.org/",
+      "https://sprc.org/about/"
+    ],
+    "status": "screened",
+    "tags": [
+      "suicide-prevention",
+      "training",
+      "professionals",
+      "data",
+      "free",
+      "resources",
+      "learn"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "States it supports men of all backgrounds regardless of gender, race, or sexual orientation and does not support discrimination; whether materials are culturally adapted for a given user was not assessed.",
+      "source_notes": [
+        "https://headsupguys.org/about/"
+      ]
+    },
+    "description": "Men's mental health resource offering practical self-care tips, depression screening tools, free self-guided courses, recovery stories from men who have faced anxiety and depression, an international therapist directory, and guidance for supporting the men in one's life. Content is described as derived from evidence-based research with clinician and patient perspectives.",
+    "evidence_notes": "Publisher states content is derived from evidence-based research and includes clinician and patient perspectives; no study was evaluated in this screening and the claims are publisher-reported.",
+    "id": "headsupguys",
+    "intended_population": [
+      "men",
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-10",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Self-help and information resource, not a crisis service and not a substitute for professional care; the site itself directs people feeling depressed to connect with a therapist. Therapist directory coverage and self-guided course availability by region not confirmed in this screening.",
+    "name": "HeadsUpGuys",
+    "needs": [
+      "practice",
+      "understand",
+      "find-support"
+    ],
+    "official_url": "https://headsupguys.org/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "No account or data practices stated on the reviewed pages; not reviewed in this screening.",
+    "publisher": "HeadsUpGuys",
+    "publisher_region": "CA",
+    "reason": "Screened 2026-11-10: official HeadsUpGuys homepage and About page confirmed live; free self-guided courses, screening tools, recovery stories, therapist directory, and registered Canadian charity status confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; Canada-based organization."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "self-help-toolkit",
+    "review_status": "screened",
+    "screening_gaps": [
+      "therapist directory coverage by region not confirmed",
+      "languages other than English not confirmed",
+      "privacy and data practices not reviewed",
+      "evidence claims not evaluated"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://headsupguys.org/",
+      "https://headsupguys.org/about/"
+    ],
+    "status": "screened",
+    "tags": [
+      "mens-mental-health",
+      "depression",
+      "suicide-prevention",
+      "self-help",
+      "screening",
+      "courses",
+      "free",
+      "independent-use",
+      "practice"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation information stated on the reviewed pages.",
+      "source_notes": [
+        "https://www.cruse.org.uk/"
+      ]
+    },
+    "description": "UK bereavement charity offering a free national helpline (0808 808 1677) staffed by trained volunteers, one-to-one support through more than 80 local branches across England, Wales and Northern Ireland, webchat, and grief information including guidance on managing grief and growing around grief.",
+    "evidence_notes": "No outcome study was evaluated in this screening.",
+    "id": "cruse-bereavement-support",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-10",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Helpline is a support service staffed by trained volunteers, not an emergency service; one-to-one support availability depends on local branch capacity. Coverage is England, Wales and Northern Ireland per the reviewed homepage; availability elsewhere not confirmed.",
+    "name": "Cruse Bereavement Support",
+    "needs": [
+      "find-support",
+      "grief"
+    ],
+    "official_url": "https://www.cruse.org.uk/",
+    "platforms": [
+      "Web",
+      "Phone",
+      "Chat/Online"
+    ],
+    "privacy_notes": "No privacy or data practices stated on the reviewed homepage; not reviewed in this screening.",
+    "publisher": "Cruse Bereavement Support",
+    "publisher_region": "GB",
+    "reason": "Screened 2026-11-10: official Cruse homepage confirmed live; free helpline 0808 808 1677, one-to-one support, 80+ local branches, and grief information confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United Kingdom (England, Wales, Northern Ireland)"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "community-program",
+    "review_status": "screened",
+    "screening_gaps": [
+      "helpline opening hours not confirmed from the reviewed homepage (linked separately)",
+      "services for children and young people not confirmed on the reviewed homepage",
+      "languages other than English not confirmed",
+      "privacy and data practices not reviewed",
+      "webchat availability and hours not confirmed",
+      "no-cost access not explicitly stated on the reviewed homepage"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://www.cruse.org.uk/"
+    ],
+    "status": "screened",
+    "tags": [
+      "grief",
+      "bereavement",
+      "helpline",
+      "free",
+      "support",
+      "uk",
+      "independent-use",
+      "find-support"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Group interpersonal psychotherapy delivered by local facilitators in Uganda; cultural adaptation for other contexts not assessed.",
+      "source_notes": [
+        "https://strongminds.org/"
+      ]
+    },
+    "description": "Nonprofit treating depression at scale in Africa through group interpersonal psychotherapy delivered by trained and certified mental health facilitators, including phone-based therapy. Focuses on women with depression in Uganda and reports having treated tens of thousands of people.",
+    "evidence_notes": "Publisher reports treating depression through group interpersonal psychotherapy and cites participant numbers on its site; no outcome study was evaluated in this screening and all figures are publisher-reported.",
+    "id": "strongminds",
+    "intended_population": [
+      "women",
+      "adults"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-10",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Facilitator-led group therapy delivered in Uganda, not a self-guided tool and not available as an independent-use resource; not a crisis service. Current operating countries beyond Uganda and current reach were not confirmed on the reviewed pages.",
+    "name": "StrongMinds",
+    "needs": [
+      "find-support",
+      "mood"
+    ],
+    "official_url": "https://strongminds.org/",
+    "platforms": [
+      "In person",
+      "Phone"
+    ],
+    "privacy_notes": "No privacy or data practices stated on the reviewed homepage; not reviewed in this screening.",
+    "publisher": "StrongMinds",
+    "publisher_region": "US",
+    "reason": "Screened 2026-11-10: official StrongMinds homepage confirmed live; group interpersonal psychotherapy for depression in Africa, phone-based delivery, and Uganda operations confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Uganda"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "community-program",
+    "review_status": "screened",
+    "screening_gaps": [
+      "operating countries beyond Uganda not confirmed on the reviewed pages",
+      "languages of therapy delivery not stated on the reviewed pages",
+      "current reach figures not confirmed; homepage mixes current notices with older (2014-2017) program posts",
+      "privacy and data practices not reviewed",
+      "the organization's About page (strongminds.org/about-us/) returned 404 this run",
+      "evidence claims not evaluated",
+      "no-cost access to participants not explicitly stated on the reviewed homepage"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://strongminds.org/"
+    ],
+    "status": "screened",
+    "tags": [
+      "depression",
+      "group-therapy",
+      "africa",
+      "free",
+      "community",
+      "women",
+      "find-support"
+    ],
+    "use_context": [
+      "with-support"
+    ]
+  }
 ]
