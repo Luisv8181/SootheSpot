@@ -25479,4 +25479,182 @@
     "independent-use"
   ]
 }
+,
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Webinar captions available in Zoom and translatable to another language (per the reviewed page); full assistive-technology compatibility not assessed in this screening."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US-based nonprofit; one peer community is Spanish-language (Apoyo para Ansiedad y Depresion). Fit for non-US contexts not assessed; the reviewed page points non-US visitors to findahelpline.com for crisis lines.",
+      "source_notes": [
+        "https://adaa.org/educational-resources"
+      ]
+    },
+    "description": "Free, expert-developed and expert-reviewed resources for anxiety, depression, OCD, PTSD and related disorders: monthly free webinars led by clinicians (also on YouTube), a clinician-written blog library, free guides and fact sheets, infographics, the Triumph monthly newsletter, and four free anonymous peer-to-peer online support communities (anxiety and depression, Spanish-language Apoyo, major depressive disorder, PTSD). Founded 1979; international nonprofit.",
+    "evidence_notes": "Publisher states all materials are created or reviewed by licensed psychologists, psychiatrists, therapists and researchers; individual webinars, blog posts and guides were not evaluated in this screening.",
+    "id": "adaa-free-resources",
+    "intended_population": [
+      "general",
+      "adults",
+      "families"
+    ],
+    "languages": [
+      "English",
+      "Spanish (peer community Apoyo para Ansiedad y Depresion)"
+    ],
+    "last_verified_at": "2026-11-11",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Educational and peer-support resources only; not a crisis service and not a substitute for professional care (the reviewed page states this explicitly and points to 988 in the US). The therapist directory and self-help book purchases are adjacent services, not part of the free resources reviewed. Some webinars are noted as possibly carrying a small fee.",
+    "name": "Anxiety & Depression Association of America (ADAA) - Free Resources",
+    "needs": [
+      "understand",
+      "support",
+      "anxiety",
+      "mood",
+      "trauma"
+    ],
+    "official_url": "https://adaa.org/educational-resources",
+    "platforms": [
+      "Web",
+      "YouTube"
+    ],
+    "privacy_notes": "Peer communities are described as free and anonymous; account and data practices of the community platform and newsletter sign-up were not reviewed in this screening.",
+    "publisher": "Anxiety & Depression Association of America (ADAA)",
+    "publisher_region": "US",
+    "reason": "Screened 2026-11-11: official ADAA resources page confirmed live; free expert-reviewed webinars, blogs, guides, fact sheets and four anonymous peer communities confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global (US-based nonprofit; crisis numbers given are US 988, with findahelpline.com for outside the US)"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "resource-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "individual webinars, blog posts and guides not evaluated",
+      "peer-community platform data practices not reviewed",
+      "accessibility features beyond webinar captions not listed on the reviewed page",
+      "non-US applicability not assessed"
+    ],
+    "shelf": "learn",
+    "source_notes": [
+      "https://adaa.org/",
+      "https://adaa.org/educational-resources"
+    ],
+    "status": "screened",
+    "tags": [
+      "anxiety",
+      "depression",
+      "ocd",
+      "ptsd",
+      "webinars",
+      "psychoeducation",
+      "peer-support",
+      "free",
+      "expert-reviewed",
+      "spanish-language"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  }
+,
+  {
+    "access": [
+      "free",
+      "paid"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "community-centered",
+      "notes": "Designed specifically for Black, Indigenous and Women of Color (BIWOC), with content created by and for BIWOC; the listing states it is open to all who seek healing. Founder Katara McCarty is a Black woman.",
+      "source_notes": [
+        "https://play.google.com/store/apps/details?id=com.app.exhaleapp&hl=en_CA&gl=US",
+        "https://solve.mit.edu/solutions/46285"
+      ]
+    },
+    "description": "Emotional well-being app designed specifically for Black, Indigenous and Women of Color (BIWOC), founded by Katara McCarty. Meditations and guided journeys, breathwork techniques, calming sounds, thought of the day, daily push notifications, an animated breathing orb, and the Ready to Exhale podcast. Topics include rest, embodiment, reducing stress, inner peace, ancestors, grounding, calming sounds, relaxation and microaggressions.",
+    "evidence_notes": "Founder Katara McCarty's MIT Solve solution pitch describes Exhale as the first emotional well-being app designed specifically for BIWOC, by BIWOC; individual meditations and effectiveness claims were not evaluated in this screening.",
+    "id": "exhale-app",
+    "intended_population": [
+      "adults",
+      "women"
+    ],
+    "languages": [
+      "English (per the reviewed listing)"
+    ],
+    "last_verified_at": "2026-11-11",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Free to download with free content for 7-14 days; full access requires a paid subscription (price not stated on the reviewed listing). Not a crisis service and not a substitute for professional care. The app's own website (exhale-app.com) was not reachable as a primary source in this screening; the store listing is the verified source.",
+    "name": "Exhale - Emotional Well-Being App for Black Women",
+    "needs": [
+      "practice",
+      "calm",
+      "stress"
+    ],
+    "official_url": "https://play.google.com/store/apps/details?id=com.app.exhaleapp&hl=en_CA&gl=US",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Google Play data-safety section (developer-provided): the app may share personal info and app info/performance with third parties and may collect device or other IDs; data encrypted in transit; users can request data deletion. The full privacy policy was not reviewed in this screening.",
+    "publisher": "KATECHA CORP. (Exhale App; founded by Katara McCarty)",
+    "publisher_region": "US",
+    "reason": "Screened 2026-11-11: Google Play listing confirmed live (updated Oct 6, 2025); BIWOC-centered purpose, feature set and free-trial-then-subscription access confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global (app stores); US-based publisher (Indianapolis, IN)"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "subscription price not stated on the reviewed listing",
+      "full privacy policy not reviewed",
+      "accessibility features not listed on the reviewed listing",
+      "individual meditations not evaluated",
+      "official website not reachable as a primary source this run"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://play.google.com/store/apps/details?id=com.app.exhaleapp&hl=en_CA&gl=US",
+      "https://solve.mit.edu/solutions/46285",
+      "https://www.kataramccarty.com/"
+    ],
+    "status": "screened",
+    "tags": [
+      "meditation",
+      "breathwork",
+      "black-women",
+      "women-of-color",
+      "bipoc",
+      "microaggressions",
+      "stress",
+      "free-trial",
+      "ios",
+      "android"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  }
 ]
