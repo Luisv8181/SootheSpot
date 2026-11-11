@@ -25656,5 +25656,237 @@
     "use_context": [
       "independent-use"
     ]
-  }
+  },
+
+    {
+      "access": [
+        "via-healthcare-provider"
+      ],
+      "accessibility": [
+        "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+      ],
+      "cultural_context": {
+        "adaptation_status": "unknown",
+        "notes": "Publisher operates in the UK, Ireland, and the US; fit for non-English contexts not assessed.",
+        "source_notes": [
+          "https://www.silvercloudhealth.com/"
+        ]
+      },
+      "description": "Evidence-based interactive digital mental health programmes (wellbeing, depression, anxiety, chronic conditions, substance use, family) delivered through healthcare providers, health plans, and universities. Programmes can be used as a standalone skill-building tool, while awaiting therapy, alongside therapy, or as a post-therapy toolkit.",
+      "evidence_notes": "Publisher claims the platform is clinically proven and cites up to 80% of users showing improvement in anxiety and depression, 93% user satisfaction, and up to 65% recovery rate. These are the publisher's claims and were not independently evaluated in this screening.",
+      "id": "silvercloud-health",
+      "intended_population": [
+        "general",
+        "adults",
+        "adolescents"
+      ],
+      "languages": [
+        "English"
+      ],
+      "last_verified_at": "2026-11-11",
+      "license_notes": "External resource. SootheSpot stores metadata only.",
+      "limitations": "No direct self-signup: access is only through a GP, healthcare plan, or university, so availability depends on the user's area and provider. Effectiveness figures are the publisher's claims. Not a substitute for professional care.",
+      "name": "SilverCloud by Amwell",
+      "needs": [
+        "practice",
+        "understand",
+        "calm"
+      ],
+      "official_url": "https://www.silvercloudhealth.com/",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "privacy_notes": "Publisher describes access as confidential and private. The full privacy policy and data practices were not reviewed in this screening.",
+      "publisher": "SilverCloud by Amwell (Amwell)",
+      "reason": "Screened 2026-11-11: official site confirmed live; publisher, programme scope, provider-mediated access model, and effectiveness claims confirmed from the primary source. Ready for owner review before any promotion.",
+      "regions": [
+        "UK, Ireland, US and other regions via healthcare providers, health plans, and universities; availability varies by area."
+      ],
+      "required_before_verified": [
+        "official_url_checked",
+        "publisher_confirmed",
+        "purpose_and_population_confirmed",
+        "independent_use_scope_confirmed",
+        "limitations_recorded",
+        "date_checked_recorded",
+        "primary_source_recorded"
+      ],
+      "resource_type": "online-course",
+      "review_status": "screened",
+      "screening_gaps": [
+        "privacy policy and data practices not reviewed",
+        "non-English availability not confirmed",
+        "no direct-access route for individuals without a participating provider"
+      ],
+      "shelf": "practice",
+      "source_notes": [
+        "https://www.silvercloudhealth.com/"
+      ],
+      "status": "screened",
+      "tags": [
+        "cbt",
+        "anxiety",
+        "depression",
+        "stress",
+        "resilience",
+        "chronic-conditions",
+        "substance-use",
+        "family",
+        "independent-use"
+      ],
+      "use_context": [
+        "independent-use"
+      ]
+    },
+    {
+      "access": [
+        "free",
+        "paid"
+      ],
+      "accessibility": [
+        "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+      ],
+      "description": "Guided meditation and mindfulness app based on Insight Meditation (Vipassana), with guided meditations (mostly 5-15 minutes, some up to 90), step-by-step courses (including Taming Anxiety, Stress Better, Mindful Eating), sleep meditations, teacher talks, and podcasts. Free tier includes three courses and 50+ guided meditations; full access is a $99.99/year subscription.",
+      "evidence_notes": "Publisher describes the app as award-winning and names experienced teachers (including Sharon Salzberg and Joseph Goldstein). No efficacy claims were evaluated in this screening.",
+      "id": "happier-meditation-ten-percent",
+      "intended_population": [
+        "general"
+      ],
+      "languages": [
+        "English"
+      ],
+      "last_verified_at": "2026-11-11",
+      "license_notes": "External resource. SootheSpot stores metadata only.",
+      "limitations": "Full library requires a $99.99/year subscription; free tier is limited to three courses and 50+ meditations. Not available on desktop/web browsers. Does not replace professional mental health care.",
+      "name": "Happier Meditation (formerly Ten Percent Happier)",
+      "needs": [
+        "listen",
+        "calm",
+        "sleep"
+      ],
+      "official_url": "https://www.tenpercent.com/",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "privacy_notes": "Account required for app use. Privacy policy and data practices were not reviewed in this screening.",
+      "publisher": "Happier Meditation (Ten Percent Happier)",
+      "reason": "Screened 2026-11-11: official site confirmed live; publisher, free vs subscription tiers, course and meditation scope, and $99.99/year price confirmed from the primary source. Ready for owner review before any promotion.",
+      "regions": [
+        "Global; English-language."
+      ],
+      "required_before_verified": [
+        "official_url_checked",
+        "publisher_confirmed",
+        "purpose_and_population_confirmed",
+        "independent_use_scope_confirmed",
+        "limitations_recorded",
+        "date_checked_recorded",
+        "primary_source_recorded"
+      ],
+      "resource_type": "mobile-app",
+      "review_status": "screened",
+      "screening_gaps": [
+        "privacy policy and data practices not reviewed",
+        "accessibility features not confirmed"
+      ],
+      "shelf": "listen",
+      "source_notes": [
+        "https://www.tenpercent.com/"
+      ],
+      "status": "screened",
+      "tags": [
+        "meditation",
+        "mindfulness",
+        "anxiety",
+        "stress",
+        "sleep",
+        "self-compassion",
+        "independent-use"
+      ],
+      "use_context": [
+        "independent-use"
+      ]
+    },
+    {
+      "access": [
+        "referral-only"
+      ],
+      "accessibility": [
+        "Not listed on the reviewed pages; verify assistive-technology compatibility before relying on it."
+      ],
+      "cultural_context": {
+        "adaptation_status": "unknown",
+        "notes": "UK-registered company under English law; the site documents a US partner case (Crossroads, Arizona) but states no explicit geographic eligibility rule.",
+        "source_notes": [
+          "https://www.bemindfulonline.com/"
+        ]
+      },
+      "description": "Four-week online Mindfulness-Based Cognitive Therapy (MBCT) programme of pre-recorded video-led sessions, interactive exercises, and mindfulness assignments, completed at the user's own pace. Four themed weekly modules (Dealing with Barriers, The Physical Barometer, On Negative Thoughts, Taking the Learning Forward), preceded by Getting Started and followed by Going Forward.",
+      "evidence_notes": "Publisher cites published studies (Mindfulness Journal 2018, University of Surrey; BMJ Open 2013, University of Oxford) reporting 63% reduction in depression, 40% in stress, and 58% in anxiety. These are the publisher's summaries; the individual studies were not evaluated in this screening.",
+      "id": "be-mindful-online-course",
+      "intended_population": [
+        "general",
+        "adults"
+      ],
+      "languages": [
+        "English"
+      ],
+      "last_verified_at": "2026-11-11",
+      "license_notes": "External resource. SootheSpot stores metadata only.",
+      "limitations": "Referral/licence only: no self-pay or direct purchase option, and no price is listed on the site; access runs through a GP, healthcare provider, therapist, employer, or other licensed partner, so the cost to the user depends on the referring organisation. Not a substitute for professional care.",
+      "name": "Be Mindful",
+      "needs": [
+        "practice",
+        "calm",
+        "understand"
+      ],
+      "official_url": "https://www.bemindfulonline.com/",
+      "platforms": [
+        "Web"
+      ],
+      "privacy_notes": "Enrolment runs through a referring organisation; the site's privacy policy and data practices were not reviewed in this screening.",
+      "publisher": "Wellmind Health Ltd (UK, company No. 04542911)",
+      "reason": "Screened 2026-11-11: official site confirmed live via text fetch and live-browser check; publisher (Wellmind Health Ltd, not the Mental Health Foundation), MBCT structure, referral-only access, and absence of any price or free-access claim confirmed from the primary source. Ready for owner review before any promotion.",
+      "regions": [
+        "UK-based publisher; documented US partner case (Crossroads, Arizona); no explicit geographic eligibility statement on the site."
+      ],
+      "required_before_verified": [
+        "official_url_checked",
+        "publisher_confirmed",
+        "purpose_and_population_confirmed",
+        "independent_use_scope_confirmed",
+        "limitations_recorded",
+        "date_checked_recorded",
+        "primary_source_recorded"
+      ],
+      "resource_type": "online-course",
+      "review_status": "screened",
+      "screening_gaps": [
+        "no price listed; cost to the user depends on the referring organisation's licence",
+        "privacy policy and data practices not reviewed",
+        "geographic eligibility not stated on the site"
+      ],
+      "shelf": "practice",
+      "source_notes": [
+        "https://www.bemindfulonline.com/",
+        "https://www.bemindfulonline.com/the-programme",
+        "https://www.bemindfulonline.com/faqs"
+      ],
+      "status": "screened",
+      "tags": [
+        "mbct",
+        "mindfulness",
+        "depression",
+        "anxiety",
+        "stress",
+        "independent-use"
+      ],
+      "use_context": [
+        "independent-use"
+      ]
+    }
+
 ]
