@@ -24989,5 +24989,254 @@
     "independent-use",
     "with-support"
   ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "U.S. K-12 education organization; fit for non-U.S. contexts not assessed.",
+    "source_notes": [
+      "https://glisten.org/"
+    ]
+  },
+  "description": "National education organization working to end discrimination, harassment, and bullying based on sexual orientation, gender identity, and gender expression in K-12 schools, through policy advocacy, educator support, student leadership (including Gay-Straight Alliances), research, and free resources. Founded in 1990 as GLSEN and renamed Glisten in February 2026; 15 chapters across 13 states and a community of 1.5 million youth, families, educators, and advocates.",
+  "evidence_notes": "Education and advocacy model described by the organization; effectiveness of the programs themselves was not independently evaluated in this screening.",
+  "id": "glisten",
+  "intended_population": [
+    "LGBTQ youth",
+    "students",
+    "educators",
+    "families"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-10",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Education, advocacy, and resources, not professional counseling or crisis intervention; chapter availability varies by state. Not intended to replace professional care.",
+  "name": "Glisten (formerly GLSEN)",
+  "needs": [
+    "support",
+    "find-support"
+  ],
+  "official_url": "https://glisten.org/",
+  "platforms": [
+    "Web"
+  ],
+  "privacy_notes": "Signing up for updates involves sharing contact details; the privacy policy was not reviewed in this screening.",
+  "publisher": "Glisten (nonprofit)",
+  "publisher_region": "US",
+  "reason": "Screened 2026-11-10: official homepage (glisten.org, formerly glsen.org) and Who We Are page confirmed live; mission to create safe and respectful K-12 learning environments for LGBTQ+ youth, February 2026 rebrand from GLSEN to Glisten, 15 chapters in 13 states, and 1.5M+ community confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "US"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "resource-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+    "non-English availability not confirmed",
+    "effectiveness evidence not assessed",
+    "accessibility features not listed on the reviewed pages",
+    "privacy policy not reviewed",
+    "chapter availability varies by state"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+    "https://glisten.org/",
+    "https://www.glsen.org/about-us"
+  ],
+  "status": "screened",
+  "tags": [
+    "lgbtq",
+    "youth",
+    "schools",
+    "education",
+    "bullying-prevention",
+    "advocacy",
+    "free",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use",
+    "with-support"
+  ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; the Deaf Hotline video phone (855-812-1001) is listed for deaf and hard-of-hearing callers. Verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "U.S. national hotline based in Austin, TX; also lists the StrongHearts Native Helpline and the Deaf Hotline. Fit for non-U.S. contexts not assessed.",
+    "source_notes": [
+      "https://www.thehotline.org/"
+    ]
+  },
+  "description": "Confidential 24/7 support for people affected by domestic violence, via phone at 1-800-799-SAFE (7233), live chat, and text (START to 88788). Advocates provide support, crisis intervention, education about domestic violence, and community resources and referrals. The organization reports about 1.2 million people contact the Hotline each year; it also runs love is respect for young adults and lists partner lines including the StrongHearts Native Helpline and the Deaf Hotline.",
+  "evidence_notes": "Crisis support and referral model described by the organization; effectiveness of the support itself was not independently evaluated in this screening.",
+  "id": "national-domestic-violence-hotline",
+  "intended_population": [
+    "people experiencing domestic violence",
+    "survivors",
+    "families",
+    "young adults"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-10",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Advocates provide support, crisis intervention, education, and referrals; the Hotline does not provide direct financial assistance. Not a substitute for emergency services; call 911 in immediate danger. Not intended to replace professional care.",
+  "name": "National Domestic Violence Hotline",
+  "needs": [
+    "safety",
+    "find-support"
+  ],
+  "official_url": "https://www.thehotline.org/",
+  "platforms": [
+    "Phone",
+    "Web",
+    "SMS"
+  ],
+  "privacy_notes": "Site states it does not track visits and offers a quick-exit button; contacting an advocate involves sharing personal details. The privacy policy was not reviewed in this screening.",
+  "publisher": "National Domestic Violence Hotline (nonprofit)",
+  "publisher_region": "US",
+  "reason": "Screened 2026-11-10: official homepage confirmed live; 24/7 phone (1-800-799-SAFE), chat, and text access, advocate support and referral scope, and about 1.2M annual contacts confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "US"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "crisis-service",
+  "review_status": "screened",
+  "screening_gaps": [
+    "non-English availability not confirmed from the reviewed page",
+    "effectiveness evidence not assessed",
+    "accessibility features not listed on the reviewed page beyond the Deaf Hotline link",
+    "privacy policy not reviewed",
+    "chat and text availability hours not separately confirmed"
+  ],
+  "shelf": "safety",
+  "source_notes": [
+    "https://www.thehotline.org/"
+  ],
+  "status": "screened",
+  "tags": [
+    "domestic-violence",
+    "crisis",
+    "hotline",
+    "safety-planning",
+    "support",
+    "free",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use",
+    "with-support"
+  ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "community_informed",
+    "notes": "Founded by Dr. Joy Harden Bradford for Black women and girls; directory centers culturally competent therapists. Fit for other populations not assessed.",
+    "source_notes": [
+      "https://therapyforblackgirls.com/"
+    ]
+  },
+  "description": "Therapist directory and mental-health resource hub for Black women and girls, helping users find trusted, culturally competent therapists, plus a guide to getting started with therapy. Also runs the Holding Space Foundation (founded 2021), which offers group healing spaces, professional training, and community education aimed at culturally responsive services for Black women and girls.",
+  "evidence_notes": "Therapist directory and education model described by the organization; therapist credentials and effectiveness of the directory itself were not independently evaluated in this screening.",
+  "id": "therapy-for-black-girls",
+  "intended_population": [
+    "Black women",
+    "Black girls"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-10",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Directory and education, not therapy itself; listed therapists are independent providers and sessions are paid. Not a crisis service. Not intended to replace professional care.",
+  "name": "Therapy for Black Girls",
+  "needs": [
+    "support",
+    "find-support"
+  ],
+  "official_url": "https://therapyforblackgirls.com/",
+  "platforms": [
+    "Web"
+  ],
+  "privacy_notes": "Finding a therapist involves sharing personal details; the privacy policy was not reviewed in this screening.",
+  "publisher": "Therapy for Black Girls (founded by Dr. Joy Harden Bradford)",
+  "publisher_region": "US",
+  "reason": "Screened 2026-11-10: official homepage confirmed live; therapist directory for Black women and girls, culturally competent matching, founder Dr. Joy Harden Bradford, and Holding Space Foundation (2021) confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "US"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "service-directory",
+  "review_status": "screened",
+  "screening_gaps": [
+    "therapist credentials and directory coverage not independently verified",
+    "therapy sessions are paid; verify before stating free access",
+    "non-English availability not confirmed",
+    "effectiveness evidence not assessed",
+    "accessibility features not listed on the reviewed page",
+    "privacy policy not reviewed"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+    "https://therapyforblackgirls.com/"
+  ],
+  "status": "screened",
+  "tags": [
+    "black-women",
+    "therapist-directory",
+    "culturally-competent",
+    "therapy",
+    "support",
+    "free",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use",
+    "with-support"
+  ]
 }
 ]
