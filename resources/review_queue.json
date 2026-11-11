@@ -24736,5 +24736,258 @@
     "independent-use",
     "with-support"
   ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "U.S. family-and-ally organization with chapters in all 50 states, Washington DC, Puerto Rico, and on a U.S. military base in Germany. Fit for non-U.S. contexts not assessed.",
+    "source_notes": [
+      "https://pflag.org/why-pflag/"
+    ]
+  },
+  "description": "The nation's first and largest organization uniting LGBTQ people with families, friends, and allies, working through a mission of support, education, and advocacy since its founding in 1973, with nearly 400 chapters and 200,000 supporters, plus a chapter locator, virtual meetings, and educational resources.",
+  "evidence_notes": "Peer-support and education model described by the organization; effectiveness of the support itself was not independently evaluated in this screening.",
+  "id": "pflag",
+  "intended_population": [
+    "LGBTQ people",
+    "parents",
+    "families",
+    "allies"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-10",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Peer support and education, not professional counseling or crisis intervention; chapter availability and meeting format vary by area. Not intended to replace professional care.",
+  "name": "PFLAG",
+  "needs": [
+    "support",
+    "find-support"
+  ],
+  "official_url": "https://pflag.org/",
+  "platforms": [
+    "web",
+    "in-person"
+  ],
+  "privacy_notes": "Chapter locator involves sharing location details; the privacy policy was not reviewed in this screening.",
+  "publisher": "PFLAG National (nonprofit)",
+  "publisher_region": "US",
+  "reason": "Screened 2026-11-10: official homepage and Why PFLAG page confirmed live; mission of support, education, and advocacy, 1973 founding, nearly 400 chapters, and 200,000 supporters confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "US",
+    "Puerto Rico"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "peer-support",
+  "review_status": "screened",
+  "screening_gaps": [
+    "no explicit “free” statement on the reviewed pages (chapter meetings are peer support; verify before stating free access)",
+    "non-English availability not confirmed",
+    "effectiveness evidence not assessed",
+    "accessibility features not listed on the reviewed pages",
+    "privacy policy not reviewed"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+    "https://pflag.org/",
+    "https://pflag.org/why-pflag/"
+  ],
+  "status": "screened",
+  "tags": [
+    "lgbtq",
+    "families",
+    "allies",
+    "peer-support",
+    "support-groups",
+    "education",
+    "advocacy",
+    "free",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use",
+    "with-support"
+  ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "International fellowship with local groups; the reviewed site is the U.S./Canada General Service Office. Fit for contexts beyond the reviewed site not assessed.",
+    "source_notes": [
+      "https://www.aa.org/"
+    ]
+  },
+  "description": "Peer-support fellowship for people with a drinking problem, built on one alcoholic helping another, helping alcoholics recover for more than 80 years. Meetings are free and open to anyone with a desire to stop drinking, regardless of race, gender, sexual orientation, religion, income, or profession; the fellowship reports having helped more than two million alcoholics stop drinking.",
+  "evidence_notes": "Peer-support recovery model described by the fellowship; effectiveness of the program itself was not independently evaluated in this screening.",
+  "id": "alcoholics-anonymous",
+  "intended_population": [
+    "people with a drinking problem",
+    "families"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-10",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Peer support, not professional treatment or crisis intervention; meeting availability and format vary by local group. Not a substitute for professional care.",
+  "name": "Alcoholics Anonymous",
+  "needs": [
+    "support",
+    "find-support",
+    "substance-use"
+  ],
+  "official_url": "https://www.aa.org/",
+  "platforms": [
+    "web",
+    "in-person"
+  ],
+  "privacy_notes": "Anonymity practices were not confirmed from the reviewed page; the privacy policy was not reviewed in this screening.",
+  "publisher": "Alcoholics Anonymous (fellowship)",
+  "publisher_region": "US",
+  "reason": "Screened 2026-11-10: official homepage confirmed live; free peer-support fellowship, 80+ year history, and open-to-anyone-with-a-desire-to-stop-drinking scope confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "US",
+    "Canada"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "peer-support",
+  "review_status": "screened",
+  "screening_gaps": [
+    "non-English availability not confirmed from the reviewed pages",
+    "effectiveness evidence not assessed",
+    "accessibility features not listed on the reviewed page",
+    "privacy policy not reviewed",
+    "meeting formats and local availability vary by group",
+    "international scope beyond the U.S./Canada site not assessed"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+    "https://www.aa.org/"
+  ],
+  "status": "screened",
+  "tags": [
+    "alcohol",
+    "addiction",
+    "recovery",
+    "peer-support",
+    "support-groups",
+    "free",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use",
+    "with-support"
+  ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "U.S. caregiver organization based in Washington, DC. Fit for non-U.S. contexts not assessed.",
+    "source_notes": [
+      "https://caregiveraction.org/"
+    ]
+  },
+  "description": "Nonprofit supporting family caregivers (new, long-time, long-distance, working caregivers, and advocates) with resources, caregiver stories, and a Caregiver Help Desk at (855) 227-3640; also runs Help for Cancer Caregivers for those caring for a loved one with cancer.",
+  "evidence_notes": "Caregiver support and resource model described by the organization; effectiveness of the support itself was not independently evaluated in this screening.",
+  "id": "caregiver-action-network",
+  "intended_population": [
+    "caregivers",
+    "families"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-10",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Support and information, not professional counseling or crisis intervention; U.S.-focused; Help Desk hours not confirmed from the reviewed homepage. Not intended to replace professional care.",
+  "name": "Caregiver Action Network",
+  "needs": [
+    "support",
+    "find-support"
+  ],
+  "official_url": "https://caregiveraction.org/",
+  "platforms": [
+    "web",
+    "phone"
+  ],
+  "privacy_notes": "Contacting the Help Desk involves sharing personal details; the privacy policy was not reviewed in this screening.",
+  "publisher": "Caregiver Action Network (nonprofit)",
+  "publisher_region": "US",
+  "reason": "Screened 2026-11-10: official homepage confirmed live; caregiver support purpose, Caregiver Help Desk (855) 227-3640, and Washington DC base confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "US"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "resource-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+    "no explicit “free” statement on the reviewed homepage (nonprofit resource hub and Help Desk; verify before stating free access)",
+    "Help Desk hours not stated on the reviewed homepage",
+    "non-English availability not confirmed",
+    "effectiveness evidence not assessed",
+    "accessibility features not listed on the reviewed page",
+    "privacy policy not reviewed"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+    "https://caregiveraction.org/"
+  ],
+  "status": "screened",
+  "tags": [
+    "caregivers",
+    "families",
+    "support",
+    "resource-hub",
+    "help-desk",
+    "free",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use",
+    "with-support"
+  ]
 }
 ]
