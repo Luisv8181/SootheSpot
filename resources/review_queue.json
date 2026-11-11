@@ -25239,4 +25239,244 @@
     "with-support"
   ]
 }
+,
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "U.S.-based publisher (Sesame Workshop); resources are aimed at families and educators broadly. Fit for non-U.S. contexts not assessed.",
+    "source_notes": [
+      "https://sesamestreetincommunities.org/"
+    ]
+  },
+  "description": "Free resources, activities, and guidance from Sesame Workshop to support children's healthy development, including a section on helping children manage big feelings, building daily routines, supporting a child with autism, and navigating tough situations such as divorce, foster care, and grief. Aimed at parents, caregivers, and educators.",
+  "evidence_notes": "Publisher is Sesame Workshop, a nonprofit educational organization. No efficacy claims were evaluated in this screening.",
+  "id": "sesame-street-in-communities",
+  "intended_population": [
+    "children",
+    "families",
+    "caregivers",
+    "educators"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-11",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Caregiver- and educator-facing guidance for young children, not a self-help tool for adults in distress and not a substitute for professional care. Resources are organized by topic rather than as a structured program.",
+  "name": "Sesame Street in Communities",
+  "needs": [
+    "calm",
+    "understand"
+  ],
+  "official_url": "https://sesamestreetincommunities.org/",
+  "platforms": [
+    "Web"
+  ],
+  "privacy_notes": "Resources are freely readable on the site; no account noted for core content. Newsletter signup involves sharing an email address; data handling was not reviewed in this screening.",
+  "publisher": "Sesame Workshop",
+  "publisher_region": "US",
+  "reason": "Screened 2026-11-11: official resources page confirmed live; free family resources on managing big feelings, daily routines, autism support, and tough situations (divorce, foster care, grief) confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+    "Global; U.S.-based publisher."
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "resource-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+    "non-English availability not confirmed from the reviewed page",
+    "individual resources not evaluated",
+    "accessibility features not listed on the reviewed page",
+    "privacy policy not reviewed"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+    "https://sesamestreetincommunities.org/"
+  ],
+  "status": "screened",
+  "tags": [
+    "children",
+    "families",
+    "caregivers",
+    "emotional-regulation",
+    "big-feelings",
+    "grief",
+    "routines",
+    "free",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+},
+{
+  "access": [
+    "free",
+    "paid"
+  ],
+  "accessibility": [
+    "YouTube provides auto-captioning; accuracy varies. Verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Free YouTube library of yoga adventures, mindfulness videos (Zen Den), and guided meditations for children (Peace Out), including topics such as dealing with anxiety, nightmares, and big feelings. The publisher also sells a paid app subscription ($10/month or $65/year per the publisher homepage) with ad-free videos and exclusive content.",
+  "evidence_notes": "Publisher survey claims (used in 150,000 classrooms each week; 98.3% of teachers report improvements in children's focus and concentration) are the publisher's own survey figures and were not independently evaluated in this screening.",
+  "id": "cosmic-kids-yoga",
+  "intended_population": [
+    "children"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-11",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Free videos are hosted on YouTube, with advertising and algorithmic recommendations \u2014 flag for owner judgment. The paid app is a subscription, not a one-off purchase. Video-based movement content needs adult supervision for young children. Educational content, not therapy; does not replace professional care.",
+  "name": "Cosmic Kids Yoga",
+  "needs": [
+    "calm",
+    "practice",
+    "watch"
+  ],
+  "official_url": "https://www.youtube.com/@CosmicKidsYoga",
+  "platforms": [
+    "Web",
+    "iOS",
+    "Android"
+  ],
+  "privacy_notes": "Free videos are hosted on YouTube; viewing is subject to YouTube/Google data practices, which were not reviewed in this screening. The paid app's data practices were not reviewed.",
+  "publisher": "Cosmic Kids",
+  "reason": "Screened 2026-11-11: official YouTube channel confirmed live; free kids yoga adventures, Zen Den mindfulness videos, and Peace Out guided meditations confirmed from the primary source. Paid app subscription pricing confirmed from the publisher homepage. Ready for owner review before any promotion.",
+  "regions": [
+    "Global; English-language."
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "video",
+  "review_status": "screened",
+  "screening_gaps": [
+    "individual videos not evaluated",
+    "YouTube data practices not reviewed",
+    "paid app not individually reviewed",
+    "non-English availability not confirmed"
+  ],
+  "shelf": "watch",
+  "source_notes": [
+    "https://www.youtube.com/@CosmicKidsYoga",
+    "https://cosmickids.com/"
+  ],
+  "status": "screened",
+  "tags": [
+    "children",
+    "yoga",
+    "mindfulness",
+    "meditation",
+    "anxiety",
+    "movement",
+    "free",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+},
+{
+  "access": [
+    "free",
+    "paid"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "UK charity with international affiliate centres; the reviewed pages are English-language. Fit for non-UK contexts not assessed.",
+    "source_notes": [
+      "https://compassionatemind.co.uk/"
+    ]
+  },
+  "description": "UK charity founded in 2006 and home of Compassion Focused Therapy (CFT) and Compassionate Mind Training (CMT), led by Prof Paul Gilbert. The freely available section reviewed is an audio directory linking to podcast episodes about compassion, shame, self-criticism, and CFT, including episodes from 2025-2026. Structured workbooks and handouts are member-only.",
+  "evidence_notes": "Publisher is the charity home of Compassion Focused Therapy; the site describes CFT as research-based. Individual podcast episodes and effectiveness claims were not evaluated in this screening.",
+  "id": "compassionate-mind-foundation",
+  "intended_population": [
+    "general",
+    "adults"
+  ],
+  "languages": [
+    "English"
+  ],
+  "last_verified_at": "2026-11-11",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "The free section reviewed is a podcast directory (discussion and education), not guided practices. Structured workbooks, handouts, and the research database require paid membership (GBP 65/year); training workshops are priced separately. Informational only; does not replace professional care.",
+  "name": "Compassionate Mind Foundation",
+  "needs": [
+    "listen",
+    "understand",
+    "self-compassion"
+  ],
+  "official_url": "https://www.compassionatemind.co.uk/resource/audio",
+  "platforms": [
+    "Web"
+  ],
+  "privacy_notes": "Audio links point to external podcast platforms (Apple Podcasts, Spotify, and others); their data practices were not reviewed in this screening.",
+  "publisher": "The Compassionate Mind Foundation (UK charity)",
+  "publisher_region": "UK",
+  "reason": "Screened 2026-11-11: official site confirmed live; charity founded 2006, home of CFT/CMT, and free audio directory of CFT podcast episodes confirmed from the primary source. Member-only scope of workbooks confirmed from the homepage. Ready for owner review before any promotion.",
+  "regions": [
+    "Global; UK-based publisher."
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "audio-library",
+  "review_status": "screened",
+  "screening_gaps": [
+    "individual podcast episodes not evaluated",
+    "no free guided practices found on the reviewed pages",
+    "member-only materials not reviewed",
+    "accessibility features not listed on the reviewed pages",
+    "privacy policy not reviewed"
+  ],
+  "shelf": "listen",
+  "source_notes": [
+    "https://compassionatemind.co.uk/",
+    "https://www.compassionatemind.co.uk/resource/audio"
+  ],
+  "status": "screened",
+  "tags": [
+    "self-compassion",
+    "compassion-focused-therapy",
+    "shame",
+    "self-criticism",
+    "podcast",
+    "free",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+}
 ]
