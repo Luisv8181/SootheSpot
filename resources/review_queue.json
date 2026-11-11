@@ -25887,6 +25887,249 @@
       "use_context": [
         "independent-use"
       ]
-    }
+  },
+  {
+    "access": [
+      "free",
+      "paid"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary sources; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US publisher; a Google Play listing variant claims availability in 20+ languages, but per-language availability was not confirmed in this screening. Fit for non-English contexts not assessed.",
+      "source_notes": [
+        "https://resiliens.com/",
+        "https://play.google.com/store/apps/details?id=co.swasth.dbtcoach&hl=en_US"
+      ]
+    },
+    "description": "Dialectical Behavior Therapy (DBT) skills app: 100+ expert video lessons, 60+ animated skill guides, a DBT diary card with analytics, 100+ interactive worksheets, 1,000+ guided meditations, a crisis survival toolkit, and an AI-powered skills coach. Covers the four DBT modules (mindfulness, emotion regulation, distress tolerance, interpersonal effectiveness) and can share diary cards and exercises with a clinician through the publisher's companion platform.",
+    "evidence_notes": "Publisher claims the app is 'backed by clinical research', 'expert-reviewed, cited in journals', and that 'most users show measurable improvement within 90 days'. These are the publisher's claims and were not independently evaluated in this screening.",
+    "id": "dbt-coach-resiliens",
+    "intended_population": [
+      "general",
+      "adults"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-11",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Subscription required after the free trial: $11.99/month or $59.99/6 months. The app includes a streak/achievement motivation system, which conflicts with SootheSpot's no-streaks principle — the owner should weigh this. Publisher states the app complements, not replaces, professional therapy, and the AI coach is a skills-coaching tool, not a licensed therapist. Not a substitute for professional care.",
+    "name": "DBT Coach: Guided Therapy",
+    "needs": [
+      "practice",
+      "calm",
+      "understand"
+    ],
+    "official_url": "https://resiliens.com/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Publisher site states HIPAA-grade security for optional clinician sharing. The full privacy policy (linked from the store listing) and data practices were not reviewed in this screening.",
+    "publisher": "Resiliens, Inc.",
+    "reason": "Screened 2026-11-11: publisher site and Google Play listing confirmed live; publisher, DBT module scope, diary-card and therapist-integration features, free-trial/subscription pricing, and 4.3-star rating (2,298 ratings, listing updated 30 Sept 2026) confirmed from primary sources. Ready for owner review before any promotion.",
+    "regions": [
+      "Global via App Store / Google Play; English-language listing reviewed."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy and data practices not reviewed",
+      "per-language availability not confirmed",
+      "efficacy claims not independently evaluated",
+      "accessibility features not confirmed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://resiliens.com/",
+      "https://play.google.com/store/apps/details?id=co.swasth.dbtcoach&hl=en_US"
+    ],
+    "status": "screened",
+    "tags": [
+      "dbt",
+      "dialectical-behavior-therapy",
+      "emotion-regulation",
+      "distress-tolerance",
+      "mindfulness",
+      "interpersonal-effectiveness",
+      "diary-card",
+      "crisis-survival",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use",
+      "therapist-supported"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US military-origin content; techniques adapted from a combat-psychology book. The DHA fact sheet states the techniques are helpful to anyone under stressful conditions, but cultural fit beyond that statement was not assessed.",
+      "source_notes": [
+        "https://hothcoopcd4.health.mil/Reference-Center/Fact-Sheets/2025/07/18/Tactical-Breather-App-Fact-Sheet"
+      ]
+    },
+    "description": "Free app from the Defense Health Agency that teaches controlled breathing to gain control over physiological and psychological responses to stress. Simple layout with visual cues and exercises to practice controlled breathing and improve stress response; techniques adapted (with permission) from U.S. Army Lt. Col. Dave Grossman's book On Combat.",
+    "evidence_notes": "The DHA fact sheet describes the techniques as 'proven techniques tested in combat situations'. No cited studies appear on the reviewed page and none were evaluated in this screening.",
+    "id": "tactical-breather-dha",
+    "intended_population": [
+      "general",
+      "adults"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-11",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Military framing and combat-derived techniques may not suit all users. A breathing tool is a coping aid, not a substitute for professional care. The app-store listing (current version, ratings, pricing confirmation) was not reviewed this run — only the DHA fact sheet was.",
+    "name": "Tactical Breather",
+    "needs": [
+      "calm",
+      "practice"
+    ],
+    "official_url": "https://hothcoopcd4.health.mil/Reference-Center/Fact-Sheets/2025/07/18/Tactical-Breather-App-Fact-Sheet",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Privacy policy and data practices were not reviewed in this screening.",
+    "publisher": "Defense Health Agency (DHA), Solution Delivery Division",
+    "reason": "Screened 2026-11-11: DHA fact sheet (July 2025) confirmed live; publisher, free access, breathing-exercise scope, and anyone-may-use framing confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "US; free download via App Store / Google Play; DHA states the techniques are helpful to anyone under stressful conditions."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "app-store listing not reviewed (current version, ratings)",
+      "privacy policy and data practices not reviewed",
+      "accessibility features not confirmed",
+      "language availability not stated on the reviewed page"
+    ],
+    "shelf": "breathe",
+    "source_notes": [
+      "https://hothcoopcd4.health.mil/Reference-Center/Fact-Sheets/2025/07/18/Tactical-Breather-App-Fact-Sheet",
+      "https://mobile.health.mil"
+    ],
+    "status": "screened",
+    "tags": [
+      "breathing",
+      "breathwork",
+      "stress",
+      "stress-management",
+      "military",
+      "veterans",
+      "free",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US university programme offering secular mindfulness; fit for non-English or non-university contexts not assessed.",
+      "source_notes": [
+        "https://mindful.usc.edu/"
+      ]
+    },
+    "description": "Free mindfulness, compassion, and connection programme from the University of Southern California: classes, drop-in meditations, and online sessions taught by seasoned instructors, for students, faculty, and staff on and beyond campus.",
+    "evidence_notes": "No efficacy claims were evaluated in this screening; the reviewed page carries participant testimonials only.",
+    "id": "mindful-usc",
+    "intended_population": [
+      "general",
+      "adults"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-11",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Whether online sessions are open to the general public (not just USC students, faculty, and staff) is not stated on the reviewed homepage; schedule and registration details live on sub-pages not reviewed. Not a substitute for professional care.",
+    "name": "Mindful USC",
+    "needs": [
+      "practice",
+      "calm",
+      "understand"
+    ],
+    "official_url": "https://mindful.usc.edu/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Privacy policy and data practices were not reviewed in this screening.",
+    "publisher": "University of Southern California (USC)",
+    "reason": "Screened 2026-11-11: official site confirmed live; publisher, free offerings, and in-person plus online class/drop-in scope confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "US (USC campus, Los Angeles); online offerings described as 'on and beyond campus' — general-public eligibility not stated on the reviewed page."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "online-course",
+    "review_status": "screened",
+    "screening_gaps": [
+      "general-public eligibility for online sessions not confirmed",
+      "class schedule and registration not reviewed",
+      "privacy policy and data practices not reviewed",
+      "accessibility features not confirmed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://mindful.usc.edu/"
+    ],
+    "status": "screened",
+    "tags": [
+      "mindfulness",
+      "meditation",
+      "compassion",
+      "classes",
+      "free",
+      "university",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  }
 
 ]
