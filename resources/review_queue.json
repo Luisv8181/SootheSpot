@@ -26307,4 +26307,251 @@
     ]
   }
 
+,
+  {
+    "access": [
+      "free",
+      "paid"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US publisher (OPAL OS CORPORATION, Wilmington, DE). Fit for non-US contexts not assessed; gamified 'gems' and streak-style rewards may not suit every user.",
+      "source_notes": [
+        "https://opal.so/"
+      ]
+    },
+    "description": "Screen-time and focus app that blocks chosen apps and websites on phone and desktop, runs timed focus sessions (including a Deep Focus mode that cannot be cancelled early), and scores the day with an Opal Score combining sleep, focus, and rest signals. Gamified with collectible gems for focus milestones. Works on iOS, macOS, Android, and as a Chrome extension.",
+    "evidence_notes": "Publisher claims 94% less distracted, 93% more productive, and 90% improved mental health (publisher-reported survey figures; method not shown on the reviewed page) and time saved calculated from daily Screen Time before/after Opal for N=300,000+. No study was independently evaluated in this screening; habit-change evidence only, no clinical outcomes assessed.",
+    "id": "opal-screen-time",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-11",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Free tier is limited (one recurring session; Deep Focus, unlimited rules, and advanced timers are Pro features, per store listing and independent review). Pro is $99.99/year on the US App Store. Android version is weaker than iOS per independent review. Not a treatment for phone addiction or any mental-health condition. Not a substitute for professional care.",
+    "name": "Opal — Screen Time & Focus",
+    "needs": [
+      "practice",
+      "calm"
+    ],
+    "official_url": "https://opal.so/",
+    "platforms": [
+      "iOS",
+      "Android",
+      "macOS",
+      "Web"
+    ],
+    "privacy_notes": "Publisher states personal browsing data never leaves the device and the app works locally on the phone (per App Store description). Full privacy policy not reviewed in this screening.",
+    "publisher": "OPAL OS CORPORATION",
+    "reason": "Screened 2026-11-11: official site confirmed live; publisher (OPAL OS CORPORATION), screen-time blocking model, free-plus-Pro scope, iOS/Android/macOS/Chrome platforms, and Pro pricing confirmed from the primary source and the App Store listing. Ready for owner review before any promotion.",
+    "regions": [
+      "iOS, Android, macOS, and Chrome extension."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "accessibility features not confirmed",
+      "non-English availability not confirmed",
+      "free-tier limits confirmed via store listing and independent review, not the official site"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://opal.so/",
+      "https://apps.apple.com/us/app/opal-screen-time-control/id1497465230"
+    ],
+    "status": "screened",
+    "tags": [
+      "screen-time",
+      "attention",
+      "focus",
+      "impulse-control",
+      "doomscrolling",
+      "freemium",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "paid"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Publisher is Reflective Technologies ApS (Denmark). Content offered in 12 languages per the official site; cultural fit beyond language not assessed.",
+      "source_notes": [
+        "https://themindfulnessapp.com/"
+      ]
+    },
+    "description": "Guided meditation app with 500+ meditations, sleep stories, and courses across 20+ topics, in 12 supported languages. Publisher reports 6M+ downloads, 180M+ mindful minutes, and a 4.8/5 rating. Free tier plus a Premium subscription with a free trial.",
+    "evidence_notes": "Publisher-reported figures only (6M+ downloads, 4.8/5 from 56,000+ ratings, 180M+ mindful minutes). No clinical evidence claims on the reviewed page and no study independently evaluated in this screening.",
+    "id": "the-mindfulness-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-11",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Premium subscription is $79.99/year (US, per store listing); free-tier content scope not fully detailed on the reviewed page. Trial length differs between sources: the official site says 14 days free, the store listing says 7 days. Educational/self-care app; not a substitute for professional mental-health care.",
+    "name": "The Mindfulness App",
+    "needs": [
+      "listen",
+      "calm",
+      "sleep"
+    ],
+    "official_url": "https://themindfulnessapp.com/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Not reviewed in this screening; privacy policy not read.",
+    "publisher": "Reflective Technologies ApS",
+    "reason": "Screened 2026-11-11: official site confirmed live; publisher (Reflective Technologies ApS), meditation and course library, 12-language support, and Premium pricing confirmed from the primary source and store listings. Trial-length discrepancy noted. Ready for owner review before any promotion.",
+    "regions": [
+      "Worldwide; publisher based in Denmark."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "accessibility features not confirmed",
+      "full language list not confirmed",
+      "free-tier content scope not confirmed",
+      "trial length differs between official site (14 days) and store listing (7 days)"
+    ],
+    "shelf": "listen",
+    "source_notes": [
+      "https://themindfulnessapp.com/",
+      "https://play.google.com/store/apps/details?id=se.lichtenstein.mind.en"
+    ],
+    "status": "screened",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "sleep",
+      "stress",
+      "courses",
+      "freemium",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "paid"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "US publisher (Eighty Percent Solutions Corporation, Chapel Hill, NC). Fit for non-US contexts not assessed.",
+      "source_notes": [
+        "https://freedom.to/"
+      ]
+    },
+    "description": "App and website blocker that syncs blocking sessions across all of a user's devices: pick apps, websites, or the entire internet to block, schedule recurring sessions, and use Locked Mode to prevent quitting a session early. Includes preset and custom blocklists, website exceptions, ambient focus sounds and music (including Brain.fm tracks and pomodoro sessions), and educational resources on overcoming distraction. Available on macOS, Windows, iOS, Android, Chromebook, and Linux.",
+    "evidence_notes": "Publisher claims 3.5M+ users worldwide and 2.5 hours of additional focused time per day; no study was independently evaluated in this screening. Publisher states it does not track personal user activity. Habit-change evidence only, no clinical outcomes assessed.",
+    "id": "freedom-app-website-blocker",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-11",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Free tier has limited features; Premium is $39.99/year (per official site and store listings). Not a treatment for phone addiction or any mental-health condition. Not a substitute for professional care.",
+    "name": "Freedom — App & Website Blocker",
+    "needs": [
+      "practice",
+      "calm"
+    ],
+    "official_url": "https://freedom.to/",
+    "platforms": [
+      "iOS",
+      "Android",
+      "macOS",
+      "Windows",
+      "Linux",
+      "Web"
+    ],
+    "privacy_notes": "Publisher states it does not track any personal user activity (per official site FAQ). Full privacy policy not reviewed in this screening.",
+    "publisher": "Eighty Percent Solutions Corporation",
+    "reason": "Screened 2026-11-11: official site confirmed live; publisher (Eighty Percent Solutions Corporation), cross-device blocking model, free-plus-Premium scope, six-platform availability, and Premium pricing confirmed from the primary source and store listings. Ready for owner review before any promotion.",
+    "regions": [
+      "macOS, Windows, iOS, Android, Chromebook, and Linux; 3.5M+ users worldwide per publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "accessibility features not confirmed",
+      "non-English availability not confirmed",
+      "free-tier feature limits not detailed on the reviewed page"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://freedom.to/",
+      "https://apps.apple.com/us/app/freedom-screen-time-control/id1269788228"
+    ],
+    "status": "screened",
+    "tags": [
+      "screen-time",
+      "attention",
+      "focus",
+      "impulse-control",
+      "doomscrolling",
+      "website-blocker",
+      "freemium",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  }
 ]
