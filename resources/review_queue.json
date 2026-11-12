@@ -26866,4 +26866,170 @@
       "independent-use"
     ]
   }
+,
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "No accessibility statement found on the reviewed pages; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Developed in the UK by a University of the West of England research team with Bristol-based digital studio MyOxygen; cultural fit beyond a UK English-speaking audience not assessed.",
+      "source_notes": [
+        "https://sam-app.org.uk/"
+      ]
+    },
+    "description": "Free, non-profit, ad-free self-help app to help monitor and manage anxiety, depression and loneliness. Offers guided self-help techniques organised into wellbeing themes, mood tracking and charting over time, trigger recording, and a Social Cloud where users give and receive peer support. Content is informed by clinical best practice and academic research; institutions can unlock additional content with a usage code.",
+    "evidence_notes": "Two peer-reviewed publications listed on the project's research page: Matthews, Topham and Caleb-Solly (2018), interaction and engagement analysis using large-scale behavioural data, JMIR Mental Health; Topham et al. (2015), app design from concept to completion, MobileHCI 2015. The app presents self-help content informed by established psychological principles and states it does not offer clinical diagnoses or therapy programmes. No independent efficacy evaluation of the current version was reviewed in this screening.",
+    "id": "sam-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English (per the reviewed pages)"
+    ],
+    "last_verified_at": "2026-11-12",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Downloads are paused: the official site states (28 July 2026) that downloads were paused for a short time while a hosting issue is resolved, so the app cannot currently be downloaded from the stores. The app is currently unfunded. It does not offer clinical diagnoses or therapy programmes. Google Play rating 3.4 from 48 reviews (per a stale listing copy crawled 2025-10-21). Features were not tested hands-on in this screening.",
+    "name": "Self-help App for the Mind (SAM)",
+    "needs": [
+      "practice",
+      "understand",
+      "calm"
+    ],
+    "official_url": "https://sam-app.org.uk/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Google Play data-safety section (stale copy crawled 2025-10-21) states no data is shared with third parties; the app may collect personal info, health and fitness data and other types; data is encrypted in transit and users can request deletion. Full privacy policy not reviewed in this screening.",
+    "publisher": "Mind Garden Technology C.I.C. (developed by a University of the West of England research team with Bristol-based digital studio MyOxygen)",
+    "reason": "Screened 2026-11-12: official site, research page and Google Play listing confirmed live; publisher (Mind Garden Technology C.I.C. / UWE team), free and ad-free access, anxiety/depression/loneliness self-help purpose, mood-tracking and Social Cloud feature set, and two peer-reviewed publications confirmed from primary sources. Downloads paused since 28 July 2026 (hosting issue) is recorded as a limitation. Ready for owner review before any promotion.",
+    "regions": [
+      "United Kingdom (developed in the UK); app-store availability outside the UK not verified in this screening."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "app-store listings not fetched live this run (Play copy is a stale 2025-10-21 crawl)",
+      "privacy policy not reviewed",
+      "accessibility not confirmed",
+      "features not tested hands-on",
+      "download-pause resolution not confirmed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://sam-app.org.uk/",
+      "https://mindgarden-tech.co.uk/research",
+      "https://play.google.com/store/apps/details?id=uk.co.mindgardentech.sam"
+    ],
+    "status": "screened",
+    "tags": [
+      "anxiety",
+      "depression",
+      "loneliness",
+      "mood-tracking",
+      "self-help",
+      "peer-support",
+      "social-cloud",
+      "free",
+      "nonprofit",
+      "uk"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "No accessibility statement found on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Developed by the U.S. VA and DoD for U.S. Veteran and Service Member parents; framing reflects a U.S. military family context. Fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://www.veterantraining.va.gov/parenting/"
+      ]
+    },
+    "description": "Free companion app and online course (Parenting for Service Members and Veterans) for Veteran and Service Member parents, with on-the-go tools to strengthen parenting skills and reconnect with children after deployment or anytime. Course sections cover child development milestones, feelings, communication, coping with challenges, discipline, and sources of help. The app may be used alone or with the more comprehensive online course.",
+    "evidence_notes": "VA describes the app as evidence-based; the underlying course content was developed by a committee of parenting experts, researchers and clinicians from VA, DoD and several academic institutions (per the 2014 provider flyer). Owen et al. (2018, mHealth) covers VA mobile apps for PTSD and related problems including Parenting2Go. No independent efficacy evaluation of Parenting2Go itself was reviewed in this screening.",
+    "id": "parenting2go-va",
+    "intended_population": [
+      "parents",
+      "families"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-12",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Parenting and family-reconnection scope, not general emotional regulation; the reviewed page centers the online course, with the app as its companion. The app's current store availability was not verified live in this screening (2014-2015 materials say iTunes; Android availability unconfirmed). The course states it is not intended to replace treatment by a healthcare professional and is not designed to fulfill court requirements. Features were not tested hands-on in this screening.",
+    "name": "Parenting2Go",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://www.veterantraining.va.gov/parenting/",
+    "platforms": [
+      "iOS"
+    ],
+    "privacy_notes": "Privacy policy and data practices not reviewed in this screening; the reviewed page does not state data-handling terms for the course or app.",
+    "publisher": "U.S. Department of Veterans Affairs and U.S. Department of Defense (led by VA Mental Health Services, DoD National Center for Telehealth and Technology (T2), and VA National Center for PTSD)",
+    "reason": "Screened 2026-11-12: official VA Veteran Training page confirmed live (last updated January 29, 2026); publisher (VA/DoD collaboration), free access, parenting and family-reconnection purpose, feelings/communication/coping course sections, and the not-a-replacement-for-treatment scope confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United States; developed for U.S. Veterans and Service Members and their families."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "app-store listings not fetched live this run",
+      "Android availability not confirmed",
+      "privacy policy not reviewed",
+      "accessibility not confirmed",
+      "features not tested hands-on"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.veterantraining.va.gov/parenting/"
+    ],
+    "status": "screened",
+    "tags": [
+      "parenting",
+      "veterans",
+      "service-members",
+      "family",
+      "feelings",
+      "communication",
+      "coping",
+      "free",
+      "va",
+      "dod"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  }
 ]
