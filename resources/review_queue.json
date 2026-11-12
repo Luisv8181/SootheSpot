@@ -26706,5 +26706,164 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "No accessibility statement found on the reviewed page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Developed by the U.S. VA National Center for PTSD with DoD DHA Connected Health; framing reflects a U.S. military/Veteran clinical context. Fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://www.PTSD.VA.GOV/appvid/mobile/cptcoach_app_public.asp"
+      ]
+    },
+    "description": "Free mobile app for people in Cognitive Processing Therapy (CPT) with a mental health provider. CPT is an evidence-based talk therapy for PTSD that helps people evaluate and change upsetting thoughts about their trauma. The app offers CPT education, mobile versions of CPT worksheets and reading assignments, PTSD symptom tracking, a practice plan for assignments, and reminders to complete homework and attend sessions.",
+    "evidence_notes": "Cognitive Processing Therapy is an evidence-based psychotherapy for PTSD; the VA page states CPT has been shown to be one of the most effective treatments for PTSD. The app is presented as a treatment companion, not a treatment itself. No independent evaluation of the app itself was reviewed in this screening.",
+    "id": "cpt-coach-va",
+    "intended_population": [
+      "adults"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-12",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Not a self-help tool: the official page states it should only be used by people in CPT treatment with a therapist trained in Cognitive Processing Therapy, and that it does not replace treatment. PTSD requires professional evaluation and treatment. Features were not tested hands-on in this screening.",
+    "name": "CPT Coach",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://www.PTSD.VA.GOV/appvid/mobile/cptcoach_app_public.asp",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Official page states any data created in the app is only as secure as the phone or device itself and recommends a device passcode; users may export worksheets and symptom assessments. The page states the app does not share information with the VA or the provider. Full privacy policy not reviewed in this screening.",
+    "publisher": "U.S. Department of Veterans Affairs, VA National Center for PTSD (with VA Sierra Pacific (VISN 21) MIRECC and DoD DHA Connected Health)",
+    "reason": "Screened 2026-11-12: official VA National Center for PTSD page confirmed live; publisher (VA National Center for PTSD with VISN 21 MIRECC and DHA Connected Health), free access, CPT treatment-companion purpose, feature set, on-device privacy note, and the therapist-only scope confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Publicly available on app stores; developed for U.S. Veterans, service members, and others in CPT with a therapist."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "app-store listings not fetched live this run",
+      "privacy policy not reviewed",
+      "accessibility not confirmed",
+      "features not tested hands-on"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.PTSD.VA.GOV/appvid/mobile/cptcoach_app_public.asp"
+    ],
+    "status": "screened",
+    "tags": [
+      "cpt",
+      "cognitive-processing-therapy",
+      "ptsd",
+      "trauma",
+      "worksheets",
+      "symptom-tracking",
+      "va",
+      "therapist-supported"
+    ],
+    "use_context": [
+      "therapist-supported"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "No accessibility statement found on the reviewed pages; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Independent Australian developer; cultural fit beyond an English-speaking general audience not assessed.",
+      "source_notes": [
+        "https://whats-up-47564.web.app/"
+      ]
+    },
+    "description": "Free app using CBT (Cognitive Behavioural Therapy) and ACT (Acceptance Commitment Therapy) methods to help cope with depression, anxiety, anger, stress and more. Features include a grounding game with over 100 questions, 12 common negative thinking patterns with methods to overcome them, 10 coping metaphors, a diary exportable as PDF, positive and negative habit tracking, a catastrophe scale, three breathing techniques, quotes and affirmations, and local data backups. All major features are free with no ads.",
+    "evidence_notes": "App presents CBT and ACT methods; no efficacy claims or independent evaluations were reviewed in this screening. App Store rating 4.5 from 366 ratings (per the fetched listing); not an evidence assessment.",
+    "id": "whats-up-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-12",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Single independent developer; no clinical oversight stated. In-app purchases exist for donations, themes, and cloud backups, though the publisher states all major features are free. The App Store listing advises seeking a doctor's advice in addition to using the app and before making medical decisions. Not a substitute for professional care. Features were not tested hands-on in this screening.",
+    "name": "What's Up? A Mental Health App",
+    "needs": [
+      "practice",
+      "calm",
+      "understand"
+    ],
+    "official_url": "https://whats-up-47564.web.app/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "App Store privacy labels state data collected (contact info, usage data, diagnostics) is not linked to the user's identity. The app offers local backups of user data. Full privacy policy and terms not reviewed in this screening.",
+    "publisher": "Jackson Tempra (independent developer, Australia)",
+    "reason": "Screened 2026-11-12: official site and App Store listing confirmed live; developer (Jackson Tempra), free access with no ads on major features, CBT/ACT feature set, and 13+ age rating confirmed from primary sources. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; developer based in Australia, app-store availability outside the U.S. not verified in this screening."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy and terms not reviewed",
+      "accessibility not confirmed",
+      "features not tested hands-on",
+      "Android listing not fetched live this run"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://whats-up-47564.web.app/",
+      "https://apps.apple.com/us/app/whats-up-a-mental-health-app/id968251160"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "act",
+      "grounding",
+      "thinking-patterns",
+      "habit-tracker",
+      "diary",
+      "breathing",
+      "free",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
