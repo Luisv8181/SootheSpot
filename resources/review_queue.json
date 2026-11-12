@@ -26553,5 +26553,158 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "No accessibility statement found on the fetched homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "U.S.-based Healthline Media publisher; fit for non-U.S. contexts not assessed.",
+      "source_notes": [
+        "https://psychcentral.com/"
+      ]
+    },
+    "description": "Free mental-health editorial library covering conditions including ADHD, anxiety, bipolar disorder, depression, PTSD, and schizophrenia, with articles, quizzes, podcasts (Inside Mental Health, Inside Bipolar), and a Find a Therapist directory link.",
+    "evidence_notes": "Editorial site published by Healthline Media; articles summarize research and clinical information per the publisher. Individual articles were not evaluated in this screening.",
+    "id": "psych-central",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-12",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Informational only; the footer states the site does not provide medical advice, diagnosis, or treatment. Articles vary in depth and recency and were not individually evaluated. Advertising and tracking present per the page's privacy notice.",
+    "name": "Psych Central",
+    "needs": [
+      "read",
+      "understand"
+    ],
+    "official_url": "https://psychcentral.com/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Articles, quizzes, and podcasts freely readable with no paywall visible on the homepage; newsletter signup is free. Privacy policy and data practices were not reviewed in this screening.",
+    "publisher": "Psych Central, a Healthline Media Company (RVO Health)",
+    "reason": "Screened 2026-11-12: official homepage confirmed live; publisher (Healthline Media / RVO Health), free readable articles, quizzes, and podcasts, condition coverage, and the informational-only disclaimer confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; U.S.-based publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "article-library",
+    "review_status": "screened",
+    "screening_gaps": [
+      "individual articles not evaluated",
+      "privacy policy and data practices not reviewed",
+      "accessibility not confirmed"
+    ],
+    "shelf": "read",
+    "source_notes": [
+      "https://psychcentral.com/"
+    ],
+    "status": "screened",
+    "tags": [
+      "psychoeducation",
+      "mental-health-conditions",
+      "articles",
+      "podcasts",
+      "quizzes",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "No accessibility statement found on the fetched homepage; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "Content available in English and Spanish per the homepage EN/ES language toggle; cultural fit beyond that not assessed.",
+      "source_notes": [
+        "https://www.madeofmillions.com/"
+      ]
+    },
+    "description": "Global mental-health advocacy nonprofit (501(c)(3), also a national charity in Canada) publishing stigma-fighting stories, videos, and learning content on conditions including OCD, generalized anxiety, panic disorder, PTSD, and social anxiety, plus screening tools and the Made Academy learning series.",
+    "evidence_notes": "Nonprofit advocacy organization; learning content is presented with licensed-therapist hosts per the site. Individual resources were not evaluated in this screening.",
+    "id": "made-of-millions-foundation",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "last_verified_at": "2026-11-12",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "No 'not a substitute for professional care' disclaimer was visible on the homepage - flag for owner judgment. Advocacy and education content; not a treatment service. Donate and Shop Merch links present; prices not reviewed. Individual resources not evaluated.",
+    "name": "Made of Millions Foundation",
+    "needs": [
+      "read",
+      "understand",
+      "watch"
+    ],
+    "official_url": "https://www.madeofmillions.com/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Reading and watching content presented without a paywall on the homepage; a 'Join the community' signup modal appears. The signup panel states the nonprofit does not sell personal data to third parties. Full privacy policy not reviewed in this screening.",
+    "publisher": "Made of Millions Foundation (501(c)(3) nonprofit; also a national charity in Canada)",
+    "reason": "Screened 2026-11-12: official homepage confirmed live; publisher (501(c)(3) nonprofit, also a Canadian national charity), EN/ES content, condition coverage, screening tools, and Made Academy confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; U.S. and Canada-based nonprofit."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "article-library",
+    "review_status": "screened",
+    "screening_gaps": [
+      "no professional-care disclaimer visible on homepage",
+      "privacy policy not reviewed",
+      "individual resources not evaluated",
+      "accessibility not confirmed"
+    ],
+    "shelf": "read",
+    "source_notes": [
+      "https://www.madeofmillions.com/"
+    ],
+    "status": "screened",
+    "tags": [
+      "advocacy",
+      "stigma",
+      "ocd",
+      "anxiety",
+      "ptsd",
+      "psychoeducation",
+      "screening-tools",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
