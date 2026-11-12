@@ -26130,6 +26130,181 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "free",
+      "paid"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Barcelona-based publisher (riedel.wtf apps S.L.); research cited from the Max Planck Institute and Heidelberg University, with validation by German and Danish authorities. Fit for non-European contexts not assessed.",
+      "source_notes": [
+        "https://one-sec.app/"
+      ]
+    },
+    "description": "Screen-time app that adds a short friction pause (deep breath, 4-7-8 breathing, mirror, rotate phone, and other interruptions) before a distracting app opens, so the user chooses intentionally instead of scrolling on muscle memory. Also offers app and website blocking, a doomscroll emergency brake, healthy alternatives, journaling, intention tracking, and emotion tracking. Works on iOS and Android and as a browser extension.",
+    "evidence_notes": "Publisher cites peer-reviewed studies with the Max Planck Institute and Heidelberg University, including Gruning et al. (2023, PNAS) on directing smartphone use, a 2024 CHI longitudinal study, and a 2025 Danish field experiment; claims 57% fewer app openings on average. No study was independently evaluated in this screening; habit-change evidence only, no clinical outcomes assessed.",
+    "id": "one-sec",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English (per the reviewed page)"
+    ],
+    "last_verified_at": "2026-11-11",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Free tier covers one app; unlimited apps, website blocking, and strict blocks require one sec Pro ($19.99/year or $6.99/month on the US App Store; prices vary by region). Not a treatment for phone addiction or any mental-health condition. Not a substitute for professional care.",
+    "name": "one sec | screen time + focus",
+    "needs": [
+      "practice",
+      "calm"
+    ],
+    "official_url": "https://one-sec.app/",
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "privacy_notes": "Publisher states intervention logic runs locally on the device, with no profiling and no data selling, and usage data kept offline or in a private cloud. Full privacy policy not reviewed in this screening.",
+    "publisher": "riedel.wtf apps S.L.",
+    "reason": "Screened 2026-11-11: official site confirmed live; publisher (riedel.wtf apps S.L.), friction-pause model, free-plus-Pro scope, iOS/Android/browser-extension platforms, and cited peer-reviewed studies confirmed from the primary source and the App Store listing. Ready for owner review before any promotion.",
+    "regions": [
+      "iOS, Android, and browser extension (Windows, macOS, Linux); team and school licenses offered."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "accessibility features not confirmed",
+      "non-English availability not confirmed",
+      "Android store listing not reviewed directly"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://one-sec.app/",
+      "https://apps.apple.com/us/app/one-sec-screen-time-focus/id1532875441"
+    ],
+    "status": "screened",
+    "tags": [
+      "screen-time",
+      "attention",
+      "impulse-control",
+      "doomscrolling",
+      "breathing",
+      "journaling",
+      "freemium",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "paid"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Taiwan-based publisher (SEEKRTECH CO., LTD.); app offered in 14 languages per the App Store listing. Fit for specific cultural contexts not assessed.",
+      "source_notes": [
+        "https://www.forestapp.cc/"
+      ]
+    },
+    "description": "Gamified focus timer: plant a virtual tree at the start of a focus session; it grows while you stay focused and withers if you leave for another app. Includes Deep Focus app blocking, Time Guard scheduled blocks, Mindful Space guided-breathing soundscapes, focus analytics, group Plant Together sessions, and ambient sounds. Earned coins fund real tree planting through Trees for the Future (2M+ planted).",
+    "evidence_notes": "No efficacy or clinical claims were evaluated in this screening. Publisher cites 60M+ users since 2014 and a 4.8 App Store rating, and references Ward et al. (2017) on smartphone presence and cognitive capacity. The page states Forest is not a medical treatment for ADHD and is a behavioral tool, not a clinical treatment for phone addiction.",
+    "id": "forest-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English",
+      "Arabic",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean",
+      "Portuguese",
+      "Russian",
+      "Simplified Chinese",
+      "Spanish",
+      "Thai",
+      "Traditional Chinese",
+      "Turkish"
+    ],
+    "last_verified_at": "2026-11-11",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Free tier includes the core focus experience, Deep Focus blocking, Time Guard for one app/site, and one Mindful Space soundscape; Plus unlocks the full library, analytics, and multi-app blocks (price varies by region and platform; US App Store lists Plus from $5.99/month and $35.99/year early-bird). Not a substitute for professional care.",
+    "name": "Forest: Focus for Productivity",
+    "needs": [
+      "practice",
+      "calm"
+    ],
+    "official_url": "https://www.forestapp.cc/",
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "privacy_notes": "App Store listing states data used to track users may include contact info and usage data, and data linked to identity may include purchases, contact info, user content, identifiers, usage data, and diagnostics. Full privacy policy (forestapp.cc/privacy/) not reviewed in this screening.",
+    "publisher": "SEEKRTECH CO., LTD.",
+    "reason": "Screened 2026-11-11: official site confirmed live; publisher (SEEKRTECH CO., LTD.), focus-timer-plus-blocking model, Free vs Plus scope, 14-language availability, and iOS/Android/browser platforms confirmed from the primary source and the App Store listing. Ready for owner review before any promotion.",
+    "regions": [
+      "Top productivity app in 136 countries per the App Store listing; Plus pricing varies by region and platform."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy and data practices not reviewed",
+      "accessibility features not confirmed",
+      "Android store listing not reviewed directly",
+      "Plus pricing varies by region and was not pinned to a single figure"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.forestapp.cc/",
+      "https://apps.apple.com/app/apple-store/id866450515?pt=690486&ct=features_bottom&mt=8"
+    ],
+    "status": "screened",
+    "tags": [
+      "focus",
+      "screen-time",
+      "attention",
+      "digital-detox",
+      "breathing",
+      "pomodoro",
+      "freemium",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 
 ]
