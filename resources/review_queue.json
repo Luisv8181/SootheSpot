@@ -27255,5 +27255,259 @@
       "independent-use",
       "with-support"
     ]
+  },
+  {
+    "access": [
+      "paid",
+      "in-app-purchases"
+    ],
+    "accessibility": [
+      "No formal accessibility statement reviewed on the page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "Interface available in English, French, Russian and Simplified Chinese per the App Store listing; no cultural-adaptation claims on the reviewed pages.",
+      "source_notes": [
+        "https://www.imoodjournal.com/",
+        "https://itunes.apple.com/app/imoodjournal-moodjournal/id517952128?mt=8"
+      ]
+    },
+    "description": "Mood diary and journaling app: rate overall well-being on a customizable 10-grade scale, tag entries with smart hashtags (including quantitative tags such as #sleep:8h), attach self-portrait photos, and review mood trends on daily, weekly, monthly and landscape charts. Built-in reminders, passcode lock, iCloud/Dropbox backup, and CSV/PDF export to share records with a therapist.",
+    "evidence_notes": "Featured in the New York Times and NY Daily News; named one of Healthline's Best Bipolar Disorder Apps of 2019; recommended by a Psych Central expert review; 4.4 stars from 175 App Store ratings. No peer-reviewed evaluation of the app itself was reviewed in this screening.",
+    "id": "imoodjournal",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English",
+      "French",
+      "Russian",
+      "Simplified Chinese"
+    ],
+    "last_verified_at": "2026-11-12",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Paid app ($2.99, plus optional in-app purchases such as Avatars at $1.99). A mood diary is a self-monitoring tool, not a treatment or a diagnostic instrument. Android availability not confirmed: the Google Play link in the publisher's own tutorial PDF returned 404 in this screening. Features were not tested hands-on in this screening.",
+    "name": "iMoodJournal",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://www.imoodjournal.com/",
+    "platforms": [
+      "iOS"
+    ],
+    "privacy_notes": "Data stays on the device with optional iCloud/Dropbox backup; in-app passcode lock available. App Store privacy labels state identifiers, usage data and diagnostics may be used to track users across apps and websites; the privacy policy was not reviewed in detail in this screening.",
+    "publisher": "Inexika Inc.",
+    "reason": "Screened 2026-11-12: official site and App Store listing confirmed live; publisher Inexika Inc., $2.99 price, iOS 15+ with Apple Watch, four languages, passcode lock and CSV/PDF export confirmed from primary sources. Ready for owner review before any promotion.",
+    "regions": [
+      "Worldwide via the Apple App Store; availability in other store regions not verified."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "android availability not confirmed (official Play link 404)",
+      "privacy policy not reviewed in detail",
+      "accessibility statement not confirmed",
+      "features not tested hands-on",
+      "no peer-reviewed evaluation reviewed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.imoodjournal.com/",
+      "https://itunes.apple.com/app/imoodjournal-moodjournal/id517952128?mt=8"
+    ],
+    "status": "screened",
+    "tags": [
+      "mood-tracking",
+      "mood-diary",
+      "journaling",
+      "self-monitoring",
+      "paid",
+      "ios",
+      "apple-watch"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "No formal accessibility statement reviewed on the page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "UK service directory; no cultural-adaptation claims on the reviewed page.",
+      "source_notes": [
+        "https://hubofhope.co.uk/"
+      ]
+    },
+    "description": "The UK's largest mental health support directory, provided by national charity Chasing the Stigma: search tens of thousands of local, national, peer, community, charity, private and NHS mental health services, filtered by need and location (postcode or geolocation), with a Need Help Now route to urgent help. Free app for iOS and Android, plus a web directory.",
+    "evidence_notes": "Provided by national mental health charity Chasing the Stigma, established 2017; adopted as the official community signposting partner by NHS trusts (Cheshire and Wirral Partnership; Derbyshire Healthcare). Publisher states almost 1 million people have been helped since 2017 and over 300,000 people a year find help through it. No independent evaluation of outcomes was reviewed in this screening.",
+    "id": "hub-of-hope",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-12",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "UK-only service directory; it signposts to services rather than providing care itself. Not a substitute for professional help or emergency services. Features were not tested hands-on in this screening.",
+    "name": "Hub of Hope",
+    "needs": [
+      "find-support"
+    ],
+    "official_url": "https://hubofhope.co.uk/",
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "privacy_notes": "Privacy policy not reviewed in this screening; the directory asks for a postcode or location to find nearby services.",
+    "publisher": "Chasing the Stigma",
+    "reason": "Screened 2026-11-12: official Hub of Hope page confirmed live; publisher Chasing the Stigma, free access, UK-wide directory of tens of thousands of services, iOS/Android/Web, geolocation search and urgent-help route confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United Kingdom (services directory covers the UK only)"
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "service-directory",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed",
+      "accessibility statement not confirmed",
+      "features not tested hands-on",
+      "language coverage beyond English not confirmed",
+      "service-listing currency not verified"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://hubofhope.co.uk/"
+    ],
+    "status": "screened",
+    "tags": [
+      "service-directory",
+      "find-support",
+      "uk",
+      "free",
+      "nhs",
+      "charity",
+      "signposting"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "in-app-purchases"
+    ],
+    "accessibility": [
+      "No formal accessibility statement reviewed on the page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "Interface available in English, French, German, Japanese, Korean, Russian, Simplified Chinese and Spanish per the App Store listing; no cultural-adaptation claims on the reviewed pages.",
+      "source_notes": [
+        "https://moodistory.com/",
+        "https://apps.apple.com/us/app/emotion-tracker-moodistory/id1335347860"
+      ]
+    },
+    "description": "Low-effort mood tracker and emotion journal: swipe to set mood on a customizable 2- to 11-point scale, tap icons from 180+ activities and events, add notes and photos, and review patterns with a Year in Pixels calendar, analytics and on-device PDF/CSV export. No registration; diary data is stored only on the device. Apple Watch and Apple Health integration.",
+    "evidence_notes": "Actively maintained: iOS version 3.5.2 released August 2, 2026 and Android updated June 27, 2026 per the publisher's update news and store listings; App Store 'App of the Day' and 'Best of 2023' badges shown on the homepage; 4.8 stars from 936 App Store ratings (4.48 stars from 867 Google Play ratings); publisher homepage cites 4.7 stars, 2,400+ ratings and 25,000+ active users. No peer-reviewed evaluation of the app itself was reviewed in this screening.",
+    "id": "moodistory",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English",
+      "French",
+      "German",
+      "Japanese",
+      "Korean",
+      "Russian",
+      "Simplified Chinese",
+      "Spanish"
+    ],
+    "last_verified_at": "2026-11-12",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "A mood tracker is a self-monitoring tool, not a treatment or a diagnostic instrument. Free with in-app purchases (Premium tiers $2.99-$39.99 per the App Store listing); paid features were not itemized in this screening. Features were not tested hands-on in this screening.",
+    "name": "Moodistory",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://moodistory.com/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Publisher states mood data is stored only on the user's device, never on external servers and never shared with third parties; no registration required. Optional backups go to the user's own iCloud or Google Drive. The privacy policy (moodistory.com/privacypolicy/) was not reviewed in detail in this screening.",
+    "publisher": "Matoph Labs e.U.",
+    "reason": "Screened 2026-11-12: official site and both store listings confirmed live; publisher Matoph Labs e.U. (Vienna), free with in-app purchases, iOS/Android with Apple Watch and Apple Health, on-device-only data with no registration, actively updated (iOS 3.5.2, August 2, 2026) confirmed from primary sources. Ready for owner review before any promotion.",
+    "regions": [
+      "Worldwide via Apple App Store and Google Play; publisher based in Vienna, Austria."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "privacy policy not reviewed in detail",
+      "accessibility statement not confirmed",
+      "features not tested hands-on",
+      "paid-feature details not itemized",
+      "no peer-reviewed evaluation reviewed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://moodistory.com/",
+      "https://apps.apple.com/us/app/emotion-tracker-moodistory/id1335347860",
+      "https://play.google.com/store/apps/details?id=com.matoph.moodistory&hl=en_ZA"
+    ],
+    "status": "screened",
+    "tags": [
+      "mood-tracking",
+      "mood-diary",
+      "journaling",
+      "privacy-first",
+      "on-device",
+      "free",
+      "ios",
+      "android",
+      "apple-watch"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
