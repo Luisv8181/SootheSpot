@@ -28116,5 +28116,179 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "free",
+      "paid"
+    ],
+    "accessibility": [
+      "No accessibility features confirmed from the publisher page in this screening; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation or translation claims found on the homepage; content in English per the site.",
+      "source_notes": [
+        "https://mindfulness.com/"
+      ]
+    },
+    "description": "Meditation and mindfulness app with 2,000+ guided meditations, daily personalised mindfulness coaching, courses, timers, sleep meditations and soundscapes, taught by well-known teachers including Tara Brach, Jon Kabat-Zinn, Kristin Neff, Jack Kornfield and Sharon Salzberg. 1M+ members; App Store 4.8 stars, Google Play 4.6 stars.",
+    "evidence_notes": "Publisher homepage states mindfulness 'is shown to help improve quality of life as much as leading approaches like Cognitive Behavioral Therapy (CBT) and SSRI antidepressants' without citing a specific study on the page. Member-survey figures quoted on the page (75% improved happiness, 91% feel less stressed, 84% feel less anxious) are self-reported from an internal survey of paying members, not independent evidence. No specific peer-reviewed study was reviewed in this screening.",
+    "id": "mindfulness-com-meditation-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-13",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Subscription app: 7-day free trial, then Basics $24.99/year or Plus+ $84.99/year; a payment method is required to start the trial and it renews automatically unless cancelled before day 7. Basics includes only limited sleep content; the full library needs Plus+. 30-day money-back guarantee on first payment. Meditation/mindfulness app, not a treatment and not a replacement for professional care. Features not tested hands-on.",
+    "name": "Mindfulness.com Meditation App",
+    "needs": [
+      "calm",
+      "stress",
+      "anxiety",
+      "sleep",
+      "practice"
+    ],
+    "official_url": "https://mindfulness.com/",
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "privacy_notes": "Privacy practices were not reviewed beyond the homepage in this screening.",
+    "publisher": "Mindfulness.com",
+    "reason": "Screened 2026-11-13: official mindfulness.com page confirmed live - 2,000+ guided meditations, daily coaching and sleep content from named teachers (Tara Brach, Jon Kabat-Zinn, Kristin Neff, Jack Kornfield); 7-day free trial then $24.99 or $84.99/year; 1M+ members. Ready for owner review before any promotion.",
+    "regions": [
+      "Worldwide via the App Store and Google Play; web at mindfulness.com."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "legal publisher entity not confirmed from the homepage; verify via store listing",
+      "languages beyond English not verified",
+      "privacy practices not reviewed in depth",
+      "features not tested hands-on",
+      "no peer-reviewed study reviewed; publisher efficacy claim uncited on the page"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://mindfulness.com/"
+    ],
+    "status": "screened",
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "anxiety",
+      "stress",
+      "sleep",
+      "guided-meditation",
+      "courses",
+      "free-trial",
+      "ios",
+      "android",
+      "web"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "in-app-purchases"
+    ],
+    "accessibility": [
+      "No accessibility features confirmed from the publisher page or store listings in this screening; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation or translation claims found; content in English per the listings.",
+      "source_notes": [
+        "https://gratitude.app/"
+      ]
+    },
+    "description": "Daily gratitude journaling app with guided prompts, mood tracking, a gratitude jar, photo diary, affirmations and self-healing courses, plus an AI self-care coach (Joy) that uses CBT techniques to work through difficult emotions, and a community feed. Publisher claims 2 million+ users.",
+    "evidence_notes": "Publisher and store listings cite research that gratitude journaling can increase happiness, without naming a specific study in the listings reviewed. No peer-reviewed evaluation of the app itself was found in this screening. App Store shows about 4.6 stars from roughly 10,000 ratings, which is a popularity metric, not evidence of efficacy.",
+    "id": "365-gratitude-journal-diary",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-13",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Free to download with GratPlus subscription for the full version (App Store listings show GratPlus Monthly $4.99-$9.99 and Yearly $17.99-$47.99; prices vary by region and listings conflict). User reviews report the first entry cannot be saved without signing up for a trial, and the free version repeats the same 7 prompts weekly; the developer replies the free version works without charge. The AI coach is described as ChatGPT-powered, so entries sent to it leave the device. Uses streak tracking, which SootheSpot's own product principles avoid. Community feature involves user-generated content. Journaling and self-care app, not a treatment and not a replacement for professional care. Features not tested hands-on.",
+    "name": "365 Gratitude Journal & Diary",
+    "needs": [
+      "practice",
+      "calm"
+    ],
+    "official_url": "https://gratitude.app/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "AI coach sends journal content to an external AI provider per the App Store description; data practices were not reviewed in depth beyond the listings in this screening.",
+    "publisher": "UofHappy, LLC",
+    "reason": "Screened 2026-11-13: official gratitude.app page confirmed live ('365 Gratitude', 2 million grateful hearts); App Store listing confirms publisher UofHappy, LLC, free with GratPlus subscription, v7.13.0 updated Oct 16, 2026; Google Play listing confirms CBT-based AI coach, daily prompts, mood tracker and community. Ready for owner review before any promotion.",
+    "regions": [
+      "Worldwide via the App Store and Google Play."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "official site is a thin landing page; most detail came from store listings",
+      "free-tier save behaviour is disputed between user reviews and the developer; confirm in app",
+      "pricing varies by region and listings conflict; confirm current price in the store",
+      "languages beyond English not verified",
+      "privacy practices not reviewed in depth",
+      "features not tested hands-on",
+      "no peer-reviewed evaluation reviewed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://gratitude.app/",
+      "https://apps.apple.com/us/app/365-gratitude-journal-diary/id1072397377",
+      "https://play.google.com/store/apps/details?id=com.gratitude.challenge&hl=en"
+    ],
+    "status": "screened",
+    "tags": [
+      "gratitude",
+      "journaling",
+      "mood-tracking",
+      "affirmations",
+      "cbt",
+      "ai-coach",
+      "anxiety",
+      "stress",
+      "free",
+      "ios",
+      "android"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
