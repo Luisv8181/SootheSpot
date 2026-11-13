@@ -28290,5 +28290,181 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "free",
+      "in-app-purchases"
+    ],
+    "accessibility": [
+      "No accessibility features confirmed from the publisher page or store listings in this screening; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation or translation claims found on the homepage; content in English per the page. A 2020 company overview claimed availability in eight languages, but that was not verified on the current page.",
+      "source_notes": [
+        "https://www.happify.com/"
+      ]
+    },
+    "description": "Science-based activities and games to help people stress less, calm worries, overcome negative thoughts and build confidence, built on positive psychology, mindfulness and cognitive behavioral therapy. Tracks were created with research scientists and practitioners. Usable on smartphone, tablet or computer. Free version with Happify Plus subscription for full access. The homepage now brands the product Dario Mind (Twill).",
+    "evidence_notes": "Homepage says the activities are based on over a decade of academic research and the tracks were created by named research scientists (including Barbara Fredrickson, Sonja Lyubomirsky and John Gottman), but no specific study is named on the page. Store listings quote 86 percent of regular users reporting feeling better about their lives in 2 months, a self-reported publisher figure, not a peer-reviewed evaluation of the app. No peer-reviewed study reviewed in this screening.",
+    "id": "happify-dario-mind",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-13",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Homepage now presents the product as Dario Mind (Twill), so the Happify brand is being retired or rebranded while store listings still show Happify: for Stress and Worry. Free version gives a taste of the content; full access needs Happify Plus (Google Play listing: from $11.67/month). The employer and health-plan product (Happify Health) is a separate business offering and was not screened. Self-care app, not a treatment and not a replacement for professional care. Features not tested hands-on.",
+    "name": "Happify (Dario Mind)",
+    "needs": [
+      "practice",
+      "calm"
+    ],
+    "official_url": "https://www.happify.com/",
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "privacy_notes": "Privacy practices not reviewed in depth beyond the homepage and store listings in this screening.",
+    "publisher": "Twill Therapeutics (DarioHealth Corp.)",
+    "reason": "Screened 2026-11-13: official happify.com homepage confirmed live (now branded Dario Mind (Twill)), science-based activities and games for stress, negative thoughts and anxiety built on positive psychology, mindfulness and CBT, with named expert advisors; Google Play listing confirms publisher DarioHealth Corp., free with Happify Plus from $11.67/month, updated Nov 18, 2025. Ready for owner review before any promotion.",
+    "regions": [
+      "Worldwide via the App Store, Google Play and web."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "homepage now brands the product Dario Mind (Twill); confirm whether the Happify store listing remains the consumer route",
+      "languages beyond English not verified on the current page",
+      "pricing confirmed only from the Play listing; confirm current Plus price in the store",
+      "privacy practices not reviewed in depth",
+      "features not tested hands-on",
+      "no peer-reviewed study reviewed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.happify.com/",
+      "https://play.google.com/store/apps/details?id=com.happify.happifyinc&hl=en_IN"
+    ],
+    "status": "screened",
+    "tags": [
+      "stress",
+      "anxiety",
+      "negative-thoughts",
+      "positive-psychology",
+      "cbt",
+      "mindfulness",
+      "games",
+      "activities",
+      "confidence",
+      "free-trial",
+      "ios",
+      "android",
+      "web"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "in-app-purchases"
+    ],
+    "accessibility": [
+      "No accessibility features confirmed from the publisher page or store listings in this screening; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "German company based in Munich, with English and German content on the site; no cultural-adaptation claims beyond language availability found on the pages read.",
+      "source_notes": [
+        "https://minddoc.de/"
+      ]
+    },
+    "description": "Mental-health companion app with guided reflections, expert-backed assessments, daily questions (three times a day), mood tracking, personalised feedback and over 70 guided courses, plus a 14-day summary of emotional state. Aimed at depression, anxiety, obsessive-compulsive disorders and eating disorders. The companion app is a Class I Medical Device under the EU MDR. The same site also offers video-based online psychotherapy for adults in Germany, a separate insurance-covered service that was not screened here.",
+    "evidence_notes": "Homepage links to clinical research for the claim that MindDoc can help ease symptoms of depression and anxiety and boost empowerment, but no specific study is named on the pages read. The app page quotes self-reported user figures (88 percent improved attitudes, 93 percent behaving in ways good for their mental health, 92 percent improved motivation), which are survey figures, not efficacy evidence. The app is a Class I Medical Device under the EU MDR and its prescription version (MindDoc auf Rezept) is an approved DiGA in Germany; those regulatory facts come from store and company listings and were not verified against the regulator in this screening. No peer-reviewed study reviewed.",
+    "id": "minddoc-mental-health-app",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English",
+      "German"
+    ],
+    "last_verified_at": "2026-11-13",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Free version is limited (daily questions three times a day, past entries from the last month, basic resources and limited feedback); full access needs MindDoc Plus, whose price was not shown on the pages read. The app explicitly does not replace a medical or psychotherapeutic assessment or treatment. The publisher magazine pages carry BetterHelp affiliate ads. The video-psychotherapy service on the same site is for adults in Germany and is insurance-covered there; it is a separate service from the app and was not screened. Features not tested hands-on.",
+    "name": "MindDoc",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://minddoc.de/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Privacy practices not reviewed in depth beyond the pages read in this screening; the corporate page states only anonymised aggregate data is shared with corporate clients.",
+    "publisher": "MindDoc Health GmbH",
+    "reason": "Screened 2026-11-13: official minddoc.de homepage and app page confirmed live; guided reflections, expert-backed assessments, mood tracking and 70+ courses for depression, anxiety, OCD and eating disorders; 3 million+ downloads, 4.6 stars from 40,000+ reviews; publisher MindDoc Health GmbH (Munich); app is a Class I Medical Device under the EU MDR. Ready for owner review before any promotion.",
+    "regions": [
+      "Worldwide via the App Store and Google Play; video psychotherapy on the same site is Germany-only and not part of this record."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "no specific clinical study named or reviewed",
+      "MindDoc Plus price not found on the pages read",
+      "languages beyond English and German not verified",
+      "privacy practices not reviewed in depth",
+      "features not tested hands-on",
+      "DiGA and regulatory status stated in listings, not verified against the regulator"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://minddoc.de/",
+      "https://minddoc.de/magazin/en/minddoc-app",
+      "https://play.google.com/store/apps/details?id=de.moodpath.android&hl=uz&gl=US"
+    ],
+    "status": "screened",
+    "tags": [
+      "depression",
+      "anxiety",
+      "mood-tracking",
+      "self-assessment",
+      "courses",
+      "reflection",
+      "stress",
+      "sleep",
+      "relationships",
+      "free",
+      "ios",
+      "android"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
