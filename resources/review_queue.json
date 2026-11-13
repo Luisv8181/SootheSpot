@@ -27509,5 +27509,355 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "No accessibility statement reviewed on the page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation or translation claims found on the reviewed page; the site and samples are in English.",
+      "source_notes": [
+        "https://www.irest.org/"
+      ]
+    },
+    "description": "Free guided iRest Yoga Nidra meditations (5, 8, 10 and 20 minutes) recorded by founder Richard Miller, PhD, alongside courses and books. iRest is a 10-step guided meditation protocol presented for sleep, trauma and PTSD symptoms, chronic pain, daily stress, and depression and anxiety; the publisher states programs run in active-duty military and Veterans Health Administration facilities as well as correctional facilities, hospices, shelters, clinics and schools.",
+    "duration_options_minutes": [
+      5,
+      8,
+      10,
+      20
+    ],
+    "evidence_notes": "Publisher describes iRest as evidence-based and tested in clinical trials, and notes recognition by the Defense Centers of Excellence for Psychological Health and Traumatic Brain Injury as a complementary approach warranting continuing research for PTSD. No specific trial was reviewed in this screening.",
+    "id": "irest-guided-meditations",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-13",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Guided meditation for self-care; not a treatment and not a replacement for professional mental health care. Only the sample recordings are free; full courses, retreats and books are paid. Trauma-related use is best done with professional support.",
+    "name": "iRest Guided Meditations",
+    "needs": [
+      "calm",
+      "sleep",
+      "trauma",
+      "stress",
+      "anxiety"
+    ],
+    "official_url": "https://www.irest.org/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "No account required to stream the free sample recordings from the website. The shop and account data practices were not reviewed in this screening.",
+    "publisher": "iRest Institute",
+    "reason": "Screened 2026-11-13: official iRest Institute homepage confirmed live; publisher, free guided samples (5-20 minutes), stated uses (sleep, trauma/PTSD, chronic pain, stress, depression/anxiety) and military/VA programme presence confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Global; U.S.-based publisher."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "audio-library",
+    "review_status": "screened",
+    "screening_gaps": [
+      "accessibility statement not confirmed",
+      "no specific clinical trial reviewed",
+      "paid course pricing not itemized",
+      "languages beyond English not confirmed"
+    ],
+    "shelf": "listen",
+    "source_notes": [
+      "https://www.irest.org/"
+    ],
+    "status": "screened",
+    "tags": [
+      "meditation",
+      "yoga-nidra",
+      "sleep",
+      "trauma",
+      "ptsd",
+      "chronic-pain",
+      "stress",
+      "anxiety",
+      "free",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free-with-prescription",
+      "free-trial"
+    ],
+    "accessibility": [
+      "No accessibility statement reviewed on the page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "translated",
+      "notes": "Therapy programmes are in German only; the AI companion Ello is available in English, German, French, Spanish and Italian per the publisher page.",
+      "source_notes": [
+        "https://hellobetter.de/en/"
+      ]
+    },
+    "description": "German digital health applications (DiGA): 12-week, CBT-based online therapy programmes for burnout and chronic stress, sleep disorders, panic and anxiety, chronic pain, vaginismus and diabetes-related emotional distress. Each programme has 6-9 units completed at the user's own pace with written feedback from a personal psychologist after each unit. Six programmes are approved as DiGA and fully covered by German statutory health insurance with a doctor's prescription. The AI companion Ello offers anonymous emotional support in five languages, free for 7 days then paid.",
+    "evidence_notes": "Publisher states the programmes were developed and evaluated over years of research by psychotherapists and specialists, are certified as medical devices, and are reviewed by the German Federal Institute for Drugs and Medical Devices (BfArM); the publisher claims no other online therapy platform has more randomised controlled studies. No specific trial was reviewed in this screening.",
+    "id": "hellobetter-online-therapy",
+    "intended_population": [
+      "adults"
+    ],
+    "languages": [
+      "German",
+      "English",
+      "French",
+      "Spanish",
+      "Italian"
+    ],
+    "last_verified_at": "2026-11-13",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Therapy programmes are in German only and for adults 18 and over; free use requires a doctor or psychotherapist prescription and German health-insurance coverage. Ello is a preventive companion, not psychotherapy. Not for acute crisis; the page directs people in crisis to 112 and Telefonseelsorge.",
+    "name": "HelloBetter Online Therapy Programmes",
+    "needs": [
+      "stress",
+      "anxiety",
+      "sleep",
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://hellobetter.de/",
+    "platforms": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Publisher states Ello can be used anonymously without providing personal data, under EU data-protection standards. The DiGA programmes' data practices and the full privacy policy were not reviewed in this screening.",
+    "publisher": "HelloBetter",
+    "reason": "Screened 2026-11-13: official HelloBetter site (German homepage and English page) confirmed live; publisher, 12-week CBT-based DiGA programmes, six BfArM-approved programmes, prescription-based free coverage, psychologist accompaniment, and the Ello companion (five languages, 7-day free trial) confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "Germany (DiGA prescription and insurance coverage); Ello available more widely."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "online-program",
+    "review_status": "screened",
+    "screening_gaps": [
+      "DiGA approval not cross-checked against the BfArM directory",
+      "privacy policy not reviewed in detail",
+      "Ello pricing after the trial not itemized",
+      "accessibility statement not confirmed",
+      "no specific randomised trial reviewed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://hellobetter.de/",
+      "https://hellobetter.de/en/"
+    ],
+    "status": "screened",
+    "tags": [
+      "cbt",
+      "online-therapy",
+      "diga",
+      "prescription",
+      "german",
+      "burnout",
+      "sleep",
+      "panic",
+      "anxiety",
+      "chronic-pain",
+      "ai-companion"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-professional-support"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "in-app-purchases"
+    ],
+    "accessibility": [
+      "No accessibility statement reviewed on the page; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "localized",
+      "notes": "Content created in Spanish by 25+ named guides from Argentina, Mexico, Colombia, Chile and Spain, per the publisher homepage.",
+      "source_notes": [
+        "https://puramente.app/"
+      ]
+    },
+    "description": "Spanish-language meditation and sleep app: guided meditations, sounds, courses, live community sessions and mood tracking with personalised recommendations. The homepage lists more than 800 meditations with 20 sounds and intentions, guided by 25+ named guides from Argentina, Mexico, Colombia, Chile and Spain; meditations run from 1 minute to more than 40 minutes. The App Store listing gives lower meditation counts (300+/500+), so the exact catalogue size is unconfirmed.",
+    "evidence_notes": "No peer-reviewed evaluation of the app was reviewed in this screening. Publisher-reported popularity: 4.9 average rating, 57,000+ positive reviews and 38,000+ daily meditators per the homepage; the App Store listing shows 4.8 stars from 12,000 ratings. Ratings are popularity, not evidence of effectiveness.",
+    "id": "pura-mente-meditacion",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "last_verified_at": "2026-11-13",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Meditation and wellbeing app; not a treatment and not a replacement for professional mental health care. Content is primarily in Spanish. Full access requires a Premium subscription (USD 2.99-44.99 per the App Store listing). App Store privacy labels list usage data used for tracking and contact info, identifiers, usage and diagnostic data linked to identity.",
+    "name": "Pura Mente: Meditacion y Sueno",
+    "needs": [
+      "calm",
+      "sleep",
+      "stress",
+      "anxiety",
+      "practice"
+    ],
+    "official_url": "https://puramente.app/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "App Store privacy labels report usage data used for tracking and contact info, identifiers, usage and diagnostic data linked to identity. The full privacy policy (puramente.app/privacidad) was not reviewed in detail in this screening.",
+    "publisher": "Pura Mente Meditation, Inc.",
+    "reason": "Screened 2026-11-13: official Pura Mente homepage and App Store listing confirmed live; publisher Pura Mente Meditation, Inc., Spanish-first meditation and sleep app, free with in-app purchases, iOS/Android, mood tracking and live community sessions confirmed from primary sources. Ready for owner review before any promotion.",
+    "regions": [
+      "Spanish-speaking countries; available worldwide via the App Store and Google Play."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "meditation count differs between homepage (800+) and App Store listing (300+/500+)",
+      "privacy policy not reviewed in detail",
+      "accessibility statement not confirmed",
+      "Android listing not opened directly",
+      "no peer-reviewed evaluation reviewed"
+    ],
+    "shelf": "listen",
+    "source_notes": [
+      "https://puramente.app/",
+      "https://apps.apple.com/ar/app/pura-mente-meditacion-y-sue%C3%B1o/id1448598865"
+    ],
+    "status": "screened",
+    "tags": [
+      "meditation",
+      "sleep",
+      "spanish",
+      "mindfulness",
+      "mood-tracking",
+      "free",
+      "ios",
+      "android",
+      "independent-use"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "in-app-purchases"
+    ],
+    "accessibility": [
+      "The developer has not indicated which accessibility features this app supports, per the App Store listing."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation or translation claims found; content in English only.",
+      "source_notes": [
+        "https://apps.apple.com/us/app/mindful-powers/id1163342397"
+      ]
+    },
+    "description": "Kid-first mindfulness app using play: voice-guided Mindful Play sessions and a Focus Time task timer, aimed at helping children aged 7-10 build calmness, reduce stress and anxiety, improve concentration and focus, navigate big emotions, and get along with others. The publisher's own website is defunct; the App Store listing is the live distribution page.",
+    "evidence_notes": "The App Store listing describes the app as award-winning; no specific award or peer-reviewed evaluation was verified in this screening.",
+    "id": "mindful-powers",
+    "intended_population": [
+      "children"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-13",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Children's mindfulness app, not a treatment and not a replacement for professional care; aimed at ages 7-10 (App Store rating 4+). Publisher's website mindfulpowers.com is defunct (domain listed for sale as of 2026-11-13). Last updated March 1, 2021 (version 1.2.1) per the App Store listing, so current maintenance status is unclear. iOS only; English only.",
+    "name": "Mindful Powers",
+    "needs": [
+      "calm",
+      "stress",
+      "anxiety",
+      "practice"
+    ],
+    "official_url": "https://apps.apple.com/us/app/mindful-powers/id1163342397",
+    "platforms": [
+      "iOS"
+    ],
+    "privacy_notes": "App Store privacy label: Data Not Collected; the developer states no data is collected from the app. No account or privacy policy was reviewed beyond the store listing.",
+    "publisher": "Smashing Ideas LLC",
+    "reason": "Screened 2026-11-13: publisher website mindfulpowers.com is defunct (domain listed for sale); App Store listing confirmed live - publisher Smashing Ideas LLC, iOS-only, free with in-app purchases, ages 7-10, English only, Data Not Collected, last updated March 1, 2021. Ready for owner review before any promotion.",
+    "regions": [
+      "Worldwide via the Apple App Store; iOS only."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "publisher website defunct (domain for sale)",
+      "last update March 1, 2021; maintenance status unclear",
+      "Android availability not verified",
+      "features not tested hands-on",
+      "no peer-reviewed evaluation reviewed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://apps.apple.com/us/app/mindful-powers/id1163342397",
+      "https://www.hugedomains.com/domain_profile.cfm?d=mindfulpowers.com"
+    ],
+    "status": "screened",
+    "tags": [
+      "mindfulness",
+      "children",
+      "kids",
+      "anxiety",
+      "focus",
+      "emotions",
+      "free",
+      "ios",
+      "privacy-first"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
