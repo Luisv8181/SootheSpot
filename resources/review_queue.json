@@ -27859,5 +27859,262 @@
     "use_context": [
       "independent-use"
     ]
+  },
+  {
+    "access": [
+      "free",
+      "in-app-purchases"
+    ],
+    "accessibility": [
+      "No accessibility features confirmed from the publisher page or store listing in this screening; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Publisher site claims use in 105 countries; no cultural-adaptation or translation claims verified in this screening.",
+      "source_notes": [
+        "https://www.wysa.com/"
+      ]
+    },
+    "description": "AI chatbot for everyday mental health support, using CBT- and DBT-informed techniques, meditation and mindfulness, plus mood tracking. Chatting with the AI is free; a Premium tier unlocks the wider tool library and Premium Plus adds sessions with a human coach.",
+    "evidence_notes": "Publisher site claims 45+ peer-reviewed publications and 11 million lives covered; third-party sources note an FDA Breakthrough Device designation in 2022, with the app still not FDA-approved. No specific study was reviewed in this screening.",
+    "id": "wysa-mental-wellbeing-ai",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-13",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Not a crisis or emergency service; the publisher states Wysa cannot offer medical or clinical advice and directs users to country-specific crisis lines. Not for children under 13; ages 13-17 need a parent or guardian to review the terms. Publisher pricing varies by country and listings conflict (App Store description: Premium $99.99/year, Premium Plus $99.99/month; other reports cite $74.99/year). AI chatbot, not a clinician.",
+    "name": "Wysa: Mental Wellbeing AI",
+    "needs": [
+      "calm",
+      "stress",
+      "anxiety",
+      "sleep",
+      "practice"
+    ],
+    "official_url": "https://www.wysa.com/",
+    "platforms": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "privacy_notes": "Publisher site describes use as anonymous; data practices were not reviewed in depth beyond the site and store listing in this screening.",
+    "publisher": "Touchkin eServices Private Limited (Wysa)",
+    "reason": "Screened 2026-11-13: official wysa.com page confirmed live - AI chatbot with CBT/DBT-informed tools, free chat, paid Premium/Plus tiers, 18+ (13-17 with parent/guardian), not a crisis service. Publisher Touchkin eServices Pvt Ltd per App Store listing. Ready for owner review before any promotion.",
+    "regions": [
+      "Worldwide via the App Store and Google Play; web at wysa.com."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "pricing conflicts between App Store description and other reports; confirm in app",
+      "App Store age rating differs across regional listings (4+ vs 9+); site requires 18+",
+      "languages beyond English not verified",
+      "privacy practices not reviewed in depth",
+      "features not tested hands-on",
+      "no peer-reviewed study reviewed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.wysa.com/",
+      "https://apps.apple.com/my/app/wysa-mental-wellbeing-ai/id1166585565"
+    ],
+    "status": "screened",
+    "tags": [
+      "ai-chatbot",
+      "cbt",
+      "dbt",
+      "anxiety",
+      "stress",
+      "sleep",
+      "mood-tracking",
+      "mindfulness",
+      "free",
+      "ios",
+      "android",
+      "web"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "in-app-purchases"
+    ],
+    "accessibility": [
+      "No accessibility features confirmed from the publisher page or store listing in this screening; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation or translation claims found; content in English per the listings.",
+      "source_notes": [
+        "https://www.rootd.io/"
+      ]
+    },
+    "description": "Panic attack and anxiety relief app built around a big red Rootr button for in-the-moment support: either face the panic head-on or find comfort quickly, with breathing, visualization and sleep tools plus short-term and long-term lessons on understanding anxiety.",
+    "evidence_notes": "Publisher describes the app as scientifically validated and female-led; store listings cite approval for privacy, security, clinical assurance and safety by DHAF and ORCHA. No specific study was reviewed in this screening.",
+    "id": "rootd-anxiety-panic-relief",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-13",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Core panic-button tools are free; full lessons and tools sit behind a Full Access subscription (US $59.99/year per rootd.io; monthly and lifetime options vary by region). Self-help app, not a treatment and not a replacement for professional care. Features not tested hands-on.",
+    "name": "Rootd - Anxiety & Panic Relief",
+    "needs": [
+      "calm",
+      "anxiety",
+      "practice",
+      "sleep"
+    ],
+    "official_url": "https://www.rootd.io/",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "privacy_notes": "Privacy practices were not reviewed beyond the store listing in this screening.",
+    "publisher": "Simply Rooted Media Inc.",
+    "reason": "Screened 2026-11-13: official rootd.io page confirmed live - panic-button app with in-the-moment guidance, breathing/visualization/sleep tools and lessons; core free, Full Access subscription for the full library; publisher Simply Rooted Media Inc. per Google Play listing; updated Nov 5, 2026. Ready for owner review before any promotion.",
+    "regions": [
+      "Worldwide via the App Store and Google Play."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "pricing varies by region; confirm current price in the store",
+      "languages beyond English not verified",
+      "privacy practices not reviewed in depth",
+      "features not tested hands-on",
+      "no peer-reviewed study reviewed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://www.rootd.io/",
+      "https://play.google.com/store/apps/details?id=com.rootd"
+    ],
+    "status": "screened",
+    "tags": [
+      "panic-attacks",
+      "anxiety",
+      "grounding",
+      "breathing",
+      "sleep",
+      "cbt",
+      "free",
+      "ios",
+      "android"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "in-app-purchases"
+    ],
+    "accessibility": [
+      "No accessibility features confirmed from the publisher page or store listing in this screening; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "No cultural-adaptation or translation claims found; content in English per the site and listings.",
+      "source_notes": [
+        "https://getstoic.com/"
+      ]
+    },
+    "description": "AI-powered journaling app for daily reflection: morning and evening check-ins, guided journals with prompts curated by therapists and experts, mood and trend tracking, meditation and breathing exercises, plus streaks and badges. Free to start; Premium adds sync, templates and habit tracking, and Premium + AI adds AI mentors.",
+    "evidence_notes": "No peer-reviewed evaluation was found in this screening. Publisher claims 4M+ downloads; App Store shows about 4.8 stars from roughly 35,000 ratings, which is a popularity metric, not evidence of efficacy.",
+    "id": "stoic-journal-mental-health",
+    "intended_population": [
+      "general"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-13",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Journaling and self-care app, not a treatment and not a replacement for professional care. Free-tier entries stay on one device (no sync without Premium); turning on AI features sends journal entries to the app's AI providers, per the site's privacy note. Premium about $39.99/year and Premium + AI about $99.99/year, lifetime $299 (prices vary by region). Uses streaks and badges, which SootheSpot's own product principles avoid. The stoicapp.com domain returned 403 in this screening; getstoic.com was used as the live official site.",
+    "name": "stoic. journal & mental health",
+    "needs": [
+      "practice",
+      "calm"
+    ],
+    "official_url": "https://getstoic.com/",
+    "platforms": [
+      "iOS",
+      "macOS",
+      "Web"
+    ],
+    "privacy_notes": "Journals are stored on the user's devices and backed up with Premium; AI features send entries to AI providers, per the site. Data practices were not reviewed in depth beyond the site in this screening.",
+    "publisher": "Stoic app inc.",
+    "reason": "Screened 2026-11-13: official getstoic.com page confirmed live - AI journaling app with guided daily reflections, mood tracking, meditation and breathing; free to start with Premium/Premium+AI tiers; publisher Stoic app inc. per App Store listing. Ready for owner review before any promotion.",
+    "regions": [
+      "Worldwide via the App Store; web at app.getstoic.com."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "mobile-app",
+    "review_status": "screened",
+    "screening_gaps": [
+      "stoicapp.com inaccessible (403) in this screening; getstoic.com used instead",
+      "languages beyond English not verified",
+      "privacy practices not reviewed in depth",
+      "features not tested hands-on",
+      "no peer-reviewed evaluation reviewed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://getstoic.com/",
+      "https://www.ixcoach.com/learn/stoic-app-review-2026"
+    ],
+    "status": "screened",
+    "tags": [
+      "journaling",
+      "mood-tracking",
+      "meditation",
+      "breathing",
+      "ai",
+      "free",
+      "ios",
+      "macos",
+      "web"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
   }
 ]
