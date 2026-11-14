@@ -29021,5 +29021,319 @@
   "use_context": [
    "independent-use"
   ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Publisher states the website aims to meet the New Zealand Government Web Accessibility Standard and WCAG 2.1 AA; assistive-technology compatibility was not tested in this screening."
+  ],
+  "cultural_context": {
+   "adaptation_status": "culturally_adapted",
+   "notes": "The Digital Hub has a dedicated Cultural Support section (kaupapa Maori mental health, Pasifika wellbeing, wairua, and te reo Maori, Samoan and Tongan health information linked through Healthify) and frames family support around whanau. No full cultural-adaptation process was reviewed.",
+   "source_notes": [
+    "https://1737.org.nz/"
+   ]
+  },
+  "description": "New Zealand's free, confidential 24/7 mental health helpline: call or text 1737 to talk with a trained counsellor (brief one-to-one emotional support, practical strategies, and help finding ongoing or face-to-face services). Peer support by phone daily 2pm-10pm. The 1737 Digital Hub adds self-help topic resources: family/whanau support, cultural support (including kaupapa Maori and Pasifika wellbeing and te reo Maori health information), disability support, youth support, counselling and support, alcohol and other drugs, gambling harm, relationships and safety, loneliness, stress, anxiety, and sadness, linking out to Healthify and Healthpoint directories. In immediate danger, call 111.",
+  "evidence_notes": "Publicly funded national telehealth service (funded by Health New Zealand). Team includes NZAC-registered counsellors, DAPAANZ practitioners, and social workers, per the official How 1737 Works page. No efficacy claims evaluated in this screening.",
+  "id": "1737-need-to-talk-nz",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-14",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "New Zealand only (call/text 1737; in immediate danger call 111). Peer support is phone-only, daily 2pm-10pm. Counselling is brief one-to-one emotional support, not ongoing therapy. The online Welcome Service is an AI tool that gathers details while you wait for a counsellor; per the publisher it does not provide clinical advice and you can choose to skip it. Does not replace professional care.",
+  "name": "1737 - Need to Talk?",
+  "needs": [
+   "safety",
+   "find-support",
+   "support"
+  ],
+  "official_url": "https://1737.org.nz/",
+  "platforms": [
+   "Phone",
+   "Text",
+   "Web"
+  ],
+  "privacy_notes": "Service states interactions are free, confidential, private and secure. The privacy policy (hosted by Whakarongorau) was not reviewed in this screening. Note: the online Welcome Service is an AI tool; per the publisher, what you share is visible to the counsellor who joins, and you can skip it.",
+  "publisher": "Whakarongorau Aotearoa / New Zealand Telehealth Services (funded by Health New Zealand)",
+  "reason": "Screened 2026-11-14: official 1737.org.nz Digital Hub and How 1737 Works pages confirmed live (copies crawled 2026-11-14 09:57 and 09:59 UTC); free confidential 24/7 call/text helpline, peer-support hours, counsellor registration, WCAG 2.1 AA aim, and the AI Welcome Service disclosure all confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "New Zealand (free nationwide; emergency 111)"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "crisis-service",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy not reviewed",
+   "online counselling/chat access not tested",
+   "te reo Maori service availability by channel not confirmed",
+   "Welcome Service AI behaviour not tested beyond the publisher's FAQ"
+  ],
+  "shelf": "safety",
+  "source_notes": [
+   "https://1737.org.nz/",
+   "https://1737.org.nz/how-1737-works"
+  ],
+  "status": "screened",
+  "tags": [
+   "helpline",
+   "new-zealand",
+   "24-7",
+   "text-support",
+   "peer-support",
+   "whanau",
+   "maori",
+   "pasifika",
+   "crisis-support"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed pages; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "culturally_adapted",
+   "notes": "Homepage links a dedicated 'Grief, loss and Sorry Business' section for Aboriginal and Torres Strait Islander peoples and carries an Acknowledgement of Country. The full cultural-adaptation process was not reviewed.",
+   "source_notes": [
+    "https://www.suicidecallbackservice.org.au/"
+   ]
+  },
+  "description": "Free nationwide 24/7 phone and online counselling for people affected by suicide in Australia: call 1300 659 467, or use online chat and video counselling. For people at risk of suicide, people concerned about someone at risk, people bereaved by suicide, and people experiencing emotional or mental health issues. Self-help articles cover coping when overwhelmed and suicidal, how to talk to somebody about suicide, looking after yourself after a bereavement, suicide warning signs, making a safety plan, anxiety symptoms and causes, and grief, loss and 'Sorry Business'. In an emergency call 000.",
+  "evidence_notes": "Free professional 24/7 counselling service, per publisher. No efficacy claims evaluated in this screening.",
+  "id": "suicide-call-back-service-au",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-14",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Australia only (phone 1300 659 467; in an emergency call 000). Counselling is brief support, not ongoing therapy. Online counselling access and wait times were not tested in this screening. Does not replace emergency services.",
+  "name": "Suicide Call Back Service",
+  "needs": [
+   "safety",
+   "find-support",
+   "support"
+  ],
+  "official_url": "https://www.suicidecallbackservice.org.au/",
+  "platforms": [
+   "Phone",
+   "Web"
+  ],
+  "privacy_notes": "Privacy policy is Lifeline Australia's and was not reviewed in this screening.",
+  "publisher": "Suicide Call Back Service (Lifeline Australia)",
+  "reason": "Screened 2026-11-14: official suicidecallbackservice.org.au homepage confirmed live (copy crawled 2026-11-14 09:58 UTC); free 24/7 phone and online counselling, phone number, self-help articles, and emergency guidance confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Australia (free nationwide; emergency 000)"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "crisis-service",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy not reviewed",
+   "online chat/video access not tested",
+   "counsellor qualifications not independently verified",
+   "accessibility not assessed"
+  ],
+  "shelf": "safety",
+  "source_notes": [
+   "https://www.suicidecallbackservice.org.au/"
+  ],
+  "status": "screened",
+  "tags": [
+   "suicide-prevention",
+   "crisis-service",
+   "australia",
+   "24-7",
+   "phone-counselling",
+   "online-counselling",
+   "safety-plan",
+   "bereavement"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed pages; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "community_informed",
+   "notes": "Peer support delivered by LGBTIQ+ peer workers for LGBTIQ+ people; site honours LGBTIQ+ elders and carries an Acknowledgement of Country. Partners include Switchboard, Twenty10, Living Proud, Diverse Voices, and LGBTIQ Health Australia.",
+   "source_notes": [
+    "https://qlife.org.au/"
+   ]
+  },
+  "description": "Free, anonymous LGBTIQ+ peer support and referral for people in Australia wanting to talk about sexuality, gender, bodies, feelings or relationships. Phone 1800 184 527 and webchat, 3pm-9pm every day, staffed by experienced LGBTIQ+ peer workers. Resources include QGuides, QLives, and an LGBTIQ+ referral database. High demand can mean not everyone gets through on a first try; the service asks people to try again later.",
+  "evidence_notes": "Peer-support model staffed by experienced LGBTIQ+ peer workers, per publisher. No efficacy claims evaluated in this screening.",
+  "id": "qlife-australia",
+  "intended_population": [
+   "lgbtiq"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-14",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Australia only (phone 1800 184 527; webchat). Hours 3pm-9pm daily, not 24/7; the publisher warns high demand can mean callers do not get through and asks them to try again later. Peer support, not clinical care. In an emergency call 000.",
+  "name": "QLife",
+  "needs": [
+   "find-support",
+   "support"
+  ],
+  "official_url": "https://qlife.org.au/",
+  "platforms": [
+   "Phone",
+   "Web"
+  ],
+  "privacy_notes": "Publisher states the service is anonymous and privacy is a priority; the privacy statement (updated 19 October 2026) was not reviewed in this screening.",
+  "publisher": "QLife",
+  "reason": "Screened 2026-11-14: official qlife.org.au homepage confirmed live (copy crawled 2026-11-14 09:58 UTC); free anonymous LGBTIQ+ peer support, phone number, hours, and referral resources confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Australia (phone 1800 184 527; webchat 3pm-9pm daily)"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "peer-support",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy statement not reviewed",
+   "webchat access not tested",
+   "accessibility not assessed",
+   "referral database content not reviewed"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+   "https://qlife.org.au/"
+  ],
+  "status": "screened",
+  "tags": [
+   "lgbtiq",
+   "peer-support",
+   "australia",
+   "anonymous",
+   "phone-support",
+   "webchat",
+   "referral"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed pages; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "community_informed",
+   "notes": "Peer-led support groups run by trained volunteer facilitators who are men using the service themselves, per the published stories. No formal cultural-adaptation process was found in the reviewed pages.",
+   "source_notes": [
+    "https://andysmanclub.co.uk/"
+   ]
+  },
+  "description": "Men's suicide prevention charity offering free peer-to-peer support groups across the United Kingdom and online. Groups run every Monday from 7PM (except bank holidays), no booking or charges, confidential and non-clinical; men can talk as much or as little as they like, or just listen. The charity says thousands of men attend sessions every week. For urgent help the site signposts Samaritans (116 123), the CALM helpline and webchat, and NHS 111 (option 2).",
+  "evidence_notes": "Peer-support model; thousands of men attend weekly, per publisher. No efficacy claims evaluated in this screening.",
+  "id": "andys-man-club-uk",
+  "intended_population": [
+   "men"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-14",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Peer support, not professional mental health support (per publisher). Men-focused; groups run Mondays 7PM except bank holidays. In-person groups are UK only (online groups for those further afield). Not a crisis service; urgent help is signposted to Samaritans, CALM, and NHS 111.",
+  "name": "ANDYSMANCLUB",
+  "needs": [
+   "support",
+   "find-support"
+  ],
+  "official_url": "https://andysmanclub.co.uk/",
+  "platforms": [
+   "In-person",
+   "Web"
+  ],
+  "privacy_notes": "Groups are described as completely confidential; the privacy policy and data practices were not reviewed in this screening.",
+  "publisher": "ANDYSMANCLUB (men's suicide prevention charity, UK)",
+  "reason": "Screened 2026-11-14: official andysmanclub.co.uk homepage confirmed live (copy crawled 2026-11-14 09:58 UTC); free peer support groups, Monday 7PM schedule, no-booking policy, and urgent-help signposting confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "United Kingdom (groups nationwide; online groups for those further afield)"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "peer-support",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy and data practices not reviewed",
+   "group finder not tested",
+   "online group access details not reviewed",
+   "accessibility not assessed"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+   "https://andysmanclub.co.uk/"
+  ],
+  "status": "screened",
+  "tags": [
+   "mens-mental-health",
+   "peer-support",
+   "suicide-prevention",
+   "uk",
+   "support-groups",
+   "stigma"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
  }
 ]
