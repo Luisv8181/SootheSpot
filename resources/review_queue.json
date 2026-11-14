@@ -28863,5 +28863,163 @@
   "use_context": [
    "with-support"
   ]
+ },
+ {
+  "access": [
+   "free",
+   "paid"
+  ],
+  "accessibility": [
+   "No accessibility statement found on the reviewed pages; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "original",
+   "notes": "Developed in the United States in 1997 by a peer group in northern Vermont led by Mary Ellen Copeland; publisher states WRAP is now used in all 50 states and 15+ countries and has been adapted for all kinds of life issues beyond mental health. No stated cultural-adaptation process was found in the reviewed pages.",
+   "source_notes": [
+    "https://www.wellnessrecoveryactionplan.com/faq/"
+   ]
+  },
+  "description": "Self-directed wellness tool anyone can use to get well, stay well, and make life more the way they want it to be. Developed in 1997 by a peer group in Vermont led by Mary Ellen Copeland, PhD, from five key concepts: hope, personal responsibility, education, self-advocacy, and support. A personal WRAP organizes wellness tools for everyday use, triggers (stressors) and early warning signs, action plans for overwhelming times, and a crisis plan or advance directive. The free WRAP App (Android/iOS) walks you through creating a personal WRAP, on your own, with a friend or supporter, or in a WRAP group; groups are co-facilitated by specially trained and certified WRAP Co-Facilitators.",
+  "evidence_notes": "Publisher states the peer co-facilitated group model was researched through a randomized controlled trial and is recognized as an evidence-based practice for mental health services worldwide. No specific trial was reviewed in this screening.",
+  "id": "wellness-recovery-action-plan-wrap",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-14",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "WRAP materials are copyrighted by WRAP, Inc. and cannot be copied or shared without written permission. Groups must be co-facilitated by specially trained and certified WRAP Co-Facilitators (5-day training plus refresher at least every 2 years); anyone can use WRAP on their own or in a group. Books and materials are paid products sold through the WRAP Bookstore; the app is free but designed to work alongside books, materials, and groups. Ownership changed in 2026: the Copeland Center is no longer associated with WRAP, and WRAP, Inc. owns, develops, and distributes all materials as of January 1, 2026. Does not replace professional care.",
+  "name": "Wellness Recovery Action Plan (WRAP)",
+  "needs": [
+   "practice",
+   "understand"
+  ],
+  "official_url": "https://www.wellnessrecoveryactionplan.com/faq/",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "privacy_notes": "Free app and online community involve accounts; the privacy policy and data handling were not reviewed in this screening.",
+  "publisher": "Wellness Recovery Action Plan, Inc. (WRAP, Inc.)",
+  "reason": "Screened 2026-11-14: official wellnessrecoveryactionplan.com FAQ and WRAP Story pages confirmed live (copies crawled 2026-11-14 05:56 and 06:00 UTC); self-directed wellness tool, free app, peer-group model, and the 2026 ownership transfer to WRAP, Inc. confirmed from the primary source. Flagged for owner judgment: paid books/materials and the certified-facilitator requirement for groups. Ready for owner review before any promotion.",
+  "regions": [
+   "United States-based publisher (materials printed and shipped from Massachusetts); used in all 50 states and 15+ countries per publisher."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "self-help-toolkit",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy and data practices not reviewed",
+   "specific randomized trial not reviewed",
+   "languages beyond English not confirmed",
+   "app store listings not checked"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://www.wellnessrecoveryactionplan.com/faq/",
+   "https://www.wellnessrecoveryactionplan.com/what-is-wrap/the-wrap-story/"
+  ],
+  "status": "screened",
+  "tags": [
+   "wellness-planning",
+   "recovery",
+   "self-management",
+   "peer-support",
+   "crisis-plan",
+   "evidence-based"
+  ],
+  "use_context": [
+   "independent-use",
+   "with-support"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed pages; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "UK NHS service; urgent-support pathways on linked pages are UK-specific. No stated cultural-adaptation process was found in the reviewed pages.",
+   "source_notes": [
+    "https://www.nhs.uk/mental-health/self-help/"
+   ]
+  },
+  "description": "NHS self-help hub with tips, guides, tools and activities to support and improve mental health: everyday tips for improving mood, finding support through therapy and support groups, and coping tips, plus guides, tools and activities including 10 stress busters, mental wellbeing audio guides, exercise for depression, 5 steps to mental wellbeing, and breathing exercises for stress. The audio guides cover low mood and depression, coping with anxiety (a relaxation technique), sleep problems, low confidence and assertiveness, and unhelpful thinking; each is doctor-presented with stated media review dates (last reviewed 2024-2025, review due 2027-2028).",
+  "evidence_notes": "UK National Health Service public-health content; audio guides are doctor-presented with stated media review dates. Informational; no efficacy claims evaluated in this screening.",
+  "id": "nhs-mental-health-self-help",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-14",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Urgent-support pathways on linked pages are UK-specific and must not be substituted for other regions' crisis resources, per repo policy. Informational only; does not replace professional care. Distinct from the Every Mind Matters Mind Plan hub already in the queue (nhs-every-mind-matters); this record covers the self-help guides, tools and activities section, including the audio guides.",
+  "name": "NHS Mental Health Self-Help",
+  "needs": [
+   "read",
+   "understand",
+   "calm"
+  ],
+  "official_url": "https://www.nhs.uk/mental-health/self-help/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "No account required for core content.",
+  "publisher": "National Health Service (NHS), United Kingdom",
+  "reason": "Screened 2026-11-14: official nhs.uk self-help hub, guides/tools/activities page, and mental wellbeing audio guides page all confirmed live (copies crawled 2026-11-14 05:56 UTC); free access and content scope confirmed from the primary source. UK geographic scope recorded explicitly. Ready for owner review before any promotion.",
+  "regions": [
+   "UK-focused (NHS); self-care content broadly applicable."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "resource-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+   "accessibility not assessed",
+   "audio guide content not listened to in full; only page text reviewed"
+  ],
+  "shelf": "learn",
+  "source_notes": [
+   "https://www.nhs.uk/mental-health/self-help/",
+   "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/",
+   "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/mental-wellbeing-audio-guides/"
+  ],
+  "status": "screened",
+  "tags": [
+   "self-help",
+   "nhs",
+   "stress",
+   "anxiety",
+   "low-mood",
+   "audio-guides",
+   "breathing",
+   "wellbeing"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
  }
 ]
