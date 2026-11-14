@@ -28634,5 +28634,234 @@
   "use_context": [
    "independent-use"
   ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "No accessibility statement found on the fetched homepage; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "original",
+   "notes": "New Zealand government site (Health New Zealand - Health Promotion) with a dedicated rangatahi (young Maori) wellbeing space and Samoan content; service references are New Zealand-focused.",
+   "source_notes": [
+    "https://www.depression.org.nz/"
+   ]
+  },
+  "description": "Free New Zealand depression and anxiety information hub from Health New Zealand - Health Promotion (National Depression Initiative): recognizing signs, personal stories from people in Aotearoa, staying-well tips, tools and strategies, a support finder, a dedicated rangatahi wellbeing space, and free 24/7 counsellor contact by phone, text, or email. Also reachable with no mobile data via the government's Zero Data portal.",
+  "evidence_notes": "Publisher is Health New Zealand (government health agency). Content is presented as evidence-informed information; no specific trial evidence is cited on the homepage and individual tools were not evaluated in this screening.",
+  "id": "depression-org-nz",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-13",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "New Zealand-focused: services, helplines, and system references are NZ-specific and must not be substituted for other regions. Informational only; does not replace professional mental health care. The Journal, the site's original 2010 six-week self-management program, is no longer featured on the current homepage - its current availability was not confirmed in this screening.",
+  "name": "Depression.org.nz (New Zealand National Depression Initiative)",
+  "needs": [
+   "read",
+   "understand"
+  ],
+  "official_url": "https://www.depression.org.nz/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Reading the site requires no account per the reviewed homepage. The site offers free 24/7 counsellor contact; the data handling of that contact channel was not reviewed.",
+  "publisher": "Health New Zealand - Health Promotion (National Depression Initiative)",
+  "reason": "Screened 2026-11-13: official depression.org.nz homepage confirmed live; free NZ information hub, stories, staying-well tools, support finder, rangatahi space, and 24/7 counsellor contact confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "New Zealand-focused; web content broadly readable."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "information-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+   "individual tools and staying-well content not reviewed",
+   "current availability of The Journal program not confirmed",
+   "counsellor-contact data handling not reviewed"
+  ],
+  "shelf": "read",
+  "source_notes": [
+   "https://www.depression.org.nz/"
+  ],
+  "status": "screened",
+  "tags": [
+   "depression",
+   "anxiety",
+   "psychoeducation",
+   "new-zealand",
+   "rangatahi",
+   "stories",
+   "self-help",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "No accessibility statement found on the fetched page; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "original",
+   "notes": "Australian youth resource from Black Dog Institute; crisis guidance is Australian (Triple Zero 000) and must not be substituted for other regions. Mentions trusted adults including Elders.",
+   "source_notes": [
+    "https://www.blackdoginstitute.org.au/education-services/mental-fitness/"
+   ]
+  },
+  "description": "Free youth mental-health and wellbeing hub from the Black Dog Institute, successor to the Bite Back program (which wrapped up after supporting over 200,000 young Australians since 2012): practical tools and resources to boost mood, handle stress, and build resilience - apps, interactive websites, and creative ideas - plus tips for helping a friend and pathways to support (trusted adults, GP, youth helplines).",
+  "evidence_notes": "Publisher is the Black Dog Institute, a medical research institute (UNSW). The predecessor Bite Back program was evaluated in a 2014 RCT (JMIR) showing reduced depression and anxiety symptoms with frequent use; the Hub itself is a curated collection and its individual tools were not evaluated in this screening.",
+  "id": "youth-mental-fitness-hub",
+  "intended_population": [
+   "adolescents"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-13",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "A curated hub linking out to other tools and apps; individual linked tools were not reviewed in this screening. Australian context (services and crisis number 000 are Australian). Informational/self-help content; does not replace professional mental health care.",
+  "name": "Youth Mental Fitness Hub (Black Dog Institute)",
+  "needs": [
+   "practice",
+   "calm",
+   "understand"
+  ],
+  "official_url": "https://www.blackdoginstitute.org.au/education-services/mental-fitness/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Reading the hub requires no account per the reviewed page. Data handling of the linked tools and apps was not reviewed in this screening.",
+  "publisher": "Black Dog Institute",
+  "reason": "Screened 2026-11-13: official Black Dog Institute hub page confirmed live; free youth tools/resources, friend-help tips, and support pathways confirmed from the primary source, and the Bite Back succession confirmed on biteback.org.au. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; Australia-based publisher; crisis guidance Australian."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "resource-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+   "individual linked tools and apps not reviewed",
+   "accessibility statement not reviewed"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://www.blackdoginstitute.org.au/education-services/mental-fitness/",
+   "https://www.biteback.org.au/"
+  ],
+  "status": "screened",
+  "tags": [
+   "youth",
+   "adolescents",
+   "wellbeing",
+   "resilience",
+   "mood",
+   "stress",
+   "mental-fitness",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "paid"
+  ],
+  "accessibility": [
+   "No accessibility statement found on the reviewed pages; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "original",
+   "notes": "Australian university clinic program; developed for Australian schooling contexts per ACER. Availability outside Australia not confirmed.",
+   "source_notes": [
+    "https://coolkids.org.au/faq/1/page"
+   ]
+  },
+  "description": "Parent-led online CBT anxiety program for children aged 7-12 from Macquarie University's Emotional Health Clinic, based on the Cool Kids program running since 1993. Eight online lessons with practice exercises released over 10 weeks, completed by the child with a parent or carer as coach, with coach sections in every lesson; therapist phone support depends on the access route (research program, NSW school referral, or private fee-paying service).",
+  "evidence_notes": "Publisher states the program is based on research and the face-to-face Cool Kids program has shown effectiveness in face-to-face, bibliotherapy, and online delivery. No specific trial was reviewed in this screening.",
+  "id": "cool-kids-online",
+  "intended_population": [
+   "children",
+   "families"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-13",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Paid clinical service, not a free self-help resource: per the publisher's 2026 pre-intake information, initial assessment $150 AUD and treatment program $650 AUD full fee ($450 reduced fee), with Medicare rebates for telephone-based contact; free access only via the research program or a NSW school referral. Requires a parent/carer as coach and registration; not suitable where another problem (e.g. depression, aggressive behaviour) is the main problem. A treatment program with assessment, not standalone self-help; does not replace professional care.",
+  "name": "Cool Kids Online (Macquarie University)",
+  "needs": [
+   "practice",
+   "understand"
+  ],
+  "official_url": "https://coolkids.org.au/faq/1/page",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Registration required; the program's privacy policy and data handling were not reviewed in this screening.",
+  "publisher": "Emotional Health Clinic, Macquarie University",
+  "reason": "Screened 2026-11-13: official coolkids.org.au FAQ confirmed live; parent-led CBT structure, ages 7-12, 8 lessons over 10 weeks, and the paid/access-route terms confirmed from the primary source (plus the publisher's fee schedule). Flagged for owner judgment: paid clinical program, not a free resource. Ready for owner review before any promotion.",
+  "regions": [
+   "Australia-based publisher; availability outside Australia not confirmed."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "online-course",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy and data practices not reviewed",
+   "fee details confirmed from the publisher's pre-intake PDF, not the FAQ page itself",
+   "non-Australian availability not confirmed"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://coolkids.org.au/faq/1/page",
+   "https://www.mq.edu.au/__data/assets/pdf_file/0008/1376369/CK-Online-Pre-Intake-2026.pdf"
+  ],
+  "status": "screened",
+  "tags": [
+   "cbt",
+   "anxiety",
+   "children",
+   "parent-led",
+   "skills-training",
+   "clinical-program"
+  ],
+  "use_context": [
+   "with-support"
+  ]
  }
 ]
