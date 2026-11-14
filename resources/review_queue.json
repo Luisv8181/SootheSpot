@@ -11367,7 +11367,7 @@
    ]
   },
   "description": "Free CBT-based mental health program for Ontario residents aged 15 and over: up to six confidential telephone coaching sessions plus workbooks and online videos for anxiety, depression, low mood, stress, and worry. Coaches come from psychology, social work, and lived-experience backgrounds and are trained by clinical psychologists; telephone coaching is available in many languages at intake request. No referral required; the program is funded through the Ontario healthcare system.",
-  "evidence_notes": "Publisher describes the program as evidence-based CBT coaching; program-level outcome evidence was not verified in this screening.",
+  "evidence_notes": "Publisher describes the program as evidence-based CBT coaching; program-level outcome evidence was not verified in this screening. Publisher reports 17,000+ adults and 750+ teens supported since 2017, with 6,312 adults and 279 teens starting last year (publisher figures, not independently verified).",
   "id": "bounceback-ontario",
   "intended_population": [
    "youth aged 15-17",
@@ -11377,7 +11377,7 @@
    "English (per the reviewed page)",
    "Telephone coaching in many languages at intake request (per the reviewed page)"
   ],
-  "last_verified_at": "2026-10-17",
+  "last_verified_at": "2026-11-14",
   "license_notes": "External resource. SootheSpot stores metadata only.",
   "limitations": "Ontario residents aged 15+ only; coaching support for manageable distress, not crisis care and not a substitute for clinical treatment. Coach availability and wait times not verified in this screening.",
   "name": "BounceBack Ontario",
@@ -11396,7 +11396,7 @@
   ],
   "privacy_notes": "Page states sessions are confidential and personal information is kept private in accordance with healthcare privacy standards; the full privacy policy was not reviewed in this screening.",
   "publisher": "Canadian Mental Health Association (CMHA)",
-  "reason": "Screened 2026-10-17: official site confirmed live (free CBT-based coaching for Ontario residents 15+, up to six confidential telephone sessions plus workbooks/videos, trained coaches, multilingual at intake, no referral needed). Ready for owner review before any promotion.",
+  "reason": "Screened 2026-10-17: official site confirmed live (free CBT-based coaching for Ontario residents 15+, up to six confidential telephone sessions plus workbooks/videos, trained coaches, multilingual at intake, no referral needed). Ready for owner review before any promotion. Re-checked 2026-11-14: homepage facts unchanged (program, Ontario scope, six sessions, multilingual coaching, no referral); publisher-reported reach figures added to evidence notes.",
   "required_before_verified": [
    "official_url_checked",
    "publisher_confirmed",
@@ -23278,16 +23278,17 @@
     "https://afsp.org/about-afsp/"
    ]
   },
-  "description": "Voluntary health organization founded in 1987 with a mission to save lives and bring hope to those affected by suicide. Its core strategies are funding scientific research, educating the public about mental health and suicide prevention, advocating for public policies, and supporting survivors of suicide loss. It has local chapters in all 50 states, Washington, DC, and Puerto Rico, and is headquartered in New York with a policy office in Washington, DC.",
+  "description": "Voluntary health organization founded in 1987 with a mission to save lives and bring hope to those affected by suicide. Its core strategies are funding scientific research, educating the public about mental health and suicide prevention, advocating for public policies, and supporting survivors of suicide loss. It has local chapters in all 50 states, Washington, DC, and Puerto Rico, and is headquartered in New York with a policy office in Washington, DC. The homepage (Nov 14) announces plans for AFSP and The Jed Foundation to come together, and lists International Survivors of Suicide Loss Day events (November 21) in dedicated tracks for Black and African American, LGBTQ+, AAPI, Spanish-language, ASL, veteran and clinician communities.",
   "evidence_notes": "Publisher states it funds scientific research and runs education, advocacy, and loss-survivor support programs, with chapters in all 50 states, DC, and Puerto Rico. No efficacy claims evaluated in this screening.",
   "id": "afsp-american-foundation-suicide-prevention",
   "intended_population": [
    "general"
   ],
   "languages": [
-   "English"
+   "English",
+   "Spanish (some Survivor Day events)"
   ],
-  "last_verified_at": "2026-11-09",
+  "last_verified_at": "2026-11-14",
   "license_notes": "External resource. SootheSpot stores metadata only.",
   "limitations": "AFSP states it is unable to provide crisis support services; people in crisis are directed to call or text 988 (or text TALK to 741741). It is an education, research, and advocacy organization, not a treatment provider or a crisis line.",
   "name": "American Foundation for Suicide Prevention",
@@ -23303,7 +23304,7 @@
   ],
   "privacy_notes": "Data practices were not reviewed in this screening.",
   "publisher": "American Foundation for Suicide Prevention",
-  "reason": "Screened 2026-11-09: official site and About page confirmed live; US suicide-prevention organization (founded 1987) funding research and running education, advocacy, and suicide-loss support, with chapters in all 50 states, DC, and Puerto Rico. Does not provide crisis support itself - directs to 988. Ready for owner review before any promotion.",
+  "reason": "Screened 2026-11-09: official site and About page confirmed live; US suicide-prevention organization (founded 1987) funding research and running education, advocacy, and suicide-loss support, with chapters in all 50 states, DC, and Puerto Rico. Does not provide crisis support itself - directs to 988. Ready for owner review before any promotion. Re-checked 2026-11-14: homepage facts hold; new since screening \u2014 AFSP-Jed Foundation coming-together announcement and community-specific Survivor Day event tracks confirmed from the primary source; Spanish-language availability now confirmed via a Spanish-language Survivor Day event.",
   "regions": [
    "United States"
   ],
@@ -23321,7 +23322,7 @@
   "screening_gaps": [
    "specific education program details not confirmed",
    "data practices not reviewed",
-   "non-English language availability not confirmed"
+   "AFSP-Jed Foundation coming-together details not assessed"
   ],
   "shelf": "learn",
   "source_notes": [
@@ -29814,6 +29815,157 @@
    "research",
    "psychoeducation",
    "resource-hub"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "The About page describes dark/light and high-contrast modes via browser extensions, webpage narration extensions, closed captions on videos, and font-size shortcuts; these were described by the publisher and not tested in this screening."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "UK-focused CBT resources; community-specific adaptation not assessed in this screening.",
+   "source_notes": [
+    "https://www.getselfhelp.co.uk/"
+   ]
+  },
+  "description": "Free CBT self-help and therapy resources, running for 25 years: the site first went live as mindinfo.co.uk in late 1999, was rebranded get.gg in 2008 and added getselfhelp.co.uk in 2009. Offers worksheets, information sheets, videos and self-help mp3s for individuals, plus downloads for professionals, covering CBT for mental-health problems, including The Decider skills and STOPP resources. Authored by Carol Vivyan, a retired CBT psychotherapist (formerly a registered mental-health nurse; BABCP accreditation lapsed on retirement in January 2021); her daughter Dr Naomi Cottam (Clinical Psychologist) contributes.",
+  "evidence_notes": "CBT-based self-help; the publisher states a study found it the most popular source of CBT resources used by UK therapists \u2014 the study was not evaluated in this screening. No efficacy claims evaluated.",
+  "id": "get-self-help-cbt",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English (per the reviewed pages)"
+  ],
+  "last_verified_at": "2026-11-14",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Self-help information and worksheets, not a crisis service and not a substitute for therapy. Author retired from clinical practice in January 2021 and BABCP accreditation has lapsed. Book recommendations on the homepage link to Amazon; no paid content is required to use the CBT resources.",
+  "name": "Get Self Help (getselfhelp.co.uk / Get.gg)",
+  "needs": [
+   "learn",
+   "understand"
+  ],
+  "official_url": "https://www.getselfhelp.co.uk/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Resources are readable on the publisher site. The site's privacy policy and data handling were not reviewed in this screening.",
+  "publisher": "Carol Vivyan (retired CBT psychotherapist; contributions from Dr Naomi Cottam, Clinical Psychologist)",
+  "reason": "Screened 2026-11-14: official homepage and About page confirmed live; free CBT worksheets, videos and mp3s, 25-year history, and author background confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "United Kingdom"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "self-help-toolkit",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy and data practices not reviewed",
+   "therapist-popularity study not evaluated"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://www.getselfhelp.co.uk/",
+   "https://getselfhelp.co.uk/about/"
+  ],
+  "status": "screened",
+  "tags": [
+   "cbt",
+   "self-help",
+   "worksheets",
+   "psychoeducation",
+   "therapist-resources",
+   "free"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free",
+   "paid"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "culturally_adapted",
+   "notes": "Mental-health support built for Black people, by Black people, per the publisher; therapist matching specifically offers access to a Black therapist.",
+   "source_notes": [
+    "https://blackmindsmatteruk.com/"
+   ]
+  },
+  "description": "UK organisation providing mental-health support built for Black people, by Black people: a resources library on mental-health topics, and a service matching people who can pay with a Black therapist based on presenting issues and preferences. Free one-to-one therapy is currently restricted: the therapy page (read via live browser, 2026-11-14) states no new applications are being accepted, the only free places are grant-funded cohorts that are already full, and the organisation is fundraising (Pardner Hand Campaign) to build a community-funded pot before free therapy can reopen; no reopening date is given. Not a crisis service.",
+  "evidence_notes": "Publisher is a UK community organisation; no efficacy claims evaluated in this screening.",
+  "id": "black-minds-matter-uk",
+  "intended_population": [
+   "bipoc",
+   "adults"
+  ],
+  "languages": [
+   "English (per the reviewed pages)"
+  ],
+  "last_verified_at": "2026-11-14",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Free one-to-one therapy is NOT currently open to new applicants: grant-funded cohorts are full and no application form, referral route or waiting list is offered; updates come via newsletter and social channels and no reopening date is given. Paid therapist matching is available for those who can pay. Not a crisis service: the therapy page signposts urgent help to a GP, NHS 111 (mental-health option), local crisis services, Samaritans 116 123, or 999/A&E.",
+  "name": "Black Minds Matter UK",
+  "needs": [
+   "find-support",
+   "learn"
+  ],
+  "official_url": "https://blackmindsmatteruk.com/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Resources are readable on the publisher site. The site's privacy policy and data handling were not reviewed in this screening.",
+  "publisher": "Black Minds Matter UK",
+  "reason": "Screened 2026-11-14: official homepage confirmed live; therapy-service page read via live browser \u2014 free therapy closed to new applicants, grant-funded cohorts full. FLAG for owner review: do not present as an open free-therapy route until the publisher reopens applications. Ready for owner review before any promotion.",
+  "regions": [
+   "United Kingdom"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "community-program",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy and data practices not reviewed",
+   "paid therapist-matching costs and process not assessed",
+   "funded-programme eligibility criteria not published"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+   "https://blackmindsmatteruk.com/",
+   "https://www.blackmindsmatteruk.com/accessourtherapyservice"
+  ],
+  "status": "screened",
+  "tags": [
+   "black-mental-health",
+   "bipoc",
+   "therapy",
+   "therapist-matching",
+   "uk",
+   "resources"
   ],
   "use_context": [
    "independent-use"
