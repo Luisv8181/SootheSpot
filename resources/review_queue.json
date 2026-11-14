@@ -29577,5 +29577,246 @@
   "use_context": [
    "independent-use"
   ]
+ },
+ {
+  "access": [
+   "free",
+   "low-cost"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "culturally_adapted",
+   "notes": "Black women-centered, culturally responsive and gender-responsive mental wellness care per the publisher; in-person and peer-support services are Chicago/Cook County scoped.",
+   "source_notes": [
+    "https://communitycare.sistaafya.com/"
+   ]
+  },
+  "description": "Free and affordable culturally-centered mental wellness care for women and girls in Chicago: individual therapy and case management (Thrive in Therapy, ages 12 and older; virtual sessions for Illinois residents, in-person in Chicagoland), free workshops, groups and wellness classes (Community Care), and Mental Health First Aid plus professional development training (Developing Mental Wellness Warriors). The Heal TogetHER model offers brief 1-on-1 peer emotional support, resource connections, and mental-health education for Black women in Chicago/Cook County, adapted from the Connect.Talk.Support program developed in Zimbabwe.",
+  "evidence_notes": "Publisher is a 501(c)3 nonprofit (Tax ID 85-2035370). Its Heal TogetHER one-year pilot executive summary (April 2024 - September 2025) reports 97 Black women participated, 94% satisfaction, and statistically significant improvements in mental health outcomes; these are the publisher's claims and were not independently evaluated in this screening.",
+  "id": "sista-afya-community-care",
+  "intended_population": [
+   "Black women",
+   "Black girls",
+   "women",
+   "girls"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-14",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Clinician-provided therapy, not self-help; virtual sessions require Illinois residency and in-person sessions require the Chicagoland area. Publisher states no same-week or immediate therapy appointments; intake starts with a client registration form. Peer support (Heal TogetHER) requires Chicago or Cook County residency. Not a crisis resource.",
+  "name": "Sista Afya Community Care",
+  "needs": [
+   "find-support",
+   "support"
+  ],
+  "official_url": "https://communitycare.sistaafya.com/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Therapy intake runs through a client registration form on the publisher site. The site's privacy policy and data handling were not reviewed in this screening.",
+  "publisher": "Sista Afya Community Care NFP (501(c)3), Chicago, IL",
+  "reason": "Screened 2026-11-14: official site confirmed live; free/affordable culturally-centered care, therapy and case management, free workshops/groups, peer-support model, and nonprofit status confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Chicago, IL, USA; virtual therapy for Illinois residents."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "resource-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy and data practices not reviewed",
+   "fee and sliding-scale details not confirmed from the reviewed pages"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+   "https://communitycare.sistaafya.com/",
+   "https://communitycare.sistaafya.com/healtogether",
+   "https://communitycare.sistaafya.com/therapy"
+  ],
+  "status": "screened",
+  "tags": [
+   "black-women",
+   "community-care",
+   "therapy",
+   "peer-support",
+   "case-management",
+   "mental-health-first-aid",
+   "culturally-centered",
+   "chicago"
+  ],
+  "use_context": [
+   "independent-use",
+   "with-support"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "culturally_adapted",
+   "notes": "African American-centered foundation; therapy described as culturally relevant care by licensed clinicians per the publisher.",
+   "source_notes": [
+    "https://borislhensonfoundation.org/programs/"
+   ]
+  },
+  "description": "Nonprofit founded in 2018 by Taraji P. Henson to eradicate stigma around mental health in the African American community. Offers five free therapy sessions with licensed clinicians (ages 12 and older, regardless of insurance status), psychoeducational and integrated wellness hangouts (yoga, meditation, African-centered dance and drumming), a 30-day school-based Take A Minute Challenge, monthly Wellness Wednesdays on HBCU campuses, Wellness Pods in non-traditional spaces, scholarships for minority mental-health professionals, and African American Cultural Humility Training.",
+  "evidence_notes": "Publisher is a nonprofit founded in 2018; workforce-representation figures (85% white, 4% Black) are the publisher's. No efficacy claims were evaluated in this screening.",
+  "id": "boris-lawrence-henson-foundation",
+  "intended_population": [
+   "adolescents",
+   "adults",
+   "bipoc"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-14",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Five free sessions only; continuing care is paid (insurance or another arrangement) per the publisher. Programs open on a schedule and registration links are listed when a program opens, so current enrollment windows were not confirmed. Not a crisis resource.",
+  "name": "Boris Lawrence Henson Foundation",
+  "needs": [
+   "find-support",
+   "support"
+  ],
+  "official_url": "https://borislhensonfoundation.org/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Program registration runs through the publisher site. The site's privacy policy and data handling were not reviewed in this screening.",
+  "publisher": "Boris Lawrence Henson Foundation (founded 2018 by Taraji P. Henson; Executive Director Tracie Jade Jenkins)",
+  "reason": "Screened 2026-11-14: official programs page confirmed live; five free therapy sessions, hangouts, school and HBCU programming, and nonprofit identity confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "United States; HBCU campuses and community sites nationwide."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "resource-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy and data practices not reviewed",
+   "current program enrollment windows not confirmed (programs open on a schedule)"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+   "https://borislhensonfoundation.org/programs/",
+   "https://borislhensonfoundation.org/programs/mwsp/"
+  ],
+  "status": "screened",
+  "tags": [
+   "black-community",
+   "bipoc",
+   "therapy",
+   "free-therapy",
+   "stigma-reduction",
+   "youth",
+   "hbcu",
+   "cultural-humility",
+   "wellness"
+  ],
+  "use_context": [
+   "independent-use",
+   "with-support"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "culturally_adapted",
+   "notes": "Built for Youth and Young Adults of Color and their caregivers; mission centers intersectional youth of color per the publisher.",
+   "source_notes": [
+    "https://aakomaproject.org/"
+   ]
+  },
+  "description": "Nonprofit for the mental health of Youth and Young Adults of Color: curated resources for youth and caregivers to manage wellbeing and connect to formal or clinical services when needed, plus research and community engagement, including the 2025 State of Mental Health of Youth and Young Adults of Color report covering nearly 9,000 respondents. Work is organized around raising consciousness, empowering people, and changing systems.",
+  "evidence_notes": "Publisher is a 501(c)(3) nonprofit founded by Dr. Alfiee M. Breland-Noble. The 2025 report's respondent count (nearly 9,000 Youth and Young Adults of Color) is the publisher's claim; the report itself was not evaluated in this screening.",
+  "id": "aakoma-project",
+  "intended_population": [
+   "young-people",
+   "young-adults",
+   "bipoc",
+   "families"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-14",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Resource hub and research organization, not a direct-care or crisis service. Any no-cost direct sessions are not described on the reviewed homepage, so current direct-service availability is unconfirmed. Informational and referral content only.",
+  "name": "The AAKOMA Project",
+  "needs": [
+   "learn",
+   "understand",
+   "find-support"
+  ],
+  "official_url": "https://aakomaproject.org/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Resources are readable on the publisher site. The site's privacy policy and data handling were not reviewed in this screening.",
+  "publisher": "The AAKOMA Project, Inc. (501(c)(3); founded by Dr. Alfiee M. Breland-Noble)",
+  "reason": "Screened 2026-11-14: official homepage confirmed live; youth-of-color focus, resource hub, and 2025 report confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "United States"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "resource-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy and data practices not reviewed",
+   "current direct-service availability beyond the resource hub not confirmed"
+  ],
+  "shelf": "learn",
+  "source_notes": [
+   "https://aakomaproject.org/",
+   "https://aakomaproject.org/somhyoc2025/"
+  ],
+  "status": "screened",
+  "tags": [
+   "youth-of-color",
+   "bipoc",
+   "youth",
+   "caregivers",
+   "research",
+   "psychoeducation",
+   "resource-hub"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
  }
 ]
