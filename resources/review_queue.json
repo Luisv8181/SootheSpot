@@ -4047,7 +4047,7 @@
   "languages": [
    "not stated on the reviewed page"
   ],
-  "last_verified_at": "2026-10-12",
+  "last_verified_at": "2026-11-14",
   "license_notes": "External resource. SootheSpot stores metadata only.",
   "limitations": "NOT an independent-use self-care tool - the standalone app is discontinued and its successor is members-only; the remaining Optum Behavioral Care offering is a clinical provider network requiring insurance verification, outside SootheSpot's independent-use scope. Do not list as a self-help resource. Detailed pricing, platforms, and disclaimers could not be verified from live official pages (site defunct).",
   "name": "Sanvello (now Optum Behavioral Care)",
@@ -4058,7 +4058,7 @@
   ],
   "privacy_notes": "Clinical intake involves personal data collection; actual privacy policy not reviewed in this screening.",
   "publisher": "AbleTo / Optum Behavioral Care (Sanvello Health acquired by AbleTo, per AbleTo FAQ)",
-  "reason": "Screened 2026-10-12: sanvello.com fetched live this run and is DNS-dead; live-browser verification of AbleTo's official FAQ confirmed Sanvello was acquired by AbleTo and became the members-only 'AbleTo SelfCare+' app, and ableto.com now redirects to optumbhcare.com as AbleTo folds into Optum Behavioral Care. The standalone self-care app no longer exists as a consumer product - outside SootheSpot's independent-use scope. Kept as a screened record so the decision trail is explicit; recommended NOT to promote. Ready for owner review.",
+  "reason": "Screened 2026-10-12: sanvello.com fetched live this run and is DNS-dead; live-browser verification of AbleTo's official FAQ confirmed Sanvello was acquired by AbleTo and became the members-only 'AbleTo SelfCare+' app, and ableto.com now redirects to optumbhcare.com as AbleTo folds into Optum Behavioral Care. The standalone self-care app no longer exists as a consumer product - outside SootheSpot's independent-use scope. Kept as a screened record so the decision trail is explicit; recommended NOT to promote. Ready for owner review. Re-checked 2026-11-14: sanvello.com still DNS-dead (live browser, repeated attempts); corroborating sources agree the standalone consumer app was folded into AbleTo and access is now members-only via AbleTo/Optum (ableto.com redirects to optumbhcare.com). No further change.",
   "regions": [
    "United States; therapy for new patients currently unavailable in Alaska, Georgia, Kansas, North Dakota, and West Virginia, per the reviewed page"
   ],
@@ -29331,6 +29331,248 @@
    "uk",
    "support-groups",
    "stigma"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "UK service for children and young people; community-specific adaptation not assessed in this screening.",
+   "source_notes": [
+    "https://www.childline.org.uk/toolbox/calm-zone/"
+   ]
+  },
+  "description": "Free set of calming activities, breathing exercises, creative expression tools, yoga and meditation videos, and games for children and young people who are feeling anxious, scared or sad, from Childline (NSPCC). Includes hands-on activities (stress sock, calm aid kit, let-it-go box, sense drawer, letter to yourself), breathing exercises (breathe and sigh, calming words, 4-7-8 deep calm, slow breaths, square breathing), creative tools (art box, connection, values, stress-and-anxiety body map, helping hand, crystal ball, mirror), and games (build your happy place, balloon game, tower of confidence, wall of expression). The page signposts Childline's free phone 0800 1111 and notes Childline is provided by NSPCC (registered charity numbers 216401 and SC037717).",
+  "evidence_notes": "Publisher is the NSPCC (registered charity 216401 and SC037717, per the reviewed page). No efficacy claims evaluated in this screening.",
+  "id": "calm-zone-childline",
+  "intended_population": [
+   "children",
+   "young people"
+  ],
+  "languages": [
+   "English (per the reviewed page)",
+   "Welsh advice pages available (Childline Cymru), per the reviewed homepage"
+  ],
+  "last_verified_at": "2026-11-14",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Self-help activities, not a substitute for counselling or treatment. The reviewed page signposts Childline free phone 0800 1111 for support. Age guidance for the Calm zone tools was not stated on the reviewed page.",
+  "name": "Calm Zone (Childline)",
+  "needs": [
+   "calm",
+   "cope"
+  ],
+  "official_url": "https://www.childline.org.uk/toolbox/calm-zone/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "The reviewed page describes Childline contacts as confidential; the privacy policy and data practices for the Calm zone tools were not reviewed in this screening.",
+  "publisher": "Childline, a service provided by NSPCC",
+  "reason": "Screened 2026-11-14: official childline.org.uk Calm zone page confirmed live (copy crawled 2026-11-14 13:56 UTC); free calming activities, breathing exercises, creative tools and games for children and young people, plus Childline free phone 0800 1111, confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "United Kingdom"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "self-help-toolkit",
+  "review_status": "screened",
+  "screening_gaps": [
+   "age guidance for the Calm zone tools not stated on the reviewed page",
+   "privacy policy and data practices for the tools not reviewed",
+   "accessibility not assessed",
+   "video and game tools not tested"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://www.childline.org.uk/toolbox/calm-zone/"
+  ],
+  "status": "screened",
+  "tags": [
+   "youth",
+   "children",
+   "teens",
+   "calming-activities",
+   "breathing-exercises",
+   "anxiety",
+   "uk",
+   "free",
+   "childline",
+   "games",
+   "mindfulness",
+   "self-help"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "Employer/payor/organization plans mentioned; pricing not stated"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Global employer platform; the homepage claims a global network of over 90,000 therapists and coaches bringing 'cultural understanding to every conversation' (publisher claim, not verified). Community-specific adaptation not assessed in this screening.",
+   "source_notes": [
+    "https://unmind.com/"
+   ]
+  },
+  "description": "Workplace mental health platform offering therapy and coaching with qualified therapists and coaches, short practical content and courses, AI support (Nova) with built-in clinical safeguards, manager training, anonymised wellbeing insights and assessments, a 24/7 global helpline and immediate support, rapid-response critical incident coverage, and work/life practical support. The homepage names Standard Chartered and Uber among the employers using it and claims a global network of over 90,000 therapists and coaches.",
+  "evidence_notes": "Publisher claims 'everything we do is grounded in proven psychology' and cites a network of over 90,000 therapists and coaches; no specific study or outcome data was named on the reviewed page. No efficacy claims evaluated in this screening.",
+  "id": "unmind-workplace-mental-health",
+  "intended_population": [
+   "adults"
+  ],
+  "languages": [
+   "English (per the reviewed page)"
+  ],
+  "last_verified_at": "2026-11-14",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Workplace platform: access runs through an employer, not direct to individuals; pricing not stated on the reviewed homepage. AI support (Nova) is described as having built-in clinical safeguards; the safeguards were not evaluated in this screening. Not a standalone crisis service; the platform includes a 24/7 helpline and rapid-response coverage.",
+  "name": "Unmind",
+  "needs": [
+   "support",
+   "find-support"
+  ],
+  "official_url": "https://unmind.com/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "The homepage mentions anonymised insights for employers; the privacy policy and data practices were not reviewed in this screening.",
+  "publisher": "Unmind (workplace mental health platform)",
+  "reason": "Screened 2026-11-14: official unmind.com homepage confirmed live (copy crawled 2026-11-14 13:57 UTC); workplace mental health platform (therapy, coaching, courses, AI support Nova, manager training, 24/7 global helpline, EAP) confirmed from the primary source. Access is employer-provided; pricing not stated. Ready for owner review before any promotion.",
+  "regions": [
+   "Global (employer-provided; availability depends on employer coverage)"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "web-platform",
+  "review_status": "screened",
+  "screening_gaps": [
+   "pricing not stated on the reviewed homepage",
+   "privacy policy and data practices not reviewed",
+   "mobile app availability not verified",
+   "languages beyond English not verified",
+   "AI safeguard claims not evaluated",
+   "accessibility not assessed"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+   "https://unmind.com/"
+  ],
+  "status": "screened",
+  "tags": [
+   "workplace",
+   "employers",
+   "therapy",
+   "coaching",
+   "eap",
+   "managers",
+   "ai-support",
+   "helpline",
+   "global"
+  ],
+  "use_context": [
+   "with-support"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Depression peer-support and education site; community-specific adaptation not assessed in this screening.",
+   "source_notes": [
+    "https://www.blurtitout.org/",
+    "https://www.blurtitout.org/about-us/"
+   ]
+  },
+  "description": "Website about living with depression: a library of resources explaining depression and what it means, a blog about living with, managing and supporting others with depression, and peer support connecting people who have been through depression with those currently struggling. Its stated purpose is awareness, education and peer support and challenging the stigma that prevents people reaching out. The About page states 'Blurt it Out is NO longer an affiliate with The Blurt Foundation CIC'.",
+  "evidence_notes": "Peer-support model; no efficacy claims evaluated in this screening.",
+  "id": "blurt-it-out-depression",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English (per the reviewed pages)"
+  ],
+  "last_verified_at": "2026-11-14",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "About page states the site is NO longer affiliated with The Blurt Foundation CIC, so the original charity's endorsement does not apply. The About page still contains lorem ipsum placeholder text and the homepage 'Quotes of the Day' are unrelated investment quotes, which raise content-quality questions the owner should weigh. Educational and peer-support content only; not a crisis service and not a substitute for treatment.",
+  "name": "Blurt It Out",
+  "needs": [
+   "understand",
+   "learn"
+  ],
+  "official_url": "https://www.blurtitout.org/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Privacy policy and data practices not reviewed in this screening.",
+  "publisher": "Blurt It Out (depression peer-support and education website; states it is NO longer affiliated with The Blurt Foundation CIC)",
+  "reason": "Screened 2026-11-14: official blurtitout.org homepage and About page confirmed live (copies crawled 2026-11-14 13:57 UTC); depression resource library, blog and peer support confirmed from the primary source. FLAGGED for owner review: site states it is no longer affiliated with The Blurt Foundation CIC, About page contains lorem ipsum placeholder text, and homepage quotes are unrelated investment quotes. Ready for owner review before any promotion.",
+  "regions": [
+   "United Kingdom (inferred from the Blurt Foundation CIC affiliation history; scope not stated on the reviewed pages)"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "information-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy and data practices not reviewed",
+   "resource library contents not reviewed in depth",
+   "geographic scope not stated on the reviewed pages",
+   "accessibility not assessed",
+   "peer-support signup and moderation details not reviewed"
+  ],
+  "shelf": "learn",
+  "source_notes": [
+   "https://www.blurtitout.org/",
+   "https://www.blurtitout.org/about-us/"
+  ],
+  "status": "screened",
+  "tags": [
+   "depression",
+   "peer-support",
+   "stigma",
+   "education",
+   "uk",
+   "blog",
+   "resources"
   ],
   "use_context": [
    "independent-use"
