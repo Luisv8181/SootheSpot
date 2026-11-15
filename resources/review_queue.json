@@ -31416,4 +31416,304 @@
   "French-language availability not confirmed"
  ]
 }
+,
+{
+ "id": "kelty-mental-health",
+ "name": "Kelty Mental Health Resource Centre",
+ "publisher": "Kelty Mental Health Resource Centre, BC Children's Hospital",
+ "resource_type": "resource-hub",
+ "official_url": "https://keltymentalhealth.ca/",
+ "description": "BC Children's Hospital resource centre for child and youth mental health. Free information and resources for families, including guides on common topics (featured: body image and eating disorders), podcasts, videos and books, Family Peer Support workers, an Ask Kelty Mental Health tool for common questions about supports and services in B.C., and free services for school communities. The homepage also points youth to Foundry BC and health-care providers to Compass BC.",
+ "tags": [
+  "children",
+  "youth",
+  "families",
+  "parents",
+  "caregivers",
+  "eating-disorders",
+  "body-image",
+  "peer-support",
+  "podcast",
+  "schools",
+  "canada",
+  "bc",
+  "free"
+ ],
+ "access": [
+  "free"
+ ],
+ "platforms": [
+  "Web",
+  "Phone"
+ ],
+ "intended_population": [
+  "general",
+  "children",
+  "adolescents"
+ ],
+ "languages": [
+  "English"
+ ],
+ "regions": [
+  "British Columbia, Canada; online resources broadly accessible."
+ ],
+ "cultural_context": {
+  "adaptation_status": "original",
+  "notes": "B.C.-focused service; the homepage lists the BC KUU-US Indigenous Crisis and Support Line and notes the BC Mental Health Support Line is available in over 140 languages via a language service. Fit outside B.C. not assessed.",
+  "source_notes": [
+   "https://keltymentalhealth.ca/"
+  ]
+ },
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "privacy_notes": "Resources are browsable on the website; no account noted. The centre publishes a phone number and email for contact; data practices were not reviewed in this screening.",
+ "evidence_notes": "Publisher is a BC Children's Hospital resource centre. No outcome claims made on the reviewed homepage; resource scope, peer support, school services, and contact details confirmed from the primary source.",
+ "limitations": "B.C.-focused services (phone support, in-person centre in Vancouver); online resources are the broadly usable part. Not a substitute for professional care; crisis numbers on the page are B.C./Canada-specific and must not be substituted for other regions.",
+ "review_status": "screened",
+ "status": "screened",
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "shelf": "read",
+ "needs": [
+  "read",
+  "understand"
+ ],
+ "use_context": [
+  "independent-use",
+  "with-support"
+ ],
+ "source_notes": [
+  "https://keltymentalhealth.ca/"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "reason": "Screened 2026-11-15: official keltymentalhealth.ca homepage confirmed live (copy crawled 2026-11-15 22:56 UTC); BC Children's Hospital publisher, free family resources, Family Peer Support, Ask Kelty tool, school services, podcast, and contact details confirmed from the primary source. Ready for owner review before any promotion.",
+ "screening_gaps": [
+  "individual resource guides not reviewed",
+  "privacy policy not reviewed",
+  "non-English availability of the centre's own resources not confirmed"
+ ]
+},
+{
+ "id": "melanin-mental-health",
+ "name": "Melanin & Mental Health",
+ "publisher": "Melanin & Mental Health",
+ "resource_type": "service-directory",
+ "official_url": "https://www.melaninandmentalhealth.com/",
+ "description": "Directory of therapists serving Black and Latinx communities, searchable by city (top searched cities listed: Houston, Chicago, Atlanta, Philadelphia), plus the Between Sessions podcast and community resources. The site's stated aim is changing the face of therapy and reducing stigma about seeking mental-health support in Black and Latinx communities.",
+ "tags": [
+  "therapist-directory",
+  "black",
+  "latinx",
+  "people-of-color",
+  "stigma",
+  "podcast",
+  "find-a-therapist",
+  "community"
+ ],
+ "access": [
+  "free"
+ ],
+ "platforms": [
+  "Web"
+ ],
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English"
+ ],
+ "regions": [
+  "United States (directory cities listed are U.S.)."
+ ],
+ "cultural_context": {
+  "adaptation_status": "original",
+  "notes": "Built specifically for Black and Latinx communities; therapist testimonials on the homepage describe clients finding therapists who look like them and speak their language. Fit outside the U.S. not assessed.",
+  "source_notes": [
+   "https://www.melaninandmentalhealth.com/"
+  ]
+ },
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "privacy_notes": "Directory is browsable on the website; no account noted for searching. Privacy policy and data practices were not reviewed in this screening.",
+ "evidence_notes": "No efficacy claims made; directory scope, city coverage, podcast, and community mission confirmed from the primary source. Individual therapist credentials were not verified.",
+ "limitations": "U.S.-focused directory. Therapist listings are paid for the therapists ($12.99/month or $130/year per the homepage); listing quality and individual credentials not verified. The site also sells merchandise and promotes a podcast, which are side content. Finding a therapist is not a substitute for crisis support.",
+ "review_status": "screened",
+ "status": "screened",
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "shelf": "reach-out",
+ "needs": [
+  "find-support"
+ ],
+ "use_context": [
+  "with-support"
+ ],
+ "source_notes": [
+  "https://www.melaninandmentalhealth.com/"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "reason": "Screened 2026-11-15: official melaninandmentalhealth.com homepage confirmed live (copy crawled 2026-11-15 22:56 UTC); directory of Black and Latinx therapists, city search, podcast, and community mission confirmed from the primary source. Ready for owner review before any promotion.",
+ "screening_gaps": [
+  "individual therapist credentials not verified",
+  "privacy policy not reviewed",
+  "directory search function not exercised"
+ ]
+},
+{
+ "id": "iprevail",
+ "name": "iPrevail",
+ "publisher": "iPrevail, Prevail Health (service discontinued)",
+ "resource_type": "digital-program",
+ "official_url": "https://www.iprevail.com/",
+ "description": "Online mental-health program (formerly offering CBT-based lessons and peer support). CLOSED: the service is no longer available effective June 30, 2026, and new subscriptions are no longer accepted. Existing users may request a pro-rated refund for any unused portion by contacting support. Recorded here so the closure is on file and the service is not re-screened as a live resource.",
+ "tags": [
+  "cbt",
+  "online-program",
+  "closed"
+ ],
+ "access": [
+  "paid"
+ ],
+ "platforms": [
+  "Web"
+ ],
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English"
+ ],
+ "regions": [
+  "Not confirmed; service closed."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "No cultural-adaptation assessment applies to a closed service.",
+  "source_notes": [
+   "https://www.iprevail.com/"
+  ]
+ },
+ "accessibility": [
+  "Not applicable: the service is closed and the site now serves a discontinuation notice."
+ ],
+ "privacy_notes": "No privacy review possible; the service is closed. The notice directs existing users to support for refunds.",
+ "evidence_notes": "Closure confirmed from the notice on the organization's own domain (copy crawled 2026-11-15 22:56 UTC): service no longer available effective June 30, 2026; new subscriptions no longer accepted.",
+ "limitations": "CLOSED - do not list as an available resource. Do not direct users to iprevail.com; the program has ended.",
+ "review_status": "screened",
+ "status": "screened",
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "shelf": "reach-out",
+ "needs": [
+  "find-support"
+ ],
+ "use_context": [
+  "with-support"
+ ],
+ "source_notes": [
+  "https://www.iprevail.com/"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "reason": "Screened 2026-11-15: iprevail.com fetched live this run (copy crawled 2026-11-15 22:56 UTC) and now serves a discontinuation notice: service no longer available effective June 30, 2026. Recorded as a closed resource so it is not re-screened as live; do not list.",
+ "screening_gaps": [
+  "no successor service named in the notice",
+  "whether any content survives elsewhere not confirmed"
+ ]
+},
+{
+ "id": "therapy-for-black-men",
+ "name": "Therapy for Black Men",
+ "publisher": "Therapy for Black Men (site currently paused)",
+ "resource_type": "service-directory",
+ "official_url": "https://therapyforblackmen.org/",
+ "description": "Therapist directory for Black men. DOWN: the domain currently serves only a hosting placeholder page titled 'Deployment Paused' with the text 'This deployment is temporarily paused' and no directory content, branding, navigation, or listings. A live browser check on 2026-11-15 (17:57 EST, reload confirmed) found the same placeholder twice. Recorded here so the outage is on file and the site is not re-screened as a live resource until it returns.",
+ "tags": [
+  "therapist-directory",
+  "black-men",
+  "find-a-therapist",
+  "down"
+ ],
+ "access": [
+  "free"
+ ],
+ "platforms": [
+  "Web"
+ ],
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English"
+ ],
+ "regions": [
+  "Currently unreachable; prior geographic scope not confirmed in this screening."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "No cultural-adaptation assessment possible while the site serves only a paused-deployment placeholder.",
+  "source_notes": [
+   "https://therapyforblackmen.org/"
+  ]
+ },
+ "accessibility": [
+  "Not applicable: the site currently serves only a hosting placeholder page."
+ ],
+ "privacy_notes": "No privacy review possible; the site serves only a placeholder page.",
+ "evidence_notes": "Outage confirmed by a live browser check on 2026-11-15 at 17:57 EST: therapyforblackmen.org redirects to www.therapyforblackmen.org and shows a blank 'Deployment Paused' placeholder; a reload showed the same page. A text-fetch cache from 2025-05-20 also showed unrelated spam content rather than a directory, consistent with the domain not currently serving the service.",
+ "limitations": "DOWN - do not list as an available resource until the site returns. Whether the directory still exists behind the paused deployment could not be confirmed; re-check before any future listing.",
+ "review_status": "screened",
+ "status": "screened",
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "shelf": "reach-out",
+ "needs": [
+  "find-support"
+ ],
+ "use_context": [
+  "with-support"
+ ],
+ "source_notes": [
+  "https://therapyforblackmen.org/"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "reason": "Screened 2026-11-15: live browser check (17:57 EST, reload confirmed) found therapyforblackmen.org serving only a 'Deployment Paused' hosting placeholder with no directory content. Recorded as down so it is not re-screened as live; do not list until it returns.",
+ "screening_gaps": [
+  "whether the directory service still exists behind the paused deployment not confirmed",
+  "no contact or status page found on the fetched placeholder"
+ ]
+}
 ]
