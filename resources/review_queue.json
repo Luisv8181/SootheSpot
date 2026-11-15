@@ -30204,5 +30204,232 @@
    "meeting directory not spot-checked beyond the meetings page",
    "book translations not enumerated"
   ]
- }
+ },
+ {
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "original",
+  "notes": "Australian youth mental-health service; only people in Australia aged 12-25 (and their family/friends) can use it, so fit outside Australia is not applicable. Indigenous-specific adaptation not stated on the reviewed page.",
+  "source_notes": [
+   "https://headspace.org.au/online-and-phone-support/connect-with-us/"
+  ]
+ },
+ "description": "Free national online and phone mental-health support service from headspace Australia for young people aged 12 to 25 in Australia, and for family, friends and carers supporting a young person in that age range. Qualified mental-health professionals (social workers, mental-health nurses, psychologists, occupational therapists, counsellors) offer webchat or phone sessions averaging 30-45 minutes, plus email support with replies within 2 days. No referral or mental-health care plan needed; users can choose to be anonymous after registering. Common topics include feeling down, worry and stress, relationships, sexuality and identity, thoughts of self-harm or suicide, alcohol and other drugs, sleep, and grief and loss. The same page also offers peer-worker appointments, family support, the Brief BEeT online CBT program for binge eating (ages 16-25), and moderated online communities.",
+ "evidence_notes": "Publisher is headspace National Youth Mental Health Foundation, Australia's national youth mental-health foundation. The reviewed page states eheadspace was awarded Accredited for compliance with the National Safety and Quality Digital Mental Health (NSQDMH) Standards. Effectiveness not evaluated in this screening.",
+ "id": "eheadspace-headspace-au",
+ "intended_population": [
+  "adolescents",
+  "young-adults"
+ ],
+ "languages": [
+  "English"
+ ],
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Australia-only: callers must be in Australia. Not an emergency service and not for diagnosis. Chat and phone run 3pm-10pm daily only; wait times can reach 40 minutes or more at busy times and final chats are accepted 30 minutes before close. Registration (email address) is required for webchat and email. The fetched copy was crawled 2026-10-27, 18 days before this screening, so hours and availability should be re-confirmed before promotion.",
+ "name": "eheadspace (headspace Australia)",
+ "needs": [
+  "find-support"
+ ],
+ "official_url": "https://headspace.org.au/online-and-phone-support/connect-with-us/",
+ "platforms": [
+  "Web",
+  "Phone"
+ ],
+ "privacy_notes": "Registration required for webchat/email (an email address is needed; the page states users can then choose to be anonymous). The full privacy policy was not reviewed in this screening.",
+ "publisher": "headspace National Youth Mental Health Foundation (Australia)",
+ "reason": "Screened 2026-11-15: official headspace.org.au page confirmed live; free access, 12-25 age scope, qualified clinician staffing, 3pm-10pm hours, no-referral access, and NSQDMH accreditation confirmed from the primary source. Distinct service from the headspace centres entry already in the queue (headspace-australia-youth). Ready for owner review before any promotion.",
+ "regions": [
+  "Australia (young people 12-25 and their family/friends in Australia)."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "online-support-platform",
+ "review_status": "screened",
+ "screening_gaps": [
+  "privacy policy not reviewed",
+  "accessibility statement not reviewed",
+  "fetched copy crawled 2026-10-27 - re-confirm hours before promotion"
+ ],
+ "shelf": "reach-out",
+ "source_notes": [
+  "https://headspace.org.au/online-and-phone-support/connect-with-us/"
+ ],
+ "status": "screened",
+ "tags": [
+  "youth",
+  "young-people",
+  "australia",
+  "online-chat",
+  "phone-support",
+  "clinicians",
+  "free",
+  "confidential",
+  "anonymous",
+  "short-term-support"
+ ],
+ "use_context": [
+  "with-support"
+ ]
+},
+ {
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "community-centered",
+  "notes": "Explicitly built for men of color; therapy is matched with providers of color so clients can discuss cultural stressors including racism, prejudice, and economic disparities, per the homepage.",
+  "source_notes": [
+   "https://blackmenheal.org/"
+  ]
+ },
+ "description": "Nonprofit providing free mental-health treatment, psycho-education, and community resources to men of color. The homepage offers 8 free one-on-one therapy sessions with a provider of color, matched to the client's needs, alongside peer spaces and community programs. Mission as stated on the homepage: 'To provide access to mental health treatment, psycho-education, and community resources to men of color.' The organization is currently fundraising (Beyond The Game campaign, $150,000 goal) to fund free therapy sessions.",
+ "evidence_notes": "Nonprofit founded 2018 in the Philadelphia area and registered 501(c)(3) (per secondary sources). Effectiveness and outcomes not evaluated in this screening.",
+ "id": "black-men-heal",
+ "intended_population": [
+  "black-community",
+  "adults"
+ ],
+ "languages": [
+  "English"
+ ],
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Free sessions are application-based and capacity-limited; availability depends on funding (the organization is actively fundraising). The homepage does not state eligibility criteria, session format (virtual vs in-person), or geographic coverage - confirm before promotion. Not a crisis service; no crisis pathway observed on the fetched homepage.",
+ "name": "Black Men Heal",
+ "needs": [
+  "find-support"
+ ],
+ "official_url": "https://blackmenheal.org/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "The program runs on an application process; data handling and the privacy policy were not reviewed in this screening.",
+ "publisher": "Black Men Heal (nonprofit, Ardmore, Pennsylvania)",
+ "reason": "Screened 2026-11-15: official blackmenheal.org homepage confirmed live (copy crawled under a minute before the read); 8 free sessions with a provider of color, mission, and stigma-reduction framing confirmed from the primary source. FLAG for owner review: application-based and funding-dependent - confirm eligibility, format, and coverage before any promotion.",
+ "regions": [
+  "United States; founded in the Philadelphia, Pennsylvania area (per secondary sources); service geography beyond that area not confirmed on the reviewed homepage."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "community-program",
+ "review_status": "screened",
+ "screening_gaps": [
+  "eligibility criteria and application steps not reviewed (subpages)",
+  "session format and geographic coverage not confirmed on homepage",
+  "privacy policy not reviewed"
+ ],
+ "shelf": "reach-out",
+ "source_notes": [
+  "https://blackmenheal.org/"
+ ],
+ "status": "screened",
+ "tags": [
+  "black-men",
+  "men-of-color",
+  "free-therapy",
+  "culturally-responsive",
+  "peer-support",
+  "philadelphia",
+  "pennsylvania"
+ ],
+ "use_context": [
+  "with-support"
+ ]
+},
+ {
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "community-centered",
+  "notes": "Directory built for South Asians worldwide; listed therapists share South Asian heritage (Indian, Pakistani, Bangladeshi, Sri Lankan, Afghani, Nepali) per the homepage.",
+  "source_notes": [
+   "https://southasiantherapists.org/"
+  ]
+ },
+ "description": "Directory of South Asian mental-health therapists and counsellors, described by the publisher as the largest South Asian mental-health therapist community in the world, with hundreds of therapists of Indian, Pakistani, Bangladeshi, Sri Lankan, Afghani and Nepali heritage. Users search the directory by location, specialty, and language to find culturally competent support. The site also publishes therapy and counselling articles (EMDR for trauma, South Asian marriage counselling, finding a therapist near you, when to see a couples therapist).",
+ "evidence_notes": "Publisher claims 'largest South Asian mental health therapist and counselling community in the world' and 'hundreds of therapists'; directory vetting standards were not audited in this screening. Founded during the COVID-19 lockdown (per secondary sources).",
+ "id": "south-asian-therapists-directory",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English"
+ ],
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Directory browsing is free but therapist sessions are paid; fees vary by provider and were not assessed. 'Largest' and 'hundreds of therapists' are publisher claims, not independently verified. Listing standards and vetting not audited. Languages beyond English not confirmed on the reviewed homepage. Not a crisis service; no crisis pathway observed on the fetched homepage.",
+ "name": "South Asian Therapists",
+ "needs": [
+  "find-support"
+ ],
+ "official_url": "https://southasiantherapists.org/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Directory browsing requires no account per the fetched page. Therapist contact and booking go through individual providers; the privacy policy was not reviewed.",
+ "publisher": "South Asian Therapists (directory and community)",
+ "reason": "Screened 2026-11-15: official southasiantherapists.org homepage confirmed live (copy crawled under a minute before the read); directory scope, heritage coverage, and articles confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; UK, Canada, and US diaspora per secondary sources; coverage not confirmed on the reviewed homepage."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "service-directory",
+ "review_status": "screened",
+ "screening_gaps": [
+  "directory vetting and listing standards not audited",
+  "session fees not assessed",
+  "privacy policy not reviewed",
+  "language availability beyond English not confirmed"
+ ],
+ "shelf": "reach-out",
+ "source_notes": [
+  "https://southasiantherapists.org/"
+ ],
+ "status": "screened",
+ "tags": [
+  "south-asian",
+  "therapist-directory",
+  "culturally-competent",
+  "diaspora",
+  "find-a-therapist"
+ ],
+ "use_context": [
+  "with-support"
+ ]
+}
 ]
