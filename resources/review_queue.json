@@ -29970,5 +29970,239 @@
   "use_context": [
    "independent-use"
   ]
+ },
+ {
+  "id": "papyrus-prevention-of-young-suicide",
+  "name": "PAPYRUS Prevention of Young Suicide",
+  "publisher": "PAPYRUS Prevention of Young Suicide (in Administration; Joint Administrators Emma Mifsud and Charles Turner, Opus Restructuring LLP)",
+  "resource_type": "crisis-support",
+  "official_url": "https://papyrus-uk.org/",
+  "description": "UK charity that for almost 30 years worked to prevent young suicide through its HOPELINE247 helpline, campaigning, education and training. CLOSED: the charity ceased operating and was placed into Administration on 7 September 2026, and HOPELINE247 is no longer operating. The former official site now serves the Joint Administrators' closure notice, which directs people to Samaritans (116 123), Shout (text SHOUT to 85258), NHS 111, or 999 in an emergency. Recorded here so the closure is on file and the charity is not re-screened as a live resource.",
+  "tags": [
+   "youth-suicide-prevention",
+   "uk",
+   "crisis-support",
+   "closed"
+  ],
+  "access": [
+   "free"
+  ],
+  "platforms": [
+   "Web"
+  ],
+  "intended_population": [
+   "young-people",
+   "young-adults"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "United Kingdom"
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "UK-focused youth suicide prevention charity; no cultural-adaptation assessment applies to a closed service.",
+   "source_notes": [
+    "https://papyrus-uk.org/"
+   ]
+  },
+  "accessibility": [
+   "Not applicable: the service is closed and the site now serves an administration notice."
+  ],
+  "privacy_notes": "The administration notice states personal data will continue to be held securely under GDPR and destroyed where appropriate; the privacy policy itself was not reviewed in this screening.",
+  "evidence_notes": "Closure confirmed from the Joint Administrators' notice on the charity's own domain (copy crawled 2026-11-15 02:56 UTC): administration appointed 7 September 2026, HOPELINE247 no longer operating, orderly closure under way, with the possibility of some services transferring to new partners still being explored and unconfirmed.",
+  "limitations": "CLOSED - do not list as an available resource. HOPELINE247 is no longer operating; training and events are cancelled unless an alternative provider takes them on (unconfirmed); regular donations should cease. Anyone seeking support should use the alternative services named in the notice (Samaritans, Shout, NHS 111, 999).",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-11-14",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "shelf": "reach-out",
+  "needs": [
+   "find-support"
+  ],
+  "use_context": [
+   "with-support"
+  ],
+  "source_notes": [
+   "https://papyrus-uk.org/"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "reason": "Screened 2026-11-14: papyrus-uk.org fetched live this run and now serves the Opus Restructuring administration notice (copy crawled 2026-11-15 02:56 UTC) - PAPYRUS closed 7 September 2026 and HOPELINE247 no longer operates. Recorded as a closed resource so it is not re-screened as live; do not list. Flagged for owner awareness: a formerly prominent UK youth-suicide-prevention helpline is gone, so any SootheSpot content pointing at PAPYRUS/HOPELINE247 must be removed or redirected.",
+  "screening_gaps": [
+   "whether any PAPYRUS services transfer to a new partner is unconfirmed",
+   "no check made of whether SootheSpot content currently references PAPYRUS"
+  ]
+ },
+ {
+  "id": "deprexis-digital-therapy",
+  "name": "deprexis",
+  "publisher": "GAIA AG",
+  "resource_type": "digital-therapeutic",
+  "official_url": "https://deprexis.com/en/",
+  "description": "Online, interactive digital therapy program for adults (18+) with unipolar depression or depressive disorders, based on evidence-based psychological and psychotherapeutic methods (including S3 guideline-compliant CBT in a virtual dialogue). Intended as self-application supplemental to care-as-usual for a 90-day period; explicitly not a replacement for treatment by a health care provider. In Germany it is permanently listed as a Digital Health Application (DiGA) in the BfArM directory, prescribed via PZN 17265872, with costs fully covered by all public health insurers; self-pay price given as 297.50 euros for 90 days. The official site also states a US indication as an adjunctive treatment for chronic or recurrent depression.",
+  "tags": [
+   "depression",
+   "cbt",
+   "digital-therapeutic",
+   "prescription",
+   "diga",
+   "adults"
+  ],
+  "access": [
+   "paid"
+  ],
+  "platforms": [
+   "Web"
+  ],
+  "intended_population": [
+   "adults"
+  ],
+  "languages": [
+   "English",
+   "German"
+  ],
+  "regions": [
+   "Germany",
+   "European Union",
+   "Switzerland",
+   "United States"
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "German-developed program; availability and reimbursement are country-specific (DiGA listing in Germany; separate US indication stated). Cultural adaptation beyond language availability not assessed in this screening.",
+   "source_notes": [
+    "https://deprexis.com/en/"
+   ]
+  },
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "GAIA states its applications comply with EU GDPR; the privacy policy and data handling were not reviewed in this screening.",
+  "evidence_notes": "Publisher (GAIA) states deprexis is a CE-marked Class I medical device with clinically validated effectiveness, studied in 13 randomized controlled trials, with effect sizes similar to antidepressants; the homepage links an updated meta-analysis (PLOS). No trial was reviewed in this screening, so efficacy claims are publisher-stated only.",
+  "limitations": "Prescription or insurer activation required - not an open self-help signup. Adults 18+ only; 90-day use period; supplemental to care-as-usual, not a replacement for professional treatment; not a crisis service and not for diagnosis or treatment decisions. US authorization route was not confirmed in this screening; cost and access outside Germany were not confirmed.",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-11-14",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "shelf": "practice",
+  "needs": [
+   "practice",
+   "understand"
+  ],
+  "use_context": [
+   "with-support"
+  ],
+  "source_notes": [
+   "https://deprexis.com/en/",
+   "https://deprexis.com/de-en/overview-for-healthcare-professionals",
+   "https://gaia-group.com/en/digital-therapeutics.html"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "reason": "Screened 2026-11-14: official deprexis.com homepage and healthcare-professional overview confirmed live (copies crawled 2026-11-15 02:56-02:57 UTC); GAIA AG publisher, DiGA permanent listing, insurer coverage, 297.50 euro self-pay price, 18+ age floor, 90-day period, and supplemental-to-care scope confirmed from the primary source. Ready for owner review before any promotion; flag for owner judgment: prescription-gated, so it fits only as a with-support listing, not independent use.",
+  "screening_gaps": [
+   "privacy policy and data practices not reviewed",
+   "US authorization route not confirmed",
+   "no trial reviewed; efficacy claims are publisher-stated",
+   "languages beyond English and German not confirmed",
+   "cost and access outside Germany not confirmed"
+  ]
+ },
+ {
+  "id": "recovery-dharma",
+  "name": "Recovery Dharma",
+  "publisher": "Recovery Dharma Global (nonprofit)",
+  "resource_type": "peer-support",
+  "official_url": "https://recoverydharma.org/",
+  "description": "Peer-led recovery movement and community grounded in Buddhist teachings (the Four Noble Truths and the Eightfold Path), for freedom from the suffering of addiction. Members commit to abstinence from addictive substances (and wise boundaries around harmful behaviors for process addictions), a daily meditation practice, attending meetings, and exploring the teachings through writing and sharing Inquiries. Meetings are peer-led, free, and held online and in person worldwide; the Recovery Dharma book (2.0) is free to download, read and print, with print, Kindle and audiobook editions sold and translations available. Run by the nonprofit Recovery Dharma Global, whose board is elected by and serves at the behest of the global sangha.",
+  "tags": [
+   "addiction-recovery",
+   "peer-support",
+   "meditation",
+   "mindfulness",
+   "buddhist-inspired",
+   "meetings",
+   "free"
+  ],
+  "access": [
+   "free"
+  ],
+  "platforms": [
+   "Web",
+   "In-person"
+  ],
+  "intended_population": [
+   "general",
+   "adults"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "Global"
+  ],
+  "cultural_context": {
+   "adaptation_status": "community_informed",
+   "notes": "Peer-led community founded on Buddhist teachings originating in India and flourishing across Asia; the About page states appreciation for the Buddhist heritage protected and freely offered by the ancestors of those cultures, and the board commits to concrete actions supporting inclusion of all members of the global sangha.",
+   "source_notes": [
+    "https://recoverydharma.org/about/"
+   ]
+  },
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "Peer meetings and community participation involve sharing personal experiences; the privacy policy and data handling were not reviewed in this screening.",
+  "evidence_notes": "Peer-led recovery community; no clinical efficacy claims are made on the reviewed pages, and none are asserted here. The program book and meeting format are described by the publisher.",
+  "limitations": "Peer support, not professional addiction treatment and not a substitute for professional care. Buddhist-inspired framework (Four Noble Truths, Eightfold Path, meditation) may not suit everyone. Meeting availability varies by location and time; not a crisis service.",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-11-14",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "shelf": "practice",
+  "needs": [
+   "practice",
+   "find-support"
+  ],
+  "use_context": [
+   "independent-use",
+   "with-support"
+  ],
+  "source_notes": [
+   "https://recoverydharma.org/",
+   "https://recoverydharma.org/about/",
+   "https://recoverydharma.org/book/",
+   "https://recoverydharma.org/meetings/"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "reason": "Screened 2026-11-14: official recoverydharma.org homepage, About, Book and Meetings pages confirmed live (copies crawled 2026-11-15 02:57 UTC); peer-led Buddhist-inspired recovery model, free meetings worldwide, free book download, and nonprofit governance confirmed from the primary source. Ready for owner review before any promotion.",
+  "screening_gaps": [
+   "privacy policy and data practices not reviewed",
+   "meeting directory not spot-checked beyond the meetings page",
+   "book translations not enumerated"
+  ]
  }
 ]
