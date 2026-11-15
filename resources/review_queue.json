@@ -30663,5 +30663,302 @@
   "primary_source_recorded"
  ],
  "reason": "Screened 2026-11-15: official therapyden.com homepage confirmed live; directory scope, identity/language matching, assessments, and FAQ cost and fit guidance confirmed from the primary source. Ready for owner review before any promotion."
+ },
+ {
+ "id": "movember-mens-health-resources",
+ "name": "Movember",
+ "publisher": "Movember (global men's health charity)",
+ "resource_type": "resource-hub",
+ "official_url": "https://movember.com/",
+ "description": "Global men's health charity and community publishing free mental-health resources: articles on mental fitness and how to talk about mental health, guidance for supporting a young man who is struggling, and programs including Men in Mind practitioner training, mental-health guidelines in community sport, and research reports such as The Real Face of Men's Health. Fundraising (growing a moustache in November) funds the work.",
+ "tags": [
+  "mens-health",
+  "mental-fitness",
+  "community",
+  "psychoeducation",
+  "independent-use"
+ ],
+ "access": [
+  "free"
+ ],
+ "platforms": [
+  "Web"
+ ],
+ "intended_population": [
+  "adults"
+ ],
+ "languages": [
+  "English"
+ ],
+ "regions": [
+  "Global; regional editions exist, languages not verified on the reviewed page"
+ ],
+ "needs": [
+  "read",
+  "understand"
+ ],
+ "use_context": [
+  "independent-use"
+ ],
+ "shelf": "read",
+ "status": "screened",
+ "review_status": "screened",
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Fundraising-led charity: the site's primary frame is campaigns and donations, and mental-health articles sit alongside prostate and testicular cancer content. Resources are informational and community-oriented, not a substitute for professional care. Not a crisis service.",
+ "privacy_notes": "Articles are readable on the site with no account noted on the reviewed page. Fundraising and signup data practices were not reviewed in this screening.",
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Men-focused global charity; content addresses masculine norms around help-seeking. Fit for non-English-speaking and non-Western contexts not assessed.",
+  "source_notes": [
+   "https://movember.com/"
+  ]
+ },
+ "evidence_notes": "Publisher runs research programs (e.g. The Real Face of Men's Health reports, Men in Mind practitioner training) per the reviewed homepage. Individual articles' evidence was not evaluated in this screening.",
+ "screening_gaps": [
+  "language availability of regional editions not confirmed",
+  "individual articles not evaluated",
+  "privacy policy not reviewed"
+ ],
+ "source_notes": [
+  "https://movember.com/"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "reason": "Screened 2026-11-15: official movember.com homepage confirmed live; free mental-health articles and programs (mental fitness, talking about mental health, Men in Mind, community-sport guidelines) confirmed from the primary source. Ready for owner review before any promotion."
+ },
+ {
+ "id": "we-matter-indigenous-youth",
+ "name": "We Matter",
+ "publisher": "We Matter Campaign",
+ "resource_type": "resource-hub",
+ "official_url": "https://wemattercampaign.org/",
+ "description": "A place to help Indigenous youth get through hard times: hundreds of videos from young people, role models, aunties and uncles sharing messages of hope, plus stories, opportunities and resources, and an 'It's Okay to Get Help' section with crisis help. Visitors can add their own voice to the #WeMatterCampaign.",
+ "tags": [
+  "indigenous-youth",
+  "storytelling",
+  "hope",
+  "youth",
+  "peer-support",
+  "independent-use"
+ ],
+ "access": [
+  "free"
+ ],
+ "platforms": [
+  "Web"
+ ],
+ "intended_population": [
+  "adolescents",
+  "young adults"
+ ],
+ "languages": [
+  "English"
+ ],
+ "regions": [
+  "Canada; Indigenous youth focus (per publisher)"
+ ],
+ "needs": [
+  "watch",
+  "understand"
+ ],
+ "use_context": [
+  "independent-use"
+ ],
+ "shelf": "watch",
+ "status": "screened",
+ "review_status": "screened",
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Peer storytelling and hope-sharing campaign, not a treatment service and not a substitute for professional care. Crisis-help section present on the homepage; keep SootheSpot safety pathways separate. Individual videos not assessed.",
+ "privacy_notes": "Videos and resources viewable on the site; no account noted on the reviewed page. Instagram presence noted; social-media data practices not reviewed.",
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "community_informed",
+  "notes": "Indigenous youth-led campaign by and for Indigenous youth in Canada; videos feature young people, role models, aunties and uncles. Content is community-created, not adapted from a general program.",
+  "source_notes": [
+   "https://wemattercampaign.org/"
+  ]
+ },
+ "evidence_notes": "No outcome claims made on the reviewed page; storytelling and peer-support model, not a clinical intervention. No efficacy claims evaluated in this screening.",
+ "screening_gaps": [
+  "individual videos not evaluated",
+  "languages of video content not confirmed",
+  "privacy policy not reviewed"
+ ],
+ "source_notes": [
+  "https://wemattercampaign.org/"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "reason": "Screened 2026-11-15: official wemattercampaign.org homepage confirmed live via fresh fetch; Indigenous youth focus, video library, hope-sharing model and crisis-help section confirmed from the primary source. Recent activity shown (videos dated 2025). Ready for owner review before any promotion."
+ },
+ {
+ "id": "place2be-childrens-mental-health",
+ "name": "Place2Be",
+ "publisher": "Place2Be (UK children's mental health charity)",
+ "resource_type": "resource-hub",
+ "official_url": "https://www.place2be.org.uk/",
+ "description": "UK children's mental health charity with over 30 years' experience in schools: one-to-one and group counselling for pupils, training for school staff, and free resources for schools and families, including the annual Children's Mental Health Week materials (2027 theme 'Step into Our World').",
+ "tags": [
+  "children",
+  "schools",
+  "counselling",
+  "families",
+  "psychoeducation",
+  "independent-use"
+ ],
+ "access": [
+  "free"
+ ],
+ "platforms": [
+  "Web"
+ ],
+ "intended_population": [
+  "children",
+  "adolescents"
+ ],
+ "languages": [
+  "English"
+ ],
+ "regions": [
+  "UK; school-based services"
+ ],
+ "needs": [
+  "read",
+  "understand"
+ ],
+ "use_context": [
+  "independent-use"
+ ],
+ "shelf": "read",
+ "status": "screened",
+ "review_status": "screened",
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "In-school counselling is available only through partner schools, not as an open self-referral service; the independently usable part of this record is the free family and school resources. Not a crisis service. Outcome figures on the homepage (e.g. 91% of 11-18 year olds improved after counselling) are the publisher's and were not evaluated.",
+ "privacy_notes": "Free resources readable on the site; no account noted on the reviewed page. Email signup offered; its data handling was not reviewed.",
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "UK school-based charity; fit outside the UK school system not assessed.",
+  "source_notes": [
+   "https://www.place2be.org.uk/"
+  ]
+ },
+ "evidence_notes": "Publisher cites its own outcome figures and a 2026 prevalence review by Professor Peter Fonagy; the underlying evidence was not evaluated in this screening.",
+ "screening_gaps": [
+  "free family resources not individually reviewed",
+  "privacy policy not reviewed",
+  "publisher outcome figures not verified"
+ ],
+ "source_notes": [
+  "https://www.place2be.org.uk/"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "reason": "Screened 2026-11-15: official place2be.org.uk homepage confirmed live; charity scope, school counselling model, and free Children's Mental Health Week family and school resources confirmed from the primary source. Ready for owner review before any promotion."
+ },
+ {
+ "id": "it-gets-better-lgbtq-youth",
+ "name": "It Gets Better Project",
+ "publisher": "It Gets Better Project (nonprofit)",
+ "resource_type": "resource-hub",
+ "official_url": "https://itgetsbetter.org/",
+ "description": "The world's largest storytelling organization for LGBTQ+ youth: video stories from LGBTQ+ people and allies, educational series such as 'Writing Our Own Dictionary' explaining nonbinary and trans identities, a glossary (Term of the Day), and It Gets Better EDU, a free library of educational resources for educators and student leaders, plus global affiliates.",
+ "tags": [
+  "lgbtq",
+  "youth",
+  "storytelling",
+  "education",
+  "affirming",
+  "independent-use"
+ ],
+ "access": [
+  "free"
+ ],
+ "platforms": [
+  "Web"
+ ],
+ "intended_population": [
+  "adolescents"
+ ],
+ "languages": [
+  "English"
+ ],
+ "regions": [
+  "Global; US-based publisher with global affiliates (per publisher)"
+ ],
+ "needs": [
+  "watch",
+  "understand"
+ ],
+ "use_context": [
+  "independent-use"
+ ],
+ "shelf": "watch",
+ "status": "screened",
+ "review_status": "screened",
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Storytelling and education, not a treatment service or a crisis service; keep safety pathways separate. Individual videos and EDU lesson materials not evaluated. Global affiliates' content and languages not reviewed.",
+ "privacy_notes": "Stories and resources viewable on the site; no account noted on the reviewed page. Video hosting via YouTube; YouTube data practices not reviewed.",
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "community_informed",
+  "notes": "LGBTQ+ youth storytelling by community members; global affiliates adapt the model locally. Fit for specific cultural contexts not assessed.",
+  "source_notes": [
+   "https://itgetsbetter.org/"
+  ]
+ },
+ "evidence_notes": "No clinical or outcome claims made on the reviewed page; storytelling and peer-affirmation model. No efficacy claims evaluated in this screening.",
+ "screening_gaps": [
+  "individual videos and EDU materials not evaluated",
+  "global affiliate content not reviewed",
+  "privacy policy not reviewed"
+ ],
+ "source_notes": [
+  "https://itgetsbetter.org/"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "reason": "Screened 2026-11-15: official itgetsbetter.org homepage confirmed live; storytelling library, dictionary and glossary series, and free EDU resources confirmed from the primary source. Ready for owner review before any promotion."
  }
 ]
