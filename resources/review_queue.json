@@ -30960,5 +30960,460 @@
   "primary_source_recorded"
  ],
  "reason": "Screened 2026-11-15: official itgetsbetter.org homepage confirmed live; storytelling library, dictionary and glossary series, and free EDU resources confirmed from the primary source. Ready for owner review before any promotion."
- }
+ },
+{
+ "id": "mindyourmind-ca",
+ "name": "mindyourmind",
+ "publisher": "mindyourmind (Canadian youth mental health organization)",
+ "resource_type": "resource-hub",
+ "official_url": "https://mindyourmind.ca/",
+ "description": "Canadian youth mental health organization that co-creates interactive tools and resources with young people aged 14 to 29 to build capacity and resilience. The homepage lists 60+ tools and resources, wellness tips, a youth-written blog, and Design Labs where youth drive the creation of new tools. Crisis support is signposted to ConnexOntario (free 24/7 mental health, addiction and problem gambling support) and 911. New accessible resources were reformatted with CNIB as fillable PDFs for blind and low-vision readers.",
+ "tags": [
+  "youth",
+  "young-adults",
+  "canada",
+  "interactive-tools",
+  "wellness-tips",
+  "co-created",
+  "crisis-signposting",
+  "accessible"
+ ],
+ "access": [
+  "free"
+ ],
+ "platforms": [
+  "Web"
+ ],
+ "intended_population": [
+  "adolescents",
+  "young-adults"
+ ],
+ "languages": [
+  "English"
+ ],
+ "regions": [
+  "Canada"
+ ],
+ "cultural_context": {
+  "adaptation_status": "community-centered",
+  "notes": "Tools and resources are co-created with young Canadians aged 14 to 29; fit for other age groups and regions not assessed.",
+  "source_notes": [
+   "https://mindyourmind.ca/"
+  ]
+ },
+ "accessibility": [
+  "New accessible resources reformatted with CNIB as fillable PDFs, keyboard-navigable and screen-reader accessible, per the homepage. Broader site accessibility not assessed."
+ ],
+ "privacy_notes": "No account was noted for reading tools and tips on the fetched homepage. The privacy policy was not reviewed in this screening.",
+ "evidence_notes": "The organization describes its work as research-informed and co-created with youth; individual tools were not evaluated in this screening.",
+ "limitations": "Canada-focused; crisis support on the page signposts to ConnexOntario (Ontario) and 911. Individual tools not evaluated. Not a crisis service itself and not a substitute for professional care.",
+ "review_status": "screened",
+ "status": "screened",
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "shelf": "practice",
+ "needs": [
+  "practice",
+  "understand"
+ ],
+ "use_context": [
+  "independent-use"
+ ],
+ "source_notes": [
+  "https://mindyourmind.ca/"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "reason": "Screened 2026-11-15: official mindyourmind.ca homepage confirmed live (copy crawled under a minute before the read); youth 14-29 co-created tools, 60+ resources, ConnexOntario crisis signposting, and CNIB accessible resources confirmed from the primary source. Ready for owner review before any promotion.",
+ "screening_gaps": [
+  "individual tools not evaluated",
+  "privacy policy not reviewed",
+  "French-language availability not confirmed",
+  "coverage outside Canada not confirmed"
+ ]
+},
+{
+ "id": "teen-line",
+ "name": "Teen Line",
+ "publisher": "Teen Line, a program of Didi Hirsch Mental Health Services (501c3)",
+ "resource_type": "peer-support",
+ "official_url": "https://teenline.org/",
+ "description": "Confidential peer support line where trained teen volunteers (Listeners, 100+ hours of training, supervised by adult mental health professionals) listen and provide resources to teens up to age 19. Call 6-10pm PST or text 6-9pm PST nightly; outside those hours calls route to adult counselors at the Didi Hirsch Suicide Prevention Center for 24/7 support. Free and anonymous; no topic too big or small, including loneliness, abuse, self-harm, and suicidal thoughts. English only.",
+ "tags": [
+  "teens",
+  "adolescents",
+  "peer-support",
+  "helpline",
+  "text-support",
+  "listening",
+  "anonymous",
+  "free"
+ ],
+ "access": [
+  "free"
+ ],
+ "platforms": [
+  "Phone",
+  "Text",
+  "Web"
+ ],
+ "intended_population": [
+  "adolescents"
+ ],
+ "languages": [
+  "English"
+ ],
+ "regions": [
+  "United States (phone/text; page points non-English speakers to 988)"
+ ],
+ "cultural_context": {
+  "adaptation_status": "original",
+  "notes": "US service; peer-to-peer model with teen listeners. Fit for non-US teens not assessed.",
+  "source_notes": [
+   "https://teenline.org/"
+  ]
+ },
+ "accessibility": [
+  "Phone and text service; assistive-technology compatibility not listed on the reviewed primary source."
+ ],
+ "privacy_notes": "Page states conversations are private and anonymous and are not shared without permission except where safety is at immediate risk. Demographic questions asked at the start of contact are optional. Privacy policy not reviewed.",
+ "evidence_notes": "Listeners complete 100+ hours of training per the publisher; program outcomes were not evaluated in this screening.",
+ "limitations": "Teen listeners only during evening hours (PST); English only; ages up to 19. Peer support, not therapy and not a substitute for professional care. US-focused; emergency guidance on the page is US-specific (911/988). Peer listeners handle self-harm and suicidal-thoughts contacts, so owner judgment on safety-pathway fit is needed before any promotion.",
+ "review_status": "screened",
+ "status": "screened",
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "shelf": "reach-out",
+ "needs": [
+  "find-support"
+ ],
+ "use_context": [
+  "with-support"
+ ],
+ "source_notes": [
+  "https://teenline.org/"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "reason": "Screened 2026-11-15: official teenline.org homepage confirmed live (copy crawled under a minute before the read; page updated 2026-11-02); Didi Hirsch program status, trained teen Listener model, hours, free/anonymous access, and English-only scope confirmed from the primary source. Ready for owner review before any promotion.",
+ "screening_gaps": [
+  "privacy policy not reviewed",
+  "volunteer training content not audited",
+  "safety-pathway fit for SootheSpot not determined"
+ ]
+},
+{
+ "id": "black-girls-smile",
+ "name": "Black Girls Smile",
+ "publisher": "Black Girls Smile, Inc. (national nonprofit, founded 2012)",
+ "resource_type": "community-program",
+ "official_url": "https://www.blackgirlssmile.org/",
+ "description": "National nonprofit advancing the mental health and well-being of young Black women and girls since 2012. School-based SEL small-group coaching, large-group workshops on coping skills, emotional awareness and resilience, parent/caregiver support groups, and educator training; community wellness events; a therapy assistance program connecting participants to culturally responsive therapy; and monthly support groups (in-person and virtual) including intergenerational, queer-affirming, and grief/loss spaces. Publisher reports 10,000+ supported since 2012, 2,000+ therapy hours gifted, and 250+ students supported.",
+ "tags": [
+  "black-women",
+  "black-girls",
+  "culturally-responsive",
+  "school-programs",
+  "support-groups",
+  "therapy-assistance",
+  "grief",
+  "queer-affirming",
+  "community-care"
+ ],
+ "access": [
+  "free"
+ ],
+ "platforms": [
+  "Web",
+  "In-person"
+ ],
+ "intended_population": [
+  "Black girls",
+  "Black women"
+ ],
+ "languages": [
+  "English"
+ ],
+ "regions": [
+  "United States (national nonprofit; in-person program locations not listed on the reviewed homepage)"
+ ],
+ "cultural_context": {
+  "adaptation_status": "community-centered",
+  "notes": "Founded to serve Black women and girls; programming described as culturally and gender-responsive, centering joy, resilience, and community care.",
+  "source_notes": [
+   "https://www.blackgirlssmile.org/"
+  ]
+ },
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "privacy_notes": "Support-group and therapy-assistance signup details were not reviewed on the fetched homepage; the privacy policy was not reviewed in this screening.",
+ "evidence_notes": "Publisher impact figures (10,000+ supported since 2012, 2,000+ therapy hours gifted, 250+ students supported) are self-reported and were not independently evaluated in this screening.",
+ "limitations": "Programs are delivered through schools and communities (US); direct self-serve resources for an individual user are limited - the main user-facing paths are support groups and therapy assistance, which involve signup. Programming is described as free and low-cost; individual program costs not confirmed. Not a crisis service.",
+ "review_status": "screened",
+ "status": "screened",
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "shelf": "reach-out",
+ "needs": [
+  "find-support"
+ ],
+ "use_context": [
+  "with-support"
+ ],
+ "source_notes": [
+  "https://www.blackgirlssmile.org/"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "reason": "Screened 2026-11-15: official blackgirlssmile.org homepage confirmed live (copy crawled under a minute before the read); 2012 founding, school and community programming, therapy assistance, and monthly support groups confirmed from the primary source. Ready for owner review before any promotion.",
+ "screening_gaps": [
+  "therapy assistance eligibility and costs not confirmed",
+  "privacy policy not reviewed",
+  "program outcomes not independently evaluated",
+  "geographic coverage of in-person programs not confirmed"
+ ]
+},
+{
+ "id": "combat-stress",
+ "name": "Combat Stress",
+ "publisher": "Combat Stress (UK Armed Forces mental health charity)",
+ "resource_type": "crisis-support",
+ "official_url": "https://combatstress.org.uk/",
+ "description": "UK charity for Armed Forces mental health. Free 24-hour helpline (0800 138 1619), text (07537 173683), and email support, plus online resources and information on military trauma. Homepage published September 2026, review September 2027.",
+ "tags": [
+  "veterans",
+  "military",
+  "armed-forces",
+  "helpline",
+  "ptsd",
+  "trauma",
+  "crisis-support",
+  "uk",
+  "free"
+ ],
+ "access": [
+  "free"
+ ],
+ "platforms": [
+  "Phone",
+  "Text",
+  "Web"
+ ],
+ "intended_population": [
+  "veterans",
+  "service-members"
+ ],
+ "languages": [
+  "English"
+ ],
+ "regions": [
+  "United Kingdom"
+ ],
+ "cultural_context": {
+  "adaptation_status": "original",
+  "notes": "UK Armed Forces community; services for veterans and serving personnel. Fit outside the UK not assessed.",
+  "source_notes": [
+   "https://combatstress.org.uk/"
+  ]
+ },
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "privacy_notes": "Helpline contact details are published on the homepage; privacy and data-handling practices were not reviewed in this screening.",
+ "evidence_notes": "No outcome claims made on the reviewed homepage; helpline availability and trauma-information scope confirmed from the primary source.",
+ "limitations": "UK-focused; helpline number is UK. Military/veteran population. Treatment services beyond the helpline were not reviewed on the fetched homepage. Not a substitute for professional care.",
+ "review_status": "screened",
+ "status": "screened",
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "shelf": "reach-out",
+ "needs": [
+  "find-support"
+ ],
+ "use_context": [
+  "with-support"
+ ],
+ "source_notes": [
+  "https://combatstress.org.uk/"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "reason": "Screened 2026-11-15: official combatstress.org.uk homepage confirmed live (copy crawled under a minute before the read); free 24/7 helpline, text and email contact, and military-trauma information confirmed from the primary source. Ready for owner review before any promotion.",
+ "screening_gaps": [
+  "treatment services beyond the helpline not reviewed",
+  "privacy policy not reviewed"
+ ]
+},
+{
+ "id": "anxiety-canada",
+ "name": "Anxiety Canada",
+ "publisher": "Anxiety Canada (ceased operations April 1)",
+ "resource_type": "article-library",
+ "official_url": "https://www.anxietycanada.com/",
+ "description": "Canadian nonprofit that provided free anxiety resources and the MindShift CBT app. CLOSED: as of April 1, Anxiety Canada ceased operations and is no longer available; user data was handled per its final privacy policy and securely archived. A subset of resources remains available on the Vancouver CBT Centre and Here to Help BC websites. Recorded here so the closure is on file and the charity is not re-screened as a live resource.",
+ "tags": [
+  "anxiety",
+  "cbt",
+  "canada",
+  "closed"
+ ],
+ "access": [
+  "free"
+ ],
+ "platforms": [
+  "Web"
+ ],
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English",
+  "French"
+ ],
+ "regions": [
+  "Canada"
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Canadian nonprofit; no cultural-adaptation assessment applies to a closed service.",
+  "source_notes": [
+   "https://www.anxietycanada.com/"
+  ]
+ },
+ "accessibility": [
+  "Not applicable: the service is closed and the site now serves a closure notice."
+ ],
+ "privacy_notes": "The closure notice states all user data was handled per the final privacy policy and securely archived; the policy itself was not reviewed.",
+ "evidence_notes": "Closure confirmed from the notice on the organization's own domain (copy crawled 2026-11-15 18:56 UTC): ceased operations as of April 1; a subset of resources remains on Vancouver CBT Centre and Here to Help BC.",
+ "limitations": "CLOSED - do not list as an available resource. MindShift CBT app and other Anxiety Canada resources are no longer available from this publisher; some resources survive on the successor sites named in the notice.",
+ "review_status": "screened",
+ "status": "screened",
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "shelf": "reach-out",
+ "needs": [
+  "find-support"
+ ],
+ "use_context": [
+  "with-support"
+ ],
+ "source_notes": [
+  "https://www.anxietycanada.com/"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "reason": "Screened 2026-11-15: anxietycanada.com fetched live this run and now serves a closure notice (copy crawled 2026-11-15 18:56 UTC) - Anxiety Canada ceased operations as of April 1 and is no longer available. Recorded as a closed resource so it is not re-screened as live; do not list. Flagged for owner awareness: the queue's mindshift-cbt entry points at this publisher's app, so that entry should be re-checked before any promotion.",
+ "screening_gaps": [
+  "which resources survive on the successor sites not confirmed",
+  "no check made of whether SootheSpot content currently references Anxiety Canada"
+ ]
+},
+{
+ "id": "wellness-together-canada",
+ "name": "Wellness Together Canada",
+ "publisher": "Wellness Together Canada (Health Canada-funded initiative; delivered by Homewood Health, Kids Help Phone, Stepped Care Solutions)",
+ "resource_type": "online-support-platform",
+ "official_url": "https://wellnesstogether.ca/",
+ "description": "Canada's national 24/7 virtual mental health and substance use support service, launched in response to COVID-19 and funded by Health Canada. CLOSED: the service has ended; its site now returns 404 and the bare domain redirects to a Stepped Care Solutions retrospective (May 29, 2024) bidding farewell to the program. At its peak it offered learning resources, practice tools, peer support, counselling, and tracking, with no referral, ID, insurance, assessment, or diagnosis required. Recorded here so the closure is on file and the service is not re-screened as live.",
+ "tags": [
+  "canada",
+  "mental-health",
+  "substance-use",
+  "virtual-care",
+  "closed"
+ ],
+ "access": [
+  "free"
+ ],
+ "platforms": [
+  "Web"
+ ],
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English"
+ ],
+ "regions": [
+  "Canada"
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Canadian federal initiative; no cultural-adaptation assessment applies to a closed service.",
+  "source_notes": [
+   "https://wellnesstogether.ca/"
+  ]
+ },
+ "accessibility": [
+  "Not applicable: the service is closed and the site now returns 404."
+ ],
+ "privacy_notes": "No privacy review possible; the service is closed and its site no longer serves content.",
+ "evidence_notes": "Closure evidenced by the live browser check on 2026-11-15: https://wellnesstogether.ca/en-CA returned HTTP 404 on three loads (18:56-18:59 UTC), and the bare domain redirects to a Stepped Care Solutions retrospective (May 29, 2024) titled 'Reflecting on Wellness Together Canada' that bids farewell to the program and describes it as Health Canada-funded, delivered by Homewood Health, Kids Help Phone and Stepped Care Solutions.",
+ "limitations": "CLOSED - do not list as an available resource. Do not direct users to wellnesstogether.ca; the program has ended.",
+ "review_status": "screened",
+ "status": "screened",
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "shelf": "reach-out",
+ "needs": [
+  "find-support"
+ ],
+ "use_context": [
+  "with-support"
+ ],
+ "source_notes": [
+  "https://wellnesstogether.ca/"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "reason": "Screened 2026-11-15: wellnesstogether.ca/en-CA fetched live this run (browser check 18:56-18:59 UTC) and returned HTTP 404 on three loads; the bare domain redirects to a Stepped Care Solutions farewell retrospective dated May 29, 2024. Recorded as a closed resource so it is not re-screened as live; do not list.",
+ "screening_gaps": [
+  "exact closure date not confirmed from the fetched pages",
+  "whether any successor service exists not confirmed",
+  "French-language availability not confirmed"
+ ]
+}
 ]
