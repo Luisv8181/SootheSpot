@@ -30431,5 +30431,237 @@
  "use_context": [
   "with-support"
  ]
-}
+},
+ {
+ "id": "sondermind-therapy-psychiatry",
+ "name": "SonderMind",
+ "publisher": "SonderMind",
+ "resource_type": "online-therapy",
+ "official_url": "https://www.sondermind.com/",
+ "description": "Therapy and psychiatry matching platform: matches people with a licensed therapist (LPC, LCSW, LMFT, PhD/PsyD) or psychiatry provider (MD, DO, PMHNP) by criteria, with virtual or in-person care in all 50 states. Therapy is weekly or biweekly ~60-minute sessions using evidence-based approaches (CBT, DBT, ACT per the page); psychiatry starts with a 45-60 minute evaluation. The mobile app supports scheduling, progress tracking, insurance payment, mood tracking, and daily reflections. Publisher reports 83% of people start care within 4 days of requesting an appointment and 95% felt a strong connection with their provider.",
+ "tags": [
+  "therapy",
+  "psychiatry",
+  "insurance-covered",
+  "therapist-matching",
+  "measurement-based-care",
+  "telehealth"
+ ],
+ "access": [
+  "Insurance-covered (most major plans, Medicare, Medicare Advantage, TriCare per the reviewed page)",
+  "Self-pay rates available (per the reviewed page)"
+ ],
+ "platforms": [
+  "Web",
+  "iOS",
+  "Android"
+ ],
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English"
+ ],
+ "regions": [
+  "United States; virtual, in-person, or both in all 50 states per the reviewed page"
+ ],
+ "needs": [
+  "support",
+  "understand"
+ ],
+ "use_context": [
+  "with-support"
+ ],
+ "shelf": "reach-out",
+ "status": "screened",
+ "review_status": "screened",
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Insurance-based or self-pay, not free; self-pay rates were not assessed in this screening. Outcome percentages are publisher-reported, not independently verified. Psychiatry availability by state and provider vetting not audited. Not a crisis service; no crisis pathway observed on the fetched homepage.",
+ "privacy_notes": "Account required to schedule and attend sessions and pay with insurance; the privacy policy was not reviewed in this screening.",
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "general",
+  "notes": "Homepage lists Culture among specialty areas and matches by client criteria; depth of culturally responsive matching was not audited in this screening.",
+  "source_notes": [
+   "https://www.sondermind.com/"
+  ]
+ },
+ "evidence_notes": "Outcome figures are publisher-reported client data (83% start within 4 days; 95% strong provider connection; 84% measurable symptom reduction in 2 months; results in under 6 sessions via measurement-based care). Not independently verified in this screening.",
+ "screening_gaps": [
+  "self-pay rates not assessed",
+  "psychiatry availability by state not confirmed",
+  "provider vetting not audited",
+  "privacy policy not reviewed",
+  "language availability beyond English not confirmed",
+  "outcome claims not independently verified"
+ ],
+ "source_notes": [
+  "https://www.sondermind.com/"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "reason": "Screened 2026-11-15: official sondermind.com homepage confirmed live; therapy + psychiatry scope, insurance coverage, 50-state availability, and app features confirmed from the primary source. Ready for owner review before any promotion."
+ },
+ {
+ "id": "grow-therapy",
+ "name": "Grow Therapy",
+ "publisher": "Grow Therapy",
+ "resource_type": "online-therapy",
+ "official_url": "https://growtherapy.com/",
+ "description": "Therapy matching platform: users share goals, preferences, and insurance, filter therapists by specialty, availability, and style, and book online, with most clients starting within 2 days. Publisher reports 1,250,000+ people use Grow, sessions average $21 with insurance, more than 230 million people are covered, and 65% of clients paid less than expected. Care is in-person or online.",
+ "tags": [
+  "therapy",
+  "insurance-covered",
+  "therapist-matching",
+  "telehealth",
+  "affordable-therapy"
+ ],
+ "access": [
+  "Insurance-covered (sessions average $21 with insurance per the reviewed page)",
+  "HSA/FSA eligible (per the reviewed page)"
+ ],
+ "platforms": [
+  "Web"
+ ],
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English"
+ ],
+ "regions": [
+  "United States"
+ ],
+ "needs": [
+  "support",
+  "understand"
+ ],
+ "use_context": [
+  "with-support"
+ ],
+ "shelf": "reach-out",
+ "status": "screened",
+ "review_status": "screened",
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Insurance-based, not free; self-pay pricing was not stated on the reviewed homepage. Outcome and cost figures are publisher-reported, not independently verified. Provider credential vetting not audited. Not a crisis service; no crisis pathway observed on the fetched homepage.",
+ "privacy_notes": "Search requires sharing goals, preferences, and insurance details; the privacy policy was not reviewed in this screening.",
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "general",
+  "notes": "Reviewed homepage describes matching by goals, preferences, and insurance, and filtering by specialty, availability, and style; no culturally responsive matching is described on the reviewed page.",
+  "source_notes": [
+   "https://growtherapy.com/"
+  ]
+ },
+ "evidence_notes": "Volume and cost figures are publisher-reported (1.25M+ people; $21 average session with insurance; 230M+ covered). Client-reported PHQ-9, GAD-7, and survey data from 2026 are cited on the page for symptom improvement; not independently verified in this screening.",
+ "screening_gaps": [
+  "self-pay pricing not reviewed",
+  "app availability not confirmed on the reviewed page",
+  "provider credential vetting not audited",
+  "privacy policy not reviewed",
+  "language availability beyond English not confirmed",
+  "outcome and cost claims not independently verified"
+ ],
+ "source_notes": [
+  "https://growtherapy.com/"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "reason": "Screened 2026-11-15: official growtherapy.com homepage confirmed live; insurance-based matching model, average session cost, and start-in-days flow confirmed from the primary source. Ready for owner review before any promotion."
+ },
+ {
+ "id": "therapyden-therapist-directory",
+ "name": "TherapyDen",
+ "publisher": "TherapyDen",
+ "resource_type": "service-directory",
+ "official_url": "https://www.therapyden.com/",
+ "description": "Therapist directory for in-person and online therapy: search by location, specialty, and identity or language match, with brief non-diagnostic assessments to help narrow what kind of therapist fits. The homepage's FAQ covers what therapy is, how to judge fit, session length (45-60 minutes, often weekly at first), cost (typically $100-250 per 50-minute session in the US, with sliding-scale spots), insurance and superbills, confidentiality limits, and when in-person care fits better than telehealth. The page points people with thoughts of harming themselves to 988 in the United States.",
+ "tags": [
+  "therapist-directory",
+  "find-a-therapist",
+  "lgbtq-affirming",
+  "trans-affirming",
+  "identity-matching",
+  "assessments"
+ ],
+ "access": [
+  "free"
+ ],
+ "platforms": [
+  "Web"
+ ],
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English"
+ ],
+ "regions": [
+  "United States; coverage beyond the US not confirmed on the reviewed page"
+ ],
+ "needs": [
+  "find-support"
+ ],
+ "use_context": [
+  "independent-use",
+  "with-support"
+ ],
+ "shelf": "reach-out",
+ "status": "screened",
+ "review_status": "screened",
+ "last_verified_at": "2026-11-15",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Directory browsing is free but therapy sessions are paid and vary by provider ($100-250 typical per the page; sliding scale varies). Listing standards and provider vetting not audited. Coverage beyond the United States not confirmed. Not a crisis service; the page itself points to 988.",
+ "privacy_notes": "Directory browsing requires no account per the fetched page. Contact and booking go through individual therapists; the privacy policy was not reviewed in this screening.",
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "affirming",
+  "notes": "Homepage prominently features Therapy for the Trans Community and lets users filter by identity and language match; depth of vetting for affirming care was not audited in this screening.",
+  "source_notes": [
+   "https://www.therapyden.com/"
+  ]
+ },
+ "evidence_notes": "No outcome claims made on the reviewed page; FAQ content is general psychoeducation, not a clinical recommendation.",
+ "screening_gaps": [
+  "listing standards and provider vetting not audited",
+  "session fees vary by provider and were not assessed",
+  "privacy policy not reviewed",
+  "language availability beyond English not confirmed"
+ ],
+ "source_notes": [
+  "https://www.therapyden.com/"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "reason": "Screened 2026-11-15: official therapyden.com homepage confirmed live; directory scope, identity/language matching, assessments, and FAQ cost and fit guidance confirmed from the primary source. Ready for owner review before any promotion."
+ }
 ]
