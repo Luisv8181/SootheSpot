@@ -14772,29 +14772,44 @@
    "free"
   ],
   "accessibility": [
-   "Not listed on the reviewed pages; verify assistive-technology compatibility before relying on it."
+   "Accessibility and languages page reviewed; National Relay Service noted for the phone service. Assistive-technology compatibility of the website was not verified in this screening."
   ],
   "cultural_context": {
-   "adaptation_status": "unknown",
-   "notes": "Australian Government mental-health gateway. The news page lists TIS National (131 450) for interpreter access; non-Australian fit was not assessed.",
+   "adaptation_status": "translated",
+   "notes": "Key information translated into 16 languages per the accessibility page; TIS National (131 450) covers 100+ languages for interpreter access.",
    "source_notes": [
-    "https://www.medicarementalhealth.gov.au/news/new-head-to-health-website"
+    "https://www.medicarementalhealth.gov.au/accessibility"
    ]
   },
   "description": "Australian Government gateway for finding mental-health and wellbeing support: a website (formerly Head to Health) with a starting-point quiz, information pages on wellbeing, talking about challenges, diagnoses and navigating services, and search for GPs and local mental-health services; a national phone service on 1800 595 212; and walk-in centres described as a safe and welcoming space to talk to someone in distress or needing help finding support. The site also carries carer and support-network resources.",
-  "evidence_notes": "Publisher is the Australian Government (Department of Health and Aged Care). No efficacy claims were assessed in this screening.",
+  "evidence_notes": "Publisher is the Australian Government Department of Health, Disability and Ageing; free, confidential service per the live home page. Individual services and resources listed on the site were not evaluated in this screening.",
   "id": "medicare-mental-health-australia",
   "intended_population": [
    "adults",
    "carers"
   ],
   "languages": [
-   "English (per the reviewed pages)",
-   "Interpreter access via TIS National 131 450 (per the news page)"
+   "English",
+   "Arabic",
+   "Traditional Chinese (Cantonese)",
+   "Simplified Chinese (Mandarin)",
+   "Dari",
+   "Filipino",
+   "Greek",
+   "Hebrew",
+   "Hindi",
+   "Italian",
+   "Korean",
+   "Persian (Farsi)",
+   "Punjabi",
+   "Samoan",
+   "Spanish",
+   "Thai",
+   "Vietnamese"
   ],
-  "last_verified_at": "2026-11-03",
+  "last_verified_at": "2026-11-16",
   "license_notes": "External resource. SootheSpot stores metadata only.",
-  "limitations": "Wayfinding and referral gateway, not a treatment provider and not a crisis service; PHN notices direct emergencies to triple zero (000). Australia-only scope; U.S. crisis numbers do not apply. Branding is mid-transition: the fetched official page still presents the service as Head to Health, while Primary Health Network notices report the website and phone service were renamed Medicare Mental Health in 2025 (centres retaining Head to Health branding) \u2014 confirm current branding before promoting.",
+  "limitations": "Wayfinding and referral gateway, not a treatment provider and not a crisis service; PHN notices direct emergencies to triple zero (000). Australia-only scope; U.S. crisis numbers do not apply. Branding transition resolved 2026-11-16: the live site now presents as Medicare Mental Health and the former headtohealth.gov.au URL fails to load (certificate error). No referral, diagnosis, or Mental Health Treatment Plan needed. Individual resources on the site not reviewed.",
   "name": "Medicare Mental Health (formerly Head to Health)",
   "needs": [
    "find support"
@@ -14805,8 +14820,8 @@
    "Phone"
   ],
   "privacy_notes": "No account or data-collection description on the reviewed pages; the quiz and any linked services were not reviewed in this screening.",
-  "publisher": "Australian Government (Department of Health and Aged Care)",
-  "reason": "Screened 2026-11-03: official Medicare Mental Health news page fetched live this run; publisher, free access, gateway purpose and phone number confirmed from the primary source. Ready for owner review before any promotion.",
+  "publisher": "Australian Government, Department of Health, Disability and Ageing",
+  "reason": "Screened 2026-11-03, re-verified 2026-11-16: live browser check confirmed the service at medicarementalhealth.gov.au (former headtohealth.gov.au URL failed to load with a certificate error); free Australian Government service, no referral needed, phone 1800 595 212, information in 16 languages confirmed from the primary source. Branding transition resolved. Ready for owner review before any promotion.",
   "regions": [
    "Australia"
   ],
@@ -14824,12 +14839,14 @@
   "screening_gaps": [
    "quiz content and data handling not reviewed",
    "centre locations and hours not verified",
-   "current branding transition not resolved",
-   "accessibility not assessed"
+   "assistive-technology compatibility not verified",
+   "individual resources on the site not reviewed"
   ],
   "shelf": "reach-out",
   "source_notes": [
-   "https://www.medicarementalhealth.gov.au/news/new-head-to-health-website"
+   "https://www.medicarementalhealth.gov.au/news/new-head-to-health-website",
+   "https://www.medicarementalhealth.gov.au/",
+   "https://www.medicarementalhealth.gov.au/accessibility"
   ],
   "status": "screened",
   "tags": [
@@ -32028,6 +32045,245 @@
   "screening_gaps": [
    "individual information leaflets not reviewed",
    "non-English leaflet availability not confirmed from the reviewed page",
+   "privacy policy not reviewed"
+  ]
+ },
+ {
+  "id": "kooth-youth-wellbeing",
+  "name": "Kooth — Online Mental Wellbeing for Young People",
+  "publisher": "Kooth plc, United Kingdom",
+  "resource_type": "online-support-platform",
+  "official_url": "https://www.kooth.com/",
+  "description": "Free, confidential online mental wellbeing platform for young people from the team behind Kooth: one-to-one practitioner chat, moderated community, self-care activities, and thought journaling, co-designed with young people. Available as a mobile app or in any web browser (web app for under-13s). Kooth.com now directs users to Soluna by Kooth, the successor platform; existing Kooth accounts link across with support history and safety plan carried over.",
+  "tags": [
+   "youth",
+   "peer-support",
+   "online-counselling",
+   "uk",
+   "free",
+   "confidential",
+   "self-care"
+  ],
+  "access": [
+   "free"
+  ],
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "intended_population": [
+   "adolescents",
+   "young adults"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "UK-focused; Kooth/Soluna is commissioned across much of the UK and availability varies by local area — verify eligibility before promotion."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Platform co-designed with young people per the reviewed page; no cultural-adaptation detail confirmed from the reviewed page.",
+   "source_notes": [
+    "https://www.kooth.com/"
+   ]
+  },
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "Free and confidential per the reviewed page; information kept private and secure in line with privacy policies and UK law. Account required for one-to-one support. Data practices were not reviewed in this screening.",
+  "evidence_notes": "Publisher is Kooth plc; platform co-designed with young people and offering practitioner support per the reviewed page. Clinical effectiveness was not evaluated in this screening.",
+  "limitations": "Kooth.com now directs users to Soluna by Kooth (already in the queue as soluna-by-kooth); the Kooth platform is being superseded by Soluna, with accounts and safety plans carried over. Young-people service; eligibility varies by UK local commissioning. Not a crisis service — verify crisis signposting before promotion.",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-11-16",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "shelf": "reach-out",
+  "needs": [
+   "support",
+   "find-support"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "source_notes": [
+   "https://www.kooth.com/"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "reason": "Screened 2026-11-16: official kooth.com page confirmed live (copy crawled 2026-11-16 07:55 UTC); free, confidential young-people platform with practitioner chat and moderated community confirmed from the primary source; page now directs users to Soluna by Kooth. Ready for owner review before any promotion.",
+  "screening_gaps": [
+   "eligibility by UK local area not confirmed",
+   "privacy policy not reviewed",
+   "crisis signposting on the platform not reviewed",
+   "overlap with the existing soluna-by-kooth entry needs an owner call"
+  ]
+ },
+ {
+  "id": "nctsn-child-traumatic-stress",
+  "name": "National Child Traumatic Stress Network (NCTSN)",
+  "publisher": "National Child Traumatic Stress Network (NCTSN)",
+  "resource_type": "information-hub",
+  "official_url": "https://www.nctsn.org/",
+  "description": "US network whose mission is to raise the standard of care and improve access to services for traumatized children, their families, and communities. Free information on trauma types (bullying, complex trauma, disasters, traumatic grief and separation), evidence-based treatments such as Child and Family Traumatic Stress Intervention (CFTSI), trauma-informed care guidance for schools, justice, and child welfare systems, and free resources including a Psychological First Aid online course and fact sheets for youth talking about suicide with peers.",
+  "tags": [
+   "trauma",
+   "children",
+   "families",
+   "caregivers",
+   "psychoeducation",
+   "evidence-based",
+   "us"
+  ],
+  "access": [
+   "free"
+  ],
+  "platforms": [
+   "Web"
+  ],
+  "intended_population": [
+   "children",
+   "adolescents",
+   "families",
+   "caregivers",
+   "professionals"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "US-focused (mission states services throughout the United States); resources broadly readable."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Network addresses how a child's age and a family's culture or ethnicity shape coping and recovery after trauma, per the reviewed page; no specific cultural-adaptation detail confirmed.",
+   "source_notes": [
+    "https://www.nctsn.org/"
+   ]
+  },
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "Information and courses freely readable; no account noted for browsing. Data practices were not reviewed in this screening.",
+  "evidence_notes": "Publisher is the National Child Traumatic Stress Network; describes evidence-based treatments (e.g., CFTSI, a brief 5-8 session early treatment) per the reviewed page. Individual resources and courses were not evaluated in this screening.",
+  "limitations": "US-focused network; informational and training resources only, not direct care. Individual fact sheets and the Psychological First Aid course not reviewed — verify currency before promotion.",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-11-16",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "shelf": "read",
+  "needs": [
+   "read",
+   "understand"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "source_notes": [
+   "https://www.nctsn.org/"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "reason": "Screened 2026-11-16: official nctsn.org page confirmed live (copy crawled 2026-11-16 07:56 UTC); mission, trauma-type information, evidence-based treatment descriptions, and free resources confirmed from the primary source. Ready for owner review before any promotion.",
+  "screening_gaps": [
+   "individual fact sheets and courses not reviewed",
+   "non-English availability not confirmed from the reviewed page",
+   "privacy policy not reviewed"
+  ]
+ },
+ {
+  "id": "al-anon-family-groups",
+  "name": "Al-Anon Family Groups",
+  "publisher": "Al-Anon Family Group Headquarters, Inc.",
+  "resource_type": "peer-support",
+  "official_url": "https://al-anon.org/",
+  "description": "Mutual support fellowship for people whose lives have been affected by someone else's drinking — spouses, partners, parents, children, siblings, and friends share experience with each other as equals. Alateen groups serve teenagers; self-assessment quizzes help newcomers decide whether Al-Anon or Alateen may help; meetings are held around the world in person, online, and by phone, with a meeting finder on the site. Meetings are free to attend with no dues or fees, per the publisher's own materials, and no appointment or referral is needed.",
+  "tags": [
+   "alcohol",
+   "family-support",
+   "peer-support",
+   "mutual-help",
+   "teens",
+   "meetings",
+   "worldwide"
+  ],
+  "access": [
+   "free"
+  ],
+  "platforms": [
+   "Web",
+   "In-person",
+   "Phone"
+  ],
+  "intended_population": [
+   "families",
+   "friends",
+   "teens"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "Global; meetings held around the world per the publisher. Non-English meeting availability not confirmed from the reviewed pages."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Fellowship is open to anyone affected by someone else's drinking, of any faith or none, per the publisher's materials; no specific cultural-adaptation detail confirmed from the reviewed pages.",
+   "source_notes": [
+    "https://al-anon.org/"
+   ]
+  },
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "Meetings are confidential peer support; no account noted for browsing the site. Data practices were not reviewed in this screening.",
+  "evidence_notes": "Publisher is Al-Anon Family Group Headquarters, Inc.; mutual support program in operation since 1951 per the publisher's materials. Outcomes and effectiveness were not evaluated in this screening.",
+  "limitations": "Peer mutual support, not professional treatment; not a crisis service. Meeting-finder results and electronic-meeting details not reviewed. Spiritual (not religious) Twelve Step program — flag for owner judgment on fit.",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-11-16",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "shelf": "reach-out",
+  "needs": [
+   "support",
+   "find-support"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "source_notes": [
+   "https://al-anon.org/",
+   "https://al-anon.org/newcomers/"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "reason": "Screened 2026-11-16: official al-anon.org home and newcomers pages confirmed live (copies crawled 2026-11-16 07:56-07:59 UTC); mutual-support purpose, Alateen for teens, self-assessment quizzes, and worldwide meetings confirmed from the primary source; free attendance with no dues or fees confirmed from the publisher's own materials. Ready for owner review before any promotion.",
+  "screening_gaps": [
+   "free-access wording confirmed from publisher materials (anniversary post / AFA leaflet) rather than the homepage itself",
+   "meeting-finder results not reviewed",
+   "non-English meeting availability not confirmed",
    "privacy policy not reviewed"
   ]
  }
