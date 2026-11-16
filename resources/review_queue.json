@@ -32613,5 +32613,322 @@
    "privacy policy not reviewed",
    "non-English editions not reviewed"
   ]
- }
+ },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "community-centered",
+      "notes": "Built specifically for men, with content framed around men's experiences of depression and help-seeking. The site states it supports men's mental health in a positive, inclusive way for people of all backgrounds regardless of gender, race or sexual orientation, and explicitly states it does not support discrimination, Men's Rights Activism or misogyny.",
+      "source_notes": [
+        "https://headsupguys.org/about-us/"
+      ]
+    },
+    "description": "Men's mental health resource focused on depression and suicide prevention: practical self-care tips, a depression self-check screening tool, free self-guided courses built on evidence-based strategies, over 100 recovery stories from men, over 100 research-informed self-help articles, over 20 articles on supporting a man and on treatment options, and an international therapist directory. Content draws on evidence-based research and includes clinician and patient perspectives. Based in Vancouver, BC, with a global reach; the site reports over 6.5 million visits from the US, UK, Canada and English-speaking communities.",
+    "evidence_notes": "Purpose, self-check, free self-guided courses, recovery stories, article counts and therapist directory confirmed from the homepage and about page (copies crawled 2026-11-16). Site states content is derived from evidence-based research with clinician and patient perspectives; registered Canadian charity 769970435 RR 0001 confirmed from the about page. UBC affiliation (founded by Dr. John Ogrodniczuk, Professor of Psychiatry and Director of the UBC Psychotherapy Program) confirmed via UBC and secondary sources, not from the site's own pages in this screening. Outcomes not evaluated.",
+    "id": "headsupguys-mens-mental-health",
+    "intended_population": [
+      "men",
+      "adults"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Not a crisis service and not a substitute for professional care; the site itself directs men who are feeling depressed to connect with a therapist. The self-check is a screening tool, not a diagnosis. Free self-guided courses are the confirmed free offer; therapist-directory sessions are paid and availability varies. Reach figures (6.5 million visits) are the site's own claims and were not independently verified.",
+    "name": "HeadsUpGuys: Men's Mental Health and Suicide Prevention",
+    "needs": [
+      "practice",
+      "understand"
+    ],
+    "official_url": "https://headsupguys.org/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "No account noted for browsing the self-help content or taking the self-check. Data practices were not reviewed in this screening.",
+    "publisher": "HeadsUpGuys (University of British Columbia)",
+    "reason": "Screened 2026-11-16: official headsupguys.org homepage and about page confirmed live (copies crawled 2026-11-16); men's mental-health purpose, free self-guided courses, self-check, recovery stories, article library and international therapist directory confirmed from the primary source; registered Canadian charity status confirmed from the about page. Ready for owner review before any promotion.",
+    "regions": [
+      "Canada; based in Vancouver, BC, with global reach across the US, UK, Canada and English-speaking communities per the site's about page."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "resource-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "UBC affiliation not stated on the site's own pages in this screening (confirmed via UBC and secondary sources)",
+      "depression self-check accuracy and course evidence base not independently evaluated",
+      "therapist directory vetting process not confirmed",
+      "privacy policy not reviewed",
+      "non-English availability not confirmed"
+    ],
+    "shelf": "practice",
+    "source_notes": [
+      "https://headsupguys.org/",
+      "https://headsupguys.org/about-us/"
+    ],
+    "status": "screened",
+    "tags": [
+      "mens-mental-health",
+      "depression",
+      "suicide-prevention",
+      "self-help",
+      "screening-tool",
+      "self-guided-courses",
+      "recovery-stories",
+      "therapist-directory"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "General mental-health charity; no specific cultural-adaptation program confirmed from the reviewed pages.",
+      "source_notes": [
+        "https://www.mind.org.uk/"
+      ]
+    },
+    "description": "UK mental health charity offering information on mental health problems, treatment and self-care; a support and information helpline (0300 123 3393); Local Minds delivering community services across England and Wales; Side by Side, a supportive online community; an expert-reviewed library of mental health apps; and campaigning for better mental health care. The charity reports 116,000 helpline queries answered and 22 million accesses to its mental health information in 2024-2025.",
+    "evidence_notes": "Helpline number, Local Minds, Side by Side community, expert-reviewed app library and campaigning confirmed from the homepage (copy crawled 2026-11-16). Impact figures (116,000 helpline queries, 22m information accesses, 81p in the pound) are the charity's own reported figures for 2024-2025 and were not independently verified. Outcomes not evaluated.",
+    "id": "mind-uk-mental-health-charity",
+    "intended_population": [
+      "adults",
+      "teens",
+      "children"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "England and Wales focus; helpline hours and local-service availability vary by area and were not confirmed in this screening. Information and peer support, not a crisis service or a substitute for professional care; the site routes people who are struggling now to coping and support options rather than providing emergency response. Fundraising and shop content sits alongside support content on the homepage.",
+    "name": "Mind: Mental Health Charity (England and Wales)",
+    "needs": [
+      "find-support"
+    ],
+    "official_url": "https://www.mind.org.uk/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Mailing-list signup asks for name and email; the privacy policy is linked on the homepage but was not reviewed in this screening. No account noted for browsing information pages.",
+    "publisher": "Mind",
+    "reason": "Screened 2026-11-16: official mind.org.uk homepage confirmed live (copy crawled 2026-11-16); helpline, Local Minds, Side by Side community, app library and campaigning confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "England and Wales; Local Minds operate across England and Wales per the homepage. Services outside England and Wales not confirmed."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "information-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "helpline opening hours not confirmed",
+      "Local Minds service availability varies and was not checked area by area",
+      "privacy policy not reviewed",
+      "Welsh-language provision not confirmed",
+      "app-library review criteria not examined"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://www.mind.org.uk/"
+    ],
+    "status": "screened",
+    "tags": [
+      "mental-health-information",
+      "helpline",
+      "peer-support",
+      "online-community",
+      "local-services",
+      "apps",
+      "campaigning",
+      "uk"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "community-centered",
+      "notes": "Exists specifically for LGBTQ+ elders; the site frames its work as ensuring every LGBTQ+ person can age with dignity and pride, with community, advocacy and culturally competent care.",
+      "source_notes": [
+        "https://www.sageusa.org/"
+      ]
+    },
+    "description": "Advocacy, resources and community for LGBTQ+ elders, operating since 1978. Offers a national resource library, SAGEYou virtual community hub with online programs, a SAGECollab network of local partner organizations across the US, direct services at five SAGE Centers and care-management programs in New York City and Southern Florida, SAGECare LGBTQ+ aging cultural-competency training for providers (US, Puerto Rico, DC, Canada and the UK), and a National Resource Center on LGBTQ+ aging.",
+    "evidence_notes": "Purpose, 1978 founding, SAGEYou hub, SAGECollab network, NYC and Florida direct services, SAGECare training reach and National Resource Center confirmed from the homepage (copy crawled 2026-11-16). Outcomes not evaluated.",
+    "id": "sage-lgbtq-elders",
+    "intended_population": [
+      "older-adults",
+      "caregivers"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Direct in-person services are concentrated in New York City and Southern Florida; elsewhere the offer is virtual programs, partner organizations and the resource library. Not a crisis service. Program costs for SAGECare training and any paid services were not confirmed in this screening.",
+    "name": "SAGE: Advocacy, Resources and Community for LGBTQ+ Elders",
+    "needs": [
+      "find-support"
+    ],
+    "official_url": "https://www.sageusa.org/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Contact form noted for getting in touch; no account noted for browsing resources. Data practices were not reviewed in this screening.",
+    "publisher": "SAGE",
+    "reason": "Screened 2026-11-16: official sageusa.org homepage confirmed live (copy crawled 2026-11-16); LGBTQ+ elder advocacy, resource library, SAGEYou virtual hub, partner network and NYC/Florida services confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United States; direct services in New York City and Southern Florida, virtual programs nationally; SAGECare training also in Puerto Rico, DC, Canada and the UK per the homepage."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "resource-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "SAGEYou membership or account requirements not confirmed",
+      "local partner availability by area not checked",
+      "SAGECare training costs not confirmed",
+      "privacy policy not reviewed",
+      "Spanish-language resources not confirmed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://www.sageusa.org/"
+    ],
+    "status": "screened",
+    "tags": [
+      "lgbtq",
+      "older-adults",
+      "elders",
+      "advocacy",
+      "community",
+      "caregiving",
+      "cultural-competency",
+      "virtual-programs"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  },
+  {
+    "access": [
+      "free",
+      "paid"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "General relationship support; no specific cultural-adaptation program confirmed from the reviewed pages.",
+      "source_notes": [
+        "https://www.relate.org.uk/"
+      ]
+    },
+    "description": "Relationship counselling and support for partners, families, children and young people, and individuals. Offers online counselling for people in England and Wales, one-session therapy delivered online via Zoom for a specific issue, self-help toolkits priced 5 to 10 pounds for problems across different relationship types, and free counselling through national partnerships with organizations including the RNRMC, GroceryAid and the RAFBF.",
+    "evidence_notes": "Counselling offer, one-session therapy format, toolkit pricing (5 to 10 pounds), free-counselling partnerships and England-and-Wales scope confirmed from the homepage (copy crawled 2026-11-16). Outcomes not evaluated.",
+    "id": "relate-relationship-counselling",
+    "intended_population": [
+      "adults",
+      "couples",
+      "families",
+      "children",
+      "teens"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Counselling sessions are paid except through named national partnerships; session prices were not listed on the homepage in this screening. Online counselling scope is England and Wales; in-person availability not confirmed from the homepage. Not a crisis service.",
+    "name": "Relate: Relationship Counselling and Support",
+    "needs": [
+      "find-support"
+    ],
+    "official_url": "https://www.relate.org.uk/",
+    "platforms": [
+      "Web"
+    ],
+    "privacy_notes": "Session booking runs through an external form (Typeform) per the homepage link; no account noted for browsing. Data practices were not reviewed in this screening.",
+    "publisher": "Relate",
+    "reason": "Screened 2026-11-16: official relate.org.uk homepage confirmed live (copy crawled 2026-11-16); relationship counselling offer, one-session therapy, toolkit pricing and free-counselling partnerships confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "England and Wales; online counselling described for England and Wales. Availability elsewhere in the UK not confirmed from the homepage."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "online-therapy",
+    "review_status": "screened",
+    "screening_gaps": [
+      "session prices not listed on the homepage",
+      "in-person vs online availability not fully confirmed",
+      "counsellor accreditation or regulation not confirmed from the reviewed pages",
+      "privacy policy not reviewed",
+      "availability outside England and Wales not confirmed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://www.relate.org.uk/"
+    ],
+    "status": "screened",
+    "tags": [
+      "relationships",
+      "couples-counselling",
+      "family-counselling",
+      "online-therapy",
+      "toolkits",
+      "young-people"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  }
 ]
