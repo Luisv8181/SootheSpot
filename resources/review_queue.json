@@ -32931,4 +32931,334 @@
       "independent-use"
     ]
   }
+,
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; the site offers an accessibility toolbar (noted in the footer). Verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "General UK children's charity; no specific cultural-adaptation program confirmed from the reviewed pages.",
+      "source_notes": [
+        "https://www.nspcc.org.uk/"
+      ]
+    },
+    "description": "The UK's leading children's charity, working to stop child abuse and neglect for over 140 years and the only UK children's charity with statutory powers to safeguard children at risk. Runs the NSPCC Helpline for adults concerned about a child (0808 800 5000) and Childline for under-18s (0800 1111), alongside advice, campaigning and professional training through NSPCC Learning.",
+    "evidence_notes": "Helpline number and hours, Childline number, over 140 years of work, statutory powers, Royal Charter incorporation and charity registrations (England and Wales 216401, Scotland SC037717, Jersey 384) confirmed from the homepage and about page (copies crawled 2026-11-16). Outcomes not evaluated.",
+    "id": "nspcc-uk-childrens-charity",
+    "intended_population": [
+      "adults",
+      "children",
+      "teens"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Helpline phone hours are limited (10am-4pm, Monday to Friday); email is 11am-4pm seven days a week, and emails sent outside those hours are not received. Not an emergency service; the site directs people with immediate concerns to the police or local Children's Services. UK focus; support outside the UK not confirmed.",
+    "name": "NSPCC: The UK Children's Charity",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://www.nspcc.org.uk/",
+    "platforms": [
+      "Phone",
+      "Web",
+      "Email"
+    ],
+    "privacy_notes": "Helpline contact is presented as a confidential route for concerns about a child; the privacy policy was not reviewed in this screening. No account noted for browsing information pages.",
+    "publisher": "NSPCC",
+    "reason": "Screened 2026-11-16: official nspcc.org.uk homepage and about page confirmed live (copies crawled 2026-11-16); adult helpline number and hours, Childline number, statutory powers and charity registrations confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United Kingdom; services across the UK and Jersey per the about page."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "helpline confidentiality and data-handling details not reviewed",
+      "NSPCC Learning training content and cost not examined",
+      "non-English availability not confirmed",
+      "privacy policy not reviewed",
+      "email response times not confirmed"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://www.nspcc.org.uk/",
+      "https://www.nspcc.org.uk/about-us/"
+    ],
+    "status": "screened",
+    "tags": [
+      "child-protection",
+      "child-abuse-prevention",
+      "safeguarding",
+      "helpline",
+      "childline",
+      "children",
+      "young-people"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "Services for women experiencing domestic abuse; no specific cultural-adaptation program confirmed from the reviewed pages.",
+      "source_notes": [
+        "https://www.womensaid.org.uk/"
+      ]
+    },
+    "description": "Federation of local domestic abuse services across England, working to end domestic abuse and keep women and children safe. Offers a local-service finder, safety planning guidance, a survivors' forum, support for children affected by domestic abuse, the Love Respect healthy-relationships resource, training for professionals, and the No Woman Turned Away referral route. The National Domestic Abuse Helpline (0808 2000 247) listed on the site is managed by Refuge.",
+    "evidence_notes": "Federation purpose, local-service finder, survivors' forum, safety planning, support for children and Love Respect confirmed from the homepage (copy crawled 2026-11-12) and the information-support page (copy crawled 2026-11-14). National Domestic Abuse Helpline number and Refuge management confirmed from the information-support page. Outcomes not evaluated.",
+    "id": "womens-aid-england-domestic-abuse",
+    "intended_population": [
+      "adults",
+      "women",
+      "children",
+      "teens"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "England focus; the National Domestic Abuse Helpline listed on the site is managed by Refuge, not Women's Aid itself, and its hours were not confirmed in this screening. Not an emergency service; the site directs people in immediate danger to call 999. Local-service availability varies by area and was not checked.",
+    "name": "Women's Aid (England): Domestic Abuse Support",
+    "needs": [
+      "safety",
+      "find-support"
+    ],
+    "official_url": "https://www.womensaid.org.uk/",
+    "platforms": [
+      "Web",
+      "Phone"
+    ],
+    "privacy_notes": "Survivors' forum is described as a safe space for survivors; account and privacy details were not reviewed in this screening. No account noted for browsing information pages.",
+    "publisher": "Women's Aid",
+    "reason": "Screened 2026-11-16: official womensaid.org.uk homepage and information-support page confirmed live (copies crawled 2026-11-12 and 2026-11-14); federation purpose, local-service finder, safety planning, survivors' forum and the Refuge-managed National Domestic Abuse Helpline confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "England; federation services across England per the homepage. Services in Scotland, Wales or Northern Ireland are separate organisations and were not confirmed."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "National Domestic Abuse Helpline hours not confirmed",
+      "Live Chat availability and hours not confirmed from the reviewed pages",
+      "forum access requirements not confirmed",
+      "privacy policy not reviewed",
+      "non-English availability not confirmed",
+      "local-service coverage not checked area by area"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://www.womensaid.org.uk/",
+      "https://www.womensaid.org.uk/information-support/"
+    ],
+    "status": "screened",
+    "tags": [
+      "domestic-abuse",
+      "womens-support",
+      "safety-planning",
+      "helpline",
+      "survivor-forum",
+      "refuge-services"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "General gambling-support service; no specific cultural-adaptation program confirmed from the reviewed pages.",
+      "source_notes": [
+        "https://www.gamcare.org.uk/"
+      ]
+    },
+    "description": "Founder of the National Gambling Helpline: free, confidential support for anyone affected by gambling. Offers the 24/7 helpline (0808 8020 133) and live chat (NetLine), the MyGamCare recovery toolkit, an online community forum and chatrooms, peer support (Peer Aid, TalkBanStop), support for affected others and for young people, gambling blocking software, money-management guidance, and a search for local support services across England and Scotland.",
+    "evidence_notes": "Helpline number, 24/7 adviser availability, live chat, MyGamCare, online community, Peer Aid, TalkBanStop, blocking software and local-service search confirmed from the homepage and get-support page (copies crawled 2026-11-16). Outcomes not evaluated.",
+    "id": "gamcare-national-gambling-helpline",
+    "intended_population": [
+      "adults",
+      "teens"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Support services are listed for England and Scotland; availability elsewhere in the UK not confirmed. Treatment and counselling availability varies and was not confirmed in this screening. Information and support, not an emergency service.",
+    "name": "GamCare: National Gambling Helpline",
+    "needs": [
+      "support",
+      "find-support"
+    ],
+    "official_url": "https://www.gamcare.org.uk/",
+    "platforms": [
+      "Phone",
+      "Web",
+      "Web chat"
+    ],
+    "privacy_notes": "Helpline described as free and confidential; MyGamCare and forum account details were not reviewed in this screening. No account noted for browsing information pages.",
+    "publisher": "GamCare",
+    "reason": "Screened 2026-11-16: official gamcare.org.uk homepage and get-support page confirmed live (copies crawled 2026-11-16); 24/7 National Gambling Helpline, live chat, MyGamCare toolkit, peer support and local-service search confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United Kingdom; local support services listed across England and Scotland per the get-support page. Availability elsewhere in the UK not confirmed."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "crisis-service",
+    "review_status": "screened",
+    "screening_gaps": [
+      "treatment and counselling offer not examined in detail",
+      "blocking-software providers and costs not confirmed",
+      "MyGamCare account and data practices not reviewed",
+      "privacy policy not reviewed",
+      "non-English availability not confirmed"
+    ],
+    "shelf": "safety",
+    "source_notes": [
+      "https://www.gamcare.org.uk/",
+      "https://www.gamcare.org.uk/get-support/"
+    ],
+    "status": "screened",
+    "tags": [
+      "gambling",
+      "gambling-harm",
+      "helpline",
+      "peer-support",
+      "self-exclusion",
+      "blocking-software",
+      "recovery-toolkit"
+    ],
+    "use_context": [
+      "independent-use",
+      "with-support"
+    ]
+  },
+  {
+    "access": [
+      "free"
+    ],
+    "accessibility": [
+      "Textphone service for people with hearing impairments confirmed from the contact page (0300 123 1099). Full assistive-technology compatibility not verified; verify before relying on it."
+    ],
+    "cultural_context": {
+      "adaptation_status": "unknown",
+      "notes": "General drugs information and advice service; no specific cultural-adaptation program confirmed from the reviewed pages.",
+      "source_notes": [
+        "https://www.talktofrank.com/"
+      ]
+    },
+    "description": "UK drugs information and advice service: an A-Z of drugs with honest, factual information plus drug warnings, and a free confidential advice service by phone (0300 123 6600, 24 hours a day, 7 days a week), text (82111), email, and textphone for people with hearing impairments (0300 123 1099). Advice is available in 120 languages via an interpreter on the same phone number.",
+    "evidence_notes": "Helpline number and 24/7 availability, text number, textphone number, 120-language interpreter offer and A-Z drug search confirmed from the homepage and contact page (copies crawled 2026-11-16). Accuracy of individual drug entries not evaluated.",
+    "id": "talk-to-frank-drugs-advice",
+    "intended_population": [
+      "adults",
+      "teens",
+      "children"
+    ],
+    "languages": [
+      "English"
+    ],
+    "last_verified_at": "2026-11-16",
+    "license_notes": "External resource. SootheSpot stores metadata only.",
+    "limitations": "Information and advice, not treatment or an emergency service. Calls from a landline cost no more than a normal national call and may show on the bill; mobile costs vary. Text replies are not instant (FRANK texts back). UK focus.",
+    "name": "Talk to FRANK: Honest Information About Drugs",
+    "needs": [
+      "understand",
+      "find-support"
+    ],
+    "official_url": "https://www.talktofrank.com/",
+    "platforms": [
+      "Web",
+      "Phone",
+      "SMS",
+      "Email"
+    ],
+    "privacy_notes": "Advice service described as friendly and confidential; calls may show up on the bill per the contact page. Privacy policy not reviewed in this screening.",
+    "publisher": "FRANK",
+    "reason": "Screened 2026-11-16: official talktofrank.com homepage and contact page confirmed live (copies crawled 2026-11-16); 24/7 advice line, text service, textphone and 120-language interpreter offer confirmed from the primary source. Ready for owner review before any promotion.",
+    "regions": [
+      "United Kingdom; UK drugs advice service per the site. Availability outside the UK not confirmed."
+    ],
+    "required_before_verified": [
+      "official_url_checked",
+      "publisher_confirmed",
+      "purpose_and_population_confirmed",
+      "independent_use_scope_confirmed",
+      "limitations_recorded",
+      "date_checked_recorded",
+      "primary_source_recorded"
+    ],
+    "resource_type": "information-hub",
+    "review_status": "screened",
+    "screening_gaps": [
+      "accuracy of individual drug entries not evaluated",
+      "email response times not confirmed",
+      "privacy policy not reviewed",
+      "operating organisation not stated on the reviewed pages",
+      "non-English provision on the site itself not confirmed"
+    ],
+    "shelf": "reach-out",
+    "source_notes": [
+      "https://www.talktofrank.com/",
+      "https://www.talktofrank.com/contact-frank"
+    ],
+    "status": "screened",
+    "tags": [
+      "drugs",
+      "substance-use",
+      "drug-information",
+      "advice-line",
+      "harm-reduction"
+    ],
+    "use_context": [
+      "independent-use"
+    ]
+  }
 ]
