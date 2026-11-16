@@ -31716,4 +31716,319 @@
   "no contact or status page found on the fetched placeholder"
  ]
 }
+,
+ {
+  "id": "smokefree-gov-quit-smoking",
+  "name": "Smokefree.gov \u2014 Quit Smoking or Vaping",
+  "publisher": "National Cancer Institute (NCI), U.S. National Institutes of Health \u2014 Tobacco Control Research Branch",
+  "resource_type": "self-help-toolkit",
+  "official_url": "https://smokefree.gov/",
+  "description": "Free, science-based quit-smoking and quit-vaping support from the U.S. National Cancer Institute: build a personalized quit plan, join SmokefreeTXT for free daily text messages over a 6\u20138 week program, use the free quitSTART app (daily check-ins, craving tips, progress tracking, help getting back on track after a slip), and reach a trained cessation counselor via LiveHelp chat (Mon\u2013Fri 9am\u20139pm ET) or 1-800-QUIT-NOW, which connects callers to their state's tobacco quitline. Publisher reports 50M+ visits, 583,000+ quit plans created, 575,000+ people supported by SmokefreeTXT, and 379,000+ quitSTART users.",
+  "tags": [
+   "smoking-cessation",
+   "vaping",
+   "quit-plan",
+   "text-support",
+   "cravings",
+   "addiction",
+   "self-help",
+   "independent-use"
+  ],
+  "access": [
+   "free"
+  ],
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android",
+   "SMS"
+  ],
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "United States; online tools broadly accessible, quitline routing is U.S. state-based."
+  ],
+  "cultural_context": {
+   "adaptation_status": "original",
+   "notes": "U.S. federal publisher; quitline routing (1-800-QUIT-NOW) connects to U.S. state quitlines. Fit outside the U.S. not assessed.",
+   "source_notes": [
+    "https://smokefree.gov/"
+   ]
+  },
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "No account noted for the quit plan or text-program signup on the reviewed homepage; the text program notes message and data rates may apply. Full privacy practices were not reviewed in this screening.",
+  "evidence_notes": "Publisher is the National Cancer Institute's Tobacco Control Research Branch; content developed with public health experts per the official About page. Publisher-reported usage figures (50M+ visits, 583,000+ quit plans) are the publisher's own counts and were not independently verified.",
+  "limitations": "Smoking/vaping cessation support; not a general mental-health resource and not a substitute for professional care. Text-message signup notes message and data rates may apply. Quitline routing is U.S.-specific; outside the U.S. use local quit services.",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-11-15",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "shelf": "practice",
+  "needs": [
+   "practice",
+   "calm"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "source_notes": [
+   "https://smokefree.gov/",
+   "https://smokefree.gov/about-us/smokefreegov"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "reason": "Screened 2026-11-15: official smokefree.gov homepage confirmed live (copy crawled 2026-11-16 02:56 UTC); NCI publisher, free quit plan, SmokefreeTXT 6\u20138 week text program, quitSTART app, LiveHelp chat and 1-800-QUIT-NOW confirmed from the primary source. Ready for owner review before any promotion.",
+  "screening_gaps": [
+   "non-English availability not confirmed from the primary source this run",
+   "privacy policy and text-program data practices not reviewed",
+   "publisher-reported usage figures not independently verified"
+  ]
+ },
+ {
+  "id": "iasp-crisis-centres-helplines",
+  "name": "International Association for Suicide Prevention (IASP) \u2014 Crisis Centres & Helplines",
+  "publisher": "International Association for Suicide Prevention (IASP)",
+  "resource_type": "service-directory",
+  "official_url": "https://www.iasp.info/crisis-centres-helplines/",
+  "description": "The global suicide-prevention association's crisis-centre and helpline hub. Routes people in crisis to Find a Helpline, a free directory of verified helplines in over 150 countries searchable by topic (suicide, depression, anxiety), contact method (phone, text, online chat, WhatsApp), and population (youth, LGBTQ+, veterans). Also profiles the international helpline organisations IFOTES, Befrienders Worldwide (349 emotional support centres in 32 countries), and Lifeline International (members in 20 countries), and links the WHO handbook on establishing a crisis line. IASP states plainly it is not a crisis centre and does not provide direct support.",
+  "tags": [
+   "suicide-prevention",
+   "crisis",
+   "helpline-directory",
+   "global",
+   "find-a-helpline",
+   "befrienders",
+   "ifotes"
+  ],
+  "access": [
+   "free"
+  ],
+  "platforms": [
+   "Web"
+  ],
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "Global"
+  ],
+  "cultural_context": {
+   "adaptation_status": "original",
+   "notes": "Global association; helpline coverage spans 150+ countries via Find a Helpline. Local services vary by country; verify the listed service for the user's region before relying on it.",
+   "source_notes": [
+    "https://www.iasp.info/crisis-centres-helplines/"
+   ]
+  },
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "Directory use requires no account on the reviewed page; Find a Helpline is a third-party service (ThroughLine) whose data practices were not reviewed in this screening.",
+  "evidence_notes": "Publisher is the global lead association for suicide prevention; WHO estimates cited on the homepage (700,000+ suicide deaths per year) are WHO figures as quoted by IASP. Helpline counts (150+ countries; Befrienders 349 centres) are as stated on the reviewed page.",
+  "limitations": "IASP is not a crisis centre and provides no direct support \u2014 the page routes to third-party helplines. This record touches SootheSpot's safety pathway: owner judgment required before any promotion, and regional helpline details must be verified per user location. Does not replace emergency services.",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-11-15",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "shelf": "reach-out",
+  "needs": [
+   "support",
+   "understand"
+  ],
+  "use_context": [
+   "independent-use",
+   "with-support"
+  ],
+  "source_notes": [
+   "https://www.iasp.info/",
+   "https://www.iasp.info/crisis-centres-helplines/"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "reason": "Screened 2026-11-15: official iasp.info homepage and Crisis Centres & Helplines page confirmed live (copies crawled 2026-11-16 02:56\u201302:57 UTC); global association mission, Find a Helpline directory (150+ countries), Befrienders/IFOTES/Lifeline International profiles, and the 'IASP is not a crisis centre' disclaimer confirmed from the primary source. Ready for owner review before any promotion; safety-pathway fit needs owner judgment.",
+  "screening_gaps": [
+   "Find a Helpline (third-party) data practices not reviewed",
+   "individual listed helplines not verified per country",
+   "non-English availability of the IASP pages not confirmed"
+  ]
+ },
+ {
+  "id": "aware-ireland-depression-support",
+  "name": "Aware \u2014 Depression Support & Education Services (Ireland)",
+  "publisher": "Aware (Irish national charity; depression, bipolar disorder and related mood conditions)",
+  "resource_type": "resource-hub",
+  "official_url": "https://www.aware.ie/",
+  "description": "Irish national charity providing free support, education, and information for people affected by depression, bipolar disorder, and related mood conditions, and their loved ones. All public services are free of charge: Support Line freephone 1800 80 48 48 (365 days a year, 10am\u201310pm), Support Mail answered within 24 hours, and Support & Self Care Groups (in person, by phone, and on Zoom; no referral needed). Education programmes include the Life Skills Programme (group format over 6 weeks in 90-minute sessions, or online over 8 weeks; CBT-based), the Relatives & Friends Programme, and Living Well With Bipolar Disorder.",
+  "tags": [
+   "depression",
+   "bipolar",
+   "mood-disorders",
+   "peer-support",
+   "support-groups",
+   "cbt",
+   "life-skills",
+   "ireland",
+   "free",
+   "helpline"
+  ],
+  "access": [
+   "free"
+  ],
+  "platforms": [
+   "Web",
+   "Phone"
+  ],
+  "intended_population": [
+   "general",
+   "adults"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "Ireland; online programmes and phone support are Ireland-based."
+  ],
+  "cultural_context": {
+   "adaptation_status": "original",
+   "notes": "Irish national charity; support line, groups, and programmes are Ireland-focused. Fit outside Ireland not assessed.",
+   "source_notes": [
+    "https://www.aware.ie/"
+   ]
+  },
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "Support services are described as confidential within normal limits; no account noted for the support line or groups on the reviewed sources. Full privacy practices were not reviewed in this screening.",
+  "evidence_notes": "Publisher is an Irish national charity (established 1985, per a secondary source). The Life Skills programme is CBT-based and was independently evaluated by Aware with reported improvements in self-reported anxiety and depression (secondary case-study source; evaluation details not reviewed in this screening).",
+  "limitations": "Ireland-focused services (freephone line, in-person groups); online programmes are the broadly usable part outside Ireland. Support, not clinical treatment; not a substitute for professional care and not a crisis service \u2014 keep safety pathways separate.",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-11-15",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "shelf": "reach-out",
+  "needs": [
+   "support",
+   "understand"
+  ],
+  "use_context": [
+   "independent-use",
+   "with-support"
+  ],
+  "source_notes": [
+   "https://www.aware.ie/",
+   "https://www.aware.ie/wp-content/uploads/2023/09/Healthcare-Practitioners_Aware-Services.pdf"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "reason": "Screened 2026-11-15: official aware.ie homepage confirmed live (copy crawled 2026-11-16 02:56 UTC) and the publisher's services PDF confirms all public services free, Support Line 1800 80 48 48 (365 days, 10am\u201310pm), Support Mail within 24h, Support & Self Care Groups (in person/phone/Zoom), and the CBT-based Life Skills Programme (group 6-week / online 8-week). Ready for owner review before any promotion.",
+  "screening_gaps": [
+   "free CBT/counselling session count reported by a secondary directory (spunout.ie), not confirmed from the primary source",
+   "privacy policy not reviewed",
+   "programme evaluation details not reviewed"
+  ]
+ },
+ {
+  "id": "rcpsych-mental-health-information",
+  "name": "Royal College of Psychiatrists \u2014 Mental Health Information and Resources",
+  "publisher": "Royal College of Psychiatrists (RCPsych), United Kingdom",
+  "resource_type": "article-library",
+  "official_url": "https://www.rcpsych.ac.uk/mental-health",
+  "description": "Readable, user-friendly, evidence-based information on mental health problems, treatments, and related topics, written by qualified psychiatrists with help from patients and carers. The College's information is certified under the Patient Information Forum's PIF TICK accreditation scheme. The page also carries a crisis FAQ signposting UK urgent help (call 999, go to A&E, call 111 or use NHS 111 online) and support organisations (Samaritans 116 123, Childline, SANEline).",
+  "tags": [
+   "psychoeducation",
+   "psychiatry",
+   "evidence-based",
+   "mental-health-information",
+   "treatments",
+   "uk",
+   "pif-tick"
+  ],
+  "access": [
+   "free"
+  ],
+  "platforms": [
+   "Web"
+  ],
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "UK-focused (Royal College of Psychiatrists); information broadly readable. Crisis signposting on the page is UK-specific."
+  ],
+  "cultural_context": {
+   "adaptation_status": "original",
+   "notes": "UK professional body; crisis numbers and referral routes on the page (999, 111, GP referral) are UK-specific and must not be substituted for other regions.",
+   "source_notes": [
+    "https://www.rcpsych.ac.uk/mental-health"
+   ]
+  },
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "Information pages are freely readable; no account noted. Data practices were not reviewed in this screening.",
+  "evidence_notes": "Publisher is the UK Royal College of Psychiatrists; information written by qualified psychiatrists with patients and carers and PIF TICK certified per the reviewed page. Individual leaflets were not evaluated in this screening.",
+  "limitations": "Informational only; does not replace professional mental health care. Crisis signposting is UK-specific. Individual information leaflets not reviewed \u2014 verify currency per topic before promotion.",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-11-15",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "shelf": "read",
+  "needs": [
+   "read",
+   "understand"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "source_notes": [
+   "https://www.rcpsych.ac.uk/mental-health"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "reason": "Screened 2026-11-15: official rcpsych.ac.uk mental-health page confirmed live (copy crawled 2026-11-16 02:56 UTC); psychiatrist-authored, patient/carer-reviewed, PIF TICK-certified information and UK crisis signposting confirmed from the primary source. Ready for owner review before any promotion.",
+  "screening_gaps": [
+   "individual information leaflets not reviewed",
+   "non-English leaflet availability not confirmed from the reviewed page",
+   "privacy policy not reviewed"
+  ]
+ }
 ]
