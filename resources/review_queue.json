@@ -32286,5 +32286,332 @@
    "non-English meeting availability not confirmed",
    "privacy policy not reviewed"
   ]
+ },
+ {
+  "id": "mental-health-first-aid-australia",
+  "name": "Mental Health First Aid Australia",
+  "publisher": "Mental Health First Aid Australia",
+  "resource_type": "community-program",
+  "official_url": "https://mhfa.com.au/",
+  "description": "Training program that teaches adults how to recognise the signs of a mental health problem and provide initial support until professional help is received, using an evidence-based action plan. Courses cover adults supporting adults, adults supporting young people, teen peer-to-peer support, refresher courses for current MHFAiders, and instructor training, with pathways for community, workplace, tertiary institution, and school settings. A fully funded training program for veteran mental health (MENTAL HEALTH PROTECT) is noted on the homepage. Course completion can lead to accreditation as a Mental Health First Aider (MHFAider).",
+  "tags": [
+   "mental-health-first-aid",
+   "training",
+   "crisis-response",
+   "workplace",
+   "schools",
+   "community",
+   "young-people"
+  ],
+  "access": [
+   "paid"
+  ],
+  "platforms": [
+   "Web",
+   "In-person"
+  ],
+  "intended_population": [
+   "adults",
+   "workplaces",
+   "schools",
+   "communities",
+   "young-people"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "Australia; MHFA programs are delivered internationally per the publisher, but non-Australian availability was not confirmed from the reviewed pages."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Program is delivered in many countries per the publisher; no specific cultural-adaptation detail confirmed from the reviewed pages.",
+   "source_notes": [
+    "https://mhfa.com.au/"
+   ]
+  },
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "No account noted for browsing the site. Data practices were not reviewed in this screening.",
+  "evidence_notes": "Publisher is Mental Health First Aid Australia. Course categories and community/workplace/school/tertiary pathways confirmed from the homepage; fee-based delivery confirmed from licensed-provider pages (standard two-day courses roughly $295-$495 AUD per person depending on provider); free veteran training noted on the homepage. Outcomes and effectiveness were not evaluated in this screening.",
+  "limitations": "Training, not treatment or a crisis service. Courses are fee-based (fees vary by provider; free veteran training noted on the homepage). Accreditation validity period and per-course fees were not confirmed from the publisher's own pages in this screening.",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-11-16",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "shelf": "practice",
+  "needs": [
+   "practice",
+   "understand"
+  ],
+  "use_context": [
+   "with-support"
+  ],
+  "source_notes": [
+   "https://mhfa.com.au/"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "reason": "Screened 2026-11-16: official mhfa.com.au homepage confirmed live (copy crawled 2026-11-16 12:56 UTC); course categories (adults supporting adults, adults supporting young people, teen peer-to-peer, refresher, instructor training) and community/workplace/school/tertiary pathways confirmed from the primary source; fee-based delivery confirmed from licensed-provider pages; free veteran training noted on the homepage. Ready for owner review before any promotion.",
+  "screening_gaps": [
+   "per-course fees not confirmed from the publisher's own pages",
+   "accreditation validity period taken from licensed-provider pages, not the publisher's site",
+   "non-Australian program availability not confirmed",
+   "privacy policy not reviewed"
+  ]
+ },
+ {
+  "id": "narcotics-anonymous",
+  "name": "Narcotics Anonymous",
+  "publisher": "NA World Services, Inc.",
+  "resource_type": "peer-support",
+  "official_url": "https://na.org/",
+  "description": "Nonprofit fellowship of recovering addicts who meet regularly to help each other stay clean; the only requirement for membership is a desire to stop using. Meetings are run by and for addicts, held in person and virtually around the world, with a meeting finder for local NA websites and phonelines and a virtual meeting finder; member-written recovery literature is available in many languages. There are no membership fees or dues; members make voluntary contributions at meetings and nonmembers are asked not to contribute.",
+  "tags": [
+   "addiction",
+   "substance-use",
+   "peer-support",
+   "mutual-help",
+   "meetings",
+   "recovery",
+   "worldwide"
+  ],
+  "access": [
+   "free"
+  ],
+  "platforms": [
+   "Web",
+   "In-person",
+   "Phone"
+  ],
+  "intended_population": [
+   "adults",
+   "people-seeking-recovery"
+  ],
+  "languages": [
+   "English",
+   "Spanish",
+   "French",
+   "German",
+   "Portuguese",
+   "Russian",
+   "Hindi",
+   "Japanese",
+   "Korean",
+   "Arabic"
+  ],
+  "regions": [
+   "Global; meetings held around the world per the publisher. NA World Services does not keep a central database of in-person meetings; local NA websites and phonelines list them."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Fellowship is open to any addict with a desire to stop using, per the publisher; open meetings welcome non-addicts. No specific cultural-adaptation detail confirmed from the reviewed pages.",
+   "source_notes": [
+    "https://na.org/"
+   ]
+  },
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "Meetings are confidential peer support; no account noted for browsing the site. Data practices were not reviewed in this screening.",
+  "evidence_notes": "Publisher is NA World Services, Inc.; nonprofit fellowship. Recovery literature is offered in 61 languages per the site's language dropdown. Outcomes and effectiveness were not evaluated in this screening.",
+  "limitations": "Peer mutual support, not professional treatment; not a crisis service. Not every meeting is open to non-addicts; look for open meetings if not an addict. Meeting availability varies by location, and NA World Services does not keep a central database of in-person meetings. Twelve Step program \u2014 flag for owner judgment on fit.",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-11-16",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "shelf": "reach-out",
+  "needs": [
+   "support",
+   "find-support"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "source_notes": [
+   "https://na.org/",
+   "https://na.org/what-is-narcotics-anonymous/",
+   "https://na.org/meetingsearch/",
+   "https://na.org/literature/"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "reason": "Screened 2026-11-16: official na.org homepage and subpages confirmed live via live browser read (2026-11-16 07:56-08:01 EST); nonprofit fellowship purpose, no-fee membership, in-person and virtual meetings, meeting finder, and multilingual literature confirmed from the primary source. Ready for owner review before any promotion.",
+  "screening_gaps": [
+   "meeting-finder results not reviewed (NAWS keeps no central in-person meeting database)",
+   "privacy policy not reviewed",
+   "per-meeting language availability not confirmed"
+  ]
+ },
+ {
+  "id": "therapy-for-latinx",
+  "name": "Therapy for Latinx",
+  "publisher": "Therapy for Latinx",
+  "resource_type": "service-directory",
+  "official_url": "https://www.therapyforlatinx.com/",
+  "description": "Therapist directory for finding Latinx therapists, described by the site as a Yelp-style directory for therapists who look and talk like you. Search by therapist name, specialty, and insurance, then filter by location, gender, payment type, and identity; listed therapists can be contacted directly for an initial consultation (usually 15-30 minutes), and telehealth is available across state lines where the therapist is licensed. The site frames therapy as culturally matched care and includes community stories.",
+  "tags": [
+   "therapist-directory",
+   "latinx",
+   "latine",
+   "culturally-matched",
+   "telehealth",
+   "find-a-therapist"
+  ],
+  "access": [
+   "free"
+  ],
+  "platforms": [
+   "Web"
+  ],
+  "intended_population": [
+   "latinx",
+   "adults"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "United States; listed therapists shown in US locations (e.g. California) per the reviewed pages. Availability outside the US not confirmed."
+  ],
+  "cultural_context": {
+   "adaptation_status": "community-centered",
+   "notes": "Directory exists specifically to match Latinx clients with culturally matched therapists; the site describes mental health stigma in the community and the harm of therapy with someone who does not understand the culture.",
+   "source_notes": [
+    "https://www.therapyforlatinx.com/"
+   ]
+  },
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "No account noted for browsing the directory. Data practices were not reviewed in this screening.",
+  "evidence_notes": "Directory purpose, search and filter options, and consultation flow confirmed from the homepage (copy crawled 2026-11-13). Therapist credentials are self-reported listings; vetting process not confirmed from the reviewed pages. Outcomes not evaluated.",
+  "limitations": "A directory, not a provider: listed therapists' credentials and availability are self-reported and were not verified by SootheSpot in this screening; therapy sessions are paid and insurance coverage varies. US-focused; Spanish-language therapist availability not confirmed.",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-11-16",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "shelf": "reach-out",
+  "needs": [
+   "find-support"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "source_notes": [
+   "https://www.therapyforlatinx.com/"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "reason": "Screened 2026-11-16: official therapyforlatinx.com homepage confirmed live (copy crawled 2026-11-13); Latinx therapist directory purpose, search/filter options, and consultation flow confirmed from the primary source. Ready for owner review before any promotion.",
+  "screening_gaps": [
+   "therapist credential vetting process not confirmed",
+   "legal entity behind the site not confirmed from the reviewed pages",
+   "Spanish-language therapist availability not confirmed",
+   "privacy policy not reviewed"
+  ]
+ },
+ {
+  "id": "psychology-today-therapist-directory",
+  "name": "Psychology Today \u2014 Therapist Directory",
+  "publisher": "Sussex Publishers",
+  "resource_type": "service-directory",
+  "official_url": "https://www.psychologytoday.com/",
+  "description": "Large therapist directory (on the Psychology Today site, a psychology magazine founded in 1967) for finding psychologists, psychiatrists, social workers, and counselors. Search by city, town, ZIP or postal code, or provider name, then filter by issues treated, cost, insurance, gender, and other factors; profiles include qualifications, therapy approaches, and personal philosophy, and providers whose license or primary credential has been verified by Psychology Today carry a 'Verified' symbol. Free to search; therapy sessions are paid.",
+  "tags": [
+   "therapist-directory",
+   "find-a-therapist",
+   "psychologists",
+   "psychiatrists",
+   "counselors",
+   "insurance",
+   "telehealth"
+  ],
+  "access": [
+   "free"
+  ],
+  "platforms": [
+   "Web"
+  ],
+  "intended_population": [
+   "adults",
+   "children",
+   "teens",
+   "couples",
+   "families"
+  ],
+  "languages": [
+   "English"
+  ],
+  "regions": [
+   "United States, Canada, and other countries per the directory's country editions; listings shown for US and Canadian locations in this screening."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "General directory; filters include language and gender, but no specific cultural-adaptation program confirmed from the reviewed pages.",
+   "source_notes": [
+    "https://www.psychologytoday.com/"
+   ]
+  },
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "privacy_notes": "No account noted for browsing the directory. Data practices were not reviewed in this screening.",
+  "evidence_notes": "Publisher is Sussex Publishers (owner of Psychology Today since 1991, per secondary sources); directory purpose, filters, and 'Verified' license marking confirmed from Psychology Today's own directory pages. Profiles are self-reported listings; Psychology Today does not vet every credential \u2014 only some carry the 'Verified' mark. Outcomes not evaluated.",
+  "limitations": "A directory, not a provider: profiles are self-reported and therapists pay for listings, so inclusion is not an endorsement and not every credential is verified \u2014 check the 'Verified' mark and confirm licensure independently. Therapy sessions are paid; in-network status must be confirmed with the insurer. Not a crisis service.",
+  "review_status": "screened",
+  "status": "screened",
+  "last_verified_at": "2026-11-16",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "shelf": "reach-out",
+  "needs": [
+   "find-support"
+  ],
+  "use_context": [
+   "independent-use"
+  ],
+  "source_notes": [
+   "https://www.psychologytoday.com/",
+   "https://www.psychologytoday.com/us/therapists/27103",
+   "https://en.wikipedia.org/wiki/Psychology_Today"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "reason": "Screened 2026-11-16: official psychologytoday.com homepage and directory pages confirmed live (copies crawled 2026-11-12); directory purpose, search/filter options, and 'Verified' license marking confirmed from the primary source; publisher Sussex Publishers confirmed via secondary sources. Ready for owner review before any promotion.",
+  "screening_gaps": [
+   "credential vetting covers only 'Verified' profiles; most listings are self-reported",
+   "in-network insurance status must be confirmed with the insurer",
+   "privacy policy not reviewed",
+   "non-English editions not reviewed"
+  ]
  }
 ]
