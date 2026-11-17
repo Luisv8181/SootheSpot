@@ -33756,4 +33756,282 @@
   ]
  }
 
+,
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Free online mental-health service from Irish registered charity turn2me: one-to-one counselling with a professional counsellor by video or text chat (adults 18 and over), anonymous facilitated peer support groups held throughout the week, and Thought Catcher, a private mood diary visible only to the user. Over 120,000 registered users and 75,000+ counselling sessions provided, per the charity's homepage.",
+  "evidence_notes": "Publisher is a registered Irish charity (CHY 18803) reporting 120,000+ registered users and 75,000+ counselling sessions; no outcome study was evaluated in this screening.",
+  "id": "turn2me-online-counselling",
+  "intended_population": [
+   "adults"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-17",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Counselling is for adults aged 18 and over. A professional counselling service and peer support, not a substitute for emergency care; the site's crisis routing was not assessed in this screening.",
+  "name": "turn2me - Free Online Counselling and Peer Support (Ireland)",
+  "needs": [
+   "find-support",
+   "support",
+   "cope"
+  ],
+  "official_url": "https://turn2me.ie/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Site states services are confidential and anonymous apart from the clinical and support team; full privacy policy not reviewed in this screening.",
+  "publisher": "turn2me (registered charity CHY 18803)",
+  "reason": "Screened 2026-11-17: official turn2me.ie confirmed live; free one-to-one counselling (18+), anonymous peer support groups and private Thought Catcher mood diary all confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Ireland; online"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "online-support-platform",
+  "review_status": "screened",
+  "screening_gaps": [
+   "whether services are limited to people in Ireland not confirmed from the homepage",
+   "privacy policy not reviewed",
+   "crisis routing not assessed",
+   "language availability beyond English not confirmed"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+   "https://turn2me.ie/"
+  ],
+  "status": "screened",
+  "tags": [
+   "counselling",
+   "peer-support",
+   "support-groups",
+   "mood-diary",
+   "free",
+   "ireland"
+  ],
+  "use_context": [
+   "with-support",
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Ireland's youth information and support platform: evidence-based factsheets on mental health (including grounding techniques and distraction activities for distress, and guidance on talking to a GP), young people's lived-experience stories, a free anonymous 24/7 text service (Text About It), a weekday-evening Youth Information Chat, the spunout Academy online learning platform, and a Navigator matching young people to wellbeing resources. Run by Community Creations CLG, supported by the HSE and others.",
+  "evidence_notes": "Publisher describes its content as evidence-based and person-centred; no individual factsheet or study was evaluated in this screening.",
+  "id": "spunout-ireland-youth-information",
+  "intended_population": [
+   "young-people"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-17",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Designed for young people living in Ireland; some services (Text About It, Youth Information Chat) are Ireland-specific. Information and support, not a substitute for professional mental health care.",
+  "name": "spunout - Ireland's Youth Information and Support Platform",
+  "needs": [
+   "understand",
+   "find-support",
+   "cope"
+  ],
+  "official_url": "https://spunout.ie/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Account and data practices not reviewed in this screening.",
+  "publisher": "spunout (Community Creations CLG)",
+  "reason": "Screened 2026-11-17: official spunout.ie confirmed live; youth factsheets, Text About It, Youth Information Chat, Academy and Navigator all confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Ireland; online"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "information-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+   "individual factsheets not reviewed",
+   "privacy policy not reviewed",
+   "age range served not stated on the reviewed pages"
+  ],
+  "shelf": "learn",
+  "source_notes": [
+   "https://spunout.ie/",
+   "https://spunout.ie/about/"
+  ],
+  "status": "screened",
+  "tags": [
+   "youth",
+   "mental-health-information",
+   "factsheets",
+   "ireland",
+   "free",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Free public-service campaign empowering 16- to 24-year-olds to reach out to a friend who may be struggling with their mental health: conversation guides for when you don't know what to say, videos on recognising when extra help is needed, and self-care strategies for your own mental health. Crisis numbers (988, 911, Crisis Text Line) are shown on the homepage.",
+  "evidence_notes": "Campaign from the Ad Council, The Jed Foundation and the American Foundation for Suicide Prevention; partner tracking cited by the campaign reports higher help-seeking among young adults aware of it. No study was reviewed in this screening.",
+  "id": "seize-the-awkward",
+  "intended_population": [
+   "young-adults",
+   "teens"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-17",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "A conversation-starting campaign, not a counselling or crisis service; it points to 988 and the Crisis Text Line for urgent help. US-focused (911/988 numbers).",
+  "name": "Seize the Awkward",
+  "needs": [
+   "support",
+   "find-support",
+   "understand"
+  ],
+  "official_url": "https://seizetheawkward.org/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Account and data practices not reviewed in this screening.",
+  "publisher": "Ad Council, The Jed Foundation, and the American Foundation for Suicide Prevention",
+  "reason": "Screened 2026-11-17: official seizetheawkward.org confirmed live; conversation guides, warning-sign and self-care content confirmed from the primary source, publisher partnership confirmed via AFSP and JED. Ready for owner review before any promotion.",
+  "regions": [
+   "United States; online"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "resource-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+   "non-English availability not confirmed",
+   "privacy policy not reviewed"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+   "https://seizetheawkward.org/",
+   "https://afsp.org/story/american-foundation-for-suicide-prevention-thanks-its-volunteers-the-jed-foundati"
+  ],
+  "status": "screened",
+  "tags": [
+   "friends",
+   "conversation-starters",
+   "suicide-prevention",
+   "youth",
+   "free",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Free online resource from The Jed Foundation (with mtvU) for college students and young adults: Mental Health 101 explainers on the mental-health continuum and common conditions, topic guides (movement, music, schizophrenia and more), advice on supporting a friend, and crisis resources including the 988 Lifeline. The Peabody Award-winning campaign is named for the finding that nearly half of college students surveyed reported feeling too depressed to function.",
+  "evidence_notes": "Publisher is The Jed Foundation, a US nonprofit for teen and young-adult emotional health and suicide prevention; the campaign won a Peabody Award. No study was reviewed in this screening.",
+  "id": "half-of-us",
+  "intended_population": [
+   "young-adults",
+   "students"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-17",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "US-focused (988 and US crisis numbers); a psychoeducation and signposting site, not a counselling or crisis service.",
+  "name": "Half of Us - Mental Health Is Health",
+  "needs": [
+   "understand",
+   "support",
+   "find-support"
+  ],
+  "official_url": "https://www.halfofus.com/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Account and data practices not reviewed in this screening.",
+  "publisher": "The Jed Foundation (with mtvU)",
+  "reason": "Screened 2026-11-17: official halfofus.com confirmed live; Mental Health 101, topic guides, friend-support and crisis content confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "United States; online"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "resource-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+   "self-evaluation screening tool mentioned in older campaign descriptions not confirmed on the current homepage",
+   "non-English availability not confirmed",
+   "privacy policy not reviewed"
+  ],
+  "shelf": "learn",
+  "source_notes": [
+   "https://www.halfofus.com/"
+  ],
+  "status": "screened",
+  "tags": [
+   "college-students",
+   "young-adults",
+   "mental-health-101",
+   "friends",
+   "free",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ }
 ]
