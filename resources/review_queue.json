@@ -2257,9 +2257,9 @@
   "intended_population": [
    "general"
   ],
-  "last_verified_at": "2026-10-11",
+  "last_verified_at": "2026-11-16",
   "license_notes": "External resource. SootheSpot stores metadata only.",
-  "limitations": "Self-help and self-management tool \u2014 not a medical device, and not a replacement for therapy or crisis care (per publisher). Community forum is moderated peer support, not professional care. SootheSpot's deterministic safety pathway applies independently.",
+  "limitations": "Self-help and self-management tool \u2014 not a medical device, and not a replacement for therapy or crisis care (per publisher). Community forum is moderated peer support, not professional care. SootheSpot's deterministic safety pathway applies independently. Anxiety Canada ceased operations in April 2025 and 247 Labs Inc, the app's long-time developer, now operates it; the app remains free with no subscription (Google Play listing, updated 12 Feb 2026).",
   "name": "MindShift CBT",
   "needs": [
    "anxiety",
@@ -2272,8 +2272,8 @@
    "Android"
   ],
   "privacy_notes": "Privacy policy not reviewed in this screening; the app includes registration and an export-to-clinician feature, so do not assume private by default.",
-  "publisher": "MindShift CBT (originally developed in partnership with Anxiety Canada, Canadian nonprofit)",
-  "reason": "Screened 2026-10-11: official mindshiftcbt.com fetched live this run (free app, CBT-based tools, 16-week clinical trial claim, Anxiety Canada partnership, and not-a-medical-device statement all confirmed on the page). Ready for owner review before any promotion.",
+  "publisher": "247 Labs Inc (originally Anxiety Canada; Anxiety Canada ceased operations in April 2025)",
+  "reason": "Screened 2026-10-11; re-checked 2026-11-16: Anxiety Canada's site now shows a closure notice (operations ceased April 2025) and the app continues under 247 Labs Inc, still free with no subscription per the Google Play listing. Ready for owner review before any promotion.",
   "regions": [
    "Global (180+ countries per publisher page; Canadian publisher)"
   ],
@@ -2291,11 +2291,14 @@
   "screening_gaps": [
    "App language options not confirmed",
    "Privacy policy not reviewed",
-   "Clinical-trial paper not reviewed"
+   "Clinical-trial paper not reviewed",
+   "247 Labs takeover confirmed via the Play listing and secondary reporting; no publisher announcement page was read directly"
   ],
   "shelf": "practice",
   "source_notes": [
-   "https://www.mindshiftcbt.com/"
+   "https://www.mindshiftcbt.com/",
+   "https://www.anxietycanada.com/resources/mindshift-cbt/",
+   "https://play.google.com/store/apps/details?id=com.bstro.MindShift"
   ],
   "status": "screened",
   "tags": [
@@ -33536,6 +33539,216 @@
    "nature-sounds",
    "meditation",
    "relaxation",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Free mindfulness meditation app from UCLA's Mindful Awareness Research Center (MARC): Basic Meditations in 19 languages, Wellness Meditations for people living with challenging health conditions, how-to videos on getting started and meditation posture, weekly 30-minute podcast meditations, and a self-guided meditation timer. iOS and Android.",
+  "evidence_notes": "Publisher states scientific research shows mindfulness can help manage stress-related physical conditions and reduce anxiety and depression; no individual study was evaluated in this screening.",
+  "id": "ucla-mindful",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-16",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Meditation is a coping aid, not a substitute for professional mental health care. Wellness Meditations are framed for people with challenging health conditions; whether they suit a given condition was not assessed.",
+  "name": "UCLA Mindful",
+  "needs": [
+   "calm",
+   "practice",
+   "sleep"
+  ],
+  "official_url": "https://www.uclahealth.org/marc/ucla-mindful-app",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "privacy_notes": "Account and data practices not reviewed in this screening.",
+  "publisher": "UCLA Mindful Awareness Research Center (MARC), UCLA Health",
+  "reason": "Screened 2026-11-16: official UCLA Health page confirmed live; free app, 19-language Basic Meditations, wellness meditations, videos, podcasts and timer all confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; online."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+   "full list of the 19 languages not confirmed",
+   "privacy policy not reviewed",
+   "individual studies not evaluated"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://www.uclahealth.org/marc/ucla-mindful-app"
+  ],
+  "status": "screened",
+  "tags": [
+   "mindfulness",
+   "meditation",
+   "guided-meditation",
+   "free",
+   "ucla",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free-download",
+   "paid-subscription"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "CBT-based app that asks how you are feeling and returns five short, tailored Missions (mindfulness meditations, relaxation, exercise, affirmations, coping statements, yoga, gratitude) to lift mood and build coping skills for stress, low mood, depression and anxiety. Free to download; use requires a subscription (listed as $7.99 for 3 months or $19.99 for 12 months by ReachOut, updated October 2026). iOS and Android.",
+  "evidence_notes": "Publisher cites a randomised controlled trial (Bakker et al., 2019) plus two further published studies supporting improved mental health and wellbeing; no study paper was reviewed in this screening.",
+  "id": "moodmission",
+  "intended_population": [
+   "general"
+  ],
+  "last_verified_at": "2026-11-16",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Free to download but not free to use: a subscription is required after download, so it is not a free resource in practice. Google Play listing last updated 26 October 2023, so the app may be lightly maintained; confirm the current version before recommending. A coping aid, not a substitute for professional mental health care.",
+  "name": "MoodMission",
+  "needs": [
+   "cope",
+   "anxiety",
+   "low-mood"
+  ],
+  "official_url": "https://moodmission.com/",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "privacy_notes": "Account and data practices not reviewed in this screening.",
+  "publisher": "MoodMission Pty Ltd",
+  "reason": "Screened 2026-11-16: official moodmission.com confirmed live; CBT basis, five tailored missions and RCT evidence confirmed from the publisher page and secondary listings. Subscription requirement and stale Play listing flagged for owner judgment. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; online."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+   "subscription price confirmed only via a secondary listing, not the publisher's own page",
+   "privacy policy not reviewed",
+   "trial papers not reviewed",
+   "language availability not confirmed"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://moodmission.com/",
+   "https://au.reachout.com/tools-and-apps/moodmission"
+  ],
+  "status": "screened",
+  "tags": [
+   "cbt",
+   "anxiety",
+   "depression",
+   "mood",
+   "missions",
+   "evidence-based",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free",
+   "in-app-purchase"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Free meditation and breathwork app for iOS: guided mindful and loving-kindness meditations, unguided timer sessions from 5 minutes to 24 hours, and three animated breathing exercises (Box Breathing, Deep Calm, Awake) plus guided breathing for sleep. No subscription; one in-app purchase (10-day mantra course) listed at $0.00 on the App Store listing checked this run. iOS only.",
+  "evidence_notes": "Publisher presents breathing and meditation as aids for everyday calm; no clinical claims were evaluated in this screening.",
+  "id": "oak-meditation",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-16",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "iOS only; no Android or Web version. Breathing exercises are screen-guided; reviews note no audio-only option for breathing. One in-app purchase exists (mantra course); older reviews mention a small one-time fee while the current listing shows $0.00, so confirm before recommending. A coping aid, not a substitute for professional mental health care.",
+  "name": "Oak Meditation",
+  "needs": [
+   "calm",
+   "breathe",
+   "sleep"
+  ],
+  "official_url": "https://www.oakmeditation.com/",
+  "platforms": [
+   "iOS"
+  ],
+  "privacy_notes": "No account required per third-party reviews; the publisher's privacy policy was not reviewed in this screening.",
+  "publisher": "Oak (NYLLON LLC; founded by Kevin Rose)",
+  "reason": "Screened 2026-11-16: official oakmeditation.com confirmed live; free app, guided meditations, unguided timer and three breathing exercises confirmed from the primary source and the App Store listing. iOS-only and purchase-price discrepancy flagged for owner judgment. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; online."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy not reviewed",
+   "in-app purchase price discrepancy not resolved",
+   "accessibility features not confirmed"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://www.oakmeditation.com/",
+   "https://apps.apple.com/us/app/oak-meditation-breathing/id1210209691"
+  ],
+  "status": "screened",
+  "tags": [
+   "meditation",
+   "breathwork",
+   "breathing",
+   "sleep",
+   "free",
+   "ios-only",
    "independent-use"
   ],
   "use_context": [
