@@ -34034,4 +34034,294 @@
    "independent-use"
   ]
  }
+,
+ {
+  "access": [
+   "pricing not stated on the reviewed homepage"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Evidence-based early-intervention training from MHFA USA that teaches adults how to recognize, understand and respond to signs of mental-health and substance-use challenges and offer a first level of support: instructor-led courses for individuals, workplaces, schools and communities, plus a communitywide implementation model for states, counties, cities and school districts. Publisher reports 5 million+ people trained across all 50 states and U.S. territories, 15,000+ workplaces, and 90+ peer-reviewed studies backing the program.",
+  "evidence_notes": "Publisher reports 5 million+ First Aiders trained and 90+ peer-reviewed studies backing MHFA since 2013, with a goal of training 1 in 15 Americans; no individual study was evaluated in this screening.",
+  "id": "mental-health-first-aid-usa",
+  "intended_population": [
+   "adults",
+   "general-public"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-17",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "A training program that teaches people how to support others, not a treatment or crisis service; First Aiders are a link to professional help, not a substitute for it. Course fees apply (pricing not stated on the reviewed homepage). Spanish-language availability not confirmed.",
+  "name": "Mental Health First Aid USA",
+  "needs": [
+   "understand",
+   "learn-skills",
+   "support"
+  ],
+  "official_url": "https://mentalhealthfirstaid.org/",
+  "platforms": [
+   "Web",
+   "In-person"
+  ],
+  "privacy_notes": "Account and data practices not reviewed in this screening.",
+  "publisher": "National Council for Mental Wellbeing",
+  "reason": "Screened 2026-11-17: official mentalhealthfirstaid.org confirmed live; evidence-based early-intervention training, 5M+ trained, 90+ peer-reviewed studies, communitywide implementation and workplace/school offerings, and National Council for Mental Wellbeing as provider all confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "United States"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "online-course",
+  "review_status": "screened",
+  "screening_gaps": [
+   "course pricing not stated on the reviewed homepage",
+   "Spanish-language availability not confirmed",
+   "privacy policy not reviewed",
+   "accessibility features not listed on the reviewed pages"
+  ],
+  "shelf": "learn",
+  "source_notes": [
+   "https://mentalhealthfirstaid.org/",
+   "https://mentalhealthfirstaid.org/about/"
+  ],
+  "status": "screened",
+  "tags": [
+   "mental-health-first-aid",
+   "training",
+   "early-intervention",
+   "workplaces",
+   "schools",
+   "us",
+   "evidence-based"
+  ],
+  "use_context": [
+   "guided-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Free quit-smoking, vaping and tobacco program from Truth Initiative, developed with the Mayo Clinic Nicotine Dependence Center since 2008: a personalized quit plan, daily texts, tools to identify triggers, cope with cravings and replace routines, information on nicotine replacement therapy, and the free anonymous 24/7 EX Community of experienced quitters. Publisher reports 2 million+ members, research showing up to 40% higher odds of quitting, and 96% of members finding it helpful.",
+  "evidence_notes": "Program developed by Truth Initiative with the Mayo Clinic Nicotine Dependence Center since 2008; publisher cites research showing up to 40% higher odds of quitting and 2 million+ members. No individual study was evaluated in this screening.",
+  "id": "becomeanex-quit-smoking",
+  "intended_population": [
+   "adults"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-17",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "A quit-smoking and vaping support program, not a substitute for medical care; nicotine replacement therapy information is educational and medication decisions need a clinician or pharmacist. Sign-up requires a phone number and date of birth for age verification.",
+  "name": "EX Program - BecomeAnEX",
+  "needs": [
+   "substance-use",
+   "cope",
+   "support"
+  ],
+  "official_url": "https://www.becomeanex.org/",
+  "platforms": [
+   "Web",
+   "SMS text"
+  ],
+  "privacy_notes": "Sign-up uses a phone number and date of birth; full privacy policy not reviewed in this screening.",
+  "publisher": "Truth Initiative (with Mayo Clinic Nicotine Dependence Center)",
+  "reason": "Screened 2026-11-17: official becomeanex.org confirmed live; free personalized quit plan, daily texts, nicotine replacement therapy information and anonymous 24/7 EX Community confirmed from the primary source; Truth Initiative / Mayo Clinic collaboration since 2008 confirmed. Ready for owner review before any promotion.",
+  "regions": [
+   "United States; online"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "online-program",
+  "review_status": "screened",
+  "screening_gaps": [
+   "age eligibility threshold not stated on the reviewed homepage",
+   "privacy policy not reviewed",
+   "non-English availability not confirmed"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://www.becomeanex.org/"
+  ],
+  "status": "screened",
+  "tags": [
+   "quit-smoking",
+   "vaping-cessation",
+   "tobacco",
+   "nicotine",
+   "free",
+   "community-support"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ }
+,
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Free and confidential peer support from the LGBT National Help Center, a non-profit founded in 1996: four toll-free lines (LGBT National Hotline 888-843-4564, Coming Out Support Hotline 888-688-5428, Youth Talkline 800-246-7743, Senior Hotline 888-234-7243), one-to-one Online Peer Support Chat, moderated Youth Chatrooms for ages 19 and younger, email support, and resource tools (LGBT Near Me, PridePath). Hotlines run Mon-Fri 4 PM-midnight ET and Sat 1-5 PM ET; chat Mon-Fri 4-10 PM ET and Sat 1-5 PM ET. Support is by trained LGBTQIA+ community members.",
+  "evidence_notes": "Non-profit founded in 1996; describes itself as the oldest and most comprehensive national organization of its type and scope in the United States. No outcome study was evaluated in this screening.",
+  "id": "lgbt-national-help-center",
+  "intended_population": [
+   "lgbtq",
+   "young-people",
+   "older-adults",
+   "questioning"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-17",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Peer support: supportive listening, not advice, and not a crisis or emergency service; it will not contact 911, other hotlines or services on a caller's behalf, and frames itself as 'Care Before Crisis'. Hotlines run limited hours (weekday afternoons/evenings ET, Saturday afternoons). No ongoing repeat conversations on the same subject; conversations must be directly connected to LGBTQIA+ issues.",
+  "name": "LGBT National Help Center",
+  "needs": [
+   "support",
+   "find-support",
+   "connect"
+  ],
+  "official_url": "https://lgbthotline.org/",
+  "platforms": [
+   "Phone",
+   "Web chat"
+  ],
+  "privacy_notes": "Calls and chats are confidential with no recordings; a zip/postal code may be asked for local-resource searches, never an exact address. Full privacy policy not reviewed in this screening.",
+  "publisher": "LGBT National Help Center (non-profit, founded 1996)",
+  "reason": "Screened 2026-11-17: live site lgbthotline.org confirmed (assigned glbthotline.org shows a certificate name mismatch and redirects); free confidential peer support, four toll-free lines, online chat and youth chatrooms, and limited-hours schedule confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "United States; online"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "peer-support",
+  "review_status": "screened",
+  "screening_gaps": [
+   "assigned URL glbthotline.org shows a certificate name mismatch; live site is lgbthotline.org",
+   "languages beyond English not stated on the reviewed pages",
+   "privacy policy not reviewed",
+   "accessibility features not listed on the reviewed pages"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+   "https://lgbthotline.org/"
+  ],
+  "status": "screened",
+  "tags": [
+   "lgbtq",
+   "peer-support",
+   "hotline",
+   "youth",
+   "seniors",
+   "free",
+   "confidential"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "ASL callers can use their preferred relay provider (per the reviewed page); other assistive-technology compatibility not listed on the reviewed page."
+  ],
+  "description": "24/7 toll-free multilingual crisis counseling service from SAMHSA (call or text 1-800-985-5990) for residents of the US and its territories experiencing emotional distress related to natural or human-caused disasters: tornadoes and severe storms, hurricanes, floods, wildfires, earthquakes, drought, extreme heat, incidents of mass violence, anniversaries and trigger events, infectious disease outbreaks, and community unrest. Staffed by trained counselors from a network of crisis call centers; offers crisis counseling, information on recognizing distress, referrals to local crisis centers, and healthy coping tips. Counselors available in 100+ languages via third-party interpretation; Spanish line press 2.",
+  "evidence_notes": "Official US government service from SAMHSA; page last updated 09/26/2025. Described as the first national hotline dedicated to year-round disaster crisis counseling. No outcome study was evaluated in this screening.",
+  "id": "disaster-distress-helpline",
+  "intended_population": [
+   "general-public",
+   "survivors",
+   "caregivers"
+  ],
+  "languages": [
+   "English",
+   "Spanish"
+  ],
+  "last_verified_at": "2026-11-17",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Disaster-related emotional distress only; for non-counseling disaster needs (evacuations, shelters, food and clothing distribution, volunteer opportunities) the page directs people to call 211. Standard text and data rates apply when texting. Interpretation in less commonly spoken languages may require calling back at an appointed time.",
+  "name": "Disaster Distress Helpline (SAMHSA)",
+  "needs": [
+   "crisis",
+   "support",
+   "cope"
+  ],
+  "official_url": "https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline",
+  "platforms": [
+   "Phone",
+   "Text"
+  ],
+  "privacy_notes": "No identifying information is required to contact the helpline; basic questions at the end of the call are optional. Full privacy policy not reviewed in this screening.",
+  "publisher": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+  "reason": "Screened 2026-11-17: official SAMHSA page confirmed live (assigned URL redirected to /find-help/helplines/disaster-distress-helpline); 24/7 call-or-text 1-800-985-5990, 100+ languages via interpretation, disaster scope and population confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "United States; US territories"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "crisis-support",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy not reviewed",
+   "accessibility features beyond ASL relay not listed on the reviewed page"
+  ],
+  "shelf": "safety",
+  "source_notes": [
+   "https://www.samhsa.gov/find-help/helplines/disaster-distress-helpline"
+  ],
+  "status": "screened",
+  "tags": [
+   "disaster",
+   "crisis-counseling",
+   "helpline",
+   "24-7",
+   "multilingual",
+   "free",
+   "samhsa"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ }
 ]
