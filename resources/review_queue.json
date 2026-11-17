@@ -34636,5 +34636,161 @@
    "independent-use",
    "with-support"
   ]
- }
+ },
+ {
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed pages; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Community-specific adaptation not assessed in this screening.",
+  "source_notes": [
+   "https://www.mentalhealthonline.org.au/"
+  ]
+ },
+ "description": "Free 12-week online evidence-based treatment programs for generalised anxiety disorder, depression, social anxiety disorder, obsessive compulsive disorder, post-traumatic stress disorder, panic disorder and depression-anxiety, with self-assessment, self-help and optional eTherapist support by email, video or instant messaging. An initiative of Swinburne University's National eTherapy Centre (NeTC), funded by the Australian Government Department of Health, Disability and Ageing.",
+ "evidence_notes": "Publisher describes programs as evidence based and expert written, and lists clinical contributors on the About page; no efficacy study was evaluated in this screening.",
+ "id": "mental-health-online-au",
+ "languages": [
+  "English (per the reviewed pages)"
+ ],
+ "last_verified_at": "2026-11-17",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Not a replacement for face-to-face therapy, per the publisher's own statement. Programs run 12 weeks and require registration; optional eTherapist support is offered by email, video or instant messaging. Availability outside Australia not confirmed.",
+ "name": "Mental Health Online",
+ "needs": [
+  "understand",
+  "practice",
+  "cope"
+ ],
+ "official_url": "https://www.mentalhealthonline.org.au/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Registration required to use the programs. The publisher links a Swinburne privacy policy; the full privacy policy was not reviewed in this screening.",
+ "publisher": "Mental Health Online (Swinburne University National eTherapy Centre)",
+ "reason": "Screened 2026-11-17: official homepage and About page confirmed live; free 12-week evidence-based programs for anxiety, depression, social anxiety, OCD, PTSD and panic, plus optional eTherapist support, confirmed from the primary source (publisher About page). Ready for owner review before any promotion.",
+ "regions": [
+  "Australia (funded by the Australian Government Department of Health, Disability and Ageing; availability outside Australia not confirmed)"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "self-help-program",
+ "review_status": "screened",
+ "screening_gaps": [
+  "privacy policy and data practices not reviewed",
+  "age range and eligibility criteria not confirmed from the reviewed pages",
+  "availability outside Australia not confirmed"
+ ],
+ "shelf": "practice",
+ "source_notes": [
+  "https://www.mentalhealthonline.org.au/",
+  "https://www.mentalhealthonline.org.au/pages/about-us"
+ ],
+ "status": "screened",
+ "tags": [
+  "cbt",
+  "anxiety",
+  "depression",
+  "social-anxiety",
+  "ocd",
+  "ptsd",
+  "panic",
+  "online-program",
+  "therapist-assisted",
+  "free"
+ ],
+ "use_context": [
+  "independent-use",
+  "with-support"
+ ]
+},
+ {
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Community-specific adaptation not assessed in this screening.",
+  "source_notes": [
+   "https://www.ecentreclinic.org/"
+  ]
+ },
+ "description": "Free online psychological treatment programs (courses) for anxiety and depression, including generalised anxiety and worry, panic attacks, social anxiety, obsessions and compulsions (OCD) and post-traumatic stress disorder symptoms, plus programs to help manage chronic physical health conditions such as chronic pain, diabetes, epilepsy, multiple sclerosis, heart disease, lung disease, gastrointestinal disease and chronic kidney disease. A specialist research unit and not-for-profit initiative of Macquarie University, Sydney, Australia. Free access is offered via participation in clinical trials.",
+ "evidence_notes": "Publisher is a Macquarie University research unit that develops and evaluates its programs through clinical trials; no specific trial or outcome was evaluated in this screening.",
+ "id": "ecentreclinic-macquarie",
+ "languages": [
+  "English (per the reviewed pages)"
+ ],
+ "last_verified_at": "2026-11-17",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Free access is via participation in clinical trials, not open self-service enrollment; trial eligibility and availability were not confirmed from the reviewed homepage. Programs address common mental-health and chronic physical-health conditions; not a crisis resource. Availability outside Australia not confirmed.",
+ "name": "eCentreClinic",
+ "needs": [
+  "understand",
+  "practice",
+  "cope"
+ ],
+ "official_url": "https://www.ecentreclinic.org/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Access is via clinical-trial participation, which implies research enrollment and data collection; consent and data practices were not reviewed in this screening.",
+ "publisher": "eCentreClinic (Macquarie University)",
+ "reason": "Screened 2026-11-17: official homepage confirmed live; free online treatment courses for anxiety, depression and chronic-condition management, delivered by Macquarie University's eCentreClinic research unit, confirmed from the primary source. Trial-participation access model recorded honestly. Ready for owner review before any promotion.",
+ "regions": [
+  "Australia (Macquarie University, Sydney; trial-based access; availability outside Australia not confirmed)"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "self-help-program",
+ "review_status": "screened",
+ "screening_gaps": [
+  "trial eligibility and enrollment process not reviewed",
+  "privacy policy and data practices not reviewed",
+  "availability outside Australia not confirmed"
+ ],
+ "shelf": "practice",
+ "source_notes": [
+  "https://www.ecentreclinic.org/"
+ ],
+ "status": "screened",
+ "tags": [
+  "cbt",
+  "anxiety",
+  "depression",
+  "ocd",
+  "ptsd",
+  "panic",
+  "social-anxiety",
+  "chronic-pain",
+  "chronic-conditions",
+  "online-course",
+  "clinical-trial-access",
+  "free"
+ ],
+ "use_context": [
+  "with-support"
+ ]
+}
 ]
