@@ -33261,4 +33261,286 @@
       "independent-use"
     ]
   }
+,
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Free online background-noise generator: mix rain, ocean, brown/white/pink noise, birds, wind, coffee-shop and other ambient sounds into custom soundscapes for work, study, sleep, and relaxation. Offers curated playlists for focus, sleep, and relaxation, plus an online timer and a distraction-free text editor. Free account signup; also available as a Chrome extension and on iOS/Android.",
+  "evidence_notes": "Publisher describes ambient noise as helping mask loud noises, reduce stress, improve focus, and support sleep, citing general benefits of nature sounds. No specific clinical claims were evaluated in this screening.",
+  "id": "noisli-ambient-soundscapes",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-16",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Free tier confirmed on the fetched page; paid-tier features and pricing not reviewed. Account signup required to save mixes. Ambient sound is a coping aid, not a substitute for professional mental health care.",
+  "name": "Noisli",
+  "needs": [
+   "listen",
+   "calm",
+   "sleep"
+  ],
+  "official_url": "https://www.noisli.com/",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "privacy_notes": "Free account signup; the site's privacy policy and data practices were not reviewed in this screening.",
+  "publisher": "Noisli",
+  "reason": "Screened 2026-11-16: official noisli.com confirmed live; free sound-mixing, curated playlists, timer, and Web/iOS/Android availability confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; online."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "self-help-toolkit",
+  "review_status": "screened",
+  "screening_gaps": [
+   "paid-tier features and pricing not reviewed",
+   "privacy policy and data practices not reviewed",
+   "operating company not named on the fetched homepage"
+  ],
+  "shelf": "listen",
+  "source_notes": [
+   "https://www.noisli.com/"
+  ],
+  "status": "screened",
+  "tags": [
+   "ambient-sound",
+   "background-noise",
+   "white-noise",
+   "brown-noise",
+   "rain-sounds",
+   "focus",
+   "sleep",
+   "relaxation",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Free online background-noise generator for relaxing, focusing, and masking distracting sounds. Mix rain, thunder, waves, wind, fire, birds, crickets, coffee shop, singing bowl, and white noise; includes a sleep timer with fade-out and a Meander function that varies sound levels over time. No account mentioned on the reviewed page.",
+  "evidence_notes": "Informational page explains how steady background noise can mask distracting sounds and aid sleep and focus. No clinical claims were evaluated in this screening.",
+  "id": "a-soft-murmur",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-16",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Single-developer project; no accessibility statement on the reviewed page. Ambient sound is a coping aid, not a substitute for professional mental health care.",
+  "name": "A Soft Murmur",
+  "needs": [
+   "listen",
+   "calm",
+   "sleep"
+  ],
+  "official_url": "https://asoftmurmur.com/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "No account mentioned for the web player on the reviewed page. The site's privacy policy was not reviewed in this screening.",
+  "publisher": "A Soft Murmur (Gabriel, independent developer)",
+  "reason": "Screened 2026-11-16: official asoftmurmur.com confirmed live; free mixer, sound list, sleep timer, and Meander function confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; online."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "self-help-toolkit",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy not reviewed",
+   "mobile app availability not confirmed from the reviewed page"
+  ],
+  "shelf": "listen",
+  "source_notes": [
+   "https://asoftmurmur.com/"
+  ],
+  "status": "screened",
+  "tags": [
+   "ambient-sound",
+   "background-noise",
+   "white-noise",
+   "rain-sounds",
+   "sleep",
+   "focus",
+   "relaxation",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Free rain-sounds player for sleep, study, and relaxation. Play rain on its own or pair it with a large library of music mixes (classical, lo-fi, film scores, nature sounds); also available on Spotify and Apple Music, with an iOS app.",
+  "evidence_notes": "Publisher describes itself as 'the internet's most popular rain sounds' and reports millions of users; popularity claims were not independently evaluated. No clinical claims were evaluated in this screening.",
+  "id": "rainy-mood",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-16",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Music mixes link out to YouTube/Spotify/Apple Music, so listening may involve third-party ads and data practices. iOS app pricing not reviewed. Ambient sound is a coping aid, not a substitute for professional mental health care.",
+  "name": "Rainy Mood",
+  "needs": [
+   "listen",
+   "calm",
+   "sleep"
+  ],
+  "official_url": "https://www.rainymood.com/",
+  "platforms": [
+   "Web",
+   "iOS"
+  ],
+  "privacy_notes": "Web player plays without an account on the reviewed page. Third-party music services' data practices were not reviewed.",
+  "publisher": "Plain Theory (Rainy Mood)",
+  "reason": "Screened 2026-11-16: official rainymood.com confirmed live; free rain player, music-mix library, Spotify/Apple Music availability, and iOS app confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; online."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "self-help-toolkit",
+  "review_status": "screened",
+  "screening_gaps": [
+   "iOS app pricing not reviewed",
+   "privacy policy not reviewed"
+  ],
+  "shelf": "listen",
+  "source_notes": [
+   "https://www.rainymood.com/"
+  ],
+  "status": "screened",
+  "tags": [
+   "rain-sounds",
+   "ambient-sound",
+   "sleep",
+   "study",
+   "relaxation",
+   "music-mixes",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "description": "Free library of ambient soundscapes (nature, fantasy, science-fiction, meditation, and more) plus a free online mixer to create custom atmospheric sound mixes, with no software installation. Sounds are free for non-commercial use with credit; commercial use requires a licensed download.",
+  "evidence_notes": "Publisher presents soundscapes as aids for chilling and relaxing. No clinical claims were evaluated in this screening.",
+  "id": "ambient-mixer",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English"
+  ],
+  "last_verified_at": "2026-11-16",
+  "license_notes": "External resource. SootheSpot stores metadata only. Non-commercial reuse requires credit 'Sounds: ambient-mixer.com' per the publisher page.",
+  "limitations": "Community-created templates vary in quality and theme, including horror/thrill atmospheres that may not suit a calm-use context — flag for owner judgment. Commercial use requires a paid licence download. Ambient sound is a coping aid, not a substitute for professional mental health care.",
+  "name": "Ambient Mixer",
+  "needs": [
+   "listen",
+   "calm",
+   "sleep"
+  ],
+  "official_url": "https://www.ambient-mixer.com/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "No account mentioned for listening or mixing on the reviewed page. The site's privacy policy was not reviewed in this screening.",
+  "publisher": "Ambient Mixer",
+  "reason": "Screened 2026-11-16: official ambient-mixer.com confirmed live; free soundscape library, free custom mixer, and non-commercial use terms confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Global; online."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "self-help-toolkit",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy not reviewed",
+   "operating company not named on the fetched homepage",
+   "individual community templates not evaluated"
+  ],
+  "shelf": "listen",
+  "source_notes": [
+   "https://www.ambient-mixer.com/"
+  ],
+  "status": "screened",
+  "tags": [
+   "ambient-sound",
+   "soundscapes",
+   "sound-mixer",
+   "nature-sounds",
+   "meditation",
+   "relaxation",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ }
+
 ]
