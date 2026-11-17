@@ -34323,5 +34323,318 @@
   "use_context": [
    "independent-use"
   ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "culturally_adapted",
+   "notes": "Community-specific programming: International Survivors of Suicide Loss Day events run in dedicated tracks for Black and African American, LGBTQ+, AAPI, Spanish-language, ASL, veteran and clinician communities, per the homepage event listings.",
+   "source_notes": [
+    "https://afsp.org/"
+   ]
+  },
+  "description": "US nonprofit focused on suicide prevention: funds research, runs education programs (including Talk Saves Lives), advocates for policy change, and supports people who have lost someone to suicide, including International Survivors of Suicide Loss Day events (November 21) and volunteer chapters. The homepage also announces plans for AFSP and The Jed Foundation to come together. Not a crisis service: the homepage signposts people in crisis to call or text 988 or text TALK to 741741.",
+  "evidence_notes": "Publisher is a national nonprofit; no efficacy claims evaluated in this screening. The AFSP-Jed Foundation plans to come together are announced on the homepage; details were not evaluated.",
+  "id": "afsp-suicide-prevention",
+  "intended_population": [
+   "general",
+   "bereaved",
+   "families"
+  ],
+  "languages": [
+   "English (per the reviewed pages)",
+   "Spanish (some Survivor Day events)"
+  ],
+  "last_verified_at": "2026-11-17",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Not a crisis service: AFSP signposts people in crisis to 988 and the Crisis Text Line. Education and loss-support content; direct services are chapter events and programs, not clinical care. What the announced AFSP-Jed Foundation coming-together changes for programs is not stated on the reviewed pages.",
+  "name": "American Foundation for Suicide Prevention (AFSP)",
+  "needs": [
+   "learn",
+   "understand",
+   "find-support"
+  ],
+  "official_url": "https://afsp.org/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Resources are readable on the publisher site. The site's privacy policy and data handling were not reviewed in this screening.",
+  "publisher": "American Foundation for Suicide Prevention",
+  "reason": "Screened 2026-11-17: official homepage confirmed live (re-verified; first drafted 2026-11-14 but never added to the queue); suicide-prevention mission, education programs, loss-support resources and community-specific Survivor Day events confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "United States"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "information-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy and data practices not reviewed",
+   "AFSP-Jed Foundation coming-together details not assessed"
+  ],
+  "shelf": "learn",
+  "source_notes": [
+   "https://afsp.org/"
+  ],
+  "status": "screened",
+  "tags": [
+   "suicide-prevention",
+   "suicide-loss",
+   "bereavement",
+   "education",
+   "research",
+   "advocacy",
+   "volunteering"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Canadian community organisation; community-specific adaptation not assessed in this screening.",
+   "source_notes": [
+    "https://need2.ca/"
+   ]
+  },
+  "description": "Canadian suicide prevention education and support organisation (Greater Victoria, BC): runs youth workshops, community ASIST suicide-intervention training, and an online suicide loss support group for adults (6:30-8:30 p.m.). Its former Youthspace youth chat service domain (youthspace.ca) now serves the NEED2 site. Not a crisis service: the homepage directs people struggling with thoughts of suicide to call or text 988.",
+  "evidence_notes": "Publisher is a community nonprofit; no efficacy claims evaluated in this screening. Whether the former Youthspace online chat service still operates was not stated on the reviewed homepage.",
+  "id": "need2-suicide-prevention-education-support",
+  "intended_population": [
+   "general",
+   "bereaved",
+   "young-people"
+  ],
+  "languages": [
+   "English (per the reviewed pages)"
+  ],
+  "last_verified_at": "2026-11-17",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Not a crisis service: NEED2 directs people in crisis to 988. Education, training and loss-support programming, not clinical care; local to Greater Victoria, BC, with online groups. Whether the former Youthspace youth chat service still operates is not stated on the reviewed homepage. Workshop availability varies (the November 30 / December 1 ASIST workshop was listed as full).",
+  "name": "NEED2: Suicide Prevention Education & Support",
+  "needs": [
+   "learn",
+   "find-support"
+  ],
+  "official_url": "https://need2.ca/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Resources are readable on the publisher site. The site's privacy policy and data handling were not reviewed in this screening.",
+  "publisher": "NEED2",
+  "reason": "Screened 2026-11-17: official need2.ca homepage confirmed live (youthspace.ca now serves the same NEED2 site); suicide prevention education, ASIST training, youth workshops and online loss support group confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Canada (British Columbia; Greater Victoria)"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "community-program",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy and data practices not reviewed",
+   "whether the former Youthspace youth chat service still operates not confirmed",
+   "workshop costs and schedules beyond the listed events not assessed"
+  ],
+  "shelf": "learn",
+  "source_notes": [
+   "https://need2.ca/",
+   "https://youthspace.ca/"
+  ],
+  "status": "screened",
+  "tags": [
+   "suicide-prevention",
+   "suicide-loss",
+   "bereavement",
+   "education",
+   "asist",
+   "workshops",
+   "canada",
+   "british-columbia"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "Pricing not stated on the reviewed homepage"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Community-specific adaptation not assessed in this screening. The reviewed page names meditation guides Ofosu Jones-Quartey and Leah Santa Cruz.",
+   "source_notes": [
+    "https://balanceapp.com/"
+   ]
+  },
+  "description": "Personalised guided-meditation app: a daily program assembled from an audio library of thousands of meditations, adapted to the user's goals, experience, stress, focus, sleep and mood from check-in questions. Guided by meditation experts; includes on-demand Singles, immersive and vibration-based experiences, and an interactive Wind Down Single. Named Google Play's Best App of 2021.",
+  "evidence_notes": "Publisher describes the program as personalised and expert-guided; no efficacy study was evaluated in this screening. The 4.9-star rating and Best App of 2021 award are publisher-reported on the reviewed page.",
+  "id": "balance-meditation-app",
+  "intended_population": [
+   "general"
+  ],
+  "languages": [
+   "English (per the reviewed pages)"
+  ],
+  "last_verified_at": "2026-11-17",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Meditation and sleep app, not a crisis service and not a substitute for clinical care. Pricing and subscription terms were not stated on the reviewed homepage. Personalisation requires answering daily check-in questions, so some data sharing with the app is inherent; the privacy policy was not reviewed in this screening.",
+  "name": "Balance: Guided Meditation App",
+  "needs": [
+   "practice",
+   "calm",
+   "sleep"
+  ],
+  "official_url": "https://balanceapp.com/",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "privacy_notes": "Account and daily check-ins are part of the personalised program. The app's privacy policy and data handling were not reviewed in this screening.",
+  "publisher": "The Mind Company (Balance)",
+  "reason": "Screened 2026-11-17: official homepage confirmed live; personalised meditation program, expert guides, on-demand library and app platforms confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "Global (app stores; availability by country not verified)"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+   "pricing and subscription terms not stated on the reviewed homepage",
+   "privacy policy and data practices not reviewed",
+   "App Store / Google Play listings not individually verified; reviewed page shows a Google Play badge"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://balanceapp.com/"
+  ],
+  "status": "screened",
+  "tags": [
+   "meditation",
+   "mindfulness",
+   "sleep",
+   "stress",
+   "personalised",
+   "app"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "sponsored-access"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Community-specific adaptation not assessed in this screening. Spiritual and faith-specific resources are offered only to members who want them, per the publisher FAQ.",
+   "source_notes": [
+    "https://www.mystrength.com/"
+   ]
+  },
+  "description": "Digital self-help program for stress, depression, sleep and other challenges: evidence-based tools, hundreds of activities, articles and videos, and self-paced CBT and behavioural-activation eLearning programs. The app is accessed with a code from a sponsor or provider (employer, health plan or care provider). Publisher is Teladoc Health.",
+  "evidence_notes": "Publisher describes tools as evidence-based and clinically based; 96% member satisfaction is a publisher figure on the reviewed page. No efficacy study was evaluated in this screening.",
+  "id": "mystrength-digital-program",
+  "intended_population": [
+   "adults"
+  ],
+  "languages": [
+   "English (per the reviewed pages)"
+  ],
+  "last_verified_at": "2026-11-17",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Not online therapy and not a crisis resource: the publisher FAQ directs people in crisis to 911 or the suicide prevention lifeline, and says the program is for mild to moderate depression or anxiety, not as a primary resource for poor mental health. Access requires a sponsor or provider access code, so it is not freely open to the public. The publisher states the service is not subject to HIPAA. Pricing was not stated on the reviewed homepage.",
+  "name": "myStrength",
+  "needs": [
+   "understand",
+   "practice",
+   "cope"
+  ],
+  "official_url": "https://www.mystrength.com/",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "privacy_notes": "Account required, with a sponsor access code. The publisher FAQ states personal information is not resold or disclosed without consent except as required by law. The full privacy policy was not reviewed in this screening.",
+  "publisher": "myStrength (Teladoc Health)",
+  "reason": "Screened 2026-11-17: official homepage confirmed live; digital self-help program, CBT-based eLearning, sponsor-access model and non-crisis scope confirmed from the primary source (publisher FAQ). Ready for owner review before any promotion.",
+  "regions": [
+   "United States (per the reviewed page's US references; sponsor availability may vary)"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "self-help-program",
+  "review_status": "screened",
+  "screening_gaps": [
+   "privacy policy and data practices not reviewed",
+   "pricing not stated on the reviewed homepage",
+   "availability outside the US not confirmed"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://www.mystrength.com/"
+  ],
+  "status": "screened",
+  "tags": [
+   "cbt",
+   "behavioral-activation",
+   "depression",
+   "anxiety",
+   "stress",
+   "sleep",
+   "digital-program",
+   "sponsored-access"
+  ],
+  "use_context": [
+   "independent-use",
+   "with-support"
+  ]
  }
 ]
