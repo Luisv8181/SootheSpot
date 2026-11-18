@@ -35088,5 +35088,242 @@
   "use_context": [
    "independent-use"
   ]
- }
+ },
+{
+ "access": [
+  "free",
+  "paid-optional"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Community-specific adaptation not assessed in this screening.",
+  "source_notes": [
+   "https://petitbambou.com/"
+  ]
+ },
+ "description": "App for meditation, sleep, and movement offering mindfulness meditation programs and breathing exercises. A free version (no ads, no payment method required) covers selected meditation sessions and breathing tools; a subscription (monthly, yearly, or lifetime) unlocks all programs, the full music catalog, and a daily meditation. Works via the website and the app with an account that syncs across devices. The Petit BamBou Foundation supports educational projects and research on psychosocial skills, including a platform for French- and Spanish-speaking teachers.",
+ "evidence_notes": "Publisher describes mindfulness meditation programs (Jon Kabat-Zinn's definition cited on the page) and breathing exercises; no outcome study was evaluated in this screening. The Petit BamBou Foundation's research support is described on the homepage.",
+ "id": "petit-bambou",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English (per the reviewed page)"
+ ],
+ "last_verified_at": "2026-11-17",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Full content requires a paid subscription; an account (email and password) is required to save history and favorites. Meditation and breathing app, not a substitute for professional mental health care.",
+ "name": "Petit BamBou",
+ "needs": [
+  "listen",
+  "calm",
+  "sleep"
+ ],
+ "official_url": "https://petitbambou.com/",
+ "platforms": [
+  "Web",
+  "iOS",
+  "Android"
+ ],
+ "privacy_notes": "A personal account is required to save history and favorites; the full privacy policy and data practices were not reviewed in this screening.",
+ "publisher": "Petit BamBou",
+ "reason": "Screened 2026-11-17: official homepage confirmed live; free version with no ads and no payment method, subscription model, web and app access, and Foundation mission confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global (online; website and app)"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "mobile-app",
+ "review_status": "screened",
+ "screening_gaps": [
+  "full language list not confirmed from the reviewed page",
+  "subscription prices not stated on the reviewed page",
+  "privacy policy and data practices not reviewed",
+  "app store listings not individually checked"
+ ],
+ "shelf": "listen",
+ "source_notes": [
+  "https://petitbambou.com/"
+ ],
+ "status": "screened",
+ "tags": [
+  "meditation",
+  "mindfulness",
+  "breathing",
+  "sleep",
+  "stress",
+  "free-version",
+  "subscription"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+},
+{
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Tailored support sections include Muslim students, Punjabi students, students hearing voices, students with OCD and BDD, students with eating difficulties, students recovering from addiction, and a Black Services Guide. Depth of each section not assessed in this screening.",
+  "source_notes": [
+   "https://studentspace.org.uk/"
+  ]
+ },
+ "description": "Online platform run by Student Minds, the UK student mental health charity, offering expert information and advice for higher education students: settling into university, money worries, mental health and wellbeing, student stories, and signposting to university and students' union services. Immediate support is routed to texting SHOUT to 85258, with tailored support sections for students facing additional challenges. The programme ran from 2020 to 2025; per the Office for Students, it has concluded and its resources became part of the wider Student Minds website in September 2025, though the studentspace.org.uk homepage remains live.",
+ "evidence_notes": "Publisher is Student Minds, the UK student mental health charity; platform developed collaboratively with services, higher education professionals, researchers and students, with up to 3 million GBP in Office for Students funding at launch. No outcome study was evaluated in this screening.",
+ "id": "student-space",
+ "intended_population": [
+  "students"
+ ],
+ "languages": [
+  "English (per the reviewed homepage)"
+ ],
+ "last_verified_at": "2026-11-17",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Programme status is ambiguous: the homepage is live and offers support, but the Office for Students states the programme concluded in 2025 and its resources moved to the Student Minds website. Direct support is signposted to Shout/Crisis Text Line rather than provided by Student Space itself. England and Wales focus; not a treatment or crisis service.",
+ "name": "Student Space",
+ "needs": [
+  "understand",
+  "find-support"
+ ],
+ "official_url": "https://studentspace.org.uk/",
+ "platforms": [
+  "Web",
+  "Phone",
+  "SMS"
+ ],
+ "privacy_notes": "Text and phone support are provided by third parties (Shout / Crisis Text Line); data practices for those services were not reviewed in this screening.",
+ "publisher": "Student Minds",
+ "reason": "Screened 2026-11-17: official homepage confirmed live; Student Minds publisher, student support scope, Shout text routing, and tailored support sections confirmed from the primary source, with programme-concluded status confirmed from the Office for Students. Ready for owner review before any promotion; owner may prefer the Student Minds hub instead.",
+ "regions": [
+  "England and Wales (higher education students)"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "resource-hub",
+ "review_status": "screened",
+ "screening_gaps": [
+  "programme-concluded status versus live homepage not reconciled with the publisher",
+  "individual advice resources and tailored sections not reviewed",
+  "privacy policy and data practices not reviewed"
+ ],
+ "shelf": "reach-out",
+ "source_notes": [
+  "https://studentspace.org.uk/",
+  "https://www.officeforstudents.org.uk/for-providers/student-protection-and-choice/student-mental-health/student-space/"
+ ],
+ "status": "screened",
+ "tags": [
+  "students",
+  "university",
+  "student-minds",
+  "uk",
+  "information",
+  "peer-stories",
+  "signposting",
+  "free"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+},
+{
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Community-specific adaptation not assessed in this screening.",
+  "source_notes": [
+   "https://charliewaller.org/"
+  ]
+ },
+ "description": "UK mental health charity putting young people at the heart of its work, equipping families, friends, educators, communities and employers with evidence-based strategies and support. Free mental health resources to download or order as hard copy, fully-funded eating disorder workshops for parents and carers, and evidence-based training for schools, colleges and universities. Sister organisation Charlie Waller Workplace provides training and consultancy for employers. Founded in memory of Charlie Waller, who died by suicide in 1997 aged 28. 2025 impact: 12,200 teachers, parents and pupils trained; 30,709 printed resources sent out; 2,029 staff and line managers trained.",
+ "evidence_notes": "Publisher states its resources and training are based on the best available evidence; no outcome study was evaluated in this screening.",
+ "id": "charlie-waller-trust",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English (per the reviewed homepage)"
+ ],
+ "last_verified_at": "2026-11-17",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Support is aimed at the adults around young people (parents, carers, educators) rather than direct help for a young person in distress; not a crisis service. Training costs and availability were not confirmed from the reviewed homepage.",
+ "name": "Charlie Waller Trust",
+ "needs": [
+  "understand",
+  "find-support"
+ ],
+ "official_url": "https://charliewaller.org/",
+ "platforms": [
+  "Web",
+  "In-person"
+ ],
+ "privacy_notes": "Free will-writing service offered via a partner (Farewill); resource downloads and data practices were not reviewed in this screening.",
+ "publisher": "Charlie Waller Trust",
+ "reason": "Screened 2026-11-17: official homepage confirmed live; UK youth mental health charity, free evidence-based resources, fully-funded eating disorder workshops, and 2025 impact figures confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "United Kingdom"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "information-hub",
+ "review_status": "screened",
+ "screening_gaps": [
+  "training costs and booking availability not confirmed",
+  "privacy policy and data practices not reviewed",
+  "charity registration not confirmed from the reviewed homepage"
+ ],
+ "shelf": "learn",
+ "source_notes": [
+  "https://charliewaller.org/"
+ ],
+ "status": "screened",
+ "tags": [
+  "young-people",
+  "parents",
+  "educators",
+  "training",
+  "eating-disorders",
+  "suicide-bereavement",
+  "uk",
+  "free",
+  "evidence-based"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+}
 ]
