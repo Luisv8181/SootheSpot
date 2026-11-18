@@ -35479,5 +35479,155 @@
  "use_context": [
   "independent-use"
  ]
+},
+{
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Buddhist mindfulness teachings presented for a Western audience; fit for other cultural contexts not assessed.",
+  "source_notes": [
+   "https://jackkornfield.com/"
+  ]
+ },
+ "description": "Website of Jack Kornfield, a Buddhist teacher trained as a monk in Thailand, India, and Burma, with a Ph.D. in clinical psychology and a founding teacher of the Insight Meditation Society and Spirit Rock Meditation Center. The homepage offers free talks and reflections on keeping the heart open in troubled times, working with fear, and trusting love, plus upcoming events at Spirit Rock. He has taught internationally since 1974 and is the author of 16 books.",
+ "evidence_notes": "Teacher credentials per the homepage (Ph.D. in clinical psychology; founding teacher of the Insight Meditation Society and Spirit Rock Meditation Center; teaching since 1974). No efficacy claims evaluated in this screening.",
+ "id": "jack-kornfield-meditations-talks",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English (per the reviewed homepage)"
+ ],
+ "last_verified_at": "2026-11-18",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Teaching and reflection content; educational, not therapy, and not a substitute for professional care. Whether guided-meditation audio is freely available was not confirmed from the homepage; paid courses and events may exist and were not assessed.",
+ "name": "Jack Kornfield - Meditations and Talks",
+ "needs": [
+  "read",
+  "understand"
+ ],
+ "official_url": "https://jackkornfield.com/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Privacy policy and data practices were not reviewed in this screening.",
+ "publisher": "Jack Kornfield",
+ "reason": "Screened 2026-11-18: official homepage confirmed live; teacher credentials (Ph.D. clinical psychology, founding teacher of the Insight Meditation Society and Spirit Rock, teaching since 1974) and free talks and reflections confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; U.S.-based teacher."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "article-library",
+ "review_status": "screened",
+ "screening_gaps": [
+  "free guided-meditation audio scope not confirmed from the homepage",
+  "privacy policy and data practices not reviewed",
+  "paid courses and events not assessed"
+ ],
+ "shelf": "learn",
+ "source_notes": [
+  "https://jackkornfield.com/"
+ ],
+ "status": "screened",
+ "tags": [
+  "mindfulness",
+  "meditation",
+  "buddhist-teachings",
+  "talks",
+  "compassion",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+},
+{
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Contemplative-science content rooted in Buddhist dialogue with Western science; fit for other cultural contexts not assessed.",
+  "source_notes": [
+   "https://mindandlife.org/"
+  ]
+ },
+ "description": "Nonprofit research institute bridging Buddhist contemplative wisdom and modern science, built on dialogues between the Dalai Lama and scientists over nearly four decades. Free resources on the homepage include a Digital Library of recorded dialogues and conversations, videos, a blog on contemplative research, and a monthly email newsletter (Mindstream). Donor-supported.",
+ "evidence_notes": "Publisher is a nonprofit research institute; content features dialogues between the Dalai Lama and leading scientists, scholars, and contemplatives. Individual claims not evaluated in this screening.",
+ "id": "mind-and-life-institute",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English (per the reviewed homepage)"
+ ],
+ "last_verified_at": "2026-11-18",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Research and dialogue content; educational, not therapy or clinical guidance, and not a substitute for professional care. Membership, events, and donation structure not assessed.",
+ "name": "Mind & Life Institute",
+ "needs": [
+  "read",
+  "understand",
+  "watch"
+ ],
+ "official_url": "https://mindandlife.org/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Newsletter signup offered; privacy policy and data practices were not reviewed in this screening.",
+ "publisher": "Mind & Life Institute",
+ "reason": "Screened 2026-11-18: official homepage confirmed live; nonprofit contemplative-science institute with a free Digital Library of dialogues, videos, blog, and newsletter confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; U.S.-based institute."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "article-library",
+ "review_status": "screened",
+ "screening_gaps": [
+  "membership and event pricing not assessed",
+  "privacy policy and data practices not reviewed",
+  "non-English availability not confirmed"
+ ],
+ "shelf": "learn",
+ "source_notes": [
+  "https://mindandlife.org/"
+ ],
+ "status": "screened",
+ "tags": [
+  "contemplative-science",
+  "mindfulness",
+  "research",
+  "dialogue",
+  "dalai-lama",
+  "videos",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
 }
 ]
