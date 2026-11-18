@@ -34792,5 +34792,301 @@
  "use_context": [
   "with-support"
  ]
-}
+},
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed pages; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Community-specific adaptation not assessed in this screening.",
+   "source_notes": [
+    "https://www.hearingvoicesusa.org/"
+   ]
+  },
+  "description": "Peer-support network for people who hear voices, see things others do not see, or have other unusual or commonly misunderstood experiences. Founded in 2010 as a partnership between voice-hearers, professionals and allies, it links local Hearing Voices groups, offers online groups, and promotes a non-pathologizing, peer-support approach to making sense of voices. Part of the international Hearing Voices movement (Intervoice), with networks in over 20 countries.",
+  "evidence_notes": "Publisher describes a peer-support approach rooted in the work of Marius Romme and Patsy Hage and the international Hearing Voices movement; no outcome study was evaluated in this screening.",
+  "id": "hearing-voices-network-usa",
+  "languages": [
+   "English (per the reviewed pages)"
+  ],
+  "last_verified_at": "2026-11-17",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "In-person group listing is described on the homepage as coming soon, with limited information at the time of screening; group availability and meeting details were not confirmed. The network states it is in a new phase of development as an independent federally recognized nonprofit. Not a crisis resource and not a substitute for clinical care.",
+  "name": "Hearing Voices Network USA",
+  "needs": [
+   "support",
+   "find-support"
+  ],
+  "official_url": "https://www.hearingvoicesusa.org/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Newsletter sign-up collects an email address. Group participation and data practices were not reviewed in this screening.",
+  "publisher": "Hearing Voices Network USA (HVN-USA)",
+  "reason": "Screened 2026-11-17: official homepage and About page confirmed live; peer-support network for voice-hearers founded 2010, online groups listed, international movement affiliation confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "United States (online groups; in-person group listing described as coming soon)"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "peer-support",
+  "review_status": "screened",
+  "screening_gaps": [
+   "in-person group availability and locations not confirmed",
+   "privacy policy and data practices not reviewed",
+   "group meeting format and facilitation not reviewed"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+   "https://www.hearingvoicesusa.org/",
+   "https://www.hearingvoicesusa.org/about-us"
+  ],
+  "status": "screened",
+  "tags": [
+   "hearing-voices",
+   "peer-support",
+   "psychosis",
+   "unusual-experiences",
+   "support-groups",
+   "online-groups",
+   "free"
+  ],
+  "use_context": [
+   "with-support"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Community-specific adaptation not assessed in this screening.",
+   "source_notes": [
+    "https://pandasfoundation.org.uk/"
+   ]
+  },
+  "description": "UK charity offering free hope, empathy and support for every parent, carer or network affected by perinatal mental illness, from conception through birth and beyond. Services run by trained volunteers: free confidential WhatsApp support (9am-5pm Monday to Friday), a bookable callback service, face-to-face parent support groups, online resources and workbooks, and dedicated support for dads and non-birthing parents. Reports supporting 750+ people a month and over 5,000 callback users a year.",
+  "evidence_notes": "Publisher reports impact figures on its homepage (750+ people supported monthly, 5,000+ calls a year, 97% support rating); no independent evaluation was reviewed in this screening.",
+  "id": "pandas-foundation-uk",
+  "languages": [
+   "English (per the reviewed homepage)"
+  ],
+  "last_verified_at": "2026-11-17",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Support is peer-led by trained volunteers, not clinical care; urgent help is routed to Samaritans (116 123) or emergency services (999). WhatsApp support is limited to weekday business hours. Face-to-face group locations were not confirmed from the reviewed homepage. Not a crisis service.",
+  "name": "PANDAS Foundation UK",
+  "needs": [
+   "support",
+   "find-support"
+  ],
+  "official_url": "https://pandasfoundation.org.uk/",
+  "platforms": [
+   "Web",
+   "Phone",
+   "In-person"
+  ],
+  "privacy_notes": "WhatsApp and callback services are described as confidential; the full privacy policy and data practices were not reviewed in this screening.",
+  "publisher": "PANDAS Foundation UK",
+  "reason": "Screened 2026-11-17: official homepage confirmed live and actively maintained (news items dated November 2026); free UK perinatal support services, volunteer-led model, hours and crisis routing confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "United Kingdom (UK charity; face-to-face groups are location-specific)"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "peer-support",
+  "review_status": "screened",
+  "screening_gaps": [
+   "charity registration number not confirmed from the reviewed homepage",
+   "privacy policy and data practices not reviewed",
+   "face-to-face group locations and coverage not confirmed"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+   "https://pandasfoundation.org.uk/"
+  ],
+  "status": "screened",
+  "tags": [
+   "perinatal",
+   "postnatal-depression",
+   "pregnancy",
+   "parenting",
+   "peer-support",
+   "whatsapp-support",
+   "callback",
+   "free",
+   "uk"
+  ],
+  "use_context": [
+   "with-support"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Community-specific adaptation not assessed in this screening.",
+   "source_notes": [
+    "https://chadd.org/"
+   ]
+  },
+  "description": "US national nonprofit for people affected by ADHD, serving adults, parents, teens, educators and professionals. Offers ADHD information and education, an ADHD specialist phone line (1-866-200-8098, Monday-Friday 1-5pm ET, including a Spanish-language specialist), a nationwide network of local chapters, training and events, a professional directory, and an ADHD centers directory. Spanish-language resources are linked from the homepage.",
+  "evidence_notes": "Publisher is a national ADHD nonprofit with chapters, training and directories; no efficacy evidence applies to an information hub and none was evaluated in this screening.",
+  "id": "chadd-adhd",
+  "languages": [
+   "English (per the reviewed homepage)",
+   "Spanish (Recursos en espa\u00f1ol linked on the homepage)"
+  ],
+  "last_verified_at": "2026-11-17",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Membership is promoted on the homepage; whether membership is paid and what it unlocks was not confirmed. Chapter availability varies by location and was not verified. Information hub, not a treatment or crisis service.",
+  "name": "CHADD",
+  "needs": [
+   "understand",
+   "find-support"
+  ],
+  "official_url": "https://chadd.org/",
+  "platforms": [
+   "Web",
+   "Phone"
+  ],
+  "privacy_notes": "Directories and the specialist line imply contact details are shared when used; the full privacy policy was not reviewed in this screening.",
+  "publisher": "CHADD",
+  "reason": "Screened 2026-11-17: official homepage confirmed live; national ADHD information hub with specialist phone line, chapters and directories confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "United States (nationwide chapter network; phone line hours ET)"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "information-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+   "full legal name and nonprofit registration not confirmed from the reviewed homepage",
+   "membership pricing and benefits not confirmed",
+   "privacy policy and data practices not reviewed"
+  ],
+  "shelf": "learn",
+  "source_notes": [
+   "https://chadd.org/"
+  ],
+  "status": "screened",
+  "tags": [
+   "adhd",
+   "neurodivergence",
+   "information",
+   "peer-support",
+   "chapters",
+   "helpline",
+   "spanish-resources",
+   "free"
+  ],
+  "use_context": [
+   "independent-use",
+   "with-support"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Community-specific adaptation not assessed in this screening.",
+   "source_notes": [
+    "https://www.understood.org/"
+   ]
+  },
+  "description": "Nonprofit that helps people navigating neurodivergence (ADHD, dyslexia, dyscalculia and other forms) find clarity and take the next step. Translates trusted knowledge into clear guidance, practical tools and community support, reaching over 20 million people a year. Every resource is expert-vetted by a team of more than 90 experts in education, psychology and neurodivergence. Free to use, funded by donations; a 501(c)(3) nonprofit.",
+  "evidence_notes": "Publisher states all resources are expert-vetted by 90+ experts and holds a Gold transparency seal from Candid; no specific study was evaluated in this screening.",
+  "id": "understood-neurodivergence",
+  "languages": [
+   "English (per the reviewed homepage)"
+  ],
+  "last_verified_at": "2026-11-17",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Publisher states content is informational and educational, not medical advice and not a substitute for professional diagnosis. Spanish-language availability not confirmed from the reviewed homepage. Focus is neurodivergence (ADHD, dyslexia), not general emotional regulation.",
+  "name": "Understood",
+  "needs": [
+   "understand"
+  ],
+  "official_url": "https://www.understood.org/",
+  "platforms": [
+   "Web"
+  ],
+  "privacy_notes": "Free to use and donation-funded; the full privacy policy and data practices were not reviewed in this screening.",
+  "publisher": "Understood for All, Inc.",
+  "reason": "Screened 2026-11-17: official homepage confirmed live; free expert-vetted neurodivergence guidance from a 501(c)(3) nonprofit, scope and nonprofit status confirmed from the primary source. Ready for owner review before any promotion.",
+  "regions": [
+   "United States (New York-based nonprofit; online resources)"
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "information-hub",
+  "review_status": "screened",
+  "screening_gaps": [
+   "Spanish-language availability not confirmed from the reviewed homepage",
+   "privacy policy and data practices not reviewed",
+   "community features and tools not individually reviewed"
+  ],
+  "shelf": "learn",
+  "source_notes": [
+   "https://www.understood.org/"
+  ],
+  "status": "screened",
+  "tags": [
+   "adhd",
+   "dyslexia",
+   "neurodivergence",
+   "learning-differences",
+   "expert-vetted",
+   "information",
+   "free"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ }
 ]
