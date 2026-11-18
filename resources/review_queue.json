@@ -35325,5 +35325,159 @@
  "use_context": [
   "independent-use"
  ]
+},
+ {
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Community-specific adaptation not assessed in this screening.",
+  "source_notes": [
+   "https://www.mind.org.uk/"
+  ]
+ },
+ "description": "UK mental health charity providing information on mental health problems, treatment and self-care, coping support for people struggling now, advice for people worried about someone else, and resources for under-18s. Runs Local Minds services across England and Wales, the Side by Side online community, and an expert-reviewed app library. 2024-2025 impact reported on the homepage: 116,000 queries answered by support and information helplines and information accessed 22 million times.",
+ "evidence_notes": "Publisher presents its information as expert-reviewed; no outcome study was evaluated in this screening.",
+ "id": "mind-uk",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English (per the reviewed homepage)"
+ ],
+ "last_verified_at": "2026-11-18",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Services and helpline are UK-focused (England and Wales); not a crisis service. Helpline hours, costs, and app-library review criteria were not confirmed from the reviewed homepage.",
+ "name": "Mind",
+ "needs": [
+  "understand",
+  "find-support"
+ ],
+ "official_url": "https://www.mind.org.uk/",
+ "platforms": [
+  "Web",
+  "In-person"
+ ],
+ "privacy_notes": "Mailing-list sign-up and privacy policy linked from the homepage; data practices were not reviewed in this screening.",
+ "publisher": "Mind",
+ "reason": "Screened 2026-11-18: official homepage confirmed live; major UK mental health charity with information, helplines, local services, peer community, and an expert-reviewed app library. Ready for owner review before any promotion.",
+ "regions": [
+  "United Kingdom"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "information-hub",
+ "review_status": "screened",
+ "screening_gaps": [
+  "helpline hours and any costs not confirmed",
+  "privacy policy and data practices not reviewed",
+  "app-library review criteria not confirmed"
+ ],
+ "shelf": "learn",
+ "source_notes": [
+  "https://www.mind.org.uk/"
+ ],
+ "status": "screened",
+ "tags": [
+  "mental-health-information",
+  "helpline",
+  "young-people",
+  "community",
+  "apps",
+  "uk",
+  "free",
+  "evidence-based"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+},
+ {
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Community-specific adaptation not assessed in this screening.",
+  "source_notes": [
+   "https://adaa.org/"
+  ]
+ },
+ "description": "US nonprofit, the trusted resource for anxiety and depression since 1979. Free science-backed guidance on anxiety, depression, OCD, PTSD and co-occurring disorders: symptom and treatment information, tips to manage anxiety and stress, expert blogs, webinars and podcasts, personal stories, and a Find Your Therapist directory of licensed professionals. Also offers continuing education and an annual conference for mental health professionals.",
+ "evidence_notes": "Publisher describes its content as science-backed and expert-curated; no outcome study was evaluated in this screening.",
+ "id": "adaa",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English (per the reviewed homepage)"
+ ],
+ "last_verified_at": "2026-11-18",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "US-focused organisation and therapist directory; not a crisis service. Therapist directory coverage, listing criteria, and any fees were not confirmed from the reviewed homepage.",
+ "name": "Anxiety and Depression Association of America (ADAA)",
+ "needs": [
+  "understand",
+  "find-support"
+ ],
+ "official_url": "https://adaa.org/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Privacy policy and data practices were not reviewed in this screening.",
+ "publisher": "Anxiety and Depression Association of America",
+ "reason": "Screened 2026-11-18: official homepage confirmed live; long-standing US nonprofit with free expert guidance on anxiety, depression, OCD and PTSD plus a licensed-therapist directory. Ready for owner review before any promotion.",
+ "regions": [
+  "United States"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "information-hub",
+ "review_status": "screened",
+ "screening_gaps": [
+  "therapist directory coverage and listing criteria not confirmed",
+  "privacy policy and data practices not reviewed",
+  "non-English language availability not confirmed"
+ ],
+ "shelf": "learn",
+ "source_notes": [
+  "https://adaa.org/"
+ ],
+ "status": "screened",
+ "tags": [
+  "anxiety",
+  "depression",
+  "ocd",
+  "ptsd",
+  "psychoeducation",
+  "therapist-directory",
+  "us",
+  "free",
+  "evidence-based"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
 }
 ]
