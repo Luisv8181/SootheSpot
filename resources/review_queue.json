@@ -35959,5 +35959,239 @@
  "use_context": [
   "with-support"
  ]
+},
+{
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Youth-focused U.S. foundation; the Be There Certificate is offered in English, French, and Spanish per the homepage. Fit for other cultural contexts not assessed.",
+  "source_notes": [
+   "https://bornthisway.foundation/"
+  ]
+ },
+ "description": "Nonprofit foundation co-founded by Lady Gaga working to support young people's mental health and build a kinder, braver world. Offers the free Be There Certificate, an online mental-health course in English, French, and Spanish teaching people to recognize when someone may be struggling, support them, and connect them to help; Channel Kindness, a collection of stories by young people; and a homepage directory of crisis resources plus the Be Kind international helpline directory (bekind.findahelpline.com).",
+ "evidence_notes": "Foundation mission and program descriptions are the publisher's own; no outcome or evaluation evidence was reviewed in this screening.",
+ "id": "born-this-way-foundation",
+ "intended_population": [
+  "general",
+  "adolescents"
+ ],
+ "languages": [
+  "English",
+  "French",
+  "Spanish"
+ ],
+ "last_verified_at": "2026-11-18",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "A foundation and awareness organization, not a treatment provider; its homepage is a directory of resources and courses rather than a self-help tool. The Be There Certificate is already queued separately as its own record, so this entry covers the foundation hub, not the course alone. Crisis numbers listed on the homepage are U.S.-focused except via the linked international directory.",
+ "name": "Born This Way Foundation",
+ "needs": [
+  "understand",
+  "find-support"
+ ],
+ "official_url": "https://bornthisway.foundation/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "No account mentioned for reading the homepage or the Be There Certificate page; the course signup and data handling were not reviewed in this screening.",
+ "publisher": "Born This Way Foundation",
+ "reason": "Screened 2026-11-18: official homepage confirmed live; foundation mission, free Be There Certificate (English, French, Spanish), Channel Kindness stories, and crisis-resource directory confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; U.S.-based publisher."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "resource-hub",
+ "review_status": "screened",
+ "screening_gaps": [
+  "Be There Certificate course content and signup not individually reviewed (queued separately)",
+  "Channel Kindness book pricing and availability not reviewed",
+  "privacy policy not reviewed"
+ ],
+ "shelf": "read",
+ "source_notes": [
+  "https://bornthisway.foundation/"
+ ],
+ "status": "screened",
+ "tags": [
+  "mental-health-education",
+  "youth",
+  "kindness",
+  "peer-support",
+  "crisis-resources",
+  "be-there-certificate",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+},
+{
+ "access": [
+  "Pricing not stated on the reviewed homepage; accepts most major insurances including TRICARE per the homepage"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "U.S. military-aware service; staff include veterans and military family members with military mental-health training per the homepage. Fit for non-U.S. contexts not assessed.",
+  "source_notes": [
+   "https://www.cohenveteransnetwork.org/"
+  ]
+ },
+ "description": "Global not-for-profit network of mental-health clinics for post-9/11 veterans, active-duty service members, and military families. Offers evidence-based therapy (depression, anxiety, PTSD, adjustment, anger, grief and loss, transition challenges, marriage and family counselling) in person at clinics across the U.S. and via telehealth. Accepts most major insurances including TRICARE. Launched April 2016; active-duty care added 2020.",
+ "evidence_notes": "Publisher describes its treatments as evidence-based and its telehealth as equally effective as in-person therapy; no specific study or outcome was evaluated in this screening.",
+ "id": "cohen-veterans-network",
+ "intended_population": [
+  "veterans",
+  "military personnel",
+  "military families"
+ ],
+ "languages": [
+  "English (per the reviewed pages)"
+ ],
+ "last_verified_at": "2026-11-18",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Clinical service, not a self-help tool; requires an appointment and eligibility (post-9/11 veterans, service members, and their families). Active-duty service members need a TRICARE referral. Cost and coverage details beyond the insurance statement were not reviewed. Not a crisis service; the homepage lists the Veterans Crisis Line (Dial 988, press 1) for emergencies.",
+ "name": "Cohen Veterans Network",
+ "needs": [
+  "find-support",
+  "support",
+  "cope"
+ ],
+ "official_url": "https://www.cohenveteransnetwork.org/",
+ "platforms": [
+  "Web",
+  "Phone"
+ ],
+ "privacy_notes": "Care is described as confidential; the appointment form collects name, email, phone, and location. The full privacy policy was not reviewed in this screening.",
+ "publisher": "Cohen Veterans Network",
+ "reason": "Screened 2026-11-18: official homepage confirmed live; not-for-profit clinic network, post-9/11 veteran and military-family eligibility, evidence-based in-person and telehealth therapy, and insurance acceptance (including TRICARE) confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "United States"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "online-therapy",
+ "review_status": "screened",
+ "screening_gaps": [
+  "cost and coverage details not fully reviewed",
+  "privacy policy not reviewed",
+  "individual clinic details not reviewed"
+ ],
+ "shelf": "reach-out",
+ "source_notes": [
+  "https://www.cohenveteransnetwork.org/"
+ ],
+ "status": "screened",
+ "tags": [
+  "veterans",
+  "military-families",
+  "ptsd",
+  "therapy",
+  "telehealth",
+  "counselling",
+  "evidence-based",
+  "with-support"
+ ],
+ "use_context": [
+  "with-support"
+ ]
+},
+{
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "U.S. veteran-focused nonprofit; program developed with Weill Cornell Medical College per the homepage. Fit for other populations not assessed.",
+  "source_notes": [
+   "https://theheadstrongproject.org/"
+  ]
+ },
+ "description": "501(c)(3) nonprofit providing donor-sponsored, evidence-based PTSD treatment for veterans. A Care Coordinator responds within 2 business days of the Connect to Care form, matches the veteran with a therapist, and builds a tailored treatment plan. The program was developed with Weill Cornell Medical College. Treatment is free to the veteran, funded by donations.",
+ "evidence_notes": "Publisher describes its treatment as evidence-based and developed with Weill Cornell Medical College; no specific study or outcome was evaluated in this screening.",
+ "id": "headstrong-project",
+ "intended_population": [
+  "veterans"
+ ],
+ "languages": [
+  "English (per the reviewed pages)"
+ ],
+ "last_verified_at": "2026-11-18",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Clinical treatment service, not a self-help tool; requires intake through the Connect to Care form and eligibility as a veteran. Eligibility criteria beyond veteran status and any family-member coverage were not confirmed from the reviewed homepage. Delivery format (in-person vs telehealth) was not stated on the reviewed homepage. Not a crisis service.",
+ "name": "The Headstrong Project",
+ "needs": [
+  "find-support",
+  "support",
+  "cope"
+ ],
+ "official_url": "https://theheadstrongproject.org/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Intake runs through the Connect to Care form; the privacy policy and data handling were not reviewed in this screening.",
+ "publisher": "The Headstrong Project",
+ "reason": "Screened 2026-11-18: official homepage confirmed live; 501(c)(3) nonprofit, donor-sponsored evidence-based PTSD treatment for veterans, Care Coordinator intake within 2 business days, and Weill Cornell partnership confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "United States"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "online-therapy",
+ "review_status": "screened",
+ "screening_gaps": [
+  "eligibility criteria beyond veteran status not confirmed",
+  "privacy policy not reviewed",
+  "treatment model details and delivery format not reviewed"
+ ],
+ "shelf": "reach-out",
+ "source_notes": [
+  "https://theheadstrongproject.org/"
+ ],
+ "status": "screened",
+ "tags": [
+  "veterans",
+  "ptsd",
+  "trauma",
+  "therapy",
+  "evidence-based",
+  "free",
+  "with-support"
+ ],
+ "use_context": [
+  "with-support"
+ ]
 }
 ]
