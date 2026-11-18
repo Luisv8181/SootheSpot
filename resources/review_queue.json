@@ -35630,4 +35630,334 @@
   "independent-use"
  ]
 }
+,
+{
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed pages; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Community-specific adaptation not assessed in this screening.",
+  "source_notes": [
+   "https://ggia.berkeley.edu/"
+  ]
+ },
+ "description": "Free library of 100 research-based practices for happiness, resilience, kindness and connection, from UC Berkeley's Greater Good Science Center, created with HopeLab. Each practice (for example Three Good Things, Gratitude Journal, Mindful Breathing, Compassion Meditation) gives step-by-step instructions, time required and the studies behind it; practices are labelled by difficulty (casual, moderate, intensive) and some take five minutes. A free account lets users save practices to a personal page.",
+ "evidence_notes": "Publisher is UC Berkeley's Greater Good Science Center, a nonprofit research center; the site synthesizes hundreds of scientific studies and each practice cites the studies behind it (for example, Seligman et al. 2005 for Three Good Things). No specific study or outcome was evaluated in this screening.",
+ "id": "greater-good-in-action",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English (per the reviewed pages)"
+ ],
+ "last_verified_at": "2026-11-18",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Practices are explicitly not a substitute for therapy or treatment for depression or other major mood disorders, per the publisher's About page. The cited Three Good Things trial sample was mostly white Americans with postsecondary education, per the practice page; generalizability to other populations was not assessed.",
+ "name": "Greater Good in Action",
+ "needs": [
+  "practice",
+  "calm",
+  "understand"
+ ],
+ "official_url": "https://ggia.berkeley.edu/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "A free account is offered to save practices to a personal page; account data practices were not reviewed in this screening. Practice pages themselves are publicly readable.",
+ "publisher": "Greater Good Science Center, UC Berkeley (in collaboration with HopeLab)",
+ "reason": "Screened 2026-11-18: official homepage and About page confirmed live; 100 free research-based practices from UC Berkeley's Greater Good Science Center (with HopeLab), each with step-by-step instructions and cited studies, confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; U.S.-based publisher."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "self-help-toolkit",
+ "review_status": "screened",
+ "screening_gaps": [
+  "account data practices not reviewed",
+  "accessibility features not listed on reviewed pages",
+  "practice evidence beyond cited studies not evaluated"
+ ],
+ "shelf": "practice",
+ "source_notes": [
+  "https://ggia.berkeley.edu/",
+  "https://ggia.berkeley.edu/about_us"
+ ],
+ "status": "screened",
+ "tags": [
+  "gratitude",
+  "mindfulness",
+  "compassion",
+  "resilience",
+  "kindness",
+  "connection",
+  "positive-psychology",
+  "research-based",
+  "free",
+  "practices"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+},
+{
+ "access": [
+  "free",
+  "paid"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Community-specific adaptation not assessed in this screening.",
+  "source_notes": [
+   "https://psychhub.com/"
+  ]
+ },
+ "description": "Clinical skill-development platform for behavioral health clinicians: 100+ accredited, clinician-authored and peer-reviewed courses (CBT, DBT, motivational interviewing, trauma-informed care, substance use, crisis intervention), an AI Therapy Simulator for rehearsing clinical conversations (beta), and accredited CE certificates across 10+ approval bodies. Individual clinicians start free; Pro is $15/seat/mo (annual). Clinicians can also share curated psychoeducation videos and guides with clients in one link, with no sign-in and no PHI.",
+ "evidence_notes": "Courses are described as clinician-authored, peer-reviewed and accredited across 10+ CE approval bodies, and updated continuously as the field evolves; no specific course, accreditation or outcome was verified in this screening.",
+ "id": "psych-hub",
+ "intended_population": [
+  "clinicians",
+  "behavioral-health professionals"
+ ],
+ "languages": [
+  "English (per the reviewed pages)"
+ ],
+ "last_verified_at": "2026-11-18",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Primarily a clinician-facing training platform, not a self-help resource for the general public. The AI Therapy Simulator is in beta and included with Pro and team plans, and Clinical Care Pathway certifications are still in development. Free-tier scope beyond starting free was not confirmed from the reviewed homepage. U.S.-focused accreditation and payer language; availability elsewhere not confirmed.",
+ "name": "Psych Hub",
+ "needs": [
+  "practice",
+  "understand"
+ ],
+ "official_url": "https://psychhub.com/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Patient resources are shared in one link with no sign-in and no PHI, per the homepage. Account and simulator data practices were not reviewed in this screening.",
+ "publisher": "Psych Hub",
+ "reason": "Screened 2026-11-18: official homepage confirmed live; 100+ accredited clinician courses, AI Therapy Simulator (beta) and free clinician start confirmed from the primary source; paid Pro tier and clinician-facing scope recorded honestly. Ready for owner review before any promotion.",
+ "regions": [
+  "United States (accreditations and payer language are U.S.-based; availability elsewhere not confirmed)"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "web-platform",
+ "review_status": "screened",
+ "screening_gaps": [
+  "free-tier scope not confirmed",
+  "privacy policy and data practices not reviewed",
+  "accreditations not independently verified",
+  "availability outside the U.S. not confirmed"
+ ],
+ "shelf": "learn",
+ "source_notes": [
+  "https://psychhub.com/"
+ ],
+ "status": "screened",
+ "tags": [
+  "clinician-training",
+  "cbt",
+  "dbt",
+  "motivational-interviewing",
+  "trauma-informed-care",
+  "ce-credits",
+  "ai-simulator",
+  "psychoeducation",
+  "free-tier"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+},
+{
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Two courses offered in New Zealand Sign Language (NZSL); other assistive-technology compatibility not listed on the reviewed pages - verify before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "culturally_adapted",
+  "notes": "Courses redesigned for the New Zealand environment with guidance from clinicians, cultural advisors and Lived Experience experts, per the publisher; te reo Maori used across the site and two courses offered in NZSL.",
+  "source_notes": [
+   "https://justathought.co.nz/",
+   "https://www.justathought.co.nz/healthcare-workers"
+  ]
+ },
+ "description": "Free self-paced online CBT courses for everyone in Aotearoa New Zealand: 19 courses covering generalised anxiety, depression, mixed depression and anxiety, social anxiety, panic, OCD, health anxiety, insomnia, stress, mindfulness, pregnancy and postnatal wellbeing, and alcohol and drug use, plus a Wellbeing Space of videos and articles. Two courses are also offered in New Zealand Sign Language (NZSL). Courses were initially developed by clinicians and researchers from St Vincent's Hospital, Sydney and the University of New South Wales, then redesigned for the New Zealand environment. Over 92,000 total course enrolments since launching in 2019, per the publisher.",
+ "evidence_notes": "Publisher states courses are backed by more than 120 randomised controlled trials and academic studies, and that the underlying programs were developed by St Vincent's Hospital Sydney / UNSW clinicians; no specific trial was evaluated in this screening.",
+ "id": "just-a-thought-nz",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English",
+  "New Zealand Sign Language (two courses, per the reviewed pages)"
+ ],
+ "last_verified_at": "2026-11-18",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Designed for people in Aotearoa New Zealand; availability and suitability elsewhere not confirmed. Courses suit mild-to-moderate anxiety or low mood; the publisher recommends delaying prescription for anyone acutely unwell or actively suicidal, and notes it does not monitor individuals or provide personalised clinical advice. Not a crisis resource.",
+ "name": "Just a Thought",
+ "needs": [
+  "practice",
+  "cope",
+  "understand"
+ ],
+ "official_url": "https://justathought.co.nz/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Courses are completed online with a free account; prescribing healthcare workers can see lesson completion and assessment scores (not worksheet content) and receive high-distress alerts without the patient's name in the email, per the publisher's healthcare-workers page. The full privacy policy was not reviewed in this screening.",
+ "publisher": "Just a Thought",
+ "reason": "Screened 2026-11-18: official homepage and healthcare-workers page confirmed live; 19 free online CBT courses for Aotearoa, NZSL versions, and NZ-specific redesign with cultural advisors confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "New Zealand (Aotearoa)"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "online-course",
+ "review_status": "screened",
+ "screening_gaps": [
+  "operating organisation not named on the reviewed homepage",
+  "privacy policy not reviewed",
+  "age and eligibility criteria not confirmed from the reviewed pages",
+  "no specific trial evaluated"
+ ],
+ "shelf": "practice",
+ "source_notes": [
+  "https://justathought.co.nz/",
+  "https://www.justathought.co.nz/healthcare-workers"
+ ],
+ "status": "screened",
+ "tags": [
+  "cbt",
+  "anxiety",
+  "depression",
+  "panic",
+  "ocd",
+  "insomnia",
+  "stress",
+  "mindfulness",
+  "perinatal",
+  "substance-use",
+  "free",
+  "online-course",
+  "nzsl",
+  "new-zealand"
+ ],
+ "use_context": [
+  "independent-use",
+  "with-support"
+ ]
+},
+{
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Military-aware service for the Australian Defence Force community; community-specific adaptation beyond that not assessed in this screening.",
+  "source_notes": [
+   "https://www.openarms.gov.au/"
+  ]
+ },
+ "description": "Free, confidential mental health support for Australian Navy, Army and Air Force personnel, veterans and their families: individual, couple and family counselling, a Community and Peer Program staffed by people with lived experience of military service or military family life, and funded online programs. Free 24/7 support line: 1800 011 046. Also provides training and support to its counsellors and resources for health professionals.",
+ "evidence_notes": "Publisher is an Australian Government service (Department of Veterans' Affairs) providing clinical counselling; no specific outcome or evaluation was reviewed in this screening.",
+ "id": "open-arms-veterans-families",
+ "intended_population": [
+  "veterans",
+  "military personnel",
+  "military families"
+ ],
+ "languages": [
+  "English (per the reviewed pages)"
+ ],
+ "last_verified_at": "2026-11-18",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "For Australian veterans, serving personnel and their families only; not a general-public service. Phone support is via Australian numbers; online availability outside Australia not confirmed.",
+ "name": "Open Arms - Veterans & Families Counselling",
+ "needs": [
+  "find-support",
+  "support",
+  "cope"
+ ],
+ "official_url": "https://www.openarms.gov.au/",
+ "platforms": [
+  "Web",
+  "Phone"
+ ],
+ "privacy_notes": "Counselling is described as confidential, with work alongside the ADF and DVA only with the client's consent in some circumstances, per the homepage. The full privacy policy was not reviewed in this screening.",
+ "publisher": "Open Arms (Australian Government, Department of Veterans' Affairs)",
+ "reason": "Screened 2026-11-18: official homepage confirmed live; free confidential counselling, peer program and 24/7 line (1800 011 046) for Australian veterans and families confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Australia"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "online-therapy",
+ "review_status": "screened",
+ "screening_gaps": [
+  "privacy policy not reviewed",
+  "online program details not reviewed",
+  "eligibility criteria beyond the veteran and family description not confirmed"
+ ],
+ "shelf": "reach-out",
+ "source_notes": [
+  "https://www.openarms.gov.au/"
+ ],
+ "status": "screened",
+ "tags": [
+  "veterans",
+  "military-families",
+  "counselling",
+  "peer-support",
+  "free",
+  "confidential",
+  "24-7",
+  "australia",
+  "resilience"
+ ],
+ "use_context": [
+  "with-support"
+ ]
+}
 ]
