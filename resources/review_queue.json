@@ -36929,5 +36929,242 @@
  "use_context": [
   "independent-use"
  ]
+},
+{
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed primary sources; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "translated",
+  "notes": "Bilingual English/Spanish app; songs, activities, and parent resources are offered in both languages per the publisher listings.",
+  "source_notes": [
+   "https://play.google.com/store/apps/details?id=air.com.sesameworkshop.ResilienceThinkBreathDo"
+  ]
+ },
+ "description": "Free bilingual (English and Spanish), research-based app for parents and caregivers to use with young children (ages 2-5). A Sesame Street monster friend models the 'Breathe, Think, Do' problem-solving strategy across five interactive everyday challenges: tap to help the monster take deep breaths, think of a plan, and try it out. Includes a 'Breathe with the Monster' deep-breathing activity, emotional vocabulary, personalized encouragements, and a parent section with resources for everyday challenges. Part of Sesame Street's Little Children, Big Challenges resilience initiative.",
+ "evidence_notes": "Publisher describes the app as research-based and part of the Little Children, Big Challenges resilience initiative. No specific study or evaluation was cited on the fetched pages; effectiveness not evaluated in this screening.",
+ "id": "breathe-think-do-sesame",
+ "intended_population": [
+  "children"
+ ],
+ "languages": [
+  "English",
+  "Spanish"
+ ],
+ "last_verified_at": "2026-11-19",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Designed for ages 2-5 with a parent or caregiver; not a standalone tool for older children or adults. Publisher notes the app requires a strong wifi connection for the initial download. Educational/self-care content; does not replace professional mental health care.",
+ "name": "Breathe, Think, Do with Sesame",
+ "needs": [
+  "calm",
+  "practice"
+ ],
+ "official_url": "https://sesamestreetincommunities.org/activities/breathe-think-do/",
+ "platforms": [
+  "iOS",
+  "Android"
+ ],
+ "privacy_notes": "No account noted on the fetched pages. The app's data practices and privacy policy were not reviewed in this screening.",
+ "publisher": "Sesame Workshop",
+ "reason": "Screened 2026-11-19: official Sesame Street in Communities activity page and Google Play listing fetched live this run (both crawled under a minute before the read); free access, bilingual EN/ES, ages 2-5, five activities, and the deep-breathing activity confirmed from the primary sources. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; U.S.-based publisher."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "mobile-app",
+ "review_status": "screened",
+ "screening_gaps": [
+  "App data practices and privacy policy not reviewed",
+  "In-app experience not tested; store rating 3.4/5 from 1,752 ratings noted, not evaluated"
+ ],
+ "shelf": "practice",
+ "source_notes": [
+  "https://sesamestreetincommunities.org/activities/breathe-think-do/",
+  "https://play.google.com/store/apps/details?id=air.com.sesameworkshop.ResilienceThinkBreathDo"
+ ],
+ "status": "screened",
+ "tags": [
+  "breathing",
+  "emotional-regulation",
+  "problem-solving",
+  "self-control",
+  "resilience",
+  "children",
+  "bilingual",
+  "spanish",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+},
+{
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Videos available with English and Spanish descriptive audio per the store listing; full assistive-technology compatibility not verified."
+ ],
+ "cultural_context": {
+  "adaptation_status": "translated",
+  "notes": "Songs, videos, and parenting tips offered in English and Spanish, with descriptive audio in both languages, per the store listing.",
+  "source_notes": [
+   "https://play.google.com/store/apps/details?id=org.pbskids.danieltigerforparents"
+  ]
+ },
+ "description": "Free parenting app from PBS KIDS with 50+ Daniel Tiger songs and 160+ episode clips in English and Spanish, plus 220+ conversation starters and parenting tips, to help parents and caregivers sing, talk, and play through everyday situations with toddlers: feelings, sharing, self-control, responsibility, confidence, and new experiences. Videos are also available with English and Spanish descriptive audio.",
+ "evidence_notes": "Publisher is PBS KIDS, the public-broadcasting children's media brand; the app extends the Daniel Tiger's Neighborhood social-emotional curriculum. No efficacy study was cited on the fetched listing; effectiveness not evaluated in this screening.",
+ "id": "daniel-tiger-for-parents",
+ "intended_population": [
+  "general",
+  "children"
+ ],
+ "languages": [
+  "English",
+  "Spanish"
+ ],
+ "last_verified_at": "2026-11-19",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Parent/caregiver-facing tool for use with toddlers, not a child self-help app. Educational content; does not replace professional mental health care. Note: the earlier paid Daniel Tiger's Grr-ific Feelings app ($2.99) was removed from Google Play in March 2025; this free app is its live successor for feelings content.",
+ "name": "Daniel Tiger for Parents",
+ "needs": [
+  "watch",
+  "understand"
+ ],
+ "official_url": "https://play.google.com/store/apps/details?id=org.pbskids.danieltigerforparents",
+ "platforms": [
+  "iOS",
+  "Android"
+ ],
+ "privacy_notes": "PBS KIDS states a commitment to a safe environment for children and families with transparency about data collection; the full privacy policy (pbskids.org/privacy) was not reviewed in this screening. No account noted on the fetched listing.",
+ "publisher": "PBS KIDS (Public Broadcasting Service); based on Daniel Tiger's Neighborhood, a Fred Rogers Productions series",
+ "reason": "Screened 2026-11-19: Google Play listing fetched live this run (crawled under a minute before the read); free access, bilingual EN/ES songs, clips, and tips, and the Fred Rogers Productions basis confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; U.S.-based publisher."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "mobile-app",
+ "review_status": "screened",
+ "screening_gaps": [
+  "Privacy policy not reviewed",
+  "In-app experience not tested",
+  "PBS KIDS apps hub page does not surface this app in its text extract (JavaScript-rendered), so the store listing is the verified page"
+ ],
+ "shelf": "watch",
+ "source_notes": [
+  "https://play.google.com/store/apps/details?id=org.pbskids.danieltigerforparents"
+ ],
+ "status": "screened",
+ "tags": [
+  "feelings",
+  "emotional-regulation",
+  "self-control",
+  "parenting",
+  "toddlers",
+  "children",
+  "bilingual",
+  "spanish",
+  "songs",
+  "videos",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+},
+{
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "No accessibility statement found on the fetched page; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "translated",
+  "notes": "Most topics on the page link to Spanish versions ('Also in Spanish'), including the mental-health screening, how-to-improve-mental-health, child, teen, and older-adult topics.",
+  "source_notes": [
+   "https://medlineplus.gov/mentalhealth.html"
+  ]
+ },
+ "description": "Plain-language mental-health information hub from the U.S. National Library of Medicine: what mental health is, what can affect it, warning signs, and what to do if you think you have a mental-health problem, with curated links to NIMH, Mayo Clinic, CDC, the American Heart Association, and ClinicalTrials.gov, plus dedicated child, teen, and older-adult mental-health topics. Most linked topics are also available in Spanish.",
+ "evidence_notes": "Publisher is the U.S. National Library of Medicine; content is curated from NIH institutes and other authoritative sources. Informational only; no efficacy claims evaluated in this screening.",
+ "id": "medlineplus-mental-health",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English",
+  "Spanish"
+ ],
+ "last_verified_at": "2026-11-19",
+ "license_notes": "External resource. SootheSpot stores metadata only. MedlinePlus content is U.S. government public-domain material; confirm terms before any reuse.",
+ "limitations": "Informational/educational only; does not replace professional mental health care. The page directs people who think they may have a mental-health problem to a primary care provider. U.S.-centric service links (e.g., ClinicalTrials.gov); crisis pathways are not the focus of this page.",
+ "name": "MedlinePlus - Mental Health",
+ "needs": [
+  "read",
+  "understand"
+ ],
+ "official_url": "https://medlineplus.gov/mentalhealth.html",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "No account required to read. Privacy policy and data practices were not reviewed in this screening.",
+ "publisher": "U.S. National Library of Medicine (NLM), National Institutes of Health",
+ "reason": "Screened 2026-11-19: official MedlinePlus mental-health topic page fetched live this run (crawled under a minute before the read); NLM publisher, free access, plain-language scope, Spanish versions, and curated source links confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; U.S.-government publisher."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "article-library",
+ "review_status": "screened",
+ "screening_gaps": [
+  "Privacy policy not reviewed",
+  "Individual linked topics not separately reviewed"
+ ],
+ "shelf": "read",
+ "source_notes": [
+  "https://medlineplus.gov/mentalhealth.html"
+ ],
+ "status": "screened",
+ "tags": [
+  "mental-health",
+  "psychoeducation",
+  "warning-signs",
+  "self-care",
+  "spanish",
+  "bilingual",
+  "government",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
 }
 ]
