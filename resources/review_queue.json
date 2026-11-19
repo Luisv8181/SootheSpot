@@ -36441,4 +36441,257 @@
   "independent-use"
  ]
 }
+,
+{
+ "access": [
+  "free",
+  "paid"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Publisher is a German digital-medicine company; the reviewed homepage does not state which languages the app supports or any cultural adaptation. Fit for specific communities not assessed.",
+  "source_notes": [
+   "https://minddoc.com/"
+  ]
+ },
+ "description": "Mental health companion app with daily mood and symptom check-ins (up to three times a day), personalised feedback and pattern graphics, and 70+ courses and exercises for coping with depression, burnout, anxiety, phobias, insomnia, and eating disorders. The homepage describes it as a Class I Medical Device under EU MDR, developed by psychologists and based in science, and notes an evaluation in a clinical study with more than 1,000 participants and over 3 million users.",
+ "evidence_notes": "Publisher states the app was evaluated in a clinical study with more than 1,000 participants; the study itself was not reviewed in this screening, and no specific outcome claims were evaluated.",
+ "id": "minddoc-companion-app",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English (per the reviewed homepage)"
+ ],
+ "last_verified_at": "2026-11-18",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Self-care and self-monitoring tool; it does not replace a medical or psychotherapeutic assessment (per the App Store listing). Full course library requires the paid MindDoc+ subscription (about $69.99/year per App Store pricing checked by secondary sources in this run; confirm on the store listing before paying). Free tier content limits were not stated on the reviewed homepage.",
+ "name": "MindDoc Companion App",
+ "needs": [
+  "calm",
+  "understand",
+  "track"
+ ],
+ "official_url": "https://minddoc.com/",
+ "platforms": [
+  "iOS",
+  "Android"
+ ],
+ "privacy_notes": "Data practices and privacy policy were not reviewed in this screening; the app collects daily mood and symptom responses.",
+ "publisher": "MindDoc Health GmbH",
+ "reason": "Screened 2026-11-18: official homepage confirmed live; daily check-ins, personalised feedback, 70+ courses and exercises, Class I Medical Device status under EU MDR, and the clinical-study evaluation claim confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "app",
+ "review_status": "screened",
+ "screening_gaps": [
+  "privacy policy and data practices not reviewed",
+  "full language list not confirmed",
+  "free-tier content limits not stated on the reviewed homepage",
+  "clinical study not read or evaluated",
+  "publisher company name taken from the App Store listing, not the homepage"
+ ],
+ "shelf": "practice",
+ "source_notes": [
+  "https://minddoc.com/"
+ ],
+ "status": "screened",
+ "tags": [
+  "mood-tracking",
+  "symptom-tracking",
+  "cbt",
+  "courses",
+  "anxiety",
+  "depression",
+  "insomnia",
+  "burnout",
+  "self-care",
+  "medical-device",
+  "free",
+  "paid"
+ ],
+ "use_context": [
+  "independent-use",
+  "with-support"
+ ]
+},
+{
+ "access": [
+  "free",
+  "paid"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Homepage features user stories from the United States, Italy, Germany, and Glasgow; cultural fit for specific communities not assessed.",
+  "source_notes": [
+   "https://www.rootd.io/"
+  ]
+ },
+ "description": "Anxiety and panic attack relief app built around a big red panic button (the Rootr) that guides the user through a panic attack, plus short-term and long-term lessons for changing one's relationship with anxiety, breathing tools, and psychoeducation about where anxiety comes from and why panic attacks happen. The homepage quotes endorsements from a psychologist (Dr. Jillian Roberts) and a licensed counsellor.",
+ "evidence_notes": "The App Store listing describes the app as scientifically validated; no validation study was reviewed in this screening.",
+ "id": "rootd-panic-anxiety-relief",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English (per the reviewed homepage)"
+ ],
+ "last_verified_at": "2026-11-18",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Free download with core tools (panic button, some breathing and visualisation tools, basic lessons); the full lesson library requires a paid Full Access subscription (about $6.99/month or $59.99-$79.99/year, or a one-time lifetime purchase, per App Store listings checked by secondary sources in this run; confirm on the store listing before paying). Not a substitute for professional care; the app's crisis or emergency guidance was not reviewed in this screening.",
+ "name": "Rootd — Panic Attack & Anxiety Relief",
+ "needs": [
+  "calm",
+  "breathe",
+  "understand",
+  "practice"
+ ],
+ "official_url": "https://www.rootd.io/",
+ "platforms": [
+  "iOS",
+  "Android"
+ ],
+ "privacy_notes": "Data practices and privacy policy were not reviewed in this screening.",
+ "publisher": "Simply Rooted Media Inc.",
+ "reason": "Screened 2026-11-18: official homepage confirmed live; panic-button tool, short-term and long-term lessons, and psychoeducation about anxiety and panic attacks confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "app",
+ "review_status": "screened",
+ "screening_gaps": [
+  "privacy policy and data practices not reviewed",
+  "full language list not confirmed",
+  "crisis or emergency guidance inside the app not reviewed",
+  "validation study not read or evaluated",
+  "publisher name and pricing taken from App Store listings, not the homepage"
+ ],
+ "shelf": "calm",
+ "source_notes": [
+  "https://www.rootd.io/"
+ ],
+ "status": "screened",
+ "tags": [
+  "panic-attacks",
+  "anxiety",
+  "breathing",
+  "cbt",
+  "grounding",
+  "lessons",
+  "free",
+  "paid"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+},
+{
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "community_informed",
+  "notes": "Platform co-designed with young people; Kooth is a UK service, so availability may depend on commissioned areas, which was not confirmed on the reviewed homepage. Fit for specific communities not assessed.",
+  "source_notes": [
+   "https://www.kooth.com/"
+  ]
+ },
+ "description": "Free, confidential mental wellbeing platform for young people, now delivered as Soluna by Kooth (mobile app or web). Offers one-to-one chat with a professional practitioner, moderated community forums, self-care activities, and journaling, co-designed with young people. Existing Kooth accounts can be linked so support history and safety plans carry over.",
+ "evidence_notes": "Publisher describes the platform as co-designed with young people; no outcome study was evaluated in this screening.",
+ "id": "kooth-soluna",
+ "intended_population": [
+  "teens",
+  "young-adults"
+ ],
+ "languages": [
+  "English (per the reviewed homepage)"
+ ],
+ "last_verified_at": "2026-11-18",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "For young people; the reviewed homepage does not state an age range or geographic eligibility, and Kooth has historically been available in commissioned areas, so availability for a given user is not confirmed here. Not a crisis service; crisis handling on the platform was not reviewed in this screening.",
+ "name": "Kooth / Soluna by Kooth",
+ "needs": [
+  "support",
+  "find-support",
+  "practice",
+  "understand"
+ ],
+ "official_url": "https://www.kooth.com/",
+ "platforms": [
+  "Web",
+  "iOS",
+  "Android"
+ ],
+ "privacy_notes": "Described on the homepage as completely free and confidential, with information kept private and secure in line with UK law; the full privacy policy was not reviewed in this screening.",
+ "publisher": "Kooth",
+ "reason": "Screened 2026-11-18: official homepage confirmed live; free confidential support, one-to-one practitioner chat, moderated community, self-care activities, and journaling on the Soluna platform confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "United Kingdom"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "peer-support",
+ "review_status": "screened",
+ "screening_gaps": [
+  "privacy policy not reviewed",
+  "age range and geographic eligibility not confirmed",
+  "crisis handling on the platform not reviewed",
+  "full language list not confirmed"
+ ],
+ "shelf": "reach-out",
+ "source_notes": [
+  "https://www.kooth.com/"
+ ],
+ "status": "screened",
+ "tags": [
+  "young-people",
+  "teens",
+  "practitioner-chat",
+  "community",
+  "journaling",
+  "self-care",
+  "free",
+  "confidential",
+  "uk"
+ ],
+ "use_context": [
+  "with-support",
+  "independent-use"
+ ]
+}
 ]
