@@ -36193,5 +36193,252 @@
  "use_context": [
   "with-support"
  ]
+},
+{
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed page; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "U.S. nationwide service; Spanish-language specialty service (Linea de Ayuda de NAMI) confirmed on the page. Fit for other populations not assessed.",
+  "source_notes": [
+   "https://www.nami.org/support-education/nami-helpline/"
+  ]
+ },
+ "description": "Free, confidential nationwide service providing one-on-one emotional support, mental health information, and resources from trained HelpLine specialists, by phone (1-800-950-6264), text (NAMI to 62640), email, or mail. Specialty services for family caregivers, teens and young adults, and in Spanish. Available Monday-Friday, 10:00 AM-10:00 PM ET, closed on federal holidays.",
+ "evidence_notes": "Publisher describes specialists as trained; no outcome study was evaluated in this screening.",
+ "id": "nami-helpline",
+ "intended_population": [
+  "general",
+  "families",
+  "caregivers",
+  "teens",
+  "young-adults"
+ ],
+ "languages": [
+  "English",
+  "Spanish"
+ ],
+ "last_verified_at": "2026-11-18",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Not a crisis line, hotline, or suicide prevention line; the page directs people in crisis to call or text 988. Does not provide mental health counseling, advice, personal advocacy, or referrals to individual providers or lawyers. Hours limited to weekdays 10 AM-10 PM ET, closed on federal holidays.",
+ "name": "NAMI HelpLine",
+ "needs": [
+  "find-support",
+  "support",
+  "understand"
+ ],
+ "official_url": "https://www.nami.org/support-education/nami-helpline/",
+ "platforms": [
+  "Web",
+  "Phone",
+  "Text",
+  "Email"
+ ],
+ "privacy_notes": "Described as free and confidential; the Terms of Service and Privacy Policy were not reviewed in this screening. Message and data rates may apply when texting.",
+ "publisher": "National Alliance on Mental Illness (NAMI)",
+ "reason": "Screened 2026-11-18: official NAMI page confirmed live; free confidential peer-support service, phone/text/email/mail contact, weekday hours, and specialty services for caregivers, teens and young adults, and Spanish speakers confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "United States"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "peer-support",
+ "review_status": "screened",
+ "screening_gaps": [
+  "privacy policy and terms not reviewed",
+  "HelpLine Resource Zone database not reviewed",
+  "specialist training details not reviewed"
+ ],
+ "shelf": "reach-out",
+ "source_notes": [
+  "https://www.nami.org/support-education/nami-helpline/"
+ ],
+ "status": "screened",
+ "tags": [
+  "helpline",
+  "peer-support",
+  "mental-health",
+  "information",
+  "referrals",
+  "free",
+  "families",
+  "caregivers",
+  "teens",
+  "young-adults",
+  "spanish"
+ ],
+ "use_context": [
+  "with-support"
+ ]
+},
+{
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Stories on the homepage centre personal lived experience; cultural fit for specific communities not assessed. Publisher location not stated on the reviewed homepage.",
+  "source_notes": [
+   "https://twloha.com/"
+  ]
+ },
+ "description": "Nonprofit movement dedicated to presenting hope and finding help for people struggling with depression, addiction, self-injury, and suicide. TWLOHA exists to encourage, inform, inspire, and invest directly into treatment and recovery; the homepage features personal stories and essays alongside email updates.",
+ "evidence_notes": "Publisher describes investing directly into treatment and recovery; no outcome data was evaluated in this screening.",
+ "id": "to-write-love-on-her-arms",
+ "intended_population": [
+  "general",
+  "young-adults"
+ ],
+ "languages": [
+  "English (per the reviewed homepage)"
+ ],
+ "last_verified_at": "2026-11-18",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Homepage presents mission and personal stories; no crisis service is offered on the reviewed homepage, and the organization's find-help tools were not reviewed in this screening. Not a substitute for professional care.",
+ "name": "To Write Love on Her Arms",
+ "needs": [
+  "understand",
+  "find-support",
+  "support"
+ ],
+ "official_url": "https://twloha.com/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Email signup offered on the homepage; newsletter data practices were not reviewed in this screening.",
+ "publisher": "To Write Love on Her Arms (TWLOHA)",
+ "reason": "Screened 2026-11-18: official homepage confirmed live; nonprofit mission for depression, addiction, self-injury, and suicide support, plus story-based content, confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "resource-hub",
+ "review_status": "screened",
+ "screening_gaps": [
+  "find-help tools and resources not reviewed",
+  "treatment-investment details not reviewed",
+  "privacy practices for email signup not reviewed"
+ ],
+ "shelf": "read",
+ "source_notes": [
+  "https://twloha.com/"
+ ],
+ "status": "screened",
+ "tags": [
+  "depression",
+  "addiction",
+  "self-injury",
+  "suicide-prevention",
+  "hope",
+  "stories",
+  "nonprofit",
+  "free",
+  "youth"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+},
+{
+ "access": [
+  "free",
+  "paid"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "community_informed",
+  "notes": "Mindfulness tradition of Zen Master Thich Nhat Hanh, rooted in Vietnamese Zen Buddhism and practised worldwide. Fit for specific communities not assessed.",
+  "source_notes": [
+   "https://plumvillage.org/"
+  ]
+ },
+ "description": "The Plum Village Tradition of Zen Master Thich Nhat Hanh: a global mindfulness community offering dharma talks, guided meditations and deep relaxations, Days of Mindfulness, and in-person and online retreats hosted by Plum Village monasteries worldwide. The Plum Village App is described on the homepage as completely free, with guided meditations and deep relaxations.",
+ "evidence_notes": "Publisher is a long-established monastic mindfulness community; no outcome study was evaluated in this screening.",
+ "id": "plum-village",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English (per the reviewed homepage)"
+ ],
+ "last_verified_at": "2026-11-18",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Primarily a Buddhist mindfulness tradition; retreats require registration and their costs were not stated on the reviewed homepage. Dharma talks and the app are free, but the app's data practices and the full language list were not reviewed in this screening. Not a clinical service.",
+ "name": "Plum Village",
+ "needs": [
+  "calm",
+  "practice",
+  "listen"
+ ],
+ "official_url": "https://plumvillage.org/",
+ "platforms": [
+  "Web",
+  "iOS",
+  "Android"
+ ],
+ "privacy_notes": "The Plum Village App's data practices were not reviewed in this screening.",
+ "publisher": "Plum Village Community of Engaged Buddhism",
+ "reason": "Screened 2026-11-18: official homepage confirmed live; Thich Nhat Hanh mindfulness tradition, free app with guided meditations and deep relaxations, dharma talks, and in-person and online retreats confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "audio-library",
+ "review_status": "screened",
+ "screening_gaps": [
+  "retreat costs and registration details not reviewed",
+  "app data practices not reviewed",
+  "full language list not confirmed"
+ ],
+ "shelf": "listen",
+ "source_notes": [
+  "https://plumvillage.org/"
+ ],
+ "status": "screened",
+ "tags": [
+  "mindfulness",
+  "meditation",
+  "zen",
+  "thich-nhat-hanh",
+  "dharma-talks",
+  "retreats",
+  "free",
+  "guided-meditation"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
 }
 ]
