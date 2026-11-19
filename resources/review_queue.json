@@ -36693,5 +36693,241 @@
   "with-support",
   "independent-use"
  ]
+},
+ {
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed pages; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "community_informed",
+  "notes": "Created for Native youth, by Native youth; pages reviewed by Native youth and topical experts per the publisher. Funded in part by the Indian Health Service, the Minority AIDS Initiative Fund, and a SAMHSA GLS suicide prevention grant.",
+  "source_notes": [
+   "https://wernative.npaihb.org/about-us"
+  ]
+ },
+ "description": "Comprehensive health resource for Native youth, by Native youth, from the Northwest Portland Area Indian Health Board: 330+ health and wellness pages reviewed by Native youth and topical experts, launched in 2012. The My Mind section covers mental health and emotional well-being (resilience, stress, anxiety, depression, suicide prevention with safe and positive messaging); the homepage also carries an Ask Your Relative Q&A, Youth Support Resources, and a 988 Suicide and Crisis Lifeline section, plus a text service (text INSPIRE to 94449).",
+ "evidence_notes": "Publisher states 330+ pages reviewed by Native youth and topical experts. No outcome study was evaluated in this screening.",
+ "id": "we-r-native",
+ "intended_population": [
+  "adolescents",
+  "young-adults"
+ ],
+ "languages": [
+  "English"
+ ],
+ "last_verified_at": "2026-11-19",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Youth-focused (Native youth); educational and peer-informed content, not clinical care. Suicide-prevention content is framed with safe and positive messaging per the publisher; SootheSpot's deterministic safety pathway applies independently. Text-message services involve sharing a phone number.",
+ "name": "We R Native",
+ "needs": [
+  "learn",
+  "understand",
+  "support"
+ ],
+ "official_url": "https://wernative.npaihb.org/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "No account noted for reading site content. Text-message opt-in (INSPIRE to 94449) involves a phone number; privacy policy and text-service data practices not reviewed in this screening.",
+ "publisher": "Northwest Portland Area Indian Health Board (NPAIHB)",
+ "reason": "Screened 2026-11-19: official homepage and About page fetched live this run (homepage crawled 1 hour before the read; About page 8 hours before); publisher (NPAIHB), free access, 330+ youth- and expert-reviewed pages, and the Native-youth-by-Native-youth scope confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "United States (Native youth nationwide; administered by the Northwest Portland Area Indian Health Board)"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "resource-hub",
+ "review_status": "screened",
+ "screening_gaps": [
+  "Age range not stated on the reviewed pages",
+  "Privacy policy and text-service data practices not reviewed",
+  "My Mind section contents not individually reviewed"
+ ],
+ "shelf": "learn",
+ "source_notes": [
+  "https://wernative.npaihb.org/",
+  "https://wernative.npaihb.org/about-us"
+ ],
+ "status": "screened",
+ "tags": [
+  "native-youth",
+  "indigenous",
+  "mental-health",
+  "resilience",
+  "suicide-prevention",
+  "youth",
+  "free",
+  "community-informed",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+},
+ {
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed pages; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "U.S. federal service; scope is the United States and its territories. Fit for non-U.S. contexts not applicable.",
+  "source_notes": [
+   "https://findtreatment.gov/"
+  ]
+ },
+ "description": "Confidential and anonymous national directory of state-licensed mental health and substance use disorder treatment facilities in the United States and its territories, maintained by SAMHSA. Search by address, city, ZIP code, or facility name; filter by state, county, distance, facility type (substance use, mental health, opioid treatment programs), service codes, and payment/insurance options. Homepage links the 988 Suicide and Crisis Lifeline, SAMHSA's National Helpline 1-800-662-HELP (4357), the Disaster Distress Helpline, and the Veterans Crisis Line, with an En Espanol link.",
+ "evidence_notes": "Publisher is the federal SAMHSA; the directory covers state-licensed facilities. Individual facility listings were not verified in this screening.",
+ "id": "findtreatment-gov",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English",
+  "Spanish"
+ ],
+ "last_verified_at": "2026-11-19",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "United States and its territories only. A directory listing does not confirm availability, accepted insurance, or cost; the site itself notes to call the facility before visiting. Not a crisis service; crisis routes to 988 on the page. SootheSpot's deterministic safety pathway applies independently.",
+ "name": "FindTreatment.gov (SAMHSA)",
+ "needs": [
+  "support"
+ ],
+ "official_url": "https://findtreatment.gov/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Searches described as confidential and anonymous on the site; no account required to search per the rendered pages.",
+ "publisher": "Substance Abuse and Mental Health Services Administration (SAMHSA), U.S. Department of Health and Human Services",
+ "reason": "Screened 2026-11-19: official homepage and locator page read live in the browser this run; SAMHSA publisher, confidential/anonymous search, facility-type and distance filters, and the En Espanol link confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "United States and its territories"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "treatment-locator",
+ "review_status": "screened",
+ "screening_gaps": [
+  "Individual facility listings not verified",
+  "Spanish-language search experience not tested",
+  "Accessibility statement not reviewed"
+ ],
+ "shelf": "reach-out",
+ "source_notes": [
+  "https://findtreatment.gov/",
+  "https://findtreatment.gov/locator"
+ ],
+ "status": "screened",
+ "tags": [
+  "treatment-locator",
+  "substance-use",
+  "mental-health",
+  "samhsa",
+  "government",
+  "free",
+  "confidential",
+  "anonymous",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+},
+ {
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "U.S. federal publisher; U.S. scope. No cultural-adaptation claims assessed in this screening.",
+  "source_notes": [
+   "https://alcoholtreatment.niaaa.nih.gov/"
+  ]
+ },
+ "description": "Free online tool from NIAAA guiding adults to evidence-based alcohol use disorder treatment: step-by-step search guidance for specialty programs, therapists, and doctors; five signs of quality treatment; 10 questions to ask treatment programs; telehealth filters; and a downloadable toolkit for organizing the search. Adolescent treatment resources are linked separately for teens.",
+ "evidence_notes": "Publisher states the Navigator steers toward evidence-based treatment based on decades of research and states it cannot endorse individual providers. Individual provider listings were not evaluated in this screening.",
+ "id": "niaaa-alcohol-treatment-navigator",
+ "intended_population": [
+  "adults",
+  "family-friends"
+ ],
+ "languages": [
+  "English"
+ ],
+ "last_verified_at": "2026-11-19",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Adults only; the page directs teen help-seekers to separate adolescent resources. U.S.-focused. NIAAA states it cannot ensure the search will surface higher-quality providers nearby and cannot endorse providers. Not a crisis service; SootheSpot's deterministic safety pathway applies independently.",
+ "name": "NIAAA Alcohol Treatment Navigator",
+ "needs": [
+  "support",
+  "understand"
+ ],
+ "official_url": "https://alcoholtreatment.niaaa.nih.gov/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "No account noted for using the search guidance; privacy policy not reviewed in this screening.",
+ "publisher": "National Institute on Alcohol Abuse and Alcoholism (NIAAA), National Institutes of Health",
+ "reason": "Screened 2026-11-19: official homepage fetched live this run (crawled under a minute before the read); NIAAA publisher, free access, adult scope, evidence-based framing, and the no-endorsement disclaimer confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "United States"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "treatment-locator",
+ "review_status": "screened",
+ "screening_gaps": [
+  "Provider directories reached through the Navigator not individually reviewed",
+  "Privacy policy not reviewed",
+  "Spanish or other language availability not confirmed"
+ ],
+ "shelf": "reach-out",
+ "source_notes": [
+  "https://alcoholtreatment.niaaa.nih.gov/"
+ ],
+ "status": "screened",
+ "tags": [
+  "alcohol",
+  "alcohol-use-disorder",
+  "treatment-locator",
+  "evidence-based",
+  "niaaa",
+  "nih",
+  "government",
+  "free",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
 }
 ]
