@@ -37398,4 +37398,243 @@
   "independent-use"
  ]
  }
+,
+ {
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "No accessibility statement found on the fetched homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Australian-origin program; trial populations included community users in England. No translation or cultural-adaptation information found on the fetched homepage.",
+  "source_notes": [
+   "https://www.ecouch.com.au/"
+  ]
+ },
+ "description": "Free online self-directed training program from e-hub Health (ANU spin-off) with five programs: Depression, Anxiety & Worry, Social Anxiety, Divorce & Separation, and Loss & Bereavement. Each program combines an information module with interactive self-help modules and workbooks teaching CBT, interpersonal therapy, relaxation, and physical-activity strategies.",
+ "evidence_notes": "Depression program evaluated in three randomised controlled trials; Anxiety & Worry program effective for generalised anxiety disorder in an 18-30 community RCT (iChill) and trialled as a school prevention program; Social Anxiety program evaluated in a large community RCT showing a small but statistically significant improvement. Accredited to the National Safety and Quality Digital Mental Health Standards. Citations listed on the homepage; individual papers were not re-read in this screening.",
+ "id": "e-couch",
+ "intended_population": [
+  "adults",
+  "adolescents"
+ ],
+ "languages": [
+  "English"
+ ],
+ "last_verified_at": "2026-11-19",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Free for users in Australia (funded by the Australian Commonwealth Department of Health); international users access on a subscription basis per the e-hub product information sheet. Registration required; full program behind login. Content suitable for ages 16 and older (Terms of Use: 14 and older, or 18 and older if from the USA). Not for crisis help; not a substitute for professional care.",
+ "name": "e-couch",
+ "needs": [
+  "practice",
+  "understand",
+  "anxiety",
+  "mood",
+  "grief"
+ ],
+ "official_url": "https://www.ecouch.com.au/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Registration required for the full program; data practices were not reviewed in this screening.",
+ "publisher": "e-hub Health (ANU spin-off)",
+ "reason": "Screened 2026-11-19: official ecouch.com.au homepage fetched live this run (crawled under a minute before the read); five-program structure, CBT and interpersonal-therapy strategies, RCT evidence summaries, ANU origin and e-hub Health delivery, and National Safety and Quality Digital Mental Health Standards accreditation confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Australia; international access on subscription."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "online-course",
+ "review_status": "screened",
+ "screening_gaps": [
+  "Privacy policy not reviewed",
+  "International subscription price not confirmed from the official homepage (per e-hub product information sheet)",
+  "Non-English availability not confirmed"
+ ],
+ "shelf": "practice",
+ "source_notes": [
+  "https://www.ecouch.com.au/",
+  "https://www.ehubhealth.com/_files/ugd/847d01_c9919e68fc0f46efa98d19c49acf337f.pdf"
+ ],
+ "status": "screened",
+ "tags": [
+  "cbt",
+  "depression",
+  "anxiety",
+  "social-anxiety",
+  "grief",
+  "divorce",
+  "bereavement",
+  "skills-training",
+  "evidence-based",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+ },
+ {
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "No accessibility statement found on the fetched homepage; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Australian Government service; phone line offers interpreter access via TIS National (131 450). No cultural-adaptation information found on the fetched homepage.",
+  "source_notes": [
+   "https://www.medicarementalhealth.gov.au/"
+  ]
+ },
+ "description": "Free Australian Government mental health navigation service (formerly Head to Health): in-person Medicare Mental Health Centres and Kids Hubs (ages 0-12), a phone service (1800 595 212, weekdays 8:30 am-5 pm), free digital Check In programs for stress, sleep and low mood, and trusted information on feelings, conditions, and supporting others. No referral, diagnosis, or Mental Health Treatment Plan needed.",
+ "evidence_notes": "Australian Government service funded by the Department of Health, Disability and Ageing; no efficacy study was cited on the fetched homepage; effectiveness not evaluated in this screening.",
+ "id": "medicare-mental-health",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English"
+ ],
+ "last_verified_at": "2026-11-19",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Australia-only service (centres, phone line, and Check In programs are for people in Australia). Phone service is weekdays only and is not a crisis service. Not a substitute for professional mental health care.",
+ "name": "Medicare Mental Health",
+ "needs": [
+  "support",
+  "understand",
+  "read"
+ ],
+ "official_url": "https://www.medicarementalhealth.gov.au/",
+ "platforms": [
+  "Web",
+  "Phone"
+ ],
+ "privacy_notes": "Service describes itself as free and confidential; data practices were not reviewed in this screening.",
+ "publisher": "Australian Government Department of Health, Disability and Ageing",
+ "reason": "Screened 2026-11-19: official medicarementalhealth.gov.au homepage fetched live this run (crawled about an hour before the read); free service, no-referral access, Centres, Kids Hubs, phone service 1800 595 212, and Check In digital programs confirmed from the primary source. Formerly branded Head to Health; the rebrand was confirmed against the Gippsland Primary Health Network notice and the Department's June 2026 update. Ready for owner review before any promotion.",
+ "regions": [
+  "Australia"
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "resource-hub",
+ "review_status": "screened",
+ "screening_gaps": [
+  "Privacy policy not reviewed",
+  "Check In digital programs not individually reviewed",
+  "Centre locations and Kids Hub coverage not reviewed"
+ ],
+ "shelf": "reach-out",
+ "source_notes": [
+  "https://www.medicarementalhealth.gov.au/",
+  "https://gphn.org.au/latest-news/head-to-health-phone-service-rebrands-to-medicare-mental-health/"
+ ],
+ "status": "screened",
+ "tags": [
+  "australia",
+  "government",
+  "mental-health-navigation",
+  "phone-support",
+  "digital-programs",
+  "children",
+  "families",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+ },
+ {
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "No accessibility statement found on the fetched pages; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Peer-led grief community for young adults; affinity spaces existed for specific loss experiences and identities while programs ran. No translation information found on the fetched pages.",
+  "source_notes": [
+   "https://www.thedinnerparty.org/"
+  ]
+ },
+ "description": "Grief resource hub for young adults (20s and 30s) who have lost a loved one: self-organizing toolkits for gathering in pairs and groups, including a Year of Gathering guide, conversation starters and activities, community guidelines, and curated resources on navigating life after loss. The organization closed in May 2026 after 16 years; its live Tables and Buddy matching no longer run, and the site now exists as a static resource hub.",
+ "evidence_notes": "2021 survey of 222 participants by social scientists Dr. Laura Brady and Dr. Tobin Belzer: 97% would recommend The Dinner Party to a friend; 95% said their table allowed relationships they would not normally form; 92% said their table played an important role in their grief journey. Peer-support model, not a clinical program; effectiveness not independently evaluated in this screening.",
+ "id": "the-dinner-party",
+ "intended_population": [
+  "adults"
+ ],
+ "languages": [
+  "English"
+ ],
+ "last_verified_at": "2026-11-19",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "The organization officially closed in May 2026: live peer-led Tables and the staff-matched Buddy System no longer run. The site is now a self-serve toolkit for organizing your own grief gatherings, not an active community. Peer support, not therapy; not a substitute for professional care or crisis support.",
+ "name": "The Dinner Party",
+ "needs": [
+  "grief",
+  "support"
+ ],
+ "official_url": "https://www.thedinnerparty.org/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "No account or sign-up is offered on the current resource-hub pages; data practices were not reviewed in this screening.",
+ "publisher": "The Dinner Party (nonprofit; closed May 2026)",
+ "reason": "Screened 2026-11-19: official thedinnerparty.org homepage and About page fetched live this run (crawled under a minute before the read); closure in May 2026, end of live Tables and Buddy matching, and the site's continuation as a free self-serve grief-gathering toolkit confirmed from the primary source. Added with the closure stated plainly so the owner can decide whether a static toolkit belongs in the queue. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; U.S.-based organization."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "resource-hub",
+ "review_status": "screened",
+ "screening_gaps": [
+  "Individual toolkit guides not separately reviewed",
+  "HelpTexts referral (third-party text support) not reviewed",
+  "No live community remains to verify"
+ ],
+ "shelf": "reach-out",
+ "source_notes": [
+  "https://www.thedinnerparty.org/",
+  "https://www.thedinnerparty.org/about"
+ ],
+ "status": "screened",
+ "tags": [
+  "grief",
+  "bereavement",
+  "peer-support",
+  "young-adults",
+  "community",
+  "loss",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+ }
 ]
