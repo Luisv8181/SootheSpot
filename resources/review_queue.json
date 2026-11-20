@@ -38576,5 +38576,242 @@
    "independent-use",
    "with-support"
   ]
- }
+ },
+ {
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "Publisher region and cultural adaptation not stated on the reviewed page. Verify fit for other cultural contexts before recommending.",
+    "source_notes": [
+      "https://moodtools.org/"
+    ]
+  },
+  "description": "Free app with evidence-based tools for low mood: a PHQ-9 depression test with symptom tracking over time, a thought diary for analyzing thoughts and identifying negative or distorted thinking patterns based on cognitive therapy principles, and a suicide safety plan with emergency resources. The site states the app is not a replacement for treatment or any medical intervention.",
+  "evidence_notes": "Official site describes the tools as evidence-based and lists the PHQ-9 questionnaire, a thought diary grounded in cognitive therapy, and a safety plan. No published evaluation of the app was reviewed in this screening.",
+  "id": "mood-tools",
+  "intended_population": [
+    "people experiencing low mood or depression"
+  ],
+  "last_verified_at": "2026-11-20",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "The safety plan feature relates to suicidal crisis; the site's own disclaimer states the app is not a replacement for treatment. Individual features, outcomes, languages, and current store availability were not evaluated in this screening. Self-help tool; does not replace professional care.",
+  "name": "MoodTools",
+  "needs": [
+    "mood",
+    "practice",
+    "understand"
+  ],
+  "official_url": "https://moodtools.org/",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "privacy_notes": "Privacy policy and terms are linked from the site to Medium posts; not reviewed in this screening.",
+  "publisher": "MoodTools",
+  "reason": "Screened 2026-11-20: moodtools.org confirmed live; free PHQ-9 test, thought diary, and safety plan confirmed on the official site. Ready for owner review before any promotion.",
+  "regions": [
+    "Publisher region not stated on the reviewed page. Availability outside the US not stated on the reviewed page."
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+    "individual features not evaluated",
+    "no published evaluation reviewed",
+    "privacy policy not reviewed",
+    "app languages not stated on the reviewed page",
+    "accessibility not confirmed",
+    "parent organization not named on the reviewed page"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+    "https://moodtools.org/"
+  ],
+  "status": "screened",
+  "tags": [
+    "depression",
+    "cbt",
+    "thought-diary",
+    "mood-tracking",
+    "safety-plan",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use",
+    "with-support"
+  ]
+},
+ {
+  "access": [
+    "free",
+    "paid"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "Publisher region and cultural adaptation not stated on the reviewed page. Verify fit for other cultural contexts before recommending.",
+    "source_notes": [
+      "https://www.rootd.io/"
+    ]
+  },
+  "description": "Free-to-download app for anxiety and panic attacks. The Rootr is a big red panic button offering two guided paths: facing a panic attack head-on or finding comfort as quickly as possible, based on cognitive behavioural therapy techniques. Core features free include the Rootr, Breathr deep-breathing tool, Visualizr guided visualizations, a journal, understanding lessons, and an emergency contact; short-term and long-term lessons require a paid Full Access subscription.",
+  "evidence_notes": "Rootd's own contact/FAQ page states the core features are completely free; the Google Play listing (updated November 10, 2026) describes the Rootr as based on CBT techniques and lists a Full Access subscription. The listing calls Rootd scientifically validated; the validation study was not reviewed in this screening.",
+  "id": "rootd",
+  "intended_population": [
+    "people experiencing panic attacks",
+    "people experiencing anxiety"
+  ],
+  "last_verified_at": "2026-11-20",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Short-term and long-term lessons require a paid Full Access subscription. Individual features, outcomes, languages, and accessibility were not evaluated in this screening. Self-help tool; does not replace professional care.",
+  "name": "Rootd",
+  "needs": [
+    "anxiety",
+    "practice",
+    "calm"
+  ],
+  "official_url": "https://www.rootd.io/",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "privacy_notes": "App use and account requirements not reviewed; privacy policy not reviewed in this screening.",
+  "publisher": "Simply Rooted Media",
+  "reason": "Screened 2026-11-20: rootd.io homepage confirmed live; free core features (Rootr, Breathr, journal, Visualizr) confirmed via the app's own FAQ/contact page and Google Play listing. Ready for owner review before any promotion.",
+  "regions": [
+    "Publisher region and availability outside the US not stated on the reviewed page."
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+    "validation study not reviewed",
+    "individual features not evaluated",
+    "privacy policy not reviewed",
+    "app languages not stated on the reviewed page",
+    "accessibility not confirmed",
+    "subscription pricing varies by country and was not confirmed for a specific region"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+    "https://www.rootd.io/",
+    "https://www.rootd.io/contact/"
+  ],
+  "status": "screened",
+  "tags": [
+    "panic-attacks",
+    "anxiety",
+    "cbt",
+    "breathing",
+    "grounding",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+},
+ {
+  "access": [
+    "free",
+    "paid"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "Publisher is UK-based; cultural adaptation not stated on the reviewed page. Verify fit for other cultural contexts before recommending.",
+    "source_notes": [
+      "https://www.mypossibleself.com/mhaw19/"
+    ]
+  },
+  "description": "Mental health app with 10 CBT-based self-help learning modules (managing major loss and life changes, stress and overload, problem solving, fear and anxiety, unhelpful thinking, worry, pleasurable activities, communicating clearly, breathing and relaxation), plus a free mood tracker and insights tool, usable on iOS, Android, or the web. The site states the module content was tested in a randomised controlled trial with the Black Dog Institute and is clinically backed by an in-house psychology team; it is featured in the NHS Digital Apps Library and Good Thinking.",
+  "evidence_notes": "Site states the learning-module content was tested in a randomised controlled trial with the Black Dog Institute, reporting reduced stress, anxiety and low mood in 8 weeks, and that an in-house psychology team clinically backs the content. The trial itself was not reviewed in this screening.",
+  "id": "my-possible-self",
+  "intended_population": [
+    "people experiencing stress, anxiety or low mood"
+  ],
+  "last_verified_at": "2026-11-20",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Full module access was priced at 5.99 GBP on the site's 2019 offer page; current subscription pricing was not confirmed on the pages reviewed this run. Sign-up requires an email address. The site states the app is not intended for people in an emergency. Individual features, outcomes, languages, and accessibility were not evaluated in this screening. Self-help tool; does not replace professional care.",
+  "name": "My Possible Self",
+  "needs": [
+    "stress",
+    "anxiety",
+    "mood",
+    "practice"
+  ],
+  "official_url": "https://www.mypossibleself.com/",
+  "platforms": [
+    "iOS",
+    "Android",
+    "web"
+  ],
+  "privacy_notes": "Privacy policy is linked from the Google Play listing (app.mypossibleself.com); not reviewed in this screening. Sign-up requires an email address.",
+  "publisher": "My Possible Self Ltd",
+  "publisher_region": "United Kingdom",
+  "reason": "Screened 2026-11-20: mypossibleself.com confirmed live; 10 CBT-based modules and free mood tracker confirmed on the site; Google Play listing (updated November 9, 2026) confirms free download. Ready for owner review before any promotion.",
+  "regions": [
+    "United Kingdom; publisher is My Possible Self Ltd, Harrogate, UK. Availability outside the UK not stated on the reviewed page."
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+    "current subscription pricing not confirmed",
+    "randomised controlled trial not reviewed",
+    "individual features not evaluated",
+    "privacy policy not reviewed",
+    "app languages not stated on the reviewed page",
+    "accessibility not confirmed"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+    "https://www.mypossibleself.com/mhaw19/",
+    "https://www.priorygroup.com/my-possible-self"
+  ],
+  "status": "screened",
+  "tags": [
+    "anxiety",
+    "stress",
+    "depression",
+    "cbt",
+    "mood-tracking",
+    "independent-use"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+}
 ]
