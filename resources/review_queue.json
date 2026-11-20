@@ -38813,5 +38813,247 @@
   "use_context": [
     "independent-use"
   ]
+},
+{
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "U.S.-based nonprofit; the homepage reports work in 50 states and 36 countries. Fit for specific cultural contexts not assessed.",
+  "source_notes": [
+   "https://casel.org/"
+  ]
+ },
+ "description": "Nonprofit organization advancing evidence-based social and emotional learning (SEL) from preschool through high school. Publishes the CASEL framework of five core competencies, the CASEL Program Guide for selecting evidence-based SEL programs (110 programs), research reports, and guidance for educators, schools, districts, and states. Homepage reports reach of 34 million students and 130,000 educators annually, across 50 states and 36 countries.",
+ "evidence_notes": "Publisher describes its SEL approach as evidence-based; the Program Guide identifies 110 programs. Individual program evaluations and the reach figures are the publisher's and were not independently evaluated in this screening.",
+ "id": "casel-sel-framework",
+ "intended_population": [
+  "educators",
+  "children",
+  "adolescents"
+ ],
+ "languages": [
+  "English"
+ ],
+ "last_verified_at": "2026-11-20",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Educator- and school-facing, not a direct self-help tool for an individual in distress; implementation support and professional learning may be paid (pricing not stated on the reviewed homepage). Informational/framework content; does not replace professional mental health care.",
+ "name": "CASEL - Collaborative for Academic, Social, and Emotional Learning",
+ "needs": [
+  "understand",
+  "practice"
+ ],
+ "official_url": "https://casel.org/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Website content readable without an account per the reviewed homepage. Newsletter signup offered; its data handling was not reviewed in this screening.",
+ "publisher": "Collaborative for Academic, Social, and Emotional Learning (CASEL)",
+ "reason": "Screened 2026-11-20: official casel.org confirmed live; nonprofit publisher, SEL framework, 110-program Program Guide, and reach figures confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; U.S.-based publisher."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "resource-hub",
+ "review_status": "screened",
+ "screening_gaps": [
+  "professional-learning pricing not confirmed",
+  "non-English availability not confirmed",
+  "privacy policy not reviewed",
+  "accessibility not confirmed"
+ ],
+ "shelf": "practice",
+ "source_notes": [
+  "https://casel.org/"
+ ],
+ "status": "screened",
+ "tags": [
+  "sel",
+  "social-emotional-learning",
+  "emotional-intelligence",
+  "schools",
+  "educators",
+  "framework",
+  "evidence-based",
+  "independent-use"
+ ],
+ "use_context": [
+  "with-support"
+ ]
+},
+{
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "U.S.-based foundation; homepage reports 7 million children impacted globally. Fit for specific cultural contexts not assessed.",
+  "source_notes": [
+   "https://mindup.org/"
+  ]
+ },
+ "description": "Preventative mental health program for schools, in operation since 2003, teaching mental-fitness tools (neuroscience, mindful awareness and the Brain Break, cognitive flexibility, positive psychology) to students, educators, and families. Includes the Brain Break mindful-awareness practice, the Brain Buddies animated video, The Teen Brain film, and an After-School Kindness Crew. Free membership registration gives access to resources; the full curriculum's cost was not stated on the reviewed homepage.",
+ "evidence_notes": "Publisher describes the curriculum as evidence-based and cites Schonert-Reichl & Lawlor (2010) and Schonert-Reichl et al. (2015) for outcomes including better stress regulation (cortisol), improved academic performance, and greater self-regulation. The cited studies were not reviewed in this screening. The homepage states MindUP is identified by the CDC as effective in promoting student mental health.",
+ "id": "mindup-goldie-hawn-foundation",
+ "intended_population": [
+  "children",
+  "adolescents",
+  "educators"
+ ],
+ "languages": [
+  "English"
+ ],
+ "last_verified_at": "2026-11-20",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "School-facing curriculum, not a direct self-help tool for an individual in distress; full-curriculum cost and licensing not stated on the reviewed homepage. Publisher outcome claims not independently evaluated. Educational/preventative content; does not replace professional mental health care.",
+ "name": "MindUP (The Goldie Hawn Foundation)",
+ "needs": [
+  "practice",
+  "calm",
+  "understand"
+ ],
+ "official_url": "https://mindup.org/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Free membership registration is required to access some resources; the membership's data handling was not reviewed in this screening.",
+ "publisher": "MindUP, The Goldie Hawn Foundation",
+ "reason": "Screened 2026-11-20: official mindup.org confirmed live; publisher, 20+ year history, Brain Break practice, cited studies, CDC identification, and free membership confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; U.S.-based publisher (Santa Monica, CA)."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "community-program",
+ "review_status": "screened",
+ "screening_gaps": [
+  "full curriculum cost and licensing not confirmed",
+  "cited studies not reviewed",
+  "membership data practices not reviewed",
+  "accessibility not confirmed",
+  "non-English availability not confirmed"
+ ],
+ "shelf": "practice",
+ "source_notes": [
+  "https://mindup.org/"
+ ],
+ "status": "screened",
+ "tags": [
+  "mindfulness",
+  "sel",
+  "mental-fitness",
+  "brain-break",
+  "schools",
+  "children",
+  "resilience",
+  "emotional-regulation",
+  "independent-use"
+ ],
+ "use_context": [
+  "with-support"
+ ]
+},
+{
+ "access": [
+  "paid"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Developed at Yale; packages available in English and Spanish and trainings offered outside the US per the publisher FAQ. Fit for specific cultural contexts not assessed.",
+  "source_notes": [
+   "https://rulerapproach.org/"
+  ]
+ },
+ "description": "Evidence-based social and emotional learning approach developed at the Yale Center for Emotional Intelligence, built around five emotional-intelligence skills (Recognizing, Understanding, Labeling, Expressing, Regulating emotions) and the Mood Meter tool. Whole-school implementation for pre-K to 12, starting with staff learning and continuing with classroom instruction and family engagement. Entry is through a RULER Institute training package: $6,000 for 3 staff online (6 weeks) or $7,500 for 3 staff at Yale (2 days), including two years of implementation support, the preK-12 curriculum, RULER Online access, coaching, and family resources. No upcoming sessions were listed on the reviewed training page.",
+ "evidence_notes": "Publisher describes RULER as evidence-based and notes its CASEL SELect designation (evidence-based, well-designed, classroom-based, multiyear programming). Individual evaluation studies were not reviewed in this screening.",
+ "id": "ruler-yale-emotional-intelligence",
+ "intended_population": [
+  "children",
+  "adolescents",
+  "educators"
+ ],
+ "languages": [
+  "English",
+  "Spanish"
+ ],
+ "last_verified_at": "2026-11-20",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Paid whole-school training program ($6,000-$7,500 per 3 staff), not a free or individual self-help tool; no upcoming training sessions listed on the reviewed page. School-facing; does not replace professional mental health care.",
+ "name": "RULER Approach (Yale Center for Emotional Intelligence)",
+ "needs": [
+  "practice",
+  "understand",
+  "calm"
+ ],
+ "official_url": "https://rulerapproach.org/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Website readable without an account per the reviewed pages. Training registration and RULER Online data handling were not reviewed in this screening.",
+ "publisher": "Yale Center for Emotional Intelligence",
+ "reason": "Screened 2026-11-20: official rulerapproach.org confirmed live; Yale Center publisher, five-skill framework, Mood Meter, CASEL SELect designation, and Institute pricing confirmed from the primary source (homepage + training page). Ready for owner review before any promotion.",
+ "regions": [
+  "Global; U.S.-based publisher; trainings offered outside the US per the FAQ."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "community-program",
+ "review_status": "screened",
+ "screening_gaps": [
+  "individual evaluation studies not reviewed",
+  "training availability (no upcoming sessions listed)",
+  "RULER Online data practices not reviewed",
+  "accessibility not confirmed"
+ ],
+ "shelf": "practice",
+ "source_notes": [
+  "https://rulerapproach.org/",
+  "https://rulerapproach.org/offerings/events/"
+ ],
+ "status": "screened",
+ "tags": [
+  "sel",
+  "emotional-intelligence",
+  "mood-meter",
+  "schools",
+  "educators",
+  "evidence-based",
+  "emotional-regulation"
+ ],
+ "use_context": [
+  "with-support"
+ ]
 }
 ]
