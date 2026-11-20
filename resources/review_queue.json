@@ -37860,5 +37860,266 @@
  "use_context": [
   "independent-use"
  ]
+ },
+ {
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Transcripts (PDF) are provided for some talks, per the fetched page; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "original",
+  "notes": "Insight Meditation (Vipassana) tradition rooted in Buddhist practice; the site states it is offered to people of all cultures, ethnicities, and religions. Verify fit for other cultural contexts before recommending.",
+  "source_notes": [
+   "https://audiodharma.org/"
+  ]
+ },
+ "description": "Free, donation-supported archive of Dharma talks and guided meditations from Insight Meditation Center teachers (Gil Fronsdal, Andrea Fella, Matthew Brensilver, Nikki Mirghafori, Ying Chen, and others), updated several times a week; many talks include written transcripts (PDF). Offered to people of all cultures, ethnicities, and religions per the site.",
+ "duration_options_minutes": [
+  3,
+  5,
+  9,
+  10,
+  13,
+  14,
+  23,
+  25,
+  28,
+  32,
+  33,
+  35,
+  43,
+  44,
+  45,
+  50,
+  58,
+  63
+ ],
+ "evidence_notes": "Publisher is a Buddhist meditation center (Insight Meditation Center); talks teach Insight/Vipassana meditation. No efficacy claims evaluated in this screening.",
+ "id": "audiodharma",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English"
+ ],
+ "last_verified_at": "2026-11-19",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Dharma talks are rooted in Buddhist teaching; the site states the offering is for people of all cultures, ethnicities, and religions. Educational/spiritual content; does not replace professional mental health care.",
+ "name": "AudioDharma",
+ "needs": [
+  "listen",
+  "calm",
+  "understand"
+ ],
+ "official_url": "https://audiodharma.org/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Audio streams from the publisher site; no account noted. Privacy policy not reviewed in this screening.",
+ "publisher": "Insight Meditation Center (IMC)",
+ "reason": "Screened 2026-11-19: official audiodharma.org homepage confirmed live; free talk/meditation archive with same-week updates (Nov 16-19, 2026) and PDF transcripts for some talks confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; U.S.-based publisher."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "audio-library",
+ "review_status": "screened",
+ "screening_gaps": [
+  "privacy policy not reviewed",
+  "accessibility not confirmed",
+  "non-English availability not confirmed"
+ ],
+ "shelf": "listen",
+ "source_notes": [
+  "https://audiodharma.org/"
+ ],
+ "status": "screened",
+ "tags": [
+  "meditation",
+  "mindfulness",
+  "dharma-talks",
+  "vipassana",
+  "guided-meditation",
+  "transcripts",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+ },
+ {
+ "access": [
+  "free",
+  "paid"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "original",
+  "notes": "Mindfulness teaching rooted in Buddhist practice, presented for a general audience; founder is U.S.-based. Verify fit for other cultural contexts before recommending.",
+  "source_notes": [
+   "https://mindfulnessexercises.com/"
+  ]
+ },
+ "description": "Free, donation-supported library of 3,000+ mindfulness practices: guided audio meditations, scripts, worksheets, podcasts, and talks, mostly 3-10 minutes, plus free live weekly meditations and a free community. Also sells an accredited Mindfulness Meditation Teacher Certification, trauma-sensitive training, and a paid MindfulPro tool for professionals.",
+ "duration_options_minutes": [
+  3,
+  10,
+  20,
+  30
+ ],
+ "evidence_notes": "Founder Sean Fargo is a former Buddhist monk and IMTA-certified teacher, mentored under Jack Kornfield and endorsed by Kornfield, Gabor Mate, Rick Hanson, Sharon Salzberg, and Christopher Germer per the site. Individual practices and endorsement claims not independently evaluated.",
+ "id": "mindfulness-exercises",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English"
+ ],
+ "last_verified_at": "2026-11-19",
+ "license_notes": "External resource. SootheSpot stores metadata only. Scripts are free to download and reuse with attribution per the publisher page.",
+ "limitations": "Free library is the relevant section; the site heavily promotes paid certification (curriculum from $495, trauma training $297) and a paid MindfulPro subscription ($39/mo after a 14-day trial). The 'world's largest free mindfulness library' and '20 million+ people' figures are publisher marketing claims, not independently verified. Educational/self-care content; does not replace professional care.",
+ "name": "Mindfulness Exercises",
+ "needs": [
+  "listen",
+  "practice",
+  "calm",
+  "understand"
+ ],
+ "official_url": "https://mindfulnessexercises.com/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Free library content is browsable on the website; community and live sessions involve joining a list. Privacy policy and data practices not reviewed in this screening.",
+ "publisher": "Mindfulness Exercises (Sean Fargo, founder)",
+ "reason": "Screened 2026-11-19: official mindfulnessexercises.com confirmed live; free 3,000+ practice library, free live weekly sessions, and free community confirmed from the primary source; paid certification and MindfulPro pricing recorded from the same page. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; publisher region not stated on the reviewed page."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "audio-library",
+ "review_status": "screened",
+ "screening_gaps": [
+  "privacy policy and data practices not reviewed",
+  "accessibility not confirmed",
+  "non-English availability not confirmed",
+  "publisher marketing claims (library size, user count) not independently verified"
+ ],
+ "shelf": "practice",
+ "source_notes": [
+  "https://mindfulnessexercises.com/"
+ ],
+ "status": "screened",
+ "tags": [
+  "mindfulness",
+  "meditation",
+  "guided-meditation",
+  "scripts",
+  "worksheets",
+  "teacher-training",
+  "live-sessions",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use",
+  "therapist-guided"
+ ]
+ },
+ {
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Publisher region and cultural adaptation not stated on the reviewed page. Verify fit for other cultural contexts before recommending.",
+  "source_notes": [
+   "https://positivepsychology.com/"
+  ]
+ },
+ "description": "Library of 1,000+ science-backed articles on positive psychology and mental health (recent pieces July-September 2026 by named PhD authors), plus expert-created courses and a practical tools library for practitioners and the people they support.",
+ "evidence_notes": "Articles are written by named PhD-level authors and described as science-backed; individual articles and claims not evaluated in this screening.",
+ "id": "positive-psychology-com",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English"
+ ],
+ "last_verified_at": "2026-11-19",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Primarily practitioner-facing: courses and the tools library are aimed at professionals supporting clients. The site also sells paid courses and tools; pricing and free-vs-paid scope were not confirmed on the fetched homepage. Informational only; does not replace professional care.",
+ "name": "PositivePsychology.com",
+ "needs": [
+  "read",
+  "understand",
+  "practice"
+ ],
+ "official_url": "https://positivepsychology.com/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Articles are readable on the website; no account noted for article reading. Privacy policy not reviewed in this screening.",
+ "publisher": "PositivePsychology.com",
+ "reason": "Screened 2026-11-19: official positivepsychology.com confirmed live; 1,000+ article library with recent 2026 pieces by named PhD authors confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; publisher region not stated on the reviewed page."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "article-library",
+ "review_status": "screened",
+ "screening_gaps": [
+  "privacy policy not reviewed",
+  "accessibility not confirmed",
+  "courses and tools library pricing and free-vs-paid scope not confirmed",
+  "individual articles not evaluated"
+ ],
+ "shelf": "read",
+ "source_notes": [
+  "https://positivepsychology.com/"
+ ],
+ "status": "screened",
+ "tags": [
+  "positive-psychology",
+  "psychoeducation",
+  "wellbeing",
+  "resilience",
+  "articles",
+  "practitioner-tools",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use",
+  "therapist-guided"
+ ]
  }
 ]
