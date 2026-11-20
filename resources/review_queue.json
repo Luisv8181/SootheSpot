@@ -38121,5 +38121,246 @@
   "independent-use",
   "therapist-guided"
  ]
+ },
+ {
+ "access": [
+  "free",
+  "paid"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Publisher region and cultural adaptation not stated on the reviewed page. Verify fit for other cultural contexts before recommending.",
+  "source_notes": [
+   "https://www.breathwrk.com/"
+  ]
+ },
+ "description": "Breathing-exercise app with 50+ guided breathing exercises across 5 use-case categories (calming, sleep, energizing, performance), plus guided classes led by breathwork coaches, curated daily habits, and breath-hold challenges. Free tier gives limited access to exercises and classes; full library is Breathwrk Pro.",
+ "evidence_notes": "Site describes the exercises as science-backed and rooted in clinical evidence; no specific studies are cited on the reviewed homepage. Individual exercises and claims not evaluated in this screening.",
+ "id": "breathwrk",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English (per the reviewed homepage)"
+ ],
+ "last_verified_at": "2026-11-20",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Free tier limits access to exercises and classes; full library requires Breathwrk Pro ($4.08/month on annual billing or $9.00/month, with a 7-day free trial, as listed on the reviewed homepage). Breathing exercises are a coping tool, not a substitute for professional care; people with respiratory or cardiovascular conditions should check with a clinician before breath-hold or high-frequency breathing practices.",
+ "name": "Breathwrk",
+ "needs": [
+  "practice",
+  "calm"
+ ],
+ "official_url": "https://www.breathwrk.com/",
+ "platforms": [
+  "iOS",
+  "Android",
+  "Web"
+ ],
+ "privacy_notes": "App use and account requirements not reviewed; privacy policy not reviewed in this screening.",
+ "publisher": "Breathwrk",
+ "reason": "Screened 2026-11-20: official breathwrk.com confirmed live; 50+ breathing exercises, guided classes, and a free tier confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; publisher region not stated on the reviewed page."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "mobile-app",
+ "review_status": "screened",
+ "screening_gaps": [
+  "privacy policy not reviewed",
+  "accessibility not confirmed",
+  "free-vs-paid boundary confirmed only from the homepage pricing section",
+  "individual exercises not evaluated"
+ ],
+ "shelf": "breathe",
+ "source_notes": [
+  "https://www.breathwrk.com/"
+ ],
+ "status": "screened",
+ "tags": [
+  "breathing",
+  "breathwork",
+  "stress",
+  "anxiety",
+  "sleep",
+  "focus",
+  "guided-practice",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+ },
+ {
+ "access": [
+  "free",
+  "paid"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Publisher region and cultural adaptation not stated on the reviewed page. Verify fit for other cultural contexts before recommending.",
+  "source_notes": [
+   "https://www.getmoodfit.com/"
+  ]
+ },
+ "description": "Customizable mental-health toolkit app: mood journal, gratitude journal, breathwork, mindfulness, CBT thought records, grounding tool, sleep/exercise/nutrition tracking, mental-health assessments, and weekly insight reports. Preconfigured programs (Destress, Gratitude, Positive, Relax) set daily goals; positioned as a companion to therapy.",
+ "evidence_notes": "Site says tools are based on mental-health best practices and cites being voted 'Best Overall Mental Health App' 3 years in a row by Verywell Mind; no peer-reviewed studies are cited on the reviewed homepage. Individual tools and claims not evaluated in this screening.",
+ "id": "moodfit",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English (per the reviewed homepage)"
+ ],
+ "last_verified_at": "2026-11-20",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Premium features sit behind a paywall after a 7-day free trial; what stays free was not stated on the reviewed homepage. Self-monitoring and coping tool; does not replace professional care.",
+ "name": "Moodfit",
+ "needs": [
+  "practice",
+  "understand"
+ ],
+ "official_url": "https://www.getmoodfit.com/",
+ "platforms": [
+  "iOS",
+  "Android"
+ ],
+ "privacy_notes": "App use and account requirements not reviewed; privacy policy not reviewed in this screening.",
+ "publisher": "Roble Ridge Software LLC",
+ "reason": "Screened 2026-11-20: official getmoodfit.com confirmed live; mood journal, CBT tools, breathwork, and program structure confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "United States; publisher address listed as Palo Alto, CA. Global availability not stated on the reviewed page."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "mobile-app",
+ "review_status": "screened",
+ "screening_gaps": [
+  "privacy policy not reviewed",
+  "accessibility not confirmed",
+  "free-tier scope not stated on the reviewed homepage",
+  "individual tools not evaluated"
+ ],
+ "shelf": "practice",
+ "source_notes": [
+  "https://www.getmoodfit.com/"
+ ],
+ "status": "screened",
+ "tags": [
+  "mood-tracking",
+  "journaling",
+  "gratitude",
+  "cbt",
+  "breathwork",
+  "mindfulness",
+  "grounding",
+  "sleep",
+  "self-monitoring",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use",
+  "therapist-guided"
+ ]
+ },
+ {
+ "access": [
+  "free",
+  "paid"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "unknown",
+  "notes": "Publisher region and cultural adaptation not stated on the reviewed page. The app notes diverse teacher voices; verify fit for other cultural contexts before recommending.",
+  "source_notes": [
+   "https://www.tenpercent.com/"
+  ]
+ },
+ "description": "Meditation and mindfulness app (formerly Ten Percent Happier, now Happier Meditation) with guided meditations, step-by-step courses (Unlearn to Meditate, Taming Anxiety, Focus, Relationships, Mindful Eating), sleep meditations, teacher talks, and podcasts. Free account includes three courses and 50+ guided meditations; subscription unlocks everything. Monthly check-ins build a personalized meditation plan.",
+ "evidence_notes": "Content is taught by named, experienced meditation teachers (including Sharon Salzberg, Joseph Goldstein, and Jon Kabat-Zinn) in the Insight Meditation tradition; the site does not cite peer-reviewed outcome studies on the reviewed homepage. Individual courses and claims not evaluated in this screening.",
+ "id": "ten-percent-happier",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English (per the reviewed homepage)"
+ ],
+ "last_verified_at": "2026-11-20",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Full library requires a subscription ($99.99/year as listed on the reviewed homepage); free tier covers three courses and 50+ guided meditations. Mobile only (iPhone, iPad, Apple Watch, Android); not available through a web browser. Meditation app; does not replace professional care.",
+ "name": "Happier Meditation (formerly Ten Percent Happier)",
+ "needs": [
+  "practice",
+  "calm"
+ ],
+ "official_url": "https://www.tenpercent.com/",
+ "platforms": [
+  "iOS",
+  "Android"
+ ],
+ "privacy_notes": "App use and account requirements not reviewed; privacy policy not reviewed in this screening.",
+ "publisher": "Ten Percent Happier (Happier Meditation)",
+ "reason": "Screened 2026-11-20: official tenpercent.com confirmed live; free tier (three courses, 50+ meditations), $99.99/year subscription, and teacher roster confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; publisher region not stated on the reviewed page."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "mobile-app",
+ "review_status": "screened",
+ "screening_gaps": [
+  "privacy policy not reviewed",
+  "accessibility not confirmed",
+  "languages other than English not stated on the reviewed page",
+  "individual courses and meditations not evaluated"
+ ],
+ "shelf": "practice",
+ "source_notes": [
+  "https://www.tenpercent.com/"
+ ],
+ "status": "screened",
+ "tags": [
+  "meditation",
+  "mindfulness",
+  "anxiety",
+  "stress",
+  "sleep",
+  "courses",
+  "guided-practice",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
  }
 ]
