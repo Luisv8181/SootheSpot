@@ -37636,5 +37636,229 @@
  "use_context": [
   "independent-use"
  ]
+ },
+ {
+ "access": [
+  "free",
+  "paid"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "original",
+  "notes": "U.S. university course; examples and framing are U.S.-centric. A teen version and a parents version are linked from the course page.",
+  "source_notes": [
+   "https://www.coursera.org/learn/the-science-of-well-being"
+  ]
+ },
+ "description": "Yale University's popular wellbeing course taught by psychology professor Laurie Santos: 6 modules (about 19 hours total, self-paced) covering misconceptions about happiness and research-backed practices including savoring, gratitude, kindness, social connection, exercise, sleep, and meditation. Over 5 million learners enrolled; a teen version and a parents version are also offered.",
+ "evidence_notes": "University course grounded in psychology research per the instructor and course framing; the course content summarizes peer-reviewed findings. Effectiveness of the course itself was not evaluated in this screening.",
+ "id": "science-of-well-being-yale-coursera",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English"
+ ],
+ "last_verified_at": "2026-11-19",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Educational course, not therapy or clinical care. The certificate is paid; free access is the audit (Full Course, No Certificate) option per Coursera's FAQ. Some assignments are AI-graded per the course page. Does not replace professional mental health care.",
+ "name": "The Science of Well-Being (Yale / Coursera)",
+ "needs": [
+  "practice",
+  "understand"
+ ],
+ "official_url": "https://www.coursera.org/learn/the-science-of-well-being",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Coursera account required to enroll. Coursera's data practices were not reviewed in this screening.",
+ "publisher": "Yale University (Laurie Santos), via Coursera",
+ "reason": "Screened 2026-11-19: official Coursera page confirmed live; Yale publisher, instructor Laurie Santos, 6-module structure, 5M+ enrollment, and the free-audit option confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; U.S.-based publisher."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "online-course",
+ "review_status": "screened",
+ "screening_gaps": [
+  "subtitle and transcript availability not confirmed",
+  "Coursera data practices not reviewed",
+  "free-audit availability not re-verified at enrollment time"
+ ],
+ "shelf": "practice",
+ "source_notes": [
+  "https://www.coursera.org/learn/the-science-of-well-being"
+ ],
+ "status": "screened",
+ "tags": [
+  "wellbeing",
+  "happiness",
+  "gratitude",
+  "kindness",
+  "course",
+  "psychoeducation",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+ },
+ {
+ "access": [
+  "free"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "original",
+  "notes": "Buddhist Insight Meditation tradition; content is religious and spiritual in framing. Record for owner judgment on fit.",
+  "source_notes": [
+   "https://dharmaseed.org/talks/"
+  ]
+ },
+ "description": "Free, searchable library of recorded dharma talks from Insight Meditation teachers, with recent talks (November 2026) running about 30-45 minutes and carrying written descriptions. Talks are browsable and searchable by title and description, and are also available as a podcast. Site content is licensed CC BY-NC-ND 4.0.",
+ "evidence_notes": "Buddhist Insight Meditation teachings; no clinical claims made or evaluated in this screening.",
+ "id": "dharma-seed-talks",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English"
+ ],
+ "last_verified_at": "2026-11-19",
+ "license_notes": "External resource. SootheSpot stores metadata only. Site content licensed CC BY-NC-ND 4.0 per the homepage.",
+ "limitations": "Religious and spiritual content (Buddhist Insight Meditation tradition); may not suit all users. Educational and spiritual talks, not therapy or clinical care.",
+ "name": "Dharma Seed - Dharma Talks",
+ "needs": [
+  "listen",
+  "calm"
+ ],
+ "official_url": "https://dharmaseed.org/talks/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Talks stream or download from the site; no account noted on the reviewed pages. Site data practices were not reviewed in this screening.",
+ "publisher": "Dharma Seed (501(c)(3) nonprofit)",
+ "reason": "Screened 2026-11-19: official Dharma Seed talks page confirmed live; free searchable talk library with recent talks (November 2026), podcast option, nonprofit status, and CC BY-NC-ND 4.0 license confirmed from the primary source. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; U.S.-based nonprofit."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "audio-library",
+ "review_status": "screened",
+ "screening_gaps": [
+  "non-English talk availability not confirmed",
+  "transcript availability not confirmed"
+ ],
+ "shelf": "listen",
+ "source_notes": [
+  "https://dharmaseed.org/talks/",
+  "https://dharmaseed.org/"
+ ],
+ "status": "screened",
+ "tags": [
+  "meditation",
+  "dharma",
+  "insight-meditation",
+  "talks",
+  "podcast",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
+ },
+ {
+ "access": [
+  "free",
+  "paid"
+ ],
+ "accessibility": [
+  "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+ ],
+ "cultural_context": {
+  "adaptation_status": "original",
+  "notes": "Mindful Self-Compassion is taught internationally by trained teachers; the reviewed homepage is the U.S. organization's site. Fit for other cultural contexts not assessed.",
+  "source_notes": [
+   "https://centerformsc.org/"
+  ]
+ },
+ "description": "Home of the Mindful Self-Compassion (MSC) program co-founded by Kristin Neff and Chris Germer. Offers 10-week live online MSC courses, free information sessions, retreats, and teacher training; the site also publishes guided meditations and articles from the MSC community.",
+ "evidence_notes": "MSC is the program developed by Kristin Neff and Chris Germer; the site describes its programs as empirically supported. Individual claims were not evaluated in this screening.",
+ "id": "center-for-mindful-self-compassion",
+ "intended_population": [
+  "general"
+ ],
+ "languages": [
+  "English"
+ ],
+ "last_verified_at": "2026-11-19",
+ "license_notes": "External resource. SootheSpot stores metadata only.",
+ "limitations": "Core offering is a paid 10-week live online course ($595, with a $100 discount for attending a free information session and scholarships possibly available). Primarily a training organization, not a free self-help library; the free self-compassion practices live on self-compassion.org (already in the queue). Not a substitute for professional care.",
+ "name": "Center for Mindful Self-Compassion (CMSC)",
+ "needs": [
+  "practice",
+  "calm"
+ ],
+ "official_url": "https://centerformsc.org/",
+ "platforms": [
+  "Web"
+ ],
+ "privacy_notes": "Course enrollment and newsletter signup run through the site; data practices were not reviewed in this screening.",
+ "publisher": "Center for Mindful Self-Compassion (501(c)(3))",
+ "reason": "Screened 2026-11-19: official CMSC homepage confirmed live; 501(c)(3) publisher, MSC program co-founders Neff and Germer, 10-week live online course pricing ($595 with info-session discount), and free information sessions confirmed from the primary source. Paid core offering recorded honestly. Ready for owner review before any promotion.",
+ "regions": [
+  "Global; U.S.-based nonprofit."
+ ],
+ "required_before_verified": [
+  "official_url_checked",
+  "publisher_confirmed",
+  "purpose_and_population_confirmed",
+  "independent_use_scope_confirmed",
+  "limitations_recorded",
+  "date_checked_recorded",
+  "primary_source_recorded"
+ ],
+ "resource_type": "online-course",
+ "review_status": "screened",
+ "screening_gaps": [
+  "free meditation and article scope not fully inventoried",
+  "non-English availability not confirmed",
+  "scholarship terms not verified"
+ ],
+ "shelf": "practice",
+ "source_notes": [
+  "https://centerformsc.org/"
+ ],
+ "status": "screened",
+ "tags": [
+  "self-compassion",
+  "mindfulness",
+  "msc",
+  "course",
+  "independent-use"
+ ],
+ "use_context": [
+  "independent-use"
+ ]
  }
 ]
