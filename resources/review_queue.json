@@ -38362,5 +38362,219 @@
  "use_context": [
   "independent-use"
  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Publisher region and cultural adaptation not stated on the reviewed page. Verify fit for other cultural contexts before recommending.",
+   "source_notes": [
+    "https://health.mil/Military-Health-Topics/Centers-of-Excellence/Psychological-Health-Center-of-Excellence/Clinicians-Corner-Blog/Provider-Resources/Providers-Helping-Patients-Access-Mental-Health-Resources-an-Arms-Length-Away"
+   ]
+  },
+  "description": "Free mobile app for veterans with nightmares, built on imagery rehearsal therapy; listed by the Defense Health Agency among five free mental health apps whose content is supported by its Psychological Health Center of Excellence. The published evaluation (Speed et al., 2020) describes DreamEZ as a mobile application for veterans with nightmares. Individual features were not described on the reviewed page.",
+  "evidence_notes": "Named in a November 6, 2026 Defense Health Agency article among five free mental health apps; the article cites Speed, Denneson and Dobscha (2020), 'DreamEZ: A mobile application for veterans with nightmares,' Psychological Services, 20(S1), 105-112. Individual features and outcomes were not evaluated in this screening.",
+  "id": "dream-ez",
+  "intended_population": [
+   "veterans"
+  ],
+  "last_verified_at": "2026-11-20",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "No dedicated app page was found on health.mil: the app is named only in the DHA article's collective list and its reference list, so features, platforms, languages, and current availability could not be confirmed from the reviewed page. Built for veterans with nightmares; a coping and support tool, not a substitute for professional care.",
+  "name": "Dream EZ",
+  "needs": [
+   "practice",
+   "sleep"
+  ],
+  "official_url": "https://health.mil/Military-Health-Topics/Centers-of-Excellence/Psychological-Health-Center-of-Excellence/Clinicians-Corner-Blog/Provider-Resources/Providers-Helping-Patients-Access-Mental-Health-Resources-an-Arms-Length-Away",
+  "privacy_notes": "App use and account requirements not reviewed; privacy policy not reviewed in this screening.",
+  "publisher": "Defense Health Agency (Psychological Health Center of Excellence)",
+  "reason": "Screened 2026-11-20: DHA article (November 6, 2026) confirmed live; Dream EZ named among five free DHA mental health apps, with the 2020 DreamEZ evaluation cited. Ready for owner review before any promotion.",
+  "regions": [
+   "United States; publisher is the US Defense Health Agency. Availability outside the US not stated on the reviewed page."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+   "no dedicated app page found; named only in article list and references",
+   "platforms not stated on the reviewed page",
+   "app languages not stated on the reviewed page",
+   "privacy policy not reviewed",
+   "accessibility not confirmed",
+   "individual features not evaluated"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://health.mil/Military-Health-Topics/Centers-of-Excellence/Psychological-Health-Center-of-Excellence/Clinicians-Corner-Blog/Provider-Resources/Providers-Helping-Patients-Access-Mental-Health-Resources-an-Arms-Length-Away"
+  ],
+  "status": "screened",
+  "tags": [
+   "nightmares",
+   "sleep",
+   "imagery-rehearsal",
+   "veterans",
+   "cbt",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use",
+   "with-support"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Publisher region and cultural adaptation not stated on the reviewed page. Verify fit for other cultural contexts before recommending.",
+   "source_notes": [
+    "https://health.mil/Military-Health-Topics/Centers-of-Excellence/Psychological-Health-Center-of-Excellence/Clinicians-Corner-Blog/Provider-Resources/Providers-Helping-Patients-Access-Mental-Health-Resources-an-Arms-Length-Away"
+   ]
+  },
+  "description": "Free mobile app for mental health care providers, aimed at reducing burnout; listed by the Defense Health Agency among five free mental health apps whose content is supported by its Psychological Health Center of Excellence. The published evaluation (Wood et al., 2017) reports on burnout reduction in mental health care providers using the app. Individual features were not described on the reviewed page.",
+  "evidence_notes": "Named in a November 6, 2026 Defense Health Agency article among five free mental health apps; the article cites Wood et al. (2017), 'Reduction of Burnout in Mental Health Care Providers Using the Provider Resilience Mobile Application,' Community Mental Health Journal, 53(4), 452-459. Individual features and outcomes were not evaluated in this screening.",
+  "id": "provider-resilience",
+  "intended_population": [
+   "mental-health-providers"
+  ],
+  "last_verified_at": "2026-11-20",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "No dedicated app page was found on health.mil: the app is named only in the DHA article's collective list and its reference list, so features, platforms, languages, and current availability could not be confirmed from the reviewed page. Designed for mental health care providers rather than general clients; a support tool, not a substitute for professional care.",
+  "name": "Provider Resilience",
+  "needs": [
+   "practice"
+  ],
+  "official_url": "https://health.mil/Military-Health-Topics/Centers-of-Excellence/Psychological-Health-Center-of-Excellence/Clinicians-Corner-Blog/Provider-Resources/Providers-Helping-Patients-Access-Mental-Health-Resources-an-Arms-Length-Away",
+  "privacy_notes": "App use and account requirements not reviewed; privacy policy not reviewed in this screening.",
+  "publisher": "Defense Health Agency (Psychological Health Center of Excellence)",
+  "reason": "Screened 2026-11-20: DHA article (November 6, 2026) confirmed live; Provider Resilience named among five free DHA mental health apps, with the 2017 burnout evaluation cited. Ready for owner review before any promotion.",
+  "regions": [
+   "United States; publisher is the US Defense Health Agency. Availability outside the US not stated on the reviewed page."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+   "no dedicated app page found; named only in article list and references",
+   "platforms not stated on the reviewed page",
+   "app languages not stated on the reviewed page",
+   "privacy policy not reviewed",
+   "accessibility not confirmed",
+   "individual features not evaluated"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://health.mil/Military-Health-Topics/Centers-of-Excellence/Psychological-Health-Center-of-Excellence/Clinicians-Corner-Blog/Provider-Resources/Providers-Helping-Patients-Access-Mental-Health-Resources-an-Arms-Length-Away"
+  ],
+  "status": "screened",
+  "tags": [
+   "burnout",
+   "providers",
+   "resilience",
+   "self-care",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use"
+  ]
+ },
+ {
+  "access": [
+   "free"
+  ],
+  "accessibility": [
+   "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+   "adaptation_status": "unknown",
+   "notes": "Publisher region and cultural adaptation not stated on the reviewed page. Verify fit for other cultural contexts before recommending.",
+   "source_notes": [
+    "https://health.mil/Military-Health-Topics/Centers-of-Excellence/Psychological-Health-Center-of-Excellence/Clinicians-Corner-Blog/Provider-Resources/Providers-Helping-Patients-Access-Mental-Health-Resources-an-Arms-Length-Away"
+   ]
+  },
+  "description": "Free mobile app for tracking moods and emotional experiences over time, listed by the Defense Health Agency (as 'Mood Tracker') among five free mental health apps whose content is supported by its Psychological Health Center of Excellence. The published evaluation (Bush et al., 2014) studied its utility among Army warrior transition unit service members. Individual features and current store availability were not described on the reviewed page.",
+  "evidence_notes": "Named in a November 6, 2026 Defense Health Agency article (as 'Mood Tracker') among five free mental health apps; the article cites Bush, Ouellette and Kinn (2014), 'Utility of the T2 Mood Tracker mobile application among army warrior transition unit service members,' Military Medicine, 179(12), 1453-1457. Individual features and outcomes were not evaluated in this screening.",
+  "id": "t2-mood-tracker",
+  "intended_population": [
+   "service-members",
+   "veterans"
+  ],
+  "last_verified_at": "2026-11-20",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "No dedicated app page was found on health.mil: the app is named only in the DHA article's collective list and its reference list, and it does not appear on the DHA mHealth hub page (health.mil/mhealth) reviewed this run, so features, platforms, languages, and current availability could not be confirmed from the reviewed page. Self-monitoring tool; does not replace professional care.",
+  "name": "T2 Mood Tracker",
+  "needs": [
+   "practice",
+   "understand"
+  ],
+  "official_url": "https://health.mil/Military-Health-Topics/Centers-of-Excellence/Psychological-Health-Center-of-Excellence/Clinicians-Corner-Blog/Provider-Resources/Providers-Helping-Patients-Access-Mental-Health-Resources-an-Arms-Length-Away",
+  "privacy_notes": "App use and account requirements not reviewed; privacy policy not reviewed in this screening.",
+  "publisher": "Defense Health Agency (Psychological Health Center of Excellence)",
+  "reason": "Screened 2026-11-20: DHA article (November 6, 2026) confirmed live; Mood Tracker (T2 Mood Tracker per the cited 2014 evaluation) named among five free DHA mental health apps. Ready for owner review before any promotion.",
+  "regions": [
+   "United States; publisher is the US Defense Health Agency. Availability outside the US not stated on the reviewed page."
+  ],
+  "required_before_verified": [
+   "official_url_checked",
+   "publisher_confirmed",
+   "purpose_and_population_confirmed",
+   "independent_use_scope_confirmed",
+   "limitations_recorded",
+   "date_checked_recorded",
+   "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+   "no dedicated app page found; named only in article list and references",
+   "not listed on the DHA mHealth hub page reviewed this run",
+   "platforms not stated on the reviewed page",
+   "app languages not stated on the reviewed page",
+   "privacy policy not reviewed",
+   "accessibility not confirmed",
+   "individual features not evaluated"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+   "https://health.mil/Military-Health-Topics/Centers-of-Excellence/Psychological-Health-Center-of-Excellence/Clinicians-Corner-Blog/Provider-Resources/Providers-Helping-Patients-Access-Mental-Health-Resources-an-Arms-Length-Away"
+  ],
+  "status": "screened",
+  "tags": [
+   "mood-tracking",
+   "self-monitoring",
+   "veterans",
+   "service-members",
+   "independent-use"
+  ],
+  "use_context": [
+   "independent-use",
+   "with-support"
+  ]
  }
 ]
