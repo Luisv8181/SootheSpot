@@ -39056,4 +39056,241 @@
   "with-support"
  ]
 }
+,
+{
+  "access": [
+    "Pricing not stated on the reviewed homepage"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "community-centered",
+    "notes": "Explicitly culturally relevant behavioral-health care for Black communities, grounded in culture, compassion, and equity per the publisher.",
+    "source_notes": [
+      "https://blackmentalhealth.com/"
+    ]
+  },
+  "description": "Nonprofit with a 42-year legacy expanding behavioral-health accessibility, neurodiversity support, and healing-centered programs for Black children, families, and communities. Links individuals and families to traditional therapy, holistic practices, and educational resources that nurture resilience and collective well-being. Baltimore-region focus with a national movement for behavioral-health equity.",
+  "evidence_notes": "Organization describes 42 years of culturally relevant behavioral-health work; individual program evaluations were not reviewed in this screening.",
+  "id": "black-mental-health-alliance",
+  "intended_population": [
+    "children",
+    "families",
+    "adults"
+  ],
+  "languages": [
+    "not stated on the reviewed page"
+  ],
+  "last_verified_at": "2026-11-20",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "Baltimore-region focus; national availability of specific programs not confirmed from the reviewed homepage. Program details, costs, and enrollment steps not reviewed. Does not replace professional mental-health care or crisis services.",
+  "name": "Black Mental Health Alliance",
+  "needs": [
+    "find-support",
+    "understand"
+  ],
+  "official_url": "https://blackmentalhealth.com/",
+  "platforms": [
+    "Web"
+  ],
+  "privacy_notes": "Website readable without an account per the reviewed homepage. Program enrollment and data handling were not reviewed in this screening.",
+  "publisher": "Black Mental Health Alliance for Education and Consultation, Inc.",
+  "reason": "Screened 2026-11-20: official blackmentalhealth.com confirmed live; 42-year legacy, culturally relevant behavioral-health mission for Black children, families, and communities, and Baltimore-region focus confirmed from the primary source (homepage). Ready for owner review before any promotion.",
+  "regions": [
+    "United States; Baltimore region focus, national movement per the homepage"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "community-program",
+  "review_status": "screened",
+  "screening_gaps": [
+    "specific programs and services not reviewed",
+    "costs and enrollment not confirmed",
+    "languages offered not stated",
+    "accessibility not confirmed"
+  ],
+  "shelf": "reach-out",
+  "source_notes": [
+    "https://blackmentalhealth.com/"
+  ],
+  "status": "screened",
+  "tags": [
+    "black-communities",
+    "culturally-relevant-care",
+    "community-program",
+    "healing-centered",
+    "neurodiversity",
+    "baltimore",
+    "equity"
+  ],
+  "use_context": [
+    "with-support"
+  ]
+},
+{
+  "access": [
+    "free",
+    "paid"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "No cultural-adaptation information stated on the reviewed homepage; approach presented as a universal one-minute technique. Fit for specific cultural contexts not assessed.",
+    "source_notes": [
+      "https://www.onemomentmeditation.com/"
+    ]
+  },
+  "description": "Teaches meditation condensed into one-minute moments for busy people, built around Martin Boroson's One-Moment Meditation method. Free app plus a book, a video, and a 1-minute-per-day workforce training. Homepage states 2 million people have added the basic minute to their day and reports publisher-run workforce-training outcomes (34% improvement on the Perceived Stress Scale; 81% agree they are calmer and more productive); study details were not reviewed. Aimed at stress, time pressure, productivity, and mindfulness.",
+  "evidence_notes": "Homepage reports publisher-run workforce-training outcomes (34% Perceived Stress Scale improvement; 81% agree calmer and more productive); underlying study design, sample, and independent evaluation were not reviewed in this screening.",
+  "id": "one-moment-meditation",
+  "intended_population": [
+    "adults"
+  ],
+  "languages": [
+    "not stated on the reviewed page"
+  ],
+  "last_verified_at": "2026-11-20",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "One-minute technique is an entry-level practice, not a substitute for professional mental-health care. Book, video, and workforce training appear to be paid offerings. Android availability not confirmed from the reviewed page. Outcome figures are publisher-reported.",
+  "name": "One Moment Meditation",
+  "needs": [
+    "calm",
+    "practice",
+    "stress"
+  ],
+  "official_url": "https://www.onemomentmeditation.com/",
+  "platforms": [
+    "Mobile app"
+  ],
+  "privacy_notes": "Website readable without an account per the reviewed homepage. App data handling was not reviewed in this screening.",
+  "publisher": "One-Moment Meditation",
+  "reason": "Screened 2026-11-20: official onemomentmeditation.com confirmed live; free app, one-minute meditation method, book/video/workforce-training offerings, and publisher-reported outcomes confirmed from the primary source (homepage). Ready for owner review before any promotion.",
+  "regions": [
+    "not stated on the reviewed page"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "mobile-app",
+  "review_status": "screened",
+  "screening_gaps": [
+    "Android availability not confirmed",
+    "workforce-training study details not reviewed",
+    "app privacy/data practices not reviewed",
+    "languages offered not stated",
+    "accessibility not confirmed"
+  ],
+  "shelf": "breathe",
+  "source_notes": [
+    "https://www.onemomentmeditation.com/"
+  ],
+  "status": "screened",
+  "tags": [
+    "meditation",
+    "mindfulness",
+    "one-minute",
+    "stress",
+    "productivity",
+    "free-app",
+    "beginners"
+  ],
+  "use_context": [
+    "independent-use"
+  ]
+},
+{
+  "access": [
+    "free"
+  ],
+  "accessibility": [
+    "Not listed on the reviewed primary source; verify assistive-technology compatibility before relying on it."
+  ],
+  "cultural_context": {
+    "adaptation_status": "unknown",
+    "notes": "Ancient Indian technique presented as a universal remedy, taught worldwide in many languages. Fit for specific cultural contexts not assessed; residential courses involve 10 days of intensive practice.",
+    "source_notes": [
+      "https://www.dhamma.org/"
+    ]
+  },
+  "description": "Vipassana meditation as taught in the S.N. Goenka tradition, described as one of India's most ancient meditation techniques. Taught at free 10-day residential courses with no charges, not even for food and accommodation; expenses are met by donations from past students. Courses are offered at centers worldwide (India, Asia/Pacific, North America, Latin America, Europe, Australia/New Zealand, Middle East, Africa), including in prisons and special courses for business executives and government officials. Introductory materials and Q&A are available online in multiple languages.",
+  "evidence_notes": "Homepage describes the technique and course format; independent evaluation studies were not reviewed in this screening.",
+  "id": "vipassana-meditation-dhamma-org",
+  "intended_population": [
+    "adults"
+  ],
+  "languages": [
+    "English",
+    "Multiple languages"
+  ],
+  "last_verified_at": "2026-11-20",
+  "license_notes": "External resource. SootheSpot stores metadata only.",
+  "limitations": "10-day residential courses require a substantial time commitment and in-person attendance; not a drop-in self-help tool. Intensive silent-retreat format may not suit everyone, including people in acute distress. Does not replace professional mental-health care.",
+  "name": "Vipassana Meditation",
+  "needs": [
+    "practice",
+    "understand",
+    "calm"
+  ],
+  "official_url": "https://www.dhamma.org/",
+  "platforms": [
+    "Web",
+    "In-person residential courses"
+  ],
+  "privacy_notes": "Website readable without an account per the reviewed homepage. Course application and data handling were not reviewed in this screening.",
+  "publisher": "Vipassana Meditation (dhamma.org)",
+  "reason": "Screened 2026-11-20: official dhamma.org confirmed live; free 10-day residential courses, worldwide centers, donation-funded model, and multilingual materials confirmed from the primary source (homepage). Ready for owner review before any promotion.",
+  "regions": [
+    "Global"
+  ],
+  "required_before_verified": [
+    "official_url_checked",
+    "publisher_confirmed",
+    "purpose_and_population_confirmed",
+    "independent_use_scope_confirmed",
+    "limitations_recorded",
+    "date_checked_recorded",
+    "primary_source_recorded"
+  ],
+  "resource_type": "community-program",
+  "review_status": "screened",
+  "screening_gaps": [
+    "operating organization not named on the reviewed homepage",
+    "course application and eligibility details not reviewed",
+    "evaluation studies not reviewed",
+    "accessibility not confirmed"
+  ],
+  "shelf": "practice",
+  "source_notes": [
+    "https://www.dhamma.org/"
+  ],
+  "status": "screened",
+  "tags": [
+    "vipassana",
+    "meditation",
+    "retreat",
+    "free",
+    "residential-course",
+    "mindfulness",
+    "goenka"
+  ],
+  "use_context": [
+    "with-support"
+  ]
+}
 ]
